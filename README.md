@@ -9,6 +9,7 @@
 ![Static Lists](https://img.shields.io/badge/Lists-Static-success)
 ![Maintainer](https://img.shields.io/badge/Maintainer-BlackRabbitZ-black)
 ![Python](https://img.shields.io/badge/Python-None-success)
+[![Update blocklists](https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/actions/workflows/update-lists.yml/badge.svg)](https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/actions/workflows/update-lists.yml)
 
 **Static, transparent DNS blocklists for Pi-hole and compatible DNS filtering solutions.**
 
@@ -42,10 +43,10 @@ https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/
 |---|:---:|---:|---|:---:|:---:|
 | 🟢 **Light** | Low | **128** | Basic ad blocking | [View](lists/combined/light.txt) | **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/light.txt)** |
 | 🔵 **Balanced ⭐** | Medium | **291** | Most users | [View](lists/combined/balanced.txt) | **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/balanced.txt)** |
-| 🟠 **Strict** | High | **420** | Privacy-focused setups | [View](lists/combined/strict.txt) | **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/strict.txt)** |
+| 🟠 **Strict** | High | **433** | Privacy-focused setups | [View](lists/combined/strict.txt) | **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/strict.txt)** |
 | 🛡️ **Security** | Security | **16** | Security-focused filtering | [View](lists/combined/security.txt) | **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/security.txt)** |
 | 👨‍👩‍👧 **Family** | Family | **307** | Family networks | [View](lists/combined/family.txt) | **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/family.txt)** |
-| 🔴 **Ultimate** | Maximum | **483** | Aggressive filtering | [View](lists/combined/ultimate.txt) | **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/ultimate.txt)** |
+| 🔴 **Ultimate** | Maximum | **496** | Aggressive filtering | [View](lists/combined/ultimate.txt) | **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/ultimate.txt)** |
 
 > **Balanced** is recommended for most installations.  
 > **Strict** and **Ultimate** may block telemetry-dependent features, Smart-TV functionality, app analytics or other non-essential services.
@@ -70,6 +71,8 @@ https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/
 | Mobile/App Tracking | — | — | ✅ | — | — | ✅ |
 | Smart-TV / IoT | — | — | ✅ | — | — | ✅ |
 | Cryptomining | — | — | — | ✅ | — | ✅ |
+| Malware / Phishing / Scam / Fake Shops | — | — | — | ✅ | — | ✅ |
+| Consent / CMP | — | — | — | — | — | ✅ |
 | Adult | — | — | — | — | ✅ | ✅ |
 | Gambling | — | — | — | — | ✅ | ✅ |
 | Breakage Risk | 🟢 Low | 🔵 Low–Medium | 🟠 Higher | 🟢 Low | 🟡 Medium | 🔴 Highest |
@@ -98,9 +101,9 @@ https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/
 | 🪟 **Windows Telemetry** | 31 | Windows diagnostics and telemetry endpoints | [View](lists/categories/windows-telemetry.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/windows-telemetry.txt) |
 | 🍎 **Apple Telemetry** | 11 | Apple telemetry and diagnostics | [View](lists/categories/apple-telemetry.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/apple-telemetry.txt) |
 | 🤖 **Android Telemetry** | 15 | Android/Firebase telemetry | [View](lists/categories/android-telemetry.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/android-telemetry.txt) |
-| 🐧 **Linux Telemetry** | TBD | Linux distribution telemetry, diagnostics and usage reporting | [View](lists/categories/linux-telemetry.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/linux-telemetry.txt) |
-| 💾 **NAS Telemetry** | TBD | NAS telemetry and usage reporting (Synology, QNAP, TrueNAS and others) | [View](lists/categories/nas-telemetry.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/nas-telemetry.txt) |
-| 🖥️ **Server Telemetry** | TBD | Server, hypervisor and server-management telemetry | [View](lists/categories/server-telemetry.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/server-telemetry.txt) |
+| 🐧 **Linux Telemetry** | 3 | Linux distribution telemetry, diagnostics and usage reporting | [View](lists/categories/linux-telemetry.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/linux-telemetry.txt) |
+| 💾 **NAS Telemetry** | 6 | NAS telemetry and usage reporting (Synology, TrueNAS and others) | [View](lists/categories/nas-telemetry.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/nas-telemetry.txt) |
+| 🖥️ **Server Telemetry** | 4 | Server, hypervisor and server-management telemetry | [View](lists/categories/server-telemetry.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/server-telemetry.txt) |
 | 📺 **Smart TV** | 39 | Smart-TV advertising, ACR and telemetry | [View](lists/categories/smart-tv.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/smart-tv.txt) |
 | 🏠 **IoT** | 15 | IoT telemetry endpoints | [View](lists/categories/iot.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/iot.txt) |
 
@@ -136,6 +139,11 @@ https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/
 ```text
 BlackRabbitZ-DNS-Blocklists/
 │
+├── .github/
+│   └── workflows/
+│       └── update-lists.yml
+├── scripts/
+│   └── update-lists.sh
 ├── README.md
 ├── LICENSE
 ├── NOTICE
@@ -177,8 +185,24 @@ BlackRabbitZ-DNS-Blocklists/
         └── gambling.txt
 ```
 
-There is **no Python, generator or installation script** in this repository.  
-Every published list is a normal static text file.
+Every published blocklist remains a normal **static text file** and can be consumed directly by Pi-hole or compatible DNS filters.
+Repository maintenance is automated with **Bash + GitHub Actions**; no Python or runtime dependency is required by users.
+
+---
+
+# 🔄 Automatic List Updates
+
+The repository automatically keeps generated data in sync. When a category file under `lists/categories/` changes on the `main` branch, the `Update blocklists` GitHub Action runs `scripts/update-lists.sh`.
+
+It automatically:
+
+- updates the `# Entries:` count inside category files
+- rebuilds all files under `lists/combined/` from their configured source categories
+- removes duplicate domains from combined profiles
+- updates all **Entries** values in this README
+- commits the generated changes back to `main` when something changed
+
+The profile definitions in `scripts/update-lists.sh` are the single source of truth for which categories are included in **Light**, **Balanced**, **Strict**, **Security**, **Family** and **Ultimate**.
 
 ---
 
@@ -205,13 +229,15 @@ For a new category, create a new static file:
 lists/categories/gaming-telemetry.txt
 ```
 
-For a new combined profile, create:
+After adding or removing domains, commit and push the category file. The GitHub Action recalculates the entry count and rebuilds every affected combined profile automatically.
+
+To include a **new category** in a combined profile, add its category name to the appropriate `build_combined` definition in:
 
 ```text
-lists/combined/gaming.txt
+scripts/update-lists.sh
 ```
 
-and add its View/Raw links to this README.
+For a completely new combined profile, add another `build_combined` definition and then add its View/Raw links to this README.
 
 ---
 

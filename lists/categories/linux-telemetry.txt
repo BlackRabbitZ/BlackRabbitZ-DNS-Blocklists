@@ -1,3 +1,10 @@
+# BlackRabbitZ DNS Blocklists
+# Category: linux-telemetry
+# Author: BlackRabbitZ
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; see LICENSE, NOTICE and ATTRIBUTION.md
+# Entries: 3
+#
 metrics.ubuntu.com
 popcon.debian.org
 popcon.ubuntu.com

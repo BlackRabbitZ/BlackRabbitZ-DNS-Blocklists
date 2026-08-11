@@ -3,9 +3,9 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only; see LICENSE, NOTICE and ATTRIBUTION.md
-# Entries: 420
+# Entries: 433
 #
-# Includes: ads, trackers, social-trackers, affiliate-tracking, telemetry, windows-telemetry, apple-telemetry, android-telemetry, mobile-tracking, native-tracking, smart-tv, iot
+# Includes: ads, trackers, social-trackers, affiliate-tracking, telemetry, windows-telemetry, apple-telemetry, android-telemetry, linux-telemetry, nas-telemetry, server-telemetry, mobile-tracking, native-tracking, smart-tv, iot
 #
 2mdn.net
 2o7.net
@@ -87,6 +87,7 @@ api.bugsnag.com
 api.fullstory.com
 api.heap.io
 api.honeycomb.io
+api.insight.synology.com
 api.logrocket.com
 api.mixpanel.com
 api.msn.com
@@ -175,6 +176,7 @@ demdex.net
 device-metrics-us-2.amazon.com
 device-metrics-us.amazon.com
 device-provisioning.googleapis.com
+device.cloud.hpe.com
 diagnostics.apple.com
 diagnostics.support.apple.com
 display.ravm.tv
@@ -185,6 +187,7 @@ ecs.nel.measure.office.net
 edge.activity.windows.com
 edge.fullstory.com
 emxdgt.com
+esrs3-core.emc.com
 events.ads.vungle.com
 events.appsflyer.com
 events.hotjar.io
@@ -227,6 +230,7 @@ in.hotjar.com
 incoming.telemetry.mozilla.org
 indexexchange.com
 info.lgsmartad.com
+infosight.hpe.com
 inmobi.com
 inmobi.net
 inner-active.mobi
@@ -261,8 +265,10 @@ medianet.com
 metrics.adobe.com
 metrics.apple.com
 metrics.icloud.com
+metrics.ubuntu.com
 metrics2.icloud.com
 mgid.com
+midway.ext.hpe.com
 mixpanel.com
 moatads.com
 mobile.launchdarkly.com
@@ -300,6 +306,8 @@ pixel.wp.com
 platform.linkedin.com
 plausible.io
 play.googleapis.com
+popcon.debian.org
+popcon.ubuntu.com
 pubads.g.doubleclick.net
 pubmatic.com
 px.ads.linkedin.com
@@ -339,6 +347,7 @@ segmentapi.com
 self.events.data.microsoft.com
 sentry.discord.com
 sentry.io
+sentry.ixsystems.com
 serving-sys.com
 sessions.bugsnag.com
 settings-win.data.microsoft.com
@@ -370,6 +379,8 @@ staticxx.facebook.com
 stats.g.doubleclick.net
 stats.wp.com
 stickyadstv.com
+subscribe.insight.synology.com
+supapi.synology.com
 supersonicads.com
 t.co
 taboola.com
@@ -382,6 +393,7 @@ teams.events.data.microsoft.com
 telecommand.telemetry.microsoft.com
 telemetry-incoming.r53-2.services.mozilla.com
 telemetry.mozilla.org
+telemetry.sys.truenas.net
 tenjin.com
 tpc.googlesyndication.com
 tr.snapchat.com
@@ -399,6 +411,7 @@ undertonevideo.com
 unityads.unity3d.com
 us.ad.lgsmartad.com
 us.info.lgsmartad.com
+usage.truenas.com
 v10.events.data.microsoft.com
 vars.hotjar.com
 vdterms.samsungcloudsolution.com
