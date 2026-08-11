@@ -46,11 +46,23 @@ https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/
 | 🟠 **Strict** | High | **371769** | Privacy-focused setups | [View](lists/combined/strict.txt) | **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/strict.txt)** |
 | 🛡️ **Security** | Security | **3408852** | Security-focused filtering | [View](lists/combined/security.txt) | **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/security.txt)** |
 | 👨‍👩‍👧 **Family** | Family | **1788212** | Family networks | [View](lists/combined/family.txt) | **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/family.txt)** |
-| 🔴 **Ultimate** | Maximum | **5119323** | Aggressive filtering | [View](lists/combined/ultimate.txt) | **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/ultimate.txt)** |
+| 🔴 **Ultimate** | Maximum | **5119323** | Aggressive filtering | [Parts](#-ultimate-parts) | **[Raw Parts](#-ultimate-parts)** |
 
 > **Balanced** is recommended for most installations.  
 > **Strict** and **Ultimate** may block telemetry-dependent features, Smart-TV functionality, app analytics or other cloud-backed services.  
 > **Security**, **Family** and especially **Ultimate** are now large merged profiles; review false positives before deploying them to critical networks.
+
+## 🔴 Ultimate Parts
+
+**Ultimate contains 5119323 unique domains and is split automatically into 3 files.** For complete Ultimate protection, add **every Raw URL** below to Pi-hole / your DNS blocker. The updater creates or removes parts automatically as the profile grows or shrinks.
+
+<!-- ULTIMATE_PARTS_START -->
+| Part | Entries | Size | View | Raw |
+|---:|---:|---:|:---:|:---:|
+| **1** | **2090376** | 40.0 MiB | [View](lists/combined/ultimate-1.txt) | **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/ultimate-1.txt)** |
+| **2** | **2125741** | 40.0 MiB | [View](lists/combined/ultimate-2.txt) | **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/ultimate-2.txt)** |
+| **3** | **903206** | 17.9 MiB | [View](lists/combined/ultimate-3.txt) | **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/ultimate-3.txt)** |
+<!-- ULTIMATE_PARTS_END -->
 
 ---
 
@@ -166,6 +178,8 @@ BlackRabbitZ-DNS-Blocklists/
 │   └── AUTOMATIC_UPDATES.md
 ├── scripts/
 │   ├── update-lists.sh
+│   ├── split-ultimate.py
+│   ├── update-ultimate-readme.py
 │   ├── update-upstreams.py
 │   └── upstream-sources.json
 ├── README.md
@@ -181,7 +195,10 @@ BlackRabbitZ-DNS-Blocklists/
     │   ├── strict.txt
     │   ├── security.txt
     │   ├── family.txt
-    │   └── ultimate.txt
+    │   ├── ultimate-1.txt
+    │   ├── ultimate-2.txt
+    │   ├── ultimate-3.txt
+    │   └── ... ultimate-N.txt
     │
     └── categories/
         ├── ads.txt

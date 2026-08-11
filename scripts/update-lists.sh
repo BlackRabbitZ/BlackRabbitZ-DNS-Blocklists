@@ -139,12 +139,44 @@ build_combined security \
 build_combined family \
   ads trackers social-trackers adult gambling
 
-build_combined ultimate \
-  ads trackers telemetry windows-telemetry apple-telemetry android-telemetry \
-  linux-telemetry nas-telemetry server-telemetry \
-  smart-tv iot mobile-tracking social-trackers native-tracking \
-  phishing malware scam cryptomining fake-shops adult gambling \
-  consent-cmp affiliate-tracking
+build_ultimate_split() {
+  local categories=(
+    ads trackers telemetry windows-telemetry apple-telemetry android-telemetry
+    linux-telemetry nas-telemetry server-telemetry
+    smart-tv iot mobile-tracking social-trackers native-tracking
+    phishing malware scam cryptomining fake-shops adult gambling
+    consent-cmp affiliate-tracking
+  )
+  local tmp_domains
+  tmp_domains="$(mktemp)"
+
+  : > "$tmp_domains"
+  for category in "${categories[@]}"; do
+    local src="lists/categories/${category}.txt"
+    if [[ ! -f "$src" ]]; then
+      echo "Missing category file: $src" >&2
+      rm -f "$tmp_domains"
+      exit 1
+    fi
+    { grep -Ev '^[[:space:]]*(#|$)' "$src" || true; } | sed 's/\r$//' >> "$tmp_domains"
+  done
+
+  sort -u "$tmp_domains" -o "$tmp_domains"
+  local includes
+  includes="$(printf '%s, ' "${categories[@]}")"
+  includes="${includes%, }"
+
+  python3 ./scripts/split-ultimate.py \
+    "$tmp_domains" \
+    --output-dir lists/combined \
+    --max-bytes $((40 * 1024 * 1024)) \
+    --repo-url "$REPO_URL" \
+    --includes "$includes"
+
+  rm -f "$tmp_domains"
+}
+
+build_ultimate_split
 
 check_github_file_sizes() {
   local warn_bytes=$((50 * 1024 * 1024))
@@ -210,4 +242,8 @@ for file in lists/combined/*.txt; do
   update_readme_count "$file" "**$count**"
 done
 
-echo "Blocklists, combined profiles and README entry counts are synchronized."
+# Ultimate is intentionally split into multiple size-bounded files. Keep the
+# aggregate count and the per-part View/Raw links synchronized in README.md.
+python3 ./scripts/update-ultimate-readme.py
+
+echo "Blocklists, combined profiles, split Ultimate parts and README entry counts are synchronized."

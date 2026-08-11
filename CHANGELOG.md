@@ -1,5 +1,13 @@
 # Changelog
 
+## 2.1.1 - 2026-08-12
+
+- Replaced the single large `lists/combined/ultimate.txt` with automatically generated `ultimate-N.txt` parts.
+- Added `scripts/split-ultimate.py` with a 40 MiB target ceiling per Ultimate part.
+- Added automatic README generation for Ultimate part counts, sizes, View links and Raw links.
+- Updated the blocklist workflow so changes to the split-generator scripts trigger a rebuild.
+- Old/stale Ultimate part files are removed automatically before every regeneration.
+
 ## 2.1.0 - 2026-08-12
 
 - Added a daily upstream-refresh GitHub Actions workflow.

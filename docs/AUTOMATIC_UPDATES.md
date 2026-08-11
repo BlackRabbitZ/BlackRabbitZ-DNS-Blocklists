@@ -66,3 +66,20 @@ An allowlisted domain and its subdomains are excluded from **new automatic impor
 ## GitHub repository setting
 
 The workflows need permission to push their generated changes. In GitHub, ensure the repository's Actions workflow permissions allow write access to repository contents. Branch protection rules must also permit the workflow/bot to update `main`, or the automatic commit will fail.
+
+## Split Ultimate profile
+
+The `Ultimate` profile is generated as multiple size-bounded files instead of one very large `ultimate.txt`.
+
+- `scripts/update-lists.sh` merges and deduplicates the Ultimate categories.
+- `scripts/split-ultimate.py` writes `lists/combined/ultimate-1.txt`, `ultimate-2.txt`, and additional numbered parts as needed.
+- Each part targets a maximum size of **40 MiB**.
+- Old numbered parts are removed automatically before regeneration.
+- `scripts/update-ultimate-readme.py` updates the aggregate Ultimate entry count and rebuilds the README table of Part/View/Raw links.
+- For complete Ultimate coverage, DNS blockers must subscribe to **all** numbered Ultimate Raw URLs shown in the README.
+
+This avoids a single Ultimate file approaching GitHub's normal per-file hard limit while keeping the split deterministic and fully automatic.
+
+## Android first-import guard
+
+`android-telemetry` intentionally permits a larger first-run growth than the global default because the configured HaGeZi Huawei/Xiaomi/Oppo-Realme/Vivo native-tracking sources can add more than 1,000 valid domains at once. The category is capped at 5,000 new domains per run and still remains protected by the growth guard.

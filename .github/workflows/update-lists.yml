@@ -8,6 +8,8 @@ on:
       - 'lists/categories/**'
       - 'README.md'
       - 'scripts/update-lists.sh'
+      - 'scripts/split-ultimate.py'
+      - 'scripts/update-ultimate-readme.py'
       - '.github/workflows/update-lists.yml'
   workflow_dispatch:
 
