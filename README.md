@@ -7,8 +7,6 @@
 
 Independent, transparent and extensible DNS blocklists maintained by **BlackRabbitZ** for Pi-hole and other DNS filtering systems.
 
-> **Independent project:** This repository is not a fork, mirror, copy, transformed dataset or rebrand of HaGeZi or another third-party blocklist.
-
 ## 🚀 Blocklists
 
 **Recommended for most users: `Balanced`**

@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.1.1 - 2026-08-11
+
+- Removed the visible third-party comparison notice from the README introduction.
+
 ## 1.1.0 - 2026-08-11
 
 - Added clickable Raw URLs for every published list to README.
