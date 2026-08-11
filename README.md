@@ -1,148 +1,254 @@
+<div align="center">
+
 # 🐇 BlackRabbitZ DNS Blocklists
 
-![License](https://img.shields.io/badge/license-GPL--3.0--only-blue)
-![Pi-hole](https://img.shields.io/badge/Pi--hole-compatible-green)
-![Static](https://img.shields.io/badge/lists-static-success)
-![Python](https://img.shields.io/badge/python-none-success)
+### Privacy • Security • Ads • Trackers • Telemetry
 
-**Privacy • Ads • Trackers • Telemetry • Devices • Security**
+[![License: GPL-3.0-only](https://img.shields.io/badge/License-GPL--3.0--only-blue.svg)](LICENSE)
+![Pi-hole](https://img.shields.io/badge/Pi--hole-Compatible-brightgreen)
+![Static Lists](https://img.shields.io/badge/Lists-Static-success)
+![Maintainer](https://img.shields.io/badge/Maintainer-BlackRabbitZ-black)
+![Python](https://img.shields.io/badge/Python-None-success)
 
-Curated static DNS blocklists maintained by **BlackRabbitZ** for Pi-hole and other DNS filtering systems.
+**Static, transparent DNS blocklists for Pi-hole and compatible DNS filtering solutions.**
+
+</div>
 
 ---
 
-## 🚀 Recommended combined lists
+## ⚡ Quick Start
 
-| List | Protection | Entries | View | Raw |
-|---|---:|---:|---|---|
-| 🟢 **Light** | Ads | **128** | [View](lists/combined/light.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/light.txt) |
-| 🔵 **Balanced ⭐** | Ads + Tracking | **291** | [View](lists/combined/balanced.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/balanced.txt) |
-| 🟠 **Strict** | Privacy + Device Telemetry | **420** | [View](lists/combined/strict.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/strict.txt) |
-| 🛡️ **Security** | Security-focused | **16** | [View](lists/combined/security.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/security.txt) |
-| 👨‍👩‍👧 **Family** | Ads + Tracking + Adult/Gambling | **307** | [View](lists/combined/family.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/family.txt) |
-| 🔴 **Ultimate** | Everything in this repository | **483** | [View](lists/combined/ultimate.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/ultimate.txt) |
+### ⭐ Recommended: Balanced
 
-> **Balanced** is the recommended starting point. **Strict** and **Ultimate** deliberately have a higher risk of breaking telemetry-dependent/device features.
-
-### Copy-ready Pi-hole URL
+For most users, **Balanced** is the best starting point.
 
 ```text
 https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/balanced.txt
 ```
 
----
+**Pi-hole**
 
-## 📢 Ads & Tracking
-
-| Category | Entries | View | Raw |
-|---|---:|---|---|
-| 📣 Advertising | 128 | [View](lists/categories/ads.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/ads.txt) |
-| 👁️ Trackers / Analytics | 136 | [View](lists/categories/trackers.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/trackers.txt) |
-| 👥 Social Trackers | 35 | [View](lists/categories/social-trackers.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/social-trackers.txt) |
-| 📲 Mobile Tracking | 56 | [View](lists/categories/mobile-tracking.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/mobile-tracking.txt) |
-| 🧩 Native/App Tracking | 22 | [View](lists/categories/native-tracking.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/native-tracking.txt) |
-| 🔗 Affiliate Tracking | 18 | [View](lists/categories/affiliate-tracking.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/affiliate-tracking.txt) |
-| 🍪 Consent/CMP | 15 | [View](lists/categories/consent-cmp.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/consent-cmp.txt) |
-
----
-
-## 📡 Telemetry & Devices
-
-| Category | Entries | View | Raw |
-|---|---:|---|---|
-| 📊 General Telemetry | 40 | [View](lists/categories/telemetry.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/telemetry.txt) |
-| 🪟 Windows Telemetry | 31 | [View](lists/categories/windows-telemetry.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/windows-telemetry.txt) |
-| 🍎 Apple Telemetry | 11 | [View](lists/categories/apple-telemetry.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/apple-telemetry.txt) |
-| 🤖 Android Telemetry | 15 | [View](lists/categories/android-telemetry.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/android-telemetry.txt) |
-| 📺 Smart TV | 39 | [View](lists/categories/smart-tv.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/smart-tv.txt) |
-| 🏠 IoT | 15 | [View](lists/categories/iot.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/iot.txt) |
-
----
-
-## 🛡️ Security
-
-| Category | Entries | View | Raw |
-|---|---:|---|---|
-| 🦠 Malware | 0 | [View](lists/categories/malware.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/malware.txt) |
-| 🎣 Phishing | 0 | [View](lists/categories/phishing.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/phishing.txt) |
-| 💰 Scam | 0 | [View](lists/categories/scam.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/scam.txt) |
-| 🛒 Fake Shops | 0 | [View](lists/categories/fake-shops.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/fake-shops.txt) |
-| ⛏️ Cryptomining | 16 | [View](lists/categories/cryptomining.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/cryptomining.txt) |
-
-> The live-threat categories are intentionally conservative in this static repository. Malware/phishing intelligence becomes stale quickly; entries should only be added when they can be verified and maintained. The project does not inflate counts with copied threat feeds.
-
----
-
-## 👨‍👩‍👧 Family categories
-
-| Category | Entries | View | Raw |
-|---|---:|---|---|
-| 🔞 Adult | 16 | [View](lists/categories/adult.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/adult.txt) |
-| 🎰 Gambling | 16 | [View](lists/categories/gambling.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/gambling.txt) |
-
----
-
-## ⚡ Pi-hole quick start
-
-1. Choose a list above.
-2. Click **Raw**.
-3. Copy the URL from the browser.
-4. Add the URL to Pi-hole under **Lists / Adlists**.
+1. Open the Pi-hole web interface.
+2. Go to **Lists / Adlists**.
+3. Add the Raw URL above.
+4. Save.
 5. Update Gravity.
 
-For most users, start with:
+---
 
-```text
-https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/balanced.txt
-```
+# 🚀 Protection Profiles
+
+| Profile | Protection | Entries | Recommended for | View | Raw |
+|---|:---:|---:|---|:---:|:---:|
+| 🟢 **Light** | Low | **128** | Basic ad blocking | [View](lists/combined/light.txt) | **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/light.txt)** |
+| 🔵 **Balanced ⭐** | Medium | **291** | Most users | [View](lists/combined/balanced.txt) | **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/balanced.txt)** |
+| 🟠 **Strict** | High | **420** | Privacy-focused setups | [View](lists/combined/strict.txt) | **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/strict.txt)** |
+| 🛡️ **Security** | Security | **16** | Security-focused filtering | [View](lists/combined/security.txt) | **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/security.txt)** |
+| 👨‍👩‍👧 **Family** | Family | **307** | Family networks | [View](lists/combined/family.txt) | **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/family.txt)** |
+| 🔴 **Ultimate** | Maximum | **483** | Aggressive filtering | [View](lists/combined/ultimate.txt) | **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/ultimate.txt)** |
+
+> **Balanced** is recommended for most installations.  
+> **Strict** and **Ultimate** may block telemetry-dependent features, Smart-TV functionality, app analytics or other non-essential services.
 
 ---
 
-## ➕ Extending the repository
+# 🎚️ Protection Comparison
 
-There is no generator and no Python.
+| Feature | Light | Balanced ⭐ | Strict | Security | Family | Ultimate |
+|---|:---:|:---:|:---:|:---:|:---:|:---:|
+| Advertising | ✅ | ✅ | ✅ | — | ✅ | ✅ |
+| General Trackers | — | ✅ | ✅ | — | ✅ | ✅ |
+| Social Tracking | — | ✅ | ✅ | — | ✅ | ✅ |
+| Affiliate Tracking | — | ✅ | ✅ | — | — | ✅ |
+| General Telemetry | — | — | ✅ | — | — | ✅ |
+| Windows Telemetry | — | — | ✅ | — | — | ✅ |
+| Apple Telemetry | — | — | ✅ | — | — | ✅ |
+| Android Telemetry | — | — | ✅ | — | — | ✅ |
+| Mobile/App Tracking | — | — | ✅ | — | — | ✅ |
+| Smart-TV / IoT | — | — | ✅ | — | — | ✅ |
+| Cryptomining | — | — | — | ✅ | — | ✅ |
+| Adult | — | — | — | — | ✅ | ✅ |
+| Gambling | — | — | — | — | ✅ | ✅ |
+| Breakage Risk | 🟢 Low | 🔵 Low–Medium | 🟠 Higher | 🟢 Low | 🟡 Medium | 🔴 Highest |
 
-To expand a category, edit the matching `.txt` file and add one domain per line.
+---
 
-To add a new category:
+# 📢 Ads & Tracking
+
+| List | Entries | Description | View | Raw |
+|---|---:|---|:---:|:---:|
+| 📣 **Ads** | 128 | Advertising and ad delivery endpoints | [View](lists/categories/ads.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/ads.txt) |
+| 👁️ **Trackers** | 136 | Analytics and tracking infrastructure | [View](lists/categories/trackers.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/trackers.txt) |
+| 👥 **Social Trackers** | 35 | Social-network tracking endpoints | [View](lists/categories/social-trackers.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/social-trackers.txt) |
+| 📲 **Mobile Tracking** | 56 | Mobile attribution and analytics | [View](lists/categories/mobile-tracking.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/mobile-tracking.txt) |
+| 🧩 **Native/App Tracking** | 22 | SDK and application telemetry/tracking | [View](lists/categories/native-tracking.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/native-tracking.txt) |
+| 🔗 **Affiliate Tracking** | 18 | Affiliate and conversion tracking | [View](lists/categories/affiliate-tracking.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/affiliate-tracking.txt) |
+| 🍪 **Consent / CMP** | 15 | Consent-management platforms | [View](lists/categories/consent-cmp.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/consent-cmp.txt) |
+
+---
+
+# 📡 Telemetry & Devices
+
+| List | Entries | Description | View | Raw |
+|---|---:|---|:---:|:---:|
+| 📊 **General Telemetry** | 40 | Generic product/app telemetry | [View](lists/categories/telemetry.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/telemetry.txt) |
+| 🪟 **Windows Telemetry** | 31 | Windows diagnostics and telemetry endpoints | [View](lists/categories/windows-telemetry.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/windows-telemetry.txt) |
+| 🍎 **Apple Telemetry** | 11 | Apple telemetry and diagnostics | [View](lists/categories/apple-telemetry.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/apple-telemetry.txt) |
+| 🤖 **Android Telemetry** | 15 | Android/Firebase telemetry | [View](lists/categories/android-telemetry.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/android-telemetry.txt) |
+| 📺 **Smart TV** | 39 | Smart-TV advertising, ACR and telemetry | [View](lists/categories/smart-tv.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/smart-tv.txt) |
+| 🏠 **IoT** | 15 | IoT telemetry endpoints | [View](lists/categories/iot.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/iot.txt) |
+
+> Device-specific lists may disable recommendations, diagnostics, usage reporting, ACR, advertising or other cloud-backed features.
+
+---
+
+# 🛡️ Security Lists
+
+| List | Entries | Description | View | Raw |
+|---|---:|---|:---:|:---:|
+| 🦠 **Malware** | 0 | Verified malicious infrastructure | [View](lists/categories/malware.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/malware.txt) |
+| 🎣 **Phishing** | 0 | Verified phishing infrastructure | [View](lists/categories/phishing.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/phishing.txt) |
+| 💰 **Scam** | 0 | Fraud and scam infrastructure | [View](lists/categories/scam.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/scam.txt) |
+| 🛒 **Fake Shops** | 0 | Verified fraudulent storefronts | [View](lists/categories/fake-shops.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/fake-shops.txt) |
+| ⛏️ **Cryptomining** | 16 | Browser/remote mining infrastructure | [View](lists/categories/cryptomining.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/cryptomining.txt) |
+
+> Live threat intelligence becomes stale quickly. Security categories are intentionally conservative instead of being inflated with unverified or copied feeds.
+
+---
+
+# 👨‍👩‍👧 Family Lists
+
+| List | Entries | View | Raw |
+|---|---:|:---:|:---:|
+| 🔞 **Adult** | 16 | [View](lists/categories/adult.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/adult.txt) |
+| 🎰 **Gambling** | 16 | [View](lists/categories/gambling.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/gambling.txt) |
+
+---
+
+# 📂 Repository Structure
+
+```text
+BlackRabbitZ-DNS-Blocklists/
+│
+├── README.md
+├── LICENSE
+├── NOTICE
+├── ATTRIBUTION.md
+├── THIRD_PARTY.md
+│
+└── lists/
+    ├── combined/
+    │   ├── light.txt
+    │   ├── balanced.txt
+    │   ├── strict.txt
+    │   ├── security.txt
+    │   ├── family.txt
+    │   └── ultimate.txt
+    │
+    └── categories/
+        ├── ads.txt
+        ├── trackers.txt
+        ├── telemetry.txt
+        ├── social-trackers.txt
+        ├── mobile-tracking.txt
+        ├── native-tracking.txt
+        ├── affiliate-tracking.txt
+        ├── consent-cmp.txt
+        ├── windows-telemetry.txt
+        ├── apple-telemetry.txt
+        ├── android-telemetry.txt
+        ├── smart-tv.txt
+        ├── iot.txt
+        ├── cryptomining.txt
+        ├── malware.txt
+        ├── phishing.txt
+        ├── scam.txt
+        ├── fake-shops.txt
+        ├── adult.txt
+        └── gambling.txt
+```
+
+There is **no Python, generator or installation script** in this repository.  
+Every published list is a normal static text file.
+
+---
+
+# ➕ Extending the Lists
+
+Adding more domains is intentionally simple.
+
+Open the category you want to extend:
+
+```text
+lists/categories/ads.txt
+```
+
+Add one domain per line:
+
+```text
+ads.example.net
+tracker.example.net
+```
+
+For a new category, create a new static file:
 
 ```text
 lists/categories/gaming-telemetry.txt
 ```
 
-To add a new finished combined list:
+For a new combined profile, create:
 
 ```text
 lists/combined/gaming.txt
 ```
 
-Then add a View/Raw row to this README.
+and add its View/Raw links to this README.
 
 ---
 
-## ⚠️ False positives
+# ⚠️ False Positives
 
-DNS blocking can break logins, telemetry-backed features, recommendations, ads-supported video, Smart-TV functions and mobile apps.
+Blocking more domains does not automatically mean better protection.
 
-If a domain causes breakage, report it through GitHub Issues with:
-- the affected domain,
-- which list blocks it,
-- what stops working,
-- device/application,
-- reproduction steps.
+If a list breaks a website, application or device, open an issue and include:
+
+- affected domain
+- affected list
+- application/device
+- what stops working
+- reproduction steps
+
+The goal is a useful blocklist, not the largest possible number.
 
 ---
 
-## ⚖️ License
+# 📜 License & Attribution
 
-GPL-3.0-only.
+This repository is licensed under **GNU GPL v3 (`GPL-3.0-only`)**.
 
-Copyright (C) 2026 **BlackRabbitZ**.
-
-See `LICENSE`, `NOTICE`, `ATTRIBUTION.md` and `THIRD_PARTY.md`.
+**Copyright © 2026 BlackRabbitZ**
 
 Original repository:
 
 ```text
 https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 ```
+
+See:
+
+- [`LICENSE`](LICENSE)
+- [`NOTICE`](NOTICE)
+- [`ATTRIBUTION.md`](ATTRIBUTION.md)
+- [`THIRD_PARTY.md`](THIRD_PARTY.md)
+
+---
+
+<div align="center">
+
+### 🐇 BlackRabbitZ DNS Blocklists
+
+**Privacy. Security. Control.**
+
+⭐ If this project is useful to you, consider starring the repository.
+
+</div>
