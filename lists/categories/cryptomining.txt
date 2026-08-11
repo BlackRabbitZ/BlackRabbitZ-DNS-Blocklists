@@ -1,0 +1,2 @@
+# BlackRabbitZ DNS Blocklists - Cryptomining
+# Add independently verified browser-mining domains here.

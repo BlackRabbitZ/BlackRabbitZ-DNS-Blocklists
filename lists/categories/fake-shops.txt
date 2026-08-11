@@ -1,0 +1,2 @@
+# BlackRabbitZ DNS Blocklists - Fake Shops
+# Add independently verified fake-shop domains here.

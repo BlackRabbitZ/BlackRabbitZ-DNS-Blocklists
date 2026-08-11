@@ -1,0 +1,2 @@
+# BlackRabbitZ DNS Blocklists - Smart TV
+# Add independently verified Smart TV telemetry/tracking domains here.

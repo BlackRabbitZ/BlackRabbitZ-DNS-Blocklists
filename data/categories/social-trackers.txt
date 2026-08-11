@@ -1,2 +1,0 @@
-# social-trackers
-# Add independently verified domains below, one domain per line.

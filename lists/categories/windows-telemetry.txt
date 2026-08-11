@@ -1,0 +1,4 @@
+# BlackRabbitZ DNS Blocklists - Windows Telemetry
+settings-win.data.microsoft.com
+vortex.data.microsoft.com
+watson.telemetry.microsoft.com

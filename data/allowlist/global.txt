@@ -1,6 +1,0 @@
-accounts.google.com
-github.com
-githubusercontent.com
-login.microsoftonline.com
-microsoft.com
-youtube.com

@@ -1,0 +1,3 @@
+# BlackRabbitZ DNS Blocklists - Security
+# This list is intentionally conservative and currently empty.
+# Add only independently verified, current malicious domains.

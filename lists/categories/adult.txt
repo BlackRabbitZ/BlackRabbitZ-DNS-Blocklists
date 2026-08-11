@@ -1,0 +1,2 @@
+# BlackRabbitZ DNS Blocklists - Adult
+# Optional family filtering list. Add independently verified domains here.

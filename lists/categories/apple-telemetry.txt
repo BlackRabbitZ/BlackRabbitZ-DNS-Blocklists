@@ -1,0 +1,2 @@
+# BlackRabbitZ DNS Blocklists - Apple Telemetry
+metrics.icloud.com

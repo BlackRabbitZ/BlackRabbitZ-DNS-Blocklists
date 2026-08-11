@@ -1,2 +1,0 @@
-# fake-shops
-# Add independently verified domains below, one domain per line.

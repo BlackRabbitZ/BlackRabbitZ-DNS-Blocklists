@@ -1,0 +1,13 @@
+# BlackRabbitZ DNS Blocklists - Trackers
+# One domain per line
+analytics.google.com
+app-measurement.com
+bat.bing.com
+clarity.ms
+connect.facebook.net
+google-analytics.com
+pixel.facebook.com
+region1.google-analytics.com
+smetrics.adobe.com
+stats.g.doubleclick.net
+www.google-analytics.com

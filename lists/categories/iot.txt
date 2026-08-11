@@ -1,0 +1,2 @@
+# BlackRabbitZ DNS Blocklists - IoT Devices
+# Add independently verified IoT telemetry/tracking domains here.

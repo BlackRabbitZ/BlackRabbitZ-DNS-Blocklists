@@ -1,0 +1,2 @@
+# BlackRabbitZ DNS Blocklists - Phishing
+# Intentionally empty until independently verified, current malicious domains are added.

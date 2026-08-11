@@ -1,0 +1,13 @@
+# BlackRabbitZ DNS Blocklists - Light
+2mdn.net
+adnxs.com
+adsrvr.org
+adservice.google.com
+adservice.google.de
+adservice.googleadservices.com
+amazon-adsystem.com
+doubleclick.net
+googleadservices.com
+googlesyndication.com
+pagead2.googlesyndication.com
+securepubads.g.doubleclick.net

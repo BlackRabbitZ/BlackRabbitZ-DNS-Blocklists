@@ -1,0 +1,7 @@
+# BlackRabbitZ DNS Blocklists - Telemetry
+# One domain per line
+browser.pipe.aria.microsoft.com
+metrics.icloud.com
+settings-win.data.microsoft.com
+vortex.data.microsoft.com
+watson.telemetry.microsoft.com

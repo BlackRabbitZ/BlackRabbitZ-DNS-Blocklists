@@ -1,0 +1,2 @@
+# BlackRabbitZ DNS Blocklists - Android Telemetry
+# Add independently verified Android telemetry domains here.

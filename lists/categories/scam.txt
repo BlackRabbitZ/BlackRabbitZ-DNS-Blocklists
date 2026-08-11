@@ -1,0 +1,2 @@
+# BlackRabbitZ DNS Blocklists - Scam / Fraud
+# Add independently verified scam/fraud domains here.

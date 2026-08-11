@@ -1,0 +1,25 @@
+# BlackRabbitZ DNS Blocklists - Family
+# Base privacy entries. Add adult/gambling entries to their individual category lists and maintain this combined list accordingly.
+2mdn.net
+adnxs.com
+adsrvr.org
+adservice.google.com
+adservice.google.de
+adservice.googleadservices.com
+amazon-adsystem.com
+analytics.google.com
+app-measurement.com
+bat.bing.com
+clarity.ms
+connect.facebook.net
+doubleclick.net
+google-analytics.com
+googleadservices.com
+googlesyndication.com
+pagead2.googlesyndication.com
+pixel.facebook.com
+region1.google-analytics.com
+securepubads.g.doubleclick.net
+smetrics.adobe.com
+stats.g.doubleclick.net
+www.google-analytics.com

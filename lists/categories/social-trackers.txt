@@ -1,0 +1,3 @@
+# BlackRabbitZ DNS Blocklists - Social Trackers
+connect.facebook.net
+pixel.facebook.com
