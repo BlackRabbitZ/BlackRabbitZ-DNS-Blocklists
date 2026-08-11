@@ -2,8 +2,11 @@
 # Category: windows-telemetry
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
-# License: GPL-3.0-only; see LICENSE, NOTICE and ATTRIBUTION.md
-# Entries: 31
+# License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
+# Entries: 51
+# Description: Windows diagnostics, Connected User Experiences and telemetry endpoints.
+# Sources: NextDNS Native Tracking Protection
+# Snapshot: 2026-08
 #
 activity.windows.com
 api.msn.com
@@ -13,26 +16,46 @@ assets.msn.com
 browser.events.data.msn.com
 browser.pipe.aria.microsoft.com
 c.msn.com
+cache.datamart.windows.com
+choice.microsoft.com
+corp.sts.microsoft.com
+diagnostics.support.microsoft.com
 dmd.metaservices.microsoft.com
 ecs.nel.measure.office.net
 edge.activity.windows.com
 fd.api.iris.microsoft.com
+feedback.search.microsoft.com
+feedback.windows.com
 functional.events.data.microsoft.com
+i1.services.social.microsoft.com
 manage.devcenter.microsoft.com
 oca.telemetry.microsoft.com
 ocws.officeapps.live.com
 odc.officeapps.live.com
+onecollector.cloudapp.aria.akadns.net
+prod.nexusrules.live.com.akadns.net
+redir.metaservices.microsoft.com
 ris.api.iris.microsoft.com
 self.events.data.microsoft.com
+settings-sandbox.data.microsoft.com
 settings-win.data.microsoft.com
 settings.data.microsoft.com
+spynet2.microsoft.com
+spynetalt.microsoft.com
 sqm.telemetry.microsoft.com
 srtb.msn.com
 teams.events.data.microsoft.com
 telecommand.telemetry.microsoft.com
+telemetry.appex.bing.net
+telemetry.microsoft.com
+telemetry.urs.microsoft.com
 v10.events.data.microsoft.com
+vortex-sandbox.data.microsoft.com
 vortex-win.data.microsoft.com
 vortex.data.microsoft.com
+vortex.data.microsoft.com.akadns.net
 watson.events.data.microsoft.com
+watson.live.com
+watson.microsoft.com
 watson.telemetry.microsoft.com
 www.telecommandsvc.microsoft.com

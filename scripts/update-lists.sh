@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+# Deterministic and substantially faster sorting for multi-million-entry lists.
+export LC_ALL=C
+
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 cd "$ROOT_DIR"
 
@@ -57,7 +60,7 @@ write_category_header_if_missing() {
     echo "# Category: $category"
     echo "# Author: BlackRabbitZ"
     echo "# Repository: $REPO_URL"
-    echo "# License: GPL-3.0-only; see LICENSE, NOTICE and ATTRIBUTION.md"
+    echo "# License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md"
     echo "# Entries: $count"
     echo "#"
     { grep -Ev '^[[:space:]]*(#|$)' "$file" || true; }
@@ -105,7 +108,7 @@ build_combined() {
     echo "# Category: combined/$profile"
     echo "# Author: BlackRabbitZ"
     echo "# Repository: $REPO_URL"
-    echo "# License: GPL-3.0-only; see LICENSE, NOTICE and ATTRIBUTION.md"
+    echo "# License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md"
     echo "# Entries: $count"
     echo "#"
     echo "# Includes: $includes"
@@ -142,6 +145,29 @@ build_combined ultimate \
   smart-tv iot mobile-tracking social-trackers native-tracking \
   phishing malware scam cryptomining fake-shops adult gambling \
   consent-cmp affiliate-tracking
+
+check_github_file_sizes() {
+  local warn_bytes=$((50 * 1024 * 1024))
+  local max_bytes=$((100 * 1024 * 1024))
+  local failed=0
+
+  for file in lists/categories/*.txt lists/combined/*.txt; do
+    local size
+    size="$(wc -c < "$file" | tr -d '[:space:]')"
+    if (( size > max_bytes )); then
+      echo "ERROR: $file is larger than GitHub's 100 MiB regular-file limit ($size bytes)." >&2
+      failed=1
+    elif (( size > warn_bytes )); then
+      echo "WARNING: $file is larger than 50 MiB ($size bytes); GitHub will warn about this large file." >&2
+    fi
+  done
+
+  if (( failed != 0 )); then
+    exit 1
+  fi
+}
+
+check_github_file_sizes
 
 update_readme_count() {
   local path="$1"

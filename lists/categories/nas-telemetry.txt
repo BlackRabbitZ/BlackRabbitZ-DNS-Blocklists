@@ -2,10 +2,19 @@
 # Category: nas-telemetry
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
-# License: GPL-3.0-only; see LICENSE, NOTICE and ATTRIBUTION.md
-# Entries: 6
+# License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
+# Entries: 12
+# Description: NAS usage reporting, diagnostics and Active Insight-style telemetry.
+# Sources: Synology/TrueNAS documented service endpoints; QNAP documented analytics/AMIZcloud endpoints
+# Snapshot: 2026-08
 #
+analytics.api.myqnapcloud.com
+analytics.myqnapcloud.io
 api.insight.synology.com
+qcenter-events-device.api.myqnapcloud.cn
+qcenter-events-device.api.myqnapcloud.com
+qcenter-metrics-device.api.myqnapcloud.cn
+qcenter-metrics-device.api.myqnapcloud.com
 sentry.ixsystems.com
 subscribe.insight.synology.com
 supapi.synology.com

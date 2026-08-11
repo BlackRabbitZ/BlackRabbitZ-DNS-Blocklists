@@ -2,8 +2,11 @@
 # Category: linux-telemetry
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
-# License: GPL-3.0-only; see LICENSE, NOTICE and ATTRIBUTION.md
+# License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
 # Entries: 3
+# Description: Linux distribution telemetry, package popularity and usage reporting.
+# Sources: Debian/Ubuntu project endpoints
+# Snapshot: 2026-08
 #
 metrics.ubuntu.com
 popcon.debian.org

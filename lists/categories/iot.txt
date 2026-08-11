@@ -2,21 +2,94 @@
 # Category: iot
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
-# License: GPL-3.0-only; see LICENSE, NOTICE and ATTRIBUTION.md
-# Entries: 15
+# License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
+# Entries: 85
+# Description: IoT, smart-home and connected-device telemetry/tracking endpoints.
+# Sources: NextDNS Native Tracking Protection; Perflyst PiHoleBlocklist
+# Snapshot: 2026-08
 #
+aax-eu.amazon-adsystem.com
+analytics.samsungknox.com
 api.mixpanel.com
 api.segment.io
 api2.amplitude.com
 app-measurement.com
 bam.nr-data.net
+bigdata.ssp.samsung.com
 browser-intake-datadoghq.com
+config.ioam.de
+d3p8zr0ffa9t17.cloudfront.net
+data.alexa.com
+data.mistat.india.xiaomi.com
+data.mistat.intl.xiaomi.com
+data.mistat.rus.xiaomi.com
+data.mistat.xiaomi.com
+datacollector-dra.dt.dbankcloud.cn
+datacollector-dra.dt.hicloud.com
+datacollector-drcn.dt.dbankcloud.cn
+datacollector-drcn.dt.hicloud.com
+datacollector-dre.dt.dbankcloud.cn
+datacollector-dre.dt.hicloud.com
+datacollector-drru.dt.dbankcloud.ru
+datacollector-drru.dt.hicloud.com
+de.ioam.de
+device-messaging-na.amazon.com
 device-metrics-us-2.amazon.com
 device-metrics-us.amazon.com
+devicemessaging.us-east-1.amazon.com
 events.launchdarkly.com
 firebasecrashlytics.googleapis.com
+fls-eu.amazon.com
+fls-na.amazon.com
+grs.dbankcloud.asia
+grs.dbankcloud.cn
+grs.dbankcloud.com
+grs.dbankcloud.eu
+grs.hicloud.com
+grs.platform.dbankcloud.ru
+insights.samsung.com
+logs.roku.com
+logs1409.xiti.com
+logservice-dra.platform.hicloud.com
+logservice-dre.platform.dbankcloud.cn
+logservice-dre.platform.hicloud.com
+logservice-drru.dt.hicloud.com
+logservice.hicloud.com
+logservice1.hicloud.com
+mads-eu.amazon.com
+mas-sdk.amazon.com
+metrics-dra.dt.dbankcloud.cn
+metrics-dra.dt.hicloud.com
+metrics-drcn.dt.hicloud.com
+metrics-dre.data.dbankcloud.cn
+metrics-dre.dt.dbankcloud.cn
+metrics.data.hicloud.com
+metrics.dt.dbankcloud.cn
+metrics.dt.hicloud.com
 metrics.icloud.com
+metrics1-drcn.dt.dbankcloud.cn
+metrics1.data.dbankcloud.cn
+metrics1.data.hicloud.com
+metrics2.data.hicloud.com
+metrics3.data.hicloud.com
+metrics4.data.hicloud.com
+metrics5.data.hicloud.com
+metrics5.dt.dbankcloud.ru
+metrics6.dt.hicloud.com
+mobileanalytics.us-east-1.amazonaws.com
+msmetrics-test.ws.sonos.com
+msmetrics.ws.sonos.com
+nmetrics.samsung.com
+notify.firetv.bugsnag.appstore.a2z.com
 o0.ingest.sentry.io
 reports.crashlytics.com
+sa.api.intl.miui.com
+secure-eu.imrworldwide.com
 sentry.io
+settings.crashlytics.com
+tracking.india.miui.com
+tracking.intl.miui.com
+tracking.miui.com
+tracking.rus.miui.com
+tracksrv.zdf.de
 unagi-na.amazon.com

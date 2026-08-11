@@ -2,10 +2,19 @@
 # Category: server-telemetry
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
-# License: GPL-3.0-only; see LICENSE, NOTICE and ATTRIBUTION.md
-# Entries: 4
+# License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
+# Entries: 10
+# Description: Server, enterprise support, Red Hat Insights/OpenShift telemetry and management analytics endpoints.
+# Sources: Red Hat documentation; Dell/HPE documented service endpoints; Dell SupportAssist documented endpoint
+# Snapshot: 2026-08
 #
+api.access.redhat.com
+cert-api.access.redhat.com
+cert.console.redhat.com
+connect.cloud.redhat.com
 device.cloud.hpe.com
 esrs3-core.emc.com
+esrs3-coredr.emc.com
+infogw.api.openshift.com
 infosight.hpe.com
 midway.ext.hpe.com

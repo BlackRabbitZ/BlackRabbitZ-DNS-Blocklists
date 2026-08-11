@@ -2,21 +2,53 @@
 # Category: consent-cmp
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
-# License: GPL-3.0-only; see LICENSE, NOTICE and ATTRIBUTION.md
-# Entries: 15
+# License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
+# Entries: 44
+# Description: Consent-management, CMP and cookie-consent infrastructure.
+# Sources: Block List Project (derived CMP subset)
+# Snapshot: 2026-08
 #
+analytics.consensus.enterprises
+analytics.cookiefirst.dev
 cmp.osano.com
 consent-manager.com
 consentmanager.net
 cookiebot.com
 cookiebot.eu
 cookielaw.org
+cookies-data.onetrust.io
+d.sourcepoint.bigtop40.com
+d.sourcepoint.capitalfm.com
+d.sourcepoint.capitalxtra.com
+d.sourcepoint.classicfm.com
+d.sourcepoint.globalplayer.com
+d.sourcepoint.heart.co.uk
+d.sourcepoint.lbc.co.uk
+d.sourcepoint.radiox.co.uk
+d.sourcepoint.smoothradio.com
 didomi.io
+go.consensusfax.com
+load.analytics.cookiebot.dev
+mobile-data.onetrust.io
+osano.com
 privacy-center.org
 privacy-mgmt.com
+privacy-mgmt.fupa.net
+quantcast.com
+quantcast.de
 quantcast.mgr.consensu.org
+quantcast.net
 sourcepoint.com
+sourcepoint.gutekueche.de
+sourcepoint.vice.com
+srepdata.wauwatosanow.com
+stape.academicosanonimos.com.br
+stats.papeldeparededosanos70.com
 trustarc.com
 trustarc.mgr.consensu.org
+usercentrics.ch
+usercentrics.co.uk
 usercentrics.com
+usercentrics.de
 usercentrics.eu
+usercentrics.io
