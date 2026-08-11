@@ -1,5 +1,15 @@
 # Changelog
 
+## 2.1.0 - 2026-08-12
+
+- Added a daily upstream-refresh GitHub Actions workflow.
+- Added `scripts/update-upstreams.py` for additive automatic domain imports.
+- Added `scripts/upstream-sources.json` with per-category upstream sources and safety thresholds.
+- Added download retries, source minimum-size validation, domain normalization, deduplication and growth guards.
+- Added `config/allowlist.txt` for critical automatic-import exclusions.
+- Added `docs/AUTOMATIC_UPDATES.md` with maintenance and fail-safe documentation.
+- Unified workflow concurrency and kept Bash invocation independent of executable file permissions.
+
 ## 2.0.2 - 2026-08-11
 
 - Added descriptions to the Family Lists table in the README.

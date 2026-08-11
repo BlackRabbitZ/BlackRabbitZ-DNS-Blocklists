@@ -1,14 +1,9 @@
-name: Update blocklists
+name: Daily upstream refresh
 
 on:
-  push:
-    branches:
-      - main
-    paths:
-      - 'lists/categories/**'
-      - 'README.md'
-      - 'scripts/update-lists.sh'
-      - '.github/workflows/update-lists.yml'
+  schedule:
+    # 03:17 UTC daily. An off-hour minute avoids the busiest top-of-hour window.
+    - cron: '17 3 * * *'
   workflow_dispatch:
 
 permissions:
@@ -19,7 +14,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  update:
+  refresh:
     runs-on: ubuntu-latest
     timeout-minutes: 90
 
@@ -29,6 +24,12 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Validate upstream configuration
+        run: python3 ./scripts/update-upstreams.py --check-config
+
+      - name: Fetch and merge new upstream domains
+        run: python3 ./scripts/update-upstreams.py
+
       - name: Rebuild combined lists and counts
         shell: bash
         run: bash ./scripts/update-lists.sh
@@ -36,16 +37,16 @@ jobs:
       - name: Validate generated diff
         run: git diff --check
 
-      - name: Commit generated changes
+      - name: Commit automatic updates
         shell: bash
         run: |
           if [[ -z "$(git status --porcelain)" ]]; then
-            echo "Everything is already up to date."
+            echo "No upstream changes detected."
             exit 0
           fi
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add README.md lists/categories lists/combined
-          git commit -m "chore: update blocklists and entry counts"
+          git commit -m "chore: refresh upstream blocklists"
           git push

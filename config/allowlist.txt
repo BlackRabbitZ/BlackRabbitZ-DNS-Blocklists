@@ -1,0 +1,10 @@
+# Safety allowlist for the automatic upstream importer.
+# Exact domains and all their subdomains are excluded from imported entries.
+# Add one domain per line if an upstream repeatedly causes a critical false positive.
+blackrabbitz.github.io
+github.com
+githubusercontent.com
+raw.githubusercontent.com
+blocklistproject.github.io
+urlhaus.abuse.ch
+abuse.ch

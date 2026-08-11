@@ -140,10 +140,14 @@ https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/
 The large category lists merge and deduplicate selected upstream DNS/threat-intelligence datasets. Source and license details are documented in [`THIRD_PARTY.md`](THIRD_PARTY.md).
 
 - Category files are published as plain domains, one domain per line.
+- `.github/workflows/daily-upstream-update.yml` checks configured upstream feeds every day and additively imports newly published domains.
+- `scripts/update-upstreams.py` validates, normalizes, deduplicates and safety-checks upstream data before category files are changed.
 - `scripts/update-lists.sh` rebuilds all combined profiles and synchronizes README entry counts after category changes.
-- Upstream datasets are **snapshots** in this repository; the existing update workflow does not silently download third-party feeds.
-- The `Ultimate` profile is extremely large. GitHub warns for files above 50 MiB and blocks regular Git objects above 100 MiB, so the build script checks the generated file size.
+- Upstream URLs and per-source safety thresholds are maintained in [`scripts/upstream-sources.json`](scripts/upstream-sources.json).
+- The `Ultimate` profile is extremely large. The build script checks GitHub regular-file size limits before generated changes can be committed.
 - For very large initial uploads, use Git/GitHub Desktop instead of the GitHub browser uploader.
+
+See [`docs/AUTOMATIC_UPDATES.md`](docs/AUTOMATIC_UPDATES.md) for the complete update and fail-safe behavior.
 
 ---
 
@@ -154,9 +158,16 @@ BlackRabbitZ-DNS-Blocklists/
 │
 ├── .github/
 │   └── workflows/
-│       └── update-lists.yml
+│       ├── update-lists.yml
+│       └── daily-upstream-update.yml
+├── config/
+│   └── allowlist.txt
+├── docs/
+│   └── AUTOMATIC_UPDATES.md
 ├── scripts/
-│   └── update-lists.sh
+│   ├── update-lists.sh
+│   ├── update-upstreams.py
+│   └── upstream-sources.json
 ├── README.md
 ├── LICENSE
 ├── NOTICE
@@ -199,23 +210,35 @@ BlackRabbitZ-DNS-Blocklists/
 ```
 
 Every published blocklist remains a normal **static text file** and can be consumed directly by Pi-hole or compatible DNS filters.
-Repository maintenance is automated with **Bash + GitHub Actions**; no Python or runtime dependency is required by users.
+Repository maintenance is automated with **Python, Bash and GitHub Actions**. End users still consume normal static text files and require no Python runtime.
 
 ---
 
 # 🔄 Automatic List Updates
 
-The repository automatically keeps generated data in sync. When a category file under `lists/categories/` changes on the `main` branch, the `Update blocklists` GitHub Action runs `scripts/update-lists.sh`.
+Two GitHub Actions keep the repository current:
 
-It automatically:
+1. **Daily upstream refresh** runs every day at `03:17 UTC`. It downloads the configured public feeds, normalizes their domains and **adds newly published entries** to the matching category files.
+2. **Update blocklists** runs after manual category changes and keeps all generated files synchronized.
 
+The automatic updater:
+
+- downloads only explicitly configured HTTPS sources from `scripts/upstream-sources.json`
+- supports plain-domain, hosts, URL, AdGuard/ABP and wildcard-style source formats
+- rejects invalid domains, IP addresses and duplicates
+- excludes critical domains listed in `config/allowlist.txt` from new automatic imports
+- rejects suspiciously small upstream responses
+- stops on implausibly large one-run growth instead of blindly committing it
+- preserves the last working category when an upstream is unavailable
 - updates the `# Entries:` count inside category files
 - rebuilds all files under `lists/combined/` from their configured source categories
 - removes duplicate domains from combined profiles
 - updates all **Entries** values in this README
-- commits the generated changes back to `main` when something changed
+- commits generated changes back to `main` only after all checks pass
 
-The profile definitions in `scripts/update-lists.sh` are the single source of truth for which categories are included in **Light**, **Balanced**, **Strict**, **Security**, **Family** and **Ultimate**.
+Automatic upstream imports are **additive**: the updater can extend the lists automatically, but it does not silently delete existing BlackRabbitZ entries. `linux-telemetry.txt`, `nas-telemetry.txt` and `server-telemetry.txt` remain manually curated because those vendor-specific endpoints do not have a single trustworthy general-purpose upstream feed.
+
+The profile definitions in `scripts/update-lists.sh` remain the single source of truth for which categories are included in **Light**, **Balanced**, **Strict**, **Security**, **Family** and **Ultimate**. Full details are in [`docs/AUTOMATIC_UPDATES.md`](docs/AUTOMATIC_UPDATES.md).
 
 ---
 

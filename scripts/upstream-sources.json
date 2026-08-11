@@ -1,0 +1,170 @@
+{
+  "version": 1,
+  "mode": "additive",
+  "defaults": {
+    "timeout_seconds": 90,
+    "retries": 3,
+    "max_download_bytes": 157286400,
+    "max_growth_ratio": 0.35,
+    "max_growth_absolute": 500000
+  },
+  "categories": {
+    "ads": {
+      "sources": [
+        {"name": "Block List Project Ads", "url": "https://blocklistproject.github.io/Lists/alt-version/ads-nl.txt", "min_entries": 10000},
+        {"name": "AnudeepND adservers", "url": "https://raw.githubusercontent.com/anudeepND/blacklist/master/adservers.txt", "min_entries": 10000}
+      ]
+    },
+    "trackers": {
+      "sources": [
+        {"name": "Block List Project Tracking", "url": "https://blocklistproject.github.io/Lists/alt-version/tracking-nl.txt", "min_entries": 10000}
+      ]
+    },
+    "telemetry": {
+      "sources": [
+        {"name": "Block List Project Tracking telemetry subset", "url": "https://blocklistproject.github.io/Lists/alt-version/tracking-nl.txt", "min_entries": 10000,
+         "include_keywords": ["telemetry", "analytics", "metrics", "measurement", "beacon", "crash", "sentry", "bugsnag", "newrelic", "datadog", "appcenter", "hockeyapp", "insights", "diagnostic", "eventlog", "events.", "stats.", "collect.", "collector."]}
+      ]
+    },
+    "social-trackers": {
+      "sources": [
+        {"name": "Block List Project Tracking social subset", "url": "https://blocklistproject.github.io/Lists/alt-version/tracking-nl.txt", "min_entries": 10000,
+         "include_keywords": ["facebook", "instagram", "twitter", "tiktok", "snapchat", "pinterest", "linkedin", "reddit", "tumblr", "quora", "vk.com", "threads.net", "mastodon"]}
+      ]
+    },
+    "mobile-tracking": {
+      "sources": [
+        {"name": "Perflyst Android Tracking", "url": "https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/android-tracking.txt", "min_entries": 20},
+        {"name": "Block List Project Tracking mobile subset", "url": "https://blocklistproject.github.io/Lists/alt-version/tracking-nl.txt", "min_entries": 10000,
+         "include_keywords": ["appsflyer", "adjust", "kochava", "singular", "flurry", "crashlytics", "firebase", "appmetrica", "umeng", "vungle", "adcolony", "inmobi", "tapjoy", "pushwoosh", "leanplum", "appboy", "braze", "mobileapptracking", "applovin", "unity3d", "gameanalytics", "ironsource", "supersonicads", "fyber", "mopub", "branch.io", "branch.app"]}
+      ]
+    },
+    "affiliate-tracking": {
+      "sources": [
+        {"name": "NextDNS Click Tracking Domains", "url": "https://raw.githubusercontent.com/nextdns/click-tracking-domains/main/domains", "min_entries": 100},
+        {"name": "Block List Project Tracking affiliate subset", "url": "https://blocklistproject.github.io/Lists/alt-version/tracking-nl.txt", "min_entries": 10000,
+         "include_keywords": ["affiliate", "affiliat", "conversion", "impactradius", "awin", "commission", "partnerize", "tradedoubler", "linksynergy", "shareasale", "skimlinks", "referral", "postback", "clickbank", "cj.com", "partnerstack", "postaffiliatepro"]}
+      ]
+    },
+    "consent-cmp": {
+      "sources": [
+        {"name": "Block List Project Tracking CMP subset", "url": "https://blocklistproject.github.io/Lists/alt-version/tracking-nl.txt", "min_entries": 10000,
+         "include_keywords": ["onetrust", "cookiebot", "didomi", "quantcast", "consentmanager", "usercentrics", "trustarc", "sourcepoint", "cookieyes", "iubenda", "complianz", "cookiefirst", "termly", "osano", "consensu", "privacy-mgmt", "consent-cmp"]}
+      ]
+    },
+    "windows-telemetry": {
+      "sources": [
+        {"name": "NextDNS Windows Native Tracking", "url": "https://raw.githubusercontent.com/nextdns/native-tracking-domains/main/domains/windows", "min_entries": 5},
+        {"name": "HaGeZi Windows and Office Native Tracking", "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.winoffice.txt", "min_entries": 5}
+      ]
+    },
+    "apple-telemetry": {
+      "sources": [
+        {"name": "NextDNS Apple Native Tracking", "url": "https://raw.githubusercontent.com/nextdns/native-tracking-domains/main/domains/apple", "min_entries": 5},
+        {"name": "HaGeZi Apple Native Tracking", "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.apple.txt", "min_entries": 5}
+      ]
+    },
+    "android-telemetry": {
+      "sources": [
+        {"name": "Perflyst Android Tracking", "url": "https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/android-tracking.txt", "min_entries": 20},
+        {"name": "NextDNS Huawei Native Tracking", "url": "https://raw.githubusercontent.com/nextdns/native-tracking-domains/main/domains/huawei", "min_entries": 5},
+        {"name": "NextDNS Xiaomi Native Tracking", "url": "https://raw.githubusercontent.com/nextdns/native-tracking-domains/main/domains/xiaomi", "min_entries": 5},
+        {"name": "HaGeZi Huawei Native Tracking", "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.huawei.txt", "min_entries": 5},
+        {"name": "HaGeZi Xiaomi Native Tracking", "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.xiaomi.txt", "min_entries": 5},
+        {"name": "HaGeZi Oppo/Realme Native Tracking", "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.oppo-realme.txt", "min_entries": 1},
+        {"name": "HaGeZi Vivo Native Tracking", "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.vivo.txt", "min_entries": 1}
+      ]
+    },
+    "native-tracking": {
+      "sources": [
+        {"name": "NextDNS Alexa Native Tracking", "url": "https://raw.githubusercontent.com/nextdns/native-tracking-domains/main/domains/alexa", "min_entries": 1},
+        {"name": "NextDNS Apple Native Tracking", "url": "https://raw.githubusercontent.com/nextdns/native-tracking-domains/main/domains/apple", "min_entries": 5},
+        {"name": "NextDNS Huawei Native Tracking", "url": "https://raw.githubusercontent.com/nextdns/native-tracking-domains/main/domains/huawei", "min_entries": 5},
+        {"name": "NextDNS Roku Native Tracking", "url": "https://raw.githubusercontent.com/nextdns/native-tracking-domains/main/domains/roku", "min_entries": 1},
+        {"name": "NextDNS Samsung Native Tracking", "url": "https://raw.githubusercontent.com/nextdns/native-tracking-domains/main/domains/samsung", "min_entries": 1},
+        {"name": "NextDNS Sonos Native Tracking", "url": "https://raw.githubusercontent.com/nextdns/native-tracking-domains/main/domains/sonos", "min_entries": 1},
+        {"name": "NextDNS Windows Native Tracking", "url": "https://raw.githubusercontent.com/nextdns/native-tracking-domains/main/domains/windows", "min_entries": 5},
+        {"name": "NextDNS Xiaomi Native Tracking", "url": "https://raw.githubusercontent.com/nextdns/native-tracking-domains/main/domains/xiaomi", "min_entries": 5},
+        {"name": "HaGeZi Apple Native Tracking", "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.apple.txt", "min_entries": 5},
+        {"name": "HaGeZi LG webOS Native Tracking", "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.lgwebos.txt", "min_entries": 20},
+        {"name": "HaGeZi Windows and Office Native Tracking", "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.winoffice.txt", "min_entries": 5},
+        {"name": "HaGeZi Huawei Native Tracking", "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.huawei.txt", "min_entries": 5},
+        {"name": "HaGeZi Xiaomi Native Tracking", "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.xiaomi.txt", "min_entries": 5}
+      ]
+    },
+    "smart-tv": {
+      "sources": [
+        {"name": "Block List Project Smart TV", "url": "https://blocklistproject.github.io/Lists/alt-version/smart-tv-nl.txt", "min_entries": 20},
+        {"name": "Perflyst Smart TV", "url": "https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV-AGH.txt", "min_entries": 50},
+        {"name": "Perflyst Amazon Fire TV", "url": "https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/AmazonFireTV.txt", "min_entries": 10},
+        {"name": "HaGeZi LG webOS Native Tracking", "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.lgwebos.txt", "min_entries": 20}
+      ]
+    },
+    "iot": {
+      "sources": [
+        {"name": "NextDNS Alexa Native Tracking", "url": "https://raw.githubusercontent.com/nextdns/native-tracking-domains/main/domains/alexa", "min_entries": 1},
+        {"name": "NextDNS Huawei Native Tracking", "url": "https://raw.githubusercontent.com/nextdns/native-tracking-domains/main/domains/huawei", "min_entries": 5},
+        {"name": "NextDNS Roku Native Tracking", "url": "https://raw.githubusercontent.com/nextdns/native-tracking-domains/main/domains/roku", "min_entries": 1},
+        {"name": "NextDNS Samsung Native Tracking", "url": "https://raw.githubusercontent.com/nextdns/native-tracking-domains/main/domains/samsung", "min_entries": 1},
+        {"name": "NextDNS Sonos Native Tracking", "url": "https://raw.githubusercontent.com/nextdns/native-tracking-domains/main/domains/sonos", "min_entries": 1},
+        {"name": "NextDNS Xiaomi Native Tracking", "url": "https://raw.githubusercontent.com/nextdns/native-tracking-domains/main/domains/xiaomi", "min_entries": 5},
+        {"name": "Perflyst Amazon Fire TV", "url": "https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/AmazonFireTV.txt", "min_entries": 10}
+      ]
+    },
+    "cryptomining": {
+      "sources": [
+        {"name": "AnudeepND CoinMiner", "url": "https://raw.githubusercontent.com/anudeepND/blacklist/master/CoinMiner.txt", "min_entries": 1000},
+        {"name": "NoCoin Hosts", "url": "https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt", "min_entries": 100}
+      ]
+    },
+    "malware": {
+      "max_growth_ratio": 0.25,
+      "max_growth_absolute": 750000,
+      "sources": [
+        {"name": "Block List Project Malware", "url": "https://blocklistproject.github.io/Lists/alt-version/malware-nl.txt", "min_entries": 100000},
+        {"name": "Block List Project Ransomware", "url": "https://blocklistproject.github.io/Lists/alt-version/ransomware-nl.txt", "min_entries": 1000},
+        {"name": "URLhaus Hostfile", "url": "https://urlhaus.abuse.ch/downloads/hostfile", "min_entries": 50},
+        {"name": "HaGeZi Threat Intelligence Mini", "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/tif.mini.txt", "min_entries": 1000}
+      ]
+    },
+    "phishing": {
+      "max_growth_ratio": 0.30,
+      "max_growth_absolute": 300000,
+      "sources": [
+        {"name": "Block List Project Phishing", "url": "https://blocklistproject.github.io/Lists/alt-version/phishing-nl.txt", "min_entries": 10000},
+        {"name": "Phishing.Database Active Domains", "url": "https://raw.githubusercontent.com/Phishing-Database/Phishing.Database/master/phishing-domains-ACTIVE.txt", "min_entries": 100000}
+      ]
+    },
+    "scam": {
+      "sources": [
+        {"name": "Block List Project Fraud", "url": "https://blocklistproject.github.io/Lists/alt-version/fraud-nl.txt", "min_entries": 10000},
+        {"name": "Block List Project Scam", "url": "https://blocklistproject.github.io/Lists/alt-version/scam-nl.txt", "min_entries": 1000},
+        {"name": "DurableNapkin Scam Blocklist", "url": "https://raw.githubusercontent.com/durablenapkin/scamblocklist/master/hosts.txt", "min_entries": 100}
+      ]
+    },
+    "fake-shops": {
+      "sources": [
+        {"name": "Block List Project Fraud retail subset", "url": "https://blocklistproject.github.io/Lists/alt-version/fraud-nl.txt", "min_entries": 10000,
+         "include_keywords": ["shop", "store", "outlet", "boutique", "retail", "mall", "clearance", "trikot", "jersey", "sneaker", "shoes", "shoe-", "fashion", "werkzeug", "discount", "ecommerce", "superstore", "webshop", "onlineshop", "shopping"]},
+        {"name": "Block List Project Scam retail subset", "url": "https://blocklistproject.github.io/Lists/alt-version/scam-nl.txt", "min_entries": 1000,
+         "include_keywords": ["shop", "store", "outlet", "boutique", "retail", "mall", "clearance", "trikot", "jersey", "sneaker", "shoes", "shoe-", "fashion", "werkzeug", "discount", "ecommerce", "superstore", "webshop", "onlineshop", "shopping"]},
+        {"name": "DurableNapkin retail subset", "url": "https://raw.githubusercontent.com/durablenapkin/scamblocklist/master/hosts.txt", "min_entries": 100,
+         "include_keywords": ["shop", "store", "outlet", "boutique", "retail", "mall", "clearance", "trikot", "jersey", "sneaker", "shoes", "shoe-", "fashion", "werkzeug", "discount", "ecommerce", "superstore", "webshop", "onlineshop", "shopping"]}
+      ]
+    },
+    "adult": {
+      "max_growth_ratio": 0.30,
+      "max_growth_absolute": 500000,
+      "sources": [
+        {"name": "Block List Project Porn", "url": "https://blocklistproject.github.io/Lists/alt-version/porn-nl.txt", "min_entries": 100000},
+        {"name": "StevenBlack Porn-only Hosts", "url": "https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-only/hosts", "min_entries": 10000}
+      ]
+    },
+    "gambling": {
+      "sources": [
+        {"name": "Block List Project Gambling", "url": "https://blocklistproject.github.io/Lists/alt-version/gambling-nl.txt", "min_entries": 10000},
+        {"name": "HaGeZi Gambling", "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/gambling-onlydomains.txt", "min_entries": 10000}
+      ]
+    }
+  }
+}
