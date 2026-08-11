@@ -1,0 +1,6 @@
+api.insight.synology.com
+sentry.ixsystems.com
+subscribe.insight.synology.com
+supapi.synology.com
+telemetry.sys.truenas.net
+usage.truenas.com

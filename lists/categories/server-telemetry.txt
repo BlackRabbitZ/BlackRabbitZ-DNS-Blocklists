@@ -1,0 +1,4 @@
+device.cloud.hpe.com
+esrs3-core.emc.com
+infosight.hpe.com
+midway.ext.hpe.com

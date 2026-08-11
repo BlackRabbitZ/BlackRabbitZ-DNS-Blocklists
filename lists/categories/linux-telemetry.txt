@@ -1,0 +1,3 @@
+metrics.ubuntu.com
+popcon.debian.org
+popcon.ubuntu.com
