@@ -2,11 +2,11 @@
 # Author: BlackRabbitZ
 # Homepage: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only; see LICENSE, NOTICE and ATTRIBUTION.md
-# Format: one domain per line (Pi-hole / DNS sinkhole compatible)
+# Format: domain list / DNS sinkhole compatible
 # Version: 2026.08.11
 # Entries: 29
 # Content-SHA256: 93a2298b7f98cbe02a21befce7e46f12b1efdac703636ed00a323097f7daef4e
-# Generated deterministically from this repository's data/ directory.
+# Generated from independently maintained data/ categories.
 2mdn.net
 adnxs.com
 adservice.google.com

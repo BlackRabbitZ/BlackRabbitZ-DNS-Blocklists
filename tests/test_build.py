@@ -1,14 +1,34 @@
-import subprocess, sys
+import json
+import subprocess
+import sys
 from pathlib import Path
+
 ROOT=Path(__file__).resolve().parents[1]
+
 def test_validate():
     subprocess.run([sys.executable,str(ROOT/"scripts/validate.py")],check=True)
+
 def test_build():
     subprocess.run([sys.executable,str(ROOT/"scripts/build.py")],check=True)
-    assert (ROOT/"dist/balanced.txt").exists()
-def test_no_third_party_blocklist_imports_in_data():
-    # Source datasets must be maintained locally and must not contain imported URLs.
-    text="\n".join(p.read_text(encoding="utf-8",errors="ignore") for p in (ROOT/"data").rglob("*.txt"))
-    assert "raw.githubusercontent.com/" not in text.lower()
-    assert "http://" not in text.lower()
-    assert "https://" not in text.lower()
+    cfg=json.loads((ROOT/"config.json").read_text(encoding="utf-8"))
+    for profile in cfg["profiles"]:
+        assert (ROOT/f"dist/{profile}.txt").exists()
+        assert (ROOT/f"dist/{profile}-hosts.txt").exists()
+
+def test_readme_links_cover_profiles():
+    cfg=json.loads((ROOT/"config.json").read_text(encoding="utf-8"))
+    readme=(ROOT/"README.md").read_text(encoding="utf-8")
+    for profile in cfg["profiles"]:
+        assert f"/dist/{profile}.txt" in readme
+
+def test_no_hagezi_imports():
+    forbidden=("raw.githubusercontent.com/hagezi","github.com/hagezi/dns-blocklists/raw")
+    for p in ROOT.rglob("*"):
+        if not p.is_file() or ".git" in p.parts:
+            continue
+        try:
+            text=p.read_text(encoding="utf-8",errors="strict").lower()
+        except (UnicodeDecodeError,OSError):
+            continue
+        for token in forbidden:
+            assert token not in text

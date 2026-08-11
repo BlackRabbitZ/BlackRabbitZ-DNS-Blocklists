@@ -17,7 +17,6 @@ def normalize(value: str) -> str | None:
     value = value.strip().lower().rstrip(".")
     if not value or value.startswith("#"):
         return None
-    # Accept hosts-style input as a convenience.
     parts = value.split()
     if len(parts) >= 2:
         try:
@@ -32,50 +31,65 @@ def normalize(value: str) -> str | None:
     return value
 
 def load(path: Path) -> set[str]:
-    out = set()
+    out=set()
     if not path.exists():
         return out
-    for n, line in enumerate(path.read_text(encoding="utf-8").splitlines(), 1):
+    for n,line in enumerate(path.read_text(encoding="utf-8").splitlines(),1):
         try:
-            d = normalize(line)
-        except ValueError as e:
-            raise SystemExit(f"{path}:{n}: {e}")
+            d=normalize(line)
+        except ValueError as exc:
+            raise SystemExit(f"{path}:{n}: {exc}")
         if d:
             out.add(d)
     return out
 
-def header(title: str, count: int, version: str, sha: str) -> str:
+def header(label: str, count: int, version: str, sha: str) -> str:
     return "\n".join([
-        f"# Title: BlackRabbitZ DNS Blocklists - {title}",
+        f"# Title: BlackRabbitZ DNS Blocklists - {label}",
         "# Author: BlackRabbitZ",
         "# Homepage: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists",
         "# License: GPL-3.0-only; see LICENSE, NOTICE and ATTRIBUTION.md",
-        "# Format: one domain per line (Pi-hole / DNS sinkhole compatible)",
+        "# Format: domain list / DNS sinkhole compatible",
         f"# Version: {version}",
         f"# Entries: {count}",
         f"# Content-SHA256: {sha}",
-        "# Generated deterministically from this repository's data/ directory.",
+        "# Generated from independently maintained data/ categories.",
         "",
     ])
 
 def main():
-    ap = argparse.ArgumentParser()
-    ap.add_argument("--check", action="store_true", help="fail if generated files differ")
-    args = ap.parse_args()
-    cfg = json.loads((ROOT/"config.json").read_text())
-    allow = load(ROOT/"data/allowlist/global.txt")
-    categories = {p.stem: load(p) for p in (ROOT/"data/categories").glob("*.txt")}
-    version = datetime.now(timezone.utc).strftime("%Y.%m.%d")
-    generated = {}
-    for tier, names in cfg["tiers"].items():
-        domains = set().union(*(categories.get(n,set()) for n in names)) - allow
-        body = "\n".join(sorted(domains))
-        sha = hashlib.sha256((body+"\n").encode()).hexdigest()
-        text = header(tier.title(), len(domains), version, sha) + body + ("\n" if body else "")
-        generated[ROOT/f"dist/{tier}.txt"] = text
-        hosts = header(tier.title()+" Hosts", len(domains), version, sha)
-        hosts += "\n".join(f"0.0.0.0 {d}" for d in sorted(domains)) + ("\n" if domains else "")
-        generated[ROOT/f"dist/{tier}-hosts.txt"] = hosts
+    ap=argparse.ArgumentParser()
+    ap.add_argument("--check",action="store_true")
+    args=ap.parse_args()
+    cfg=json.loads((ROOT/"config.json").read_text(encoding="utf-8"))
+    profiles=cfg.get("profiles", cfg.get("tiers", {}))
+    allow=load(ROOT/"data/allowlist/global.txt")
+    category_files={p.stem:p for p in (ROOT/"data/categories").glob("*.txt")}
+    categories={name:load(path) for name,path in category_files.items()}
+    version=datetime.now(timezone.utc).strftime("%Y.%m.%d")
+    generated={}
+    for slug, spec in profiles.items():
+        if isinstance(spec,list):
+            names=spec; label=slug.title()
+        else:
+            names=spec["categories"]; label=spec.get("label",slug.title())
+        missing=[n for n in names if n not in categories]
+        if missing:
+            raise SystemExit(f"profile {slug!r} references missing categories: {', '.join(missing)}")
+        domains=set().union(*(categories[n] for n in names)) - allow
+        body="\n".join(sorted(domains))
+        canonical=(body+"\n") if body else ""
+        sha=hashlib.sha256(canonical.encode()).hexdigest()
+        generated[ROOT/f"dist/{slug}.txt"]=header(label,len(domains),version,sha)+canonical
+        hosts_body="\n".join(f"0.0.0.0 {d}" for d in sorted(domains))
+        hosts=(hosts_body+"\n") if hosts_body else ""
+        generated[ROOT/f"dist/{slug}-hosts.txt"]=header(label+" Hosts",len(domains),version,sha)+hosts
+
+    expected=set(generated)
+    # Remove obsolete generated list formats/profiles so dist remains canonical.
+    for p in (ROOT/"dist").glob("*.txt"):
+        if p not in expected and not args.check:
+            p.unlink()
 
     changed=[]
     for path,text in generated.items():
@@ -86,9 +100,9 @@ def main():
                 path.write_text(text,encoding="utf-8",newline="\n")
     if args.check and changed:
         print("Generated files are stale:")
-        for p in changed: print(" -", p.relative_to(ROOT))
+        for p in changed: print(" -",p.relative_to(ROOT))
         raise SystemExit(1)
-    print(f"Built {len(generated)} files.")
+    print(f"Built {len(generated)} files from {len(categories)} categories and {len(profiles)} profiles.")
 
-if __name__ == "__main__":
+if __name__=="__main__":
     main()

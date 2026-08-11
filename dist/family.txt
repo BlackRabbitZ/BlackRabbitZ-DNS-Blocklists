@@ -1,4 +1,4 @@
-# Title: BlackRabbitZ DNS Blocklists - Balanced
+# Title: BlackRabbitZ DNS Blocklists - Family
 # Author: BlackRabbitZ
 # Homepage: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only; see LICENSE, NOTICE and ATTRIBUTION.md

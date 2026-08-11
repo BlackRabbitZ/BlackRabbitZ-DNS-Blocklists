@@ -2,27 +2,118 @@
   "project": "BlackRabbitZ DNS Blocklists",
   "author": "BlackRabbitZ",
   "repository": "https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists",
-  "tiers": {
-    "light": [
-      "ads"
-    ],
-    "balanced": [
-      "ads",
-      "trackers"
-    ],
-    "strict": [
-      "ads",
-      "trackers",
-      "telemetry"
-    ],
-    "threat": [
-      "threats"
-    ],
-    "ultimate": [
-      "ads",
-      "trackers",
-      "telemetry",
-      "threats"
-    ]
+  "profiles": {
+    "mini": {
+      "label": "Mini",
+      "emoji": "🟢",
+      "description": "Very conservative: core advertising only.",
+      "categories": [
+        "ads"
+      ]
+    },
+    "light": {
+      "label": "Light",
+      "emoji": "🟩",
+      "description": "Conservative ads and common tracking.",
+      "categories": [
+        "ads",
+        "trackers"
+      ]
+    },
+    "balanced": {
+      "label": "Balanced",
+      "emoji": "🟦",
+      "description": "Recommended default: ads, tracking and selected telemetry.",
+      "categories": [
+        "ads",
+        "trackers",
+        "telemetry",
+        "social-trackers",
+        "native-tracking"
+      ]
+    },
+    "strict": {
+      "label": "Strict",
+      "emoji": "🟧",
+      "description": "Stronger privacy filtering including device/platform telemetry.",
+      "categories": [
+        "ads",
+        "trackers",
+        "telemetry",
+        "social-trackers",
+        "native-tracking",
+        "smart-tv",
+        "mobile-tracking",
+        "windows-telemetry",
+        "apple-telemetry",
+        "android-telemetry",
+        "iot-telemetry"
+      ]
+    },
+    "security": {
+      "label": "Security",
+      "emoji": "🛡️",
+      "description": "Security-only feed: phishing, malware, scams and cryptomining.",
+      "categories": [
+        "phishing",
+        "malware",
+        "scam",
+        "cryptomining",
+        "fake-shops",
+        "dynamic-dns",
+        "newly-registered"
+      ]
+    },
+    "family": {
+      "label": "Family",
+      "emoji": "👨‍👩‍👧",
+      "description": "Balanced privacy plus adult and gambling categories.",
+      "categories": [
+        "ads",
+        "trackers",
+        "telemetry",
+        "social-trackers",
+        "adult",
+        "gambling"
+      ]
+    },
+    "ultimate": {
+      "label": "Ultimate",
+      "emoji": "🟥",
+      "description": "All enabled privacy and security categories. Highest breakage risk.",
+      "categories": [
+        "ads",
+        "trackers",
+        "telemetry",
+        "phishing",
+        "malware",
+        "scam",
+        "cryptomining",
+        "fake-shops",
+        "url-shorteners",
+        "dynamic-dns",
+        "newly-registered",
+        "adult",
+        "gambling",
+        "social-trackers",
+        "native-tracking",
+        "smart-tv",
+        "mobile-tracking",
+        "windows-telemetry",
+        "apple-telemetry",
+        "android-telemetry",
+        "iot-telemetry"
+      ]
+    }
+  },
+  "formats": {
+    "domains": {
+      "suffix": ".txt",
+      "description": "One domain per line; recommended for Pi-hole"
+    },
+    "hosts": {
+      "suffix": "-hosts.txt",
+      "description": "0.0.0.0 hosts format"
+    }
   }
 }

@@ -1,0 +1,2 @@
+# android-telemetry
+# Add independently verified domains below, one domain per line.

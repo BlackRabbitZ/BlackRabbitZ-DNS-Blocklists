@@ -27,3 +27,18 @@ Functional breakage wins over list size. A domain is removed or allowlisted when
 ## Threat data
 
 Threat domains are deliberately empty in v1.0.0. Threat intelligence expires quickly and needs stricter provenance, freshness and evidence handling than ordinary ad/tracker curation.
+
+
+## Category/profile architecture
+
+Raw observations are stored by semantic category under `data/categories/`.
+Finished blocklists are profiles configured in `config.json`.
+
+This separation allows:
+- one domain to feed multiple profiles,
+- new categories without generator changes,
+- new profiles without generator changes,
+- a single global allowlist,
+- deterministic and reviewable builds.
+
+Profiles should express a clear user purpose rather than merely chasing the highest entry count.

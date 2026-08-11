@@ -1,68 +1,209 @@
-# BlackRabbitZ DNS Blocklists
+# 🐇 BlackRabbitZ DNS Blocklists
 
 [![Validate](https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/actions/workflows/validate.yml/badge.svg)](https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/actions/workflows/validate.yml)
 ![License](https://img.shields.io/badge/license-GPL--3.0--only-blue)
 ![Pi-hole](https://img.shields.io/badge/Pi--hole-compatible-green)
+![Lists](https://img.shields.io/badge/profiles-7-informational)
 
-Independent, transparent DNS blocklists for Pi-hole and other DNS sinkholes.
+Independent, transparent and extensible DNS blocklists maintained by **BlackRabbitZ** for Pi-hole and other DNS filtering systems.
 
-> This is an original project by **BlackRabbitZ**. It is not a fork, mirror, copy, or transformed version of HaGeZi or another third-party DNS blocklist.
+> **Independent project:** This repository is not a fork, mirror, copy, transformed dataset or rebrand of HaGeZi or another third-party blocklist.
 
-## Lists
+## 🚀 Blocklists
 
-| Tier | Purpose | Raw URL |
-|---|---|---|
-| Light | Conservative advertising blocking | `.../dist/light.txt` |
-| Balanced | Ads + common tracking | `.../dist/balanced.txt` |
-| Strict | Balanced + non-essential telemetry | `.../dist/strict.txt` |
-| Threat | Independently verified malicious domains | `.../dist/threat.txt` |
-| Ultimate | Strict + Threat | `.../dist/ultimate.txt` |
+**Recommended for most users: `Balanced`**
 
-After the repository is public, the Pi-hole URL for Balanced is:
+| Profile | Level | What it targets | Pi-hole domain list | Hosts |
+|---|---:|---|---|---|
+| Mini | 🟢 Very low | Core advertising | **[Open / Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/dist/mini.txt)** | [Hosts](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/dist/mini-hosts.txt) |
+| Light | 🟩 Low | Ads + common trackers | **[Open / Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/dist/light.txt)** | [Hosts](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/dist/light-hosts.txt) |
+| **Balanced** | 🟦 Recommended | Ads + tracking + selected telemetry | **[Open / Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/dist/balanced.txt)** | [Hosts](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/dist/balanced-hosts.txt) |
+| Strict | 🟧 High | Privacy + platform/device telemetry | **[Open / Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/dist/strict.txt)** | [Hosts](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/dist/strict-hosts.txt) |
+| Security | 🛡️ Security | Phishing, malware, scam, cryptomining, etc. | **[Open / Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/dist/security.txt)** | [Hosts](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/dist/security-hosts.txt) |
+| Family | 👨‍👩‍👧 Family | Balanced + adult + gambling categories | **[Open / Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/dist/family.txt)** | [Hosts](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/dist/family-hosts.txt) |
+| Ultimate | 🟥 Maximum | All enabled privacy/security categories | **[Open / Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/dist/ultimate.txt)** | [Hosts](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/dist/ultimate-hosts.txt) |
 
+> Empty or small specialist categories in early releases are intentional. Domains are added only after independent verification rather than bulk-copying another maintainer's list.
+
+### Copy-ready Pi-hole URLs
+
+**Balanced**
 ```text
 https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/dist/balanced.txt
 ```
 
-Hosts-format variants are also generated as `*-hosts.txt`.
-
-## Pi-hole
-
-Pi-hole → **Lists / Adlists** → add the raw URL → update Gravity.
-
-CLI example:
-
-```bash
-pihole -g
+**Strict**
+```text
+https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/dist/strict.txt
 ```
 
-## Philosophy
+**Security**
+```text
+https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/dist/security.txt
+```
 
-- no third-party blocklist imports by default
-- independent evidence for additions
-- conservative handling of false positives
-- deterministic generated lists
-- explicit allowlist
-- reviewable Git history
-- source categories separated from generated outputs
+**Ultimate**
+```text
+https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/dist/ultimate.txt
+```
 
-See [Methodology](docs/METHODOLOGY.md) and [Licensing & Provenance](docs/LICENSING_AND_PROVENANCE.md).
+## 🧩 Categories
 
-## Build
+The repository is intentionally category-driven. Profiles are combinations of categories.
+
+```text
+data/categories/
+├── ads.txt
+├── trackers.txt
+├── telemetry.txt
+├── social-trackers.txt
+├── native-tracking.txt
+├── phishing.txt
+├── malware.txt
+├── scam.txt
+├── fake-shops.txt
+├── cryptomining.txt
+├── dynamic-dns.txt
+├── newly-registered.txt
+├── url-shorteners.txt
+├── smart-tv.txt
+├── mobile-tracking.txt
+├── windows-telemetry.txt
+├── apple-telemetry.txt
+├── android-telemetry.txt
+├── iot-telemetry.txt
+├── adult.txt
+└── gambling.txt
+```
+
+This structure is designed to grow. Adding another category does **not** require rewriting the generator.
+
+## ➕ Add a completely new category
+
+Example: later you want `gaming-telemetry`.
+
+1. Create:
+```text
+data/categories/gaming-telemetry.txt
+```
+
+2. Put independently verified domains in it:
+```text
+telemetry.example-game.invalid
+metrics.example-game.invalid
+```
+
+3. Add `"gaming-telemetry"` to whichever profiles should include it in `config.json`.
+
+4. Run:
+```bash
+python scripts/validate.py
+python scripts/build.py
+```
+
+Done.
+
+## ➕ Add a completely new blocklist profile
+
+You can also create a new finished list without touching Python.
+
+Add this to `config.json`:
+
+```json
+"gaming": {
+  "label": "Gaming",
+  "emoji": "🎮",
+  "description": "Gaming telemetry and advertising.",
+  "categories": [
+    "ads",
+    "gaming-telemetry"
+  ]
+}
+```
+
+Then run:
+
+```bash
+python scripts/build.py
+```
+
+The builder automatically creates:
+
+```text
+dist/gaming.txt
+dist/gaming-hosts.txt
+```
+
+That is the core design goal: **categories and profiles are data, not hard-coded Python logic.**
+
+## 🕳️ Global allowlist
+
+False positives go into:
+
+```text
+data/allowlist/global.txt
+```
+
+The allowlist is subtracted from every generated profile.
+
+## 🧪 Validation
 
 ```bash
 python scripts/validate.py
 python scripts/build.py
 ```
 
-## Contributing
+GitHub Actions performs the same validation on pushes and pull requests.
 
-Use the Domain Submission or False Positive issue templates. Evidence is required for new entries.
+## 🛡️ Curation policy
 
-## License
+A domain should only be added with independent evidence such as:
 
-GPL-3.0-only. Copyright (C) 2026 BlackRabbitZ.
+- direct DNS/network observation,
+- reproducible application/browser behavior,
+- vendor documentation,
+- an independently verified community report,
+- defensible security analysis.
 
-See `LICENSE`, `NOTICE`, `ATTRIBUTION.md`, and `THIRD_PARTY.md`.
+**Do not copy domains in bulk from another blocklist merely because they appear there.**
 
-**Important:** A license policy can reduce risk but cannot guarantee that no third party will ever make a complaint. This repository intentionally avoids importing other maintained blocklists to minimize that risk.
+See:
+- [Methodology](docs/METHODOLOGY.md)
+- [Licensing & provenance](docs/LICENSING_AND_PROVENANCE.md)
+- [Third-party material](THIRD_PARTY.md)
+
+## 📥 Pi-hole
+
+In Pi-hole, add one of the `dist/*.txt` raw URLs as an Adlist and update Gravity.
+
+For most users:
+
+```text
+https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/dist/balanced.txt
+```
+
+## 🤝 Contributions / False positives
+
+Use the GitHub issue templates for:
+- domain submissions,
+- false positives.
+
+New entries should contain enough evidence to be independently reproduced or verified.
+
+## ⚖️ License
+
+Repository code, original documentation and the original curated dataset are published under **GPL-3.0-only**.
+
+Copyright (C) 2026 **BlackRabbitZ**.
+
+See:
+- `LICENSE`
+- `NOTICE`
+- `ATTRIBUTION.md`
+- `THIRD_PARTY.md`
+
+Original repository:
+
+```text
+https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+```
