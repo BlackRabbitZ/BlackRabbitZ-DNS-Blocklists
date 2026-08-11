@@ -29,7 +29,8 @@ jobs:
           fetch-depth: 0
 
       - name: Rebuild combined lists and counts
-        run: ./scripts/update-lists.sh
+        shell: bash
+        run: bash ./scripts/update-lists.sh
 
       - name: Commit generated changes
         run: |
