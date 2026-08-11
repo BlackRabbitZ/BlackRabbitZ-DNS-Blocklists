@@ -1,4 +1,38 @@
-# BlackRabbitZ DNS Blocklists - Windows Telemetry
+# BlackRabbitZ DNS Blocklists
+# Category: windows-telemetry
+# Author: BlackRabbitZ
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; see LICENSE, NOTICE and ATTRIBUTION.md
+# Entries: 31
+#
+activity.windows.com
+api.msn.com
+arc.msn.com
+assets.activity.windows.com
+assets.msn.com
+browser.events.data.msn.com
+browser.pipe.aria.microsoft.com
+c.msn.com
+dmd.metaservices.microsoft.com
+ecs.nel.measure.office.net
+edge.activity.windows.com
+fd.api.iris.microsoft.com
+functional.events.data.microsoft.com
+manage.devcenter.microsoft.com
+oca.telemetry.microsoft.com
+ocws.officeapps.live.com
+odc.officeapps.live.com
+ris.api.iris.microsoft.com
+self.events.data.microsoft.com
 settings-win.data.microsoft.com
+settings.data.microsoft.com
+sqm.telemetry.microsoft.com
+srtb.msn.com
+teams.events.data.microsoft.com
+telecommand.telemetry.microsoft.com
+v10.events.data.microsoft.com
+vortex-win.data.microsoft.com
 vortex.data.microsoft.com
+watson.events.data.microsoft.com
 watson.telemetry.microsoft.com
+www.telecommandsvc.microsoft.com

@@ -1,3 +1,42 @@
-# BlackRabbitZ DNS Blocklists - Social Trackers
+# BlackRabbitZ DNS Blocklists
+# Category: social-trackers
+# Author: BlackRabbitZ
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; see LICENSE, NOTICE and ATTRIBUTION.md
+# Entries: 35
+#
+ads-twitter.com
+ads.facebook.com
+ads.linkedin.com
+alb.reddit.com
+an.facebook.com
+analytics.discord.com
+analytics.facebook.com
+analytics.instagram.com
+analytics.linkedin.com
+analytics.pinterest.com
+analytics.reddit.com
+analytics.snapchat.com
+analytics.tiktok.com
+analytics.twitter.com
+analytics.whatsapp.com
+business-api.tiktok.com
+connect.facebook.com
 connect.facebook.net
+ct.pinterest.com
+events.reddit.com
+events.redditmedia.com
+graph.facebook.com
+graph.instagram.com
+log.pinterest.com
 pixel.facebook.com
+pixel.redditmedia.com
+platform.linkedin.com
+px.ads.linkedin.com
+sc-analytics.appspot.com
+science.discord.com
+sentry.discord.com
+snap.licdn.com
+static.ads-twitter.com
+staticxx.facebook.com
+tr.snapchat.com

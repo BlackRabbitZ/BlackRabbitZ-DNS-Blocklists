@@ -1,2 +1,22 @@
-# BlackRabbitZ DNS Blocklists - Android Telemetry
-# Add independently verified Android telemetry domains here.
+# BlackRabbitZ DNS Blocklists
+# Category: android-telemetry
+# Author: BlackRabbitZ
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; see LICENSE, NOTICE and ATTRIBUTION.md
+# Entries: 15
+#
+analytics.google.com
+android.clients.google.com
+app-measurement.com
+crashlytics.com
+device-provisioning.googleapis.com
+firebase-settings.crashlytics.com
+firebasecrashlytics.googleapis.com
+firebaseinappmessaging.googleapis.com
+firebaseinstallations.googleapis.com
+firebaselogging.googleapis.com
+firebaseperf.googleapis.com
+google-analytics.com
+play.googleapis.com
+reports.crashlytics.com
+settings.crashlytics.com

@@ -1,2 +1,23 @@
-# BlackRabbitZ DNS Blocklists - Gambling
-# Optional family filtering list. Add independently verified domains here.
+# BlackRabbitZ DNS Blocklists
+# Category: gambling
+# Author: BlackRabbitZ
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; see LICENSE, NOTICE and ATTRIBUTION.md
+# Entries: 16
+#
+bet365.com
+betfair.com
+bwin.com
+draftkings.com
+fanduel.com
+pokerstars.com
+unibet.com
+williamhill.com
+www.bet365.com
+www.betfair.com
+www.bwin.com
+www.draftkings.com
+www.fanduel.com
+www.pokerstars.com
+www.unibet.com
+www.williamhill.com

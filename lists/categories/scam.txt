@@ -1,2 +1,7 @@
-# BlackRabbitZ DNS Blocklists - Scam / Fraud
-# Add independently verified scam/fraud domains here.
+# BlackRabbitZ DNS Blocklists
+# Category: scam
+# Author: BlackRabbitZ
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; see LICENSE, NOTICE and ATTRIBUTION.md
+# Entries: 0
+#

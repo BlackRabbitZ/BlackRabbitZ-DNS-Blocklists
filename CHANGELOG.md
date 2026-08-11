@@ -1,15 +1,16 @@
 # Changelog
 
+## 2.0.0 - 2026-08-11
+
+- Major expansion of static curated privacy/ad/telemetry lists.
+- Added 128 advertising endpoints.
+- Added 136 tracking/analytics endpoints.
+- Added dedicated social, mobile, native-app, affiliate and CMP categories.
+- Expanded Windows, Apple, Android, Smart-TV and IoT telemetry categories.
+- Combined profiles refreshed as direct static files.
+- Repository remains script-free and Python-free.
+- Security threat categories remain intentionally conservative rather than importing third-party live feeds.
+
 ## 1.3.0 - 2026-08-11
 
-- Redesigned README as a polished GitHub project landing page.
-- Added protection profile comparison matrix.
-- Added grouped Ads, Telemetry, Security and Family sections.
-- Added direct repository View links and public Pi-hole Raw links.
-- Added list entry counts, usage guidance and false-positive documentation.
-- Kept the repository fully static with no scripts or runtime dependencies.
-
-## 1.2.0 - 2026-08-11
-
-- Converted project to static lists only.
-- Removed Python and generation/build logic.
+- Redesigned README and static list presentation.

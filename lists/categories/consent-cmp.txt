@@ -1,0 +1,22 @@
+# BlackRabbitZ DNS Blocklists
+# Category: consent-cmp
+# Author: BlackRabbitZ
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; see LICENSE, NOTICE and ATTRIBUTION.md
+# Entries: 15
+#
+cmp.osano.com
+consent-manager.com
+consentmanager.net
+cookiebot.com
+cookiebot.eu
+cookielaw.org
+didomi.io
+privacy-center.org
+privacy-mgmt.com
+quantcast.mgr.consensu.org
+sourcepoint.com
+trustarc.com
+trustarc.mgr.consensu.org
+usercentrics.com
+usercentrics.eu

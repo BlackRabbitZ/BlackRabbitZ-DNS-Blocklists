@@ -1,7 +1,47 @@
-# BlackRabbitZ DNS Blocklists - Telemetry
-# One domain per line
-browser.pipe.aria.microsoft.com
-metrics.icloud.com
-settings-win.data.microsoft.com
-vortex.data.microsoft.com
-watson.telemetry.microsoft.com
+# BlackRabbitZ DNS Blocklists
+# Category: telemetry
+# Author: BlackRabbitZ
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; see LICENSE, NOTICE and ATTRIBUTION.md
+# Entries: 40
+#
+api-js.mixpanel.com
+api.amplitude.com
+api.bugsnag.com
+api.fullstory.com
+api.heap.io
+api.honeycomb.io
+api.logrocket.com
+api.mixpanel.com
+api.rollbar.com
+api.rudderstack.com
+api.segment.io
+api2.amplitude.com
+api2.mixpanel.com
+app.launchdarkly.com
+bam.nr-data.net
+browser-intake-datadoghq.com
+browser.sentry-cdn.com
+cdn.heapanalytics.com
+cdn.logrocket.io
+cdn.rollbar.com
+cdn.rudderlabs.com
+clientstream.launchdarkly.com
+data.mozilla.com
+edge.fullstory.com
+events.hotjar.io
+events.launchdarkly.com
+heapanalytics.com
+in.hotjar.com
+incoming.telemetry.mozilla.org
+insights.hotjar.com
+js-agent.newrelic.com
+mobile.launchdarkly.com
+notify.bugsnag.com
+o0.ingest.sentry.io
+r.lr-ingest.io
+rs.fullstory.com
+rum.browser-intake-datadoghq.com
+sessions.bugsnag.com
+telemetry-incoming.r53-2.services.mozilla.com
+telemetry.mozilla.org

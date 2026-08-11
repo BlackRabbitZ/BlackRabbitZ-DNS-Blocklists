@@ -1,22 +1,29 @@
 # BlackRabbitZ DNS Blocklists
-# Category: iot
+# Category: native-tracking
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only; see LICENSE, NOTICE and ATTRIBUTION.md
-# Entries: 15
+# Entries: 22
 #
+api.airbridge.io
 api.mixpanel.com
 api.segment.io
 api2.amplitude.com
+api2.branch.io
 app-measurement.com
+app.adjust.com
 bam.nr-data.net
 browser-intake-datadoghq.com
-device-metrics-us-2.amazon.com
-device-metrics-us.amazon.com
+control.kochava.com
+events.appsflyer.com
 events.launchdarkly.com
 firebasecrashlytics.googleapis.com
-metrics.icloud.com
+mobile.launchdarkly.com
+notify.bugsnag.com
 o0.ingest.sentry.io
+r.lr-ingest.io
 reports.crashlytics.com
-sentry.io
-unagi-na.amazon.com
+sdk-api-v1.singular.net
+sessions.bugsnag.com
+settings.crashlytics.com
+track.tenjin.com

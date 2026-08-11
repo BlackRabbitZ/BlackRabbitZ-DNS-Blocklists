@@ -1,3 +1,25 @@
-# BlackRabbitZ DNS Blocklists - Security
-# This list is intentionally conservative and currently empty.
-# Add only independently verified, current malicious domains.
+# BlackRabbitZ DNS Blocklists
+# Category: combined/security
+# Author: BlackRabbitZ
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; see LICENSE, NOTICE and ATTRIBUTION.md
+# Entries: 16
+#
+# Includes: malware, phishing, scam, fake-shops, cryptomining
+#
+authedmine.com
+coin-hive.com
+coinhive.com
+coinhiveproxy.com
+coinimp.com
+crypto-loot.com
+cryptoloot.pro
+jsecoin.com
+minero.cc
+monerominer.rocks
+ppoi.org
+projectpoi.com
+webmine.cz
+webminepool.com
+webminerpool.com
+www.coinimp.com

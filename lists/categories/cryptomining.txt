@@ -1,2 +1,23 @@
-# BlackRabbitZ DNS Blocklists - Cryptomining
-# Add independently verified browser-mining domains here.
+# BlackRabbitZ DNS Blocklists
+# Category: cryptomining
+# Author: BlackRabbitZ
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; see LICENSE, NOTICE and ATTRIBUTION.md
+# Entries: 16
+#
+authedmine.com
+coin-hive.com
+coinhive.com
+coinhiveproxy.com
+coinimp.com
+crypto-loot.com
+cryptoloot.pro
+jsecoin.com
+minero.cc
+monerominer.rocks
+ppoi.org
+projectpoi.com
+webmine.cz
+webminepool.com
+webminerpool.com
+www.coinimp.com

@@ -1,2 +1,23 @@
-# BlackRabbitZ DNS Blocklists - Adult
-# Optional family filtering list. Add independently verified domains here.
+# BlackRabbitZ DNS Blocklists
+# Category: adult
+# Author: BlackRabbitZ
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; see LICENSE, NOTICE and ATTRIBUTION.md
+# Entries: 16
+#
+pornhub.com
+redtube.com
+spankbang.com
+tube8.com
+www.pornhub.com
+www.redtube.com
+www.spankbang.com
+www.tube8.com
+www.xhamster.com
+www.xnxx.com
+www.xvideos.com
+www.youporn.com
+xhamster.com
+xnxx.com
+xvideos.com
+youporn.com

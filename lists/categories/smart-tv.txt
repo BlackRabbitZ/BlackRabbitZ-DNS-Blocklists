@@ -1,2 +1,46 @@
-# BlackRabbitZ DNS Blocklists - Smart TV
-# Add independently verified Smart TV telemetry/tracking domains here.
+# BlackRabbitZ DNS Blocklists
+# Category: smart-tv
+# Author: BlackRabbitZ
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; see LICENSE, NOTICE and ATTRIBUTION.md
+# Entries: 39
+#
+acr-us-prd.samsungcloud.tv
+acr0.samsungcloudsolution.com
+ad.lgappstv.com
+ads.roku.com
+ads.samsung.com
+amazonadsi-a.akamaihd.net
+amoeba.web.roku.com
+aviary.amazon.com
+cloudservices.roku.com
+config.samsungads.com
+cooper.logs.roku.com
+customer-feedbacks.web.roku.com
+device-metrics-us-2.amazon.com
+device-metrics-us.amazon.com
+display.ravm.tv
+fls-na.amazon.com
+ibis.lgappstv.com
+info.lgsmartad.com
+lcprd1.samsungcloudsolution.net
+lgad.cjpowercast.com
+lgtvonline.lge.com
+log-config.samsungacr.com
+logs.roku.com
+mas-ext.amazon.com
+ngfts.lge.com
+p.ads.roku.com
+ravm.tv
+roku.com
+samsungacr.com
+samsungads.com
+samsungcloudsolution.com
+scribe.logs.roku.com
+smartshare.lgtvsdp.com
+traces.sr.roku.com
+tracking.lgappstv.com
+unagi-na.amazon.com
+us.ad.lgsmartad.com
+us.info.lgsmartad.com
+vdterms.samsungcloudsolution.com

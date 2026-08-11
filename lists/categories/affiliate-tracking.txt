@@ -1,0 +1,25 @@
+# BlackRabbitZ DNS Blocklists
+# Category: affiliate-tracking
+# Author: BlackRabbitZ
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; see LICENSE, NOTICE and ATTRIBUTION.md
+# Entries: 18
+#
+awin.com
+awin1.com
+cj.com
+commission-junction.com
+impact.com
+impactradius.com
+linksynergy.com
+partnerize.com
+pepperjam.com
+rakutenadvertising.com
+shareasale.com
+skimlinks.com
+skimresources.com
+sovrn.com
+tradedoubler.com
+tradetracker.net
+viglink.com
+webgains.com

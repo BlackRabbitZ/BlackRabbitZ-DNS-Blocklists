@@ -1,2 +1,63 @@
-# BlackRabbitZ DNS Blocklists - Mobile Tracking
+# BlackRabbitZ DNS Blocklists
+# Category: mobile-tracking
+# Author: BlackRabbitZ
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; see LICENSE, NOTICE and ATTRIBUTION.md
+# Entries: 56
+#
+a.applovin.com
+adjust.com
+ads-game-configuration-master.ads.prd.ie.internal.unity3d.com
+ads.api.vungle.com
+airbridge.io
+amplitude.com
+api.airbridge.io
+api.mixpanel.com
+api.segment.io
+api2.amplitude.com
+api2.branch.io
 app-measurement.com
+app.adjust.com
+app.appsflyer.com
+applovin.com
+appsflyer.com
+auction.unityads.unity3d.com
+branch.io
+cdn.branch.io
+chartboost.com
+config.unityads.unity3d.com
+control.kochava.com
+crashlytics.com
+d.applovin.com
+events.ads.vungle.com
+events.appsflyer.com
+firebase-settings.crashlytics.com
+firebasecrashlytics.googleapis.com
+fyber.com
+inmobi.com
+inmobi.net
+inner-active.mobi
+ironsrc.com
+kochava.com
+live.chartboost.com
+logs.ironsrc.com
+mixpanel.com
+mobileapptracking.com
+mopub.com
+ms.applovin.com
+onelink.me
+rt.applovin.com
+s2s.adjust.com
+sdk-api-v1.singular.net
+segment.io
+singular.net
+smaato.net
+supersonicads.com
+tapjoy.com
+tenjin.com
+track.tenjin.com
+tune.com
+unityads.unity3d.com
+vungle.com
+webview.unityads.unity3d.com
+ws.tapjoyads.com

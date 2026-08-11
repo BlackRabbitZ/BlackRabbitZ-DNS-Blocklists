@@ -1,2 +1,7 @@
-# BlackRabbitZ DNS Blocklists - Fake Shops
-# Add independently verified fake-shop domains here.
+# BlackRabbitZ DNS Blocklists
+# Category: fake-shops
+# Author: BlackRabbitZ
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; see LICENSE, NOTICE and ATTRIBUTION.md
+# Entries: 0
+#

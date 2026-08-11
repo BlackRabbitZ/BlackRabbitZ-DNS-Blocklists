@@ -1,2 +1,18 @@
-# BlackRabbitZ DNS Blocklists - Apple Telemetry
+# BlackRabbitZ DNS Blocklists
+# Category: apple-telemetry
+# Author: BlackRabbitZ
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; see LICENSE, NOTICE and ATTRIBUTION.md
+# Entries: 11
+#
+analytics.apple.com
+analytics.icloud.com
+diagnostics.apple.com
+diagnostics.support.apple.com
+feedbackassistant.apple.com
+feedbackws.apple.com
+metrics.apple.com
 metrics.icloud.com
+metrics2.icloud.com
+xp-cdn.apple.com
+xp.apple.com
