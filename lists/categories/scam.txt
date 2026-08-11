@@ -3,5 +3,21 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only; see LICENSE, NOTICE and ATTRIBUTION.md
-# Entries: 0
+# Entries: 12
 #
+# Verification source: current BaFin consumer warnings for suspicious/fraudulent financial platforms
+# Source: https://www.bafin.de/DE/verbraucherinnen-verbraucher/news-warnungen/news-warnungen_node.html
+# Curated snapshot checked: 2026-08-11
+#
+212trading.online
+212trading.pro
+anlagenprofis24.de
+crossboerse.com
+finanzora.pro
+finanzsparer.com
+omnigee.net
+portal.veyrmont.com
+r-cap-management.com
+r-cap-management.net
+renditeratgeber-europa.de
+veyrmont.com

@@ -3,5 +3,19 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only; see LICENSE, NOTICE and ATTRIBUTION.md
-# Entries: 0
+# Entries: 10
 #
+# Verification source: Phishing.Database active phishing domains
+# Source: https://github.com/Phishing-Database/Phishing.Database/blob/master/phishing-domains-ACTIVE.txt
+# Curated snapshot checked: 2026-08-11
+#
+zplatur.in
+zqruj.icu
+zswcliente.de
+ztoi.top
+zubren.top
+zugriffaufdas-web.online
+zuoh.top
+zurq6.com
+zweryfikowac683858.click
+zweryfikowac683859.click

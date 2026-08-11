@@ -1,5 +1,12 @@
 # Changelog
 
+## 2.0.2 - 2026-08-11
+
+- Added descriptions to the Family Lists table in the README.
+- Populated Malware, Phishing, Scam and Fake Shops security categories with curated, externally verified indicators.
+- Added source notes to security category files and THIRD_PARTY.md.
+- Rebuilt Security and Ultimate combined profiles and synchronized all entry counts.
+
 ## 2.0.1 - 2026-08-11
 
 - Restored the richer v1.3-style README presentation.

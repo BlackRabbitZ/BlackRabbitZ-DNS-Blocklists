@@ -3,23 +3,65 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only; see LICENSE, NOTICE and ATTRIBUTION.md
-# Entries: 16
+# Entries: 58
 #
 # Includes: malware, phishing, scam, fake-shops, cryptomining
 #
+212trading.online
+212trading.pro
+anlagenprofis24.de
+archivoscrosoft.com
 authedmine.com
+chrome-windows.ru
 coin-hive.com
 coinhive.com
 coinhiveproxy.com
 coinimp.com
+crossboerse.com
 crypto-loot.com
 cryptoloot.pro
+fatooball.com
+finanzora.pro
+finanzsparer.com
+flashe.net
+fussballtrikot-guenstig.com
+genddos.st
+gojersey.co
+groupsumi.de
 jsecoin.com
+kaelte-held.com
+kickberlin.com
 minero.cc
 monerominer.rocks
+omnigee.net
+plain-wnam-prod-public.komododecks.com
+portal.veyrmont.com
 ppoi.org
 projectpoi.com
+r-cap-management.com
+r-cap-management.net
+renditeratgeber-europa.de
+reservphotoinstay.one
+reservphotoinstaynow.shop
+safeuploadz.com
+trendingdealszone.click
+triflackcom.com
+trikotfc.com
+us.wind0ws.net
+veyrmont.com
 webmine.cz
 webminepool.com
 webminerpool.com
+werkzeug-brandl.com
+wqok85qtq.net
 www.coinimp.com
+zplatur.in
+zqruj.icu
+zswcliente.de
+ztoi.top
+zubren.top
+zugriffaufdas-web.online
+zuoh.top
+zurq6.com
+zweryfikowac683858.click
+zweryfikowac683859.click

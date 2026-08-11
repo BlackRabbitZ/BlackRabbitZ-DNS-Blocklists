@@ -3,5 +3,19 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only; see LICENSE, NOTICE and ATTRIBUTION.md
-# Entries: 0
+# Entries: 10
 #
+# Verification source: Verbraucherzentrale Fakeshop-Finder and published shop warnings
+# Source: https://www.verbraucherzentrale.de/fakeshopfinder-71560
+# Curated snapshot checked: 2026-08-11
+#
+fatooball.com
+flashe.net
+fussballtrikot-guenstig.com
+gojersey.co
+groupsumi.de
+kaelte-held.com
+kickberlin.com
+trendingdealszone.click
+trikotfc.com
+werkzeug-brandl.com
