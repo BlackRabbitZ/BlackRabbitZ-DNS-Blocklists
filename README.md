@@ -64,6 +64,9 @@ https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/
 | Windows Telemetry | — | — | ✅ | — | — | ✅ |
 | Apple Telemetry | — | — | ✅ | — | — | ✅ |
 | Android Telemetry | — | — | ✅ | — | — | ✅ |
+| Linux Telemetry | — | — | ✅ | — | — | ✅ |
+| NAS Telemetry | — | — | ✅ | — | — | ✅ |
+| Server Telemetry | — | — | ✅ | — | — | ✅ |
 | Mobile/App Tracking | — | — | ✅ | — | — | ✅ |
 | Smart-TV / IoT | — | — | ✅ | — | — | ✅ |
 | Cryptomining | — | — | — | ✅ | — | ✅ |
@@ -95,6 +98,9 @@ https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/
 | 🪟 **Windows Telemetry** | 31 | Windows diagnostics and telemetry endpoints | [View](lists/categories/windows-telemetry.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/windows-telemetry.txt) |
 | 🍎 **Apple Telemetry** | 11 | Apple telemetry and diagnostics | [View](lists/categories/apple-telemetry.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/apple-telemetry.txt) |
 | 🤖 **Android Telemetry** | 15 | Android/Firebase telemetry | [View](lists/categories/android-telemetry.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/android-telemetry.txt) |
+| 🐧 **Linux Telemetry** | TBD | Linux distribution telemetry, diagnostics and usage reporting | [View](lists/categories/linux-telemetry.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/linux-telemetry.txt) |
+| 💾 **NAS Telemetry** | TBD | NAS telemetry and usage reporting (Synology, QNAP, TrueNAS and others) | [View](lists/categories/nas-telemetry.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/nas-telemetry.txt) |
+| 🖥️ **Server Telemetry** | TBD | Server, hypervisor and server-management telemetry | [View](lists/categories/server-telemetry.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/server-telemetry.txt) |
 | 📺 **Smart TV** | 39 | Smart-TV advertising, ACR and telemetry | [View](lists/categories/smart-tv.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/smart-tv.txt) |
 | 🏠 **IoT** | 15 | IoT telemetry endpoints | [View](lists/categories/iot.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/iot.txt) |
 
@@ -157,6 +163,9 @@ BlackRabbitZ-DNS-Blocklists/
         ├── windows-telemetry.txt
         ├── apple-telemetry.txt
         ├── android-telemetry.txt
+        ├── linux-telemetry.txt
+        ├── nas-telemetry.txt
+        ├── server-telemetry.txt
         ├── smart-tv.txt
         ├── iot.txt
         ├── cryptomining.txt
