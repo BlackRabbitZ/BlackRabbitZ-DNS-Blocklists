@@ -1,0 +1,28 @@
+{
+  "project": "BlackRabbitZ DNS Blocklists",
+  "author": "BlackRabbitZ",
+  "repository": "https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists",
+  "tiers": {
+    "light": [
+      "ads"
+    ],
+    "balanced": [
+      "ads",
+      "trackers"
+    ],
+    "strict": [
+      "ads",
+      "trackers",
+      "telemetry"
+    ],
+    "threat": [
+      "threats"
+    ],
+    "ultimate": [
+      "ads",
+      "trackers",
+      "telemetry",
+      "threats"
+    ]
+  }
+}

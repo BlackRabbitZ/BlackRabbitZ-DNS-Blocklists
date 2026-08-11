@@ -1,0 +1,22 @@
+# Title: BlackRabbitZ DNS Blocklists - Light Hosts
+# Author: BlackRabbitZ
+# Homepage: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; see LICENSE, NOTICE and ATTRIBUTION.md
+# Format: one domain per line (Pi-hole / DNS sinkhole compatible)
+# Version: 2026.08.11
+# Entries: 13
+# Content-SHA256: 18494d775db4cc24d999093aa5a545ca3530058847b5df63b47121ee125b3681
+# Generated deterministically from this repository's data/ directory.
+0.0.0.0 2mdn.net
+0.0.0.0 adnxs.com
+0.0.0.0 adservice.google.com
+0.0.0.0 adservice.google.de
+0.0.0.0 adservice.googleadservices.com
+0.0.0.0 adsrvr.org
+0.0.0.0 amazon-adsystem.com
+0.0.0.0 doubleclick.net
+0.0.0.0 googleads.g.doubleclick.net
+0.0.0.0 googleadservices.com
+0.0.0.0 googlesyndication.com
+0.0.0.0 pagead2.googlesyndication.com
+0.0.0.0 securepubads.g.doubleclick.net
