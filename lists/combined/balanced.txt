@@ -3,9 +3,9 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 371660
+# Entries: 371544
 #
-# Includes: ads, trackers, social-trackers, affiliate-tracking
+# Includes: ads,trackers,social-trackers
 #
 0--0.info
 0--4.com
@@ -47064,7 +47064,6 @@ adservice.google.com.vn
 adservice.google.cv
 adservice.google.cz
 adservice.google.de
-adservice.google.dev
 adservice.google.dj
 adservice.google.dk
 adservice.google.dm
@@ -47088,7 +47087,6 @@ adservice.google.gp
 adservice.google.gr
 adservice.google.gy
 adservice.google.hamburg
-adservice.google.health
 adservice.google.hk
 adservice.google.hn
 adservice.google.hr
@@ -47109,7 +47107,6 @@ adservice.google.jp
 adservice.google.kg
 adservice.google.ki
 adservice.google.kr
-adservice.google.kyoto
 adservice.google.kz
 adservice.google.la
 adservice.google.li
@@ -47120,14 +47117,12 @@ adservice.google.lv
 adservice.google.ma
 adservice.google.md
 adservice.google.me
-adservice.google.meet
 adservice.google.mg
 adservice.google.mk
 adservice.google.ml
 adservice.google.mn
 adservice.google.ms
 adservice.google.mu
-adservice.google.museum
 adservice.google.mv
 adservice.google.mw
 adservice.google.mx
@@ -70370,7 +70365,6 @@ app.leidenfrost.at
 app.leveragemedia.io
 app.lfstmedia.com
 app.lijit.com
-app.link
 app.lofeen.com
 app.lovoo.com
 app.magnetic.com
@@ -73094,7 +73088,6 @@ at-ecomm.levi.com
 at-gb.adskeeper.co.uk
 at-gb.mgid.com
 at-gmtdmp.mookie1.com
-at-go.kelkoogroup.net
 at-img1.tdimg.com
 at-img2.tdimg.com
 at-img3.tdimg.com
@@ -78859,7 +78852,6 @@ be-dramapassion.videoplaza.tv
 be-funk.com
 be-get.teads.tv
 be-gmtdmp.mookie1.com
-be-go.kelkoogroup.net
 be-loaded.com
 be-mine.ru
 be-ms.teads.tv
@@ -84106,7 +84098,6 @@ bqyzesmanfucq.com
 br-ad-lgsmartad-com.aws-prd.net
 br-ad.sam4m.com
 br-gmtdmp.mookie1.com
-br-go.kelkoogroup.net
 br-rbso.com
 br-tags.vizury.com
 br.ad.lgsmartad.com
@@ -93968,7 +93959,6 @@ ch-ad-lgsmartad-com.aws-prd.net
 ch-asimov-leafs-events-data.trafficmanager.net
 ch-g.qgp.com
 ch-gmtdmp.mookie1.com
-ch-go.kelkoogroup.net
 ch-goldbach.cdn.videoplaza.tv
 ch-goldbach.videoplaza.tv
 ch-iconcerts.a.videoplaza.tv
@@ -95804,7 +95794,6 @@ cl.changingyourlife.site
 cl.cnn.com
 cl.easy-hearing.com
 cl.everydayfithealthy.com
-cl.exct.net
 cl.healingdaily.site
 cl.info.lgsmartad.com
 cl.jessealves.com.br
@@ -96314,7 +96303,6 @@ click.casonizedlot.com
 click.ccg.nintendo.com
 click.cdn3x.com
 click.cheapstuff.com
-click.chp.kohls.com
 click.cision.com
 click.classmates.com
 click.clickcommander.com
@@ -96327,7 +96315,6 @@ click.commenemail.info
 click.content-ad.net
 click.contra-bit.com
 click.couponfollow.com
-click.cptrack.de
 click.crm.ba.com
 click.dagbladet.no
 click.dailynews.support
@@ -96338,7 +96325,6 @@ click.depop.com
 click.dhakapharmachyshop.com
 click.digital.metaquestmail.com
 click.direxclkp.com
-click.discord.com
 click.discover.offerup.com
 click.dji.com
 click.dl-now.app
@@ -96347,13 +96333,8 @@ click.dtiserv2.com
 click.e.affirm.com
 click.e.bbcmail.co.uk
 click.e.juiceplus.com
-click.e.krogermail.com
-click.e.lowes.com
 click.e.progressive.com
-click.e.safelite.com
-click.e.sees.com
 click.e.trafficjunky.com
-click.e.usa.experian.com
 click.e.zoom.us
 click.easycosmetic.at
 click.easycosmetic.be
@@ -96366,7 +96347,6 @@ click.eggineurylot.com
 click.elixmedia.com
 click.em.blizzard.com
 click.em.collectionsetc.com
-click.em.samsclub.com
 click.em.shop-backinthesaddle.com
 click.em.shop-explorers.com
 click.em.shop-magellans.com
@@ -96377,7 +96357,6 @@ click.em.stcatalog.net
 click.email.bbc.com
 click.email.chope.co
 click.email.houndapp.com
-click.email.jcpenney.com
 click.email.krutikolesa.ru
 click.email.lhh.com
 click.email.microsoftemail.com
@@ -96389,7 +96368,6 @@ click.email.soundhound.com
 click.emails.aloyoga.com
 click.emails.argos.co.uk
 click.emails.tuclothing.sainsburys.co.uk
-click.emcom.bankofamerica.com
 click.enatimedia.com
 click.engage.xbox.com
 click.eu.adoperatorcore.com
@@ -96405,7 +96383,6 @@ click.fastlinkfinder.com
 click.fastupload.io
 click.favordelivery.com
 click.fiddirexol.com
-click.fidelityinvestments.com
 click.findthewebsiteyouneed.com
 click.fool.com
 click.fout.jp
@@ -96422,7 +96399,6 @@ click.green-red.com
 click.greenbaydecking.com
 click.hay3s.com
 click.hm.baidu.com
-click.holidayinnclubemail.com
 click.holland-billing.com
 click.hookupinyourcity.com
 click.hooligapps.com
@@ -96459,7 +96435,6 @@ click.klarna.de
 click.klarna.nl
 click.kmindex.ru
 click.knobbeevents.com
-click.landsend.com
 click.lclk.info
 click.leapmobs.com
 click.lenovo.com
@@ -96480,7 +96455,6 @@ click.m.theorangepeel.net
 click.maaxmarket.com
 click.mail.carousell.com
 click.mail.hotels.com
-click.mail.macmillan.com
 click.mail.salesforce.com
 click.mail.zurp.com
 click.mailing.ticketmaster.com
@@ -96490,12 +96464,9 @@ click.mediaforge.com
 click.mediapaper.biz
 click.meetwo.de
 click.meitustat.com
-click.member.americanexpress.com
-click.members.nra.org
 click.mibet.com
 click.mibet.mobi
 click.mkt.grab.com
-click.mlsend.com
 click.mmosite.com
 click.mobile-bt.com
 click.mobtimizer.com
@@ -96504,7 +96475,6 @@ click.monstracking.com
 click.moreinfo.support
 click.mtburn.com
 click.mybest.app
-click.myctm.canadiantire.ca
 click.mysugr.com
 click.mz.simba.taobao.com
 click.nativclick.com
@@ -96515,7 +96485,6 @@ click.newsletter.smashmagpresents.com
 click.nl.npr.org
 click.nuwber.com
 click.nvgaming.nvidia.com
-click.o.delta.com
 click.onedigitalad.com
 click.oneplus.cn
 click.oneplus.com
@@ -96540,7 +96509,6 @@ click.plista.com
 click.preclknu.com
 click.press.impconcerts.com
 click.promogpapp.com
-click.pstmrk.it
 click.q4f9g3np.com
 click.quk.com
 click.rayads.cn
@@ -96551,12 +96519,10 @@ click.redditmail.com
 click.resourcesforclients.net
 click.rontraffic.com
 click.royalalbatross.sg
-click.royalcaribbeanmarketing.com
 click.rssfwd.com
 click.ru
 click.rubiconproject.com
 click.runcpa.com
-click.s.kohls.com
 click.sabavision.com
 click.safe-sender.co.uk
 click.scour.com
@@ -96603,13 +96569,6 @@ click.validity.com
 click.vgnett.no
 click.vip.dfw1.gowadogo.com
 click.virt.exacttarget.com
-click.virt.s10.exacttarget.com
-click.virt.s11.exacttarget.com
-click.virt.s12.exacttarget.com
-click.virt.s4.exacttarget.com
-click.virt.s5.exacttarget.com
-click.virt.s6.exacttarget.com
-click.virt.s7.exacttarget.com
 click.watchjmp.com
 click.web.thornburg.com
 click.wisewire.com
@@ -96744,7 +96703,6 @@ clickc4n.pornharlot.net
 clickcandy2.com
 clickcanoe.com
 clickcash.com
-clickcash.onelink.me
 clickcash.webpower.com
 clickcashmoney.com
 clickcave.g2afse.com
@@ -96969,7 +96927,6 @@ clicks.izea.com
 clicks.kfc.co.uk
 clicks.miles-mobility.com
 clicks.minimob.com
-clicks.mlsend.com
 clicks.mods.de
 clicks.nastydollars.com
 clicks.natwest.com
@@ -107668,14 +107625,12 @@ ct.eid.co.nz
 ct.gz.mobvista.com
 ct.impactradius.com
 ct.itbusinessedge.com
-ct.klclick.com
 ct.krauss.app
 ct.ligatus.com
 ct.needlive.com
 ct.pinterest.com
 ct.pubmatic.com
 ct.sddan.com
-ct.sendgrid.net
 ct.thegear-box.com
 ct.tubemogul.com
 ct.verticalhealth.net
@@ -107807,8 +107762,6 @@ ctrck.com
 ctrdwm.com
 ctrem.site
 ctrhub.com
-ctrk.klclick.com
-ctrk.klclick1.com
 ctrkd.ilsole24ore.com
 ctrl.guenther.de
 ctrlshift.com
@@ -108167,7 +108120,6 @@ custom.allnextver.com
 custom.apenthus.com
 custom.biovello.com
 custom.blurindia.com
-custom.bnc.lt
 custom.cape-decking.co.za
 custom.chezcalinea.fr
 custom.competitionsuitshop.com
@@ -108273,7 +108225,6 @@ customizations.fitanalytics.com
 customize.cz
 customize.netster.com
 customlevelway.com
-customlinks.appsflyer.com
 custommediainc.go2cloud.org
 customoystersruth.com
 customperformance.deere.com
@@ -108815,7 +108766,6 @@ cyxagtpeggjv.com
 cyzdyiccpwx.com
 cz-ad-lgsmartad-com.aws-prd.net
 cz-gmtdmp.mookie1.com
-cz-go.kelkoogroup.net
 cz-rb.com
 cz.ad.lgsmartad.com
 cz.adocean.pl
@@ -111107,7 +111057,6 @@ dashapi.chartbeat.com
 dashapi.chartboost.com
 dashbida.com
 dashbo15myapp.com
-dashboard-01.braze.com
 dashboard-api.demandbase.com
 dashboard-api.production.virginia.demandbase.com
 dashboard-test.appier.net
@@ -115660,7 +115609,6 @@ de-glibhippo.cdn.videoplaza.tv
 de-glibhippo.videoplaza.tv
 de-glibhippo.vp.videoplaza.tv
 de-gmtdmp.mookie1.com
-de-go.kelkoogroup.net
 de-ipd.a.videoplaza.tv
 de-ipd.cdn.videoplaza.tv
 de-ipd.videoplaza.tv
@@ -119656,7 +119604,6 @@ dk-ekstrabladet.vp.videoplaza.tv
 dk-firstimpress.videoplaza.tv
 dk-fornysundhed.com
 dk-gmtdmp.mookie1.com
-dk-go.kelkoogroup.net
 dk-jyllandsposten.a.videoplaza.tv
 dk-jyllandsposten.cdn.videoplaza.tv
 dk-jyllandsposten.videoplaza.tv
@@ -123890,7 +123837,6 @@ ea.ecotour.com
 ea.etam.de
 ea.fleurancenature.com
 ea.fleurancenature.fr
-ea.galerieslafayette.com
 ea.greenweez.co.uk
 ea.healthydirections.com
 ea.histoiredor.com
@@ -126310,7 +126256,6 @@ el.tingesfosses.com
 el.tripackoscin.com
 el.woolik.com
 el12trk.com
-el2.convertkit-mail.com
 ela-3-tnk.com
 ela1.com
 elabalar.pw
@@ -126816,7 +126761,6 @@ email-standards.org
 email-stats.emag.ro
 email-telekom.de
 email-tkmg.solidarites.org
-email-tracking.infobip.com
 email-tracking.parentlab.com
 email-trk.ihg-businessedge.com
 email-trk.mbird.io
@@ -126841,7 +126785,6 @@ email.code.org
 email.crittercism.com
 email.descubrapg.com.br
 email.devchat.ru
-email.docker.com
 email.emarketing.mutualofamerica.com
 email.evan-moor.com
 email.everydayme.com.tr
@@ -126907,7 +126850,6 @@ email.supersavvyme.com
 email.takemefishing.org
 email.thislife.com
 email.ua.pampers.com
-email.uber.com
 email.uk.pampers.com
 email.victoria.co.uk
 email.victoria50.de
@@ -128938,7 +128880,6 @@ es-condenast.cdn.videoplaza.tv
 es-condenast.videoplaza.tv
 es-elconfidencial.videoplaza.tv
 es-gmtdmp.mookie1.com
-es-go.kelkoogroup.net
 es-grupogodo.a.videoplaza.tv
 es-grupogodo.cdn.videoplaza.tv
 es-grupogodo.videoplaza.tv
@@ -130127,7 +130068,6 @@ euler.pmu.fr
 eulerian.astro-way.com
 eulerian.belambra.be
 eulerian.belambra.fr
-eulerian.brandalley.fr
 eulerian.ca
 eulerian.canal-plus.com
 eulerian.co.uk
@@ -135080,7 +135020,6 @@ fhzhxblr.luada.de
 fi-ad-lgsmartad-com.aws-prd.net
 fi-analytics.mgsn.it
 fi-gmtdmp.mookie1.com
-fi-go.kelkoogroup.net
 fi-mtv.videoplaza.tv
 fi-mtv3.cdn.videoplaza.tv
 fi-mtv3.videoplaza.tv
@@ -138275,7 +138214,6 @@ fr-dcon-62.top
 fr-dustreaming.com
 fr-fr.tubemogul.com
 fr-gmtdmp.mookie1.com
-fr-go.kelkoogroup.net
 fr-groupe01.a.videoplaza.tv
 fr-groupe01.cdn.videoplaza.tv
 fr-groupe01.videoplaza.tv
@@ -145639,7 +145577,6 @@ go.flocksafety.com
 go.florencehc.com
 go.fluidigm.com
 go.flvs.net
-go.flx1.com
 go.fmgsuite.com
 go.fohrcard.com
 go.formtechnologies.com
@@ -145895,7 +145832,6 @@ go.metroexhibits.com
 go.meyersresearchllc.com
 go.miaaesthetics.com
 go.microfocus.com
-go.microsoft.com
 go.middleburyinteractive.com
 go.midwestarmor.com
 go.midwesttape.com
@@ -145962,9 +145898,7 @@ go.ninjaone.com
 go.ninjarmm.com
 go.njit.edu
 go.nmi.com
-go.nordlocker.net
 go.nordvpn.com
-go.nordvpn.net
 go.northcentral.edu
 go.northsideentertainmentholdings.com
 go.novirtb.com
@@ -147662,7 +147596,6 @@ gqzfbvfyd.com
 gr-ad-lgsmartad-com.aws-prd.net
 gr-cdn.com
 gr-gmtdmp.mookie1.com
-gr-go.kelkoogroup.net
 gr.ad.lgsmartad.com
 gr.adserver.yahoo.com
 gr.info.lgsmartad.com
@@ -151948,7 +151881,6 @@ guce.adaptv.advertising.com
 guce.adtech.de
 guce.adtechjp.com
 guce.adtechus.com
-guce.advertising.com
 guce.nexage.com
 guce.tacoda.at.atwola.com
 guce.vidible.tv
@@ -157662,7 +157594,6 @@ htyazxwc.com
 htyfmm.com
 hu-ad-lgsmartad-com.aws-prd.net
 hu-gmtdmp.mookie1.com
-hu-go.kelkoogroup.net
 hu.ad.lgsmartad.com
 hu.ads.justpremium.com
 hu.aspsloped.com
@@ -157755,7 +157686,6 @@ hubspot9.com
 hubspot9.net
 hubspotanalytics.com
 hubspotanalytics.net
-hubspotemail.net
 hubspotlinks.com
 hubtraffic.com
 hubtraffms.com
@@ -160096,7 +160026,6 @@ idyllicjazz.com
 idylsrebank.com
 ie-ad-lgsmartad-com.aws-prd.net
 ie-gmtdmp.mookie1.com
-ie-go.kelkoogroup.net
 ie-tv3.a.videoplaza.tv
 ie-tv3.cdn.videoplaza.tv
 ie-tv3.videoplaza.tv
@@ -161587,7 +161516,6 @@ image.click2net.com
 image.click2net.nl
 image.cybererotica.com
 image.e.trafficjunky.com
-image.email.microsoftemail.com
 image.excite.com
 image.game.uc.cn
 image.i1img.com
@@ -162545,7 +162473,6 @@ impact-ad.net
 impact-betegy.com
 impact-log-api.frontiersin.org
 impact.applifier.com
-impact.com
 impact.smaato.net
 impact.staging.applifier.com
 impactanalytics.azurewebsites.net
@@ -171562,7 +171489,6 @@ k.brandalley.es
 k.brandalley.fr
 k.calledelregalo.es
 k.campanile.com
-k.cocooncenter.com
 k.collective-media.net
 k.comptoir.fr
 k.de.intellitxt.com
@@ -178335,15 +178261,12 @@ link.connexity.net
 link.cur.lv
 link.dashboard.earth
 link.davison.com
-link.digitaladvisor.dk
 link.dynamicyield.com
 link.email.campaignlive.com
 link.email.davidlloydclubs.co.uk
 link.email.dynect.net
 link.email.usmagazine.com
-link.epicgames.com
 link.financeadvisors.com
-link.freshmail.mx
 link.fuzemee.com
 link.go.chase
 link.highrewardsapp.com
@@ -178374,7 +178297,6 @@ link.ru
 link.safecart.com
 link.safesslredirect.company
 link.sbstck.com
-link.springer.com
 link.swrve.com
 link.sysmail.fr
 link.team.hyperoptic.com
@@ -178507,13 +178429,7 @@ links.marketamerica.com
 links.marketmovingtrends.com
 links.marymorrissey.com
 links.mkt2383.com
-links.mkt41.net
-links.mkt51.net
 links.mkt563.com
-links.mkt61.net
-links.mkt71.net
-links.mkt81.net
-links.mkt91.net
 links.news.hims.com
 links.ohhey.depop.com
 links.onlinedownloads.org
@@ -178704,7 +178620,6 @@ lispimprovementgrocery.com
 lispnegligent.com
 lisqvfrr.com
 list-ads.com
-list-manage.com
 list.ilius.net
 list.ru
 list2.bravenet.com
@@ -219964,7 +219879,6 @@ mx-ad-lgsmartad-com.aws-prd.net
 mx-filter-01.lax1.appnexus.com
 mx-filter-01.nym2.appnexus.com
 mx-gmtdmp.mookie1.com
-mx-go.kelkoogroup.net
 mx-grupoexpansion.videoplaza.tv
 mx-serv-214.top
 mx-sunmedia.videoplaza.tv
@@ -222261,7 +222175,6 @@ nazarabo.bitterstrawberry.com
 nazcu.winc.com
 nazdiksuper.com
 naznwrruruvf.com
-nb-go.kelkoogroup.net
 nb-s.lemnisk.co
 nb.lemnisk.co
 nb.myspace.com
@@ -224853,7 +224766,6 @@ nkyzsgitgjdam.space
 nl-ad-lgsmartad-com.aws-prd.net
 nl-ams-as44788.anchors.atlas.ripe.net
 nl-gmtdmp.mookie1.com
-nl-go.kelkoogroup.net
 nl-moneyou.netmining.com
 nl-saab.netmining.com
 nl-sanoma.a.videoplaza.tv
@@ -225216,7 +225128,6 @@ no-egmont.cdn.videoplaza.tv
 no-egmont.videoplaza.tv
 no-gbh.com
 no-gmtdmp.mookie1.com
-no-go.kelkoogroup.net
 no-htg.a.videoplaza.tv
 no-htg.cdn.videoplaza.tv
 no-htg.videoplaza.tv
@@ -233470,7 +233381,6 @@ online.assuranceagency.com
 online.casinodelrio.com
 online.cnzz.com
 online.com
-online.digital-advisor.com
 online.koko-ko.com
 online.madrobeofficial.com
 online.miarroba.com
@@ -233925,7 +233835,6 @@ open.plugin.tui.cnzz.com
 open.segment.com
 open.skeinplay.com
 open.snssdk.com.bytedns.net
-open.spotify.com
 open.talk.igexin.com
 open.trustclick.pro
 open.uc.cn
@@ -247480,7 +247389,6 @@ pkzfmxjlkcxkub.com
 pl-ad-lgsmartad-com.aws-prd.net
 pl-engine.intextad.net
 pl-gmtdmp.mookie1.com
-pl-go.kelkoogroup.net
 pl-goldbach.videoplaza.tv
 pl-v2.presage.io
 pl.263gmail.org
@@ -251258,7 +251166,6 @@ postroimdom.mirtesen.ru
 postroller.com
 postrsyk.com
 postscript.io
-postsign.docusign.com
 postsupport.net
 postthieve.com
 postuin.bond
@@ -254259,7 +254166,6 @@ pt-controlinveste.a.videoplaza.tv
 pt-controlinveste.cdn.videoplaza.tv
 pt-controlinveste.videoplaza.tv
 pt-gmtdmp.mookie1.com
-pt-go.kelkoogroup.net
 pt-trx.com
 pt-xb.xyz
 pt.ad.lgsmartad.com
@@ -260868,7 +260774,6 @@ rd.adx.io
 rd.alice.it
 rd.ane.yahoo.co.jp
 rd.apmebf.com
-rd.bizrate.com
 rd.business.com
 rd.captifymedia.com
 rd.clickshift.com
@@ -260892,7 +260797,6 @@ rd1.hitbox.com
 rd1.surfernetwork.com
 rd10trk.com
 rd17use-tm.everesttech.net
-rd2szde.bizrate.com
 rd4omgx9.tatcha.com
 rd91-0-azurenet.top
 rd99mxvoa3.com
@@ -261719,7 +261623,6 @@ redir.lomadee.com
 redir.metaservices.microsoft.com
 redir.snoobi.com
 redir.speedbit.com
-redir.tradedoubler.com
 redir.wargaming.net
 redir.widdit.com
 redir.ylx-4.com
@@ -261791,7 +261694,6 @@ redirectpopads.com
 redirects.coldhardcash.com
 redirects.ero-advertising.com
 redirects.timesink.com
-redirects.tradedoubler.com
 redirectsnew.click
 redirecttoplace.online
 redirecturl.ru
@@ -265081,7 +264983,6 @@ rnzh.dietbon.fr
 rnzzrylopa.bid
 ro-ad-lgsmartad-com.aws-prd.net
 ro-gmtdmp.mookie1.com
-ro-go.kelkoogroup.net
 ro.ad.lgsmartad.com
 ro.adocean.pl
 ro.cornofuggy.com
@@ -267208,7 +267109,6 @@ ru-api.xmpush.global.xiaomi.com
 ru-di-pao.space
 ru-feedback.xmpush.global.xiaomi.com
 ru-gmtdmp.mookie1.com
-ru-go.kelkoogroup.net
 ru-novocti.com
 ru-onrt-stsdk.vivoglobal.com
 ru-register.xmpush.global.xiaomi.com
@@ -272936,7 +272836,6 @@ se-fe-analytics.ui.sestage.us
 se-fe-analytics.ui.sportngin.com
 se-fe-analytics.ui.sportsengine.com
 se-gmtdmp.mookie1.com
-se-go.kelkoogroup.net
 se-hd.cdn.videoplaza.tv
 se-hd.videoplaza.tv
 se-hockeyligan.cdn.videoplaza.tv
@@ -283180,10 +283079,6 @@ sites.atosmedical.com
 sites.atosmedical.es
 sites.atosmedical.nl
 sites.chartboost.com
-sites.hscoscdn10.net
-sites.hscoscdn20.net
-sites.hscoscdn30.net
-sites.hscoscdn40.net
 sites.monedero.fahorro.com.mx
 sitescout-video-cdn.edgesuite.net
 sitescout.com
@@ -283438,7 +283333,6 @@ sjzbf.doheny.com
 sk-ad-lgsmartad-com.aws-prd.net
 sk-by.com
 sk-gmtdmp.mookie1.com
-sk-go.kelkoogroup.net
 sk-rb.com
 sk.429men.com
 sk.4wank.com
@@ -316353,7 +316247,6 @@ suite-trezor.click
 suite.socialbakers.com
 suite.tem3.io
 suite.webtrekk.com
-suite15.emarsys.net
 suite66.com
 suite6ixty6ix.com
 suitedeatercrutch.com
@@ -318126,7 +318019,6 @@ syndication.linkfryn.com
 syndication.linkwitt.com
 syndication.loganmueller.info
 syndication.openapi.naver.com
-syndication.realsrv.com
 syndication.site.yahoo.net
 syndication.standard.co.uk
 syndication.teleborsa.it
@@ -318603,7 +318495,6 @@ t.doorsonlineuk.co.uk
 t.douglasjamestraining.com
 t.dreamjoys.com
 t.dreizinnen.com
-t.dripemail2.com
 t.drippi.ai
 t.drippileads.com
 t.dripshipper.io
@@ -320677,7 +320568,6 @@ target.chase.com
 target.chrysler.com
 target.cisco.com
 target.claris.com
-target.clickfunnels.com
 target.cm
 target.comdata.com
 target.comenity.net
@@ -329303,7 +329193,6 @@ track.shop.international.nhl.com
 track.shop.leisuretec.co.uk
 track.shop.psg.fr
 track.shop2market.com
-track.shoparize.com
 track.shopnovawave.com
 track.siennawest.com
 track.sigfig.com
@@ -332959,10 +332848,7 @@ trk.jawoll.de
 trk.jokeraffiliates.com
 trk.jumpmanaffiliates.co.uk
 trk.kissmetrics.com
-trk.klclick.com
 trk.klclick1.com
-trk.klclick2.com
-trk.klclick3.com
 trk.largecast.com
 trk.lcn.com
 trk.listelixr.net
@@ -336531,7 +336417,6 @@ uk-extreme.videoplaza.tv
 uk-fishingtv.cdn.videoplaza.tv
 uk-fishingtv.videoplaza.tv
 uk-go.adinfuse.com
-uk-go.kelkoogroup.net
 uk-mhd.videoplaza.tv
 uk-mobile.events.data.microsoft.com
 uk-mpora.a.videoplaza.tv
@@ -338897,7 +338782,6 @@ us-events.api.iheart.com
 us-ezalter.cootekservice.com
 us-fp.apitd.net
 us-gmtdmp.mookie1.com
-us-go.kelkoogroup.net
 us-greenatom.cdn.videoplaza.tv
 us-greenatom.videoplaza.tv
 us-haymon.videoplaza.tv
