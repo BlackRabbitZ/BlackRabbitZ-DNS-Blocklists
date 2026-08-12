@@ -241,40 +241,21 @@ Upgrading from the previous `security.txt` / `family.txt` / `ultimate-N.txt` lay
 The following optional lists extend the normal BlackRabbitZ categories. They come from the documented HaGeZi state and remain separate from the standard profiles.
 
 <!-- SPECIAL_ADS_TRACKING_START -->
-<a id="special-popup-ads"></a>
-<details>
-<summary><strong>8. 🎉 Pop-Up Ads</strong> — Blocks annoying and potentially malicious pop-up advertising domains.</summary>
-
-**Risk: Medium**
-
-| Variant | Entries | Format | View / Parts | Raw |
+| List | Entries | Description | View | Raw |
 |---|---:|---|:---:|:---:|
-| **Full** | Not built yet | Domains | — | — |
-
-</details>
-
-<a id="special-native-tracker-archive"></a>
-<details>
-<summary><strong>22. 📲 Native Tracker – Devices & Services</strong> — Device- and service-specific tracker lists for Amazon, Apple, Huawei, Microsoft, Samsung, TikTok, LG webOS, Roku, Vivo, OPPO/Realme and Xiaomi.</summary>
-
-**Risk: Medium–High**
-
-| Variant | Entries | Format | View / Parts | Raw |
-|---|---:|---|:---:|:---:|
-| **Amazon** | Not built yet | Domains | — | — |
-| **Apple** | Not built yet | Domains | — | — |
-| **Huawei** | Not built yet | Domains | — | — |
-| **Microsoft / Windows / Office** | Not built yet | Domains | — | — |
-| **Samsung** | Not built yet | Domains | — | — |
-| **TikTok** | Not built yet | Domains | — | — |
-| **TikTok – Aggressive** | Not built yet | Domains | — | — |
-| **LG webOS** | Not built yet | Domains | — | — |
-| **Roku** | Not built yet | Domains | — | — |
-| **Vivo** | Not built yet | Domains | — | — |
-| **OPPO / Realme** | Not built yet | Domains | — | — |
-| **Xiaomi** | Not built yet | Domains | — | — |
-
-</details>
+| <a id="special-popup-ads"></a>🎉 **8. Pop-Up Ads** | Not built yet | Blocks annoying and potentially malicious pop-up advertising domains. | — | — |
+| <a id="special-native-tracker-archive"></a>📲 **22. Native Tracker – Devices & Services – Amazon** | Not built yet | Device- and service-specific tracker lists for Amazon, Apple, Huawei, Microsoft, Samsung, TikTok, LG webOS, Roku, Vivo, OPPO/Realme and Xiaomi. | — | — |
+| 📲 **22. Native Tracker – Devices & Services – Apple** | Not built yet | Device- and service-specific tracker lists for Amazon, Apple, Huawei, Microsoft, Samsung, TikTok, LG webOS, Roku, Vivo, OPPO/Realme and Xiaomi. | — | — |
+| 📲 **22. Native Tracker – Devices & Services – Huawei** | Not built yet | Device- and service-specific tracker lists for Amazon, Apple, Huawei, Microsoft, Samsung, TikTok, LG webOS, Roku, Vivo, OPPO/Realme and Xiaomi. | — | — |
+| 📲 **22. Native Tracker – Devices & Services – Microsoft / Windows / Office** | Not built yet | Device- and service-specific tracker lists for Amazon, Apple, Huawei, Microsoft, Samsung, TikTok, LG webOS, Roku, Vivo, OPPO/Realme and Xiaomi. | — | — |
+| 📲 **22. Native Tracker – Devices & Services – Samsung** | Not built yet | Device- and service-specific tracker lists for Amazon, Apple, Huawei, Microsoft, Samsung, TikTok, LG webOS, Roku, Vivo, OPPO/Realme and Xiaomi. | — | — |
+| 📲 **22. Native Tracker – Devices & Services – TikTok** | Not built yet | Device- and service-specific tracker lists for Amazon, Apple, Huawei, Microsoft, Samsung, TikTok, LG webOS, Roku, Vivo, OPPO/Realme and Xiaomi. | — | — |
+| 📲 **22. Native Tracker – Devices & Services – TikTok – Aggressive** | Not built yet | Device- and service-specific tracker lists for Amazon, Apple, Huawei, Microsoft, Samsung, TikTok, LG webOS, Roku, Vivo, OPPO/Realme and Xiaomi. | — | — |
+| 📲 **22. Native Tracker – Devices & Services – LG webOS** | Not built yet | Device- and service-specific tracker lists for Amazon, Apple, Huawei, Microsoft, Samsung, TikTok, LG webOS, Roku, Vivo, OPPO/Realme and Xiaomi. | — | — |
+| 📲 **22. Native Tracker – Devices & Services – Roku** | Not built yet | Device- and service-specific tracker lists for Amazon, Apple, Huawei, Microsoft, Samsung, TikTok, LG webOS, Roku, Vivo, OPPO/Realme and Xiaomi. | — | — |
+| 📲 **22. Native Tracker – Devices & Services – Vivo** | Not built yet | Device- and service-specific tracker lists for Amazon, Apple, Huawei, Microsoft, Samsung, TikTok, LG webOS, Roku, Vivo, OPPO/Realme and Xiaomi. | — | — |
+| 📲 **22. Native Tracker – Devices & Services – OPPO / Realme** | Not built yet | Device- and service-specific tracker lists for Amazon, Apple, Huawei, Microsoft, Samsung, TikTok, LG webOS, Roku, Vivo, OPPO/Realme and Xiaomi. | — | — |
+| 📲 **22. Native Tracker – Devices & Services – Xiaomi** | Not built yet | Device- and service-specific tracker lists for Amazon, Apple, Huawei, Microsoft, Samsung, TikTok, LG webOS, Roku, Vivo, OPPO/Realme and Xiaomi. | — | — |
 <!-- SPECIAL_ADS_TRACKING_END -->
 
 ---
@@ -329,87 +310,24 @@ The following optional lists extend the normal BlackRabbitZ categories. They com
 Additional threat-intelligence, NRD/DGA, DynDNS, hoster and TLD lists are available for higher-security environments. These modules are more aggressive and can cause more false positives.
 
 <!-- SPECIAL_SECURITY_START -->
-<a id="special-fake"></a>
-<details>
-<summary><strong>7. 🎭 Fake & Internet Scams</strong> — Protection against fake shops, rip-offs, traps and fraudulent fake offers.</summary>
-
-**Risk: Medium**
-
-| Variant | Entries | Format | View / Parts | Raw |
+| List | Entries | Description | View | Raw |
 |---|---:|---|:---:|:---:|
-| **Full** | Not built yet | Domains | — | — |
-
-</details>
-
-<a id="special-threat-intelligence"></a>
-<details>
-<summary><strong>9. 🔐 Threat Intelligence Feeds</strong> — Additional malware, phishing, scam, spam, cryptojacking and C2 indicators in multiple sizes.</summary>
-
-**Risk: Medium–High**
-
-| Variant | Entries | Format | View / Parts | Raw |
-|---|---:|---|:---:|:---:|
-| **Full** | Not built yet | Domains | — | — |
-| **Medium** | Not built yet | Domains | — | — |
-| **Mini** | Not built yet | Domains | — | — |
-| **IPv4** | Not built yet | IPv4 / firewall | — | — |
-
-</details>
-
-<a id="special-nrd-dga"></a>
-<details>
-<summary><strong>10. 🆕 Newly Registered Domains / NRD & DGA</strong> — Time-window lists for newly registered domains and high-entropy DGA domains; very large and especially aggressive.</summary>
-
-**Risk: Very high**
-
-| Variant | Entries | Format | View / Parts | Raw |
-|---|---:|---|:---:|:---:|
-| **NRD days 1–7** | Not built yet | Domains | — | — |
-| **NRD days 8–14** | Not built yet | Domains | — | — |
-| **NRD days 15–21** | Not built yet | Domains | — | — |
-| **NRD days 22–28** | Not built yet | Domains | — | — |
-| **NRD days 29–35** | Not built yet | Domains | — | — |
-| **DGA 7 days** | Not built yet | Domains | — | — |
-| **DGA 14 days** | Not built yet | Domains | — | — |
-| **DGA 30 days** | Not built yet | Domains | — | — |
-
-</details>
-
-<a id="special-dynamic-dns"></a>
-<details>
-<summary><strong>13. 🔏 Dynamic DNS</strong> — Blocks known dynamic-DNS services that can be abused in phishing or malware campaigns.</summary>
-
-**Risk: High**
-
-| Variant | Entries | Format | View / Parts | Raw |
-|---|---:|---|:---:|:---:|
-| **Full** | Not built yet | Domains | — | — |
-
-</details>
-
-<a id="special-badware-hoster"></a>
-<details>
-<summary><strong>14. 💻 Badware Hoster</strong> — Blocks hosting-provider root domains repeatedly abused for malicious content; high false-positive risk.</summary>
-
-**Risk: Very high**
-
-| Variant | Entries | Format | View / Parts | Raw |
-|---|---:|---|:---:|:---:|
-| **Full** | Not built yet | Domains | — | — |
-
-</details>
-
-<a id="special-most-abused-tlds"></a>
-<details>
-<summary><strong>16. 🔮 Most Abused TLDs</strong> — Aggressive rules blocking entire frequently abused top-level domains; archived in Pi-hole-compatible Adblock format.</summary>
-
-**Risk: Very high**
-
-| Variant | Entries | Format | View / Parts | Raw |
-|---|---:|---|:---:|:---:|
-| **Pi-hole Adblock** | Not built yet | Adblock | — | — |
-
-</details>
+| <a id="special-fake"></a>🎭 **7. Fake & Internet Scams** | Not built yet | Protection against fake shops, rip-offs, traps and fraudulent fake offers. | — | — |
+| <a id="special-threat-intelligence"></a>🔐 **9. Threat Intelligence Feeds – Full** | Not built yet | Additional malware, phishing, scam, spam, cryptojacking and C2 indicators in multiple sizes. | — | — |
+| 🔐 **9. Threat Intelligence Feeds – Medium** | Not built yet | Additional malware, phishing, scam, spam, cryptojacking and C2 indicators in multiple sizes. | — | — |
+| 🔐 **9. Threat Intelligence Feeds – Mini** | Not built yet | Additional malware, phishing, scam, spam, cryptojacking and C2 indicators in multiple sizes. | — | — |
+| 🔐 **9. Threat Intelligence Feeds – IPv4** | Not built yet | Additional malware, phishing, scam, spam, cryptojacking and C2 indicators in multiple sizes. | — | — |
+| <a id="special-nrd-dga"></a>🆕 **10. Newly Registered Domains / NRD & DGA – NRD days 1–7** | Not built yet | Time-window lists for newly registered domains and high-entropy DGA domains; very large and especially aggressive. | — | — |
+| 🆕 **10. Newly Registered Domains / NRD & DGA – NRD days 8–14** | Not built yet | Time-window lists for newly registered domains and high-entropy DGA domains; very large and especially aggressive. | — | — |
+| 🆕 **10. Newly Registered Domains / NRD & DGA – NRD days 15–21** | Not built yet | Time-window lists for newly registered domains and high-entropy DGA domains; very large and especially aggressive. | — | — |
+| 🆕 **10. Newly Registered Domains / NRD & DGA – NRD days 22–28** | Not built yet | Time-window lists for newly registered domains and high-entropy DGA domains; very large and especially aggressive. | — | — |
+| 🆕 **10. Newly Registered Domains / NRD & DGA – NRD days 29–35** | Not built yet | Time-window lists for newly registered domains and high-entropy DGA domains; very large and especially aggressive. | — | — |
+| 🆕 **10. Newly Registered Domains / NRD & DGA – DGA 7 days** | Not built yet | Time-window lists for newly registered domains and high-entropy DGA domains; very large and especially aggressive. | — | — |
+| 🆕 **10. Newly Registered Domains / NRD & DGA – DGA 14 days** | Not built yet | Time-window lists for newly registered domains and high-entropy DGA domains; very large and especially aggressive. | — | — |
+| 🆕 **10. Newly Registered Domains / NRD & DGA – DGA 30 days** | Not built yet | Time-window lists for newly registered domains and high-entropy DGA domains; very large and especially aggressive. | — | — |
+| <a id="special-dynamic-dns"></a>🔏 **13. Dynamic DNS** | Not built yet | Blocks known dynamic-DNS services that can be abused in phishing or malware campaigns. | — | — |
+| <a id="special-badware-hoster"></a>💻 **14. Badware Hoster** | Not built yet | Blocks hosting-provider root domains repeatedly abused for malicious content; high false-positive risk. | — | — |
+| <a id="special-most-abused-tlds"></a>🔮 **16. Most Abused TLDs** | Not built yet | Aggressive rules blocking entire frequently abused top-level domains; archived in Pi-hole-compatible Adblock format. | — | — |
 <!-- SPECIAL_SECURITY_END -->
 
 ---
@@ -420,41 +338,13 @@ Additional threat-intelligence, NRD/DGA, DynDNS, hoster and TLD lists are availa
 These optional modules target **DNS bypass, DNS rebinding and obfuscated redirects**. They are not part of the normal privacy profiles and should be enabled deliberately.
 
 <!-- SPECIAL_NETWORK_START -->
-<a id="special-dns-bypass"></a>
-<details>
-<summary><strong>11. 📤 DoH/VPN/TOR/Proxy Bypass</strong> — Blocks known encrypted-DNS, VPN, TOR and proxy endpoints that can bypass local DNS filtering.</summary>
-
-**Risk: High**
-
-| Variant | Entries | Format | View / Parts | Raw |
+| List | Entries | Description | View | Raw |
 |---|---:|---|:---:|:---:|
-| **Full** | Not built yet | Domains | — | — |
-| **DoH only** | Not built yet | Domains | — | — |
-| **DoH IPv4** | Not built yet | IPv4 / firewall | — | — |
-
-</details>
-
-<a id="special-url-shortener"></a>
-<details>
-<summary><strong>15. 📲 URL Shortener</strong> — Blocks known link/URL shorteners; intentionally marked very aggressive for normal home networks.</summary>
-
-**Risk: Very high**
-
-| Variant | Entries | Format | View / Parts | Raw |
-|---|---:|---|:---:|:---:|
-| **Full** | Not built yet | Domains | — | — |
-
-</details>
-
-<a id="special-dns-rebind-protection"></a>
-<details>
-<summary><strong>17. 🛡️ DNS Rebind Protection</strong> — Pi-hole/dnsmasq configuration against DNS rebinding; not a normal static domain Adlist.</summary>
-
-**Risk: Configuration**
-
-[Documentation](docs/DNS_REBIND_PROTECTION_EN.md)
-
-</details>
+| <a id="special-dns-bypass"></a>📤 **11. DoH/VPN/TOR/Proxy Bypass – Full** | Not built yet | Blocks known encrypted-DNS, VPN, TOR and proxy endpoints that can bypass local DNS filtering. | — | — |
+| 📤 **11. DoH/VPN/TOR/Proxy Bypass – DoH only** | Not built yet | Blocks known encrypted-DNS, VPN, TOR and proxy endpoints that can bypass local DNS filtering. | — | — |
+| 📤 **11. DoH/VPN/TOR/Proxy Bypass – DoH IPv4** | Not built yet | Blocks known encrypted-DNS, VPN, TOR and proxy endpoints that can bypass local DNS filtering. | — | — |
+| <a id="special-url-shortener"></a>📲 **15. URL Shortener** | Not built yet | Blocks known link/URL shorteners; intentionally marked very aggressive for normal home networks. | — | — |
+| <a id="special-dns-rebind-protection"></a>🛡️ **17. DNS Rebind Protection** | — | Pi-hole/dnsmasq configuration against DNS rebinding; not a normal static domain Adlist. | [Documentation](docs/DNS_REBIND_PROTECTION_EN.md) | — |
 <!-- SPECIAL_NETWORK_END -->
 
 ---
@@ -474,67 +364,15 @@ These optional modules target **DNS bypass, DNS rebinding and obfuscated redirec
 In addition to the normal Adult and Gambling categories, optional SafeSearch, anti-piracy, social-network and NSFW lists are available. These filters can block wanted content or entire services.
 
 <!-- SPECIAL_FAMILY_START -->
-<a id="special-safesearch-unsupported"></a>
-<details>
-<summary><strong>12. 🔍 SafeSearch Unsupported</strong> — Blocks search engines that do not support SafeSearch.</summary>
-
-**Risk: High**
-
-| Variant | Entries | Format | View / Parts | Raw |
+| List | Entries | Description | View | Raw |
 |---|---:|---|:---:|:---:|
-| **Full** | Not built yet | Domains | — | — |
-
-</details>
-
-<a id="special-anti-piracy"></a>
-<details>
-<summary><strong>18. 💀 Anti Piracy</strong> — Blocks domains and services mainly used for unauthorized distribution of copyrighted content.</summary>
-
-**Risk: High**
-
-| Variant | Entries | Format | View / Parts | Raw |
-|---|---:|---|:---:|:---:|
-| **Full** | Not built yet | Domains | — | — |
-
-</details>
-
-<a id="special-gambling-archive"></a>
-<details>
-<summary><strong>19. 🎰 Gambling – HaGeZi Variants</strong> — Archived full, medium and mini variants in addition to the existing BlackRabbitZ gambling list.</summary>
-
-**Risk: High**
-
-| Variant | Entries | Format | View / Parts | Raw |
-|---|---:|---|:---:|:---:|
-| **Full** | Not built yet | Domains | — | — |
-| **Medium** | Not built yet | Domains | — | — |
-| **Mini** | Not built yet | Domains | — | — |
-
-</details>
-
-<a id="special-social-networks"></a>
-<details>
-<summary><strong>20. 💬 Social Networks</strong> — Blocks access to traditional social networks; messaging and streaming are not automatically treated the same way.</summary>
-
-**Risk: Very high**
-
-| Variant | Entries | Format | View / Parts | Raw |
-|---|---:|---|:---:|:---:|
-| **Full** | Not built yet | Domains | — | — |
-
-</details>
-
-<a id="special-nsfw-archive"></a>
-<details>
-<summary><strong>21. 🔞 NSFW / Adult Content – HaGeZi</strong> — Archived HaGeZi NSFW list in addition to the existing BlackRabbitZ Adult category.</summary>
-
-**Risk: High**
-
-| Variant | Entries | Format | View / Parts | Raw |
-|---|---:|---|:---:|:---:|
-| **Full** | Not built yet | Domains | — | — |
-
-</details>
+| <a id="special-safesearch-unsupported"></a>🔍 **12. SafeSearch Unsupported** | Not built yet | Blocks search engines that do not support SafeSearch. | — | — |
+| <a id="special-anti-piracy"></a>💀 **18. Anti Piracy** | Not built yet | Blocks domains and services mainly used for unauthorized distribution of copyrighted content. | — | — |
+| <a id="special-gambling-archive"></a>🎰 **19. Gambling – HaGeZi Variants – Full** | Not built yet | Archived full, medium and mini variants in addition to the existing BlackRabbitZ gambling list. | — | — |
+| 🎰 **19. Gambling – HaGeZi Variants – Medium** | Not built yet | Archived full, medium and mini variants in addition to the existing BlackRabbitZ gambling list. | — | — |
+| 🎰 **19. Gambling – HaGeZi Variants – Mini** | Not built yet | Archived full, medium and mini variants in addition to the existing BlackRabbitZ gambling list. | — | — |
+| <a id="special-social-networks"></a>💬 **20. Social Networks** | Not built yet | Blocks access to traditional social networks; messaging and streaming are not automatically treated the same way. | — | — |
+| <a id="special-nsfw-archive"></a>🔞 **21. NSFW / Adult Content – HaGeZi** | Not built yet | Archived HaGeZi NSFW list in addition to the existing BlackRabbitZ Adult category. | — | — |
 <!-- SPECIAL_FAMILY_END -->
 
 ---
