@@ -3,14 +3,25 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 959060
-# Ultimate Total Entries: 5168996
+# Entries: 959076
+# Ultimate Total Entries: 5169010
 #
 # Includes: ads, trackers, telemetry, windows-telemetry, apple-telemetry, android-telemetry, linux-telemetry, nas-telemetry, server-telemetry, smart-tv, iot, mobile-tracking, social-trackers, native-tracking, phishing, malware, scam, cryptomining, fake-shops, adult, gambling, consent-cmp, affiliate-tracking
 #
 # IMPORTANT: This is only one part of the Ultimate profile.
 # Add every ultimate-N.txt Raw URL listed in the README for complete coverage.
 #
+tikungperawan24.blogspot.com
+tikunoff.tumblr.com
+tikunogiyih.shop
+tikuprivate-uz.sbs
+tikura.com.br
+tikurlayer.click
+tikus.shop
+tikus138slot.com
+tikus2.ydso.xyz
+tikus4d.top
+tikus4d22.com
 tikus4dhoki.com
 tikusbetslot.com
 tikuscuan.online
@@ -255147,6 +255158,7 @@ voltagebank.xyz
 voltagebet.com
 voltagebet.online
 voltageboostmod.com
+voltagec2.tech
 voltagecloud.xyz
 voltagedisciple.com
 voltageeyewear.com
@@ -459400,6 +459412,7 @@ www.cm47420.tmweb.ru
 www.cma.kz
 www.cma.or.ke
 www.cma.pa.gov.br
+www.cma88.vip
 www.cmaaa15.org
 www.cmacbeaches.com
 www.cmacollection.it
@@ -469238,6 +469251,7 @@ www.coolwidgetdeals.com
 www.coolworth.com
 www.coolwwwsearch.com
 www.coolxengineering.com
+www.coolztz.com
 www.coomascol.com
 www.coonfiance.com.br
 www.coonskin.review
@@ -522922,6 +522936,7 @@ www.gestionyconocimiento.com
 www.gestomarket.co
 www.gestoria.cl
 www.gestorinvest.com.br
+www.gestroom.it
 www.gesturidesimplitate.blogspot.com
 www.gesumariagiuseppe.arcidiocesi.palermo.it
 www.gesundheit.alles-im-inter.net
@@ -542320,6 +542335,7 @@ www.hutogepszerviz.info
 www.hutporn.com
 www.hutteldorfer.ga
 www.hutter-unger.de
+www.huttprimax.partners
 www.huubcaipaisometrics.review
 www.huugiijmiswrite.download
 www.huurwoningdirect.nl

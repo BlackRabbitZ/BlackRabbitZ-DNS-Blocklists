@@ -3,8 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 266438
-# Auto-updated: 2026-08-11T23:19:50Z
+# Entries: 266444
+# Auto-updated: 2026-08-12T05:03:59Z
 # Description: Massive scam, fraud and deceptive-platform domain set.
 # Sources: Block List Project Fraud/Scam; DurableNapkin Scam Blocklist; curated BaFin entries
 # Snapshot: 2026-08
@@ -58097,6 +58097,7 @@ gloszwbliskosci.top
 glotchat.click
 glotech-solutions.com
 glount.com
+glousism.co.in
 glowcoins.com
 glowflip.com
 glowjovial.com
@@ -90017,6 +90018,7 @@ navi35.com
 navi36.ru
 navi38.ru
 navi39.ru
+navi42.ru
 navi5.com
 navi52.com
 navi53.com
@@ -122232,6 +122234,7 @@ store.www.base-vod.pl
 store.xcartpro.com
 store.xvid.social-previews.top
 store.yahhhoo.com
+store.yandex.avito.bo0king.com-id16313.info
 store.ygtube.xyz
 store.youtubee.com
 store.youtunbe.com
@@ -129035,6 +129038,7 @@ td903.inspectionprocedure.shop
 tdcdn-verify.com
 tdcoincore.org
 tdfreepdf.site
+tdgrop168.vip
 tdgysmmdru.bid
 tdm.com.co
 tdrcjxhcmmgeww.bid
@@ -171812,6 +171816,7 @@ www.clvipshoes.com
 www.clvipshop.com
 www.clydemail.co.uk
 www.cm.damiansikora.cfd
+www.cma88.vip
 www.cmaralin.club
 www.cmcimport.com
 www.cmdsupport.com
@@ -177476,6 +177481,7 @@ www.cooltvs.stream
 www.coolwatchesbuy.co
 www.coolweath.club
 www.coolwebhosts.com
+www.coolztz.com
 www.coop-pointshop.com
 www.coopctr.com.br
 www.cooperativasocialpenedes.org

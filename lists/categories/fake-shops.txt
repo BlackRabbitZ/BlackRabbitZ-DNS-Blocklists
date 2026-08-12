@@ -3,8 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 11379
-# Auto-updated: 2026-08-11T23:19:51Z
+# Entries: 11380
+# Auto-updated: 2026-08-12T05:03:59Z
 # Description: Aggressive deceptive-store and fake-shop candidates derived from fraud/scam intelligence.
 # Sources: Block List Project Fraud/Scam (retail subset); DurableNapkin (retail subset); Verbraucherzentrale curated entries
 # Snapshot: 2026-08
@@ -4991,6 +4991,7 @@ store.www.base-vod.pl
 store.xcartpro.com
 store.xvid.social-previews.top
 store.yahhhoo.com
+store.yandex.avito.bo0king.com-id16313.info
 store.ygtube.xyz
 store.youtubee.com
 store.youtunbe.com
