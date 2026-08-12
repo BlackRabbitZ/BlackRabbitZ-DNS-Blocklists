@@ -35,35 +35,19 @@ DNS-Blocklisten stoppen unerwünschte Verbindungen bereits bei der Namensauflös
 - [Datenschutzprofile](#protection-profiles) — Light, Balanced, Strict und Ultimate als abgestufte Schutzprofile
 - [Schutzvergleich](#protection-comparison) — Funktionsumfang und Fehlfunktionsrisiko der Profile
   - [Optionale Schutzmodule](#optional-protection-modules) — Security und Family als gezielte Ergänzungen
-  - [Große Profil-Teile](#large-profile-parts) — alle Raw-Parts für Security, Family und Ultimate
-- [Werbung & Tracking](#ads-tracking) — Werbung, Tracker, Affiliate, Pop-Ups und native Tracker
-  - [8. Pop-Up-Werbung](#special-popup-ads) — störende und potenziell schädliche Pop-up-Domains
-  - [22. Native Tracker](#special-native-tracker-archive) — geräte- und dienstespezifisches Tracking
-- [Telemetrie & Geräte](#telemetry-devices) — Betriebssystem-, Geräte-, Smart-TV-, IoT- und Server-Telemetrie
+  - [Große Profil-Teile](#large-profile-parts) — automatisch erzeugte Raw-Parts; künftig maximal 50 MiB pro Datei
+- [Werbung & Tracking](#ads-tracking) — Werbung, Tracker, Affiliate-Tracking und Pop-Up-Werbung
+- [Telemetrie & Geräte](#telemetry-devices) — Betriebssystem-, Geräte-, Smart-TV-, IoT- und Native-Tracker-Listen
 - [Gaming-Datenschutz](#gaming-privacy) — Gaming-Telemetrie und optionale RegEx-Regeln
-- [Sicherheitslisten](#security-lists) — Malware, Phishing, Scam, Fake-Shops und erweiterte Threat-Intelligence
-  - [7. Fake & Internet-Betrug](#special-fake) — Fake-Shops, Abzocke, Kostenfallen und betrügerische Angebote
-  - [9. Threat Intelligence Feeds](#special-threat-intelligence) — Full, Medium, Mini und IPv4-Indikatoren
-  - [10. Neu registrierte Domains / NRD & DGA](#special-nrd-dga) — neue und hochentropische Domains; sehr aggressiv
-  - [13. Dynamic DNS](#special-dynamic-dns) — bekannte DynDNS-Dienste mit Missbrauchsrisiko
-  - [14. Badware-Hoster](#special-badware-hoster) — Hosting-Infrastruktur mit erhöhtem Missbrauchsrisiko
-  - [16. Häufig missbrauchte TLDs](#special-most-abused-tlds) — aggressive TLD-basierte Schutzregeln
-- [DNS-, Web- & Bypass-Schutz](#dns-web-protection) — Schutz vor DNS-Umgehung, Rebinding und verschleierten Kurzlinks
-  - [11. DoH/VPN/TOR/Proxy-Bypass](#special-dns-bypass) — Endpunkte, die lokale DNS-Filter umgehen können
-  - [15. URL-Kürzer](#special-url-shortener) — bekannte Link-/URL-Shortener
-  - [17. DNS-Rebind-Schutz](#special-dns-rebind-protection) — Resolver-Konfiguration gegen DNS-Rebinding
-- [Familienlisten](#family-lists) — Erwachsenen-Inhalte, Glücksspiel und optionale Jugendschutzmodule
-  - [12. SafeSearch nicht unterstützt](#special-safesearch-unsupported) — Suchmaschinen ohne SafeSearch-Unterstützung
-  - [18. Anti-Piracy](#special-anti-piracy) — Domains für nicht autorisierte Inhaltsverbreitung
-  - [19. Glücksspiel-Varianten](#special-gambling-archive) — Full, Medium und Mini
-  - [20. Soziale Netzwerke sperren](#special-social-networks) — Zugriff auf Social-Network-Plattformen blockieren
-  - [21. NSFW](#special-nsfw-archive) — zusätzliche Adult-/NSFW-Abdeckung
-- [23. Empfehlungen](#recommendations) — sinnvolle Kombinationen aus Profilen und Zusatzlisten
-- [24. Online-DNS-Dienste](#online-dns-services) — Hinweise für externe DNS-Anbieter und mobile Nutzung
+- [Sicherheitslisten](#security-lists) — Malware, Phishing, Scam, Fake, Threat Intelligence, NRD/DGA, DynDNS, Hoster und TLD-Schutz
+- [DNS-, Web- & Bypass-Schutz](#dns-web-protection) — DoH/VPN/TOR/Proxy-Bypass, URL-Kürzer und DNS-Rebind-Schutz
+- [Familienlisten](#family-lists) — Adult/NSFW, Glücksspiel, SafeSearch, Anti-Piracy und Social-Network-Blocking
+- [Empfehlungen](#recommendations) — sinnvolle Kombinationen aus Profilen und Zusatzlisten
+- [Online-DNS-Dienste](#online-dns-services) — Hinweise für externe DNS-Anbieter und mobile Nutzung
 - [Upstream-Quellen & Build-Transparenz](#upstream-sources) — Quellen, Archiv-Snapshots, Metadaten und Prüfsummen
 - [Repository-Struktur](#repository-structure) — Ordner, Konfigurationen, Skripte und erzeugte Listen
-- [Automatische Listen-Updates](#automatic-updates) — tägliche Feeds und separater Speziallisten-Builder
-- [Listen erweitern](#extending-lists) — Kategorien, Profile und Speziallisten ergänzen
+- [Automatische Listen-Updates](#automatic-updates) — tägliche Feeds und Builder für erweiterte Listen
+- [Listen erweitern](#extending-lists) — Kategorien, Profile und erweiterte Listen ergänzen
 - [Fehlblockierungen / False Positives](#false-positives) — Fehlblockierungen melden und Allowlist verwenden
 - [Lizenz & Namensnennung](#license-attribution) — GPL-3.0, Drittquellen und Attribution
 
@@ -224,6 +208,7 @@ Du wechselst vom bisherigen `security.txt` / `family.txt` / `ultimate-N.txt`-Sch
 <a id="ads-tracking"></a>
 # 📢 Werbung & Tracking
 
+<!-- ADS_TRACKING_TABLE_START -->
 | Liste | Einträge | Beschreibung | Anzeigen | Raw |
 |---|---:|---|:---:|:---:|
 | 📣 **Werbung** | 234.038 | Große Domain-Sammlung für Werbung und Werbeauslieferung | [Anzeigen](lists/categories/ads.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/ads.txt) |
@@ -233,36 +218,17 @@ Du wechselst vom bisherigen `security.txt` / `family.txt` / `ultimate-N.txt`-Sch
 | 🧩 **Natives/App-Tracking** | 1.466 | Natives Betriebssystem-/Geräte- und Anwendungs-Tracking | [Anzeigen](lists/categories/native-tracking.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/native-tracking.txt) |
 | 🔗 **Affiliate-Tracking** | 643 | Affiliate-, Klick-, Referral- und Conversion-Tracking; ab Strict enthalten | [Anzeigen](lists/categories/affiliate-tracking.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/affiliate-tracking.txt) |
 | 🍪 **Consent / CMP** | 44 | Optionales Blocking von Consent-Management/CMP mit erhöhtem Risiko für Website-Fehlfunktionen | [Anzeigen](lists/categories/consent-cmp.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/consent-cmp.txt) |
+| <a id="list-popup-ads"></a>🎉 **Pop-Up-Werbung** | Noch nicht erzeugt | Blockiert störende und potenziell schädliche Pop-up-Werbe-Domains. | — | — |
+<!-- ADS_TRACKING_TABLE_END -->
 
 > **Consent/CMP ist bewusst in keinem kombinierten Schutzprofil enthalten.** DNS-basiertes Blocking von Consent-Infrastruktur kann Seitenaufbau, Consent-Status und Website-Funktionen beeinträchtigen.
-
-## 🧩 Zusätzliche Werbe- & Trackinglisten
-
-Die folgenden optionalen Listen ergänzen die normalen BlackRabbitZ-Kategorien. Sie stammen aus dem dokumentierten HaGeZi-Stand und bleiben bewusst getrennt von den Standardprofilen.
-
-<!-- SPECIAL_ADS_TRACKING_START -->
-| Liste | Einträge | Beschreibung | Anzeigen | Raw |
-|---|---:|---|:---:|:---:|
-| <a id="special-popup-ads"></a>🎉 **8. Pop-Up-Werbung** | Noch nicht erzeugt | Blockiert störende und potenziell schädliche Pop-up-Werbe-Domains. | — | — |
-| <a id="special-native-tracker-archive"></a>📲 **22. Native Tracker – Geräte & Dienste – Amazon** | Noch nicht erzeugt | Geräte- und dienstespezifische Trackerlisten für Amazon, Apple, Huawei, Microsoft, Samsung, TikTok, LG webOS, Roku, Vivo, OPPO/Realme und Xiaomi. | — | — |
-| 📲 **22. Native Tracker – Geräte & Dienste – Apple** | Noch nicht erzeugt | Geräte- und dienstespezifische Trackerlisten für Amazon, Apple, Huawei, Microsoft, Samsung, TikTok, LG webOS, Roku, Vivo, OPPO/Realme und Xiaomi. | — | — |
-| 📲 **22. Native Tracker – Geräte & Dienste – Huawei** | Noch nicht erzeugt | Geräte- und dienstespezifische Trackerlisten für Amazon, Apple, Huawei, Microsoft, Samsung, TikTok, LG webOS, Roku, Vivo, OPPO/Realme und Xiaomi. | — | — |
-| 📲 **22. Native Tracker – Geräte & Dienste – Microsoft / Windows / Office** | Noch nicht erzeugt | Geräte- und dienstespezifische Trackerlisten für Amazon, Apple, Huawei, Microsoft, Samsung, TikTok, LG webOS, Roku, Vivo, OPPO/Realme und Xiaomi. | — | — |
-| 📲 **22. Native Tracker – Geräte & Dienste – Samsung** | Noch nicht erzeugt | Geräte- und dienstespezifische Trackerlisten für Amazon, Apple, Huawei, Microsoft, Samsung, TikTok, LG webOS, Roku, Vivo, OPPO/Realme und Xiaomi. | — | — |
-| 📲 **22. Native Tracker – Geräte & Dienste – TikTok** | Noch nicht erzeugt | Geräte- und dienstespezifische Trackerlisten für Amazon, Apple, Huawei, Microsoft, Samsung, TikTok, LG webOS, Roku, Vivo, OPPO/Realme und Xiaomi. | — | — |
-| 📲 **22. Native Tracker – Geräte & Dienste – TikTok – Aggressiv** | Noch nicht erzeugt | Geräte- und dienstespezifische Trackerlisten für Amazon, Apple, Huawei, Microsoft, Samsung, TikTok, LG webOS, Roku, Vivo, OPPO/Realme und Xiaomi. | — | — |
-| 📲 **22. Native Tracker – Geräte & Dienste – LG webOS** | Noch nicht erzeugt | Geräte- und dienstespezifische Trackerlisten für Amazon, Apple, Huawei, Microsoft, Samsung, TikTok, LG webOS, Roku, Vivo, OPPO/Realme und Xiaomi. | — | — |
-| 📲 **22. Native Tracker – Geräte & Dienste – Roku** | Noch nicht erzeugt | Geräte- und dienstespezifische Trackerlisten für Amazon, Apple, Huawei, Microsoft, Samsung, TikTok, LG webOS, Roku, Vivo, OPPO/Realme und Xiaomi. | — | — |
-| 📲 **22. Native Tracker – Geräte & Dienste – Vivo** | Noch nicht erzeugt | Geräte- und dienstespezifische Trackerlisten für Amazon, Apple, Huawei, Microsoft, Samsung, TikTok, LG webOS, Roku, Vivo, OPPO/Realme und Xiaomi. | — | — |
-| 📲 **22. Native Tracker – Geräte & Dienste – OPPO / Realme** | Noch nicht erzeugt | Geräte- und dienstespezifische Trackerlisten für Amazon, Apple, Huawei, Microsoft, Samsung, TikTok, LG webOS, Roku, Vivo, OPPO/Realme und Xiaomi. | — | — |
-| 📲 **22. Native Tracker – Geräte & Dienste – Xiaomi** | Noch nicht erzeugt | Geräte- und dienstespezifische Trackerlisten für Amazon, Apple, Huawei, Microsoft, Samsung, TikTok, LG webOS, Roku, Vivo, OPPO/Realme und Xiaomi. | — | — |
-<!-- SPECIAL_ADS_TRACKING_END -->
 
 ---
 
 <a id="telemetry-devices"></a>
 # 📡 Telemetrie & Geräte
 
+<!-- TELEMETRY_TABLE_START -->
 | Liste | Einträge | Beschreibung | Anzeigen | Raw |
 |---|---:|---|:---:|:---:|
 | 📊 **Allgemeine Telemetrie** | 29.289 | Breite Produkt-/App-Analysen, Diagnosen und Telemetrie | [Anzeigen](lists/categories/telemetry.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/telemetry.txt) |
@@ -274,8 +240,21 @@ Die folgenden optionalen Listen ergänzen die normalen BlackRabbitZ-Kategorien. 
 | 🖥️ **Server-Telemetrie** | 10 | Server-, Red-Hat-Insights- und Management-Telemetrie | [Anzeigen](lists/categories/server-telemetry.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/server-telemetry.txt) |
 | 📺 **Smart-TV** | 556 | Smart-TV-Werbung, ACR, Diagnosen und Telemetrie | [Anzeigen](lists/categories/smart-tv.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/smart-tv.txt) |
 | 🏠 **IoT** | 85 | Telemetrie-/Tracking-Endpunkte von IoT- und verbundenen Geräten | [Anzeigen](lists/categories/iot.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/iot.txt) |
+| <a id="list-native-trackers"></a>📲 **Native Tracker – Geräte & Dienste – Amazon** | Noch nicht erzeugt | Geräte- und dienstespezifische Trackerlisten für Amazon, Apple, Huawei, Microsoft, Samsung, TikTok, LG webOS, Roku, Vivo, OPPO/Realme und Xiaomi. | — | — |
+| 📲 **Native Tracker – Geräte & Dienste – Apple** | Noch nicht erzeugt | Geräte- und dienstespezifische Trackerlisten für Amazon, Apple, Huawei, Microsoft, Samsung, TikTok, LG webOS, Roku, Vivo, OPPO/Realme und Xiaomi. | — | — |
+| 📲 **Native Tracker – Geräte & Dienste – Huawei** | Noch nicht erzeugt | Geräte- und dienstespezifische Trackerlisten für Amazon, Apple, Huawei, Microsoft, Samsung, TikTok, LG webOS, Roku, Vivo, OPPO/Realme und Xiaomi. | — | — |
+| 📲 **Native Tracker – Geräte & Dienste – Microsoft / Windows / Office** | Noch nicht erzeugt | Geräte- und dienstespezifische Trackerlisten für Amazon, Apple, Huawei, Microsoft, Samsung, TikTok, LG webOS, Roku, Vivo, OPPO/Realme und Xiaomi. | — | — |
+| 📲 **Native Tracker – Geräte & Dienste – Samsung** | Noch nicht erzeugt | Geräte- und dienstespezifische Trackerlisten für Amazon, Apple, Huawei, Microsoft, Samsung, TikTok, LG webOS, Roku, Vivo, OPPO/Realme und Xiaomi. | — | — |
+| 📲 **Native Tracker – Geräte & Dienste – TikTok** | Noch nicht erzeugt | Geräte- und dienstespezifische Trackerlisten für Amazon, Apple, Huawei, Microsoft, Samsung, TikTok, LG webOS, Roku, Vivo, OPPO/Realme und Xiaomi. | — | — |
+| 📲 **Native Tracker – Geräte & Dienste – TikTok – Aggressiv** | Noch nicht erzeugt | Geräte- und dienstespezifische Trackerlisten für Amazon, Apple, Huawei, Microsoft, Samsung, TikTok, LG webOS, Roku, Vivo, OPPO/Realme und Xiaomi. | — | — |
+| 📲 **Native Tracker – Geräte & Dienste – LG webOS** | Noch nicht erzeugt | Geräte- und dienstespezifische Trackerlisten für Amazon, Apple, Huawei, Microsoft, Samsung, TikTok, LG webOS, Roku, Vivo, OPPO/Realme und Xiaomi. | — | — |
+| 📲 **Native Tracker – Geräte & Dienste – Roku** | Noch nicht erzeugt | Geräte- und dienstespezifische Trackerlisten für Amazon, Apple, Huawei, Microsoft, Samsung, TikTok, LG webOS, Roku, Vivo, OPPO/Realme und Xiaomi. | — | — |
+| 📲 **Native Tracker – Geräte & Dienste – Vivo** | Noch nicht erzeugt | Geräte- und dienstespezifische Trackerlisten für Amazon, Apple, Huawei, Microsoft, Samsung, TikTok, LG webOS, Roku, Vivo, OPPO/Realme und Xiaomi. | — | — |
+| 📲 **Native Tracker – Geräte & Dienste – OPPO / Realme** | Noch nicht erzeugt | Geräte- und dienstespezifische Trackerlisten für Amazon, Apple, Huawei, Microsoft, Samsung, TikTok, LG webOS, Roku, Vivo, OPPO/Realme und Xiaomi. | — | — |
+| 📲 **Native Tracker – Geräte & Dienste – Xiaomi** | Noch nicht erzeugt | Geräte- und dienstespezifische Trackerlisten für Amazon, Apple, Huawei, Microsoft, Samsung, TikTok, LG webOS, Roku, Vivo, OPPO/Realme und Xiaomi. | — | — |
+<!-- TELEMETRY_TABLE_END -->
 
-> Gerätespezifische Listen können Empfehlungen, Diagnosen, Nutzungsberichte, ACR, Werbung oder andere cloudgestützte Funktionen deaktivieren.
+> Gerätespezifische Listen und Native-Tracker können Empfehlungen, Diagnosen, Nutzungsberichte, ACR, Werbung oder andere cloudgestützte Funktionen deaktivieren.
 
 ---
 
@@ -295,6 +274,7 @@ Die folgenden optionalen Listen ergänzen die normalen BlackRabbitZ-Kategorien. 
 <a id="security-lists"></a>
 # 🛡️ Sicherheitslisten
 
+<!-- SECURITY_TABLE_START -->
 | Liste | Einträge | Beschreibung | Anzeigen | Raw |
 |---|---:|---|:---:|:---:|
 | 🦠 **Malware** | 2.710.231 | Sehr große Sammlung von Malware-, Ransomware- und aktiven Malware-Hosts | [Anzeigen](lists/categories/malware.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/malware.txt) |
@@ -302,33 +282,25 @@ Die folgenden optionalen Listen ergänzen die normalen BlackRabbitZ-Kategorien. 
 | 💰 **Scam** | 266.444 | Sehr große Sammlung von Betrugs-, Fraud- und täuschenden Plattform-Domains | [Anzeigen](lists/categories/scam.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/scam.txt) |
 | 🛒 **Fake-Shops** | 11.380 | Aggressive Sammlung potenzieller Fake-Shops und täuschender Shops | [Anzeigen](lists/categories/fake-shops.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/fake-shops.txt) |
 | ⛏️ **Kryptomining** | 6.121 | Browser-/Remote-Mining-Infrastruktur; allgemeine Börsen sind ausgeschlossen | [Anzeigen](lists/categories/cryptomining.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/cryptomining.txt) |
+| <a id="list-fake"></a>🎭 **Fake & Internet-Betrug** | Noch nicht erzeugt | Schutz vor Fake-Shops, Abzocke, Kostenfallen und betrügerischen Fake-Angeboten. | — | — |
+| <a id="list-threat-intelligence"></a>🔐 **Threat Intelligence Feeds – Voll** | Noch nicht erzeugt | Zusätzliche Malware-, Phishing-, Scam-, Spam-, Kryptojacking- und C2-Indikatoren in mehreren Größen. | — | — |
+| 🔐 **Threat Intelligence Feeds – Medium** | Noch nicht erzeugt | Zusätzliche Malware-, Phishing-, Scam-, Spam-, Kryptojacking- und C2-Indikatoren in mehreren Größen. | — | — |
+| 🔐 **Threat Intelligence Feeds – Mini** | Noch nicht erzeugt | Zusätzliche Malware-, Phishing-, Scam-, Spam-, Kryptojacking- und C2-Indikatoren in mehreren Größen. | — | — |
+| 🔐 **Threat Intelligence Feeds – IPv4** | Noch nicht erzeugt | Zusätzliche Malware-, Phishing-, Scam-, Spam-, Kryptojacking- und C2-Indikatoren in mehreren Größen. | — | — |
+| <a id="list-nrd-dga"></a>🆕 **Neu registrierte Domains / NRD & DGA – NRD 1–7 Tage** | Noch nicht erzeugt | Zeitfenster für neu registrierte Domains sowie hochentropische DGA-Domains; sehr groß und besonders aggressiv. | — | — |
+| 🆕 **Neu registrierte Domains / NRD & DGA – NRD 8–14 Tage** | Noch nicht erzeugt | Zeitfenster für neu registrierte Domains sowie hochentropische DGA-Domains; sehr groß und besonders aggressiv. | — | — |
+| 🆕 **Neu registrierte Domains / NRD & DGA – NRD 15–21 Tage** | Noch nicht erzeugt | Zeitfenster für neu registrierte Domains sowie hochentropische DGA-Domains; sehr groß und besonders aggressiv. | — | — |
+| 🆕 **Neu registrierte Domains / NRD & DGA – NRD 22–28 Tage** | Noch nicht erzeugt | Zeitfenster für neu registrierte Domains sowie hochentropische DGA-Domains; sehr groß und besonders aggressiv. | — | — |
+| 🆕 **Neu registrierte Domains / NRD & DGA – NRD 29–35 Tage** | Noch nicht erzeugt | Zeitfenster für neu registrierte Domains sowie hochentropische DGA-Domains; sehr groß und besonders aggressiv. | — | — |
+| 🆕 **Neu registrierte Domains / NRD & DGA – DGA 7 Tage** | Noch nicht erzeugt | Zeitfenster für neu registrierte Domains sowie hochentropische DGA-Domains; sehr groß und besonders aggressiv. | — | — |
+| 🆕 **Neu registrierte Domains / NRD & DGA – DGA 14 Tage** | Noch nicht erzeugt | Zeitfenster für neu registrierte Domains sowie hochentropische DGA-Domains; sehr groß und besonders aggressiv. | — | — |
+| 🆕 **Neu registrierte Domains / NRD & DGA – DGA 30 Tage** | Noch nicht erzeugt | Zeitfenster für neu registrierte Domains sowie hochentropische DGA-Domains; sehr groß und besonders aggressiv. | — | — |
+| <a id="list-dynamic-dns"></a>🔏 **Dynamic DNS** | Noch nicht erzeugt | Blockiert bekannte Dynamic-DNS-Dienste, die in Phishing- oder Malware-Kampagnen missbraucht werden können. | — | — |
+| <a id="list-badware-hoster"></a>💻 **Badware-Hoster** | Noch nicht erzeugt | Blockiert ganze Hosting-Anbieter-Domains, die wiederholt für schädliche Inhalte missbraucht wurden; hohes Fehlblockierungsrisiko. | — | — |
+| <a id="list-most-abused-tlds"></a>🔮 **Besonders missbrauchte TLDs** | Noch nicht erzeugt | Aggressive Regeln zum Sperren ganzer, häufig missbrauchter Top-Level-Domains; im Pi-hole-kompatiblen Adblock-Format archiviert. | — | — |
+<!-- SECURITY_TABLE_END -->
 
-> Sicherheitslisten sind bewusst **groß und aggressiv** und kombinieren mehrere Upstream-Intelligence-Quellen. Bedrohungsdaten ändern sich schnell; Fehlblockierungen sind daher möglich und Upstream-Daten sollten regelmäßig aktualisiert werden.
-
-## 🧩 Erweiterte Sicherheitslisten
-
-Für Umgebungen mit höherem Schutzbedarf stehen zusätzliche Threat-Intelligence-, NRD/DGA-, DynDNS-, Hoster- und TLD-Listen bereit. Diese Module sind aggressiver und können mehr Fehlblockierungen verursachen.
-
-<!-- SPECIAL_SECURITY_START -->
-| Liste | Einträge | Beschreibung | Anzeigen | Raw |
-|---|---:|---|:---:|:---:|
-| <a id="special-fake"></a>🎭 **7. Fake & Internet-Betrug** | Noch nicht erzeugt | Schutz vor Fake-Shops, Abzocke, Kostenfallen und betrügerischen Fake-Angeboten. | — | — |
-| <a id="special-threat-intelligence"></a>🔐 **9. Threat Intelligence Feeds – Voll** | Noch nicht erzeugt | Zusätzliche Malware-, Phishing-, Scam-, Spam-, Kryptojacking- und C2-Indikatoren in mehreren Größen. | — | — |
-| 🔐 **9. Threat Intelligence Feeds – Medium** | Noch nicht erzeugt | Zusätzliche Malware-, Phishing-, Scam-, Spam-, Kryptojacking- und C2-Indikatoren in mehreren Größen. | — | — |
-| 🔐 **9. Threat Intelligence Feeds – Mini** | Noch nicht erzeugt | Zusätzliche Malware-, Phishing-, Scam-, Spam-, Kryptojacking- und C2-Indikatoren in mehreren Größen. | — | — |
-| 🔐 **9. Threat Intelligence Feeds – IPv4** | Noch nicht erzeugt | Zusätzliche Malware-, Phishing-, Scam-, Spam-, Kryptojacking- und C2-Indikatoren in mehreren Größen. | — | — |
-| <a id="special-nrd-dga"></a>🆕 **10. Neu registrierte Domains / NRD & DGA – NRD 1–7 Tage** | Noch nicht erzeugt | Zeitfenster für neu registrierte Domains sowie hochentropische DGA-Domains; sehr groß und besonders aggressiv. | — | — |
-| 🆕 **10. Neu registrierte Domains / NRD & DGA – NRD 8–14 Tage** | Noch nicht erzeugt | Zeitfenster für neu registrierte Domains sowie hochentropische DGA-Domains; sehr groß und besonders aggressiv. | — | — |
-| 🆕 **10. Neu registrierte Domains / NRD & DGA – NRD 15–21 Tage** | Noch nicht erzeugt | Zeitfenster für neu registrierte Domains sowie hochentropische DGA-Domains; sehr groß und besonders aggressiv. | — | — |
-| 🆕 **10. Neu registrierte Domains / NRD & DGA – NRD 22–28 Tage** | Noch nicht erzeugt | Zeitfenster für neu registrierte Domains sowie hochentropische DGA-Domains; sehr groß und besonders aggressiv. | — | — |
-| 🆕 **10. Neu registrierte Domains / NRD & DGA – NRD 29–35 Tage** | Noch nicht erzeugt | Zeitfenster für neu registrierte Domains sowie hochentropische DGA-Domains; sehr groß und besonders aggressiv. | — | — |
-| 🆕 **10. Neu registrierte Domains / NRD & DGA – DGA 7 Tage** | Noch nicht erzeugt | Zeitfenster für neu registrierte Domains sowie hochentropische DGA-Domains; sehr groß und besonders aggressiv. | — | — |
-| 🆕 **10. Neu registrierte Domains / NRD & DGA – DGA 14 Tage** | Noch nicht erzeugt | Zeitfenster für neu registrierte Domains sowie hochentropische DGA-Domains; sehr groß und besonders aggressiv. | — | — |
-| 🆕 **10. Neu registrierte Domains / NRD & DGA – DGA 30 Tage** | Noch nicht erzeugt | Zeitfenster für neu registrierte Domains sowie hochentropische DGA-Domains; sehr groß und besonders aggressiv. | — | — |
-| <a id="special-dynamic-dns"></a>🔏 **13. Dynamic DNS** | Noch nicht erzeugt | Blockiert bekannte Dynamic-DNS-Dienste, die in Phishing- oder Malware-Kampagnen missbraucht werden können. | — | — |
-| <a id="special-badware-hoster"></a>💻 **14. Badware-Hoster** | Noch nicht erzeugt | Blockiert ganze Hosting-Anbieter-Domains, die wiederholt für schädliche Inhalte missbraucht wurden; hohes Fehlblockierungsrisiko. | — | — |
-| <a id="special-most-abused-tlds"></a>🔮 **16. Besonders missbrauchte TLDs** | Noch nicht erzeugt | Aggressive Regeln zum Sperren ganzer, häufig missbrauchter Top-Level-Domains; im Pi-hole-kompatiblen Adblock-Format archiviert. | — | — |
-<!-- SPECIAL_SECURITY_END -->
+> Sicherheits- und Threat-Intelligence-Listen können sehr groß und aggressiv sein. **NRD/DGA, Badware-Hoster und TLD-Regeln** haben ein besonders hohes Fehlblockierungsrisiko und sollten gezielt eingesetzt werden.
 
 ---
 
@@ -340,11 +312,11 @@ Diese optionalen Module richten sich gegen **DNS-Umgehung, DNS-Rebinding und ver
 <!-- SPECIAL_NETWORK_START -->
 | Liste | Einträge | Beschreibung | Anzeigen | Raw |
 |---|---:|---|:---:|:---:|
-| <a id="special-dns-bypass"></a>📤 **11. DoH/VPN/TOR/Proxy-Bypass – Voll** | Noch nicht erzeugt | Blockiert bekannte verschlüsselte DNS-, VPN-, TOR- und Proxy-Endpunkte, die lokale DNS-Filter umgehen können. | — | — |
-| 📤 **11. DoH/VPN/TOR/Proxy-Bypass – Nur DoH** | Noch nicht erzeugt | Blockiert bekannte verschlüsselte DNS-, VPN-, TOR- und Proxy-Endpunkte, die lokale DNS-Filter umgehen können. | — | — |
-| 📤 **11. DoH/VPN/TOR/Proxy-Bypass – DoH IPv4** | Noch nicht erzeugt | Blockiert bekannte verschlüsselte DNS-, VPN-, TOR- und Proxy-Endpunkte, die lokale DNS-Filter umgehen können. | — | — |
-| <a id="special-url-shortener"></a>📲 **15. URL-Kürzer** | Noch nicht erzeugt | Blockiert bekannte Link-/URL-Shortener; für normale Heimnetze bewusst als sehr aggressiv markiert. | — | — |
-| <a id="special-dns-rebind-protection"></a>🛡️ **17. DNS-Rebind-Schutz** | — | Pi-hole-/dnsmasq-Konfiguration gegen DNS-Rebinding; keine normale statische Domain-Adlist. | [Dokumentation](docs/DNS_REBIND_PROTECTION.md) | — |
+| <a id="list-dns-bypass"></a>📤 **DoH/VPN/TOR/Proxy-Bypass – Voll** | Noch nicht erzeugt | Blockiert bekannte verschlüsselte DNS-, VPN-, TOR- und Proxy-Endpunkte, die lokale DNS-Filter umgehen können. | — | — |
+| 📤 **DoH/VPN/TOR/Proxy-Bypass – Nur DoH** | Noch nicht erzeugt | Blockiert bekannte verschlüsselte DNS-, VPN-, TOR- und Proxy-Endpunkte, die lokale DNS-Filter umgehen können. | — | — |
+| 📤 **DoH/VPN/TOR/Proxy-Bypass – DoH IPv4** | Noch nicht erzeugt | Blockiert bekannte verschlüsselte DNS-, VPN-, TOR- und Proxy-Endpunkte, die lokale DNS-Filter umgehen können. | — | — |
+| <a id="list-url-shortener"></a>📲 **URL-Kürzer** | Noch nicht erzeugt | Blockiert bekannte Link-/URL-Shortener; für normale Heimnetze bewusst als sehr aggressiv markiert. | — | — |
+| <a id="list-dns-rebind-protection"></a>🛡️ **DNS-Rebind-Schutz** | — | Pi-hole-/dnsmasq-Konfiguration gegen DNS-Rebinding; keine normale statische Domain-Adlist. | [Dokumentation](docs/DNS_REBIND_PROTECTION.md) | — |
 <!-- SPECIAL_NETWORK_END -->
 
 ---
@@ -352,35 +324,28 @@ Diese optionalen Module richten sich gegen **DNS-Umgehung, DNS-Rebinding und ver
 <a id="family-lists"></a>
 # 👨‍👩‍👧 Familienlisten
 
+<!-- FAMILY_TABLE_START -->
 | Liste | Einträge | Beschreibung | Anzeigen | Raw |
 |---|---:|---|:---:|:---:|
 | 🔞 **Erwachsene Inhalte** | 999.123 | Sehr große Domain-Sammlung für Erwachsenen-Inhalte und Pornografie | [Anzeigen](lists/categories/adult.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/adult.txt) |
 | 🎰 **Glücksspiel** | 420.536 | Sehr große Domain-Sammlung für Wetten, Casinos und Glücksspiel | [Anzeigen](lists/categories/gambling.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/gambling.txt) |
+| <a id="list-safesearch-unsupported"></a>🔍 **Suchmaschinen ohne SafeSearch** | Noch nicht erzeugt | Blockiert Suchmaschinen, die keine SafeSearch-Funktion unterstützen. | — | — |
+| <a id="list-anti-piracy"></a>💀 **Anti-Piracy** | Noch nicht erzeugt | Blockiert Domains und Dienste, die überwiegend für nicht autorisierte Verbreitung urheberrechtlich geschützter Inhalte genutzt werden. | — | — |
+| <a id="list-gambling-variants"></a>🎰 **Glücksspiel – Voll** | Noch nicht erzeugt | Voll-, Medium- und Mini-Varianten für unterschiedlich starken Glücksspiel- und Casino-Schutz. | — | — |
+| 🎰 **Glücksspiel – Medium** | Noch nicht erzeugt | Voll-, Medium- und Mini-Varianten für unterschiedlich starken Glücksspiel- und Casino-Schutz. | — | — |
+| 🎰 **Glücksspiel – Mini** | Noch nicht erzeugt | Voll-, Medium- und Mini-Varianten für unterschiedlich starken Glücksspiel- und Casino-Schutz. | — | — |
+| <a id="list-social-networks"></a>💬 **Soziale Netzwerke sperren** | Noch nicht erzeugt | Blockiert den Zugriff auf klassische soziale Netzwerke; Messaging und Streaming sind nicht automatisch gleichbedeutend damit. | — | — |
+| <a id="list-nsfw"></a>🔞 **NSFW / Erwachsene Inhalte** | Noch nicht erzeugt | Zusätzliche NSFW-/Adult-Abdeckung für Familien- und Inhaltsfilter. | — | — |
+<!-- FAMILY_TABLE_END -->
 
-> **Diese Zusatzfilter bleiben bewusst optional und werden nicht automatisch in das Family-Profil aufgenommen.** So kannst du Jugendschutz und Inhaltsfilter gezielt an dein Netzwerk anpassen.
-
-## 🧩 Zusätzliche Familien- & Inhaltsfilter
-
-Zusätzlich zur normalen Adult- und Glücksspiel-Kategorie stehen optionale SafeSearch-, Anti-Piracy-, Social-Network- und NSFW-Listen zur Verfügung. Diese Filter können gewünschte Inhalte oder ganze Dienste blockieren.
-
-<!-- SPECIAL_FAMILY_START -->
-| Liste | Einträge | Beschreibung | Anzeigen | Raw |
-|---|---:|---|:---:|:---:|
-| <a id="special-safesearch-unsupported"></a>🔍 **12. Suchmaschinen ohne SafeSearch** | Noch nicht erzeugt | Blockiert Suchmaschinen, die keine SafeSearch-Funktion unterstützen. | — | — |
-| <a id="special-anti-piracy"></a>💀 **18. Anti-Piracy** | Noch nicht erzeugt | Blockiert Domains und Dienste, die überwiegend für nicht autorisierte Verbreitung urheberrechtlich geschützter Inhalte genutzt werden. | — | — |
-| <a id="special-gambling-archive"></a>🎰 **19. Glücksspiel – HaGeZi-Varianten – Voll** | Noch nicht erzeugt | Archivierte Voll-, Medium- und Mini-Varianten zusätzlich zur bereits vorhandenen BlackRabbitZ-Glücksspielliste. | — | — |
-| 🎰 **19. Glücksspiel – HaGeZi-Varianten – Medium** | Noch nicht erzeugt | Archivierte Voll-, Medium- und Mini-Varianten zusätzlich zur bereits vorhandenen BlackRabbitZ-Glücksspielliste. | — | — |
-| 🎰 **19. Glücksspiel – HaGeZi-Varianten – Mini** | Noch nicht erzeugt | Archivierte Voll-, Medium- und Mini-Varianten zusätzlich zur bereits vorhandenen BlackRabbitZ-Glücksspielliste. | — | — |
-| <a id="special-social-networks"></a>💬 **20. Soziale Netzwerke sperren** | Noch nicht erzeugt | Blockiert den Zugriff auf klassische soziale Netzwerke; Messaging und Streaming sind nicht automatisch gleichbedeutend damit. | — | — |
-| <a id="special-nsfw-archive"></a>🔞 **21. NSFW / Erwachsene Inhalte – HaGeZi** | Noch nicht erzeugt | Archivierte HaGeZi-NSFW-Liste zusätzlich zur bereits vorhandenen BlackRabbitZ-Adult-Kategorie. | — | — |
-<!-- SPECIAL_FAMILY_END -->
+> Familien- und Inhaltsfilter bleiben bewusst optional. So kannst du Erwachsenen-Inhalte, Glücksspiel, SafeSearch, Social Networks und Anti-Piracy passend zu deinem Netzwerk kombinieren.
 
 ---
 
 <a id="recommendations"></a>
-# 💡 23. Empfehlungen
+# 💡 Empfehlungen
 
-BlackRabbitZ trennt **Datenschutzprofile**, **Schutzmodule** und **aggressive Speziallisten**, damit nicht jede Funktion automatisch in einem riesigen All-in-one-Profil landet.
+BlackRabbitZ trennt **Datenschutzprofile**, **Schutzmodule** und **aggressive erweiterte Listen**, damit nicht jede Funktion automatisch in einem riesigen All-in-one-Profil landet.
 
 | Ziel | Empfehlung |
 |---|---|
@@ -397,7 +362,7 @@ DNS-Blocking kann viel Werbung, Tracking und bekannte schädliche Infrastruktur 
 ---
 
 <a id="online-dns-services"></a>
-# 🏬 24. Online-DNS-Dienste
+# 🏬 Online-DNS-Dienste
 
 BlackRabbitZ ist in erster Linie für **selbst verwaltete DNS-Filter** wie Pi-hole gedacht. Die veröffentlichten reinen Domainlisten können auch in anderen Produkten verwendet werden, sofern der jeweilige Dienst eigene Blocklisten unterstützt.
 
@@ -405,7 +370,7 @@ BlackRabbitZ ist in erster Linie für **selbst verwaltete DNS-Filter** wie Pi-ho
 |---|---|
 | Heimnetz / volle Kontrolle | Pi-hole oder ein vergleichbarer selbst gehosteter DNS-Filter |
 | Mobil außerhalb des Heimnetzes | eigener DNS-Zugang per VPN/Tunnel oder ein externer DNS-Dienst mit benutzerdefinierten Listen |
-| IPv4-Speziallisten | nur in Produkten/Firewalls einsetzen, die IP-/Netzlisten ausdrücklich unterstützen |
+| IPv4-erweiterte Listen | nur in Produkten/Firewalls einsetzen, die IP-/Netzlisten ausdrücklich unterstützen |
 | DNS-Rebind-Schutz | integrierte Rebind-Funktion des DNS-Resolvers verwenden; siehe [Dokumentation](docs/DNS_REBIND_PROTECTION.md) |
 
 > Welche externen DNS-Anbieter benutzerdefinierte Listen unterstützen, kann sich ändern. Deshalb behauptet BlackRabbitZ hier keine dauerhaft gültige Verfügbarkeit einzelner Anbieter und veröffentlicht stattdessen portable Raw-Listen.
@@ -521,7 +486,7 @@ Profilkonfiguration
         ↓
 Zusammenführen + deduplizieren + sortieren
         ↓
-Große Profile aufteilen (5-MiB-Teile)
+Große Profile aufteilen (max. 50-MiB-Teile)
         ↓
 Sortierung / Eindeutigkeit / Part-Größen prüfen
         ↓
