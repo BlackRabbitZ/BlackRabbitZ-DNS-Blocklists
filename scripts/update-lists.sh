@@ -11,6 +11,16 @@ export LC_ALL=C
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 cd "$ROOT_DIR"
 
+# v3.3.3: force a clean republish of every split profile. This is intentional:
+# repositories that still contain legacy 5-MiB parts must not keep reusing those
+# files after the configured limit changed to 50 MiB. publish-profile.py will
+# recreate the exact required set immediately below.
+rm -f lists/combined/security-part-*.txt \
+      lists/combined/family-part-*.txt \
+      lists/combined/ultimate-part-*.txt \
+      lists/combined/ultimate-[0-9]*.txt 2>/dev/null || true
+rm -f metadata/build.json metadata/SHA256SUMS 2>/dev/null || true
+
 REPO_URL="https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists"
 PROFILE_CONFIG="config/profiles.json"
 

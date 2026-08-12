@@ -17,6 +17,7 @@ on:
       - 'scripts/update-readme.py'
       - 'scripts/update-special-lists.py'
       - 'scripts/validate-generated.py'
+      - 'scripts/validate-special-integration.py'
       - '.github/workflows/update-lists.yml'
   workflow_dispatch:
 
@@ -53,19 +54,23 @@ jobs:
           needs_extended_build=false
           if [[ ! -f metadata/special-lists.json ]]; then
             needs_extended_build=true
-          elif ! grep -q '"threat-intelligence-full"' metadata/special-lists.json; then
-            # v3.3.2 migration: old metadata used source-prefixed HaGeZi ids.
+          elif ! grep -q '"integration_revision": 2' metadata/special-lists.json; then
+            # v3.3.3 migration: merge overlapping extended sources into the
+            # existing BlackRabbitZ functional categories and remove duplicates.
             needs_extended_build=true
-          elif grep -q '^# Status: Placeholder;' lists/categories/popup-ads.txt 2>/dev/null; then
+          elif ! grep -q '"threat-intelligence-full"' metadata/special-lists.json; then
             needs_extended_build=true
           fi
 
           if [[ "$needs_extended_build" == "true" ]]; then
-            echo "Building/migrating the functionally integrated extended lists, including NRD/DGA."
+            echo "Migrating extended sources into functional BlackRabbitZ categories and building unique optional lists, including NRD/DGA."
             python3 ./scripts/update-special-lists.py --include-heavy
           else
             echo "Functionally integrated extended lists already exist; no archive rebuild needed."
           fi
+
+      - name: Validate functional source integration
+        run: python3 ./scripts/validate-special-integration.py
 
       - name: Rebuild profiles, parts, metadata and READMEs
         shell: bash

@@ -25,8 +25,8 @@ These files are **not current HaGeZi feeds**. They are frozen Wayback snapshots 
 
 | Point | BlackRabbitZ area | Variants / implementation | Risk |
 |---:|---|---|---|
-| 7 | Fake & Internet Scams | Full | Medium |
-| 8 | Pop-Up Ads | Full | Medium |
+| 7 | Scam & Internet Fraud | merged into existing `scam.txt` | Medium |
+| 8 | Ads | merged into existing `ads.txt` | Medium |
 | 9 | Threat Intelligence Feeds | Full, Medium, Mini, IPv4 | Medium–High |
 | 10 | NRD / DGA | five NRD time windows + DGA 7/14/30 days | Very high |
 | 11 | DNS Bypass Protection | Full, DoH-only, DoH-IPv4 | High |
@@ -37,10 +37,10 @@ These files are **not current HaGeZi feeds**. They are frozen Wayback snapshots 
 | 16 | Most Abused TLDs | archived Adblock format | Very high |
 | 17 | DNS Rebind Protection | Pi-hole/dnsmasq documentation | Configuration |
 | 18 | Anti Piracy | domain list | High |
-| 19 | Gambling | Full, Medium, Mini | High |
+| 19 | Gambling | Full merged into `gambling.txt`; Medium/Mini optional | High |
 | 20 | Social Networks | domain list | Very high |
 | 21 | NSFW | domain list | High |
-| 22 | Native Tracker | Amazon, Apple, Huawei, Microsoft, Samsung, TikTok, LG webOS, Roku, Vivo, OPPO/Realme, Xiaomi | Medium–High |
+| 22 | Native Tracker | merged into Apple/Windows/Android/Smart-TV/IoT/Mobile Tracking lists | Medium–High |
 | 23 | Recommendations | README documentation | — |
 | 24 | Online DNS Services | README documentation | — |
 

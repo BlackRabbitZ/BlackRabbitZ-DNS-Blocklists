@@ -271,6 +271,10 @@ def existing_files(variant_id: str, kind: str) -> list[Path]:
 
 
 def metadata_for_existing(variant: dict) -> dict | None:
+    # Merged variants do not own a standalone published file. Their previous
+    # successful merge state is tracked in metadata/special-lists.json instead.
+    if variant.get("merge_into"):
+        return None
     files = existing_files(variant["id"], variant["kind"])
     if not files:
         return None
@@ -297,8 +301,111 @@ def metadata_for_existing(variant: dict) -> dict | None:
     }
 
 
+def is_placeholder(path: Path) -> bool:
+    try:
+        return "# Status: Placeholder;" in path.read_text(encoding="utf-8", errors="ignore")[:2048]
+    except OSError:
+        return True
+
+
+def combine_existing_variant_files(variant: dict, dest: Path) -> bool:
+    """Combine previously published standalone output into a temporary raw file.
+
+    This makes the v3.3.3 migration cheap: if v3.3.2 already downloaded a source,
+    its normalized standalone output can be merged into the functional target
+    without downloading it again.
+    """
+    files = existing_files(variant["id"], variant["kind"])
+    if not files or any(is_placeholder(path) for path in files):
+        return False
+    with dest.open("w", encoding="utf-8", newline="\n") as out:
+        for path in files:
+            with path.open("r", encoding="utf-8", errors="ignore") as fh:
+                for line in fh:
+                    if line.lstrip().startswith(("#", "!", "[")) or not line.strip():
+                        continue
+                    out.write(line if line.endswith("\n") else line + "\n")
+    return dest.stat().st_size > 0
+
+
+def leading_comment_block(path: Path) -> list[str]:
+    lines: list[str] = []
+    if not path.is_file():
+        return lines
+    with path.open("r", encoding="utf-8", errors="ignore") as fh:
+        for line in fh:
+            stripped = line.rstrip("\r\n")
+            if not stripped or stripped.lstrip().startswith("#"):
+                lines.append(stripped)
+                continue
+            break
+    return lines
+
+
+def merge_into_category(normalized: Path, target_category: str, allowlist: set[str]) -> dict:
+    target = CATEGORIES_DIR / f"{target_category}.txt"
+    if not target.is_file():
+        raise RuntimeError(f"Merge target does not exist: {target.relative_to(ROOT)}")
+
+    before = 0
+    with tempfile.NamedTemporaryFile("w", encoding="utf-8", delete=False, dir=CATEGORIES_DIR, prefix=f"{target_category}-merge-") as tmp:
+        tmp_path = Path(tmp.name)
+        with target.open("r", encoding="utf-8", errors="ignore") as fh:
+            for line in fh:
+                value = extract_domain(line)
+                if value and value not in allowlist:
+                    tmp.write(value + "\n")
+                    before += 1
+        with normalized.open("r", encoding="utf-8", errors="strict") as fh:
+            shutil.copyfileobj(fh, tmp)
+
+    sorted_path = tmp_path.with_suffix(".sorted")
+    try:
+        sort_unique(tmp_path, sorted_path)
+        after = sum(1 for line in sorted_path.open("r", encoding="utf-8") if line.strip())
+        prefix = leading_comment_block(target)
+        saw_entries = False
+        out_prefix: list[str] = []
+        for line in prefix:
+            if line.startswith("# Entries:"):
+                out_prefix.append(f"# Entries: {after}")
+                saw_entries = True
+            else:
+                out_prefix.append(line)
+        if not saw_entries:
+            insert_at = 1 if out_prefix else 0
+            out_prefix.insert(insert_at, f"# Entries: {after}")
+        provenance = "# Additional third-party integrations: see THIRD_PARTY.md"
+        if provenance not in out_prefix:
+            # Keep it in the header without forcing a visible README source split.
+            insert_at = next((i for i, line in enumerate(out_prefix) if line == ""), len(out_prefix))
+            out_prefix.insert(insert_at, provenance)
+        while out_prefix and out_prefix[-1] == "":
+            out_prefix.pop()
+
+        temp_target = target.with_suffix(".txt.tmp")
+        with temp_target.open("w", encoding="utf-8", newline="\n") as out:
+            for line in out_prefix:
+                out.write(line + "\n")
+            out.write("#\n")
+            with sorted_path.open("r", encoding="utf-8") as src:
+                shutil.copyfileobj(src, out)
+        temp_target.replace(target)
+    finally:
+        tmp_path.unlink(missing_ok=True)
+        sorted_path.unlink(missing_ok=True)
+
+    return {
+        "target": target.relative_to(ROOT).as_posix(),
+        "entries_before": before,
+        "entries_after": after,
+        "entries_added": max(0, after - before),
+    }
+
+
 def build_variant(config: dict, variant: dict, allowlist: set[str], force: bool) -> dict:
-    if not force:
+    merge_target = variant.get("merge_into")
+    if not merge_target and not force:
         existing = metadata_for_existing(variant)
         if existing:
             print(f"SAME {variant['id']}: using {existing['parts']} existing file(s)")
@@ -309,12 +416,45 @@ def build_variant(config: dict, variant: dict, allowlist: set[str], force: bool)
         td_path = Path(td)
         raw = td_path / "raw.txt"
         normalized = td_path / "normalized.txt"
-        print(f"GET  {variant['id']}")
-        download(variant["source_url"], raw)
+
+        migrated_existing = False
+        if merge_target and not force:
+            migrated_existing = combine_existing_variant_files(variant, raw)
+
+        if migrated_existing:
+            print(f"MERGE {variant['id']}: reusing existing standalone output -> {merge_target}")
+        else:
+            print(f"GET  {variant['id']}")
+            download(variant["source_url"], raw)
+
         entries = write_normalized_payload(raw, normalized, variant["kind"], allowlist)
         minimum = int(variant.get("min_entries", 1))
         if entries < minimum:
             raise RuntimeError(f"{variant['id']}: only {entries:,} entries after normalization; expected at least {minimum:,}")
+
+        if merge_target:
+            if variant["kind"] != "domains":
+                raise RuntimeError(f"{variant['id']}: merge_into is supported only for domain lists")
+            merged = merge_into_category(normalized, str(merge_target), allowlist)
+            # Delete the v3.3.2 parallel output only after the functional merge succeeded.
+            remove_old_variant_files(variant["id"], variant["kind"])
+            print(
+                f"OK   {variant['id']}: {entries:,} source entries merged into {merge_target}; "
+                f"+{merged['entries_added']:,} unique domains"
+            )
+            return {
+                "status": "merged",
+                "kind": variant["kind"],
+                "source_entries": entries,
+                "entries": merged["entries_after"],
+                "entries_added": merged["entries_added"],
+                "parts": 0,
+                "files": [],
+                "merge_into": str(merge_target),
+                "target": merged["target"],
+                "source_url": variant["source_url"],
+            }
+
         files = split_lines_payload(normalized, variant, config)
         total = sum(x["entries"] for x in files)
         print(f"OK   {variant['id']}: {total:,} entries -> {len(files)} file(s)")
@@ -354,7 +494,8 @@ def main() -> int:
             previous = {}
 
     result = {
-        "schema_version": 1,
+        "schema_version": 2,
+        "integration_revision": int(config.get("integration_revision", 1)),
         "generated_at": datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z"),
         "source_family": config.get("source_family"),
         "archive_snapshot": config.get("archive_snapshot"),
@@ -368,8 +509,24 @@ def main() -> int:
         item_result = {"point": item["point"], "variants": {}}
         for variant in item.get("variants", []):
             vid = variant["id"]
+            old = previous.get("items", {}).get(item["id"], {}).get("variants", {}).get(vid)
+            previous_revision = int(previous.get("integration_revision", 0) or 0)
+            current_revision = int(config.get("integration_revision", 1))
+            if (
+                variant.get("merge_into")
+                and not args.force
+                and previous_revision == current_revision
+                and old
+                and old.get("status") == "merged"
+                and old.get("merge_into") == variant.get("merge_into")
+            ):
+                # The merge already succeeded in an earlier v3.3.3 run. Keep the
+                # functional target and make sure no obsolete parallel output survived.
+                remove_old_variant_files(variant["id"], variant["kind"])
+                item_result["variants"][vid] = old
+                print(f"SAME {vid}: already merged into {variant['merge_into']}")
+                continue
             if only and vid not in only:
-                old = previous.get("items", {}).get(item["id"], {}).get("variants", {}).get(vid)
                 if old:
                     item_result["variants"][vid] = old
                 continue

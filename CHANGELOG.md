@@ -2,6 +2,14 @@
 
 **🌐 Sprache / Language:** 🇩🇪 **Deutsch** · [🇬🇧 English](CHANGELOG_EN.md)
 
+## 3.3.3 — 2026-08-12
+
+- Überlappende HaGeZi-Quellen werden jetzt **in bestehende BlackRabbitZ-Funktionslisten gemischt**, statt parallele Listen zu erzeugen.
+- Native Tracker werden auf vorhandene Apple-, Windows-, Android-, Smart-TV-, IoT- und Mobile-Tracking-Listen verteilt; die bisherigen `native-tracker-*`-Ausgaben werden nach erfolgreicher Migration entfernt.
+- Fake/Internet-Betrug wird in `scam.txt`, Pop-Up-Werbung in `ads.txt`, NSFW in `adult.txt` und Gambling Full in `gambling.txt` integriert.
+- Mehrfachvarianten wie Threat Intelligence, NRD/DGA und DNS-Bypass erscheinen in der README kompakt als **eine Tabellenzeile mit ausklappbaren Varianten**.
+- Der Profil-Build löscht alte 5-MiB-Parts jetzt ausdrücklich vor dem Neuaufbau; die Validierung lehnt bei mehrteiligen Profilen verbliebene deutlich zu kleine Legacy-Parts ab. Zielgröße bleibt **50 MiB pro Part**.
+
 ## 3.3.2 — 2026-08-12
 
 - Erweiterte Listen werden in der README **nach Funktion mit den bestehenden BlackRabbitZ-Listen zusammengeführt**, statt in eigenen HaGeZi-/Speziallisten-Blöcken zu erscheinen.

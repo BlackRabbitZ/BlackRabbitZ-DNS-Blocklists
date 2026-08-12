@@ -41,6 +41,17 @@ def main() -> int:
             for path in files:
                 if path.stat().st_size > max_bytes:
                     failures.append(f"part exceeds split limit: {path} ({path.stat().st_size} > {max_bytes})")
+            # When a profile needs multiple files, every non-final part should be
+            # close to the configured 50-MiB target. This explicitly catches
+            # stale legacy 5-MiB output that might otherwise still validate.
+            if len(files) > 1:
+                min_expected = int(max_bytes * 0.90)
+                for path in files[:-1]:
+                    if path.stat().st_size < min_expected:
+                        failures.append(
+                            f"stale/undersized split part: {path} "
+                            f"({path.stat().st_size} < {min_expected}; rebuild with configured split size)"
+                        )
         else:
             if len(files) != 1 or files[0].name != f"{profile}.txt":
                 failures.append(f"unsplit profile has unexpected output layout: {profile}")
@@ -69,7 +80,7 @@ def main() -> int:
             print(f"ERROR: {failure}")
         raise SystemExit(1)
 
-    print("Generated profile validation passed: sorted, unique, size-bounded and metadata-consistent")
+    print("Generated profile validation passed: sorted, unique, 50-MiB-targeted, size-bounded and metadata-consistent")
     return 0
 
 

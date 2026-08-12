@@ -53,6 +53,9 @@ jobs:
           fi
           python3 ./scripts/update-special-lists.py "${args[@]}"
 
+      - name: Validate functional source integration
+        run: python3 ./scripts/validate-special-integration.py
+
       - name: Rebuild profiles, metadata and READMEs
         shell: bash
         run: bash ./scripts/update-lists.sh

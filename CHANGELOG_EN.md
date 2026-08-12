@@ -2,6 +2,14 @@
 
 **🌐 Language / Sprache:** [🇩🇪 Deutsch](CHANGELOG.md) · 🇬🇧 **English**
 
+## 3.3.3 — 2026-08-12
+
+- Overlapping HaGeZi sources are now **merged into existing BlackRabbitZ functional lists** instead of creating parallel lists.
+- Native Tracker sources are routed into existing Apple, Windows, Android, Smart-TV, IoT and Mobile Tracking lists; legacy `native-tracker-*` outputs are removed after a successful migration.
+- Fake/Internet Scam data is merged into `scam.txt`, Pop-Up Ads into `ads.txt`, NSFW into `adult.txt`, and Gambling Full into `gambling.txt`.
+- Multi-variant features such as Threat Intelligence, NRD/DGA and DNS Bypass are displayed compactly as **one table row with expandable variants**.
+- The profile build now explicitly removes legacy 5-MiB parts before rebuilding; validation rejects stale undersized parts in multi-part profiles. The target remains **50 MiB per part**.
+
 ## 3.3.2 — 2026-08-12
 
 - Extended lists are now **merged by function with the existing BlackRabbitZ lists in the README** instead of appearing in separate HaGeZi/special-list blocks.

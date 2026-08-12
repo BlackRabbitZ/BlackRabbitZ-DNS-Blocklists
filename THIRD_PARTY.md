@@ -19,7 +19,7 @@ Maßgeblich bleiben die jeweiligen Upstream-Projekte. Deren Daten können sich h
   - https://github.com/nextdns/click-tracking-domains
 - **Perflyst PiHoleBlocklist** — Android-, Smart-TV- und Amazon-Fire-TV-Tracking-/Telemetriequellen. Upstream unter MIT-Lizenz.
   - https://github.com/Perflyst/PiHoleBlocklist
-- **HaGeZi DNS Blocklists** — Quellen für Apple Native Tracking, LG webOS und Glücksspiel. Upstream-GPL-/Lizenzhinweise und Namensnennung müssen erhalten bleiben.
+- **HaGeZi DNS Blocklists** — zusätzliche archivierte Quellen für Werbung, Betrugs-/Security-Schutz, DNS-Bypass, Familienfilter und geräte-/dienstespezifisches Native Tracking. Überlappende Daten werden funktional in vorhandene BlackRabbitZ-Kategorien integriert; Upstream-GPL-/Lizenzhinweise und Namensnennung bleiben erhalten.
   - https://github.com/hagezi/dns-blocklists
 - **StevenBlack/hosts** — reine Pornografie-Erweiterung für die Adult-Kategorie. Upstream unter MIT-Lizenz.
   - https://github.com/StevenBlack/hosts
@@ -69,4 +69,4 @@ BlackRabbitZ-eigenes Material bleibt unter `GPL-3.0-only`. Drittanbieter-Materia
 
 ### Änderungsvermerk HaGeZi-abgeleiteter Daten
 
-Stand **12. August 2026**: Von HaGeZi übernommenes Material wird von BlackRabbitZ normalisiert, dedupliziert, bei Bedarf mit der globalen Allowlist gefiltert, funktional neu kategorisiert, mit BlackRabbitZ-Dateinamen veröffentlicht und bei großen Ausgaben in bis zu 50-MiB-Parts geteilt. Die Herkunft bleibt in den generierten Datei-Headern und in dieser Drittanbieter-Dokumentation erhalten.
+Stand **12. August 2026**: Von HaGeZi übernommenes Material wird von BlackRabbitZ normalisiert, dedupliziert, bei Bedarf mit der globalen Allowlist gefiltert und funktional neu kategorisiert. Überlappende Quellen werden in bestehende BlackRabbitZ-Listen integriert; nur eigenständige Funktionen bleiben als separate optionale Ausgabe erhalten. Große eigenständige Ausgaben werden in bis zu 50-MiB-Parts geteilt. Die Herkunft bleibt in den Datei-Headern bzw. in dieser Drittanbieter-Dokumentation erhalten.

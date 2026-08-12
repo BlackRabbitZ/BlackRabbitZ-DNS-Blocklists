@@ -2,7 +2,7 @@
 
 **🌐 Sprache / Language:** 🇩🇪 **Deutsch** · [🇬🇧 English](SPECIAL_LISTS_EN.md)
 
-BlackRabbitZ bildet die HaGeZi-Themen **7 bis 24** aus dem archivierten Repository-Stand vom **2. August 2026** ab. Die eigentlichen Blocklisten aus den Punkten 7–22 werden – soweit sie als statische Listen vorlagen – aus archivierten Rohdaten erzeugt. Die Punkte 23 und 24 sind Dokumentationsbereiche und erscheinen deshalb als **Empfehlungen** und **Online-DNS-Dienste** in der README.
+BlackRabbitZ bildet die HaGeZi-Themen **7 bis 24** aus dem archivierten Repository-Stand vom **2. August 2026** ab. Dabei werden überlappende Quellen **nicht als parallele BlackRabbitZ-Listen veröffentlicht**, sondern funktional in bereits vorhandene Kategorien integriert. Nur Funktionen, für die BlackRabbitZ noch keine passende Liste besitzt, bleiben als eigene optionale Liste bzw. kompakte Variantengruppe sichtbar. Die Punkte 23 und 24 sind Dokumentationsbereiche.
 
 Archivierte Ausgangsseite:
 
@@ -19,14 +19,15 @@ Diese Dateien sind **keine aktuellen HaGeZi-Feeds**. Sie sind eingefrorene bzw. 
 - entfernt exakte Treffer aus `config/allowlist.txt` aus Domainlisten,
 - dedupliziert und sortiert normale Domain-/IP-Varianten,
 - teilt große Ausgaben auf maximal **50 MiB pro Datei**,
-- hält die erweiterte Listen getrennt von den täglich aktualisierten BlackRabbitZ-Upstreams.
+- integriert überlappende Daten dedupliziert in bestehende Kategorien,
+- dokumentiert die Herkunft weiterhin in `THIRD_PARTY.md`, ohne die README nach Quelle zu trennen.
 
 ## Enthaltene Bereiche
 
 | Punkt | BlackRabbitZ-Bereich | Varianten / Umsetzung | Risiko |
 |---:|---|---|---|
-| 7 | Fake & Internet-Betrug | Voll | Mittel |
-| 8 | Pop-Up-Werbung | Voll | Mittel |
+| 7 | Scam & Internet-Betrug | in bestehende `scam.txt` integriert | Mittel |
+| 8 | Werbung | in bestehende `ads.txt` integriert | Mittel |
 | 9 | Threat Intelligence Feeds | Full, Medium, Mini, IPv4 | Mittel–Hoch |
 | 10 | NRD / DGA | fünf NRD-Zeitfenster + DGA 7/14/30 Tage | Sehr hoch |
 | 11 | DNS-Bypass-Schutz | Full, DoH-only, DoH-IPv4 | Hoch |
@@ -37,10 +38,10 @@ Diese Dateien sind **keine aktuellen HaGeZi-Feeds**. Sie sind eingefrorene bzw. 
 | 16 | Häufig missbrauchte TLDs | archiviertes Adblock-Format | Sehr hoch |
 | 17 | DNS-Rebind-Schutz | Pi-hole-/dnsmasq-Dokumentation | Konfiguration |
 | 18 | Anti-Piracy | Domainliste | Hoch |
-| 19 | Glücksspiel | Full, Medium, Mini | Hoch |
+| 19 | Glücksspiel | Full in `gambling.txt`; Medium/Mini optional | Hoch |
 | 20 | Soziale Netzwerke | Domainliste | Sehr hoch |
-| 21 | NSFW | Domainliste | Hoch |
-| 22 | Native Tracker | Amazon, Apple, Huawei, Microsoft, Samsung, TikTok, LG webOS, Roku, Vivo, OPPO/Realme, Xiaomi | Mittel–Hoch |
+| 21 | Erwachsene Inhalte / NSFW | in bestehende `adult.txt` integriert | Hoch |
+| 22 | Native Tracker | in Apple-/Windows-/Android-/Smart-TV-/IoT-/Mobile-Tracking-Listen integriert | Mittel–Hoch |
 | 23 | Empfehlungen | README-Dokumentation | — |
 | 24 | Online-DNS-Dienste | README-Dokumentation | — |
 
@@ -59,8 +60,8 @@ Wenn wirklich alle Punkt-7-bis-22-Varianten erzeugt werden sollen, muss **„Gro
 ## Verzeichnisse
 
 ```text
-lists/categories/   # Domain-/Adblock-erweiterte Listen und 50-MiB-Parts
-lists/ips/       # IPv4-erweiterte Listen
+lists/categories/   # bestehende Kategorien + nur funktional neue optionale Listen/Parts
+lists/ips/          # optionale IPv4-Varianten
 metadata/special-lists.json
 ```
 
