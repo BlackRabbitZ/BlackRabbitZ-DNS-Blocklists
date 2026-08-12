@@ -37,18 +37,17 @@ The upstream projects remain authoritative. Their data can change more frequentl
 - **Vendor documentation** (Canonical/Debian, Synology/TrueNAS/QNAP, Red Hat, Dell, HPE) — small telemetry endpoint sets used for Linux, NAS and Server categories.
 
 
-## Archived special lists (topics 7–22)
+## HaGeZi upstream data for extended functional lists
 
-BlackRabbitZ can additionally import the HaGeZi lists documented by the **2 August 2026** Wayback snapshot and **integrate them by function into the existing BlackRabbitZ sections**. The original lists were published under GPL-3.0. Because the original repository is currently not a reliable live upstream, these datasets are **clearly treated as archived third-party sources** and are not presented as current HaGeZi feeds.
+BlackRabbitZ can import additional HaGeZi lists and **integrate them by function into existing BlackRabbitZ sections**. The original lists were published under GPL-3.0.
 
-- Archived repository page: `https://web.archive.org/web/20260802022304/https://github.com/hagezi/dns-blocklists`
 - Original project: `https://github.com/hagezi/dns-blocklists`
 - Build configuration: `config/special-lists.json`
 - Functionally integrated domain lists: `lists/categories/`
 - Generated IPv4 lists: `lists/ips/`
 - Machine-readable provenance/checksums: `metadata/special-lists.json`
 
-The configuration points to the corresponding archived Raw captures. For some files, the 2 August snapshot redirects to the nearest available Wayback capture of that same file. BlackRabbitZ normalizes domain/IP variants and splits large outputs; Adblock-specific syntax is preserved only where it is required for the list to work (for example TLD rules).
+The build configuration uses direct live/CDN/raw sources and **no archive URL as an update source**. If the upstream is temporarily unavailable, the affected source is skipped for that run and existing material is preserved. The remaining BlackRabbitZ build continues.
 
 ## Derived subsets
 

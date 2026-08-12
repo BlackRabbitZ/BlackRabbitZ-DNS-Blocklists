@@ -37,18 +37,17 @@ Maßgeblich bleiben die jeweiligen Upstream-Projekte. Deren Daten können sich h
 - **Herstellerdokumentation** (Canonical/Debian, Synology/TrueNAS/QNAP, Red Hat, Dell, HPE) — kleine Telemetrie-Endpunkt-Sammlungen für Linux-, NAS- und Server-Kategorien.
 
 
-## Archivierte Upstream-Daten für erweiterte Funktionslisten
+## HaGeZi-Upstream-Daten für erweiterte Funktionslisten
 
-BlackRabbitZ kann zusätzlich die im Wayback-Snapshot vom **2. August 2026** dokumentierten HaGeZi-Listen importieren und **nach Funktion in die bestehenden BlackRabbitZ-Bereiche einsortieren**. Die ursprünglichen Listen wurden unter GPL-3.0 veröffentlicht. Zur reproduzierbaren Übernahme dieses dokumentierten Stands nutzt BlackRabbitZ **archivierte Raw-Captures** und kennzeichnet sie klar als Drittquelle. Dadurch hängen die daraus erzeugten Listen nicht davon ab, ob sich das Live-Repository später ändert oder zeitweise nicht erreichbar ist.
+BlackRabbitZ kann zusätzliche HaGeZi-Listen importieren und **nach Funktion in bestehende BlackRabbitZ-Bereiche einsortieren**. Die ursprünglichen Listen wurden unter GPL-3.0 veröffentlicht.
 
-- Archivierte Repository-Seite: `https://web.archive.org/web/20260802022304/https://github.com/hagezi/dns-blocklists`
 - Originalprojekt: `https://github.com/hagezi/dns-blocklists`
 - Build-Konfiguration: `config/special-lists.json`
 - Funktional einsortierte Domainlisten: `lists/categories/`
 - Erzeugte IPv4-Listen: `lists/ips/`
 - Maschinenlesbare Herkunft/Prüfsummen: `metadata/special-lists.json`
 
-Die Konfiguration verweist auf die jeweiligen archivierten Raw-Captures. Bei einzelnen Dateien führt der Link des 2.-August-Snapshots zur nächst verfügbaren Wayback-Capture derselben Datei. BlackRabbitZ normalisiert Domain-/IP-Varianten und teilt große Ausgaben auf; Adblock-spezifische Syntax wird nur dort unverändert erhalten, wo sie für die Funktion der Liste notwendig ist (z. B. TLD-Regeln).
+Die Build-Konfiguration verwendet direkte Live-/CDN-/Raw-Quellen und **keine Archiv-Adresse als Updatequelle**. Ist der Upstream vorübergehend nicht erreichbar, wird die betroffene Quelle für diesen Lauf übersprungen und vorhandenes Material beibehalten. Der restliche BlackRabbitZ-Build läuft weiter.
 
 ## Abgeleitete Teilmengen
 

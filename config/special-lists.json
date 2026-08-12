@@ -1,9 +1,8 @@
 {
   "version": 2,
   "split_max_bytes": 52428800,
-  "source_family": "HaGeZi DNS Blocklists (archived upstream; functionally integrated into BlackRabbitZ)",
+  "source_family": "HaGeZi DNS Blocklists (optional live upstream; functionally integrated into BlackRabbitZ)",
   "source_repository": "https://github.com/hagezi/dns-blocklists",
-  "archive_snapshot": "2026-08-02",
   "license": "GPL-3.0",
   "items": [
     {
@@ -23,7 +22,7 @@
           "label_en": "Full",
           "kind": "domains",
           "min_entries": 10000,
-          "source_url": "https://web.archive.org/web/20260709124133if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/fake-onlydomains.txt",
+          "source_url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/fake-onlydomains.txt",
           "merge_into": "scam",
           "publish": false
         }
@@ -49,7 +48,7 @@
           "label_en": "Full",
           "kind": "domains",
           "min_entries": 30000,
-          "source_url": "https://web.archive.org/web/20260802022308if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/popupads-onlydomains.txt",
+          "source_url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/popupads-onlydomains.txt",
           "merge_into": "ads",
           "publish": false
         }
@@ -75,7 +74,7 @@
           "label_en": "Full",
           "kind": "domains",
           "min_entries": 1500000,
-          "source_url": "https://web.archive.org/web/20260709124138if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/tif-onlydomains.txt",
+          "source_url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/tif-onlydomains.txt",
           "publish": true
         },
         {
@@ -84,7 +83,7 @@
           "label_en": "Medium",
           "kind": "domains",
           "min_entries": 250000,
-          "source_url": "https://web.archive.org/web/20260811224303if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/tif.medium-onlydomains.txt",
+          "source_url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/tif.medium-onlydomains.txt",
           "publish": true
         },
         {
@@ -93,7 +92,7 @@
           "label_en": "Mini",
           "kind": "domains",
           "min_entries": 100000,
-          "source_url": "https://web.archive.org/web/20260709124148if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/tif.mini-onlydomains.txt",
+          "source_url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/tif.mini-onlydomains.txt",
           "publish": true
         },
         {
@@ -102,7 +101,7 @@
           "label_en": "IPv4",
           "kind": "ipv4",
           "min_entries": 1000,
-          "source_url": "https://web.archive.org/web/20260806003104if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/ips/tif.txt",
+          "source_url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/ips/tif.txt",
           "publish": true
         }
       ],
@@ -127,7 +126,7 @@
           "kind": "domains",
           "heavy": true,
           "min_entries": 1000000,
-          "source_url": "https://web.archive.org/web/20260802022310if_/https://raw.githubusercontent.com/hagezi/nrd/main/domains/nrd7.txt",
+          "source_url": "https://raw.githubusercontent.com/hagezi/nrd/main/domains/nrd7.txt",
           "publish": true
         },
         {
@@ -137,7 +136,7 @@
           "kind": "domains",
           "heavy": true,
           "min_entries": 1000000,
-          "source_url": "https://web.archive.org/web/20260802022310if_/https://raw.githubusercontent.com/hagezi/nrd/main/domains/nrd14-8.txt",
+          "source_url": "https://raw.githubusercontent.com/hagezi/nrd/main/domains/nrd14-8.txt",
           "publish": true
         },
         {
@@ -147,7 +146,7 @@
           "kind": "domains",
           "heavy": true,
           "min_entries": 1000000,
-          "source_url": "https://web.archive.org/web/20260802022311if_/https://raw.githubusercontent.com/hagezi/nrd/main/domains/nrd21-15.txt",
+          "source_url": "https://raw.githubusercontent.com/hagezi/nrd/main/domains/nrd21-15.txt",
           "publish": true
         },
         {
@@ -157,7 +156,7 @@
           "kind": "domains",
           "heavy": true,
           "min_entries": 1000000,
-          "source_url": "https://web.archive.org/web/20260802022516if_/https://raw.githubusercontent.com/hagezi/nrd/main/domains/nrd28-22.txt",
+          "source_url": "https://raw.githubusercontent.com/hagezi/nrd/main/domains/nrd28-22.txt",
           "publish": true
         },
         {
@@ -167,7 +166,7 @@
           "kind": "domains",
           "heavy": true,
           "min_entries": 1000000,
-          "source_url": "https://web.archive.org/web/20260802022320if_/https://raw.githubusercontent.com/hagezi/nrd/main/domains/nrd35-29.txt",
+          "source_url": "https://raw.githubusercontent.com/hagezi/nrd/main/domains/nrd35-29.txt",
           "publish": true
         },
         {
@@ -177,7 +176,7 @@
           "kind": "domains",
           "heavy": true,
           "min_entries": 250000,
-          "source_url": "https://web.archive.org/web/20260802022325if_/https://raw.githubusercontent.com/hagezi/nrd/main/domains/dga7.txt",
+          "source_url": "https://raw.githubusercontent.com/hagezi/nrd/main/domains/dga7.txt",
           "publish": true
         },
         {
@@ -187,7 +186,7 @@
           "kind": "domains",
           "heavy": true,
           "min_entries": 600000,
-          "source_url": "https://web.archive.org/web/20260802022326if_/https://raw.githubusercontent.com/hagezi/nrd/main/domains/dga14.txt",
+          "source_url": "https://raw.githubusercontent.com/hagezi/nrd/main/domains/dga14.txt",
           "publish": true
         },
         {
@@ -197,7 +196,7 @@
           "kind": "domains",
           "heavy": true,
           "min_entries": 1200000,
-          "source_url": "https://web.archive.org/web/20260802022330if_/https://raw.githubusercontent.com/hagezi/nrd/main/domains/dga30.txt",
+          "source_url": "https://raw.githubusercontent.com/hagezi/nrd/main/domains/dga30.txt",
           "publish": true
         }
       ],
@@ -221,7 +220,7 @@
           "label_en": "Full",
           "kind": "domains",
           "min_entries": 10000,
-          "source_url": "https://web.archive.org/web/20260709124150if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/doh-vpn-proxy-bypass-onlydomains.txt",
+          "source_url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/doh-vpn-proxy-bypass-onlydomains.txt",
           "publish": true
         },
         {
@@ -230,7 +229,7 @@
           "label_en": "DoH only",
           "kind": "domains",
           "min_entries": 1000,
-          "source_url": "https://web.archive.org/web/20260709124151if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/doh-onlydomains.txt",
+          "source_url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/doh-onlydomains.txt",
           "publish": true
         },
         {
@@ -239,7 +238,7 @@
           "label_en": "DoH IPv4",
           "kind": "ipv4",
           "min_entries": 100,
-          "source_url": "https://web.archive.org/web/20260709124151if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/ips/doh.txt",
+          "source_url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/ips/doh.txt",
           "publish": true
         }
       ],
@@ -263,7 +262,7 @@
           "label_en": "Full",
           "kind": "domains",
           "min_entries": 100,
-          "source_url": "https://web.archive.org/web/20260709124153if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/nosafesearch-onlydomains.txt",
+          "source_url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/nosafesearch-onlydomains.txt",
           "publish": true
         }
       ],
@@ -286,7 +285,7 @@
           "label_en": "Full",
           "kind": "domains",
           "min_entries": 700,
-          "source_url": "https://web.archive.org/web/20260725182445if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/dyndns-onlydomains.txt",
+          "source_url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/dyndns-onlydomains.txt",
           "publish": true
         }
       ],
@@ -309,7 +308,7 @@
           "label_en": "Full",
           "kind": "domains",
           "min_entries": 700,
-          "source_url": "https://web.archive.org/web/20260709124154if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/hoster-onlydomains.txt",
+          "source_url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/hoster-onlydomains.txt",
           "publish": true
         }
       ],
@@ -332,7 +331,7 @@
           "label_en": "Full",
           "kind": "domains",
           "min_entries": 5000,
-          "source_url": "https://web.archive.org/web/20260709124155if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/urlshortener-onlydomains.txt",
+          "source_url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/urlshortener-onlydomains.txt",
           "publish": true
         }
       ],
@@ -355,7 +354,7 @@
           "label_en": "Pi-hole Adblock",
           "kind": "raw",
           "min_entries": 10,
-          "source_url": "https://web.archive.org/web/20260709124156if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/spam-tlds-adblock.txt",
+          "source_url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/spam-tlds-adblock.txt",
           "publish": true
         }
       ],
@@ -393,7 +392,7 @@
           "label_en": "Full",
           "kind": "domains",
           "min_entries": 20000,
-          "source_url": "https://web.archive.org/web/20260709124157if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/anti.piracy-onlydomains.txt",
+          "source_url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/anti.piracy-onlydomains.txt",
           "publish": true
         }
       ],
@@ -416,7 +415,7 @@
           "label_en": "Full",
           "kind": "domains",
           "min_entries": 200000,
-          "source_url": "https://web.archive.org/web/20260709124159if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/gambling-onlydomains.txt",
+          "source_url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/gambling-onlydomains.txt",
           "merge_into": "gambling",
           "publish": false
         },
@@ -426,7 +425,7 @@
           "label_en": "Medium",
           "kind": "domains",
           "min_entries": 80000,
-          "source_url": "https://web.archive.org/web/20260709124201if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/gambling.medium-onlydomains.txt",
+          "source_url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/gambling.medium-onlydomains.txt",
           "publish": true
         },
         {
@@ -435,7 +434,7 @@
           "label_en": "Mini",
           "kind": "domains",
           "min_entries": 40000,
-          "source_url": "https://web.archive.org/web/20260709124202if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/gambling.mini-onlydomains.txt",
+          "source_url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/gambling.mini-onlydomains.txt",
           "publish": true
         }
       ],
@@ -460,7 +459,7 @@
           "label_en": "Full",
           "kind": "domains",
           "min_entries": 500,
-          "source_url": "https://web.archive.org/web/20260709124204if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/social-onlydomains.txt",
+          "source_url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/social-onlydomains.txt",
           "publish": true
         }
       ],
@@ -483,7 +482,7 @@
           "label_en": "Full",
           "kind": "domains",
           "min_entries": 60000,
-          "source_url": "https://web.archive.org/web/20260709124205if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/nsfw-onlydomains.txt",
+          "source_url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/nsfw-onlydomains.txt",
           "merge_into": "adult",
           "publish": false
         }
@@ -509,7 +508,7 @@
           "label_en": "Amazon",
           "kind": "domains",
           "min_entries": 5,
-          "source_url": "https://web.archive.org/web/20260709124207if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.amazon-onlydomains.txt",
+          "source_url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.amazon-onlydomains.txt",
           "merge_into": "iot",
           "publish": false
         },
@@ -519,7 +518,7 @@
           "label_en": "Apple",
           "kind": "domains",
           "min_entries": 5,
-          "source_url": "https://web.archive.org/web/20260709124208if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.apple-onlydomains.txt",
+          "source_url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.apple-onlydomains.txt",
           "merge_into": "apple-telemetry",
           "publish": false
         },
@@ -529,7 +528,7 @@
           "label_en": "Huawei",
           "kind": "domains",
           "min_entries": 5,
-          "source_url": "https://web.archive.org/web/20260709124208if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.huawei-onlydomains.txt",
+          "source_url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.huawei-onlydomains.txt",
           "merge_into": "android-telemetry",
           "publish": false
         },
@@ -539,7 +538,7 @@
           "label_en": "Microsoft / Windows / Office",
           "kind": "domains",
           "min_entries": 5,
-          "source_url": "https://web.archive.org/web/20260709124209if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.winoffice-onlydomains.txt",
+          "source_url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.winoffice-onlydomains.txt",
           "merge_into": "windows-telemetry",
           "publish": false
         },
@@ -549,7 +548,7 @@
           "label_en": "Samsung",
           "kind": "domains",
           "min_entries": 5,
-          "source_url": "https://web.archive.org/web/20260709124210if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.samsung-onlydomains.txt",
+          "source_url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.samsung-onlydomains.txt",
           "merge_into": "android-telemetry",
           "publish": false
         },
@@ -559,7 +558,7 @@
           "label_en": "TikTok",
           "kind": "domains",
           "min_entries": 1,
-          "source_url": "https://web.archive.org/web/20260709124211if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.tiktok-onlydomains.txt",
+          "source_url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.tiktok-onlydomains.txt",
           "merge_into": "mobile-tracking",
           "publish": false
         },
@@ -569,7 +568,7 @@
           "label_en": "TikTok – Aggressive",
           "kind": "domains",
           "min_entries": 1,
-          "source_url": "https://web.archive.org/web/20260709124212if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.tiktok.extended-onlydomains.txt",
+          "source_url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.tiktok.extended-onlydomains.txt",
           "merge_into": "mobile-tracking",
           "publish": false
         },
@@ -579,7 +578,7 @@
           "label_en": "LG webOS",
           "kind": "domains",
           "min_entries": 10,
-          "source_url": "https://web.archive.org/web/20260709124212if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.lgwebos-onlydomains.txt",
+          "source_url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.lgwebos-onlydomains.txt",
           "merge_into": "smart-tv",
           "publish": false
         },
@@ -589,7 +588,7 @@
           "label_en": "Roku",
           "kind": "domains",
           "min_entries": 1,
-          "source_url": "https://web.archive.org/web/20260709124213if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.roku-onlydomains.txt",
+          "source_url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.roku-onlydomains.txt",
           "merge_into": "smart-tv",
           "publish": false
         },
@@ -599,7 +598,7 @@
           "label_en": "Vivo",
           "kind": "domains",
           "min_entries": 1,
-          "source_url": "https://web.archive.org/web/20260709124214if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.vivo-onlydomains.txt",
+          "source_url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.vivo-onlydomains.txt",
           "merge_into": "android-telemetry",
           "publish": false
         },
@@ -609,7 +608,7 @@
           "label_en": "OPPO / Realme",
           "kind": "domains",
           "min_entries": 1,
-          "source_url": "https://web.archive.org/web/20260709124215if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.oppo-realme-onlydomains.txt",
+          "source_url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.oppo-realme-onlydomains.txt",
           "merge_into": "android-telemetry",
           "publish": false
         },
@@ -619,7 +618,7 @@
           "label_en": "Xiaomi",
           "kind": "domains",
           "min_entries": 1,
-          "source_url": "https://web.archive.org/web/20260709124216if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.xiaomi-onlydomains.txt",
+          "source_url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.xiaomi-onlydomains.txt",
           "merge_into": "android-telemetry",
           "publish": false
         }
@@ -658,5 +657,6 @@
       "readme_section": "info"
     }
   ],
-  "integration_revision": 2
+  "integration_revision": 3,
+  "source_policy": "live_optional_skip_on_failure"
 }

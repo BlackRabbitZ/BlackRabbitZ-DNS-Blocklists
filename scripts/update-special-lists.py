@@ -34,13 +34,13 @@ class SourceUnavailableError(RuntimeError):
     """Remote source is temporarily unavailable; callers may safely defer this source."""
 
 
-# If one archive host is clearly unreachable, do not spend minutes retrying every
+# If one upstream host is clearly unreachable, do not spend minutes retrying every
 # configured list from the same host during the same GitHub Actions run.
 UNAVAILABLE_HOSTS: dict[str, str] = {}
 
 
 def args_parser() -> argparse.Namespace:
-    p = argparse.ArgumentParser(description="Build archived/special BlackRabbitZ lists from configured sources")
+    p = argparse.ArgumentParser(description="Build optional extended BlackRabbitZ lists from configured live sources")
     p.add_argument("--config", type=Path, default=DEFAULT_CONFIG)
     p.add_argument("--include-heavy", action="store_true", help="Include very large NRD/DGA variants")
     p.add_argument("--only", action="append", default=[], help="Build only one or more variant ids")
@@ -142,7 +142,7 @@ def download(url: str, dest: Path) -> None:
         req = urllib.request.Request(
             url,
             headers={
-                "User-Agent": "BlackRabbitZ-DNS-Blocklists/3.3.4 (+https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists)",
+                "User-Agent": "BlackRabbitZ-DNS-Blocklists/3.3.5 (+https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists)",
                 "Accept": "text/plain,*/*;q=0.8",
             },
         )
@@ -150,11 +150,10 @@ def download(url: str, dest: Path) -> None:
             with urllib.request.urlopen(req, timeout=300) as response, dest.open("wb") as out:
                 content_type = response.headers.get("Content-Type", "")
                 shutil.copyfileobj(response, out, length=1024 * 1024)
-            # A Wayback HTML wrapper instead of raw data is a failed source fetch
-            # for our purposes, but it is source-specific rather than a host outage.
+            # An HTML error/landing page instead of raw list data is a failed source fetch.
             head = dest.read_bytes()[:512].lower()
             if b"<html" in head or b"<!doctype html" in head:
-                raise RuntimeError(f"Archive returned HTML instead of raw list data ({content_type})")
+                raise RuntimeError(f"Upstream returned HTML instead of raw list data ({content_type})")
             return
 
         except urllib.error.HTTPError as exc:
@@ -165,7 +164,7 @@ def download(url: str, dest: Path) -> None:
                 file=sys.stderr,
             )
             # 404/410 and similar source-specific errors do not imply that every
-            # other list on the archive host is unavailable.
+            # other list on the same upstream host is unavailable.
             if exc.code in {429, 500, 502, 503, 504}:
                 host_wide_failure = True
             if exc.code not in {408, 429, 500, 502, 503, 504}:
@@ -181,7 +180,7 @@ def download(url: str, dest: Path) -> None:
             )
 
         except RuntimeError as exc:
-            # Invalid archive payload (for example an HTML wrapper). Retry this
+            # Invalid upstream payload (for example an HTML landing page). Retry this
             # source, but do not trip the host-wide circuit breaker.
             last_error = exc
             dest.unlink(missing_ok=True)
@@ -247,13 +246,11 @@ def remove_old_variant_files(variant_id: str, kind: str) -> None:
 
 
 def header_lines(config: dict, variant: dict, entries: int, part: int | None, parts: int | None) -> list[str]:
-    capture = WAYBACK_CAPTURE_RE.search(variant["source_url"])
-    capture_text = capture.group(1) if capture else "unknown"
     lines = [
         "# BlackRabbitZ DNS Blocklists",
         f"# Source: {config['source_family']}",
         f"# Original project: {config['source_repository']}",
-        f"# Archived source capture: {capture_text}",
+        f"# Upstream data URL: {variant['source_url']}",
         f"# License/source attribution: {config['license']} (see THIRD_PARTY.md)",
         f"# Entries in this file: {entries}",
     ]
@@ -271,7 +268,7 @@ def split_lines_payload(normalized: Path, variant: dict, config: dict) -> list[d
     variant_id = variant["id"]
 
     if kind == "raw":
-        # Preserve archived Adblock syntax byte-for-byte. It is a format-specific list,
+        # Preserve Adblock syntax byte-for-byte. It is a format-specific list,
         # not a BlackRabbitZ plain-domain file.
         out = directory / f"{variant_id}.txt"
         remove_old_variant_files(variant_id, kind)
@@ -335,7 +332,7 @@ def metadata_for_existing(variant: dict) -> dict | None:
     if not files:
         return None
     # Placeholder files are committed only so the planned list layout is visible
-    # before the first archive import. They must never suppress the real build.
+    # before the first successful upstream import. They must never suppress the real build.
     for path in files:
         try:
             head = path.read_text(encoding="utf-8", errors="ignore")[:2048]
@@ -554,7 +551,7 @@ def main() -> int:
         "integration_revision": int(config.get("integration_revision", 1)),
         "generated_at": datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z"),
         "source_family": config.get("source_family"),
-        "archive_snapshot": config.get("archive_snapshot"),
+        "source_policy": config.get("source_policy", "live_optional_skip_on_failure"),
         "split_max_bytes": config["split_max_bytes"],
         "items": {},
     }
