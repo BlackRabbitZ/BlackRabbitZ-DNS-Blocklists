@@ -5,7 +5,7 @@ import argparse
 import re
 from pathlib import Path
 
-DEFAULT_MAX_BYTES = 5 * 1024 * 1024
+DEFAULT_MAX_BYTES = 50 * 1024 * 1024
 HEADER_RESERVE = 4096
 
 

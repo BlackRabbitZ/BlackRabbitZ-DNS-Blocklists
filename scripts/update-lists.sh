@@ -1,6 +1,10 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+# v3.3.2 migration cleanup: extended lists are now functionally integrated under lists/categories.
+rm -f lists/special/hagezi-*.txt 2>/dev/null || true
+rm -f lists/ips/hagezi-*.txt 2>/dev/null || true
+
 # Deterministic and substantially faster sorting for multi-million-entry lists.
 export LC_ALL=C
 

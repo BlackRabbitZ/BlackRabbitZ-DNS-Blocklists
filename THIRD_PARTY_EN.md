@@ -39,12 +39,12 @@ The upstream projects remain authoritative. Their data can change more frequentl
 
 ## Archived special lists (topics 7–22)
 
-BlackRabbitZ can additionally import the HaGeZi special lists documented by the **2 August 2026** Wayback snapshot. The original lists were published under GPL-3.0. Because the original repository is currently not a reliable live upstream, these datasets are **clearly treated as archived third-party sources** and are not presented as current HaGeZi feeds.
+BlackRabbitZ can additionally import the HaGeZi lists documented by the **2 August 2026** Wayback snapshot and **integrate them by function into the existing BlackRabbitZ sections**. The original lists were published under GPL-3.0. Because the original repository is currently not a reliable live upstream, these datasets are **clearly treated as archived third-party sources** and are not presented as current HaGeZi feeds.
 
 - Archived repository page: `https://web.archive.org/web/20260802022304/https://github.com/hagezi/dns-blocklists`
 - Original project: `https://github.com/hagezi/dns-blocklists`
 - Build configuration: `config/special-lists.json`
-- Generated domain lists: `lists/special/`
+- Functionally integrated domain lists: `lists/categories/`
 - Generated IPv4 lists: `lists/ips/`
 - Machine-readable provenance/checksums: `metadata/special-lists.json`
 
@@ -66,3 +66,7 @@ Derived categories are intentionally aggressive. A domain's presence in a derive
 ## Redistribution
 
 BlackRabbitZ-original material remains under `GPL-3.0-only`. Third-party material remains subject to its applicable upstream license and notices. When redistributing substantial portions of an upstream dataset, preserve that project's required copyright, permission and attribution notices and consult the linked upstream license as the authoritative version.
+
+### Modification notice for HaGeZi-derived data
+
+As of **12 August 2026**, material derived from HaGeZi is normalized, deduplicated, filtered through the global allowlist where applicable, functionally re-categorized, published under BlackRabbitZ file names and split into parts up to 50 MiB when large. Source provenance remains in generated file headers and in this third-party documentation.

@@ -21,7 +21,8 @@ from urllib.parse import urlparse
 ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_CONFIG = ROOT / "config" / "special-lists.json"
 ALLOWLIST = ROOT / "config" / "allowlist.txt"
-SPECIAL_DIR = ROOT / "lists" / "special"
+CATEGORIES_DIR = ROOT / "lists" / "categories"
+LEGACY_SPECIAL_DIR = ROOT / "lists" / "special"
 IPS_DIR = ROOT / "lists" / "ips"
 METADATA = ROOT / "metadata" / "special-lists.json"
 
@@ -180,7 +181,7 @@ def write_normalized_payload(raw: Path, normalized: Path, kind: str, allowlist: 
 
 
 def output_directory(kind: str) -> Path:
-    return IPS_DIR if kind == "ipv4" else SPECIAL_DIR
+    return IPS_DIR if kind == "ipv4" else CATEGORIES_DIR
 
 
 def remove_old_variant_files(variant_id: str, kind: str) -> None:
@@ -334,8 +335,15 @@ def main() -> int:
     allowlist = load_allowlist()
     only = set(args.only)
 
-    SPECIAL_DIR.mkdir(parents=True, exist_ok=True)
+    CATEGORIES_DIR.mkdir(parents=True, exist_ok=True)
     IPS_DIR.mkdir(parents=True, exist_ok=True)
+
+    # v3.3.2 migration: remove legacy source-named placeholder/build outputs.
+    if LEGACY_SPECIAL_DIR.exists():
+        for legacy in LEGACY_SPECIAL_DIR.glob("hagezi-*.txt"):
+            legacy.unlink(missing_ok=True)
+    for legacy in IPS_DIR.glob("hagezi-*.txt"):
+        legacy.unlink(missing_ok=True)
     METADATA.parent.mkdir(parents=True, exist_ok=True)
 
     previous: dict = {}

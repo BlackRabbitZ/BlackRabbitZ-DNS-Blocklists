@@ -9,7 +9,7 @@
 
 # Generated blocklists and machine-readable metadata are build outputs.
 lists/combined/*.txt linguist-generated=true
-lists/special/*.txt linguist-generated=true
+lists/categories/*.txt linguist-generated=true
 lists/ips/*.txt linguist-generated=true
 metadata/build.json linguist-generated=true
 metadata/special-lists.json linguist-generated=true

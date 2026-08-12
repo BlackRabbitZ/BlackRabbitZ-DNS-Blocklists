@@ -37,14 +37,14 @@ Maßgeblich bleiben die jeweiligen Upstream-Projekte. Deren Daten können sich h
 - **Herstellerdokumentation** (Canonical/Debian, Synology/TrueNAS/QNAP, Red Hat, Dell, HPE) — kleine Telemetrie-Endpunkt-Sammlungen für Linux-, NAS- und Server-Kategorien.
 
 
-## Archivierte Speziallisten (Punkte 7–22)
+## Archivierte Upstream-Daten für erweiterte Funktionslisten
 
-BlackRabbitZ kann zusätzlich die im Wayback-Snapshot vom **2. August 2026** dokumentierten HaGeZi-Speziallisten importieren. Die ursprünglichen Listen wurden unter GPL-3.0 veröffentlicht. Zur reproduzierbaren Übernahme dieses dokumentierten Stands nutzt BlackRabbitZ **archivierte Raw-Captures** und kennzeichnet sie klar als Drittquelle. Dadurch hängen die erzeugten Speziallisten nicht davon ab, ob sich das Live-Repository später ändert oder zeitweise nicht erreichbar ist.
+BlackRabbitZ kann zusätzlich die im Wayback-Snapshot vom **2. August 2026** dokumentierten HaGeZi-Listen importieren und **nach Funktion in die bestehenden BlackRabbitZ-Bereiche einsortieren**. Die ursprünglichen Listen wurden unter GPL-3.0 veröffentlicht. Zur reproduzierbaren Übernahme dieses dokumentierten Stands nutzt BlackRabbitZ **archivierte Raw-Captures** und kennzeichnet sie klar als Drittquelle. Dadurch hängen die daraus erzeugten Listen nicht davon ab, ob sich das Live-Repository später ändert oder zeitweise nicht erreichbar ist.
 
 - Archivierte Repository-Seite: `https://web.archive.org/web/20260802022304/https://github.com/hagezi/dns-blocklists`
 - Originalprojekt: `https://github.com/hagezi/dns-blocklists`
 - Build-Konfiguration: `config/special-lists.json`
-- Erzeugte Domainlisten: `lists/special/`
+- Funktional einsortierte Domainlisten: `lists/categories/`
 - Erzeugte IPv4-Listen: `lists/ips/`
 - Maschinenlesbare Herkunft/Prüfsummen: `metadata/special-lists.json`
 
@@ -66,3 +66,7 @@ Abgeleitete Kategorien sind bewusst aggressiv. Die Aufnahme einer Domain in eine
 ## Weiterverbreitung
 
 BlackRabbitZ-eigenes Material bleibt unter `GPL-3.0-only`. Drittanbieter-Material unterliegt weiterhin den jeweils geltenden Upstream-Lizenzen und Hinweisen. Bei der Weiterverbreitung wesentlicher Teile eines Upstream-Datensatzes müssen die dort erforderlichen Copyright-, Genehmigungs- und Namensnennungshinweise erhalten bleiben; die verlinkte Upstream-Lizenz ist die maßgebliche Fassung.
+
+### Änderungsvermerk HaGeZi-abgeleiteter Daten
+
+Stand **12. August 2026**: Von HaGeZi übernommenes Material wird von BlackRabbitZ normalisiert, dedupliziert, bei Bedarf mit der globalen Allowlist gefiltert, funktional neu kategorisiert, mit BlackRabbitZ-Dateinamen veröffentlicht und bei großen Ausgaben in bis zu 50-MiB-Parts geteilt. Die Herkunft bleibt in den generierten Datei-Headern und in dieser Drittanbieter-Dokumentation erhalten.

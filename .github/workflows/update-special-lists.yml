@@ -1,4 +1,4 @@
-name: Update archived special lists
+name: Update extended lists
 
 on:
   workflow_dispatch:
@@ -22,7 +22,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  archive-special-lists:
+  extended-lists:
     runs-on: ubuntu-latest
     timeout-minutes: 300
 
@@ -32,13 +32,13 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Validate special-list configuration
+      - name: Validate extended-list configuration
         run: python3 -m json.tool config/special-lists.json >/dev/null
 
       - name: Remove Python cache artifacts
         run: find . -type d -name __pycache__ -prune -exec rm -rf {} +
 
-      - name: Build archived special lists
+      - name: Build extended lists
         shell: bash
         env:
           INCLUDE_HEAVY: ${{ inputs.include_heavy }}
@@ -60,16 +60,16 @@ jobs:
       - name: Validate generated diff
         run: git diff --check
 
-      - name: Commit archived special lists
+      - name: Commit extended lists
         shell: bash
         run: |
           if [[ -z "$(git status --porcelain)" ]]; then
-            echo "Archived special lists are already up to date."
+            echo "Extended lists are already up to date."
             exit 0
           fi
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A
-          git commit -m "feat: build archived special blocklists"
+          git commit -m "feat: update extended blocklists"
           git push

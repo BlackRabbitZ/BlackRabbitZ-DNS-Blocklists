@@ -16,7 +16,7 @@ def main() -> int:
     parser = argparse.ArgumentParser(description="Deprecated wrapper: publish Ultimate with the generic profile publisher.")
     parser.add_argument("source", type=Path)
     parser.add_argument("--output-dir", type=Path, default=Path("lists/combined"))
-    parser.add_argument("--max-bytes", type=int, default=5 * 1024 * 1024)
+    parser.add_argument("--max-bytes", type=int, default=50 * 1024 * 1024)
     parser.add_argument("--repo-url", default="https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists")
     parser.add_argument("--includes", required=True)
     args = parser.parse_args()

@@ -1,0 +1,8 @@
+BlackRabbitZ DNS Blocklists v3.3.2
+
+1. Copy this ZIP over the repository root.
+2. Commit and push all changes.
+3. Let the "Update blocklists" workflow finish completely.
+4. Fetch origin in GitHub Desktop before making further local edits.
+
+The first workflow run migrates the old source-prefixed HaGeZi outputs to functional BlackRabbitZ file names, rebuilds large profiles with max. 50 MiB per part, imports missing extended lists and refreshes both READMEs.

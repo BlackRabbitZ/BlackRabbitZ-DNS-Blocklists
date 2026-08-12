@@ -38,7 +38,7 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Validate profile, README and special-list configuration
+      - name: Validate profile, README and extended-list configuration
         run: |
           python3 -m json.tool config/profiles.json >/dev/null
           python3 -m json.tool config/readme-i18n.json >/dev/null
@@ -47,14 +47,24 @@ jobs:
       - name: Remove Python cache artifacts
         run: find . -type d -name __pycache__ -prune -exec rm -rf {} +
 
-      - name: Build archived special lists on first installation
+      - name: Build or migrate extended lists
         shell: bash
         run: |
+          needs_extended_build=false
           if [[ ! -f metadata/special-lists.json ]]; then
-            echo "Initial special-list build: importing archived topics 7-22, including NRD/DGA."
+            needs_extended_build=true
+          elif ! grep -q '"threat-intelligence-full"' metadata/special-lists.json; then
+            # v3.3.2 migration: old metadata used source-prefixed HaGeZi ids.
+            needs_extended_build=true
+          elif grep -q '^# Status: Placeholder;' lists/categories/popup-ads.txt 2>/dev/null; then
+            needs_extended_build=true
+          fi
+
+          if [[ "$needs_extended_build" == "true" ]]; then
+            echo "Building/migrating the functionally integrated extended lists, including NRD/DGA."
             python3 ./scripts/update-special-lists.py --include-heavy
           else
-            echo "Special-list metadata already exists; archived lists are left unchanged."
+            echo "Functionally integrated extended lists already exist; no archive rebuild needed."
           fi
 
       - name: Rebuild profiles, parts, metadata and READMEs

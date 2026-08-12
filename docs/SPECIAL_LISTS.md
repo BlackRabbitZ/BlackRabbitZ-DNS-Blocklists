@@ -1,4 +1,4 @@
-# Erweiterte Schutz- & Speziallisten
+# Erweiterte Schutz- & erweiterte Listen
 
 **🌐 Sprache / Language:** 🇩🇪 **Deutsch** · [🇬🇧 English](SPECIAL_LISTS_EN.md)
 
@@ -19,7 +19,7 @@ Diese Dateien sind **keine aktuellen HaGeZi-Feeds**. Sie sind eingefrorene bzw. 
 - entfernt exakte Treffer aus `config/allowlist.txt` aus Domainlisten,
 - dedupliziert und sortiert normale Domain-/IP-Varianten,
 - teilt große Ausgaben auf maximal **50 MiB pro Datei**,
-- hält die Speziallisten getrennt von den täglich aktualisierten BlackRabbitZ-Upstreams.
+- hält die erweiterte Listen getrennt von den täglich aktualisierten BlackRabbitZ-Upstreams.
 
 ## Enthaltene Bereiche
 
@@ -48,10 +48,10 @@ Diese Dateien sind **keine aktuellen HaGeZi-Feeds**. Sie sind eingefrorene bzw. 
 
 Die archivierten NRD-Daten sind extrem groß. Im HaGeZi-Snapshot lagen die fünf NRD-Wochenfenster jeweils bei mehreren Millionen Domains; zusätzlich gab es DGA-/Entropy-Varianten. Diese Daten können den Repository-Umfang und den Speicherbedarf eines DNS-Blockers massiv erhöhen.
 
-Deshalb werden die archivierten Speziallisten **nicht** im normalen täglichen Upstream-Refresh heruntergeladen. Für sie gibt es einen eigenen GitHub-Action-Workflow:
+Deshalb werden die archivierten erweiterte Listen **nicht** im normalen täglichen Upstream-Refresh heruntergeladen. Für sie gibt es einen eigenen GitHub-Action-Workflow:
 
 ```text
-Actions → Update archived special lists → Run workflow
+Actions → Update archived extended lists → Run workflow
 ```
 
 Wenn wirklich alle Punkt-7-bis-22-Varianten erzeugt werden sollen, muss **„Große NRD/DGA-Listen mitbauen“** aktiviert bleiben.
@@ -59,8 +59,8 @@ Wenn wirklich alle Punkt-7-bis-22-Varianten erzeugt werden sollen, muss **„Gro
 ## Verzeichnisse
 
 ```text
-lists/special/   # Domain-/Adblock-Speziallisten und 50-MiB-Parts
-lists/ips/       # IPv4-Speziallisten
+lists/categories/   # Domain-/Adblock-erweiterte Listen und 50-MiB-Parts
+lists/ips/       # IPv4-erweiterte Listen
 metadata/special-lists.json
 ```
 
@@ -70,7 +70,7 @@ Die README liest `metadata/special-lists.json` und erzeugt daraus automatisch Ei
 
 ### Domainlisten
 
-Normale Speziallisten werden als eine Domain pro Zeile veröffentlicht und können wie andere BlackRabbitZ-Listen eingebunden werden.
+Normale erweiterte Listen werden als eine Domain pro Zeile veröffentlicht und können wie andere BlackRabbitZ-Listen eingebunden werden.
 
 ### IPv4-Listen
 

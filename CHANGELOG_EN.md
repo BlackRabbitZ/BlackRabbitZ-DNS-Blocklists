@@ -2,6 +2,14 @@
 
 **🌐 Language / Sprache:** [🇩🇪 Deutsch](CHANGELOG.md) · 🇬🇧 **English**
 
+## 3.3.2 — 2026-08-12
+
+- Extended lists are now **merged by function with the existing BlackRabbitZ lists in the README** instead of appearing in separate HaGeZi/special-list blocks.
+- Pop-up ads are under Ads & Tracking, Native Trackers under Telemetry & Devices, Threat/NRD/DynDNS/Hoster/TLD lists under Security, and SafeSearch/Anti-Piracy/Gambling/Social/NSFW under Family Lists.
+- Published file names use neutral BlackRabbitZ functional names; HaGeZi provenance remains in file headers and third-party documentation.
+- Large profiles and extended lists use a maximum of **50 MiB per part**.
+- License/attribution notices for modified HaGeZi-derived data now include a modification date.
+
 ## 3.3.0 — 2026-08-12
 
 - Increased the split limit for large profiles and special lists from 5 MiB to **50 MiB per part**, significantly reducing the number of Security, Family, Ultimate and large add-on files.

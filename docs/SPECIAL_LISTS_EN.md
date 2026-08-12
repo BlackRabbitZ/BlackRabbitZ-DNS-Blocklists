@@ -19,7 +19,7 @@ These files are **not current HaGeZi feeds**. They are frozen Wayback snapshots 
 - removes exact matches from `config/allowlist.txt` from domain variants,
 - deduplicates and sorts normal domain/IP variants,
 - splits large output files to a maximum of **50 MiB each**,
-- keeps archived special lists separate from normal daily BlackRabbitZ upstream feeds.
+- keeps archived extended lists separate from normal daily BlackRabbitZ upstream feeds.
 
 ## Included areas
 
@@ -48,10 +48,10 @@ These files are **not current HaGeZi feeds**. They are frozen Wayback snapshots 
 
 The archived NRD datasets are extremely large. In the HaGeZi snapshot, each of the five NRD weekly windows contained multiple millions of domains, in addition to DGA/entropy variants. These datasets can dramatically increase repository size and DNS-blocker memory use.
 
-Archived special lists are therefore **not** downloaded by the normal daily upstream refresh. They have a dedicated GitHub Actions workflow:
+Archived extended lists are therefore **not** downloaded by the normal daily upstream refresh. They have a dedicated GitHub Actions workflow:
 
 ```text
-Actions → Update archived special lists → Run workflow
+Actions → Update archived extended lists → Run workflow
 ```
 
 To build every point-7-through-22 variant, leave **“Build large NRD/DGA lists”** enabled.
@@ -59,8 +59,8 @@ To build every point-7-through-22 variant, leave **“Build large NRD/DGA lists�
 ## Directories
 
 ```text
-lists/special/   # domain/Adblock special lists and 50-MiB parts
-lists/ips/       # IPv4 special lists
+lists/categories/   # domain/Adblock extended lists and 50-MiB parts
+lists/ips/       # IPv4 extended lists
 metadata/special-lists.json
 ```
 
@@ -70,7 +70,7 @@ The README reads `metadata/special-lists.json` and automatically creates counts,
 
 ### Domain lists
 
-Normal special lists are published as one domain per line and can be used like other BlackRabbitZ lists.
+Normal extended lists are published as one domain per line and can be used like other BlackRabbitZ lists.
 
 ### IPv4 lists
 

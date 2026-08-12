@@ -1,7 +1,7 @@
 {
   "version": 1,
   "split_max_bytes": 52428800,
-  "source_family": "HaGeZi DNS Blocklists archive",
+  "source_family": "HaGeZi DNS Blocklists (archived upstream; functionally integrated into BlackRabbitZ)",
   "source_repository": "https://github.com/hagezi/dns-blocklists",
   "archive_snapshot": "2026-08-02",
   "license": "GPL-3.0",
@@ -18,7 +18,7 @@
       "risk_en": "Medium",
       "variants": [
         {
-          "id": "hagezi-fake",
+          "id": "fake-internet-scams",
           "label_de": "Voll",
           "label_en": "Full",
           "kind": "domains",
@@ -40,7 +40,7 @@
       "risk_en": "Medium",
       "variants": [
         {
-          "id": "hagezi-popup-ads",
+          "id": "popup-ads",
           "label_de": "Voll",
           "label_en": "Full",
           "kind": "domains",
@@ -62,7 +62,7 @@
       "risk_en": "Medium–High",
       "variants": [
         {
-          "id": "hagezi-tif-full",
+          "id": "threat-intelligence-full",
           "label_de": "Voll",
           "label_en": "Full",
           "kind": "domains",
@@ -70,7 +70,7 @@
           "source_url": "https://web.archive.org/web/20260709124138if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/tif-onlydomains.txt"
         },
         {
-          "id": "hagezi-tif-medium",
+          "id": "threat-intelligence-medium",
           "label_de": "Medium",
           "label_en": "Medium",
           "kind": "domains",
@@ -78,7 +78,7 @@
           "source_url": "https://web.archive.org/web/20260811224303if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/tif.medium-onlydomains.txt"
         },
         {
-          "id": "hagezi-tif-mini",
+          "id": "threat-intelligence-mini",
           "label_de": "Mini",
           "label_en": "Mini",
           "kind": "domains",
@@ -86,7 +86,7 @@
           "source_url": "https://web.archive.org/web/20260709124148if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/tif.mini-onlydomains.txt"
         },
         {
-          "id": "hagezi-tif-ipv4",
+          "id": "threat-intelligence-ipv4",
           "label_de": "IPv4",
           "label_en": "IPv4",
           "kind": "ipv4",
@@ -108,7 +108,7 @@
       "risk_en": "Very high",
       "variants": [
         {
-          "id": "hagezi-nrd-01-07",
+          "id": "nrd-01-07",
           "label_de": "NRD 1–7 Tage",
           "label_en": "NRD days 1–7",
           "kind": "domains",
@@ -117,7 +117,7 @@
           "source_url": "https://web.archive.org/web/20260802022310if_/https://raw.githubusercontent.com/hagezi/nrd/main/domains/nrd7.txt"
         },
         {
-          "id": "hagezi-nrd-08-14",
+          "id": "nrd-08-14",
           "label_de": "NRD 8–14 Tage",
           "label_en": "NRD days 8–14",
           "kind": "domains",
@@ -126,7 +126,7 @@
           "source_url": "https://web.archive.org/web/20260802022310if_/https://raw.githubusercontent.com/hagezi/nrd/main/domains/nrd14-8.txt"
         },
         {
-          "id": "hagezi-nrd-15-21",
+          "id": "nrd-15-21",
           "label_de": "NRD 15–21 Tage",
           "label_en": "NRD days 15–21",
           "kind": "domains",
@@ -135,7 +135,7 @@
           "source_url": "https://web.archive.org/web/20260802022311if_/https://raw.githubusercontent.com/hagezi/nrd/main/domains/nrd21-15.txt"
         },
         {
-          "id": "hagezi-nrd-22-28",
+          "id": "nrd-22-28",
           "label_de": "NRD 22–28 Tage",
           "label_en": "NRD days 22–28",
           "kind": "domains",
@@ -144,7 +144,7 @@
           "source_url": "https://web.archive.org/web/20260802022516if_/https://raw.githubusercontent.com/hagezi/nrd/main/domains/nrd28-22.txt"
         },
         {
-          "id": "hagezi-nrd-29-35",
+          "id": "nrd-29-35",
           "label_de": "NRD 29–35 Tage",
           "label_en": "NRD days 29–35",
           "kind": "domains",
@@ -153,7 +153,7 @@
           "source_url": "https://web.archive.org/web/20260802022320if_/https://raw.githubusercontent.com/hagezi/nrd/main/domains/nrd35-29.txt"
         },
         {
-          "id": "hagezi-dga-7",
+          "id": "dga-7",
           "label_de": "DGA 7 Tage",
           "label_en": "DGA 7 days",
           "kind": "domains",
@@ -162,7 +162,7 @@
           "source_url": "https://web.archive.org/web/20260802022325if_/https://raw.githubusercontent.com/hagezi/nrd/main/domains/dga7.txt"
         },
         {
-          "id": "hagezi-dga-14",
+          "id": "dga-14",
           "label_de": "DGA 14 Tage",
           "label_en": "DGA 14 days",
           "kind": "domains",
@@ -171,7 +171,7 @@
           "source_url": "https://web.archive.org/web/20260802022326if_/https://raw.githubusercontent.com/hagezi/nrd/main/domains/dga14.txt"
         },
         {
-          "id": "hagezi-dga-30",
+          "id": "dga-30",
           "label_de": "DGA 30 Tage",
           "label_en": "DGA 30 days",
           "kind": "domains",
@@ -194,7 +194,7 @@
       "risk_en": "High",
       "variants": [
         {
-          "id": "hagezi-dns-bypass-full",
+          "id": "dns-bypass-full",
           "label_de": "Voll",
           "label_en": "Full",
           "kind": "domains",
@@ -202,7 +202,7 @@
           "source_url": "https://web.archive.org/web/20260709124150if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/doh-vpn-proxy-bypass-onlydomains.txt"
         },
         {
-          "id": "hagezi-doh-only",
+          "id": "doh-only",
           "label_de": "Nur DoH",
           "label_en": "DoH only",
           "kind": "domains",
@@ -210,7 +210,7 @@
           "source_url": "https://web.archive.org/web/20260709124151if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/doh-onlydomains.txt"
         },
         {
-          "id": "hagezi-doh-ipv4",
+          "id": "doh-ipv4",
           "label_de": "DoH IPv4",
           "label_en": "DoH IPv4",
           "kind": "ipv4",
@@ -232,7 +232,7 @@
       "risk_en": "High",
       "variants": [
         {
-          "id": "hagezi-safesearch-unsupported",
+          "id": "safesearch-unsupported",
           "label_de": "Voll",
           "label_en": "Full",
           "kind": "domains",
@@ -254,7 +254,7 @@
       "risk_en": "High",
       "variants": [
         {
-          "id": "hagezi-dynamic-dns",
+          "id": "dynamic-dns",
           "label_de": "Voll",
           "label_en": "Full",
           "kind": "domains",
@@ -276,7 +276,7 @@
       "risk_en": "Very high",
       "variants": [
         {
-          "id": "hagezi-badware-hoster",
+          "id": "badware-hoster",
           "label_de": "Voll",
           "label_en": "Full",
           "kind": "domains",
@@ -298,7 +298,7 @@
       "risk_en": "Very high",
       "variants": [
         {
-          "id": "hagezi-url-shortener",
+          "id": "url-shortener",
           "label_de": "Voll",
           "label_en": "Full",
           "kind": "domains",
@@ -320,7 +320,7 @@
       "risk_en": "Very high",
       "variants": [
         {
-          "id": "hagezi-most-abused-tlds",
+          "id": "most-abused-tlds",
           "label_de": "Pi-hole Adblock",
           "label_en": "Pi-hole Adblock",
           "kind": "raw",
@@ -357,7 +357,7 @@
       "risk_en": "High",
       "variants": [
         {
-          "id": "hagezi-anti-piracy",
+          "id": "anti-piracy",
           "label_de": "Voll",
           "label_en": "Full",
           "kind": "domains",
@@ -369,17 +369,17 @@
     },
     {
       "point": 19,
-      "id": "gambling-archive",
+      "id": "gambling-variants",
       "icon": "🎰",
-      "title_de": "Glücksspiel – HaGeZi-Varianten",
-      "title_en": "Gambling – HaGeZi Variants",
-      "description_de": "Archivierte Voll-, Medium- und Mini-Varianten zusätzlich zur bereits vorhandenen BlackRabbitZ-Glücksspielliste.",
-      "description_en": "Archived full, medium and mini variants in addition to the existing BlackRabbitZ gambling list.",
+      "title_de": "Glücksspiel",
+      "title_en": "Gambling",
+      "description_de": "Voll-, Medium- und Mini-Varianten für unterschiedlich starken Glücksspiel- und Casino-Schutz.",
+      "description_en": "Full, medium and mini variants for different levels of gambling and casino blocking.",
       "risk_de": "Hoch",
       "risk_en": "High",
       "variants": [
         {
-          "id": "hagezi-gambling-full",
+          "id": "gambling-full",
           "label_de": "Voll",
           "label_en": "Full",
           "kind": "domains",
@@ -387,7 +387,7 @@
           "source_url": "https://web.archive.org/web/20260709124159if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/gambling-onlydomains.txt"
         },
         {
-          "id": "hagezi-gambling-medium",
+          "id": "gambling-medium",
           "label_de": "Medium",
           "label_en": "Medium",
           "kind": "domains",
@@ -395,7 +395,7 @@
           "source_url": "https://web.archive.org/web/20260709124201if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/gambling.medium-onlydomains.txt"
         },
         {
-          "id": "hagezi-gambling-mini",
+          "id": "gambling-mini",
           "label_de": "Mini",
           "label_en": "Mini",
           "kind": "domains",
@@ -417,7 +417,7 @@
       "risk_en": "Very high",
       "variants": [
         {
-          "id": "hagezi-social-networks",
+          "id": "social-networks",
           "label_de": "Voll",
           "label_en": "Full",
           "kind": "domains",
@@ -429,17 +429,17 @@
     },
     {
       "point": 21,
-      "id": "nsfw-archive",
+      "id": "nsfw",
       "icon": "🔞",
-      "title_de": "NSFW / Erwachsene Inhalte – HaGeZi",
-      "title_en": "NSFW / Adult Content – HaGeZi",
-      "description_de": "Archivierte HaGeZi-NSFW-Liste zusätzlich zur bereits vorhandenen BlackRabbitZ-Adult-Kategorie.",
-      "description_en": "Archived HaGeZi NSFW list in addition to the existing BlackRabbitZ Adult category.",
+      "title_de": "NSFW / Erwachsene Inhalte",
+      "title_en": "NSFW / Adult Content",
+      "description_de": "Zusätzliche NSFW-/Adult-Abdeckung für Familien- und Inhaltsfilter.",
+      "description_en": "Additional NSFW/adult coverage for family and content filtering.",
       "risk_de": "Hoch",
       "risk_en": "High",
       "variants": [
         {
-          "id": "hagezi-nsfw",
+          "id": "nsfw",
           "label_de": "Voll",
           "label_en": "Full",
           "kind": "domains",
@@ -451,7 +451,7 @@
     },
     {
       "point": 22,
-      "id": "native-tracker-archive",
+      "id": "native-trackers",
       "icon": "📲",
       "title_de": "Native Tracker – Geräte & Dienste",
       "title_en": "Native Tracker – Devices & Services",
@@ -461,7 +461,7 @@
       "risk_en": "Medium–High",
       "variants": [
         {
-          "id": "hagezi-native-amazon",
+          "id": "native-tracker-amazon",
           "label_de": "Amazon",
           "label_en": "Amazon",
           "kind": "domains",
@@ -469,7 +469,7 @@
           "source_url": "https://web.archive.org/web/20260709124207if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.amazon-onlydomains.txt"
         },
         {
-          "id": "hagezi-native-apple",
+          "id": "native-tracker-apple",
           "label_de": "Apple",
           "label_en": "Apple",
           "kind": "domains",
@@ -477,7 +477,7 @@
           "source_url": "https://web.archive.org/web/20260709124208if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.apple-onlydomains.txt"
         },
         {
-          "id": "hagezi-native-huawei",
+          "id": "native-tracker-huawei",
           "label_de": "Huawei",
           "label_en": "Huawei",
           "kind": "domains",
@@ -485,7 +485,7 @@
           "source_url": "https://web.archive.org/web/20260709124208if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.huawei-onlydomains.txt"
         },
         {
-          "id": "hagezi-native-microsoft",
+          "id": "native-tracker-microsoft",
           "label_de": "Microsoft / Windows / Office",
           "label_en": "Microsoft / Windows / Office",
           "kind": "domains",
@@ -493,7 +493,7 @@
           "source_url": "https://web.archive.org/web/20260709124209if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.winoffice-onlydomains.txt"
         },
         {
-          "id": "hagezi-native-samsung",
+          "id": "native-tracker-samsung",
           "label_de": "Samsung",
           "label_en": "Samsung",
           "kind": "domains",
@@ -501,7 +501,7 @@
           "source_url": "https://web.archive.org/web/20260709124210if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.samsung-onlydomains.txt"
         },
         {
-          "id": "hagezi-native-tiktok",
+          "id": "native-tracker-tiktok",
           "label_de": "TikTok",
           "label_en": "TikTok",
           "kind": "domains",
@@ -509,7 +509,7 @@
           "source_url": "https://web.archive.org/web/20260709124211if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.tiktok-onlydomains.txt"
         },
         {
-          "id": "hagezi-native-tiktok-extended",
+          "id": "native-tracker-tiktok-aggressive",
           "label_de": "TikTok – Aggressiv",
           "label_en": "TikTok – Aggressive",
           "kind": "domains",
@@ -517,7 +517,7 @@
           "source_url": "https://web.archive.org/web/20260709124212if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.tiktok.extended-onlydomains.txt"
         },
         {
-          "id": "hagezi-native-lgwebos",
+          "id": "native-tracker-lgwebos",
           "label_de": "LG webOS",
           "label_en": "LG webOS",
           "kind": "domains",
@@ -525,7 +525,7 @@
           "source_url": "https://web.archive.org/web/20260709124212if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.lgwebos-onlydomains.txt"
         },
         {
-          "id": "hagezi-native-roku",
+          "id": "native-tracker-roku",
           "label_de": "Roku",
           "label_en": "Roku",
           "kind": "domains",
@@ -533,7 +533,7 @@
           "source_url": "https://web.archive.org/web/20260709124213if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.roku-onlydomains.txt"
         },
         {
-          "id": "hagezi-native-vivo",
+          "id": "native-tracker-vivo",
           "label_de": "Vivo",
           "label_en": "Vivo",
           "kind": "domains",
@@ -541,7 +541,7 @@
           "source_url": "https://web.archive.org/web/20260709124214if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.vivo-onlydomains.txt"
         },
         {
-          "id": "hagezi-native-oppo-realme",
+          "id": "native-tracker-oppo-realme",
           "label_de": "OPPO / Realme",
           "label_en": "OPPO / Realme",
           "kind": "domains",
@@ -549,7 +549,7 @@
           "source_url": "https://web.archive.org/web/20260709124215if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.oppo-realme-onlydomains.txt"
         },
         {
-          "id": "hagezi-native-xiaomi",
+          "id": "native-tracker-xiaomi",
           "label_de": "Xiaomi",
           "label_en": "Xiaomi",
           "kind": "domains",
@@ -557,7 +557,7 @@
           "source_url": "https://web.archive.org/web/20260709124216if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.xiaomi-onlydomains.txt"
         }
       ],
-      "readme_section": "ads_tracking"
+      "readme_section": "telemetry"
     },
     {
       "point": 23,

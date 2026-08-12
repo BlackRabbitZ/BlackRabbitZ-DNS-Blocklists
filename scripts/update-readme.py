@@ -18,10 +18,11 @@ MARKERS = {
     "addons": ("<!-- ADDON_PROFILES_START -->", "<!-- ADDON_PROFILES_END -->"),
     "parts": ("<!-- SPLIT_PROFILES_START -->", "<!-- SPLIT_PROFILES_END -->"),
     "comparison": ("<!-- COMPARISON_START -->", "<!-- COMPARISON_END -->"),
-    "special_ads_tracking": ("<!-- SPECIAL_ADS_TRACKING_START -->", "<!-- SPECIAL_ADS_TRACKING_END -->"),
-    "special_security": ("<!-- SPECIAL_SECURITY_START -->", "<!-- SPECIAL_SECURITY_END -->"),
+    "ads_tracking_table": ("<!-- ADS_TRACKING_TABLE_START -->", "<!-- ADS_TRACKING_TABLE_END -->"),
+    "telemetry_table": ("<!-- TELEMETRY_TABLE_START -->", "<!-- TELEMETRY_TABLE_END -->"),
+    "security_table": ("<!-- SECURITY_TABLE_START -->", "<!-- SECURITY_TABLE_END -->"),
     "special_network": ("<!-- SPECIAL_NETWORK_START -->", "<!-- SPECIAL_NETWORK_END -->"),
-    "special_family": ("<!-- SPECIAL_FAMILY_START -->", "<!-- SPECIAL_FAMILY_END -->"),
+    "family_table": ("<!-- FAMILY_TABLE_START -->", "<!-- FAMILY_TABLE_END -->"),
 }
 
 
@@ -200,73 +201,123 @@ def special_parts_table(variant: dict, info: dict, language: str) -> str:
     return "\n".join(chunks)
 
 
-def special_lists_block(config: dict, metadata: dict, language: str, section: str) -> str:
-    """Render special lists in the same compact table style as normal category lists."""
-    chunks: list[str] = []
+def special_variant_row(item: dict, variant: dict, info: dict | None, language: str, first: bool) -> str:
+    title = item["title_de"] if language == "de" else item["title_en"]
+    description = item["description_de"] if language == "de" else item["description_en"]
+    label = variant["label_de"] if language == "de" else variant["label_en"]
+    multiple = len(item.get("variants", [])) > 1
+    display = f"{item['icon']} **{title}{' – ' + label if multiple else ''}**"
+    if first:
+        display = f'<a id="list-{item["id"]}"></a>' + display
+    entries, view, raw = special_variant_links(variant, info, language)
+    return f"| {display} | {entries} | {description} | {view} | {raw} |"
+
+
+def special_rows(config: dict, metadata: dict, language: str, section: str) -> tuple[list[str], list[str]]:
+    rows: list[str] = []
+    parts: list[str] = []
     metadata_items = metadata.get("items", {}) if metadata else {}
-
-    if language == "de":
-        list_label = "Liste"
-        entries_label = "Einträge"
-        description_label = "Beschreibung"
-        view_label = "Anzeigen"
-        raw_label = "Raw"
-        doc_text = "Dokumentation"
-    else:
-        list_label = "List"
-        entries_label = "Entries"
-        description_label = "Description"
-        view_label = "View"
-        raw_label = "Raw"
-        doc_text = "Documentation"
-
-    rows = [
-        f"| {list_label} | {entries_label} | {description_label} | {view_label} | {raw_label} |",
-        "|---|---:|---|:---:|:---:|",
-    ]
-    split_sections: list[str] = []
-
     for item in config.get("items", []):
         if int(item.get("point", 0)) >= 23 or item.get("readme_section") != section:
             continue
-
-        title = item["title_de"] if language == "de" else item["title_en"]
-        description = item["description_de"] if language == "de" else item["description_en"]
-        variants = item.get("variants", [])
         item_meta = metadata_items.get(item["id"], {}).get("variants", {})
-
-        # Configuration-only entries such as DNS Rebind Protection still fit in
-        # the same table. The View column links to their documentation.
+        variants = item.get("variants", [])
         if not variants:
-            doc_path = item.get("documentation_de") if language == "de" else item.get("documentation_en")
-            link = f"[{doc_text}]({doc_path})" if doc_path and not doc_path.startswith("#") else "—"
-            name = f'<a id="special-{item["id"]}"></a>{item["icon"]} **{item["point"]}. {title}**'
-            rows.append(f"| {name} | — | {description} | {link} | — |")
             continue
-
-        multiple = len(variants) > 1
-        for index, variant in enumerate(variants):
+        for idx, variant in enumerate(variants):
             info = item_meta.get(variant["id"])
-            label = variant["label_de"] if language == "de" else variant["label_en"]
-            entries, view, raw = special_variant_links(variant, info, language)
-
-            if multiple:
-                display_name = f"{item['icon']} **{item['point']}. {title} – {label}**"
-            else:
-                display_name = f"{item['icon']} **{item['point']}. {title}**"
-
-            if index == 0:
-                display_name = f'<a id="special-{item["id"]}"></a>' + display_name
-
-            rows.append(f"| {display_name} | {entries} | {description} | {view} | {raw} |")
-
+            rows.append(special_variant_row(item, variant, info, language, idx == 0))
             if info and len(info.get("files", [])) > 1:
-                split_sections.append(special_parts_table(variant, info, language))
+                parts.append(special_parts_table(variant, info, language))
+    return rows, parts
 
-    chunks.extend(rows)
-    if split_sections:
-        chunks += [""] + split_sections
-    return "\n".join(chunks).rstrip()
+
+BASE_TABLES = {
+    "ads_tracking": [
+        ("ads", "📣", "Werbung", "Ads", "Große Domain-Sammlung für Werbung und Werbeauslieferung", "Large advertising and ad-delivery domain set"),
+        ("trackers", "👁️", "Tracker", "Trackers", "Große Sammlung von Analyse- und Tracking-Infrastruktur", "Large analytics and tracking infrastructure set"),
+        ("social-trackers", "👥", "Social Tracker", "Social Trackers", "Tracking- und Analyse-Endpunkte sozialer Netzwerke", "Social-network tracking and analytics endpoints"),
+        ("mobile-tracking", "📲", "Mobiles Tracking", "Mobile Tracking", "Mobile Attribution, SDK-Analysen und App-Tracking", "Mobile attribution, SDK analytics and app tracking"),
+        ("native-tracking", "🧩", "Natives/App-Tracking", "Native/App Tracking", "Natives Betriebssystem-/Geräte- und Anwendungs-Tracking", "Native OS/device and application tracking"),
+        ("affiliate-tracking", "🔗", "Affiliate-Tracking", "Affiliate Tracking", "Affiliate-, Klick-, Referral- und Conversion-Tracking; ab Strict enthalten", "Affiliate, click, referral and conversion tracking; included from Strict upward"),
+        ("consent-cmp", "🍪", "Consent / CMP", "Consent / CMP", "Optionales Blocking von Consent-Management/CMP mit erhöhtem Risiko für Website-Fehlfunktionen", "Optional consent-management/CMP blocking with elevated website-breakage risk"),
+    ],
+    "telemetry": [
+        ("telemetry", "📊", "Allgemeine Telemetrie", "General Telemetry", "Breite Produkt-/App-Analysen, Diagnosen und Telemetrie", "Broad product/app analytics, diagnostics and telemetry"),
+        ("windows-telemetry", "🪟", "Windows-Telemetrie", "Windows Telemetry", "Windows-Diagnose- und native Telemetrie-Endpunkte", "Windows diagnostics and native telemetry endpoints"),
+        ("apple-telemetry", "🍎", "Apple-Telemetrie", "Apple Telemetry", "Native Apple-Telemetrie, Metriken und Diagnosen", "Apple native telemetry, metrics and diagnostics"),
+        ("android-telemetry", "🤖", "Android-Telemetrie", "Android Telemetry", "Native Android-/Hersteller-Telemetrie und Tracking", "Android/vendor native telemetry and tracking"),
+        ("linux-telemetry", "🐧", "Linux-Telemetrie", "Linux Telemetry", "Telemetrie, Diagnosen und Nutzungsberichte von Linux-Distributionen", "Linux distribution telemetry, diagnostics and usage reporting"),
+        ("nas-telemetry", "💾", "NAS-Telemetrie", "NAS Telemetry", "NAS-Telemetrie und Nutzungsberichte (Synology, TrueNAS und weitere)", "NAS telemetry and usage reporting (Synology, TrueNAS and others)"),
+        ("server-telemetry", "🖥️", "Server-Telemetrie", "Server Telemetry", "Server-, Red-Hat-Insights- und Management-Telemetrie", "Server, Red Hat Insights and management telemetry"),
+        ("smart-tv", "📺", "Smart-TV", "Smart TV", "Smart-TV-Werbung, ACR, Diagnosen und Telemetrie", "Smart-TV ads, ACR, diagnostics and telemetry"),
+        ("iot", "🏠", "IoT", "IoT", "Telemetrie-/Tracking-Endpunkte von IoT- und verbundenen Geräten", "Telemetry/tracking endpoints for IoT and connected devices"),
+    ],
+    "security": [
+        ("malware", "🦠", "Malware", "Malware", "Sehr große Sammlung von Malware-, Ransomware- und aktiven Malware-Hosts", "Massive malware, ransomware and active malware-host set"),
+        ("phishing", "🎣", "Phishing", "Phishing", "Sehr große Sammlung aktiver und kuratierter Phishing-Domains", "Massive active and curated phishing-domain set"),
+        ("scam", "💰", "Scam", "Scam", "Sehr große Sammlung von Betrugs-, Fraud- und täuschenden Plattform-Domains", "Massive scam, fraud and deceptive-platform domain set"),
+        ("fake-shops", "🛒", "Fake-Shops", "Fake Shops", "Aggressive Sammlung potenzieller Fake-Shops und täuschender Shops", "Aggressive fake-shop/deceptive-store candidate set"),
+        ("cryptomining", "⛏️", "Kryptomining", "Cryptomining", "Browser-/Remote-Mining-Infrastruktur; allgemeine Börsen sind ausgeschlossen", "Browser/remote mining infrastructure (generic exchanges excluded)"),
+    ],
+    "family": [
+        ("adult", "🔞", "Erwachsene Inhalte", "Adult", "Sehr große Domain-Sammlung für Erwachsenen-Inhalte und Pornografie", "Massive adult-content and pornography domain set"),
+        ("gambling", "🎰", "Glücksspiel", "Gambling", "Sehr große Domain-Sammlung für Wetten, Casinos und Glücksspiel", "Massive betting, casino and gambling domain set"),
+    ],
+}
+
+
+def integrated_table(build: dict, special_config: dict, special_build: dict, language: str, section: str) -> str:
+    if language == "de":
+        headers = ("Liste", "Einträge", "Beschreibung", "Anzeigen", "Raw")
+        view_word = "Anzeigen"
+    else:
+        headers = ("List", "Entries", "Description", "View", "Raw")
+        view_word = "View"
+    rows = [f"| {headers[0]} | {headers[1]} | {headers[2]} | {headers[3]} | {headers[4]} |", "|---|---:|---|:---:|:---:|"]
+    for cat, icon, de_name, en_name, de_desc, en_desc in BASE_TABLES[section]:
+        info = build.get("categories", {}).get(cat, {})
+        entries = number(int(info.get("entries", 0)), language)
+        name = de_name if language == "de" else en_name
+        desc = de_desc if language == "de" else en_desc
+        path = f"lists/categories/{cat}.txt"
+        rows.append(f"| {icon} **{name}** | {entries} | {desc} | [{view_word}]({path}) | [Raw]({RAW_BASE}/{path}) |")
+    ext_rows, split_parts = special_rows(special_config, special_build, language, section)
+    rows.extend(ext_rows)
+    if split_parts:
+        rows += [""] + split_parts
+    return "\n".join(rows).rstrip()
+
+
+def network_table(config: dict, metadata: dict, language: str) -> str:
+    if language == "de":
+        headers=("Liste","Einträge","Beschreibung","Anzeigen","Raw"); doc="Dokumentation"
+    else:
+        headers=("List","Entries","Description","View","Raw"); doc="Documentation"
+    rows=[f"| {headers[0]} | {headers[1]} | {headers[2]} | {headers[3]} | {headers[4]} |", "|---|---:|---|:---:|:---:|"]
+    metadata_items = metadata.get("items", {}) if metadata else {}
+    split_parts=[]
+    for item in config.get("items", []):
+        if int(item.get("point", 0)) >= 23 or item.get("readme_section") != "network":
+            continue
+        variants=item.get("variants",[])
+        if not variants:
+            title=item["title_de"] if language=="de" else item["title_en"]
+            desc=item["description_de"] if language=="de" else item["description_en"]
+            doc_path=item.get("documentation_de") if language=="de" else item.get("documentation_en")
+            link=f"[{doc}]({doc_path})" if doc_path and not doc_path.startswith("#") else "—"
+            rows.append(f'| <a id="list-{item["id"]}"></a>{item["icon"]} **{title}** | — | {desc} | {link} | — |')
+            continue
+        item_meta=metadata_items.get(item["id"],{}).get("variants",{})
+        for idx, variant in enumerate(variants):
+            info=item_meta.get(variant["id"])
+            rows.append(special_variant_row(item, variant, info, language, idx==0))
+            if info and len(info.get("files",[]))>1:
+                split_parts.append(special_parts_table(variant, info, language))
+    if split_parts:
+        rows += [""] + split_parts
+    return "\n".join(rows).rstrip()
+
 
 def update_category_counts(text: str, build: dict, language: str) -> str:
     lines = text.splitlines()
@@ -292,10 +343,11 @@ def update_one(readme: Path, language: str, language_cfg: dict, config: dict, bu
     text = replace_block(text, *MARKERS["addons"], profile_table(config, build, "addon", language, language_cfg))
     text = replace_block(text, *MARKERS["parts"], parts_block(config, build, language, language_cfg))
     text = replace_block(text, *MARKERS["comparison"], comparison_table(config, language_cfg))
-    text = replace_block(text, *MARKERS["special_ads_tracking"], special_lists_block(special_config, special_build, language, "ads_tracking"))
-    text = replace_block(text, *MARKERS["special_security"], special_lists_block(special_config, special_build, language, "security"))
-    text = replace_block(text, *MARKERS["special_network"], special_lists_block(special_config, special_build, language, "network"))
-    text = replace_block(text, *MARKERS["special_family"], special_lists_block(special_config, special_build, language, "family"))
+    text = replace_block(text, *MARKERS["ads_tracking_table"], integrated_table(build, special_config, special_build, language, "ads_tracking"))
+    text = replace_block(text, *MARKERS["telemetry_table"], integrated_table(build, special_config, special_build, language, "telemetry"))
+    text = replace_block(text, *MARKERS["security_table"], integrated_table(build, special_config, special_build, language, "security"))
+    text = replace_block(text, *MARKERS["special_network"], network_table(special_config, special_build, language))
+    text = replace_block(text, *MARKERS["family_table"], integrated_table(build, special_config, special_build, language, "family"))
     text = update_category_counts(text, build, language)
     readme.write_text(text, encoding="utf-8")
     print(f"Synchronized {readme.relative_to(ROOT)}")
@@ -311,7 +363,7 @@ def main() -> int:
     for language, language_cfg in i18n["languages"].items():
         update_one(ROOT / language_cfg["readme"], language, language_cfg, config, build, special_config, special_build)
 
-    print("German and English README profiles, parts, categorized special lists, comparison matrix and category counts synchronized")
+    print("German and English README profiles, 50-MiB parts, functionally integrated extended lists, comparison matrix and category counts synchronized")
     return 0
 
 

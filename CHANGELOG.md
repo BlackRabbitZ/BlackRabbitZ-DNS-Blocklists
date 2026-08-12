@@ -2,6 +2,14 @@
 
 **🌐 Sprache / Language:** 🇩🇪 **Deutsch** · [🇬🇧 English](CHANGELOG_EN.md)
 
+## 3.3.2 — 2026-08-12
+
+- Erweiterte Listen werden in der README **nach Funktion mit den bestehenden BlackRabbitZ-Listen zusammengeführt**, statt in eigenen HaGeZi-/Speziallisten-Blöcken zu erscheinen.
+- Pop-Up-Werbung ist bei Werbung & Tracking, Native Tracker bei Telemetrie & Geräte, Threat-/NRD-/DynDNS-/Hoster-/TLD-Listen bei Sicherheit und SafeSearch/Anti-Piracy/Gambling/Social/NSFW bei Familienlisten einsortiert.
+- Veröffentlichte Dateinamen verwenden neutrale BlackRabbitZ-Funktionsnamen; die HaGeZi-Herkunft bleibt in Datei-Headern und Drittanbieter-Dokumentation erhalten.
+- Große Profil- und erweiterte Listen verwenden maximal **50 MiB pro Part**.
+- Lizenz-/Attributionshinweise für HaGeZi-abgeleitete, veränderte Daten wurden mit Änderungsdatum ergänzt.
+
 ## 3.3.0 — 2026-08-12
 
 - Größenlimit für gesplittete Profile und Speziallisten von 5 MiB auf **50 MiB pro Part** erhöht, damit Security, Family, Ultimate und große Zusatzlisten deutlich weniger Einzeldateien benötigen.

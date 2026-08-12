@@ -10,3 +10,6 @@ English:
 Licensed under GNU GPL version 3 only (GPL-3.0-only).
 Original source: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 See LICENSE and ATTRIBUTION_EN.md.
+
+Third-party notice / Drittanbieterhinweis:
+Portions of extended list data are derived from HaGeZi DNS Blocklists (GPL-3.0), modified and reorganized by BlackRabbitZ on 2026-08-12. See THIRD_PARTY.md / THIRD_PARTY_EN.md.
