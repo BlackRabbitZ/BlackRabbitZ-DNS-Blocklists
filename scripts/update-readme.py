@@ -146,14 +146,14 @@ def comparison_table(config: dict, language_cfg: dict) -> str:
 def special_variant_links(variant: dict, info: dict | None, language: str) -> tuple[str, str, str]:
     if language == "de":
         pending = "Noch nicht erzeugt"
-        show_parts = "Teile anzeigen"
         view = "Anzeigen"
         raw = "Raw"
+        parts = "Teile"
     else:
         pending = "Not built yet"
-        show_parts = "Show parts"
         view = "View"
         raw = "Raw"
+        parts = "Parts"
 
     if not info or not info.get("files"):
         return pending, "—", "—"
@@ -163,8 +163,11 @@ def special_variant_links(variant: dict, info: dict | None, language: str) -> tu
     if len(files) == 1:
         path = files[0]["file"]
         return entries, f"[{view}]({path})", f"**[{raw}]({RAW_BASE}/{path})**"
+
     anchor = f"#{variant['id']}-parts"
-    return entries, f"[{show_parts}]({anchor})", f"**[{show_parts}]({anchor})**"
+    # There is no single complete Raw file for a split list. Both cells therefore
+    # lead to the complete part overview instead of silently exposing only Part 01.
+    return entries, f"[{view}]({anchor})", f"**[{parts}]({anchor})**"
 
 
 def special_parts_table(variant: dict, info: dict, language: str) -> str:
@@ -178,7 +181,7 @@ def special_parts_table(variant: dict, info: dict, language: str) -> str:
     chunks = [
         f'<a id="{variant["id"]}-parts"></a>',
         "<details>",
-        f"<summary><strong>{label}: {len(files)} {('Teile' if language == 'de' else 'parts')}</strong></summary>",
+        f"<summary><strong>{label}: {len(files)} {('Teile anzeigen' if language == 'de' else 'show parts')}</strong></summary>",
         "",
         f"| {part_word} | {part_word} |",
         "|---|---|",
@@ -198,67 +201,71 @@ def special_parts_table(variant: dict, info: dict, language: str) -> str:
 
 
 def special_lists_block(config: dict, metadata: dict, language: str, section: str) -> str:
+    """Render special lists in the same compact table style as normal category lists."""
     chunks: list[str] = []
     metadata_items = metadata.get("items", {}) if metadata else {}
+
     if language == "de":
-        risk_label = "Risiko"
-        variant_label = "Variante"
+        list_label = "Liste"
         entries_label = "Einträge"
-        format_label = "Format"
-        view_label = "Anzeigen / Teile"
+        description_label = "Beschreibung"
+        view_label = "Anzeigen"
         raw_label = "Raw"
         doc_text = "Dokumentation"
-        formats = {"domains": "Domains", "ipv4": "IPv4 / Firewall", "raw": "Adblock"}
     else:
-        risk_label = "Risk"
-        variant_label = "Variant"
+        list_label = "List"
         entries_label = "Entries"
-        format_label = "Format"
-        view_label = "View / Parts"
+        description_label = "Description"
+        view_label = "View"
         raw_label = "Raw"
         doc_text = "Documentation"
-        formats = {"domains": "Domains", "ipv4": "IPv4 / firewall", "raw": "Adblock"}
+
+    rows = [
+        f"| {list_label} | {entries_label} | {description_label} | {view_label} | {raw_label} |",
+        "|---|---:|---|:---:|:---:|",
+    ]
+    split_sections: list[str] = []
 
     for item in config.get("items", []):
         if int(item.get("point", 0)) >= 23 or item.get("readme_section") != section:
             continue
+
         title = item["title_de"] if language == "de" else item["title_en"]
         description = item["description_de"] if language == "de" else item["description_en"]
-        risk = item["risk_de"] if language == "de" else item["risk_en"]
-        chunks += [
-            f'<a id="special-{item["id"]}"></a>',
-            "<details>",
-            f"<summary><strong>{item['point']}. {item['icon']} {title}</strong> — {description}</summary>",
-            "",
-            f"**{risk_label}: {risk}**",
-            "",
-        ]
         variants = item.get("variants", [])
+        item_meta = metadata_items.get(item["id"], {}).get("variants", {})
+
+        # Configuration-only entries such as DNS Rebind Protection still fit in
+        # the same table. The View column links to their documentation.
         if not variants:
             doc_path = item.get("documentation_de") if language == "de" else item.get("documentation_en")
-            if doc_path and not doc_path.startswith("#"):
-                chunks += [f"[{doc_text}]({doc_path})", ""]
+            link = f"[{doc_text}]({doc_path})" if doc_path and not doc_path.startswith("#") else "—"
+            name = f'<a id="special-{item["id"]}"></a>{item["icon"]} **{item["point"]}. {title}**'
+            rows.append(f"| {name} | — | {description} | {link} | — |")
+            continue
+
+        multiple = len(variants) > 1
+        for index, variant in enumerate(variants):
+            info = item_meta.get(variant["id"])
+            label = variant["label_de"] if language == "de" else variant["label_en"]
+            entries, view, raw = special_variant_links(variant, info, language)
+
+            if multiple:
+                display_name = f"{item['icon']} **{item['point']}. {title} – {label}**"
             else:
-                chunks += [description, ""]
-        else:
-            chunks += [
-                f"| {variant_label} | {entries_label} | {format_label} | {view_label} | {raw_label} |",
-                "|---|---:|---|:---:|:---:|",
-            ]
-            item_meta = metadata_items.get(item["id"], {}).get("variants", {})
-            split_sections: list[str] = []
-            for variant in variants:
-                info = item_meta.get(variant["id"])
-                label = variant["label_de"] if language == "de" else variant["label_en"]
-                entries, view, raw = special_variant_links(variant, info, language)
-                fmt = formats.get(variant.get("kind", "domains"), variant.get("kind", ""))
-                chunks.append(f"| **{label}** | {entries} | {fmt} | {view} | {raw} |")
-                if info and len(info.get("files", [])) > 1:
-                    split_sections.append(special_parts_table(variant, info, language))
-            chunks.append("")
-            if split_sections:
-                chunks += split_sections + [""]
-        chunks += ["</details>", ""]
+                display_name = f"{item['icon']} **{item['point']}. {title}**"
+
+            if index == 0:
+                display_name = f'<a id="special-{item["id"]}"></a>' + display_name
+
+            rows.append(f"| {display_name} | {entries} | {description} | {view} | {raw} |")
+
+            if info and len(info.get("files", [])) > 1:
+                split_sections.append(special_parts_table(variant, info, language))
+
+    chunks.extend(rows)
+    if split_sections:
+        chunks += [""] + split_sections
     return "\n".join(chunks).rstrip()
 
 def update_category_counts(text: str, build: dict, language: str) -> str:
