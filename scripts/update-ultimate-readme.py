@@ -45,26 +45,54 @@ def main() -> int:
     row_re = re.compile(r'^\| 🔴 \*\*Ultimate\*\* \|.*$', re.MULTILINE)
     new_row = (
         f'| 🔴 **Ultimate** | Maximum | **{total}** | Aggressive filtering | '
-        '[Parts](#-ultimate-parts) | **[Raw Parts](#-ultimate-parts)** |'
+        '[Show Parts](#ultimate-parts) | **[Raw Parts](#ultimate-parts)** |'
     )
     if not row_re.search(text):
         raise SystemExit('Could not find the Ultimate row in README.md')
     text = row_re.sub(new_row, text, count=1)
 
-    rows = [
-        '| Part | Entries | Size | View | Raw |',
-        '|---:|---:|---:|:---:|:---:|',
-    ]
+    # Compact two-column layout: two Ultimate parts per README row.
+    # This keeps the main README short even when the profile grows to many parts.
+    cells = []
     for p, count in counts:
         n = part_number(p)
         mib = p.stat().st_size / (1024 * 1024)
-        rows.append(
-            f'| **{n}** | **{count}** | {mib:.1f} MiB | '
-            f'[View](lists/combined/{p.name}) | '
-            f'**[Raw]({RAW_BASE}/{p.name})** |'
+        cells.append(
+            f'**Part {n}**  \n'
+            f'**{count:,}** entries · {mib:.1f} MiB  \n'
+            f'[View](lists/combined/{p.name}) · '
+            f'**[Raw]({RAW_BASE}/{p.name})**'
         )
 
-    block = START + '\n' + '\n'.join(rows) + '\n' + END
+    rows = [
+        '| Ultimate Part | Ultimate Part |',
+        '|---|---|',
+    ]
+    for i in range(0, len(cells), 2):
+        left = cells[i].replace('\n', '<br>')
+        right = cells[i + 1].replace('\n', '<br>') if i + 1 < len(cells) else ''
+        rows.append(f'| {left} | {right} |')
+
+    details = (
+        '<a id="ultimate-parts"></a>\n'
+        '<details>\n'
+        f'<summary><strong>🔴 Show Ultimate Parts ({len(parts)} files)</strong></summary>\n\n'
+        f'**Total: {total:,} unique domains.** Add **all parts** to Pi-hole / your DNS blocker for complete Ultimate coverage.\n\n'
+        + '\n'.join(rows) + '\n\n'
+        '</details>'
+    )
+
+    block = START + '\n' + details + '\n' + END
+
+    # Remove the older always-visible Ultimate heading/description if present.
+    # The collapsible block now carries all of that information itself.
+    legacy_section_re = re.compile(
+        r'\n## 🔴 Ultimate Parts\n\n'
+        r'\*\*Ultimate contains .*?\n\n'
+        + re.escape(START),
+        flags=re.DOTALL,
+    )
+    text = legacy_section_re.sub('\n' + START, text, count=1)
     if START in text and END in text:
         text = re.sub(re.escape(START) + r'.*?' + re.escape(END), block, text, flags=re.DOTALL)
     else:
@@ -72,11 +100,7 @@ def main() -> int:
         if anchor not in text:
             raise SystemExit('Could not find insertion point for Ultimate Parts section.')
         section = (
-            '\n\n## 🔴 Ultimate Parts\n\n'
-            f'**Ultimate contains {total} unique domains and is split automatically into {len(parts)} files.** '
-            'For complete Ultimate protection, add **every Raw URL** below to Pi-hole / your DNS blocker. '
-            'The updater creates or removes parts automatically as the profile grows or shrinks.\n\n'
-            + block
+            '\n\n' + block
         )
         text = text.replace(anchor, anchor + section, 1)
 

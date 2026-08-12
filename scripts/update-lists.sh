@@ -238,6 +238,13 @@ for file in lists/categories/*.txt; do
 done
 
 for file in lists/combined/*.txt; do
+  # Ultimate parts use a custom two-column collapsible README block and are
+  # updated exclusively by update-ultimate-readme.py below. Skipping them
+  # here prevents the generic table updater from adding stray columns.
+  if [[ "$(basename "$file")" =~ ^ultimate-[0-9]+\.txt$ ]]; then
+    continue
+  fi
+
   count="$(count_entries "$file")"
   update_readme_count "$file" "**$count**"
 done
