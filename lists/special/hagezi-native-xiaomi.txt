@@ -1,0 +1,5 @@
+# BlackRabbitZ DNS Blocklists
+# Special list: 22. Native Tracker – Geräte & Dienste — Xiaomi
+# Status: Placeholder; generated automatically by scripts/update-special-lists.py
+# Source/attribution: HaGeZi DNS Blocklists archive; see THIRD_PARTY.md
+# Do not use this placeholder as a production list before the first successful special-list build.

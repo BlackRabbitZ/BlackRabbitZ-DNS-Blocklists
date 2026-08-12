@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "split_max_bytes": 5242880,
+  "split_max_bytes": 52428800,
   "profiles": {
     "light": {
       "label": "Light",
@@ -10,7 +10,9 @@
       "recommended_for": "Basic ad blocking",
       "breakage": "🟢 Low",
       "split": false,
-      "categories": ["ads"]
+      "categories": [
+        "ads"
+      ]
     },
     "balanced": {
       "label": "Balanced ⭐",
@@ -20,7 +22,11 @@
       "recommended_for": "Most users",
       "breakage": "🔵 Low–Medium",
       "split": false,
-      "categories": ["ads", "trackers", "social-trackers"]
+      "categories": [
+        "ads",
+        "trackers",
+        "social-trackers"
+      ]
     },
     "strict": {
       "label": "Strict",
@@ -31,10 +37,21 @@
       "breakage": "🟠 Higher",
       "split": false,
       "categories": [
-        "ads", "trackers", "social-trackers", "affiliate-tracking",
-        "telemetry", "windows-telemetry", "apple-telemetry", "android-telemetry",
-        "linux-telemetry", "nas-telemetry", "server-telemetry",
-        "mobile-tracking", "native-tracking", "smart-tv", "iot"
+        "ads",
+        "trackers",
+        "social-trackers",
+        "affiliate-tracking",
+        "telemetry",
+        "windows-telemetry",
+        "apple-telemetry",
+        "android-telemetry",
+        "linux-telemetry",
+        "nas-telemetry",
+        "server-telemetry",
+        "mobile-tracking",
+        "native-tracking",
+        "smart-tv",
+        "iot"
       ]
     },
     "security": {
@@ -45,7 +62,13 @@
       "recommended_for": "Security-focused filtering",
       "breakage": "🟡 Medium",
       "split": true,
-      "categories": ["malware", "phishing", "scam", "fake-shops", "cryptomining"]
+      "categories": [
+        "malware",
+        "phishing",
+        "scam",
+        "fake-shops",
+        "cryptomining"
+      ]
     },
     "family": {
       "label": "Family",
@@ -55,7 +78,13 @@
       "recommended_for": "Family networks",
       "breakage": "🟠 Higher",
       "split": true,
-      "categories": ["ads", "trackers", "social-trackers", "adult", "gambling"]
+      "categories": [
+        "ads",
+        "trackers",
+        "social-trackers",
+        "adult",
+        "gambling"
+      ]
     },
     "ultimate": {
       "label": "Ultimate",
@@ -66,34 +95,170 @@
       "breakage": "🔴 Highest",
       "split": true,
       "categories": [
-        "ads", "trackers", "telemetry", "gaming-telemetry",
-        "windows-telemetry", "apple-telemetry", "android-telemetry",
-        "linux-telemetry", "nas-telemetry", "server-telemetry",
-        "smart-tv", "iot", "mobile-tracking", "social-trackers", "native-tracking",
-        "phishing", "malware", "scam", "cryptomining", "fake-shops",
-        "adult", "gambling", "affiliate-tracking"
+        "ads",
+        "trackers",
+        "telemetry",
+        "gaming-telemetry",
+        "windows-telemetry",
+        "apple-telemetry",
+        "android-telemetry",
+        "linux-telemetry",
+        "nas-telemetry",
+        "server-telemetry",
+        "smart-tv",
+        "iot",
+        "mobile-tracking",
+        "social-trackers",
+        "native-tracking",
+        "phishing",
+        "malware",
+        "scam",
+        "cryptomining",
+        "fake-shops",
+        "adult",
+        "gambling",
+        "affiliate-tracking"
       ]
     }
   },
   "comparison_features": [
-    {"label": "Advertising", "categories": ["ads"], "mode": "all"},
-    {"label": "General Trackers", "categories": ["trackers"], "mode": "all"},
-    {"label": "Social Tracking", "categories": ["social-trackers"], "mode": "all"},
-    {"label": "Affiliate Tracking", "categories": ["affiliate-tracking"], "mode": "all"},
-    {"label": "General Telemetry", "categories": ["telemetry"], "mode": "all"},
-    {"label": "Gaming Telemetry", "categories": ["gaming-telemetry"], "mode": "all"},
-    {"label": "Windows Telemetry", "categories": ["windows-telemetry"], "mode": "all"},
-    {"label": "Apple Telemetry", "categories": ["apple-telemetry"], "mode": "all"},
-    {"label": "Android Telemetry", "categories": ["android-telemetry"], "mode": "all"},
-    {"label": "Linux Telemetry", "categories": ["linux-telemetry"], "mode": "all"},
-    {"label": "NAS Telemetry", "categories": ["nas-telemetry"], "mode": "all"},
-    {"label": "Server Telemetry", "categories": ["server-telemetry"], "mode": "all"},
-    {"label": "Mobile/App Tracking", "categories": ["mobile-tracking", "native-tracking"], "mode": "any"},
-    {"label": "Smart-TV / IoT", "categories": ["smart-tv", "iot"], "mode": "any"},
-    {"label": "Cryptomining", "categories": ["cryptomining"], "mode": "all"},
-    {"label": "Malware / Phishing / Scam / Fake Shops", "categories": ["malware", "phishing", "scam", "fake-shops"], "mode": "all"},
-    {"label": "Consent / CMP", "categories": ["consent-cmp"], "mode": "all"},
-    {"label": "Adult", "categories": ["adult"], "mode": "all"},
-    {"label": "Gambling", "categories": ["gambling"], "mode": "all"}
+    {
+      "label": "Advertising",
+      "categories": [
+        "ads"
+      ],
+      "mode": "all"
+    },
+    {
+      "label": "General Trackers",
+      "categories": [
+        "trackers"
+      ],
+      "mode": "all"
+    },
+    {
+      "label": "Social Tracking",
+      "categories": [
+        "social-trackers"
+      ],
+      "mode": "all"
+    },
+    {
+      "label": "Affiliate Tracking",
+      "categories": [
+        "affiliate-tracking"
+      ],
+      "mode": "all"
+    },
+    {
+      "label": "General Telemetry",
+      "categories": [
+        "telemetry"
+      ],
+      "mode": "all"
+    },
+    {
+      "label": "Gaming Telemetry",
+      "categories": [
+        "gaming-telemetry"
+      ],
+      "mode": "all"
+    },
+    {
+      "label": "Windows Telemetry",
+      "categories": [
+        "windows-telemetry"
+      ],
+      "mode": "all"
+    },
+    {
+      "label": "Apple Telemetry",
+      "categories": [
+        "apple-telemetry"
+      ],
+      "mode": "all"
+    },
+    {
+      "label": "Android Telemetry",
+      "categories": [
+        "android-telemetry"
+      ],
+      "mode": "all"
+    },
+    {
+      "label": "Linux Telemetry",
+      "categories": [
+        "linux-telemetry"
+      ],
+      "mode": "all"
+    },
+    {
+      "label": "NAS Telemetry",
+      "categories": [
+        "nas-telemetry"
+      ],
+      "mode": "all"
+    },
+    {
+      "label": "Server Telemetry",
+      "categories": [
+        "server-telemetry"
+      ],
+      "mode": "all"
+    },
+    {
+      "label": "Mobile/App Tracking",
+      "categories": [
+        "mobile-tracking",
+        "native-tracking"
+      ],
+      "mode": "any"
+    },
+    {
+      "label": "Smart-TV / IoT",
+      "categories": [
+        "smart-tv",
+        "iot"
+      ],
+      "mode": "any"
+    },
+    {
+      "label": "Cryptomining",
+      "categories": [
+        "cryptomining"
+      ],
+      "mode": "all"
+    },
+    {
+      "label": "Malware / Phishing / Scam / Fake Shops",
+      "categories": [
+        "malware",
+        "phishing",
+        "scam",
+        "fake-shops"
+      ],
+      "mode": "all"
+    },
+    {
+      "label": "Consent / CMP",
+      "categories": [
+        "consent-cmp"
+      ],
+      "mode": "all"
+    },
+    {
+      "label": "Adult",
+      "categories": [
+        "adult"
+      ],
+      "mode": "all"
+    },
+    {
+      "label": "Gambling",
+      "categories": [
+        "gambling"
+      ],
+      "mode": "all"
+    }
   ]
 }

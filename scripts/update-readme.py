@@ -9,6 +9,8 @@ ROOT = Path(__file__).resolve().parent.parent
 CONFIG = ROOT / "config" / "profiles.json"
 I18N = ROOT / "config" / "readme-i18n.json"
 BUILD = ROOT / "metadata" / "build.json"
+SPECIAL_CONFIG = ROOT / "config" / "special-lists.json"
+SPECIAL_BUILD = ROOT / "metadata" / "special-lists.json"
 RAW_BASE = "https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main"
 
 MARKERS = {
@@ -16,6 +18,10 @@ MARKERS = {
     "addons": ("<!-- ADDON_PROFILES_START -->", "<!-- ADDON_PROFILES_END -->"),
     "parts": ("<!-- SPLIT_PROFILES_START -->", "<!-- SPLIT_PROFILES_END -->"),
     "comparison": ("<!-- COMPARISON_START -->", "<!-- COMPARISON_END -->"),
+    "special_ads_tracking": ("<!-- SPECIAL_ADS_TRACKING_START -->", "<!-- SPECIAL_ADS_TRACKING_END -->"),
+    "special_security": ("<!-- SPECIAL_SECURITY_START -->", "<!-- SPECIAL_SECURITY_END -->"),
+    "special_network": ("<!-- SPECIAL_NETWORK_START -->", "<!-- SPECIAL_NETWORK_END -->"),
+    "special_family": ("<!-- SPECIAL_FAMILY_START -->", "<!-- SPECIAL_FAMILY_END -->"),
 }
 
 
@@ -137,6 +143,124 @@ def comparison_table(config: dict, language_cfg: dict) -> str:
     return "\n".join(rows)
 
 
+def special_variant_links(variant: dict, info: dict | None, language: str) -> tuple[str, str, str]:
+    if language == "de":
+        pending = "Noch nicht erzeugt"
+        show_parts = "Teile anzeigen"
+        view = "Anzeigen"
+        raw = "Raw"
+    else:
+        pending = "Not built yet"
+        show_parts = "Show parts"
+        view = "View"
+        raw = "Raw"
+
+    if not info or not info.get("files"):
+        return pending, "—", "—"
+
+    files = info["files"]
+    entries = number(int(info.get("entries", 0)), language)
+    if len(files) == 1:
+        path = files[0]["file"]
+        return entries, f"[{view}]({path})", f"**[{raw}]({RAW_BASE}/{path})**"
+    anchor = f"#{variant['id']}-parts"
+    return entries, f"[{show_parts}]({anchor})", f"**[{show_parts}]({anchor})**"
+
+
+def special_parts_table(variant: dict, info: dict, language: str) -> str:
+    files = info.get("files", [])
+    if len(files) <= 1:
+        return ""
+    label = variant["label_de"] if language == "de" else variant["label_en"]
+    part_word = "Teil" if language == "de" else "Part"
+    entries_word = "Einträge" if language == "de" else "entries"
+    view_word = "Anzeigen" if language == "de" else "View"
+    chunks = [
+        f'<a id="{variant["id"]}-parts"></a>',
+        "<details>",
+        f"<summary><strong>{label}: {len(files)} {('Teile' if language == 'de' else 'parts')}</strong></summary>",
+        "",
+        f"| {part_word} | {part_word} |",
+        "|---|---|",
+    ]
+    cells = []
+    for idx, file_info in enumerate(files, start=1):
+        path = file_info["file"]
+        mib = file_info["bytes"] / (1024 * 1024)
+        cells.append(
+            f"**{part_word} {idx:02d}**  <br>**{number(file_info['entries'], language)}** {entries_word} · {mib:.1f} MiB  <br>"
+            f"[{view_word}]({path}) · **[Raw]({RAW_BASE}/{path})**"
+        )
+    for i in range(0, len(cells), 2):
+        chunks.append(f"| {cells[i]} | {cells[i + 1] if i + 1 < len(cells) else ''} |")
+    chunks += ["", "</details>"]
+    return "\n".join(chunks)
+
+
+def special_lists_block(config: dict, metadata: dict, language: str, section: str) -> str:
+    chunks: list[str] = []
+    metadata_items = metadata.get("items", {}) if metadata else {}
+    if language == "de":
+        risk_label = "Risiko"
+        variant_label = "Variante"
+        entries_label = "Einträge"
+        format_label = "Format"
+        view_label = "Anzeigen / Teile"
+        raw_label = "Raw"
+        doc_text = "Dokumentation"
+        formats = {"domains": "Domains", "ipv4": "IPv4 / Firewall", "raw": "Adblock"}
+    else:
+        risk_label = "Risk"
+        variant_label = "Variant"
+        entries_label = "Entries"
+        format_label = "Format"
+        view_label = "View / Parts"
+        raw_label = "Raw"
+        doc_text = "Documentation"
+        formats = {"domains": "Domains", "ipv4": "IPv4 / firewall", "raw": "Adblock"}
+
+    for item in config.get("items", []):
+        if int(item.get("point", 0)) >= 23 or item.get("readme_section") != section:
+            continue
+        title = item["title_de"] if language == "de" else item["title_en"]
+        description = item["description_de"] if language == "de" else item["description_en"]
+        risk = item["risk_de"] if language == "de" else item["risk_en"]
+        chunks += [
+            f'<a id="special-{item["id"]}"></a>',
+            "<details>",
+            f"<summary><strong>{item['point']}. {item['icon']} {title}</strong> — {description}</summary>",
+            "",
+            f"**{risk_label}: {risk}**",
+            "",
+        ]
+        variants = item.get("variants", [])
+        if not variants:
+            doc_path = item.get("documentation_de") if language == "de" else item.get("documentation_en")
+            if doc_path and not doc_path.startswith("#"):
+                chunks += [f"[{doc_text}]({doc_path})", ""]
+            else:
+                chunks += [description, ""]
+        else:
+            chunks += [
+                f"| {variant_label} | {entries_label} | {format_label} | {view_label} | {raw_label} |",
+                "|---|---:|---|:---:|:---:|",
+            ]
+            item_meta = metadata_items.get(item["id"], {}).get("variants", {})
+            split_sections: list[str] = []
+            for variant in variants:
+                info = item_meta.get(variant["id"])
+                label = variant["label_de"] if language == "de" else variant["label_en"]
+                entries, view, raw = special_variant_links(variant, info, language)
+                fmt = formats.get(variant.get("kind", "domains"), variant.get("kind", ""))
+                chunks.append(f"| **{label}** | {entries} | {fmt} | {view} | {raw} |")
+                if info and len(info.get("files", [])) > 1:
+                    split_sections.append(special_parts_table(variant, info, language))
+            chunks.append("")
+            if split_sections:
+                chunks += split_sections + [""]
+        chunks += ["</details>", ""]
+    return "\n".join(chunks).rstrip()
+
 def update_category_counts(text: str, build: dict, language: str) -> str:
     lines = text.splitlines()
     for name, info in build["categories"].items():
@@ -152,7 +276,7 @@ def update_category_counts(text: str, build: dict, language: str) -> str:
     return "\n".join(lines) + ("\n" if text.endswith("\n") else "")
 
 
-def update_one(readme: Path, language: str, language_cfg: dict, config: dict, build: dict) -> None:
+def update_one(readme: Path, language: str, language_cfg: dict, config: dict, build: dict, special_config: dict, special_build: dict) -> None:
     if not readme.exists():
         raise SystemExit(f"README file missing: {readme.relative_to(ROOT)}")
 
@@ -161,6 +285,10 @@ def update_one(readme: Path, language: str, language_cfg: dict, config: dict, bu
     text = replace_block(text, *MARKERS["addons"], profile_table(config, build, "addon", language, language_cfg))
     text = replace_block(text, *MARKERS["parts"], parts_block(config, build, language, language_cfg))
     text = replace_block(text, *MARKERS["comparison"], comparison_table(config, language_cfg))
+    text = replace_block(text, *MARKERS["special_ads_tracking"], special_lists_block(special_config, special_build, language, "ads_tracking"))
+    text = replace_block(text, *MARKERS["special_security"], special_lists_block(special_config, special_build, language, "security"))
+    text = replace_block(text, *MARKERS["special_network"], special_lists_block(special_config, special_build, language, "network"))
+    text = replace_block(text, *MARKERS["special_family"], special_lists_block(special_config, special_build, language, "family"))
     text = update_category_counts(text, build, language)
     readme.write_text(text, encoding="utf-8")
     print(f"Synchronized {readme.relative_to(ROOT)}")
@@ -170,11 +298,13 @@ def main() -> int:
     config = json.loads(CONFIG.read_text(encoding="utf-8"))
     i18n = json.loads(I18N.read_text(encoding="utf-8"))
     build = json.loads(BUILD.read_text(encoding="utf-8"))
+    special_config = json.loads(SPECIAL_CONFIG.read_text(encoding="utf-8")) if SPECIAL_CONFIG.is_file() else {"items": []}
+    special_build = json.loads(SPECIAL_BUILD.read_text(encoding="utf-8")) if SPECIAL_BUILD.is_file() else {}
 
     for language, language_cfg in i18n["languages"].items():
-        update_one(ROOT / language_cfg["readme"], language, language_cfg, config, build)
+        update_one(ROOT / language_cfg["readme"], language, language_cfg, config, build, special_config, special_build)
 
-    print("German and English README profile tables, split-part links, comparison matrix and category counts synchronized")
+    print("German and English README profiles, parts, categorized special lists, comparison matrix and category counts synchronized")
     return 0
 
 

@@ -1,0 +1,593 @@
+{
+  "version": 1,
+  "split_max_bytes": 52428800,
+  "source_family": "HaGeZi DNS Blocklists archive",
+  "source_repository": "https://github.com/hagezi/dns-blocklists",
+  "archive_snapshot": "2026-08-02",
+  "license": "GPL-3.0",
+  "items": [
+    {
+      "point": 7,
+      "id": "fake",
+      "icon": "🎭",
+      "title_de": "Fake & Internet-Betrug",
+      "title_en": "Fake & Internet Scams",
+      "description_de": "Schutz vor Fake-Shops, Abzocke, Kostenfallen und betrügerischen Fake-Angeboten.",
+      "description_en": "Protection against fake shops, rip-offs, traps and fraudulent fake offers.",
+      "risk_de": "Mittel",
+      "risk_en": "Medium",
+      "variants": [
+        {
+          "id": "hagezi-fake",
+          "label_de": "Voll",
+          "label_en": "Full",
+          "kind": "domains",
+          "min_entries": 10000,
+          "source_url": "https://web.archive.org/web/20260709124133if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/fake-onlydomains.txt"
+        }
+      ],
+      "readme_section": "security"
+    },
+    {
+      "point": 8,
+      "id": "popup-ads",
+      "icon": "🎉",
+      "title_de": "Pop-Up-Werbung",
+      "title_en": "Pop-Up Ads",
+      "description_de": "Blockiert störende und potenziell schädliche Pop-up-Werbe-Domains.",
+      "description_en": "Blocks annoying and potentially malicious pop-up advertising domains.",
+      "risk_de": "Mittel",
+      "risk_en": "Medium",
+      "variants": [
+        {
+          "id": "hagezi-popup-ads",
+          "label_de": "Voll",
+          "label_en": "Full",
+          "kind": "domains",
+          "min_entries": 30000,
+          "source_url": "https://web.archive.org/web/20260802022308if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/popupads-onlydomains.txt"
+        }
+      ],
+      "readme_section": "ads_tracking"
+    },
+    {
+      "point": 9,
+      "id": "threat-intelligence",
+      "icon": "🔐",
+      "title_de": "Threat Intelligence Feeds",
+      "title_en": "Threat Intelligence Feeds",
+      "description_de": "Zusätzliche Malware-, Phishing-, Scam-, Spam-, Kryptojacking- und C2-Indikatoren in mehreren Größen.",
+      "description_en": "Additional malware, phishing, scam, spam, cryptojacking and C2 indicators in multiple sizes.",
+      "risk_de": "Mittel–Hoch",
+      "risk_en": "Medium–High",
+      "variants": [
+        {
+          "id": "hagezi-tif-full",
+          "label_de": "Voll",
+          "label_en": "Full",
+          "kind": "domains",
+          "min_entries": 1500000,
+          "source_url": "https://web.archive.org/web/20260709124138if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/tif-onlydomains.txt"
+        },
+        {
+          "id": "hagezi-tif-medium",
+          "label_de": "Medium",
+          "label_en": "Medium",
+          "kind": "domains",
+          "min_entries": 250000,
+          "source_url": "https://web.archive.org/web/20260811224303if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/tif.medium-onlydomains.txt"
+        },
+        {
+          "id": "hagezi-tif-mini",
+          "label_de": "Mini",
+          "label_en": "Mini",
+          "kind": "domains",
+          "min_entries": 100000,
+          "source_url": "https://web.archive.org/web/20260709124148if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/tif.mini-onlydomains.txt"
+        },
+        {
+          "id": "hagezi-tif-ipv4",
+          "label_de": "IPv4",
+          "label_en": "IPv4",
+          "kind": "ipv4",
+          "min_entries": 1000,
+          "source_url": "https://web.archive.org/web/20260806003104if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/ips/tif.txt"
+        }
+      ],
+      "readme_section": "security"
+    },
+    {
+      "point": 10,
+      "id": "nrd-dga",
+      "icon": "🆕",
+      "title_de": "Neu registrierte Domains / NRD & DGA",
+      "title_en": "Newly Registered Domains / NRD & DGA",
+      "description_de": "Zeitfenster für neu registrierte Domains sowie hochentropische DGA-Domains; sehr groß und besonders aggressiv.",
+      "description_en": "Time-window lists for newly registered domains and high-entropy DGA domains; very large and especially aggressive.",
+      "risk_de": "Sehr hoch",
+      "risk_en": "Very high",
+      "variants": [
+        {
+          "id": "hagezi-nrd-01-07",
+          "label_de": "NRD 1–7 Tage",
+          "label_en": "NRD days 1–7",
+          "kind": "domains",
+          "heavy": true,
+          "min_entries": 1000000,
+          "source_url": "https://web.archive.org/web/20260802022310if_/https://raw.githubusercontent.com/hagezi/nrd/main/domains/nrd7.txt"
+        },
+        {
+          "id": "hagezi-nrd-08-14",
+          "label_de": "NRD 8–14 Tage",
+          "label_en": "NRD days 8–14",
+          "kind": "domains",
+          "heavy": true,
+          "min_entries": 1000000,
+          "source_url": "https://web.archive.org/web/20260802022310if_/https://raw.githubusercontent.com/hagezi/nrd/main/domains/nrd14-8.txt"
+        },
+        {
+          "id": "hagezi-nrd-15-21",
+          "label_de": "NRD 15–21 Tage",
+          "label_en": "NRD days 15–21",
+          "kind": "domains",
+          "heavy": true,
+          "min_entries": 1000000,
+          "source_url": "https://web.archive.org/web/20260802022311if_/https://raw.githubusercontent.com/hagezi/nrd/main/domains/nrd21-15.txt"
+        },
+        {
+          "id": "hagezi-nrd-22-28",
+          "label_de": "NRD 22–28 Tage",
+          "label_en": "NRD days 22–28",
+          "kind": "domains",
+          "heavy": true,
+          "min_entries": 1000000,
+          "source_url": "https://web.archive.org/web/20260802022516if_/https://raw.githubusercontent.com/hagezi/nrd/main/domains/nrd28-22.txt"
+        },
+        {
+          "id": "hagezi-nrd-29-35",
+          "label_de": "NRD 29–35 Tage",
+          "label_en": "NRD days 29–35",
+          "kind": "domains",
+          "heavy": true,
+          "min_entries": 1000000,
+          "source_url": "https://web.archive.org/web/20260802022320if_/https://raw.githubusercontent.com/hagezi/nrd/main/domains/nrd35-29.txt"
+        },
+        {
+          "id": "hagezi-dga-7",
+          "label_de": "DGA 7 Tage",
+          "label_en": "DGA 7 days",
+          "kind": "domains",
+          "heavy": true,
+          "min_entries": 250000,
+          "source_url": "https://web.archive.org/web/20260802022325if_/https://raw.githubusercontent.com/hagezi/nrd/main/domains/dga7.txt"
+        },
+        {
+          "id": "hagezi-dga-14",
+          "label_de": "DGA 14 Tage",
+          "label_en": "DGA 14 days",
+          "kind": "domains",
+          "heavy": true,
+          "min_entries": 600000,
+          "source_url": "https://web.archive.org/web/20260802022326if_/https://raw.githubusercontent.com/hagezi/nrd/main/domains/dga14.txt"
+        },
+        {
+          "id": "hagezi-dga-30",
+          "label_de": "DGA 30 Tage",
+          "label_en": "DGA 30 days",
+          "kind": "domains",
+          "heavy": true,
+          "min_entries": 1200000,
+          "source_url": "https://web.archive.org/web/20260802022330if_/https://raw.githubusercontent.com/hagezi/nrd/main/domains/dga30.txt"
+        }
+      ],
+      "readme_section": "security"
+    },
+    {
+      "point": 11,
+      "id": "dns-bypass",
+      "icon": "📤",
+      "title_de": "DoH/VPN/TOR/Proxy-Bypass",
+      "title_en": "DoH/VPN/TOR/Proxy Bypass",
+      "description_de": "Blockiert bekannte verschlüsselte DNS-, VPN-, TOR- und Proxy-Endpunkte, die lokale DNS-Filter umgehen können.",
+      "description_en": "Blocks known encrypted-DNS, VPN, TOR and proxy endpoints that can bypass local DNS filtering.",
+      "risk_de": "Hoch",
+      "risk_en": "High",
+      "variants": [
+        {
+          "id": "hagezi-dns-bypass-full",
+          "label_de": "Voll",
+          "label_en": "Full",
+          "kind": "domains",
+          "min_entries": 10000,
+          "source_url": "https://web.archive.org/web/20260709124150if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/doh-vpn-proxy-bypass-onlydomains.txt"
+        },
+        {
+          "id": "hagezi-doh-only",
+          "label_de": "Nur DoH",
+          "label_en": "DoH only",
+          "kind": "domains",
+          "min_entries": 1000,
+          "source_url": "https://web.archive.org/web/20260709124151if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/doh-onlydomains.txt"
+        },
+        {
+          "id": "hagezi-doh-ipv4",
+          "label_de": "DoH IPv4",
+          "label_en": "DoH IPv4",
+          "kind": "ipv4",
+          "min_entries": 100,
+          "source_url": "https://web.archive.org/web/20260709124151if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/ips/doh.txt"
+        }
+      ],
+      "readme_section": "network"
+    },
+    {
+      "point": 12,
+      "id": "safesearch-unsupported",
+      "icon": "🔍",
+      "title_de": "Suchmaschinen ohne SafeSearch",
+      "title_en": "SafeSearch Unsupported",
+      "description_de": "Blockiert Suchmaschinen, die keine SafeSearch-Funktion unterstützen.",
+      "description_en": "Blocks search engines that do not support SafeSearch.",
+      "risk_de": "Hoch",
+      "risk_en": "High",
+      "variants": [
+        {
+          "id": "hagezi-safesearch-unsupported",
+          "label_de": "Voll",
+          "label_en": "Full",
+          "kind": "domains",
+          "min_entries": 100,
+          "source_url": "https://web.archive.org/web/20260709124153if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/nosafesearch-onlydomains.txt"
+        }
+      ],
+      "readme_section": "family"
+    },
+    {
+      "point": 13,
+      "id": "dynamic-dns",
+      "icon": "🔏",
+      "title_de": "Dynamic DNS",
+      "title_en": "Dynamic DNS",
+      "description_de": "Blockiert bekannte Dynamic-DNS-Dienste, die in Phishing- oder Malware-Kampagnen missbraucht werden können.",
+      "description_en": "Blocks known dynamic-DNS services that can be abused in phishing or malware campaigns.",
+      "risk_de": "Hoch",
+      "risk_en": "High",
+      "variants": [
+        {
+          "id": "hagezi-dynamic-dns",
+          "label_de": "Voll",
+          "label_en": "Full",
+          "kind": "domains",
+          "min_entries": 700,
+          "source_url": "https://web.archive.org/web/20260725182445if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/dyndns-onlydomains.txt"
+        }
+      ],
+      "readme_section": "security"
+    },
+    {
+      "point": 14,
+      "id": "badware-hoster",
+      "icon": "💻",
+      "title_de": "Badware-Hoster",
+      "title_en": "Badware Hoster",
+      "description_de": "Blockiert ganze Hosting-Anbieter-Domains, die wiederholt für schädliche Inhalte missbraucht wurden; hohes Fehlblockierungsrisiko.",
+      "description_en": "Blocks hosting-provider root domains repeatedly abused for malicious content; high false-positive risk.",
+      "risk_de": "Sehr hoch",
+      "risk_en": "Very high",
+      "variants": [
+        {
+          "id": "hagezi-badware-hoster",
+          "label_de": "Voll",
+          "label_en": "Full",
+          "kind": "domains",
+          "min_entries": 700,
+          "source_url": "https://web.archive.org/web/20260709124154if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/hoster-onlydomains.txt"
+        }
+      ],
+      "readme_section": "security"
+    },
+    {
+      "point": 15,
+      "id": "url-shortener",
+      "icon": "📲",
+      "title_de": "URL-Kürzer",
+      "title_en": "URL Shortener",
+      "description_de": "Blockiert bekannte Link-/URL-Shortener; für normale Heimnetze bewusst als sehr aggressiv markiert.",
+      "description_en": "Blocks known link/URL shorteners; intentionally marked very aggressive for normal home networks.",
+      "risk_de": "Sehr hoch",
+      "risk_en": "Very high",
+      "variants": [
+        {
+          "id": "hagezi-url-shortener",
+          "label_de": "Voll",
+          "label_en": "Full",
+          "kind": "domains",
+          "min_entries": 5000,
+          "source_url": "https://web.archive.org/web/20260709124155if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/urlshortener-onlydomains.txt"
+        }
+      ],
+      "readme_section": "network"
+    },
+    {
+      "point": 16,
+      "id": "most-abused-tlds",
+      "icon": "🔮",
+      "title_de": "Besonders missbrauchte TLDs",
+      "title_en": "Most Abused TLDs",
+      "description_de": "Aggressive Regeln zum Sperren ganzer, häufig missbrauchter Top-Level-Domains; im Pi-hole-kompatiblen Adblock-Format archiviert.",
+      "description_en": "Aggressive rules blocking entire frequently abused top-level domains; archived in Pi-hole-compatible Adblock format.",
+      "risk_de": "Sehr hoch",
+      "risk_en": "Very high",
+      "variants": [
+        {
+          "id": "hagezi-most-abused-tlds",
+          "label_de": "Pi-hole Adblock",
+          "label_en": "Pi-hole Adblock",
+          "kind": "raw",
+          "min_entries": 10,
+          "source_url": "https://web.archive.org/web/20260709124156if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/spam-tlds-adblock.txt"
+        }
+      ],
+      "readme_section": "security"
+    },
+    {
+      "point": 17,
+      "id": "dns-rebind-protection",
+      "icon": "🛡️",
+      "title_de": "DNS-Rebind-Schutz",
+      "title_en": "DNS Rebind Protection",
+      "description_de": "Pi-hole-/dnsmasq-Konfiguration gegen DNS-Rebinding; keine normale statische Domain-Adlist.",
+      "description_en": "Pi-hole/dnsmasq configuration against DNS rebinding; not a normal static domain Adlist.",
+      "risk_de": "Konfiguration",
+      "risk_en": "Configuration",
+      "documentation_de": "docs/DNS_REBIND_PROTECTION.md",
+      "documentation_en": "docs/DNS_REBIND_PROTECTION_EN.md",
+      "variants": [],
+      "readme_section": "network"
+    },
+    {
+      "point": 18,
+      "id": "anti-piracy",
+      "icon": "💀",
+      "title_de": "Anti-Piracy",
+      "title_en": "Anti Piracy",
+      "description_de": "Blockiert Domains und Dienste, die überwiegend für nicht autorisierte Verbreitung urheberrechtlich geschützter Inhalte genutzt werden.",
+      "description_en": "Blocks domains and services mainly used for unauthorized distribution of copyrighted content.",
+      "risk_de": "Hoch",
+      "risk_en": "High",
+      "variants": [
+        {
+          "id": "hagezi-anti-piracy",
+          "label_de": "Voll",
+          "label_en": "Full",
+          "kind": "domains",
+          "min_entries": 20000,
+          "source_url": "https://web.archive.org/web/20260709124157if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/anti.piracy-onlydomains.txt"
+        }
+      ],
+      "readme_section": "family"
+    },
+    {
+      "point": 19,
+      "id": "gambling-archive",
+      "icon": "🎰",
+      "title_de": "Glücksspiel – HaGeZi-Varianten",
+      "title_en": "Gambling – HaGeZi Variants",
+      "description_de": "Archivierte Voll-, Medium- und Mini-Varianten zusätzlich zur bereits vorhandenen BlackRabbitZ-Glücksspielliste.",
+      "description_en": "Archived full, medium and mini variants in addition to the existing BlackRabbitZ gambling list.",
+      "risk_de": "Hoch",
+      "risk_en": "High",
+      "variants": [
+        {
+          "id": "hagezi-gambling-full",
+          "label_de": "Voll",
+          "label_en": "Full",
+          "kind": "domains",
+          "min_entries": 200000,
+          "source_url": "https://web.archive.org/web/20260709124159if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/gambling-onlydomains.txt"
+        },
+        {
+          "id": "hagezi-gambling-medium",
+          "label_de": "Medium",
+          "label_en": "Medium",
+          "kind": "domains",
+          "min_entries": 80000,
+          "source_url": "https://web.archive.org/web/20260709124201if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/gambling.medium-onlydomains.txt"
+        },
+        {
+          "id": "hagezi-gambling-mini",
+          "label_de": "Mini",
+          "label_en": "Mini",
+          "kind": "domains",
+          "min_entries": 40000,
+          "source_url": "https://web.archive.org/web/20260709124202if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/gambling.mini-onlydomains.txt"
+        }
+      ],
+      "readme_section": "family"
+    },
+    {
+      "point": 20,
+      "id": "social-networks",
+      "icon": "💬",
+      "title_de": "Soziale Netzwerke sperren",
+      "title_en": "Social Networks",
+      "description_de": "Blockiert den Zugriff auf klassische soziale Netzwerke; Messaging und Streaming sind nicht automatisch gleichbedeutend damit.",
+      "description_en": "Blocks access to traditional social networks; messaging and streaming are not automatically treated the same way.",
+      "risk_de": "Sehr hoch",
+      "risk_en": "Very high",
+      "variants": [
+        {
+          "id": "hagezi-social-networks",
+          "label_de": "Voll",
+          "label_en": "Full",
+          "kind": "domains",
+          "min_entries": 500,
+          "source_url": "https://web.archive.org/web/20260709124204if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/social-onlydomains.txt"
+        }
+      ],
+      "readme_section": "family"
+    },
+    {
+      "point": 21,
+      "id": "nsfw-archive",
+      "icon": "🔞",
+      "title_de": "NSFW / Erwachsene Inhalte – HaGeZi",
+      "title_en": "NSFW / Adult Content – HaGeZi",
+      "description_de": "Archivierte HaGeZi-NSFW-Liste zusätzlich zur bereits vorhandenen BlackRabbitZ-Adult-Kategorie.",
+      "description_en": "Archived HaGeZi NSFW list in addition to the existing BlackRabbitZ Adult category.",
+      "risk_de": "Hoch",
+      "risk_en": "High",
+      "variants": [
+        {
+          "id": "hagezi-nsfw",
+          "label_de": "Voll",
+          "label_en": "Full",
+          "kind": "domains",
+          "min_entries": 60000,
+          "source_url": "https://web.archive.org/web/20260709124205if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/nsfw-onlydomains.txt"
+        }
+      ],
+      "readme_section": "family"
+    },
+    {
+      "point": 22,
+      "id": "native-tracker-archive",
+      "icon": "📲",
+      "title_de": "Native Tracker – Geräte & Dienste",
+      "title_en": "Native Tracker – Devices & Services",
+      "description_de": "Geräte- und dienstespezifische Trackerlisten für Amazon, Apple, Huawei, Microsoft, Samsung, TikTok, LG webOS, Roku, Vivo, OPPO/Realme und Xiaomi.",
+      "description_en": "Device- and service-specific tracker lists for Amazon, Apple, Huawei, Microsoft, Samsung, TikTok, LG webOS, Roku, Vivo, OPPO/Realme and Xiaomi.",
+      "risk_de": "Mittel–Hoch",
+      "risk_en": "Medium–High",
+      "variants": [
+        {
+          "id": "hagezi-native-amazon",
+          "label_de": "Amazon",
+          "label_en": "Amazon",
+          "kind": "domains",
+          "min_entries": 5,
+          "source_url": "https://web.archive.org/web/20260709124207if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.amazon-onlydomains.txt"
+        },
+        {
+          "id": "hagezi-native-apple",
+          "label_de": "Apple",
+          "label_en": "Apple",
+          "kind": "domains",
+          "min_entries": 5,
+          "source_url": "https://web.archive.org/web/20260709124208if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.apple-onlydomains.txt"
+        },
+        {
+          "id": "hagezi-native-huawei",
+          "label_de": "Huawei",
+          "label_en": "Huawei",
+          "kind": "domains",
+          "min_entries": 5,
+          "source_url": "https://web.archive.org/web/20260709124208if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.huawei-onlydomains.txt"
+        },
+        {
+          "id": "hagezi-native-microsoft",
+          "label_de": "Microsoft / Windows / Office",
+          "label_en": "Microsoft / Windows / Office",
+          "kind": "domains",
+          "min_entries": 5,
+          "source_url": "https://web.archive.org/web/20260709124209if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.winoffice-onlydomains.txt"
+        },
+        {
+          "id": "hagezi-native-samsung",
+          "label_de": "Samsung",
+          "label_en": "Samsung",
+          "kind": "domains",
+          "min_entries": 5,
+          "source_url": "https://web.archive.org/web/20260709124210if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.samsung-onlydomains.txt"
+        },
+        {
+          "id": "hagezi-native-tiktok",
+          "label_de": "TikTok",
+          "label_en": "TikTok",
+          "kind": "domains",
+          "min_entries": 1,
+          "source_url": "https://web.archive.org/web/20260709124211if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.tiktok-onlydomains.txt"
+        },
+        {
+          "id": "hagezi-native-tiktok-extended",
+          "label_de": "TikTok – Aggressiv",
+          "label_en": "TikTok – Aggressive",
+          "kind": "domains",
+          "min_entries": 1,
+          "source_url": "https://web.archive.org/web/20260709124212if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.tiktok.extended-onlydomains.txt"
+        },
+        {
+          "id": "hagezi-native-lgwebos",
+          "label_de": "LG webOS",
+          "label_en": "LG webOS",
+          "kind": "domains",
+          "min_entries": 10,
+          "source_url": "https://web.archive.org/web/20260709124212if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.lgwebos-onlydomains.txt"
+        },
+        {
+          "id": "hagezi-native-roku",
+          "label_de": "Roku",
+          "label_en": "Roku",
+          "kind": "domains",
+          "min_entries": 1,
+          "source_url": "https://web.archive.org/web/20260709124213if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.roku-onlydomains.txt"
+        },
+        {
+          "id": "hagezi-native-vivo",
+          "label_de": "Vivo",
+          "label_en": "Vivo",
+          "kind": "domains",
+          "min_entries": 1,
+          "source_url": "https://web.archive.org/web/20260709124214if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.vivo-onlydomains.txt"
+        },
+        {
+          "id": "hagezi-native-oppo-realme",
+          "label_de": "OPPO / Realme",
+          "label_en": "OPPO / Realme",
+          "kind": "domains",
+          "min_entries": 1,
+          "source_url": "https://web.archive.org/web/20260709124215if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.oppo-realme-onlydomains.txt"
+        },
+        {
+          "id": "hagezi-native-xiaomi",
+          "label_de": "Xiaomi",
+          "label_en": "Xiaomi",
+          "kind": "domains",
+          "min_entries": 1,
+          "source_url": "https://web.archive.org/web/20260709124216if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.xiaomi-onlydomains.txt"
+        }
+      ],
+      "readme_section": "ads_tracking"
+    },
+    {
+      "point": 23,
+      "id": "recommendations",
+      "icon": "💡",
+      "title_de": "Empfehlungen",
+      "title_en": "Recommendations",
+      "description_de": "BlackRabbitZ-Empfehlungen für Profile, Add-ons und aggressive Speziallisten.",
+      "description_en": "BlackRabbitZ recommendations for profiles, add-ons and aggressive special lists.",
+      "risk_de": "Hinweise",
+      "risk_en": "Guidance",
+      "documentation_de": "#recommendations",
+      "documentation_en": "#recommendations",
+      "variants": [],
+      "readme_section": "info"
+    },
+    {
+      "point": 24,
+      "id": "online-dns-services",
+      "icon": "🏬",
+      "title_de": "Online-DNS-Dienste",
+      "title_en": "Online DNS Services",
+      "description_de": "Hinweise zur Nutzung externer DNS-Dienste und zur Abgrenzung gegenüber selbst gehostetem Pi-hole.",
+      "description_en": "Guidance for external DNS services and how they differ from self-hosted Pi-hole.",
+      "risk_de": "Hinweise",
+      "risk_en": "Guidance",
+      "documentation_de": "#online-dns-services",
+      "documentation_en": "#online-dns-services",
+      "variants": [],
+      "readme_section": "info"
+    }
+  ]
+}

@@ -2,6 +2,26 @@
 
 **🌐 Sprache / Language:** 🇩🇪 **Deutsch** · [🇬🇧 English](CHANGELOG_EN.md)
 
+## 3.3.0 — 2026-08-12
+
+- Größenlimit für gesplittete Profile und Speziallisten von 5 MiB auf **50 MiB pro Part** erhöht, damit Security, Family, Ultimate und große Zusatzlisten deutlich weniger Einzeldateien benötigen.
+- HaGeZi-Themen **7–22** als optionale, reproduzierbare Speziallisten in die passenden README-Kategorien einsortiert; Punkte **23–24** als Empfehlungen und Online-DNS-Hinweise ergänzt.
+- Neue Kategorie **DNS-, Web- & Bypass-Schutz** für DoH/VPN/TOR/Proxy-Bypass, URL-Kürzer und DNS-Rebind-Schutz ergänzt.
+- Kurze Erklärung zum Nutzen von DNS-Blocklisten vor dem Inhaltsverzeichnis ergänzt.
+- Inhaltsverzeichnis erweitert und jeden Eintrag mit einer kurzen Beschreibung versehen.
+- README-Automatisierung auf kategorisierte Speziallisten-Blöcke umgestellt.
+
+## 3.2.0 - 2026-08-12
+
+- HaGeZi-Themen **7–22** aus dem archivierten Repository-Stand als optionale BlackRabbitZ-Speziallisten integriert.
+- Eigener Archiv-Builder `scripts/update-special-lists.py` mit Normalisierung, Allowlist-Anwendung, Duplikatentfernung, Plausibilitätsgrenzen und automatischer 5-MiB-Aufteilung ergänzt.
+- TIF Full/Medium/Mini, NRD/DGA-Zeitfenster, DNS-Bypass, SafeSearch, DynDNS, Badware-Hoster, URL-Shortener, TLD-Regeln, Anti-Piracy, Glücksspiel-Varianten, Social-Network-Blocking, NSFW und Native-Tracker-Varianten ergänzt.
+- Punkt **17 DNS-Rebind-Schutz** Pi-hole-gerecht als Resolver-/dnsmasq-Dokumentation umgesetzt, da die archivierte HaGeZi-Liste AdGuard-spezifisch war.
+- HaGeZi-Punkte **23 Empfehlungen** und **24 Online-DNS-Dienste** als BlackRabbitZ-Dokumentationsbereiche ergänzt; beide sind keine Blocklisten.
+- Inhaltsverzeichnis erweitert und zu jedem Verweis eine kurze Funktionsbeschreibung ergänzt.
+- Speziallisten-Metadaten, Raw-/Part-Links und deutsche/englische README-Bereiche werden automatisch synchronisiert.
+- Archivquellen und Lizenz-/Attributionshinweise in der Drittquellen-Dokumentation erweitert.
+
 ## 3.1.0 - 2026-08-12
 
 - Deutsche README als Standard eingeführt und eine separate englische `README_EN.md` ergänzt.

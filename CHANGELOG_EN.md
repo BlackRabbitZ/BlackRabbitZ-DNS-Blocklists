@@ -2,6 +2,26 @@
 
 **🌐 Language / Sprache:** [🇩🇪 Deutsch](CHANGELOG.md) · 🇬🇧 **English**
 
+## 3.3.0 — 2026-08-12
+
+- Increased the split limit for large profiles and special lists from 5 MiB to **50 MiB per part**, significantly reducing the number of Security, Family, Ultimate and large add-on files.
+- Integrated HaGeZi topics **7–22** as optional reproducible special lists in the appropriate README categories; topics **23–24** are included as recommendations and online-DNS guidance.
+- Added a new **DNS, Web & Bypass Protection** category for DoH/VPN/TOR/Proxy bypass, URL shorteners and DNS rebind protection.
+- Added a short explanation of why DNS blocklists are useful before the table of contents.
+- Expanded the table of contents with a short description for every entry.
+- Updated README automation to maintain categorized special-list blocks.
+
+## 3.2.0 - 2026-08-12
+
+- Integrated HaGeZi topics **7–22** from the archived repository state as optional BlackRabbitZ special lists.
+- Added dedicated archive builder `scripts/update-special-lists.py` with normalization, allowlist handling, deduplication, sanity thresholds and automatic 5 MiB splitting.
+- Added TIF Full/Medium/Mini, NRD/DGA windows, DNS bypass, SafeSearch, DynDNS, badware hosters, URL shorteners, TLD rules, anti-piracy, gambling variants, social-network blocking, NSFW and native-tracker variants.
+- Implemented topic **17 DNS Rebind Protection** as Pi-hole resolver/dnsmasq guidance because the archived HaGeZi list was AdGuard-specific.
+- Added HaGeZi topics **23 Recommendations** and **24 Online DNS Services** as BlackRabbitZ documentation sections; neither is a blocklist.
+- Expanded the table of contents and added a short description after every link.
+- Special-list metadata, Raw/part links and German/English README sections are synchronized automatically.
+- Expanded archive source and license/attribution documentation.
+
 ## 3.1.0 - 2026-08-12
 
 - Added German `README.md` as the default and a separate English `README_EN.md`.

@@ -36,6 +36,20 @@ Maßgeblich bleiben die jeweiligen Upstream-Projekte. Deren Daten können sich h
   - https://www.verbraucherzentrale.de/fakeshopfinder-71560
 - **Herstellerdokumentation** (Canonical/Debian, Synology/TrueNAS/QNAP, Red Hat, Dell, HPE) — kleine Telemetrie-Endpunkt-Sammlungen für Linux-, NAS- und Server-Kategorien.
 
+
+## Archivierte Speziallisten (Punkte 7–22)
+
+BlackRabbitZ kann zusätzlich die im Wayback-Snapshot vom **2. August 2026** dokumentierten HaGeZi-Speziallisten importieren. Die ursprünglichen Listen wurden unter GPL-3.0 veröffentlicht. Zur reproduzierbaren Übernahme dieses dokumentierten Stands nutzt BlackRabbitZ **archivierte Raw-Captures** und kennzeichnet sie klar als Drittquelle. Dadurch hängen die erzeugten Speziallisten nicht davon ab, ob sich das Live-Repository später ändert oder zeitweise nicht erreichbar ist.
+
+- Archivierte Repository-Seite: `https://web.archive.org/web/20260802022304/https://github.com/hagezi/dns-blocklists`
+- Originalprojekt: `https://github.com/hagezi/dns-blocklists`
+- Build-Konfiguration: `config/special-lists.json`
+- Erzeugte Domainlisten: `lists/special/`
+- Erzeugte IPv4-Listen: `lists/ips/`
+- Maschinenlesbare Herkunft/Prüfsummen: `metadata/special-lists.json`
+
+Die Konfiguration verweist auf die jeweiligen archivierten Raw-Captures. Bei einzelnen Dateien führt der Link des 2.-August-Snapshots zur nächst verfügbaren Wayback-Capture derselben Datei. BlackRabbitZ normalisiert Domain-/IP-Varianten und teilt große Ausgaben auf; Adblock-spezifische Syntax wird nur dort unverändert erhalten, wo sie für die Funktion der Liste notwendig ist (z. B. TLD-Regeln).
+
 ## Abgeleitete Teilmengen
 
 Einige Kategorien werden über kategoriespezifische Filter aus breiteren Upstream-Datensätzen abgeleitet:

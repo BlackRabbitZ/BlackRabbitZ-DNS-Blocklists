@@ -59,7 +59,7 @@ Current split profiles:
 - `family-part-01.txt`, `family-part-02.txt`, ...
 - `ultimate-part-01.txt`, `ultimate-part-02.txt`, ...
 
-Each generated part targets a maximum of **5 MiB** (`5242880` bytes including its header). Part numbering is zero-padded so file ordering remains stable when a profile grows beyond nine parts.
+Each generated part targets a maximum of **50 MiB** (`52428800` bytes including its header). Part numbering is zero-padded so file ordering remains stable when a profile grows beyond nine parts.
 
 For complete coverage, DNS blockers must subscribe to **all parts** shown in the README for that profile.
 

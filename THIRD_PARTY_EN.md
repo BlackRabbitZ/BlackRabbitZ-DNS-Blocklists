@@ -36,6 +36,20 @@ The upstream projects remain authoritative. Their data can change more frequentl
   - https://www.verbraucherzentrale.de/fakeshopfinder-71560
 - **Vendor documentation** (Canonical/Debian, Synology/TrueNAS/QNAP, Red Hat, Dell, HPE) — small telemetry endpoint sets used for Linux, NAS and Server categories.
 
+
+## Archived special lists (topics 7–22)
+
+BlackRabbitZ can additionally import the HaGeZi special lists documented by the **2 August 2026** Wayback snapshot. The original lists were published under GPL-3.0. Because the original repository is currently not a reliable live upstream, these datasets are **clearly treated as archived third-party sources** and are not presented as current HaGeZi feeds.
+
+- Archived repository page: `https://web.archive.org/web/20260802022304/https://github.com/hagezi/dns-blocklists`
+- Original project: `https://github.com/hagezi/dns-blocklists`
+- Build configuration: `config/special-lists.json`
+- Generated domain lists: `lists/special/`
+- Generated IPv4 lists: `lists/ips/`
+- Machine-readable provenance/checksums: `metadata/special-lists.json`
+
+The configuration points to the corresponding archived Raw captures. For some files, the 2 August snapshot redirects to the nearest available Wayback capture of that same file. BlackRabbitZ normalizes domain/IP variants and splits large outputs; Adblock-specific syntax is preserved only where it is required for the list to work (for example TLD rules).
+
 ## Derived subsets
 
 Some categories are derived from broader upstream datasets using category-specific matching:

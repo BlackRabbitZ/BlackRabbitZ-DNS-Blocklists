@@ -10,6 +10,8 @@ ROOT = Path(__file__).resolve().parent.parent
 CONFIG = ROOT / "config" / "profiles.json"
 CATEGORIES = ROOT / "lists" / "categories"
 COMBINED = ROOT / "lists" / "combined"
+SPECIAL = ROOT / "lists" / "special"
+IPS = ROOT / "lists" / "ips"
 METADATA = ROOT / "metadata"
 
 
@@ -57,6 +59,13 @@ def main() -> int:
     checksum_rows: list[tuple[str, str]] = []
     for item in data["categories"].values():
         checksum_rows.append((item["sha256"], item["file"]))
+
+    # Special/archive and IP lists are described in metadata/special-lists.json,
+    # but their checksums belong in the repository-wide SHA256SUMS file too.
+    for directory in (SPECIAL, IPS):
+        if directory.is_dir():
+            for path in sorted(directory.glob("*.txt")):
+                checksum_rows.append((sha256(path), path.relative_to(ROOT).as_posix()))
 
     for profile, profile_cfg in config["profiles"].items():
         if profile_cfg.get("split"):

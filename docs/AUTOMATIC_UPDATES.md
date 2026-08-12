@@ -57,7 +57,7 @@ Aktuell gesplittete Profile:
 - `family-part-01.txt`, `family-part-02.txt`, ...
 - `ultimate-part-01.txt`, `ultimate-part-02.txt`, ...
 
-Jeder erzeugte Part zielt auf maximal **5 MiB** (`5242880` Bytes einschließlich Header). Die Nummerierung ist mit führender Null versehen, damit die Dateireihenfolge auch bei mehr als neun Teilen stabil bleibt.
+Jeder erzeugte Part zielt auf maximal **50 MiB** (`52428800` Bytes einschließlich Header). Die Nummerierung ist mit führender Null versehen, damit die Dateireihenfolge auch bei mehr als neun Teilen stabil bleibt.
 
 Für vollständige Abdeckung müssen DNS-Blocker **alle in der README angezeigten Teile** des jeweiligen Profils abonnieren.
 
