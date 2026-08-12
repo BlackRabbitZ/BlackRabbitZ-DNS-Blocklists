@@ -9,7 +9,8 @@
 # Sources: NextDNS Native Tracking Protection
 # Snapshot: 2026-08
 #
-
+# Additional third-party integrations: see THIRD_PARTY.md
+#
 a-ring-fallback.msedge.net
 a-ring.msedge.net
 a4.bing.com

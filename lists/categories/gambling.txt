@@ -8,6 +8,8 @@
 # Sources: Block List Project Gambling; HaGeZi Gambling
 # Snapshot: 2026-08
 #
+# Additional third-party integrations: see THIRD_PARTY.md
+#
 0-10-7.casino
 0-2-0-7.casino
 0-30-7.casino

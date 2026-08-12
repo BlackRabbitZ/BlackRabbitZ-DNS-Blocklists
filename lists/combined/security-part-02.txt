@@ -3,14 +3,15 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 879216
-# Profile Total Entries: 3457946
+# Entries: 879217
+# Profile Total Entries: 3457948
 #
 # Includes: malware,phishing,scam,fake-shops,cryptomining
 #
 # IMPORTANT: This is only one part of the security profile.
 # Add every security-part-NN.txt Raw URL listed in the README for complete coverage.
 #
+suave-juniper-cell-openthedoorforme.glitch.me
 suave-peridot-gym.glitch.me
 suavedeals.shop
 suavedigital.com

@@ -8,6 +8,8 @@
 # Sources: NextDNS Native Tracking Protection; HaGeZi Apple native tracking
 # Snapshot: 2026-08
 #
+# Additional third-party integrations: see THIRD_PARTY.md
+#
 ab.apple.com.akadns.net
 acfeedbackws.icloud.com
 advertising.apple.com
