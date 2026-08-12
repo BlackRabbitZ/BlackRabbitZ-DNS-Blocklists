@@ -35,17 +35,41 @@ def main() -> int:
             if not target:
                 continue
             info = variants_meta.get(variant["id"], {})
-            if info.get("status") != "merged" or info.get("merge_into") != target:
-                failures.append(f"{variant['id']}: not successfully merged into {target}")
             target_file = CATEGORIES / f"{target}.txt"
             if not target_file.is_file():
                 failures.append(f"{variant['id']}: merge target missing: {target_file.relative_to(ROOT)}")
+                continue
+
+            source_unavailable = (
+                info.get("status") == "source_unavailable"
+                or info.get("update_status") == "source_unavailable"
+            )
+
+            if source_unavailable and info.get("status") != "merged":
+                # First build while the remote archive is offline. The existing
+                # BlackRabbitZ target remains valid; the external merge is simply
+                # deferred until a later successful source fetch.
+                print(
+                    f"WARN: {variant['id']} source unavailable; merge into {target} deferred"
+                )
+            elif info.get("status") != "merged" or info.get("merge_into") != target:
+                failures.append(f"{variant['id']}: not successfully merged into {target}")
 
             directory = output_dir(variant["kind"])
             stale = [directory / f"{variant['id']}.txt", *directory.glob(f"{variant['id']}-part-*.txt")]
             for path in stale:
-                if path.exists():
-                    failures.append(f"obsolete parallel output still exists: {path.relative_to(ROOT)}")
+                if not path.exists():
+                    continue
+                if source_unavailable and info.get("status") != "merged":
+                    # Never delete the only locally available copy just because
+                    # the remote source is temporarily unreachable. It will be
+                    # merged and removed on the next successful source update.
+                    print(
+                        f"WARN: preserving deferred standalone file while source is unavailable: "
+                        f"{path.relative_to(ROOT)}"
+                    )
+                    continue
+                failures.append(f"obsolete parallel output still exists: {path.relative_to(ROOT)}")
 
     if failures:
         for failure in failures:

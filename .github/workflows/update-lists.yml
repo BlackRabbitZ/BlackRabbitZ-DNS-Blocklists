@@ -60,6 +60,10 @@ jobs:
             needs_extended_build=true
           elif ! grep -q '"threat-intelligence-full"' metadata/special-lists.json; then
             needs_extended_build=true
+          elif grep -Eq '"(status|update_status)": "source_unavailable"' metadata/special-lists.json; then
+            # A previous run continued while an external archive source was down.
+            # Retry those deferred sources on the next normal workflow run.
+            needs_extended_build=true
           fi
 
           if [[ "$needs_extended_build" == "true" ]]; then

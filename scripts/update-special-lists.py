@@ -30,6 +30,15 @@ DOMAIN_RE = re.compile(r"^(?=.{1,253}$)(?:[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?\.
 WAYBACK_CAPTURE_RE = re.compile(r"/web/(\d{8,14})")
 
 
+class SourceUnavailableError(RuntimeError):
+    """Remote source is temporarily unavailable; callers may safely defer this source."""
+
+
+# If one archive host is clearly unreachable, do not spend minutes retrying every
+# configured list from the same host during the same GitHub Actions run.
+UNAVAILABLE_HOSTS: dict[str, str] = {}
+
+
 def args_parser() -> argparse.Namespace:
     p = argparse.ArgumentParser(description="Build archived/special BlackRabbitZ lists from configured sources")
     p.add_argument("--config", type=Path, default=DEFAULT_CONFIG)
@@ -114,15 +123,26 @@ def extract_ipv4(line: str) -> str | None:
 
 
 def download(url: str, dest: Path) -> None:
-    delays = (0, 5, 15, 30, 60)
+    host = (urlparse(url).hostname or "unknown").lower()
+    if host in UNAVAILABLE_HOSTS:
+        raise SourceUnavailableError(
+            f"{host} is unavailable in this run; skipping remaining sources from this host "
+            f"({UNAVAILABLE_HOSTS[host]})"
+        )
+
+    # Keep retries useful but bounded. A completely offline archive host should not
+    # block the entire list build for many minutes per configured variant.
+    delays = (0, 5, 15)
     last_error: Exception | None = None
+    host_wide_failure = False
+
     for attempt, delay in enumerate(delays, start=1):
         if delay:
             time.sleep(delay)
         req = urllib.request.Request(
             url,
             headers={
-                "User-Agent": "BlackRabbitZ-DNS-Blocklists/3.2 (+https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists)",
+                "User-Agent": "BlackRabbitZ-DNS-Blocklists/3.3.4 (+https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists)",
                 "Accept": "text/plain,*/*;q=0.8",
             },
         )
@@ -130,16 +150,52 @@ def download(url: str, dest: Path) -> None:
             with urllib.request.urlopen(req, timeout=300) as response, dest.open("wb") as out:
                 content_type = response.headers.get("Content-Type", "")
                 shutil.copyfileobj(response, out, length=1024 * 1024)
-            # A Wayback HTML wrapper instead of raw data is a failed source fetch for our purposes.
+            # A Wayback HTML wrapper instead of raw data is a failed source fetch
+            # for our purposes, but it is source-specific rather than a host outage.
             head = dest.read_bytes()[:512].lower()
             if b"<html" in head or b"<!doctype html" in head:
                 raise RuntimeError(f"Archive returned HTML instead of raw list data ({content_type})")
             return
-        except (urllib.error.URLError, urllib.error.HTTPError, TimeoutError, RuntimeError) as exc:
+
+        except urllib.error.HTTPError as exc:
             last_error = exc
             dest.unlink(missing_ok=True)
-            print(f"WARN download attempt {attempt}/{len(delays)} failed: {exc}", file=sys.stderr)
-    raise RuntimeError(f"Archive download failed after {len(delays)} attempts: {last_error}")
+            print(
+                f"WARN download attempt {attempt}/{len(delays)} failed for {host}: HTTP {exc.code}",
+                file=sys.stderr,
+            )
+            # 404/410 and similar source-specific errors do not imply that every
+            # other list on the archive host is unavailable.
+            if exc.code in {429, 500, 502, 503, 504}:
+                host_wide_failure = True
+            if exc.code not in {408, 429, 500, 502, 503, 504}:
+                break
+
+        except (urllib.error.URLError, TimeoutError, ConnectionError, OSError) as exc:
+            last_error = exc
+            host_wide_failure = True
+            dest.unlink(missing_ok=True)
+            print(
+                f"WARN download attempt {attempt}/{len(delays)} failed for {host}: {exc}",
+                file=sys.stderr,
+            )
+
+        except RuntimeError as exc:
+            # Invalid archive payload (for example an HTML wrapper). Retry this
+            # source, but do not trip the host-wide circuit breaker.
+            last_error = exc
+            dest.unlink(missing_ok=True)
+            print(
+                f"WARN download attempt {attempt}/{len(delays)} failed for {host}: {exc}",
+                file=sys.stderr,
+            )
+
+    if host_wide_failure:
+        UNAVAILABLE_HOSTS[host] = str(last_error)
+
+    raise SourceUnavailableError(
+        f"source unavailable after {len(delays)} attempt(s): {last_error}"
+    )
 
 
 def sort_unique(src: Path, dest: Path) -> None:
@@ -504,6 +560,7 @@ def main() -> int:
     }
 
     failures: list[str] = []
+    unavailable: list[str] = []
     built_any = False
     for item in config["items"]:
         item_result = {"point": item["point"], "variants": {}}
@@ -547,6 +604,33 @@ def main() -> int:
             try:
                 item_result["variants"][vid] = build_variant(config, variant, allowlist, args.force)
                 built_any = True
+            except SourceUnavailableError as exc:
+                unavailable.append(f"{vid}: {exc}")
+                old = previous.get("items", {}).get(item["id"], {}).get("variants", {}).get(vid)
+                if old:
+                    preserved = dict(old)
+                    preserved["update_status"] = "source_unavailable"
+                    preserved["update_error"] = str(exc)
+                    item_result["variants"][vid] = preserved
+                    print(
+                        f"SKIP {vid}: source unavailable; preserving previously generated data",
+                        file=sys.stderr,
+                    )
+                else:
+                    item_result["variants"][vid] = {
+                        "status": "source_unavailable",
+                        "kind": variant["kind"],
+                        "entries": 0,
+                        "parts": 0,
+                        "files": [],
+                        "source_url": variant["source_url"],
+                        "error": str(exc),
+                        "note": "Remote source unavailable; build deferred and will be retried on a later run.",
+                    }
+                    print(
+                        f"SKIP {vid}: source unavailable; continuing without this source",
+                        file=sys.stderr,
+                    )
             except Exception as exc:
                 failures.append(f"{vid}: {exc}")
                 old = previous.get("items", {}).get(item["id"], {}).get("variants", {}).get(vid)
@@ -569,15 +653,22 @@ def main() -> int:
     METADATA.write_text(json.dumps(result, indent=2, ensure_ascii=False, sort_keys=True) + "\n", encoding="utf-8")
     print(f"Wrote {METADATA.relative_to(ROOT)}")
 
+    if unavailable:
+        print(
+            f"Deferred {len(unavailable)} source variant(s) because a remote source was unavailable. "
+            "The normal BlackRabbitZ build may continue."
+        )
     if failures and not previous:
-        print("One or more first-build variants failed:", file=sys.stderr)
+        print("One or more first-build variants failed for a non-network reason:", file=sys.stderr)
         for msg in failures:
             print(f"  - {msg}", file=sys.stderr)
         return 1
     if failures:
-        print(f"Completed with {len(failures)} warning(s); previous generated data was preserved where available.")
+        print(f"Completed with {len(failures)} non-network warning(s); previous generated data was preserved where available.")
     elif built_any:
         print("Special-list build completed successfully.")
+    elif unavailable:
+        print("No remote special-list data was changed in this run.")
     return 0
 
 
