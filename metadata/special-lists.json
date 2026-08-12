@@ -1,0 +1,556 @@
+{
+  "archive_snapshot": "2026-08-02",
+  "generated_at": "2026-08-12T19:18:32Z",
+  "integration_revision": 2,
+  "items": {
+    "anti-piracy": {
+      "point": 18,
+      "variants": {
+        "anti-piracy": {
+          "entries": 0,
+          "error": "web.archive.org is unavailable in this run; skipping remaining sources from this host (<urlopen error [Errno 111] Connection refused>)",
+          "files": [],
+          "kind": "domains",
+          "note": "Remote source unavailable; build deferred and will be retried on a later run.",
+          "parts": 0,
+          "source_url": "https://web.archive.org/web/20260709124157if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/anti.piracy-onlydomains.txt",
+          "status": "source_unavailable"
+        }
+      }
+    },
+    "badware-hoster": {
+      "point": 14,
+      "variants": {
+        "badware-hoster": {
+          "entries": 0,
+          "error": "web.archive.org is unavailable in this run; skipping remaining sources from this host (<urlopen error [Errno 111] Connection refused>)",
+          "files": [],
+          "kind": "domains",
+          "note": "Remote source unavailable; build deferred and will be retried on a later run.",
+          "parts": 0,
+          "source_url": "https://web.archive.org/web/20260709124154if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/hoster-onlydomains.txt",
+          "status": "source_unavailable"
+        }
+      }
+    },
+    "dns-bypass": {
+      "point": 11,
+      "variants": {
+        "dns-bypass-full": {
+          "entries": 0,
+          "error": "web.archive.org is unavailable in this run; skipping remaining sources from this host (<urlopen error [Errno 111] Connection refused>)",
+          "files": [],
+          "kind": "domains",
+          "note": "Remote source unavailable; build deferred and will be retried on a later run.",
+          "parts": 0,
+          "source_url": "https://web.archive.org/web/20260709124150if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/doh-vpn-proxy-bypass-onlydomains.txt",
+          "status": "source_unavailable"
+        },
+        "doh-ipv4": {
+          "entries": 0,
+          "error": "web.archive.org is unavailable in this run; skipping remaining sources from this host (<urlopen error [Errno 111] Connection refused>)",
+          "files": [],
+          "kind": "ipv4",
+          "note": "Remote source unavailable; build deferred and will be retried on a later run.",
+          "parts": 0,
+          "source_url": "https://web.archive.org/web/20260709124151if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/ips/doh.txt",
+          "status": "source_unavailable"
+        },
+        "doh-only": {
+          "entries": 0,
+          "error": "web.archive.org is unavailable in this run; skipping remaining sources from this host (<urlopen error [Errno 111] Connection refused>)",
+          "files": [],
+          "kind": "domains",
+          "note": "Remote source unavailable; build deferred and will be retried on a later run.",
+          "parts": 0,
+          "source_url": "https://web.archive.org/web/20260709124151if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/doh-onlydomains.txt",
+          "status": "source_unavailable"
+        }
+      }
+    },
+    "dns-rebind-protection": {
+      "point": 17,
+      "variants": {}
+    },
+    "dynamic-dns": {
+      "point": 13,
+      "variants": {
+        "dynamic-dns": {
+          "entries": 0,
+          "error": "web.archive.org is unavailable in this run; skipping remaining sources from this host (<urlopen error [Errno 111] Connection refused>)",
+          "files": [],
+          "kind": "domains",
+          "note": "Remote source unavailable; build deferred and will be retried on a later run.",
+          "parts": 0,
+          "source_url": "https://web.archive.org/web/20260725182445if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/dyndns-onlydomains.txt",
+          "status": "source_unavailable"
+        }
+      }
+    },
+    "fake": {
+      "point": 7,
+      "variants": {
+        "fake-internet-scams": {
+          "entries": 282723,
+          "entries_added": 16363,
+          "files": [],
+          "kind": "domains",
+          "merge_into": "scam",
+          "parts": 0,
+          "source_entries": 16584,
+          "source_url": "https://web.archive.org/web/20260709124133if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/fake-onlydomains.txt",
+          "status": "merged",
+          "target": "lists/categories/scam.txt"
+        }
+      }
+    },
+    "gambling-variants": {
+      "point": 19,
+      "variants": {
+        "gambling-full": {
+          "entries": 0,
+          "error": "web.archive.org is unavailable in this run; skipping remaining sources from this host (<urlopen error [Errno 111] Connection refused>)",
+          "files": [],
+          "kind": "domains",
+          "note": "Remote source unavailable; build deferred and will be retried on a later run.",
+          "parts": 0,
+          "source_url": "https://web.archive.org/web/20260709124159if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/gambling-onlydomains.txt",
+          "status": "source_unavailable"
+        },
+        "gambling-medium": {
+          "entries": 0,
+          "error": "web.archive.org is unavailable in this run; skipping remaining sources from this host (<urlopen error [Errno 111] Connection refused>)",
+          "files": [],
+          "kind": "domains",
+          "note": "Remote source unavailable; build deferred and will be retried on a later run.",
+          "parts": 0,
+          "source_url": "https://web.archive.org/web/20260709124201if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/gambling.medium-onlydomains.txt",
+          "status": "source_unavailable"
+        },
+        "gambling-mini": {
+          "entries": 0,
+          "error": "web.archive.org is unavailable in this run; skipping remaining sources from this host (<urlopen error [Errno 111] Connection refused>)",
+          "files": [],
+          "kind": "domains",
+          "note": "Remote source unavailable; build deferred and will be retried on a later run.",
+          "parts": 0,
+          "source_url": "https://web.archive.org/web/20260709124202if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/gambling.mini-onlydomains.txt",
+          "status": "source_unavailable"
+        }
+      }
+    },
+    "most-abused-tlds": {
+      "point": 16,
+      "variants": {
+        "most-abused-tlds": {
+          "entries": 0,
+          "error": "web.archive.org is unavailable in this run; skipping remaining sources from this host (<urlopen error [Errno 111] Connection refused>)",
+          "files": [],
+          "kind": "raw",
+          "note": "Remote source unavailable; build deferred and will be retried on a later run.",
+          "parts": 0,
+          "source_url": "https://web.archive.org/web/20260709124156if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/spam-tlds-adblock.txt",
+          "status": "source_unavailable"
+        }
+      }
+    },
+    "native-trackers": {
+      "point": 22,
+      "variants": {
+        "native-tracker-amazon": {
+          "entries": 0,
+          "error": "web.archive.org is unavailable in this run; skipping remaining sources from this host (<urlopen error [Errno 111] Connection refused>)",
+          "files": [],
+          "kind": "domains",
+          "note": "Remote source unavailable; build deferred and will be retried on a later run.",
+          "parts": 0,
+          "source_url": "https://web.archive.org/web/20260709124207if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.amazon-onlydomains.txt",
+          "status": "source_unavailable"
+        },
+        "native-tracker-apple": {
+          "entries": 0,
+          "error": "web.archive.org is unavailable in this run; skipping remaining sources from this host (<urlopen error [Errno 111] Connection refused>)",
+          "files": [],
+          "kind": "domains",
+          "note": "Remote source unavailable; build deferred and will be retried on a later run.",
+          "parts": 0,
+          "source_url": "https://web.archive.org/web/20260709124208if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.apple-onlydomains.txt",
+          "status": "source_unavailable"
+        },
+        "native-tracker-huawei": {
+          "entries": 0,
+          "error": "web.archive.org is unavailable in this run; skipping remaining sources from this host (<urlopen error [Errno 111] Connection refused>)",
+          "files": [],
+          "kind": "domains",
+          "note": "Remote source unavailable; build deferred and will be retried on a later run.",
+          "parts": 0,
+          "source_url": "https://web.archive.org/web/20260709124208if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.huawei-onlydomains.txt",
+          "status": "source_unavailable"
+        },
+        "native-tracker-lgwebos": {
+          "entries": 0,
+          "error": "web.archive.org is unavailable in this run; skipping remaining sources from this host (<urlopen error [Errno 111] Connection refused>)",
+          "files": [],
+          "kind": "domains",
+          "note": "Remote source unavailable; build deferred and will be retried on a later run.",
+          "parts": 0,
+          "source_url": "https://web.archive.org/web/20260709124212if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.lgwebos-onlydomains.txt",
+          "status": "source_unavailable"
+        },
+        "native-tracker-microsoft": {
+          "entries": 0,
+          "error": "web.archive.org is unavailable in this run; skipping remaining sources from this host (<urlopen error [Errno 111] Connection refused>)",
+          "files": [],
+          "kind": "domains",
+          "note": "Remote source unavailable; build deferred and will be retried on a later run.",
+          "parts": 0,
+          "source_url": "https://web.archive.org/web/20260709124209if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.winoffice-onlydomains.txt",
+          "status": "source_unavailable"
+        },
+        "native-tracker-oppo-realme": {
+          "entries": 0,
+          "error": "web.archive.org is unavailable in this run; skipping remaining sources from this host (<urlopen error [Errno 111] Connection refused>)",
+          "files": [],
+          "kind": "domains",
+          "note": "Remote source unavailable; build deferred and will be retried on a later run.",
+          "parts": 0,
+          "source_url": "https://web.archive.org/web/20260709124215if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.oppo-realme-onlydomains.txt",
+          "status": "source_unavailable"
+        },
+        "native-tracker-roku": {
+          "entries": 0,
+          "error": "web.archive.org is unavailable in this run; skipping remaining sources from this host (<urlopen error [Errno 111] Connection refused>)",
+          "files": [],
+          "kind": "domains",
+          "note": "Remote source unavailable; build deferred and will be retried on a later run.",
+          "parts": 0,
+          "source_url": "https://web.archive.org/web/20260709124213if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.roku-onlydomains.txt",
+          "status": "source_unavailable"
+        },
+        "native-tracker-samsung": {
+          "entries": 0,
+          "error": "web.archive.org is unavailable in this run; skipping remaining sources from this host (<urlopen error [Errno 111] Connection refused>)",
+          "files": [],
+          "kind": "domains",
+          "note": "Remote source unavailable; build deferred and will be retried on a later run.",
+          "parts": 0,
+          "source_url": "https://web.archive.org/web/20260709124210if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.samsung-onlydomains.txt",
+          "status": "source_unavailable"
+        },
+        "native-tracker-tiktok": {
+          "entries": 0,
+          "error": "web.archive.org is unavailable in this run; skipping remaining sources from this host (<urlopen error [Errno 111] Connection refused>)",
+          "files": [],
+          "kind": "domains",
+          "note": "Remote source unavailable; build deferred and will be retried on a later run.",
+          "parts": 0,
+          "source_url": "https://web.archive.org/web/20260709124211if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.tiktok-onlydomains.txt",
+          "status": "source_unavailable"
+        },
+        "native-tracker-tiktok-aggressive": {
+          "entries": 0,
+          "error": "web.archive.org is unavailable in this run; skipping remaining sources from this host (<urlopen error [Errno 111] Connection refused>)",
+          "files": [],
+          "kind": "domains",
+          "note": "Remote source unavailable; build deferred and will be retried on a later run.",
+          "parts": 0,
+          "source_url": "https://web.archive.org/web/20260709124212if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.tiktok.extended-onlydomains.txt",
+          "status": "source_unavailable"
+        },
+        "native-tracker-vivo": {
+          "entries": 0,
+          "error": "web.archive.org is unavailable in this run; skipping remaining sources from this host (<urlopen error [Errno 111] Connection refused>)",
+          "files": [],
+          "kind": "domains",
+          "note": "Remote source unavailable; build deferred and will be retried on a later run.",
+          "parts": 0,
+          "source_url": "https://web.archive.org/web/20260709124214if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.vivo-onlydomains.txt",
+          "status": "source_unavailable"
+        },
+        "native-tracker-xiaomi": {
+          "entries": 0,
+          "error": "web.archive.org is unavailable in this run; skipping remaining sources from this host (<urlopen error [Errno 111] Connection refused>)",
+          "files": [],
+          "kind": "domains",
+          "note": "Remote source unavailable; build deferred and will be retried on a later run.",
+          "parts": 0,
+          "source_url": "https://web.archive.org/web/20260709124216if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.xiaomi-onlydomains.txt",
+          "status": "source_unavailable"
+        }
+      }
+    },
+    "nrd-dga": {
+      "point": 10,
+      "variants": {
+        "dga-14": {
+          "entries": 1125605,
+          "files": [
+            {
+              "bytes": 26693031,
+              "entries": 1125605,
+              "file": "lists/categories/dga-14.txt",
+              "sha256": "fd7899ca7ab5e4f92934db2825a92f8f909b51a9a6fb043e9532e4a7747f856a"
+            }
+          ],
+          "kind": "domains",
+          "parts": 1,
+          "source_url": "https://web.archive.org/web/20260802022326if_/https://raw.githubusercontent.com/hagezi/nrd/main/domains/dga14.txt",
+          "status": "built"
+        },
+        "dga-30": {
+          "entries": 0,
+          "error": "source unavailable after 3 attempt(s): <urlopen error [Errno 111] Connection refused>",
+          "files": [],
+          "kind": "domains",
+          "note": "Remote source unavailable; build deferred and will be retried on a later run.",
+          "parts": 0,
+          "source_url": "https://web.archive.org/web/20260802022330if_/https://raw.githubusercontent.com/hagezi/nrd/main/domains/dga30.txt",
+          "status": "source_unavailable"
+        },
+        "dga-7": {
+          "entries": 539743,
+          "files": [
+            {
+              "bytes": 12758167,
+              "entries": 539743,
+              "file": "lists/categories/dga-7.txt",
+              "sha256": "1e4b05bba3a6aa8b39e24bdf9121d46fe224382248bbae2043c2a5e55e77c673"
+            }
+          ],
+          "kind": "domains",
+          "parts": 1,
+          "source_url": "https://web.archive.org/web/20260802022325if_/https://raw.githubusercontent.com/hagezi/nrd/main/domains/dga7.txt",
+          "status": "built"
+        },
+        "nrd-01-07": {
+          "entries": 2474849,
+          "files": [
+            {
+              "bytes": 44138401,
+              "entries": 2474849,
+              "file": "lists/categories/nrd-01-07.txt",
+              "sha256": "ea7336dfe206afe2dddf654849f1b99f378933605356c80438236b805bd201a3"
+            }
+          ],
+          "kind": "domains",
+          "parts": 1,
+          "source_url": "https://web.archive.org/web/20260802022310if_/https://raw.githubusercontent.com/hagezi/nrd/main/domains/nrd7.txt",
+          "status": "built"
+        },
+        "nrd-08-14": {
+          "entries": 2628672,
+          "files": [
+            {
+              "bytes": 45732695,
+              "entries": 2628672,
+              "file": "lists/categories/nrd-08-14.txt",
+              "sha256": "1949c920894d412594dbb7040f3f2f370498876aba5cf25667d896475a347985"
+            }
+          ],
+          "kind": "domains",
+          "parts": 1,
+          "source_url": "https://web.archive.org/web/20260802022310if_/https://raw.githubusercontent.com/hagezi/nrd/main/domains/nrd14-8.txt",
+          "status": "built"
+        },
+        "nrd-15-21": {
+          "entries": 2428426,
+          "files": [
+            {
+              "bytes": 43108681,
+              "entries": 2428426,
+              "file": "lists/categories/nrd-15-21.txt",
+              "sha256": "edd9d067228cbbe81b0113e1208f550c3c4360c3e82724c65a59946d9969a1ff"
+            }
+          ],
+          "kind": "domains",
+          "parts": 1,
+          "source_url": "https://web.archive.org/web/20260802022311if_/https://raw.githubusercontent.com/hagezi/nrd/main/domains/nrd21-15.txt",
+          "status": "built"
+        },
+        "nrd-22-28": {
+          "entries": 2922658,
+          "files": [
+            {
+              "bytes": 49321098,
+              "entries": 2922658,
+              "file": "lists/categories/nrd-22-28.txt",
+              "sha256": "9078ce723f4cc87c082ce172487479a9afdc2cfe3ceb5f2bc928d146d8fb6f60"
+            }
+          ],
+          "kind": "domains",
+          "parts": 1,
+          "source_url": "https://web.archive.org/web/20260802022516if_/https://raw.githubusercontent.com/hagezi/nrd/main/domains/nrd28-22.txt",
+          "status": "built"
+        },
+        "nrd-29-35": {
+          "entries": 2298771,
+          "files": [
+            {
+              "bytes": 40294374,
+              "entries": 2298771,
+              "file": "lists/categories/nrd-29-35.txt",
+              "sha256": "e8b6025a11706d31741a3bb18940c2983d5f30429a0d68221d59c83c0ed621eb"
+            }
+          ],
+          "kind": "domains",
+          "parts": 1,
+          "source_url": "https://web.archive.org/web/20260802022320if_/https://raw.githubusercontent.com/hagezi/nrd/main/domains/nrd35-29.txt",
+          "status": "built"
+        }
+      }
+    },
+    "nsfw": {
+      "point": 21,
+      "variants": {
+        "nsfw": {
+          "entries": 0,
+          "error": "web.archive.org is unavailable in this run; skipping remaining sources from this host (<urlopen error [Errno 111] Connection refused>)",
+          "files": [],
+          "kind": "domains",
+          "note": "Remote source unavailable; build deferred and will be retried on a later run.",
+          "parts": 0,
+          "source_url": "https://web.archive.org/web/20260709124205if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/nsfw-onlydomains.txt",
+          "status": "source_unavailable"
+        }
+      }
+    },
+    "online-dns-services": {
+      "point": 24,
+      "variants": {}
+    },
+    "popup-ads": {
+      "point": 8,
+      "variants": {
+        "popup-ads": {
+          "entries": 235553,
+          "entries_added": 1548,
+          "files": [],
+          "kind": "domains",
+          "merge_into": "ads",
+          "parts": 0,
+          "source_entries": 54138,
+          "source_url": "https://web.archive.org/web/20260802022308if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/popupads-onlydomains.txt",
+          "status": "merged",
+          "target": "lists/categories/ads.txt"
+        }
+      }
+    },
+    "recommendations": {
+      "point": 23,
+      "variants": {}
+    },
+    "safesearch-unsupported": {
+      "point": 12,
+      "variants": {
+        "safesearch-unsupported": {
+          "entries": 0,
+          "error": "web.archive.org is unavailable in this run; skipping remaining sources from this host (<urlopen error [Errno 111] Connection refused>)",
+          "files": [],
+          "kind": "domains",
+          "note": "Remote source unavailable; build deferred and will be retried on a later run.",
+          "parts": 0,
+          "source_url": "https://web.archive.org/web/20260709124153if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/nosafesearch-onlydomains.txt",
+          "status": "source_unavailable"
+        }
+      }
+    },
+    "social-networks": {
+      "point": 20,
+      "variants": {
+        "social-networks": {
+          "entries": 0,
+          "error": "web.archive.org is unavailable in this run; skipping remaining sources from this host (<urlopen error [Errno 111] Connection refused>)",
+          "files": [],
+          "kind": "domains",
+          "note": "Remote source unavailable; build deferred and will be retried on a later run.",
+          "parts": 0,
+          "source_url": "https://web.archive.org/web/20260709124204if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/social-onlydomains.txt",
+          "status": "source_unavailable"
+        }
+      }
+    },
+    "threat-intelligence": {
+      "point": 9,
+      "variants": {
+        "threat-intelligence-full": {
+          "entries": 1742603,
+          "files": [
+            {
+              "bytes": 30751083,
+              "entries": 1742603,
+              "file": "lists/categories/threat-intelligence-full.txt",
+              "sha256": "8783688a2ca9147827f150bc358e448359bfd3236d733096db78cae08151e7db"
+            }
+          ],
+          "kind": "domains",
+          "parts": 1,
+          "source_url": "https://web.archive.org/web/20260709124138if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/tif-onlydomains.txt",
+          "status": "built"
+        },
+        "threat-intelligence-ipv4": {
+          "entries": 55692,
+          "files": [
+            {
+              "bytes": 796336,
+              "entries": 55692,
+              "file": "lists/ips/threat-intelligence-ipv4.txt",
+              "sha256": "543f8ff86ea6cf5c956454308673a011d5391bba1589f3b39d3a7159d98becc1"
+            }
+          ],
+          "kind": "ipv4",
+          "parts": 1,
+          "source_url": "https://web.archive.org/web/20260806003104if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/ips/tif.txt",
+          "status": "built"
+        },
+        "threat-intelligence-medium": {
+          "entries": 388528,
+          "files": [
+            {
+              "bytes": 7077316,
+              "entries": 388528,
+              "file": "lists/categories/threat-intelligence-medium.txt",
+              "sha256": "49eec308a0dac797ea9d14587c173a972ee2e2434f1bc5867561f6b5924d46d7"
+            }
+          ],
+          "kind": "domains",
+          "parts": 1,
+          "source_url": "https://web.archive.org/web/20260811224303if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/tif.medium-onlydomains.txt",
+          "status": "built"
+        },
+        "threat-intelligence-mini": {
+          "entries": 290044,
+          "files": [
+            {
+              "bytes": 5343725,
+              "entries": 290044,
+              "file": "lists/categories/threat-intelligence-mini.txt",
+              "sha256": "7da1256e27f137969a5c30b3561851ddf203e7c1c3b2a42a8877fac72d848751"
+            }
+          ],
+          "kind": "domains",
+          "parts": 1,
+          "source_url": "https://web.archive.org/web/20260709124148if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/tif.mini-onlydomains.txt",
+          "status": "built"
+        }
+      }
+    },
+    "url-shortener": {
+      "point": 15,
+      "variants": {
+        "url-shortener": {
+          "entries": 0,
+          "error": "web.archive.org is unavailable in this run; skipping remaining sources from this host (<urlopen error [Errno 111] Connection refused>)",
+          "files": [],
+          "kind": "domains",
+          "note": "Remote source unavailable; build deferred and will be retried on a later run.",
+          "parts": 0,
+          "source_url": "https://web.archive.org/web/20260709124155if_/https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/urlshortener-onlydomains.txt",
+          "status": "source_unavailable"
+        }
+      }
+    }
+  },
+  "schema_version": 2,
+  "source_family": "HaGeZi DNS Blocklists (archived upstream; functionally integrated into BlackRabbitZ)",
+  "split_max_bytes": 52428800
+}

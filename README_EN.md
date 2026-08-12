@@ -82,10 +82,10 @@ These are the main protection levels. Start with **Balanced** and move to **Stri
 <!-- MAIN_PROFILES_START -->
 | Profile | Protection | Entries | Recommended for | View | Raw |
 |---|:---:|---:|---|:---:|:---:|
-| 🟢 **Light** | Low | **234,038** | Basic ad blocking | [View](lists/combined/light.txt) | **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/light.txt)** |
-| 🔵 **Balanced ⭐** | Medium | **371,544** | Most users | [View](lists/combined/balanced.txt) | **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/balanced.txt)** |
-| 🟠 **Strict** | High | **372,540** | Privacy-focused setups | [View](lists/combined/strict.txt) | **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/strict.txt)** |
-| 🔴 **Ultimate** | Maximum | **5,169,014** | Aggressive filtering | [Show Parts](#ultimate-parts) | **[Raw Parts](#ultimate-parts)** |
+| 🟢 **Light** | Low | **235,553** | Basic ad blocking | [View](lists/combined/light.txt) | **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/light.txt)** |
+| 🔵 **Balanced ⭐** | Medium | **373,057** | Most users | [View](lists/combined/balanced.txt) | **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/balanced.txt)** |
+| 🟠 **Strict** | High | **374,053** | Privacy-focused setups | [View](lists/combined/strict.txt) | **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/strict.txt)** |
+| 🔴 **Ultimate** | Maximum | **5,170,216** | Aggressive filtering | [Show Parts](#ultimate-parts) | **[Raw Parts](#ultimate-parts)** |
 <!-- MAIN_PROFILES_END -->
 
 > **Balanced** is recommended for most installations.
@@ -130,8 +130,8 @@ These profiles solve a different problem than the privacy tiers above. They are 
 <!-- ADDON_PROFILES_START -->
 | Profile | Protection | Entries | Recommended for | View | Raw |
 |---|:---:|---:|---|:---:|:---:|
-| 🛡️ **Security** | Security | **3,458,013** | Security-focused filtering | [Show Parts](#security-parts) | **[Raw Parts](#security-parts)** |
-| 👨‍👩‍👧 **Family** | Family | **1,788,212** | Family networks | [Show Parts](#family-parts) | **[Raw Parts](#family-parts)** |
+| 🛡️ **Security** | Security | **3,457,946** | Security-focused filtering | [Show Parts](#security-parts) | **[Raw Parts](#security-parts)** |
+| 👨‍👩‍👧 **Family** | Family | **1,789,711** | Family networks | [Show Parts](#family-parts) | **[Raw Parts](#family-parts)** |
 <!-- ADDON_PROFILES_END -->
 
 - **Security** focuses on malware, phishing, scams, fake shops and cryptomining. It can be combined with Balanced or Strict.
@@ -148,25 +148,37 @@ Upgrading from the previous `security.txt` / `family.txt` / `ultimate-N.txt` lay
 <!-- SPLIT_PROFILES_START -->
 <a id="security-parts"></a>
 <details>
-<summary><strong>🛡️ Security: 50-MiB parts will be rebuilt</strong></summary>
+<summary><strong>🛡️ Security: Show Parts (2 files)</strong></summary>
 
-The legacy 5-MiB parts are removed completely on the next **Update blocklists** run and rebuilt with a maximum of **50 MiB per part**. Real entry counts and View/Raw links will then appear here automatically.
+**Total: 3,457,946 unique domains.** Add all parts to Pi-hole or your DNS blocker for complete profile coverage.
+
+| Security Part | Security Part |
+|---|---|
+| **Part 01**  <br>**2,578,730** entries · 50.0 MiB  <br>[View](lists/combined/security-part-01.txt) · **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/security-part-01.txt)** | **Part 02**  <br>**879,216** entries · 17.5 MiB  <br>[View](lists/combined/security-part-02.txt) · **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/security-part-02.txt)** |
 
 </details>
 
 <a id="family-parts"></a>
 <details>
-<summary><strong>👨‍👩‍👧 Family: 50-MiB parts will be rebuilt</strong></summary>
+<summary><strong>👨‍👩‍👧 Family: Show Parts (1 files)</strong></summary>
 
-The legacy 5-MiB parts are removed completely on the next **Update blocklists** run and rebuilt with a maximum of **50 MiB per part**.
+**Total: 1,789,711 unique domains.** Add all parts to Pi-hole or your DNS blocker for complete profile coverage.
+
+| Family Part | Family Part |
+|---|---|
+| **Part 01**  <br>**1,789,711** entries · 32.7 MiB  <br>[View](lists/combined/family-part-01.txt) · **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/family-part-01.txt)** |  |
 
 </details>
 
 <a id="ultimate-parts"></a>
 <details>
-<summary><strong>🔴 Ultimate: 50-MiB parts will be rebuilt</strong></summary>
+<summary><strong>🔴 Ultimate: Show Parts (2 files)</strong></summary>
 
-The legacy 5-MiB parts are removed completely on the next **Update blocklists** run and rebuilt with a maximum of **50 MiB per part**.
+**Total: 5,170,216 unique domains.** Add all parts to Pi-hole or your DNS blocker for complete profile coverage.
+
+| Ultimate Part | Ultimate Part |
+|---|---|
+| **Part 01**  <br>**2,629,462** entries · 50.0 MiB  <br>[View](lists/combined/ultimate-part-01.txt) · **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/ultimate-part-01.txt)** | **Part 02**  <br>**2,540,754** entries · 48.9 MiB  <br>[View](lists/combined/ultimate-part-02.txt) · **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/ultimate-part-02.txt)** |
 
 </details>
 <!-- SPLIT_PROFILES_END -->
@@ -181,7 +193,7 @@ The legacy 5-MiB parts are removed completely on the next **Update blocklists** 
 <!-- ADS_TRACKING_TABLE_START -->
 | List | Entries | Description | View | Raw |
 |---|---:|---|:---:|:---:|
-| 📣 **Ads** | 234,038 | Large advertising, ad-delivery and integrated pop-up-ad domain set | [View](lists/categories/ads.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/ads.txt) |
+| 📣 **Ads** | 235,553 | Large advertising, ad-delivery and integrated pop-up-ad domain set | [View](lists/categories/ads.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/ads.txt) |
 | 👁️ **Trackers** | 143,941 | Large analytics and tracking infrastructure set | [View](lists/categories/trackers.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/trackers.txt) |
 | 👥 **Social Trackers** | 99 | Social-network tracking and analytics endpoints | [View](lists/categories/social-trackers.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/social-trackers.txt) |
 | 📲 **Mobile Tracking** | 202 | Mobile attribution, SDK analytics, app tracking and integrated TikTok native trackers | [View](lists/categories/mobile-tracking.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/mobile-tracking.txt) |
@@ -234,9 +246,9 @@ The legacy 5-MiB parts are removed completely on the next **Update blocklists** 
 <!-- SECURITY_TABLE_START -->
 | List | Entries | Description | View | Raw |
 |---|---:|---|:---:|:---:|
-| 🦠 **Malware** | 2,710,231 | Massive malware, ransomware and active malware-host set | [View](lists/categories/malware.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/malware.txt) |
+| 🦠 **Malware** | 2,710,235 | Massive malware, ransomware and active malware-host set | [View](lists/categories/malware.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/malware.txt) |
 | 🎣 **Phishing** | 572,332 | Massive active and curated phishing-domain set | [View](lists/categories/phishing.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/phishing.txt) |
-| 💰 **Scam & Internet Fraud** | 266,444 | Scam, fraud, fake-offer, trap and deceptive-platform domains | [View](lists/categories/scam.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/scam.txt) |
+| 💰 **Scam & Internet Fraud** | 282,723 | Scam, fraud, fake-offer, trap and deceptive-platform domains | [View](lists/categories/scam.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/scam.txt) |
 | 🛒 **Fake Shops** | 11,380 | Aggressive fake-shop/deceptive-store candidate set | [View](lists/categories/fake-shops.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/fake-shops.txt) |
 | ⛏️ **Cryptomining** | 6,121 | Browser/remote mining infrastructure (generic exchanges excluded) | [View](lists/categories/cryptomining.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/cryptomining.txt) |
 | <a id="list-threat-intelligence"></a>🔐 **Threat Intelligence Feeds** | 4 variants | Additional malware, phishing, scam, spam, cryptojacking and C2 indicators in multiple sizes. | [Variants](#list-threat-intelligence-variants) | — |
@@ -251,10 +263,10 @@ The legacy 5-MiB parts are removed completely on the next **Update blocklists** 
 
 | Variant | Entries | View | Raw |
 |---|---:|:---:|:---:|
-| **Full** | Not built yet | — | — |
-| **Medium** | Not built yet | — | — |
-| **Mini** | Not built yet | — | — |
-| **IPv4** | Not built yet | — | — |
+| **Full** | 1,742,603 | [View](lists/categories/threat-intelligence-full.txt) | **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/threat-intelligence-full.txt)** |
+| **Medium** | 388,528 | [View](lists/categories/threat-intelligence-medium.txt) | **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/threat-intelligence-medium.txt)** |
+| **Mini** | 290,044 | [View](lists/categories/threat-intelligence-mini.txt) | **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/threat-intelligence-mini.txt)** |
+| **IPv4** | 55,692 | [View](lists/ips/threat-intelligence-ipv4.txt) | **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/ips/threat-intelligence-ipv4.txt)** |
 
 </details>
 <a id="list-nrd-dga-variants"></a>
@@ -263,13 +275,13 @@ The legacy 5-MiB parts are removed completely on the next **Update blocklists** 
 
 | Variant | Entries | View | Raw |
 |---|---:|:---:|:---:|
-| **NRD days 1–7** | Not built yet | — | — |
-| **NRD days 8–14** | Not built yet | — | — |
-| **NRD days 15–21** | Not built yet | — | — |
-| **NRD days 22–28** | Not built yet | — | — |
-| **NRD days 29–35** | Not built yet | — | — |
-| **DGA 7 days** | Not built yet | — | — |
-| **DGA 14 days** | Not built yet | — | — |
+| **NRD days 1–7** | 2,474,849 | [View](lists/categories/nrd-01-07.txt) | **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/nrd-01-07.txt)** |
+| **NRD days 8–14** | 2,628,672 | [View](lists/categories/nrd-08-14.txt) | **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/nrd-08-14.txt)** |
+| **NRD days 15–21** | 2,428,426 | [View](lists/categories/nrd-15-21.txt) | **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/nrd-15-21.txt)** |
+| **NRD days 22–28** | 2,922,658 | [View](lists/categories/nrd-22-28.txt) | **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/nrd-22-28.txt)** |
+| **NRD days 29–35** | 2,298,771 | [View](lists/categories/nrd-29-35.txt) | **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/nrd-29-35.txt)** |
+| **DGA 7 days** | 539,743 | [View](lists/categories/dga-7.txt) | **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/dga-7.txt)** |
+| **DGA 14 days** | 1,125,605 | [View](lists/categories/dga-14.txt) | **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/dga-14.txt)** |
 | **DGA 30 days** | Not built yet | — | — |
 
 </details>
