@@ -1,20 +1,22 @@
-# Migration to v3 split profiles
+# Migration auf v3-Profilteile
 
-BlackRabbitZ v3 generalizes large-list splitting and changes the published URLs for Security, Family and Ultimate.
+**🌐 Sprache / Language:** 🇩🇪 **Deutsch** · [🇬🇧 English](MIGRATION_V3_EN.md)
 
-## Repository maintainer
+BlackRabbitZ v3 verallgemeinert die Aufteilung großer Listen und ändert die veröffentlichten URLs für Security, Family und Ultimate.
 
-1. Replace/add the files from the v3 upgrade package.
-2. Commit and push them to `main`.
-3. The `Update blocklists` workflow rebuilds all combined profiles automatically.
-4. The workflow removes old generated Security/Family/Ultimate outputs, creates the new `*-part-NN.txt` files, generates metadata/checksums and updates the README with exact Raw URLs.
-5. Verify that the workflow completes successfully before announcing the new URLs.
+## Für den Repository-Maintainer
 
-No category domain files need to be manually edited for the migration.
+1. Ersetze bzw. ergänze die Dateien aus dem v3-Upgrade-Paket.
+2. Committe und pushe sie nach `main`.
+3. Der Workflow **Update blocklists** baut alle kombinierten Profile automatisch neu.
+4. Der Workflow entfernt alte erzeugte Security-/Family-/Ultimate-Ausgaben, erstellt die neuen `*-part-NN.txt`-Dateien, erzeugt Metadaten/Prüfsummen und aktualisiert die README-Dateien mit den exakten Raw-URLs.
+5. Prüfe, ob der Workflow erfolgreich abgeschlossen wurde, bevor du die neuen URLs veröffentlichst.
 
-## Pi-hole / DNS-filter users
+Für die Migration müssen keine Kategorie-Domaindateien manuell bearbeitet werden.
 
-Old subscriptions using any of these paths must be replaced:
+## Für Pi-hole-/DNS-Filter-Nutzer
+
+Alte Abonnements mit einem dieser Pfade müssen ersetzt werden:
 
 ```text
 lists/combined/security.txt
@@ -24,7 +26,7 @@ lists/combined/ultimate-2.txt
 ...
 ```
 
-After the v3 rebuild, open the repository README and add **every Raw part** shown for the desired split profile:
+Öffne nach dem v3-Neuaufbau die Repository-README und füge **alle Raw-Teile** des gewünschten gesplitteten Profils hinzu:
 
 ```text
 security-part-01.txt
@@ -40,10 +42,10 @@ ultimate-part-02.txt
 ...
 ```
 
-Remove the obsolete old URLs after the new parts have been added, then update Gravity.
+Entferne anschließend die veralteten URLs und aktualisiere Gravity.
 
-## Behavioral changes
+## Verhaltensänderungen
 
-- Balanced no longer includes Affiliate Tracking. Affiliate/referral blocking starts with Strict.
-- Consent/CMP is no longer included in Ultimate. The standalone Consent/CMP category remains available for users who intentionally accept its higher website-breakage risk.
-- Security and Family are documented as optional protection modules rather than sequential privacy tiers.
+- Balanced enthält kein Affiliate Tracking mehr. Affiliate-/Referral-Blocking beginnt ab Strict.
+- Consent/CMP ist nicht mehr in Ultimate enthalten. Die separate Consent/CMP-Kategorie bleibt für Nutzer verfügbar, die das höhere Risiko von Website-Fehlfunktionen bewusst akzeptieren.
+- Security und Family werden als optionale Schutzmodule dokumentiert und nicht mehr als aufeinanderfolgende Datenschutzstufen dargestellt.

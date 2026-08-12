@@ -7,12 +7,15 @@ on:
     paths:
       - 'lists/categories/**'
       - 'config/profiles.json'
+      - 'config/readme-i18n.json'
       - 'scripts/update-lists.sh'
       - 'scripts/split-ultimate.py'
       - 'scripts/update-ultimate-readme.py'
       - 'scripts/publish-profile.py'
       - 'scripts/generate-metadata.py'
       - 'scripts/update-readme.py'
+      - 'README.md'
+      - 'README_EN.md'
       - 'scripts/validate-generated.py'
       - '.github/workflows/update-lists.yml'
   workflow_dispatch:
@@ -35,13 +38,15 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Validate profile configuration
-        run: python3 -m json.tool config/profiles.json >/dev/null
+      - name: Validate profile and README configuration
+        run: |
+          python3 -m json.tool config/profiles.json >/dev/null
+          python3 -m json.tool config/readme-i18n.json >/dev/null
 
       - name: Remove Python cache artifacts
         run: find . -type d -name __pycache__ -prune -exec rm -rf {} +
 
-      - name: Rebuild profiles, parts, metadata and README
+      - name: Rebuild profiles, parts, metadata and READMEs
         shell: bash
         run: bash ./scripts/update-lists.sh
 

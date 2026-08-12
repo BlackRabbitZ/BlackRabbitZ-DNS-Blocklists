@@ -1,5 +1,5 @@
-name: Domain request
-about: Propose a domain for an existing BlackRabbitZ category
+name: Domain-Vorschlag / Domain request
+description: Schlage eine Domain für eine bestehende BlackRabbitZ-Kategorie vor / Propose a domain for an existing BlackRabbitZ category
 labels: ["domain-request"]
 body:
   - type: input
@@ -13,7 +13,7 @@ body:
   - type: input
     id: category
     attributes:
-      label: Proposed category
+      label: Vorgeschlagene Kategorie / Proposed category
       placeholder: telemetry, ads, phishing, gaming-telemetry...
     validations:
       required: true
@@ -21,25 +21,25 @@ body:
   - type: textarea
     id: rationale
     attributes:
-      label: Why should this domain be blocked?
-      description: Explain what the domain does and why the proposed category is appropriate.
+      label: Warum sollte diese Domain blockiert werden? / Why should this domain be blocked?
+      description: Erkläre die Funktion der Domain und warum die vorgeschlagene Kategorie passt. / Explain what the domain does and why the proposed category is appropriate.
     validations:
       required: true
 
   - type: textarea
     id: evidence
     attributes:
-      label: Evidence / references
-      description: Provide independent technical evidence where possible. Do not paste bulk third-party blocklists.
+      label: Nachweise / Evidence and references
+      description: Wenn möglich unabhängige technische Nachweise angeben. Keine kompletten Drittanbieter-Blocklisten einfügen. / Provide independent technical evidence where possible. Do not paste bulk third-party blocklists.
     validations:
       required: true
 
   - type: checkboxes
     id: checks
     attributes:
-      label: Submission checks
+      label: Prüfung vor dem Absenden / Submission checks
       options:
-        - label: I checked that the domain is not already present in the relevant BlackRabbitZ category.
+        - label: Ich habe geprüft, dass die Domain nicht bereits in der passenden BlackRabbitZ-Kategorie enthalten ist. / I checked that the domain is not already present in the relevant BlackRabbitZ category.
           required: true
-        - label: I am proposing specific domains, not bulk-copying another maintained blocklist.
+        - label: Ich schlage konkrete Domains vor und kopiere keine andere gepflegte Blockliste massenhaft. / I am proposing specific domains, not bulk-copying another maintained blocklist.
           required: true

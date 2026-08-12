@@ -1,120 +1,122 @@
-# Automatic upstream updates
+# Automatische Upstream-Updates
 
-BlackRabbitZ updates selected category lists and regenerates published profiles with GitHub Actions.
+**🌐 Sprache / Language:** 🇩🇪 **Deutsch** · [🇬🇧 English](AUTOMATIC_UPDATES_EN.md)
+
+BlackRabbitZ aktualisiert ausgewählte Kategorielisten und erzeugt die veröffentlichten Profile automatisch mit GitHub Actions neu.
 
 ## Workflows
 
-- `.github/workflows/daily-upstream-update.yml` runs every day at **03:17 UTC** and can also be started manually.
-- `.github/workflows/update-lists.yml` keeps combined profiles, split parts, metadata, checksums and README values synchronized after category, profile-config or build-script changes.
+- `.github/workflows/daily-upstream-update.yml` läuft täglich um **03:17 UTC** und kann zusätzlich manuell gestartet werden.
+- `.github/workflows/update-lists.yml` hält kombinierte Profile, gesplittete Teile, Metadaten, Prüfsummen und beide README-Dateien nach Kategorie-, Profilkonfigurations- oder Build-Skript-Änderungen synchron.
 
-## Daily update flow
+## Ablauf des täglichen Updates
 
-1. `scripts/update-upstreams.py` reads `scripts/upstream-sources.json`.
-2. Upstream feeds are downloaded over HTTPS with retries, timeouts and a maximum download size.
-3. Hosts, plain-domain, URL, AdGuard/ABP and wildcard-style entries are normalized to one-domain-per-line format.
-4. Invalid values, IP addresses, duplicates and domains covered by `config/allowlist.txt` are ignored.
-5. New domains are merged **additively** into the existing category files. Existing entries are never silently deleted by the automatic importer.
-6. Per-source minimum sizes reject suspiciously empty downloads.
-7. Per-category growth guards reject implausibly large one-run additions.
-8. `scripts/update-lists.sh` reads `config/profiles.json`, merges the required categories and sorts/deduplicates every combined profile.
-9. `scripts/publish-profile.py` publishes Light/Balanced/Strict as single files and large configured profiles as deterministic size-bounded parts.
-10. `scripts/generate-metadata.py` creates `metadata/build.json` and `metadata/SHA256SUMS`.
-11. `scripts/update-readme.py` synchronizes profile tables, part links, comparison data and category counts.
-12. `scripts/validate-generated.py` verifies generated profile ordering, uniqueness, part-size limits and metadata consistency.
-13. If the generated repository changed and all checks passed, GitHub Actions commits the result to `main`.
+1. `scripts/update-upstreams.py` liest `scripts/upstream-sources.json`.
+2. Upstream-Feeds werden per HTTPS mit Wiederholungen, Timeouts und maximaler Downloadgröße geladen.
+3. Hosts-, Plain-Domain-, URL-, AdGuard/ABP- und Wildcard-Einträge werden auf eine Domain pro Zeile normalisiert.
+4. Ungültige Werte, IP-Adressen, Duplikate und Domains aus `config/allowlist.txt` werden ignoriert.
+5. Neue Domains werden **additiv** in bestehende Kategoriedateien übernommen. Vorhandene Einträge werden vom automatischen Importer nie still gelöscht.
+6. Mindestgrößen pro Quelle verwerfen verdächtig leere Downloads.
+7. Wachstumsschutz pro Kategorie blockiert unplausibel große Zuwächse innerhalb eines Laufs.
+8. `scripts/update-lists.sh` liest `config/profiles.json`, führt die benötigten Kategorien zusammen und sortiert/dedupliziert jedes kombinierte Profil.
+9. `scripts/publish-profile.py` veröffentlicht Light/Balanced/Strict als Einzeldateien und große konfigurierte Profile als deterministische, größenbegrenzte Teile.
+10. `scripts/generate-metadata.py` erstellt `metadata/build.json` und `metadata/SHA256SUMS`.
+11. `scripts/update-readme.py` synchronisiert **README.md (Deutsch)** und **README_EN.md (Englisch)** einschließlich Profiltabellen, Part-Links, Vergleichsdaten und Kategorie-Zahlen.
+12. `scripts/validate-generated.py` prüft Sortierung, Eindeutigkeit, Part-Größen und Metadatenkonsistenz der erzeugten Profile.
+13. Wenn sich das Repository geändert hat und alle Prüfungen erfolgreich waren, committet GitHub Actions das Ergebnis nach `main`.
 
-## Profile configuration
+## Profilkonfiguration
 
-`config/profiles.json` is the single source of truth for:
+`config/profiles.json` ist die zentrale Quelle für:
 
-- which categories belong to each combined profile;
-- whether a profile is shown as a main privacy tier or optional module;
-- whether a profile is always published as numbered parts;
-- the maximum generated part size;
-- README labels, recommendations and breakage indicators;
-- the protection-comparison matrix.
+- die Kategorien jedes kombinierten Profils;
+- die Einordnung als Haupt-Datenschutzprofil oder optionales Modul;
+- die Veröffentlichung als nummerierte Teile;
+- die maximale Größe erzeugter Parts;
+- technische Anzeige-Metadaten und Breakage-Indikatoren;
+- die Schutzvergleichsmatrix.
 
-This removes profile composition from shell-code branches and prevents README/configuration drift.
+`config/readme-i18n.json` enthält die sprachabhängigen Texte für die automatisch erzeugten Bereiche der deutschen und englischen README.
 
-### Current profile policy
+### Aktuelle Profilpolitik
 
-- **Light**: Ads only.
-- **Balanced**: Ads + general trackers + social trackers. Affiliate/referral blocking is deliberately excluded to reduce avoidable breakage.
-- **Strict**: Adds affiliate tracking, telemetry, platform/device telemetry and native/app tracking.
-- **Security**: Security-focused add-on with malware, phishing, scam, fake-shop and cryptomining categories.
-- **Family**: Family add-on with advertising/tracking plus adult and gambling filtering.
-- **Ultimate**: Aggressive all-in-one protection. Consent/CMP is deliberately kept separate because DNS-level CMP blocking can break website consent flows and page functionality.
+- **Light**: nur Werbung.
+- **Balanced**: Werbung + allgemeine Tracker + Social Tracker. Affiliate-/Referral-Blocking ist bewusst ausgeschlossen, um vermeidbare Fehlfunktionen zu reduzieren.
+- **Strict**: ergänzt Affiliate Tracking, allgemeine Telemetrie, Plattform-/Geräte-Telemetrie und natives/App-Tracking.
+- **Security**: Sicherheits-Add-on mit Malware, Phishing, Scam, Fake Shops und Cryptomining.
+- **Family**: Familien-Add-on mit Werbung/Tracking sowie Adult- und Gambling-Filterung.
+- **Ultimate**: aggressiver All-in-one-Schutz. Consent/CMP bleibt bewusst separat, weil DNS-basiertes CMP-Blocking Website-Consent-Abläufe und Seitenfunktionen beeinträchtigen kann.
 
-## Large-profile splitting
+## Aufteilung großer Profile
 
-Profiles marked with `"split": true` are always published as numbered parts. This avoids URL layouts changing back and forth when a list temporarily grows or shrinks.
+Profile mit `"split": true` werden immer als nummerierte Teile veröffentlicht. Dadurch ändern sich URLs nicht ständig, wenn eine Liste zeitweise wächst oder schrumpft.
 
-Current split profiles:
+Aktuell gesplittete Profile:
 
 - `security-part-01.txt`, `security-part-02.txt`, ...
 - `family-part-01.txt`, `family-part-02.txt`, ...
 - `ultimate-part-01.txt`, `ultimate-part-02.txt`, ...
 
-Each generated part targets a maximum of **5 MiB** (`5242880` bytes including its header). Part numbering is zero-padded so file ordering remains stable when a profile grows beyond nine parts.
+Jeder erzeugte Part zielt auf maximal **5 MiB** (`5242880` Bytes einschließlich Header). Die Nummerierung ist mit führender Null versehen, damit die Dateireihenfolge auch bei mehr als neun Teilen stabil bleibt.
 
-For complete coverage, DNS blockers must subscribe to **all parts** shown in the README for that profile.
+Für vollständige Abdeckung müssen DNS-Blocker **alle in der README angezeigten Teile** des jeweiligen Profils abonnieren.
 
-### Migration from the old layout
+### Migration vom alten Schema
 
-The v3 layout replaces these previous generated outputs:
+Das v3-Schema ersetzt:
 
 - `lists/combined/security.txt`
 - `lists/combined/family.txt`
 - `lists/combined/ultimate-1.txt`, `ultimate-2.txt`, ...
 
-with size-bounded `*-part-NN.txt` files. Existing Pi-hole subscriptions using the old URLs must be replaced with all new Raw URLs listed in the README after the first v3 rebuild.
+mit größenbegrenzten `*-part-NN.txt`-Dateien. Bestehende Pi-hole-Abonnements mit alten URLs müssen nach dem ersten v3-Neuaufbau durch alle neuen Raw-URLs aus der README ersetzt werden.
 
-## Generated metadata and checksums
+## Generierte Metadaten und Prüfsummen
 
-`metadata/build.json` provides machine-readable information for every category and combined profile, including:
+`metadata/build.json` enthält maschinenlesbare Informationen zu jeder Kategorie und jedem kombinierten Profil, darunter:
 
-- entry counts;
-- file names;
-- part count;
-- byte size;
-- SHA-256 hash;
-- included categories.
+- Eintragszahl;
+- Dateinamen;
+- Anzahl der Parts;
+- Dateigröße;
+- SHA-256-Hash;
+- enthaltene Kategorien.
 
-`metadata/SHA256SUMS` contains a standard checksum list for all category and combined profile files.
+`metadata/SHA256SUMS` enthält eine standardisierte Prüfsummenliste für alle Kategorie- und kombinierten Profil-Dateien.
 
-Both files are deterministic: rebuilding unchanged input should not create a timestamp-only diff.
+Beide Dateien sind deterministisch: Ein Neuaufbau unveränderter Eingaben soll keinen reinen Zeitstempel-Diff erzeugen.
 
-## Categories updated from upstreams
+## Aus Upstreams aktualisierte Kategorien
 
-The source matrix currently covers Ads, Trackers, Telemetry-derived subsets, Windows/Apple/Android native telemetry, Native Tracking, Smart TV, IoT, Cryptomining, Malware, Phishing, Scam, Fake Shops, Adult and Gambling.
+Die Quellenmatrix deckt derzeit Ads, Trackers, abgeleitete Telemetrie-Kategorien, Windows-/Apple-/Android-Telemetrie, Native Tracking, Smart TV, IoT, Cryptomining, Malware, Phishing, Scam, Fake Shops, Adult und Gambling ab.
 
-`gaming-telemetry.txt`, `gaming-telemetry-aggressive.txt`, `linux-telemetry.txt`, `nas-telemetry.txt` and `server-telemetry.txt` can remain manually curated when no single trustworthy general-purpose upstream cleanly represents those specialized endpoints.
+`gaming-telemetry.txt`, `gaming-telemetry-aggressive.txt`, `linux-telemetry.txt`, `nas-telemetry.txt` und `server-telemetry.txt` können manuell kuratiert bleiben, wenn keine einzelne vertrauenswürdige allgemeine Upstream-Quelle diese spezialisierten Endpunkte sauber abbildet.
 
-## Safety behavior
+## Sicherheitsverhalten
 
-The importer/build pipeline is designed to fail safely:
+Die Import-/Build-Pipeline ist auf sicheres Fehlschlagen ausgelegt:
 
-- If one upstream is unavailable, the last committed category remains intact.
-- If every source for a category fails, that category is left unchanged.
-- If a feed suddenly returns far fewer entries than its configured minimum, it is rejected.
-- If newly imported data exceeds the configured one-run growth limit, the workflow exits before committing anything.
-- Missing category files referenced by a profile cause the build to fail.
-- Split parts larger than the configured part limit cause validation to fail.
-- Duplicate or out-of-order domains across generated profile parts cause validation to fail.
-- Metadata entry-count mismatches cause validation to fail.
-- Any regular Git file over GitHub's 100 MiB hard limit causes the build to fail before commit.
+- Ist eine Upstream-Quelle nicht erreichbar, bleibt die zuletzt commitete Kategorie erhalten.
+- Fallen alle Quellen einer Kategorie aus, bleibt diese Kategorie unverändert.
+- Liefert ein Feed plötzlich deutlich weniger Einträge als das konfigurierte Minimum, wird er verworfen.
+- Überschreiten neue Imports das konfigurierte Wachstumslimit eines Laufs, beendet sich der Workflow vor jedem Commit.
+- Fehlende Kategoriedateien, die von einem Profil referenziert werden, führen zum Build-Abbruch.
+- Gesplittete Teile oberhalb des konfigurierten Größenlimits führen zu einem Validierungsfehler.
+- Duplikate oder falsche Sortierung über erzeugte Profilteile hinweg führen zu einem Validierungsfehler.
+- Abweichende Eintragszahlen in den Metadaten führen zu einem Validierungsfehler.
+- Reguläre Git-Dateien oberhalb des GitHub-Hard-Limits von 100 MiB führen vor dem Commit zum Build-Abbruch.
 
-## Adding or removing an upstream
+## Upstream hinzufügen oder entfernen
 
-Edit:
+Bearbeite:
 
 ```text
 scripts/upstream-sources.json
 ```
 
-Each source has a name, HTTPS URL and `min_entries`. A source can optionally use `include_keywords` to derive a narrow category from a broader feed.
+Jede Quelle besitzt einen Namen, eine HTTPS-URL und `min_entries`. Optional kann `include_keywords` verwendet werden, um aus einem breiteren Feed eine engere Kategorie abzuleiten.
 
-After changing the configuration, run:
+Nach einer Konfigurationsänderung:
 
 ```bash
 python3 scripts/update-upstreams.py --check-config
@@ -122,36 +124,42 @@ python3 scripts/update-upstreams.py --dry-run
 bash scripts/update-lists.sh
 ```
 
-## Changing a profile
+## Profil ändern
 
-Edit:
+Bearbeite:
 
 ```text
 config/profiles.json
 ```
 
-Do not manually edit files under `lists/combined/`, `metadata/build.json` or `metadata/SHA256SUMS`; they are generated outputs.
+Sprachabhängige README-Texte befinden sich in:
 
-Run:
+```text
+config/readme-i18n.json
+```
+
+Bearbeite Dateien unter `lists/combined/`, `metadata/build.json` oder `metadata/SHA256SUMS` nicht manuell; sie werden erzeugt.
+
+Danach:
 
 ```bash
 bash scripts/update-lists.sh
 ```
 
-## False-positive safety allowlist
+## Allowlist gegen False Positives
 
-Add critical domains to:
+Kritische Domains werden hier eingetragen:
 
 ```text
 config/allowlist.txt
 ```
 
-An allowlisted domain and its subdomains are excluded from **new automatic imports**. Existing category entries are not silently removed.
+Eine allowgelistete Domain und ihre Subdomains werden von **neuen automatischen Imports** ausgeschlossen. Bereits vorhandene Kategorie-Einträge werden nicht still gelöscht.
 
-## GitHub repository setting
+## GitHub-Repository-Einstellung
 
-The workflows need permission to push their generated changes. In GitHub, ensure the repository's Actions workflow permissions allow write access to repository contents. Branch protection rules must also permit the workflow/bot to update `main`, or the automatic commit will fail.
+Die Workflows benötigen Schreibrechte, um erzeugte Änderungen zu pushen. In GitHub müssen die Actions-Workflow-Berechtigungen Schreibzugriff auf Repository-Inhalte erlauben. Branch-Protection-Regeln müssen dem Workflow/Bot ebenfalls erlauben, `main` zu aktualisieren.
 
-## Android first-import guard
+## Android-Guard beim ersten Import
 
-`android-telemetry` intentionally permits a larger first-run growth than the global default because configured Huawei/Xiaomi/Oppo-Realme/Vivo native-tracking sources can add more than 1,000 valid domains at once. The category remains protected by its configured growth guard.
+`android-telemetry` erlaubt bewusst ein größeres Wachstum beim ersten Lauf als der globale Standard, weil konfigurierte Huawei-/Xiaomi-/Oppo-Realme-/Vivo-Native-Tracking-Quellen auf einmal mehr als 1.000 gültige Domains hinzufügen können. Die Kategorie bleibt trotzdem durch ihren konfigurierten Growth Guard geschützt.

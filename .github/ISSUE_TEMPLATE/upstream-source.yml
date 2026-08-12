@@ -1,19 +1,19 @@
-name: Upstream source
-about: Suggest a maintained upstream dataset for automatic imports
+name: Upstream-Quelle / Upstream source
+description: Schlage einen gepflegten Datensatz für automatische Imports vor / Suggest a maintained upstream dataset for automatic imports
 labels: ["upstream-source"]
 body:
   - type: input
     id: name
     attributes:
-      label: Source name
-      placeholder: Project / feed name
+      label: Quellenname / Source name
+      placeholder: Projekt- oder Feed-Name / Project or feed name
     validations:
       required: true
 
   - type: input
     id: url
     attributes:
-      label: Source URL
+      label: Quellen-URL / Source URL
       placeholder: https://...
     validations:
       required: true
@@ -21,7 +21,7 @@ body:
   - type: input
     id: category
     attributes:
-      label: Intended BlackRabbitZ category
+      label: Vorgesehene BlackRabbitZ-Kategorie / Intended BlackRabbitZ category
       placeholder: malware, trackers, adult...
     validations:
       required: true
@@ -29,23 +29,23 @@ body:
   - type: input
     id: license
     attributes:
-      label: License / reuse terms
-      placeholder: SPDX identifier or source license page
+      label: Lizenz / Nutzungsbedingungen / License / reuse terms
+      placeholder: SPDX-Kennung oder Lizenzseite / SPDX identifier or source license page
     validations:
       required: true
 
   - type: textarea
     id: maintenance
     attributes:
-      label: Maintenance and quality notes
-      description: How often is it updated, what does it contain, and why is it trustworthy?
+      label: Wartungs- und Qualitätsangaben / Maintenance and quality notes
+      description: Wie oft wird die Quelle aktualisiert, was enthält sie und warum ist sie vertrauenswürdig? / How often is it updated, what does it contain, and why is it trustworthy?
     validations:
       required: true
 
   - type: textarea
     id: format
     attributes:
-      label: Feed format
+      label: Feed-Format / Feed format
       placeholder: plain domains, hosts, URLs, AdGuard/ABP, wildcard...
     validations:
       required: true

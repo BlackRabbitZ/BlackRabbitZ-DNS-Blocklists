@@ -1,16 +1,17 @@
-name: False positive
-about: Report a domain that should not be blocked
+name: Falschmeldung / False positive
+description: Melde eine Domain, die nicht blockiert werden sollte / Report a domain that should not be blocked
 labels: ["false-positive"]
 body:
   - type: markdown
     attributes:
       value: |
+        Danke für die Meldung einer möglichen Fehlblockierung. Bitte gib genügend Informationen an, damit das Problem reproduziert werden kann.
         Thanks for reporting a possible false positive. Please provide enough detail to reproduce the breakage.
 
   - type: input
     id: domain
     attributes:
-      label: Affected domain
+      label: Betroffene Domain / Affected domain
       placeholder: example.com
     validations:
       required: true
@@ -18,7 +19,7 @@ body:
   - type: input
     id: list
     attributes:
-      label: BlackRabbitZ list or profile
+      label: BlackRabbitZ-Liste oder Profil / BlackRabbitZ list or profile
       placeholder: balanced, strict, security-part-01, telemetry, gaming-telemetry...
     validations:
       required: true
@@ -26,44 +27,44 @@ body:
   - type: input
     id: service
     attributes:
-      label: Website, app, game or device
-      placeholder: Service or product name
+      label: Website, App, Spiel oder Gerät / Website, app, game or device
+      placeholder: Dienst oder Produkt / Service or product
     validations:
       required: true
 
   - type: textarea
     id: impact
     attributes:
-      label: What breaks when the domain is blocked?
-      placeholder: Describe the exact behavior.
+      label: Was funktioniert durch die Blockierung nicht? / What breaks when the domain is blocked?
+      placeholder: Beschreibe das genaue Verhalten / Describe the exact behavior
     validations:
       required: true
 
   - type: textarea
     id: reproduce
     attributes:
-      label: Reproduction steps
+      label: Reproduktionsschritte / Reproduction steps
       placeholder: |
-        1. Enable the list
-        2. Open ...
-        3. Observe ...
+        1. Liste aktivieren / Enable the list
+        2. Öffnen / Open ...
+        3. Verhalten beobachten / Observe ...
     validations:
       required: true
 
   - type: dropdown
     id: resolver
     attributes:
-      label: DNS blocker
+      label: DNS-Blocker / DNS blocker
       options:
         - Pi-hole
         - AdGuard Home
         - Technitium
-        - Other
+        - Andere / Other
     validations:
       required: true
 
   - type: textarea
     id: evidence
     attributes:
-      label: Optional evidence
-      description: Pi-hole query-log details, browser console/network observations or other non-sensitive evidence.
+      label: Optionale Nachweise / Optional evidence
+      description: Pi-hole-Query-Log, Browser-Konsole/Netzwerkbeobachtungen oder andere nicht sensible Nachweise. / Pi-hole query-log details, browser console/network observations or other non-sensitive evidence.

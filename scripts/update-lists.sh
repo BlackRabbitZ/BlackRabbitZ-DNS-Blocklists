@@ -162,4 +162,4 @@ python3 ./scripts/generate-metadata.py
 python3 ./scripts/update-readme.py
 python3 ./scripts/validate-generated.py
 
-echo "Blocklists, combined profiles, split parts, metadata, checksums and README are synchronized."
+echo "Blocklists, combined profiles, split parts, metadata, checksums and German/English READMEs are synchronized."

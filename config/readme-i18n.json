@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "languages": {
+    "de": {
+      "readme": "README.md",
+      "table": {
+        "profile": "Profil",
+        "protection": "Schutz",
+        "entries": "Einträge",
+        "recommended_for": "Empfohlen für",
+        "view": "Anzeigen",
+        "raw": "Raw",
+        "show_parts": "Teile anzeigen",
+        "raw_parts": "Raw-Teile",
+        "feature": "Funktion",
+        "breakage": "Fehlfunktionsrisiko"
+      },
+      "parts": {
+        "show": "Teile anzeigen",
+        "files": "Dateien",
+        "total": "Gesamt",
+        "unique_domains": "eindeutige Domains",
+        "instruction": "Füge alle Teile zu Pi-hole oder deinem DNS-Blocker hinzu, um die vollständige Abdeckung dieses Profils zu erhalten.",
+        "part": "Teil",
+        "entries": "Einträge"
+      },
+      "profiles": {
+        "light": {"protection": "Niedrig", "recommended_for": "Einfaches Werbeblocking", "breakage": "🟢 Niedrig"},
+        "balanced": {"protection": "Mittel", "recommended_for": "Die meisten Nutzer", "breakage": "🔵 Niedrig–Mittel"},
+        "strict": {"protection": "Hoch", "recommended_for": "Datenschutzorientierte Setups", "breakage": "🟠 Höher"},
+        "security": {"protection": "Sicherheit", "recommended_for": "Sicherheitsorientierte Filterung", "breakage": "🟡 Mittel"},
+        "family": {"protection": "Familie", "recommended_for": "Familiennetzwerke", "breakage": "🟠 Höher"},
+        "ultimate": {"protection": "Maximum", "recommended_for": "Aggressive Filterung", "breakage": "🔴 Sehr hoch"}
+      },
+      "features": {
+        "Advertising": "Werbung",
+        "General Trackers": "Allgemeine Tracker",
+        "Social Tracking": "Social-Tracking",
+        "Affiliate Tracking": "Affiliate-Tracking",
+        "General Telemetry": "Allgemeine Telemetrie",
+        "Gaming Telemetry": "Gaming-Telemetrie",
+        "Windows Telemetry": "Windows-Telemetrie",
+        "Apple Telemetry": "Apple-Telemetrie",
+        "Android Telemetry": "Android-Telemetrie",
+        "Linux Telemetry": "Linux-Telemetrie",
+        "NAS Telemetry": "NAS-Telemetrie",
+        "Server Telemetry": "Server-Telemetrie",
+        "Mobile/App Tracking": "Mobil-/App-Tracking",
+        "Smart-TV / IoT": "Smart-TV / IoT",
+        "Cryptomining": "Kryptomining",
+        "Malware / Phishing / Scam / Fake Shops": "Malware / Phishing / Betrug / Fake-Shops",
+        "Consent / CMP": "Consent / CMP",
+        "Adult": "Erwachsene Inhalte",
+        "Gambling": "Glücksspiel"
+      }
+    },
+    "en": {
+      "readme": "README_EN.md",
+      "table": {
+        "profile": "Profile",
+        "protection": "Protection",
+        "entries": "Entries",
+        "recommended_for": "Recommended for",
+        "view": "View",
+        "raw": "Raw",
+        "show_parts": "Show Parts",
+        "raw_parts": "Raw Parts",
+        "feature": "Feature",
+        "breakage": "Breakage Risk"
+      },
+      "parts": {
+        "show": "Show Parts",
+        "files": "files",
+        "total": "Total",
+        "unique_domains": "unique domains",
+        "instruction": "Add all parts to Pi-hole or your DNS blocker for complete profile coverage.",
+        "part": "Part",
+        "entries": "entries"
+      },
+      "profiles": {},
+      "features": {}
+    }
+  }
+}

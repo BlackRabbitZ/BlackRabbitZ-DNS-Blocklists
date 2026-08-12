@@ -1,53 +1,56 @@
-# Contributing
+# Mitwirken
 
-Contributions are welcome when they improve list quality, coverage, documentation or build safety.
+**🌐 Sprache / Language:** 🇩🇪 **Deutsch** · [🇬🇧 English](CONTRIBUTING_EN.md)
 
-## Domain submissions
+Beiträge sind willkommen, wenn sie die Qualität, Abdeckung, Dokumentation oder Build-Sicherheit der Listen verbessern.
 
-Use the **Domain request** issue template and provide:
+## Domain-Vorschläge
 
-- the exact domain;
-- the proposed category;
-- a clear technical rationale;
-- independent evidence where possible.
+Nutze das Issue-Template **Domain request** und gib Folgendes an:
 
-Do not bulk-copy third-party maintained blocklists into this repository. New upstream feeds should be proposed separately so their maintenance quality, format and license/reuse terms can be reviewed.
+- die exakte Domain;
+- die vorgeschlagene Kategorie;
+- eine klare technische Begründung;
+- nach Möglichkeit unabhängige Nachweise.
 
-## False positives
+Kopiere keine vollständig gepflegten Drittanbieter-Blocklisten massenhaft in dieses Repository. Neue Upstream-Feeds sollten separat vorgeschlagen werden, damit Wartungsqualität, Format sowie Lizenz-/Nutzungsbedingungen geprüft werden können.
 
-Use the **False positive** issue template and include the affected domain, BlackRabbitZ list/profile, application/device, exact breakage and reproduction steps.
+## Fehlblockierungen / False Positives
 
-False-positive reports are prioritized over raw list-size growth. The project goal is useful filtering, not the largest possible number of domains.
+Nutze das Issue-Template **False positive** und nenne die betroffene Domain, die BlackRabbitZ-Liste bzw. das Profil, Anwendung/Gerät, die genaue Fehlfunktion und Reproduktionsschritte.
 
-## Upstream sources
+False-Positive-Meldungen haben Vorrang vor bloßem Listenwachstum. Ziel des Projekts ist eine nützliche Filterung, nicht die größtmögliche Anzahl an Domains.
 
-Use the **Upstream source** issue template. A proposed feed should have:
+## Upstream-Quellen
 
-- a stable HTTPS URL;
-- clear maintenance ownership;
-- suitable reuse/license terms;
-- a format that can be validated and normalized;
-- a clear mapping to an existing BlackRabbitZ category.
+Nutze das Issue-Template **Upstream source**. Ein vorgeschlagener Feed sollte Folgendes bieten:
 
-## Generated files
+- eine stabile HTTPS-URL;
+- klar erkennbare Pflege/Verantwortung;
+- geeignete Lizenz- bzw. Nutzungsbedingungen;
+- ein Format, das validiert und normalisiert werden kann;
+- eine eindeutige Zuordnung zu einer vorhandenen BlackRabbitZ-Kategorie.
 
-Do not manually edit:
+## Generierte Dateien
+
+Bearbeite folgende Dateien nicht manuell:
 
 - `lists/combined/*`
 - `metadata/build.json`
 - `metadata/SHA256SUMS`
 
-Combined profiles and metadata are generated from category files and `config/profiles.json` by `scripts/update-lists.sh`.
+Kombinierte Profile und Metadaten werden aus den Kategoriedateien sowie `config/profiles.json` durch `scripts/update-lists.sh` erzeugt.
 
-## Local validation
+## Lokale Validierung
 
-Before opening a pull request for build/configuration changes, run:
+Führe vor einem Pull Request mit Build-/Konfigurationsänderungen Folgendes aus:
 
 ```bash
 python3 scripts/update-upstreams.py --check-config
 python3 -m json.tool config/profiles.json >/dev/null
+python3 -m json.tool config/readme-i18n.json >/dev/null
 bash scripts/update-lists.sh
 git diff --check
 ```
 
-Generated changes should be committed together with the source/configuration change that caused them.
+Generierte Änderungen sollten gemeinsam mit der Quell-/Konfigurationsänderung committed werden, durch die sie entstanden sind.
