@@ -3,14 +3,16 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 260279
-# Profile Total Entries: 3458013
+# Entries: 260276
+# Profile Total Entries: 3458017
 #
 # Includes: malware,phishing,scam,fake-shops,cryptomining
 #
 # IMPORTANT: This is only one part of the security profile.
 # Add every security-part-NN.txt Raw URL listed in the README for complete coverage.
 #
+recovery-help-centre07022018.000webhostapp.com
+recovery-help-centre08032018.000webhostapp.com
 recovery-help-centre09022018.000webhostapp.com
 recovery-help-centre11022018.000webhostapp.com
 recovery-help-centre11032018.000webhostapp.com
@@ -260285,8 +260287,3 @@ studioprest.it
 studioprimecast.blog
 studiopro.com.br
 studioprofessionalelorusso.it
-studioprogrid.click
-studiopromoters.com
-studiopromotes.com
-studioprotec.com
-studiopryzmat.pl

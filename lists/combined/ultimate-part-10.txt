@@ -3,8 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 279239
-# Profile Total Entries: 5169014
+# Entries: 279238
+# Profile Total Entries: 5169018
 #
 # Includes: ads,trackers,telemetry,gaming-telemetry,windows-telemetry,apple-telemetry,android-telemetry,linux-telemetry,nas-telemetry,server-telemetry,smart-tv,iot,mobile-tracking,social-trackers,native-tracking,phishing,malware,scam,cryptomining,fake-shops,adult,gambling,affiliate-tracking
 #
@@ -66615,6 +66615,7 @@ joker-visa.com
 joker-visa.info
 joker-visa.net
 joker-win.casino
+joker.aec944b68370194a50.link
 joker.green
 joker.land
 joker.lv
@@ -148683,6 +148684,7 @@ klaster.ptzp.org.pl
 klasterfin-platform.com
 klastermebel.pl
 klasterpolskanatura.pl
+klastertepla.cz
 klastine-32432-bolicas-wq11221.pages.dev
 klastine-98745-bolicas.pages.dev
 klasto.shop
@@ -279247,6 +279249,3 @@ livesex-chat.co
 livesex-chat.co.uk
 livesex-chat.info
 livesex-chat.net
-livesex-chat24.com
-livesex-chats.ch
-livesex-chats.info

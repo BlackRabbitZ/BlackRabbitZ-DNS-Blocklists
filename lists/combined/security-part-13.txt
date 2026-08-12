@@ -3,14 +3,21 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 221927
-# Profile Total Entries: 3458013
+# Entries: 221923
+# Profile Total Entries: 3458017
 #
 # Includes: malware,phishing,scam,fake-shops,cryptomining
 #
 # IMPORTANT: This is only one part of the security profile.
 # Add every security-part-NN.txt Raw URL listed in the README for complete coverage.
 #
+www.gofronkt.com
+www.gofuckbadoo.ru
+www.gofuckbiz.com
+www.gofuckyourself.com
+www.gofwfqueulogized.review
+www.gogabolson.com
+www.gogadgetgiveaway.com
 www.gogameportal.com
 www.gogardens.shop
 www.gogarraty.com
@@ -221927,14 +221934,3 @@ wxz3y-b1l95-xfgxqk.xyz
 wxz77bdw7oo-znff.top
 wxzawl.com
 wxzbn515k2refq7.online
-wxzfw1c.cyou
-wxzhongtian.com
-wxzhxbxg.com
-wxzibr.casa
-wxzlxh.com
-wxzm56.com
-wxzqvfk.weebly.com
-wxzr.pl
-wxzsxx.net.cn
-wxztfkiga.com
-wxztjz.com

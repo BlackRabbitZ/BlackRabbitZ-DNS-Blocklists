@@ -3,14 +3,17 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 262296
-# Profile Total Entries: 5169014
+# Entries: 262297
+# Profile Total Entries: 5169018
 #
 # Includes: ads,trackers,telemetry,gaming-telemetry,windows-telemetry,apple-telemetry,android-telemetry,linux-telemetry,nas-telemetry,server-telemetry,smart-tv,iot,mobile-tracking,social-trackers,native-tracking,phishing,malware,scam,cryptomining,fake-shops,adult,gambling,affiliate-tracking
 #
 # IMPORTANT: This is only one part of the ultimate profile.
 # Add every ultimate-part-NN.txt Raw URL listed in the README for complete coverage.
 #
+safehome.com.au
+safehomehelp.com
+safehomepage.com
 safehomeservicess.000webhostapp.com
 safehorizon.xyz
 safehousefsi.com
@@ -262305,5 +262308,3 @@ spacefortuna-casinofr.shop
 spacefortuna-fr.fr
 spacefortuna1.com
 spacefortuna5.com
-spacefortunacasino-france.com
-spacefortunacasinoenfrance.shop

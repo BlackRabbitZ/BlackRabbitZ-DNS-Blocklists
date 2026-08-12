@@ -4,13 +4,18 @@
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
 # Entries: 222191
-# Profile Total Entries: 5169014
+# Profile Total Entries: 5169018
 #
 # Includes: ads,trackers,telemetry,gaming-telemetry,windows-telemetry,apple-telemetry,android-telemetry,linux-telemetry,nas-telemetry,server-telemetry,smart-tv,iot,mobile-tracking,social-trackers,native-tracking,phishing,malware,scam,cryptomining,fake-shops,adult,gambling,affiliate-tracking
 #
 # IMPORTANT: This is only one part of the ultimate profile.
 # Add every ultimate-part-NN.txt Raw URL listed in the README for complete coverage.
 #
+www.freepcapp.com
+www.freepcerrorfixcleaner.com
+www.freepcountry.com
+www.freepcscan.com
+www.freepcsupport.net
 www.freepctuneup.weebly.com
 www.freepdfbooksdownloadcanget.tk
 www.freepdfcombiner.com
@@ -222197,8 +222202,3 @@ www.wws.24x7help.org
 www.wws.sec.support.icloud.apple.tunes.yksta.clixplanet.net
 www.wwsantander.com
 www.wwsantanderrmobily.com
-www.wwsearch.certified-toolbar.com
-www.wwskqhyaxufxvyqv.xyz
-www.wwsupport.biz
-www.wwsupport.info
-www.wwsupport.net

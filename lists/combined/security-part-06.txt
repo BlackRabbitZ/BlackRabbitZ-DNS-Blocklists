@@ -4,13 +4,15 @@
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
 # Entries: 263525
-# Profile Total Entries: 3458013
+# Profile Total Entries: 3458017
 #
 # Includes: malware,phishing,scam,fake-shops,cryptomining
 #
 # IMPORTANT: This is only one part of the security profile.
 # Add every security-part-NN.txt Raw URL listed in the README for complete coverage.
 #
+getverifyunlock.com
+getverino.top
 getveryfast.com
 getveylora.shop
 getveylora.site
@@ -263534,5 +263536,3 @@ itshappychristmas.com
 itsharshgupta.com
 itshd.com
 itshed.net
-itshellingshoes.com
-itshelpdesk.sitey.me

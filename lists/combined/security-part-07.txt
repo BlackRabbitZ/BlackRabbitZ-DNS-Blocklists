@@ -3,14 +3,16 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 270072
-# Profile Total Entries: 3458013
+# Entries: 270071
+# Profile Total Entries: 3458017
 #
 # Includes: malware,phishing,scam,fake-shops,cryptomining
 #
 # IMPORTANT: This is only one part of the security profile.
 # Add every security-part-NN.txt Raw URL listed in the README for complete coverage.
 #
+itshellingshoes.com
+itshelpdesk.sitey.me
 itshere.top
 itshields.com
 itshimul.github.io
@@ -40039,6 +40041,7 @@ joker-ua.com.ua
 joker-visa.com
 joker-visa.info
 joker-visa.net
+joker.aec944b68370194a50.link
 joker.green
 joker.land
 joker.ms989freedom.workers.dev
@@ -93124,6 +93127,7 @@ klaster.ptzp.org.pl
 klasterfin-platform.com
 klastermebel.pl
 klasterpolskanatura.pl
+klastertepla.cz
 klastine-32432-bolicas-wq11221.pages.dev
 klastine-98745-bolicas.pages.dev
 klasto.shop
@@ -270078,8 +270082,3 @@ marytymenok.eu
 maryulnouri.com
 maryvector.digital
 maryvidourek.shop
-maryvillerent.com
-maryvillewraps.com
-marywaltonjones.com
-marywang.shop
-maryward.or.kr
