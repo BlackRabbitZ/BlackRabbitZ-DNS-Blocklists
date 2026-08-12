@@ -3,10 +3,13 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 556
+# Entries: 622
 # Description: Smart-TV advertising, ACR, diagnostics and telemetry endpoints.
 # Sources: Block List Project; Perflyst PiHoleBlocklist; HaGeZi LG webOS
 # Snapshot: 2026-08
+#
+# Additional third-party integrations: see THIRD_PARTY.md
+#
 #
 2mdn.net
 7345023508.fxm9485766783.com
@@ -15,20 +18,63 @@ a1.resources.foxtel.com.au
 aax-eu.amazon-adsystem.com
 abtauthprd.samsungcloudsolution.com
 acr-us-prd.samsungcloud.tv
+acr.roku.com
 acr0.samsungcloudsolution.com
+ad-bl.geoproximity.staging.rpay.roku.com
+ad-bl.prod.rpay.int.roku.com
+ad-bl.usw2.staging.rpay.int.roku.com
+ad-eng-bl.geoproximity.staging.rpay.roku.com
+ad-eng-bl.use1.prod.rpay.int.roku.com
+ad-eng-bl.usw2.prod.rpay.int.roku.com
+ad-eng-pci-bl.geoproximity.rpay.roku.com
+ad-eng-pci-bl.geoproximity.staging.rpay.roku.com
+ad-eng-pci-bl.prod.rpay.int.roku.com
+ad-eng-pci-bl.use1.prod.rpay.int.roku.com
+ad-eng-pci-bl.usw2.prod.rpay.int.roku.com
+ad-eng-pci.prod.rpay.int.roku.com
+ad-eng.prod.rpay.int.roku.com
+ad-eng.staging.rpay.int.roku.com
 ad.71i.de
 ad.lgappstv.com
 ad.lgsmartad.com
 ad.nettvservices.com
+ad.prod.rpay.int.roku.com
+ad.qa.ap.int.roku.com
+ad.staging.rpay.int.roku.com
 ad.sxp.smartclip.net
+ad.usw2.qa.ap.int.roku.com
+adeng-identity-prod3.bdp.roku.com
+adeng-looker-bi-oneview-prod-1001.bdp.roku.com
+adeng-looker-dev-1001.bdp.roku.com
+adeng-looker-dev-1003.bdp.roku.com
 adgrx.com
+adi-airflow.bdp.roku.com
+ads-aka-us-east-1.delivery.roku.com
+ads-aka-us-west-2.delivery.roku.com
+ads-cf-us-east-1.delivery.roku.com
+ads-cf-us-east-1.dev.delivery.roku.com
+ads-cf-us-west-2.delivery.roku.com
+ads-us-east-1.delivery.roku.com
+ads-us-east-2.delivery.roku.com
+ads-us-west-2.delivery.roku.com
+ads.beta.roku.com
+ads.gcp.roku.com
 ads.lgtvcommon.com
 ads.roku.com
 ads.samsung.com
 ads.samsungads.com
 ads.spotx.tv
+ads.staging.roku.com
+adservices.roku.com
 adv.ettoday.net
+advertising-qa.us-east-1.dev.msc.roku.com
+advertising-v3-qa.us-east-1.dev.msc.roku.com
+advertising-v3.roku.com
+advertising-v3.us-east-1.msc.roku.com
 advertising.com
+advertising.qa.us-east-1.dev.msc.roku.com
+advertising.roku.com
+advertising.us-east-1.msc.roku.com
 ae-ad-lgsmartad-com.aws-prd.net
 ae.lgsmartad.com
 af-ad-lgsmartad-com.aws-prd.net
@@ -47,6 +93,7 @@ amauthprd.samsungcloudsolution.com
 amazonadsi-a.akamaihd.net
 amoeba.web.roku.com
 an.lgsmartad.com
+analytics.roku.com
 androidtvchannels-pa.googleapis.com
 androidtvwatsonfe-pa.googleapis.com
 ao-ad-lgsmartad-com.aws-prd.net
@@ -62,6 +109,7 @@ api.distribution.hulu.com
 api.thetake.com
 ar-ad-lgsmartad-com.aws-prd.net
 ar.lgsmartad.com
+assets.sr.roku.com
 at-ad-lgsmartad-com.aws-prd.net
 at.lgsmartad.com
 au-ad-lgsmartad-com.aws-prd.net
@@ -94,6 +142,10 @@ bh.lgsmartad.com
 bif.sr.roku.com
 bj-ad-lgsmartad-com.aws-prd.net
 bj.lgsmartad.com
+blog-advertising-qa.us-east-1.dev.msc.roku.com
+blog-advertising-v2-qa.us-east-1.dev.msc.roku.com
+blog-advertising-v2.us-east-1.msc.roku.com
+blog-advertising.msc.roku.com
 bn-ad-lgsmartad-com.aws-prd.net
 bo-ad-lgsmartad-com.aws-prd.net
 bo.lgsmartad.com
@@ -239,6 +291,7 @@ gt.lgsmartad.com
 gy-ad-lgsmartad-com.aws-prd.net
 gy.lgsmartad.com
 h4g3z1-native.lgwebos.web.app
+h4g3z1-native.roku.web.app
 hbbtv-1.eurosport.com
 hbbtv-extern-fe01.sim-technik.de
 hbbtv-track.redbutton.de
@@ -278,6 +331,7 @@ is-ad-lgsmartad-com.aws-prd.net
 is.lgsmartad.com
 it-ad-lgsmartad-com.aws-prd.net
 it.lgsmartad.com
+item-tracking.dev.sr.roku.com
 jm-ad-lgsmartad-com.aws-prd.net
 jm.lgsmartad.com
 jo-ad-lgsmartad-com.aws-prd.net
@@ -317,7 +371,10 @@ log-1.samsungacr.com
 log-2.samsungacr.com
 log-config.samsungacr.com
 log.internetat.tv
+logs.dev.sr.roku.com
+logs.qa.ap.int.roku.com
 logs.roku.com
+logs.sr.roku.com
 logs1409.xiti.com
 lr.lgsmartad.com
 ls-ad-lgsmartad-com.aws-prd.net
@@ -406,6 +463,8 @@ pg-ad-lgsmartad-com.aws-prd.net
 ph-ad-lgsmartad-com.aws-prd.net
 ph.lgsmartad.com
 pipeaota.com
+pixel.staging.web.roku.com
+pixel.web.roku.com
 pk-ad-lgsmartad-com.aws-prd.net
 pk.lgsmartad.com
 pl-ad-lgsmartad-com.aws-prd.net
@@ -427,6 +486,7 @@ qa-ad-lgsmartad-com.aws-prd.net
 qa.lgsmartad.com
 qt2-ngfts.lge.com
 qt2-ngfts.lge.com.edgekey.net
+ravm-staging.data.roku.com
 ravm.tv
 rdl.lgtvcommon.com
 rdx2.lgtvsdp.com
@@ -436,6 +496,7 @@ redbutton-lb-prod.redbutton.de
 redbutton.sim-technik.de
 ro-ad-lgsmartad-com.aws-prd.net
 ro.lgsmartad.com
+roku.adsmeasurement.com
 roku.com
 rs-ad-lgsmartad-com.aws-prd.net
 rs.lgsmartad.com
@@ -447,6 +508,7 @@ rw.lgsmartad.com
 rwww.samsungotn.net
 sa-ad-lgsmartad-com.aws-prd.net
 sa.lgsmartad.com
+samples.voice.cti.roku.com
 samsungacr.com
 samsungadhub.com
 samsungads.com
@@ -506,6 +568,9 @@ tn-ad-lgsmartad-com.aws-prd.net
 tn.lgsmartad.com
 tr-ad-lgsmartad-com.aws-prd.net
 tr.lgsmartad.com
+traces-us-east-1.dev.sr.roku.com
+traces-us-west-2.dev.sr.roku.com
+traces.dev.sr.roku.com
 traces.sr.roku.com
 track.sr.roku.com
 tracking.intl.miui.com
@@ -538,6 +603,8 @@ us.info.lgsmartad.com
 us.lgsmartad.com
 us.lgtvsdp.com
 us.rdx2.lgtvsdp.com
+userdata.dev.sr.roku.com
+userdata.sr.roku.com
 uy-ad-lgsmartad-com.aws-prd.net
 uy.lgsmartad.com
 uz-ad-lgsmartad-com.aws-prd.net
@@ -555,6 +622,8 @@ vn-ad-lgsmartad-com.aws-prd.net
 vn.lgsmartad.com
 vu-ad-lgsmartad-com.aws-prd.net
 wiseconfig.lgtvcommon.com
+wwwimg.roku.com
+wwwimg.staging.roku.com
 xml.opera.com
 ye-ad-lgsmartad-com.aws-prd.net
 ye.lgsmartad.com

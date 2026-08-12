@@ -1,6 +1,0 @@
-# BlackRabbitZ DNS Blocklists
-# Extended list: Native Tracker – Geräte & Dienste — Xiaomi
-# Status: Placeholder; generated automatically by scripts/update-special-lists.py
-# Derived upstream: HaGeZi DNS Blocklists archive (GPL-3.0); modified/reorganized by BlackRabbitZ 2026-08-12
-# Attribution and upstream notices: THIRD_PARTY.md
-# Do not use this placeholder as a production list before the first successful extended-list build.
