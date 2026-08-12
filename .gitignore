@@ -1,2 +1,16 @@
 .DS_Store
 Thumbs.db
+
+# Python cache / local tooling
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local editor / environment noise
+.vscode/
+.idea/
+.env
+.venv/
+venv/

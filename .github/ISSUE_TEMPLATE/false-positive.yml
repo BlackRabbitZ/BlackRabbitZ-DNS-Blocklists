@@ -1,0 +1,69 @@
+name: False positive
+about: Report a domain that should not be blocked
+labels: ["false-positive"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a possible false positive. Please provide enough detail to reproduce the breakage.
+
+  - type: input
+    id: domain
+    attributes:
+      label: Affected domain
+      placeholder: example.com
+    validations:
+      required: true
+
+  - type: input
+    id: list
+    attributes:
+      label: BlackRabbitZ list or profile
+      placeholder: balanced, strict, security-part-01, telemetry, gaming-telemetry...
+    validations:
+      required: true
+
+  - type: input
+    id: service
+    attributes:
+      label: Website, app, game or device
+      placeholder: Service or product name
+    validations:
+      required: true
+
+  - type: textarea
+    id: impact
+    attributes:
+      label: What breaks when the domain is blocked?
+      placeholder: Describe the exact behavior.
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Reproduction steps
+      placeholder: |
+        1. Enable the list
+        2. Open ...
+        3. Observe ...
+    validations:
+      required: true
+
+  - type: dropdown
+    id: resolver
+    attributes:
+      label: DNS blocker
+      options:
+        - Pi-hole
+        - AdGuard Home
+        - Technitium
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Optional evidence
+      description: Pi-hole query-log details, browser console/network observations or other non-sensitive evidence.

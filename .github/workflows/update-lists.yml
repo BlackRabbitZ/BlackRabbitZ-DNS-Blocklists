@@ -6,10 +6,14 @@ on:
       - main
     paths:
       - 'lists/categories/**'
-      - 'README.md'
+      - 'config/profiles.json'
       - 'scripts/update-lists.sh'
       - 'scripts/split-ultimate.py'
       - 'scripts/update-ultimate-readme.py'
+      - 'scripts/publish-profile.py'
+      - 'scripts/generate-metadata.py'
+      - 'scripts/update-readme.py'
+      - 'scripts/validate-generated.py'
       - '.github/workflows/update-lists.yml'
   workflow_dispatch:
 
@@ -22,16 +26,22 @@ concurrency:
 
 jobs:
   update:
+    if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
     timeout-minutes: 90
-
     steps:
       - name: Check out repository
         uses: actions/checkout@v7
         with:
           fetch-depth: 0
 
-      - name: Rebuild combined lists and counts
+      - name: Validate profile configuration
+        run: python3 -m json.tool config/profiles.json >/dev/null
+
+      - name: Remove Python cache artifacts
+        run: find . -type d -name __pycache__ -prune -exec rm -rf {} +
+
+      - name: Rebuild profiles, parts, metadata and README
         shell: bash
         run: bash ./scripts/update-lists.sh
 
@@ -48,6 +58,6 @@ jobs:
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md lists/categories lists/combined
-          git commit -m "chore: update blocklists and entry counts"
+          git add -A
+          git commit -m "chore: update blocklists and generated metadata"
           git push

@@ -1,0 +1,13 @@
+* text=auto
+*.md text eol=lf
+*.json text eol=lf
+*.py text eol=lf
+*.sh text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.txt text eol=lf
+
+# Combined profiles and machine-generated metadata are build outputs.
+lists/combined/*.txt linguist-generated=true
+metadata/build.json linguist-generated=true
+metadata/SHA256SUMS linguist-generated=true

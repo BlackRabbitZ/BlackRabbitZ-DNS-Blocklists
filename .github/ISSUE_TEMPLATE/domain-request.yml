@@ -1,0 +1,45 @@
+name: Domain request
+about: Propose a domain for an existing BlackRabbitZ category
+labels: ["domain-request"]
+body:
+  - type: input
+    id: domain
+    attributes:
+      label: Domain
+      placeholder: telemetry.example.com
+    validations:
+      required: true
+
+  - type: input
+    id: category
+    attributes:
+      label: Proposed category
+      placeholder: telemetry, ads, phishing, gaming-telemetry...
+    validations:
+      required: true
+
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Why should this domain be blocked?
+      description: Explain what the domain does and why the proposed category is appropriate.
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence / references
+      description: Provide independent technical evidence where possible. Do not paste bulk third-party blocklists.
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Submission checks
+      options:
+        - label: I checked that the domain is not already present in the relevant BlackRabbitZ category.
+          required: true
+        - label: I am proposing specific domains, not bulk-copying another maintained blocklist.
+          required: true

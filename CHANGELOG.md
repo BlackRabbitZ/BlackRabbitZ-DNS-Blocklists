@@ -1,5 +1,25 @@
 # Changelog
 
+## 3.0.0 - 2026-08-12
+
+- Replaced Ultimate-only split logic with a generic profile publisher driven by `config/profiles.json`.
+- Added deterministic 5 MiB `*-part-NN.txt` output for Security, Family and Ultimate.
+- Renamed Ultimate parts from `ultimate-N.txt` to zero-padded `ultimate-part-NN.txt`.
+- Split the previously single-file Security and Family profiles into size-bounded parts.
+- Removed Affiliate Tracking from Balanced and kept it in Strict/Ultimate to reduce avoidable referral/link breakage for the recommended profile.
+- Removed Consent/CMP from Ultimate and kept it as an explicit optional category because DNS-level CMP blocking has elevated website-breakage risk.
+- Repositioned Security and Family as optional protection modules rather than sequential privacy tiers in the README.
+- Added `metadata/build.json` with machine-readable profile/category counts, part information, sizes and SHA-256 hashes.
+- Added `metadata/SHA256SUMS` generation.
+- Added generated-profile validation for global sort order, duplicates, part-size limits and metadata consistency.
+- Added `.gitattributes` rules for generated combined profiles and metadata.
+- Added structured GitHub issue forms for false positives, domain requests and upstream-source proposals.
+- Expanded contributing and automatic-update documentation.
+
+### Migration note
+
+The first v3 rebuild removes the previous generated URLs `lists/combined/security.txt`, `lists/combined/family.txt` and `lists/combined/ultimate-N.txt`. Replace existing subscriptions with **all** new `*-part-NN.txt` Raw URLs shown in the README.
+
 ## 2.1.1 - 2026-08-12
 
 - Replaced the single large `lists/combined/ultimate.txt` with automatically generated `ultimate-N.txt` parts.

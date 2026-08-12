@@ -8,6 +8,7 @@ ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 cd "$ROOT_DIR"
 
 REPO_URL="https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists"
+PROFILE_CONFIG="config/profiles.json"
 
 count_entries() {
   local file="$1"
@@ -23,24 +24,13 @@ update_entries_header() {
   local count="$2"
   local tmp
   tmp="$(mktemp)"
-
   awk -v count="$count" '
-    BEGIN { updated = 0 }
     /^# Entries:/ {
       print "# Entries: " count
-      updated = 1
       next
     }
     { print }
-    END {
-      if (!updated) {
-        # Existing project category files have a standard header. New files
-        # should use that header as well; this branch intentionally does not
-        # inject metadata into an arbitrary file layout.
-      }
-    }
   ' "$file" > "$tmp"
-
   mv "$tmp" "$file"
 }
 
@@ -68,8 +58,12 @@ write_category_header_if_missing() {
   mv "$tmp" "$file"
 }
 
-# Keep all category-file entry headers synchronized with the actual unique
-# non-comment entries. Category content itself is never regenerated here.
+if [[ ! -f "$PROFILE_CONFIG" ]]; then
+  echo "Missing profile configuration: $PROFILE_CONFIG" >&2
+  exit 1
+fi
+
+# Keep category-file entry headers synchronized with actual unique non-comment entries.
 for file in lists/categories/*.txt; do
   category="$(basename "$file" .txt)"
   count="$(count_entries "$file")"
@@ -77,19 +71,22 @@ for file in lists/categories/*.txt; do
   update_entries_header "$file" "$count"
 done
 
-build_combined() {
+build_profile() {
   local profile="$1"
-  shift
-  local categories=("$@")
-  local out="lists/combined/${profile}.txt"
+  local split="$2"
+  local max_bytes="$3"
+  local categories_csv="$4"
   local tmp_domains
   tmp_domains="$(mktemp)"
-
   : > "$tmp_domains"
+
+  local categories=()
+  IFS=',' read -r -a categories <<< "$categories_csv"
+
   for category in "${categories[@]}"; do
     local src="lists/categories/${category}.txt"
     if [[ ! -f "$src" ]]; then
-      echo "Missing category file: $src" >&2
+      echo "Missing category file required by profile '$profile': $src" >&2
       rm -f "$tmp_domains"
       exit 1
     fi
@@ -97,86 +94,47 @@ build_combined() {
   done
 
   sort -u "$tmp_domains" -o "$tmp_domains"
-  local count
-  count="$(wc -l < "$tmp_domains" | tr -d '[:space:]')"
+
   local includes
-  includes="$(printf '%s, ' "${categories[@]}")"
-  includes="${includes%, }"
+  includes="$(IFS=', '; echo "${categories[*]}")"
 
-  {
-    echo "# BlackRabbitZ DNS Blocklists"
-    echo "# Category: combined/$profile"
-    echo "# Author: BlackRabbitZ"
-    echo "# Repository: $REPO_URL"
-    echo "# License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md"
-    echo "# Entries: $count"
-    echo "#"
-    echo "# Includes: $includes"
-    echo "#"
-    cat "$tmp_domains"
-  } > "$out"
-
-  rm -f "$tmp_domains"
-}
-
-# Profile definitions. These arrays are the single source of truth for which
-# category lists feed each published combined profile.
-build_combined light \
-  ads
-
-build_combined balanced \
-  ads trackers social-trackers affiliate-tracking
-
-build_combined strict \
-  ads trackers social-trackers affiliate-tracking \
-  telemetry windows-telemetry apple-telemetry android-telemetry \
-  linux-telemetry nas-telemetry server-telemetry \
-  mobile-tracking native-tracking smart-tv iot
-
-build_combined security \
-  malware phishing scam fake-shops cryptomining
-
-build_combined family \
-  ads trackers social-trackers adult gambling
-
-build_ultimate_split() {
-  local categories=(
-    ads trackers telemetry gaming-telemetry windows-telemetry apple-telemetry android-telemetry
-    linux-telemetry nas-telemetry server-telemetry
-    smart-tv iot mobile-tracking social-trackers native-tracking
-    phishing malware scam cryptomining fake-shops adult gambling
-    consent-cmp affiliate-tracking
-  )
-  local tmp_domains
-  tmp_domains="$(mktemp)"
-
-  : > "$tmp_domains"
-  for category in "${categories[@]}"; do
-    local src="lists/categories/${category}.txt"
-    if [[ ! -f "$src" ]]; then
-      echo "Missing category file: $src" >&2
-      rm -f "$tmp_domains"
-      exit 1
-    fi
-    { grep -Ev '^[[:space:]]*(#|$)' "$src" || true; } | sed 's/\r$//' >> "$tmp_domains"
-  done
-
-  sort -u "$tmp_domains" -o "$tmp_domains"
-  local includes
-  includes="$(printf '%s, ' "${categories[@]}")"
-  includes="${includes%, }"
-
-  python3 ./scripts/split-ultimate.py \
-    "$tmp_domains" \
-    --output-dir lists/combined \
-    --max-bytes $((40 * 1024 * 1024)) \
-    --repo-url "$REPO_URL" \
+  local args=(
+    "$tmp_domains"
+    --profile "$profile"
+    --output-dir lists/combined
+    --max-bytes "$max_bytes"
+    --repo-url "$REPO_URL"
     --includes "$includes"
+  )
+  if [[ "$split" == "true" ]]; then
+    args+=(--split)
+  fi
 
+  python3 ./scripts/publish-profile.py "${args[@]}"
   rm -f "$tmp_domains"
 }
 
-build_ultimate_split
+# config/profiles.json is the single source of truth for profile composition,
+# display metadata and which large profiles are published as numbered parts.
+while IFS=$'\t' read -r profile split max_bytes categories_csv; do
+  build_profile "$profile" "$split" "$max_bytes" "$categories_csv"
+done < <(
+  python3 - "$PROFILE_CONFIG" <<'PY'
+import json
+import sys
+from pathlib import Path
+
+config = json.loads(Path(sys.argv[1]).read_text(encoding="utf-8"))
+max_bytes = int(config["split_max_bytes"])
+for name, profile in config["profiles"].items():
+    print("\t".join([
+        name,
+        "true" if profile.get("split") else "false",
+        str(max_bytes),
+        ",".join(profile["categories"]),
+    ]))
+PY
+)
 
 check_github_file_sizes() {
   local warn_bytes=$((50 * 1024 * 1024))
@@ -200,57 +158,8 @@ check_github_file_sizes() {
 }
 
 check_github_file_sizes
+python3 ./scripts/generate-metadata.py
+python3 ./scripts/update-readme.py
+python3 ./scripts/validate-generated.py
 
-update_readme_count() {
-  local path="$1"
-  local value="$2"
-  local tmp
-  tmp="$(mktemp)"
-
-  local column=3
-  if [[ "$path" == lists/combined/* ]]; then
-    column=4
-  fi
-
-  awk -v target="[View]($path)" -v value="$value" -v column="$column" '
-    index($0, target) && $0 ~ /^\|/ {
-      n = split($0, field, "|")
-      if (n >= column) {
-        field[column] = " " value " "
-        line = field[1]
-        for (i = 2; i <= n; i++) {
-          line = line "|" field[i]
-        }
-        print line
-        next
-      }
-    }
-    { print }
-  ' README.md > "$tmp"
-
-  mv "$tmp" README.md
-}
-
-# Update every README table row that links to a category or combined list.
-for file in lists/categories/*.txt; do
-  count="$(count_entries "$file")"
-  update_readme_count "$file" "$count"
-done
-
-for file in lists/combined/*.txt; do
-  # Ultimate parts use a custom two-column collapsible README block and are
-  # updated exclusively by update-ultimate-readme.py below. Skipping them
-  # here prevents the generic table updater from adding stray columns.
-  if [[ "$(basename "$file")" =~ ^ultimate-[0-9]+\.txt$ ]]; then
-    continue
-  fi
-
-  count="$(count_entries "$file")"
-  update_readme_count "$file" "**$count**"
-done
-
-# Ultimate is intentionally split into multiple size-bounded files. Keep the
-# aggregate count and the per-part View/Raw links synchronized in README.md.
-python3 ./scripts/update-ultimate-readme.py
-
-echo "Blocklists, combined profiles, split Ultimate parts and README entry counts are synchronized."
+echo "Blocklists, combined profiles, split parts, metadata, checksums and README are synchronized."

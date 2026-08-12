@@ -1,11 +1,11 @@
 # Automatic upstream updates
 
-BlackRabbitZ can update selected category lists automatically with GitHub Actions.
+BlackRabbitZ updates selected category lists and regenerates published profiles with GitHub Actions.
 
 ## Workflows
 
 - `.github/workflows/daily-upstream-update.yml` runs every day at **03:17 UTC** and can also be started manually.
-- `.github/workflows/update-lists.yml` keeps combined profiles and README counts synchronized after manual category edits.
+- `.github/workflows/update-lists.yml` keeps combined profiles, split parts, metadata, checksums and README values synchronized after category, profile-config or build-script changes.
 
 ## Daily update flow
 
@@ -13,27 +13,96 @@ BlackRabbitZ can update selected category lists automatically with GitHub Action
 2. Upstream feeds are downloaded over HTTPS with retries, timeouts and a maximum download size.
 3. Hosts, plain-domain, URL, AdGuard/ABP and wildcard-style entries are normalized to one-domain-per-line format.
 4. Invalid values, IP addresses, duplicates and domains covered by `config/allowlist.txt` are ignored.
-5. New domains are merged **additively** into the existing category files. Existing entries are never deleted by the automatic importer.
+5. New domains are merged **additively** into the existing category files. Existing entries are never silently deleted by the automatic importer.
 6. Per-source minimum sizes reject suspiciously empty downloads.
 7. Per-category growth guards reject implausibly large one-run additions.
-8. `scripts/update-lists.sh` rebuilds all combined profiles, updates entry counts and enforces GitHub file-size limits.
-9. If the generated repository changed and all checks passed, GitHub Actions commits the result to `main`.
+8. `scripts/update-lists.sh` reads `config/profiles.json`, merges the required categories and sorts/deduplicates every combined profile.
+9. `scripts/publish-profile.py` publishes Light/Balanced/Strict as single files and large configured profiles as deterministic size-bounded parts.
+10. `scripts/generate-metadata.py` creates `metadata/build.json` and `metadata/SHA256SUMS`.
+11. `scripts/update-readme.py` synchronizes profile tables, part links, comparison data and category counts.
+12. `scripts/validate-generated.py` verifies generated profile ordering, uniqueness, part-size limits and metadata consistency.
+13. If the generated repository changed and all checks passed, GitHub Actions commits the result to `main`.
+
+## Profile configuration
+
+`config/profiles.json` is the single source of truth for:
+
+- which categories belong to each combined profile;
+- whether a profile is shown as a main privacy tier or optional module;
+- whether a profile is always published as numbered parts;
+- the maximum generated part size;
+- README labels, recommendations and breakage indicators;
+- the protection-comparison matrix.
+
+This removes profile composition from shell-code branches and prevents README/configuration drift.
+
+### Current profile policy
+
+- **Light**: Ads only.
+- **Balanced**: Ads + general trackers + social trackers. Affiliate/referral blocking is deliberately excluded to reduce avoidable breakage.
+- **Strict**: Adds affiliate tracking, telemetry, platform/device telemetry and native/app tracking.
+- **Security**: Security-focused add-on with malware, phishing, scam, fake-shop and cryptomining categories.
+- **Family**: Family add-on with advertising/tracking plus adult and gambling filtering.
+- **Ultimate**: Aggressive all-in-one protection. Consent/CMP is deliberately kept separate because DNS-level CMP blocking can break website consent flows and page functionality.
+
+## Large-profile splitting
+
+Profiles marked with `"split": true` are always published as numbered parts. This avoids URL layouts changing back and forth when a list temporarily grows or shrinks.
+
+Current split profiles:
+
+- `security-part-01.txt`, `security-part-02.txt`, ...
+- `family-part-01.txt`, `family-part-02.txt`, ...
+- `ultimate-part-01.txt`, `ultimate-part-02.txt`, ...
+
+Each generated part targets a maximum of **5 MiB** (`5242880` bytes including its header). Part numbering is zero-padded so file ordering remains stable when a profile grows beyond nine parts.
+
+For complete coverage, DNS blockers must subscribe to **all parts** shown in the README for that profile.
+
+### Migration from the old layout
+
+The v3 layout replaces these previous generated outputs:
+
+- `lists/combined/security.txt`
+- `lists/combined/family.txt`
+- `lists/combined/ultimate-1.txt`, `ultimate-2.txt`, ...
+
+with size-bounded `*-part-NN.txt` files. Existing Pi-hole subscriptions using the old URLs must be replaced with all new Raw URLs listed in the README after the first v3 rebuild.
+
+## Generated metadata and checksums
+
+`metadata/build.json` provides machine-readable information for every category and combined profile, including:
+
+- entry counts;
+- file names;
+- part count;
+- byte size;
+- SHA-256 hash;
+- included categories.
+
+`metadata/SHA256SUMS` contains a standard checksum list for all category and combined profile files.
+
+Both files are deterministic: rebuilding unchanged input should not create a timestamp-only diff.
 
 ## Categories updated from upstreams
 
 The source matrix currently covers Ads, Trackers, Telemetry-derived subsets, Windows/Apple/Android native telemetry, Native Tracking, Smart TV, IoT, Cryptomining, Malware, Phishing, Scam, Fake Shops, Adult and Gambling.
 
-`linux-telemetry.txt`, `nas-telemetry.txt` and `server-telemetry.txt` remain manually curated because there is no single trustworthy upstream feed that cleanly represents those vendor-specific telemetry endpoints.
+`gaming-telemetry.txt`, `gaming-telemetry-aggressive.txt`, `linux-telemetry.txt`, `nas-telemetry.txt` and `server-telemetry.txt` can remain manually curated when no single trustworthy general-purpose upstream cleanly represents those specialized endpoints.
 
 ## Safety behavior
 
-The importer is designed to fail safely:
+The importer/build pipeline is designed to fail safely:
 
-- If one upstream is unavailable, the last committed list remains intact.
+- If one upstream is unavailable, the last committed category remains intact.
 - If every source for a category fails, that category is left unchanged.
 - If a feed suddenly returns far fewer entries than its configured minimum, it is rejected.
 - If newly imported data exceeds the configured one-run growth limit, the workflow exits before committing anything.
-- If a generated list exceeds GitHub's regular-file size limit, `update-lists.sh` fails before the automatic commit.
+- Missing category files referenced by a profile cause the build to fail.
+- Split parts larger than the configured part limit cause validation to fail.
+- Duplicate or out-of-order domains across generated profile parts cause validation to fail.
+- Metadata entry-count mismatches cause validation to fail.
+- Any regular Git file over GitHub's 100 MiB hard limit causes the build to fail before commit.
 
 ## Adding or removing an upstream
 
@@ -53,6 +122,22 @@ python3 scripts/update-upstreams.py --dry-run
 bash scripts/update-lists.sh
 ```
 
+## Changing a profile
+
+Edit:
+
+```text
+config/profiles.json
+```
+
+Do not manually edit files under `lists/combined/`, `metadata/build.json` or `metadata/SHA256SUMS`; they are generated outputs.
+
+Run:
+
+```bash
+bash scripts/update-lists.sh
+```
+
 ## False-positive safety allowlist
 
 Add critical domains to:
@@ -67,19 +152,6 @@ An allowlisted domain and its subdomains are excluded from **new automatic impor
 
 The workflows need permission to push their generated changes. In GitHub, ensure the repository's Actions workflow permissions allow write access to repository contents. Branch protection rules must also permit the workflow/bot to update `main`, or the automatic commit will fail.
 
-## Split Ultimate profile
-
-The `Ultimate` profile is generated as multiple size-bounded files instead of one very large `ultimate.txt`.
-
-- `scripts/update-lists.sh` merges and deduplicates the Ultimate categories.
-- `scripts/split-ultimate.py` writes `lists/combined/ultimate-1.txt`, `ultimate-2.txt`, and additional numbered parts as needed.
-- Each part targets a maximum size of **40 MiB**.
-- Old numbered parts are removed automatically before regeneration.
-- `scripts/update-ultimate-readme.py` updates the aggregate Ultimate entry count and rebuilds the README table of Part/View/Raw links.
-- For complete Ultimate coverage, DNS blockers must subscribe to **all** numbered Ultimate Raw URLs shown in the README.
-
-This avoids a single Ultimate file approaching GitHub's normal per-file hard limit while keeping the split deterministic and fully automatic.
-
 ## Android first-import guard
 
-`android-telemetry` intentionally permits a larger first-run growth than the global default because the configured HaGeZi Huawei/Xiaomi/Oppo-Realme/Vivo native-tracking sources can add more than 1,000 valid domains at once. The category is capped at 5,000 new domains per run and still remains protected by the growth guard.
+`android-telemetry` intentionally permits a larger first-run growth than the global default because configured Huawei/Xiaomi/Oppo-Realme/Vivo native-tracking sources can add more than 1,000 valid domains at once. The category remains protected by its configured growth guard.
