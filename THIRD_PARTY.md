@@ -39,15 +39,16 @@ Maßgeblich bleiben die jeweiligen Upstream-Projekte. Deren Daten können sich h
 
 ## HaGeZi-Upstream-Daten für erweiterte Funktionslisten
 
-BlackRabbitZ kann zusätzliche HaGeZi-Listen importieren und **nach Funktion in bestehende BlackRabbitZ-Bereiche einsortieren**. Die ursprünglichen Listen wurden unter GPL-3.0 veröffentlicht.
+BlackRabbitZ nutzt für die DNS-Blocklisten den HaGeZi-GitLab-Mirror als primäre technische Downloadquelle.
 
+- GitLab-Mirror: `https://gitlab.com/hagezi/mirror/-/tree/main/dns-blocklists`
 - Originalprojekt: `https://github.com/hagezi/dns-blocklists`
+- Lizenz: GPL-3.0
 - Build-Konfiguration: `config/special-lists.json`
-- Funktional einsortierte Domainlisten: `lists/categories/`
-- Erzeugte IPv4-Listen: `lists/ips/`
-- Maschinenlesbare Herkunft/Prüfsummen: `metadata/special-lists.json`
+- Funktional integrierte Domainlisten: `lists/categories/`
+- Maschinenlesbare Metadaten: `metadata/special-lists.json`
 
-Die Build-Konfiguration verwendet direkte Live-/CDN-/Raw-Quellen und **keine Archiv-Adresse als Updatequelle**. Ist der Upstream vorübergehend nicht erreichbar, wird die betroffene Quelle für diesen Lauf übersprungen und vorhandenes Material beibehalten. Der restliche BlackRabbitZ-Build läuft weiter.
+Die Daten werden in BlackRabbitZ normalisiert, dedupliziert, mit der Allowlist abgeglichen und nach Funktion in bestehende Kategorien integriert. Die Herkunft und Lizenz des ursprünglichen HaGeZi-Projekts bleiben dokumentiert. Temporäre Quellenausfälle stoppen den übrigen BlackRabbitZ-Build nicht.
 
 ## Abgeleitete Teilmengen
 

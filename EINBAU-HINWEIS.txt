@@ -1,0 +1,18 @@
+BLACKRABBITZ v3.3.6 – GITLAB-MIRROR
+
+1. ZIP entpacken.
+2. Den Inhalt direkt in die Root deines BlackRabbitZ-DNS-Blocklists-Repositories kopieren.
+3. Vorhandene Dateien ersetzen.
+4. Commit + Push origin.
+5. GitHub Action "Update blocklists" durchlaufen lassen.
+6. Danach "Fetch origin" in GitHub Desktop.
+
+Ergebnis:
+- 32 HaGeZi-DNS-Blocklisten kommen direkt vom GitLab-Mirror.
+- Überlappende Daten werden in deine bestehenden BlackRabbitZ-Listen gemergt.
+- Keine zusätzlichen doppelten Native-Tracker-/Fake-/NSFW-/Popup-/Gambling-Full-Listen.
+- Temporäre Quellenausfälle stoppen den übrigen Build nicht.
+- Große Profile bleiben auf max. 50 MiB pro Part begrenzt.
+
+Hinweis:
+NRD/DGA liegt nicht im angegebenen dns-blocklists-Mirrorpfad und bleibt deshalb separat.

@@ -1,8 +1,8 @@
 {
-  "version": 2,
+  "version": 3,
   "split_max_bytes": 52428800,
-  "source_family": "HaGeZi DNS Blocklists (optional live upstream; functionally integrated into BlackRabbitZ)",
-  "source_repository": "https://github.com/hagezi/dns-blocklists",
+  "source_family": "HaGeZi DNS Blocklists via GitLab mirror (optional upstream; functionally integrated into BlackRabbitZ)",
+  "source_repository": "https://gitlab.com/hagezi/mirror/-/tree/main/dns-blocklists",
   "license": "GPL-3.0",
   "items": [
     {
@@ -22,9 +22,10 @@
           "label_en": "Full",
           "kind": "domains",
           "min_entries": 10000,
-          "source_url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/fake-onlydomains.txt",
+          "source_url": "https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/wildcard/fake-onlydomains.txt",
           "merge_into": "scam",
-          "publish": false
+          "publish": false,
+          "source_origin": "HaGeZi GitLab mirror / dns-blocklists"
         }
       ],
       "readme_section": "security",
@@ -48,9 +49,10 @@
           "label_en": "Full",
           "kind": "domains",
           "min_entries": 30000,
-          "source_url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/popupads-onlydomains.txt",
+          "source_url": "https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/wildcard/popupads-onlydomains.txt",
           "merge_into": "ads",
-          "publish": false
+          "publish": false,
+          "source_origin": "HaGeZi GitLab mirror / dns-blocklists"
         }
       ],
       "readme_section": "ads_tracking",
@@ -74,8 +76,9 @@
           "label_en": "Full",
           "kind": "domains",
           "min_entries": 1500000,
-          "source_url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/tif-onlydomains.txt",
-          "publish": true
+          "source_url": "https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/wildcard/tif-onlydomains.txt",
+          "publish": true,
+          "source_origin": "HaGeZi GitLab mirror / dns-blocklists"
         },
         {
           "id": "threat-intelligence-medium",
@@ -83,8 +86,9 @@
           "label_en": "Medium",
           "kind": "domains",
           "min_entries": 250000,
-          "source_url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/tif.medium-onlydomains.txt",
-          "publish": true
+          "source_url": "https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/wildcard/tif.medium-onlydomains.txt",
+          "publish": true,
+          "source_origin": "HaGeZi GitLab mirror / dns-blocklists"
         },
         {
           "id": "threat-intelligence-mini",
@@ -92,8 +96,9 @@
           "label_en": "Mini",
           "kind": "domains",
           "min_entries": 100000,
-          "source_url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/tif.mini-onlydomains.txt",
-          "publish": true
+          "source_url": "https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/wildcard/tif.mini-onlydomains.txt",
+          "publish": true,
+          "source_origin": "HaGeZi GitLab mirror / dns-blocklists"
         },
         {
           "id": "threat-intelligence-ipv4",
@@ -101,8 +106,9 @@
           "label_en": "IPv4",
           "kind": "ipv4",
           "min_entries": 1000,
-          "source_url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/ips/tif.txt",
-          "publish": true
+          "source_url": "https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/ips/tif.txt",
+          "publish": true,
+          "source_origin": "HaGeZi GitLab mirror / dns-blocklists"
         }
       ],
       "readme_section": "security",
@@ -127,7 +133,8 @@
           "heavy": true,
           "min_entries": 1000000,
           "source_url": "https://raw.githubusercontent.com/hagezi/nrd/main/domains/nrd7.txt",
-          "publish": true
+          "publish": true,
+          "source_origin": "HaGeZi NRD repository (separate upstream)"
         },
         {
           "id": "nrd-08-14",
@@ -137,7 +144,8 @@
           "heavy": true,
           "min_entries": 1000000,
           "source_url": "https://raw.githubusercontent.com/hagezi/nrd/main/domains/nrd14-8.txt",
-          "publish": true
+          "publish": true,
+          "source_origin": "HaGeZi NRD repository (separate upstream)"
         },
         {
           "id": "nrd-15-21",
@@ -147,7 +155,8 @@
           "heavy": true,
           "min_entries": 1000000,
           "source_url": "https://raw.githubusercontent.com/hagezi/nrd/main/domains/nrd21-15.txt",
-          "publish": true
+          "publish": true,
+          "source_origin": "HaGeZi NRD repository (separate upstream)"
         },
         {
           "id": "nrd-22-28",
@@ -157,7 +166,8 @@
           "heavy": true,
           "min_entries": 1000000,
           "source_url": "https://raw.githubusercontent.com/hagezi/nrd/main/domains/nrd28-22.txt",
-          "publish": true
+          "publish": true,
+          "source_origin": "HaGeZi NRD repository (separate upstream)"
         },
         {
           "id": "nrd-29-35",
@@ -167,7 +177,8 @@
           "heavy": true,
           "min_entries": 1000000,
           "source_url": "https://raw.githubusercontent.com/hagezi/nrd/main/domains/nrd35-29.txt",
-          "publish": true
+          "publish": true,
+          "source_origin": "HaGeZi NRD repository (separate upstream)"
         },
         {
           "id": "dga-7",
@@ -177,7 +188,8 @@
           "heavy": true,
           "min_entries": 250000,
           "source_url": "https://raw.githubusercontent.com/hagezi/nrd/main/domains/dga7.txt",
-          "publish": true
+          "publish": true,
+          "source_origin": "HaGeZi NRD repository (separate upstream)"
         },
         {
           "id": "dga-14",
@@ -187,7 +199,8 @@
           "heavy": true,
           "min_entries": 600000,
           "source_url": "https://raw.githubusercontent.com/hagezi/nrd/main/domains/dga14.txt",
-          "publish": true
+          "publish": true,
+          "source_origin": "HaGeZi NRD repository (separate upstream)"
         },
         {
           "id": "dga-30",
@@ -197,7 +210,8 @@
           "heavy": true,
           "min_entries": 1200000,
           "source_url": "https://raw.githubusercontent.com/hagezi/nrd/main/domains/dga30.txt",
-          "publish": true
+          "publish": true,
+          "source_origin": "HaGeZi NRD repository (separate upstream)"
         }
       ],
       "readme_section": "security",
@@ -220,8 +234,9 @@
           "label_en": "Full",
           "kind": "domains",
           "min_entries": 10000,
-          "source_url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/doh-vpn-proxy-bypass-onlydomains.txt",
-          "publish": true
+          "source_url": "https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/wildcard/doh-vpn-proxy-bypass-onlydomains.txt",
+          "publish": true,
+          "source_origin": "HaGeZi GitLab mirror / dns-blocklists"
         },
         {
           "id": "doh-only",
@@ -229,8 +244,9 @@
           "label_en": "DoH only",
           "kind": "domains",
           "min_entries": 1000,
-          "source_url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/doh-onlydomains.txt",
-          "publish": true
+          "source_url": "https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/wildcard/doh-onlydomains.txt",
+          "publish": true,
+          "source_origin": "HaGeZi GitLab mirror / dns-blocklists"
         },
         {
           "id": "doh-ipv4",
@@ -238,8 +254,9 @@
           "label_en": "DoH IPv4",
           "kind": "ipv4",
           "min_entries": 100,
-          "source_url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/ips/doh.txt",
-          "publish": true
+          "source_url": "https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/ips/doh.txt",
+          "publish": true,
+          "source_origin": "HaGeZi GitLab mirror / dns-blocklists"
         }
       ],
       "readme_section": "network",
@@ -262,8 +279,9 @@
           "label_en": "Full",
           "kind": "domains",
           "min_entries": 100,
-          "source_url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/nosafesearch-onlydomains.txt",
-          "publish": true
+          "source_url": "https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/wildcard/nosafesearch-onlydomains.txt",
+          "publish": true,
+          "source_origin": "HaGeZi GitLab mirror / dns-blocklists"
         }
       ],
       "readme_section": "family"
@@ -285,8 +303,9 @@
           "label_en": "Full",
           "kind": "domains",
           "min_entries": 700,
-          "source_url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/dyndns-onlydomains.txt",
-          "publish": true
+          "source_url": "https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/wildcard/dyndns-onlydomains.txt",
+          "publish": true,
+          "source_origin": "HaGeZi GitLab mirror / dns-blocklists"
         }
       ],
       "readme_section": "security"
@@ -308,8 +327,9 @@
           "label_en": "Full",
           "kind": "domains",
           "min_entries": 700,
-          "source_url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/hoster-onlydomains.txt",
-          "publish": true
+          "source_url": "https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/wildcard/hoster-onlydomains.txt",
+          "publish": true,
+          "source_origin": "HaGeZi GitLab mirror / dns-blocklists"
         }
       ],
       "readme_section": "security"
@@ -331,8 +351,9 @@
           "label_en": "Full",
           "kind": "domains",
           "min_entries": 5000,
-          "source_url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/urlshortener-onlydomains.txt",
-          "publish": true
+          "source_url": "https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/wildcard/urlshortener-onlydomains.txt",
+          "publish": true,
+          "source_origin": "HaGeZi GitLab mirror / dns-blocklists"
         }
       ],
       "readme_section": "network"
@@ -354,8 +375,9 @@
           "label_en": "Pi-hole Adblock",
           "kind": "raw",
           "min_entries": 10,
-          "source_url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/spam-tlds-adblock.txt",
-          "publish": true
+          "source_url": "https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/spam-tlds-adblock.txt",
+          "publish": true,
+          "source_origin": "HaGeZi GitLab mirror / dns-blocklists"
         }
       ],
       "readme_section": "security"
@@ -392,8 +414,9 @@
           "label_en": "Full",
           "kind": "domains",
           "min_entries": 20000,
-          "source_url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/anti.piracy-onlydomains.txt",
-          "publish": true
+          "source_url": "https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/wildcard/anti.piracy-onlydomains.txt",
+          "publish": true,
+          "source_origin": "HaGeZi GitLab mirror / dns-blocklists"
         }
       ],
       "readme_section": "family"
@@ -415,9 +438,10 @@
           "label_en": "Full",
           "kind": "domains",
           "min_entries": 200000,
-          "source_url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/gambling-onlydomains.txt",
+          "source_url": "https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/wildcard/gambling-onlydomains.txt",
           "merge_into": "gambling",
-          "publish": false
+          "publish": false,
+          "source_origin": "HaGeZi GitLab mirror / dns-blocklists"
         },
         {
           "id": "gambling-medium",
@@ -425,8 +449,9 @@
           "label_en": "Medium",
           "kind": "domains",
           "min_entries": 80000,
-          "source_url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/gambling.medium-onlydomains.txt",
-          "publish": true
+          "source_url": "https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/wildcard/gambling.medium-onlydomains.txt",
+          "publish": true,
+          "source_origin": "HaGeZi GitLab mirror / dns-blocklists"
         },
         {
           "id": "gambling-mini",
@@ -434,8 +459,9 @@
           "label_en": "Mini",
           "kind": "domains",
           "min_entries": 40000,
-          "source_url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/gambling.mini-onlydomains.txt",
-          "publish": true
+          "source_url": "https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/wildcard/gambling.mini-onlydomains.txt",
+          "publish": true,
+          "source_origin": "HaGeZi GitLab mirror / dns-blocklists"
         }
       ],
       "readme_section": "family",
@@ -459,8 +485,9 @@
           "label_en": "Full",
           "kind": "domains",
           "min_entries": 500,
-          "source_url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/social-onlydomains.txt",
-          "publish": true
+          "source_url": "https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/wildcard/social-onlydomains.txt",
+          "publish": true,
+          "source_origin": "HaGeZi GitLab mirror / dns-blocklists"
         }
       ],
       "readme_section": "family"
@@ -482,9 +509,10 @@
           "label_en": "Full",
           "kind": "domains",
           "min_entries": 60000,
-          "source_url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/nsfw-onlydomains.txt",
+          "source_url": "https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/wildcard/nsfw-onlydomains.txt",
           "merge_into": "adult",
-          "publish": false
+          "publish": false,
+          "source_origin": "HaGeZi GitLab mirror / dns-blocklists"
         }
       ],
       "readme_section": "family",
@@ -508,9 +536,10 @@
           "label_en": "Amazon",
           "kind": "domains",
           "min_entries": 5,
-          "source_url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.amazon-onlydomains.txt",
+          "source_url": "https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/wildcard/native.amazon-onlydomains.txt",
           "merge_into": "iot",
-          "publish": false
+          "publish": false,
+          "source_origin": "HaGeZi GitLab mirror / dns-blocklists"
         },
         {
           "id": "native-tracker-apple",
@@ -518,9 +547,10 @@
           "label_en": "Apple",
           "kind": "domains",
           "min_entries": 5,
-          "source_url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.apple-onlydomains.txt",
+          "source_url": "https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/wildcard/native.apple-onlydomains.txt",
           "merge_into": "apple-telemetry",
-          "publish": false
+          "publish": false,
+          "source_origin": "HaGeZi GitLab mirror / dns-blocklists"
         },
         {
           "id": "native-tracker-huawei",
@@ -528,9 +558,10 @@
           "label_en": "Huawei",
           "kind": "domains",
           "min_entries": 5,
-          "source_url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.huawei-onlydomains.txt",
+          "source_url": "https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/wildcard/native.huawei-onlydomains.txt",
           "merge_into": "android-telemetry",
-          "publish": false
+          "publish": false,
+          "source_origin": "HaGeZi GitLab mirror / dns-blocklists"
         },
         {
           "id": "native-tracker-microsoft",
@@ -538,9 +569,10 @@
           "label_en": "Microsoft / Windows / Office",
           "kind": "domains",
           "min_entries": 5,
-          "source_url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.winoffice-onlydomains.txt",
+          "source_url": "https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/wildcard/native.winoffice-onlydomains.txt",
           "merge_into": "windows-telemetry",
-          "publish": false
+          "publish": false,
+          "source_origin": "HaGeZi GitLab mirror / dns-blocklists"
         },
         {
           "id": "native-tracker-samsung",
@@ -548,9 +580,10 @@
           "label_en": "Samsung",
           "kind": "domains",
           "min_entries": 5,
-          "source_url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.samsung-onlydomains.txt",
+          "source_url": "https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/wildcard/native.samsung-onlydomains.txt",
           "merge_into": "android-telemetry",
-          "publish": false
+          "publish": false,
+          "source_origin": "HaGeZi GitLab mirror / dns-blocklists"
         },
         {
           "id": "native-tracker-tiktok",
@@ -558,9 +591,10 @@
           "label_en": "TikTok",
           "kind": "domains",
           "min_entries": 1,
-          "source_url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.tiktok-onlydomains.txt",
+          "source_url": "https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/wildcard/native.tiktok-onlydomains.txt",
           "merge_into": "mobile-tracking",
-          "publish": false
+          "publish": false,
+          "source_origin": "HaGeZi GitLab mirror / dns-blocklists"
         },
         {
           "id": "native-tracker-tiktok-aggressive",
@@ -568,9 +602,10 @@
           "label_en": "TikTok – Aggressive",
           "kind": "domains",
           "min_entries": 1,
-          "source_url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.tiktok.extended-onlydomains.txt",
+          "source_url": "https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/wildcard/native.tiktok.extended-onlydomains.txt",
           "merge_into": "mobile-tracking",
-          "publish": false
+          "publish": false,
+          "source_origin": "HaGeZi GitLab mirror / dns-blocklists"
         },
         {
           "id": "native-tracker-lgwebos",
@@ -578,9 +613,10 @@
           "label_en": "LG webOS",
           "kind": "domains",
           "min_entries": 10,
-          "source_url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.lgwebos-onlydomains.txt",
+          "source_url": "https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/wildcard/native.lgwebos-onlydomains.txt",
           "merge_into": "smart-tv",
-          "publish": false
+          "publish": false,
+          "source_origin": "HaGeZi GitLab mirror / dns-blocklists"
         },
         {
           "id": "native-tracker-roku",
@@ -588,9 +624,10 @@
           "label_en": "Roku",
           "kind": "domains",
           "min_entries": 1,
-          "source_url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.roku-onlydomains.txt",
+          "source_url": "https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/wildcard/native.roku-onlydomains.txt",
           "merge_into": "smart-tv",
-          "publish": false
+          "publish": false,
+          "source_origin": "HaGeZi GitLab mirror / dns-blocklists"
         },
         {
           "id": "native-tracker-vivo",
@@ -598,9 +635,10 @@
           "label_en": "Vivo",
           "kind": "domains",
           "min_entries": 1,
-          "source_url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.vivo-onlydomains.txt",
+          "source_url": "https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/wildcard/native.vivo-onlydomains.txt",
           "merge_into": "android-telemetry",
-          "publish": false
+          "publish": false,
+          "source_origin": "HaGeZi GitLab mirror / dns-blocklists"
         },
         {
           "id": "native-tracker-oppo-realme",
@@ -608,9 +646,10 @@
           "label_en": "OPPO / Realme",
           "kind": "domains",
           "min_entries": 1,
-          "source_url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.oppo-realme-onlydomains.txt",
+          "source_url": "https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/wildcard/native.oppo-realme-onlydomains.txt",
           "merge_into": "android-telemetry",
-          "publish": false
+          "publish": false,
+          "source_origin": "HaGeZi GitLab mirror / dns-blocklists"
         },
         {
           "id": "native-tracker-xiaomi",
@@ -618,9 +657,10 @@
           "label_en": "Xiaomi",
           "kind": "domains",
           "min_entries": 1,
-          "source_url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.xiaomi-onlydomains.txt",
+          "source_url": "https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/wildcard/native.xiaomi-onlydomains.txt",
           "merge_into": "android-telemetry",
-          "publish": false
+          "publish": false,
+          "source_origin": "HaGeZi GitLab mirror / dns-blocklists"
         }
       ],
       "readme_section": "telemetry",
@@ -657,6 +697,8 @@
       "readme_section": "info"
     }
   ],
-  "integration_revision": 3,
-  "source_policy": "live_optional_skip_on_failure"
+  "integration_revision": 4,
+  "source_policy": "gitlab_mirror_primary_skip_on_failure",
+  "original_repository": "https://github.com/hagezi/dns-blocklists",
+  "source_notes": "dns-blocklists data is fetched from the HaGeZi GitLab mirror. NRD/DGA is maintained in HaGeZi's separate nrd repository and is therefore kept as a separate optional upstream."
 }

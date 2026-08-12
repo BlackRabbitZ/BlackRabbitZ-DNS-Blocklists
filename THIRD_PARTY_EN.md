@@ -39,15 +39,16 @@ The upstream projects remain authoritative. Their data can change more frequentl
 
 ## HaGeZi upstream data for extended functional lists
 
-BlackRabbitZ can import additional HaGeZi lists and **integrate them by function into existing BlackRabbitZ sections**. The original lists were published under GPL-3.0.
+BlackRabbitZ uses the HaGeZi GitLab mirror as the primary technical download source for DNS blocklists.
 
+- GitLab mirror: `https://gitlab.com/hagezi/mirror/-/tree/main/dns-blocklists`
 - Original project: `https://github.com/hagezi/dns-blocklists`
+- License: GPL-3.0
 - Build configuration: `config/special-lists.json`
 - Functionally integrated domain lists: `lists/categories/`
-- Generated IPv4 lists: `lists/ips/`
-- Machine-readable provenance/checksums: `metadata/special-lists.json`
+- Machine-readable metadata: `metadata/special-lists.json`
 
-The build configuration uses direct live/CDN/raw sources and **no archive URL as an update source**. If the upstream is temporarily unavailable, the affected source is skipped for that run and existing material is preserved. The remaining BlackRabbitZ build continues.
+Data is normalized, deduplicated, checked against the allowlist and integrated into existing BlackRabbitZ categories by function. Original HaGeZi provenance and licensing remain documented. Temporary source outages do not stop the remaining BlackRabbitZ build.
 
 ## Derived subsets
 

@@ -142,7 +142,7 @@ def download(url: str, dest: Path) -> None:
         req = urllib.request.Request(
             url,
             headers={
-                "User-Agent": "BlackRabbitZ-DNS-Blocklists/3.3.5 (+https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists)",
+                "User-Agent": "BlackRabbitZ-DNS-Blocklists/3.3.6 (+https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists)",
                 "Accept": "text/plain,*/*;q=0.8",
             },
         )
@@ -249,7 +249,8 @@ def header_lines(config: dict, variant: dict, entries: int, part: int | None, pa
     lines = [
         "# BlackRabbitZ DNS Blocklists",
         f"# Source: {config['source_family']}",
-        f"# Original project: {config['source_repository']}",
+        f"# Source repository: {config['source_repository']}",
+        f"# Original project: {config.get('original_repository', config['source_repository'])}",
         f"# Upstream data URL: {variant['source_url']}",
         f"# License/source attribution: {config['license']} (see THIRD_PARTY.md)",
         f"# Entries in this file: {entries}",
@@ -551,7 +552,9 @@ def main() -> int:
         "integration_revision": int(config.get("integration_revision", 1)),
         "generated_at": datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z"),
         "source_family": config.get("source_family"),
-        "source_policy": config.get("source_policy", "live_optional_skip_on_failure"),
+        "source_policy": config.get("source_policy", "gitlab_mirror_primary_skip_on_failure"),
+        "source_repository": config.get("source_repository"),
+        "original_repository": config.get("original_repository"),
         "split_max_bytes": config["split_max_bytes"],
         "items": {},
     }
