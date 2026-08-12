@@ -3,14 +3,21 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 959076
-# Ultimate Total Entries: 5169010
+# Entries: 959083
+# Ultimate Total Entries: 5169019
 #
-# Includes: ads, trackers, telemetry, windows-telemetry, apple-telemetry, android-telemetry, linux-telemetry, nas-telemetry, server-telemetry, smart-tv, iot, mobile-tracking, social-trackers, native-tracking, phishing, malware, scam, cryptomining, fake-shops, adult, gambling, consent-cmp, affiliate-tracking
+# Includes: ads, trackers, telemetry, gaming-telemetry, windows-telemetry, apple-telemetry, android-telemetry, linux-telemetry, nas-telemetry, server-telemetry, smart-tv, iot, mobile-tracking, social-trackers, native-tracking, phishing, malware, scam, cryptomining, fake-shops, adult, gambling, consent-cmp, affiliate-tracking
 #
 # IMPORTANT: This is only one part of the Ultimate profile.
 # Add every ultimate-N.txt Raw URL listed in the README for complete coverage.
 #
+tikungperawan16plus.blogspot.com
+tikungperawan17.blogspot.com
+tikungperawan17plus.blogspot.com
+tikungperawan18.blogspot.com
+tikungperawan18plus.blogspot.com
+tikungperawan19.blogspot.com
+tikungperawan21.blogspot.com
 tikungperawan24.blogspot.com
 tikunoff.tumblr.com
 tikunogiyih.shop
