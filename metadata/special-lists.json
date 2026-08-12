@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-12T19:33:42Z",
-  "integration_revision": 3,
+  "generated_at": "2026-08-12T19:43:24Z",
+  "integration_revision": 4,
   "items": {
     "anti-piracy": {
       "point": 18,
@@ -17,8 +17,8 @@
           ],
           "kind": "domains",
           "parts": 1,
-          "source_url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/anti.piracy-onlydomains.txt",
-          "status": "built"
+          "source_url": "https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/wildcard/anti.piracy-onlydomains.txt",
+          "status": "existing"
         }
       }
     },
@@ -37,8 +37,8 @@
           ],
           "kind": "domains",
           "parts": 1,
-          "source_url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/hoster-onlydomains.txt",
-          "status": "built"
+          "source_url": "https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/wildcard/hoster-onlydomains.txt",
+          "status": "existing"
         }
       }
     },
@@ -57,8 +57,8 @@
           ],
           "kind": "domains",
           "parts": 1,
-          "source_url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/doh-vpn-proxy-bypass-onlydomains.txt",
-          "status": "built"
+          "source_url": "https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/wildcard/doh-vpn-proxy-bypass-onlydomains.txt",
+          "status": "existing"
         },
         "doh-ipv4": {
           "entries": 1395,
@@ -72,8 +72,8 @@
           ],
           "kind": "ipv4",
           "parts": 1,
-          "source_url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/ips/doh.txt",
-          "status": "built"
+          "source_url": "https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/ips/doh.txt",
+          "status": "existing"
         },
         "doh-only": {
           "entries": 3384,
@@ -87,8 +87,8 @@
           ],
           "kind": "domains",
           "parts": 1,
-          "source_url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/doh-onlydomains.txt",
-          "status": "built"
+          "source_url": "https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/wildcard/doh-onlydomains.txt",
+          "status": "existing"
         }
       }
     },
@@ -111,8 +111,8 @@
           ],
           "kind": "domains",
           "parts": 1,
-          "source_url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/dyndns-onlydomains.txt",
-          "status": "built"
+          "source_url": "https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/wildcard/dyndns-onlydomains.txt",
+          "status": "existing"
         }
       }
     },
@@ -120,14 +120,14 @@
       "point": 7,
       "variants": {
         "fake-internet-scams": {
-          "entries": 283916,
-          "entries_added": 1193,
+          "entries": 283956,
+          "entries_added": 40,
           "files": [],
           "kind": "domains",
           "merge_into": "scam",
           "parts": 0,
-          "source_entries": 16764,
-          "source_url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/fake-onlydomains.txt",
+          "source_entries": 16616,
+          "source_url": "https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/wildcard/fake-onlydomains.txt",
           "status": "merged",
           "target": "lists/categories/scam.txt"
         }
@@ -137,14 +137,14 @@
       "point": 19,
       "variants": {
         "gambling-full": {
-          "entries": 420536,
-          "entries_added": 0,
+          "entries": 432555,
+          "entries_added": 12019,
           "files": [],
           "kind": "domains",
           "merge_into": "gambling",
           "parts": 0,
-          "source_entries": 411810,
-          "source_url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/gambling-onlydomains.txt",
+          "source_entries": 422307,
+          "source_url": "https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/wildcard/gambling-onlydomains.txt",
           "status": "merged",
           "target": "lists/categories/gambling.txt"
         },
@@ -160,8 +160,8 @@
           ],
           "kind": "domains",
           "parts": 1,
-          "source_url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/gambling.medium-onlydomains.txt",
-          "status": "built"
+          "source_url": "https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/wildcard/gambling.medium-onlydomains.txt",
+          "status": "existing"
         },
         "gambling-mini": {
           "entries": 93306,
@@ -175,8 +175,8 @@
           ],
           "kind": "domains",
           "parts": 1,
-          "source_url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/gambling.mini-onlydomains.txt",
-          "status": "built"
+          "source_url": "https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/wildcard/gambling.mini-onlydomains.txt",
+          "status": "existing"
         }
       }
     },
@@ -184,19 +184,19 @@
       "point": 16,
       "variants": {
         "most-abused-tlds": {
-          "entries": 130,
+          "entries": 129,
           "files": [
             {
-              "bytes": 2215,
-              "entries": 130,
+              "bytes": 2479,
+              "entries": 129,
               "file": "lists/categories/most-abused-tlds.txt",
-              "sha256": "476155341968fe1872ab0c94a2d8319d4dc4b65bccfc86aafe917871a8d8876e"
+              "sha256": "4cafb22548ab2ea4c2990853375e20a670e98063c97667b1e979f9c50c13f0ad"
             }
           ],
           "kind": "raw",
           "parts": 1,
-          "source_url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/spam-tlds-adblock.txt",
-          "status": "built"
+          "source_url": "https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/spam-tlds-adblock.txt",
+          "status": "existing"
         }
       }
     },
@@ -205,13 +205,13 @@
       "variants": {
         "native-tracker-amazon": {
           "entries": 437,
-          "entries_added": 352,
+          "entries_added": 0,
           "files": [],
           "kind": "domains",
           "merge_into": "iot",
           "parts": 0,
           "source_entries": 361,
-          "source_url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.amazon-onlydomains.txt",
+          "source_url": "https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/wildcard/native.amazon-onlydomains.txt",
           "status": "merged",
           "target": "lists/categories/iot.txt"
         },
@@ -223,31 +223,31 @@
           "merge_into": "apple-telemetry",
           "parts": 0,
           "source_entries": 107,
-          "source_url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.apple-onlydomains.txt",
+          "source_url": "https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/wildcard/native.apple-onlydomains.txt",
           "status": "merged",
           "target": "lists/categories/apple-telemetry.txt"
         },
         "native-tracker-huawei": {
-          "entries": 1310,
+          "entries": 1511,
           "entries_added": 0,
           "files": [],
           "kind": "domains",
           "merge_into": "android-telemetry",
           "parts": 0,
           "source_entries": 136,
-          "source_url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.huawei-onlydomains.txt",
+          "source_url": "https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/wildcard/native.huawei-onlydomains.txt",
           "status": "merged",
           "target": "lists/categories/android-telemetry.txt"
         },
         "native-tracker-lgwebos": {
-          "entries": 556,
+          "entries": 622,
           "entries_added": 0,
           "files": [],
           "kind": "domains",
           "merge_into": "smart-tv",
           "parts": 0,
           "source_entries": 340,
-          "source_url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.lgwebos-onlydomains.txt",
+          "source_url": "https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/wildcard/native.lgwebos-onlydomains.txt",
           "status": "merged",
           "target": "lists/categories/smart-tv.txt"
         },
@@ -259,7 +259,7 @@
           "merge_into": "windows-telemetry",
           "parts": 0,
           "source_entries": 389,
-          "source_url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.winoffice-onlydomains.txt",
+          "source_url": "https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/wildcard/native.winoffice-onlydomains.txt",
           "status": "merged",
           "target": "lists/categories/windows-telemetry.txt"
         },
@@ -271,55 +271,55 @@
           "merge_into": "android-telemetry",
           "parts": 0,
           "source_entries": 484,
-          "source_url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.oppo-realme-onlydomains.txt",
+          "source_url": "https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/wildcard/native.oppo-realme-onlydomains.txt",
           "status": "merged",
           "target": "lists/categories/android-telemetry.txt"
         },
         "native-tracker-roku": {
           "entries": 622,
-          "entries_added": 66,
+          "entries_added": 0,
           "files": [],
           "kind": "domains",
           "merge_into": "smart-tv",
           "parts": 0,
           "source_entries": 72,
-          "source_url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.roku-onlydomains.txt",
+          "source_url": "https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/wildcard/native.roku-onlydomains.txt",
           "status": "merged",
           "target": "lists/categories/smart-tv.txt"
         },
         "native-tracker-samsung": {
           "entries": 1511,
-          "entries_added": 201,
+          "entries_added": 0,
           "files": [],
           "kind": "domains",
           "merge_into": "android-telemetry",
           "parts": 0,
           "source_entries": 201,
-          "source_url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.samsung-onlydomains.txt",
+          "source_url": "https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/wildcard/native.samsung-onlydomains.txt",
           "status": "merged",
           "target": "lists/categories/android-telemetry.txt"
         },
         "native-tracker-tiktok": {
-          "entries": 629,
-          "entries_added": 427,
+          "entries": 808,
+          "entries_added": 0,
           "files": [],
           "kind": "domains",
           "merge_into": "mobile-tracking",
           "parts": 0,
           "source_entries": 427,
-          "source_url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.tiktok-onlydomains.txt",
+          "source_url": "https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/wildcard/native.tiktok-onlydomains.txt",
           "status": "merged",
           "target": "lists/categories/mobile-tracking.txt"
         },
         "native-tracker-tiktok-aggressive": {
           "entries": 808,
-          "entries_added": 179,
+          "entries_added": 0,
           "files": [],
           "kind": "domains",
           "merge_into": "mobile-tracking",
           "parts": 0,
           "source_entries": 604,
-          "source_url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.tiktok.extended-onlydomains.txt",
+          "source_url": "https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/wildcard/native.tiktok.extended-onlydomains.txt",
           "status": "merged",
           "target": "lists/categories/mobile-tracking.txt"
         },
@@ -331,7 +331,7 @@
           "merge_into": "android-telemetry",
           "parts": 0,
           "source_entries": 227,
-          "source_url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.vivo-onlydomains.txt",
+          "source_url": "https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/wildcard/native.vivo-onlydomains.txt",
           "status": "merged",
           "target": "lists/categories/android-telemetry.txt"
         },
@@ -343,7 +343,7 @@
           "merge_into": "android-telemetry",
           "parts": 0,
           "source_entries": 347,
-          "source_url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.xiaomi-onlydomains.txt",
+          "source_url": "https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/wildcard/native.xiaomi-onlydomains.txt",
           "status": "merged",
           "target": "lists/categories/android-telemetry.txt"
         }
@@ -475,14 +475,14 @@
       "point": 21,
       "variants": {
         "nsfw": {
-          "entries": 1025300,
-          "entries_added": 26376,
+          "entries": 1028639,
+          "entries_added": 3339,
           "files": [],
           "kind": "domains",
           "merge_into": "adult",
           "parts": 0,
-          "source_entries": 107563,
-          "source_url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/nsfw-onlydomains.txt",
+          "source_entries": 108457,
+          "source_url": "https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/wildcard/nsfw-onlydomains.txt",
           "status": "merged",
           "target": "lists/categories/adult.txt"
         }
@@ -496,14 +496,14 @@
       "point": 8,
       "variants": {
         "popup-ads": {
-          "entries": 235602,
-          "entries_added": 49,
+          "entries": 235630,
+          "entries_added": 28,
           "files": [],
           "kind": "domains",
           "merge_into": "ads",
           "parts": 0,
-          "source_entries": 53391,
-          "source_url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/popupads-onlydomains.txt",
+          "source_entries": 52662,
+          "source_url": "https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/wildcard/popupads-onlydomains.txt",
           "status": "merged",
           "target": "lists/categories/ads.txt"
         }
@@ -528,8 +528,8 @@
           ],
           "kind": "domains",
           "parts": 1,
-          "source_url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/nosafesearch-onlydomains.txt",
-          "status": "built"
+          "source_url": "https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/wildcard/nosafesearch-onlydomains.txt",
+          "status": "existing"
         }
       }
     },
@@ -548,8 +548,8 @@
           ],
           "kind": "domains",
           "parts": 1,
-          "source_url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/social-onlydomains.txt",
-          "status": "built"
+          "source_url": "https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/wildcard/social-onlydomains.txt",
+          "status": "existing"
         }
       }
     },
@@ -568,7 +568,7 @@
           ],
           "kind": "domains",
           "parts": 1,
-          "source_url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/tif-onlydomains.txt",
+          "source_url": "https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/wildcard/tif-onlydomains.txt",
           "status": "existing"
         },
         "threat-intelligence-ipv4": {
@@ -583,7 +583,7 @@
           ],
           "kind": "ipv4",
           "parts": 1,
-          "source_url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/ips/tif.txt",
+          "source_url": "https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/ips/tif.txt",
           "status": "existing"
         },
         "threat-intelligence-medium": {
@@ -598,7 +598,7 @@
           ],
           "kind": "domains",
           "parts": 1,
-          "source_url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/tif.medium-onlydomains.txt",
+          "source_url": "https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/wildcard/tif.medium-onlydomains.txt",
           "status": "existing"
         },
         "threat-intelligence-mini": {
@@ -613,7 +613,7 @@
           ],
           "kind": "domains",
           "parts": 1,
-          "source_url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/tif.mini-onlydomains.txt",
+          "source_url": "https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/wildcard/tif.mini-onlydomains.txt",
           "status": "existing"
         }
       }
@@ -633,14 +633,16 @@
           ],
           "kind": "domains",
           "parts": 1,
-          "source_url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/urlshortener-onlydomains.txt",
-          "status": "built"
+          "source_url": "https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/wildcard/urlshortener-onlydomains.txt",
+          "status": "existing"
         }
       }
     }
   },
+  "original_repository": "https://github.com/hagezi/dns-blocklists",
   "schema_version": 2,
-  "source_family": "HaGeZi DNS Blocklists (optional live upstream; functionally integrated into BlackRabbitZ)",
-  "source_policy": "live_optional_skip_on_failure",
+  "source_family": "HaGeZi DNS Blocklists via GitLab mirror (optional upstream; functionally integrated into BlackRabbitZ)",
+  "source_policy": "gitlab_mirror_primary_skip_on_failure",
+  "source_repository": "https://gitlab.com/hagezi/mirror/-/tree/main/dns-blocklists",
   "split_max_bytes": 52428800
 }

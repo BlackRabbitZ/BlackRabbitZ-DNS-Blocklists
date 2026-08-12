@@ -3,13 +3,14 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 283916
+# Entries: 283956
 # Auto-updated: 2026-08-12T05:03:59Z
 # Description: Massive scam, fraud and deceptive-platform domain set.
 # Sources: Block List Project Fraud/Scam; DurableNapkin Scam Blocklist; curated BaFin entries
 # Snapshot: 2026-08
 #
 # Additional third-party integrations: see THIRD_PARTY.md
+#
 #
 #
 0-0-----------------------------------------------------------0.com
@@ -7019,6 +7020,7 @@ akumaxmr.com
 akumjam-adkhsds.tk
 akunservice-support23974.com
 akunservice-support741.com
+akusoli.com
 akustikholz.shop
 akva-tur.ru
 akvaryumhobim.com
@@ -13340,6 +13342,7 @@ altogethert.com
 altoistube.icu
 altonaive.icu
 altonic.icu
+altotrailer.com
 altpool.eu
 altpool.pro
 altpools.com
@@ -17567,6 +17570,7 @@ atelcominer.com
 atelectases.stream
 atelierdepilar.com
 atelierdudiamant.com
+atelierhardanger.com
 atelierkitzbuehel.at
 ateliermine.com
 ateliermunchen.de
@@ -19127,6 +19131,7 @@ babagcoder.info
 babajinanduastrologer.blogspot.com
 babajinanduastrologer.blogspot.ru
 babaloveguru.com
+babaroni.de
 babasadhakji9890.weebly.com
 babashivanandji.wordpress.com
 babasmykpl.top
@@ -19671,6 +19676,7 @@ banvar.com
 banwell.ru
 banxso.com
 banzais-cuffing.stream
+baolaoton.com
 baommitouduxo.bid
 bape.at
 bapeberlin.de
@@ -26341,6 +26347,7 @@ buytwittertrollinginsurance.online
 buytwittertrollinginsurance.today
 buytwittervotes.com
 buyunclaimedmail.com
+buyusa.ru
 buyverifynow.com
 buyviagraonline-2013.com
 buyviewers.com
@@ -27556,6 +27563,7 @@ capacityk.com
 capacstacc.cyou
 capaglaur.stream
 caparran.com
+capatee.com
 capecoralsolarcleaning.com
 capedglaze.stream
 capeglave.stream
@@ -34110,6 +34118,7 @@ comeface.tk
 comelier.stream
 comelily.stream
 comember.stream
+comemint.com
 comenmovim.cyou
 comeovertogethis.loan
 comercialandrea.cl
@@ -47515,6 +47524,7 @@ ecommercesupportservices.com
 ecompinnacle.co.uk
 ecomputersupport.net
 ecomservices.ga
+ecomtrade24.com
 ecomzona.shop
 econ-motix.it.com
 econ-unix.com
@@ -47863,6 +47873,7 @@ egypt-england.stream
 egzaminygimnazjalne2015arkusze.blogspot.com
 egzlqkjhm.bid
 egzvkronnvwtra.bid
+ehamarkets.com
 ehandler.de
 ehashcoins.org
 ehathe.shop
@@ -57467,6 +57478,7 @@ felipesites.com
 felira.de
 felisgroup.com
 felixbanking.info
+fell-freund.at
 fellate.stream
 fellest.stream
 fellies.stream
@@ -59061,6 +59073,7 @@ fizziest.us
 fizzling.us
 fizzpl.shop
 fj.cpcempower.com
+fjallbris.com
 fjallbris.de
 fjallraven.com.de
 fjallravennederland.com
@@ -59441,10 +59454,12 @@ floppier.us
 floppies.us
 floppily.us
 flopping.us
+flora-markt.com
 florally.us
 florashehu.shop
 florefrang.cyou
 florian-mentoring.com
+florian-trauth.de
 floriansteiner.net
 floriantrading.com
 florida-annual-report-filing.com
@@ -64406,6 +64421,7 @@ glp.dailybargainsa.shop
 glp1-apotheke.com
 glp1apotheke.com
 glprt.ru
+glpura.com
 glsgroup.lat
 glsgroup.sbs
 glslciwwvtxn.com
@@ -70398,6 +70414,7 @@ homefler.com
 homefrontdaily.eu
 homefurnituretrading.co.uk
 homegardenline.eu
+homeglownest.com
 homegoodstotal.com
 homegym.com.au
 homegymsupply.co.uk
@@ -82122,6 +82139,7 @@ kefreepdf.site
 keglings.stream
 kei.su
 keilwerth-shop.com
+keinerlei-holz.de
 keinerleiholz.de
 keithklassen.com
 keithosworld.com
@@ -82809,6 +82827,7 @@ klikbet88.com
 klikijuz.com
 klimabonus-2026.net
 klimabonus2026.at
+klimacare24.de
 klimacare24.shop
 klimafresh.com
 klimag.myshopify.com
@@ -84109,6 +84128,7 @@ laskdopaodspasl.site
 lasnigh.tk
 lasnight.tk
 lasolstore.com
+lasora-lights.de
 laspare.com
 lasportivabootsnz.com
 lasportivaclimbingshoescanada.com
@@ -84727,6 +84747,7 @@ lems.com.de
 lemsdeutschland.com
 lemsschuhedeutschland.de
 lemstore.com
+lena-boutique.de
 lena-moda.com
 lenahockson.com
 lenaskunst.de
@@ -85077,6 +85098,7 @@ liakouras.com
 liamcourtney.com
 lianonline.com
 liaofang.pw
+liaonmskj.com
 lias.co.il
 libecampus.com
 liberalm.com
@@ -90193,6 +90215,7 @@ m.psfifacoins.com
 m.qualityhealth.com
 m.resumetarget.com
 m.royaliker.net
+m.sakerplus.de
 m.sr.mevida.me
 m.vbridal.com
 m.wakemobile.bid
@@ -98569,6 +98592,7 @@ mrdownloadpdffiles.tk
 mrerrorsolution.com
 mretyhasolkygh.tk
 mrfinancechallenge.com
+mrfluffyfriend.de
 mrfreepdf.site
 mrfveznetjtp.com
 mrgeeks.co.uk
@@ -100817,6 +100841,7 @@ nativi.top
 natmoscow.ru
 natomaspsychicshop.com
 natparkcollective.com
+natrifort.net
 natrlsoftware.com
 natrons.stream
 nattitudem.com
@@ -104208,6 +104233,7 @@ novaminer.xyz
 novaminers.tk
 novamoda.de
 novando.de
+novant.fr
 novaobud.fitpatootie.com
 novaoutletshopcheckout.online
 novaoutletshopcheckout.site
@@ -108381,6 +108407,7 @@ ortexgruppe.com
 orthedesirefor.tk
 ortho-magazin.de
 ortho-pulse.de
+ortho-shoes.at
 ortho-store.de
 ortho-vital.ch
 orthoback.com
@@ -108403,6 +108430,7 @@ ortlerone.stream
 ortolannine.stream
 ortolans.space
 ortoleicht.meinearbeitsschuhe.com
+ortorex.at
 ortovert.com
 ortovox-eu.shop
 ortovoxdes.com
@@ -119737,6 +119765,7 @@ ps-accountants-online.co.uk
 ps-kaigi.net
 ps-tools-deals.shop
 ps.cpcempower.com
+psality.com
 psarcherystore.com
 psbadfsth.bid
 psclipper.com
@@ -128347,6 +128376,7 @@ secure.bidverdrs.com
 secure.checkercarts.com
 secure.clientsecurejoinup.com
 secure.itenvoirtech.com
+secure.lovetrusthappy.com
 secure.selure.de
 secure.shopvio.co
 secure.st67.bid
@@ -149432,6 +149462,7 @@ theirmarked.tk
 theirone.pw
 theirreach.tk
 theirsnine.pw
+theisentransports.com
 theisfp.com
 theislandatlas.com
 theismfour.pw
@@ -149883,6 +149914,7 @@ theuniquebargains.com
 theunparalleledthings.cricket
 theupto.com
 theurbansportsculture.com
+theurbenieus.com
 theurgicten.pw
 theurgynine.pw
 theusedandtrue.shop
@@ -150287,6 +150319,7 @@ tiduqoy.com
 tidy-preserve.com
 tidying-my.tk
 tiebluzx.click
+tiedanarti.com
 tiemuantodayus.bid
 tiemyankles.com
 tiendabiscuitsgalicia.es
@@ -158050,6 +158083,7 @@ veloranexensoftware.com
 velorastudio-eu.com
 velorawellnessshop.com
 velorgain.com
+velorin.de
 velorina.de
 velorism.shop
 veloroil.de
@@ -160570,6 +160604,7 @@ vondaro.de
 vone-shop.com
 vonenine.pw
 vonktradewise-engine.com
+vonngallery.com
 vonux.biz
 voodoofollowers.com
 vookiz.com
@@ -164567,6 +164602,7 @@ waterten.com
 watson-manchester.com
 wattaboutguitar.com
 wattcafe.fr
+watteimall.com
 wattpionier.de
 wattpool.net
 watunxckibtvfm.bid
@@ -165644,6 +165680,7 @@ werkstattgitter.com
 werkstoffholz.de
 werkundwarme.de
 werkvoorraden.com
+werkzeug-brandl.com
 werkzeug-haus.de
 werkzeug-kontor.de
 werkzeug-salesshop.com
@@ -168127,6 +168164,7 @@ wohnenrabatt.com
 wohnenshop.com
 wohnfinden.com
 wohngartenshop.de
+wohnish.de
 wohnkuchede.com
 wohnlichkeiterschaffen.com
 wohnlichtshop.com
@@ -280446,6 +280484,7 @@ xingyun.io
 xinyuekj.com
 xiomnia.com
 xioumenvini.mymom.info
+xiruilai.com
 xissjuywmpk.bid
 xisubya.pro
 xitret.com
@@ -283044,6 +283083,7 @@ zelvico.shop
 zemno.ru
 zemynapm.lt
 zen-online.com
+zen-walk.de
 zenalto.shop
 zenariver.eu
 zenaselect.shop
@@ -283325,6 +283365,7 @@ zinntikumugai.xyz
 zinoair.pro
 zinpp.com
 zinsacm.com
+zinsanlageprofi.net
 zinsfuchs.com
 zinsmanager.de
 zinsvergleich-24.de

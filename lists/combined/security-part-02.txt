@@ -3,14 +3,34 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 879217
-# Profile Total Entries: 3457948
+# Entries: 879244
+# Profile Total Entries: 3457982
 #
 # Includes: malware,phishing,scam,fake-shops,cryptomining
 #
 # IMPORTANT: This is only one part of the security profile.
 # Add every security-part-NN.txt Raw URL listed in the README for complete coverage.
 #
+suastaxasecontratos.com
+suasuaxie.com
+suasvantagens.info
+suatagfree-flow.digital
+suatanbinhduong.vn
+suatejr0dacknw.sbs
+suaterapia.shop
+suativinguyenkim.com
+suatoday.com
+suatotalprotecao.com
+suatuhari.com
+suatulanhtoshiba.vn
+suatusta.com
+suatuyengiaputhyroid.click
+suaup.cn
+suavagaaqui.tk
+suavagagarantida.tk
+suavasua.vn
+suave-debonair-muse-iouytrdfc.glitch.me
+suave-descriptive-glass.glitch.me
 suave-juniper-cell-openthedoorforme.glitch.me
 suave-peridot-gym.glitch.me
 suavedeals.shop
@@ -104487,6 +104507,7 @@ theirworld.net
 theisabeledit.com
 theisel.de
 theisennet.de
+theisentransports.com
 theisfp.com
 theishs.com
 theislamicemailcircle.com
@@ -111710,6 +111731,7 @@ theurbanledger.xyz
 theurbansportsculture.com
 theurbantribune.info
 theurbenieshop.com
+theurbenieus.com
 theurgic.stream
 theurgictechco.digital
 theurgicten.pw
@@ -118888,6 +118910,7 @@ tiecleaf.casa
 tiecode.eu
 tiecontinentallogistics.com.ng
 tiecxghg.cc
+tiedanarti.com
 tiedbythreads.online
 tiede333-atgmx.net
 tiedexceed.com
@@ -297731,6 +297754,7 @@ vonmu.online
 vonna.com
 vonnberg.com
 vonnect.info
+vonngallery.com
 vonoah.com
 vononline.com
 vonovia.cfd
@@ -369794,6 +369818,7 @@ wohngartenshop.de
 wohngeldabrechnung.de
 wohnhaus.online
 wohnheim-weinstadel.de
+wohnish.de
 wohnkonzeptimmobilien.de
 wohnkuchede.com
 wohnlichkeiterschaffen.com
@@ -851859,6 +851884,7 @@ zen-shin.org
 zen-ta.com
 zen-tava.com
 zen-varis.com
+zen-walk.de
 zen.claims
 zen.getpool.network
 zen.miningspeed.com
@@ -863000,6 +863026,7 @@ zins24-vergleich.net
 zinsacm.com
 zinsangflow.digital
 zinsangtech.digital
+zinsanlageprofi.net
 zinsberechnung.ch
 zinsdirekt24.de
 zinseritatum.com
