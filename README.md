@@ -20,27 +20,52 @@
 
 </div>
 
+<a id="why-dns-blocklists"></a>
+## 🛡️ Warum DNS-Blocklisten?
+
+DNS-Blocklisten stoppen unerwünschte Verbindungen bereits bei der Namensauflösung. So lassen sich **Werbung, Tracker, Telemetrie und bekannte schädliche Domains zentral für das gesamte Netzwerk filtern**, ohne auf jedem Gerät zusätzliche Software installieren zu müssen.
+
 ---
 
 <a id="contents"></a>
 ## 📑 Inhaltsverzeichnis
 
-- [Schnellstart](#quick-start)
-- [Datenschutzprofile](#protection-profiles)
-- [Schutzvergleich](#protection-comparison)
-  - [Optionale Schutzmodule](#optional-protection-modules)
-  - [Große Profil-Teile](#large-profile-parts)
-- [Werbung & Tracking](#ads-tracking)
-- [Telemetrie & Geräte](#telemetry-devices)
-- [Gaming-Datenschutz](#gaming-privacy)
-- [Sicherheitslisten](#security-lists)
-- [Familienlisten](#family-lists)
-- [Upstream-Quellen & Build-Transparenz](#upstream-sources)
-- [Repository-Struktur](#repository-structure)
-- [Automatische Listen-Updates](#automatic-updates)
-- [Listen erweitern](#extending-lists)
-- [Fehlblockierungen / False Positives](#false-positives)
-- [Lizenz & Namensnennung](#license-attribution)
+- [Warum DNS-Blocklisten?](#why-dns-blocklists) — kurz erklärt, welchen Nutzen DNS-Blocking im gesamten Netzwerk hat
+- [Schnellstart](#quick-start) — empfohlene Standardliste und schnelle Pi-hole-Einrichtung
+- [Datenschutzprofile](#protection-profiles) — Light, Balanced, Strict und Ultimate als abgestufte Schutzprofile
+- [Schutzvergleich](#protection-comparison) — Funktionsumfang und Fehlfunktionsrisiko der Profile
+  - [Optionale Schutzmodule](#optional-protection-modules) — Security und Family als gezielte Ergänzungen
+  - [Große Profil-Teile](#large-profile-parts) — alle Raw-Parts für Security, Family und Ultimate
+- [Werbung & Tracking](#ads-tracking) — Werbung, Tracker, Affiliate, Pop-Ups und native Tracker
+  - [8. Pop-Up-Werbung](#special-popup-ads) — störende und potenziell schädliche Pop-up-Domains
+  - [22. Native Tracker](#special-native-tracker-archive) — geräte- und dienstespezifisches Tracking
+- [Telemetrie & Geräte](#telemetry-devices) — Betriebssystem-, Geräte-, Smart-TV-, IoT- und Server-Telemetrie
+- [Gaming-Datenschutz](#gaming-privacy) — Gaming-Telemetrie und optionale RegEx-Regeln
+- [Sicherheitslisten](#security-lists) — Malware, Phishing, Scam, Fake-Shops und erweiterte Threat-Intelligence
+  - [7. Fake & Internet-Betrug](#special-fake) — Fake-Shops, Abzocke, Kostenfallen und betrügerische Angebote
+  - [9. Threat Intelligence Feeds](#special-threat-intelligence) — Full, Medium, Mini und IPv4-Indikatoren
+  - [10. Neu registrierte Domains / NRD & DGA](#special-nrd-dga) — neue und hochentropische Domains; sehr aggressiv
+  - [13. Dynamic DNS](#special-dynamic-dns) — bekannte DynDNS-Dienste mit Missbrauchsrisiko
+  - [14. Badware-Hoster](#special-badware-hoster) — Hosting-Infrastruktur mit erhöhtem Missbrauchsrisiko
+  - [16. Häufig missbrauchte TLDs](#special-most-abused-tlds) — aggressive TLD-basierte Schutzregeln
+- [DNS-, Web- & Bypass-Schutz](#dns-web-protection) — Schutz vor DNS-Umgehung, Rebinding und verschleierten Kurzlinks
+  - [11. DoH/VPN/TOR/Proxy-Bypass](#special-dns-bypass) — Endpunkte, die lokale DNS-Filter umgehen können
+  - [15. URL-Kürzer](#special-url-shortener) — bekannte Link-/URL-Shortener
+  - [17. DNS-Rebind-Schutz](#special-dns-rebind-protection) — Resolver-Konfiguration gegen DNS-Rebinding
+- [Familienlisten](#family-lists) — Erwachsenen-Inhalte, Glücksspiel und optionale Jugendschutzmodule
+  - [12. SafeSearch nicht unterstützt](#special-safesearch-unsupported) — Suchmaschinen ohne SafeSearch-Unterstützung
+  - [18. Anti-Piracy](#special-anti-piracy) — Domains für nicht autorisierte Inhaltsverbreitung
+  - [19. Glücksspiel-Varianten](#special-gambling-archive) — Full, Medium und Mini
+  - [20. Soziale Netzwerke sperren](#special-social-networks) — Zugriff auf Social-Network-Plattformen blockieren
+  - [21. NSFW](#special-nsfw-archive) — zusätzliche Adult-/NSFW-Abdeckung
+- [23. Empfehlungen](#recommendations) — sinnvolle Kombinationen aus Profilen und Zusatzlisten
+- [24. Online-DNS-Dienste](#online-dns-services) — Hinweise für externe DNS-Anbieter und mobile Nutzung
+- [Upstream-Quellen & Build-Transparenz](#upstream-sources) — Quellen, Archiv-Snapshots, Metadaten und Prüfsummen
+- [Repository-Struktur](#repository-structure) — Ordner, Konfigurationen, Skripte und erzeugte Listen
+- [Automatische Listen-Updates](#automatic-updates) — tägliche Feeds und separater Speziallisten-Builder
+- [Listen erweitern](#extending-lists) — Kategorien, Profile und Speziallisten ergänzen
+- [Fehlblockierungen / False Positives](#false-positives) — Fehlblockierungen melden und Allowlist verwenden
+- [Lizenz & Namensnennung](#license-attribution) — GPL-3.0, Drittquellen und Attribution
 
 ---
 
@@ -76,7 +101,7 @@ Das sind die Haupt-Schutzstufen. Starte mit **Balanced** und wechsle nur dann zu
 | 🟢 **Light** | Niedrig | **234.038** | Einfaches Werbeblocking | [Anzeigen](lists/combined/light.txt) | **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/light.txt)** |
 | 🔵 **Balanced ⭐** | Mittel | **371.544** | Die meisten Nutzer | [Anzeigen](lists/combined/balanced.txt) | **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/balanced.txt)** |
 | 🟠 **Strict** | Hoch | **372.540** | Datenschutzorientierte Setups | [Anzeigen](lists/combined/strict.txt) | **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/strict.txt)** |
-| 🔴 **Ultimate** | Maximum | **5.169.018** | Aggressive Filterung | [Teile anzeigen](#ultimate-parts) | **[Raw-Teile](#ultimate-parts)** |
+| 🔴 **Ultimate** | Maximum | **5.169.014** | Aggressive Filterung | [Teile anzeigen](#ultimate-parts) | **[Raw-Teile](#ultimate-parts)** |
 <!-- MAIN_PROFILES_END -->
 
 > **Balanced** wird für die meisten Installationen empfohlen.
@@ -121,7 +146,7 @@ Diese Profile lösen andere Aufgaben als die Datenschutzstufen oben. Sie sollten
 <!-- ADDON_PROFILES_START -->
 | Profil | Schutz | Einträge | Empfohlen für | Anzeigen | Raw |
 |---|:---:|---:|---|:---:|:---:|
-| 🛡️ **Security** | Sicherheit | **3.458.017** | Sicherheitsorientierte Filterung | [Teile anzeigen](#security-parts) | **[Raw-Teile](#security-parts)** |
+| 🛡️ **Security** | Sicherheit | **3.458.013** | Sicherheitsorientierte Filterung | [Teile anzeigen](#security-parts) | **[Raw-Teile](#security-parts)** |
 | 👨‍👩‍👧 **Family** | Familie | **1.788.212** | Familiennetzwerke | [Teile anzeigen](#family-parts) | **[Raw-Teile](#family-parts)** |
 <!-- ADDON_PROFILES_END -->
 
@@ -132,7 +157,7 @@ Diese Profile lösen andere Aufgaben als die Datenschutzstufen oben. Sie sollten
 <a id="large-profile-parts"></a>
 ## 📦 Große Profil-Teile
 
-Große kombinierte Profile werden deterministisch in größenbegrenzte Dateien aufgeteilt. Für vollständige Abdeckung müssen **alle Teile** eines gesplitteten Profils hinzugefügt werden. Die Dateinamen sind mit führender Null nummeriert, z. B. `security-part-01.txt`, und zielen auf maximal **5 MiB pro Datei**.
+Große kombinierte Profile werden deterministisch in größenbegrenzte Dateien aufgeteilt. Für vollständige Abdeckung müssen **alle Teile** eines gesplitteten Profils hinzugefügt werden. Die Dateinamen sind mit führender Null nummeriert, z. B. `security-part-01.txt`, und zielen künftig auf maximal **50 MiB pro Datei**. Beim ersten Build nach diesem Upgrade werden die bisherigen kleineren Parts automatisch zusammengeführt und neu erzeugt.
 
 Du wechselst vom bisherigen `security.txt` / `family.txt` / `ultimate-N.txt`-Schema? Siehe [`docs/MIGRATION_V3.md`](docs/MIGRATION_V3.md).
 
@@ -141,17 +166,17 @@ Du wechselst vom bisherigen `security.txt` / `family.txt` / `ultimate-N.txt`-Sch
 <details>
 <summary><strong>🛡️ Security: Teile anzeigen (14 Dateien)</strong></summary>
 
-**Gesamt: 3.458.017 eindeutige Domains.** Füge alle Teile zu Pi-hole oder deinem DNS-Blocker hinzu, um die vollständige Abdeckung dieses Profils zu erhalten.
+**Gesamt: 3.458.013 eindeutige Domains.** Füge alle Teile zu Pi-hole oder deinem DNS-Blocker hinzu, um die vollständige Abdeckung dieses Profils zu erhalten.
 
 | Security Teil | Security Teil |
 |---|---|
 | **Teil 01**  <br>**264.378** Einträge · 5.0 MiB  <br>[Anzeigen](lists/combined/security-part-01.txt) · **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/security-part-01.txt)** | **Teil 02**  <br>**232.052** Einträge · 5.0 MiB  <br>[Anzeigen](lists/combined/security-part-02.txt) · **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/security-part-02.txt)** |
 | **Teil 03**  <br>**247.129** Einträge · 5.0 MiB  <br>[Anzeigen](lists/combined/security-part-03.txt) · **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/security-part-03.txt)** | **Teil 04**  <br>**259.204** Einträge · 5.0 MiB  <br>[Anzeigen](lists/combined/security-part-04.txt) · **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/security-part-04.txt)** |
-| **Teil 05**  <br>**263.084** Einträge · 5.0 MiB  <br>[Anzeigen](lists/combined/security-part-05.txt) · **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/security-part-05.txt)** | **Teil 06**  <br>**263.525** Einträge · 5.0 MiB  <br>[Anzeigen](lists/combined/security-part-06.txt) · **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/security-part-06.txt)** |
-| **Teil 07**  <br>**270.071** Einträge · 5.0 MiB  <br>[Anzeigen](lists/combined/security-part-07.txt) · **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/security-part-07.txt)** | **Teil 08**  <br>**260.009** Einträge · 5.0 MiB  <br>[Anzeigen](lists/combined/security-part-08.txt) · **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/security-part-08.txt)** |
-| **Teil 09**  <br>**256.987** Einträge · 5.0 MiB  <br>[Anzeigen](lists/combined/security-part-09.txt) · **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/security-part-09.txt)** | **Teil 10**  <br>**260.276** Einträge · 5.0 MiB  <br>[Anzeigen](lists/combined/security-part-10.txt) · **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/security-part-10.txt)** |
-| **Teil 11**  <br>**280.773** Einträge · 5.0 MiB  <br>[Anzeigen](lists/combined/security-part-11.txt) · **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/security-part-11.txt)** | **Teil 12**  <br>**242.093** Einträge · 5.0 MiB  <br>[Anzeigen](lists/combined/security-part-12.txt) · **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/security-part-12.txt)** |
-| **Teil 13**  <br>**221.923** Einträge · 5.0 MiB  <br>[Anzeigen](lists/combined/security-part-13.txt) · **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/security-part-13.txt)** | **Teil 14**  <br>**136.513** Einträge · 2.6 MiB  <br>[Anzeigen](lists/combined/security-part-14.txt) · **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/security-part-14.txt)** |
+| **Teil 05**  <br>**263.085** Einträge · 5.0 MiB  <br>[Anzeigen](lists/combined/security-part-05.txt) · **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/security-part-05.txt)** | **Teil 06**  <br>**263.525** Einträge · 5.0 MiB  <br>[Anzeigen](lists/combined/security-part-06.txt) · **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/security-part-06.txt)** |
+| **Teil 07**  <br>**270.072** Einträge · 5.0 MiB  <br>[Anzeigen](lists/combined/security-part-07.txt) · **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/security-part-07.txt)** | **Teil 08**  <br>**260.007** Einträge · 5.0 MiB  <br>[Anzeigen](lists/combined/security-part-08.txt) · **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/security-part-08.txt)** |
+| **Teil 09**  <br>**256.986** Einträge · 5.0 MiB  <br>[Anzeigen](lists/combined/security-part-09.txt) · **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/security-part-09.txt)** | **Teil 10**  <br>**260.279** Einträge · 5.0 MiB  <br>[Anzeigen](lists/combined/security-part-10.txt) · **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/security-part-10.txt)** |
+| **Teil 11**  <br>**280.775** Einträge · 5.0 MiB  <br>[Anzeigen](lists/combined/security-part-11.txt) · **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/security-part-11.txt)** | **Teil 12**  <br>**242.092** Einträge · 5.0 MiB  <br>[Anzeigen](lists/combined/security-part-12.txt) · **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/security-part-12.txt)** |
+| **Teil 13**  <br>**221.927** Einträge · 5.0 MiB  <br>[Anzeigen](lists/combined/security-part-13.txt) · **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/security-part-13.txt)** | **Teil 14**  <br>**136.502** Einträge · 2.6 MiB  <br>[Anzeigen](lists/combined/security-part-14.txt) · **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/security-part-14.txt)** |
 
 </details>
 
@@ -174,20 +199,20 @@ Du wechselst vom bisherigen `security.txt` / `family.txt` / `ultimate-N.txt`-Sch
 <details>
 <summary><strong>🔴 Ultimate: Teile anzeigen (20 Dateien)</strong></summary>
 
-**Gesamt: 5.169.018 eindeutige Domains.** Füge alle Teile zu Pi-hole oder deinem DNS-Blocker hinzu, um die vollständige Abdeckung dieses Profils zu erhalten.
+**Gesamt: 5.169.014 eindeutige Domains.** Füge alle Teile zu Pi-hole oder deinem DNS-Blocker hinzu, um die vollständige Abdeckung dieses Profils zu erhalten.
 
 | Ultimate Teil | Ultimate Teil |
 |---|---|
 | **Teil 01**  <br>**295.375** Einträge · 5.0 MiB  <br>[Anzeigen](lists/combined/ultimate-part-01.txt) · **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/ultimate-part-01.txt)** | **Teil 02**  <br>**244.555** Einträge · 5.0 MiB  <br>[Anzeigen](lists/combined/ultimate-part-02.txt) · **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/ultimate-part-02.txt)** |
 | **Teil 03**  <br>**228.569** Einträge · 5.0 MiB  <br>[Anzeigen](lists/combined/ultimate-part-03.txt) · **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/ultimate-part-03.txt)** | **Teil 04**  <br>**264.308** Einträge · 5.0 MiB  <br>[Anzeigen](lists/combined/ultimate-part-04.txt) · **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/ultimate-part-04.txt)** |
 | **Teil 05**  <br>**260.070** Einträge · 5.0 MiB  <br>[Anzeigen](lists/combined/ultimate-part-05.txt) · **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/ultimate-part-05.txt)** | **Teil 06**  <br>**263.024** Einträge · 5.0 MiB  <br>[Anzeigen](lists/combined/ultimate-part-06.txt) · **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/ultimate-part-06.txt)** |
-| **Teil 07**  <br>**263.059** Einträge · 5.0 MiB  <br>[Anzeigen](lists/combined/ultimate-part-07.txt) · **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/ultimate-part-07.txt)** | **Teil 08**  <br>**267.351** Einträge · 5.0 MiB  <br>[Anzeigen](lists/combined/ultimate-part-08.txt) · **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/ultimate-part-08.txt)** |
-| **Teil 09**  <br>**261.856** Einträge · 5.0 MiB  <br>[Anzeigen](lists/combined/ultimate-part-09.txt) · **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/ultimate-part-09.txt)** | **Teil 10**  <br>**279.238** Einträge · 5.0 MiB  <br>[Anzeigen](lists/combined/ultimate-part-10.txt) · **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/ultimate-part-10.txt)** |
-| **Teil 11**  <br>**258.820** Einträge · 5.0 MiB  <br>[Anzeigen](lists/combined/ultimate-part-11.txt) · **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/ultimate-part-11.txt)** | **Teil 12**  <br>**268.355** Einträge · 5.0 MiB  <br>[Anzeigen](lists/combined/ultimate-part-12.txt) · **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/ultimate-part-12.txt)** |
-| **Teil 13**  <br>**266.310** Einträge · 5.0 MiB  <br>[Anzeigen](lists/combined/ultimate-part-13.txt) · **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/ultimate-part-13.txt)** | **Teil 14**  <br>**258.896** Einträge · 5.0 MiB  <br>[Anzeigen](lists/combined/ultimate-part-14.txt) · **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/ultimate-part-14.txt)** |
-| **Teil 15**  <br>**262.297** Einträge · 5.0 MiB  <br>[Anzeigen](lists/combined/ultimate-part-15.txt) · **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/ultimate-part-15.txt)** | **Teil 16**  <br>**264.668** Einträge · 5.0 MiB  <br>[Anzeigen](lists/combined/ultimate-part-16.txt) · **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/ultimate-part-16.txt)** |
+| **Teil 07**  <br>**263.058** Einträge · 5.0 MiB  <br>[Anzeigen](lists/combined/ultimate-part-07.txt) · **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/ultimate-part-07.txt)** | **Teil 08**  <br>**267.351** Einträge · 5.0 MiB  <br>[Anzeigen](lists/combined/ultimate-part-08.txt) · **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/ultimate-part-08.txt)** |
+| **Teil 09**  <br>**261.856** Einträge · 5.0 MiB  <br>[Anzeigen](lists/combined/ultimate-part-09.txt) · **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/ultimate-part-09.txt)** | **Teil 10**  <br>**279.239** Einträge · 5.0 MiB  <br>[Anzeigen](lists/combined/ultimate-part-10.txt) · **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/ultimate-part-10.txt)** |
+| **Teil 11**  <br>**258.822** Einträge · 5.0 MiB  <br>[Anzeigen](lists/combined/ultimate-part-11.txt) · **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/ultimate-part-11.txt)** | **Teil 12**  <br>**268.354** Einträge · 5.0 MiB  <br>[Anzeigen](lists/combined/ultimate-part-12.txt) · **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/ultimate-part-12.txt)** |
+| **Teil 13**  <br>**266.309** Einträge · 5.0 MiB  <br>[Anzeigen](lists/combined/ultimate-part-13.txt) · **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/ultimate-part-13.txt)** | **Teil 14**  <br>**258.896** Einträge · 5.0 MiB  <br>[Anzeigen](lists/combined/ultimate-part-14.txt) · **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/ultimate-part-14.txt)** |
+| **Teil 15**  <br>**262.296** Einträge · 5.0 MiB  <br>[Anzeigen](lists/combined/ultimate-part-15.txt) · **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/ultimate-part-15.txt)** | **Teil 16**  <br>**264.670** Einträge · 5.0 MiB  <br>[Anzeigen](lists/combined/ultimate-part-16.txt) · **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/ultimate-part-16.txt)** |
 | **Teil 17**  <br>**278.829** Einträge · 5.0 MiB  <br>[Anzeigen](lists/combined/ultimate-part-17.txt) · **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/ultimate-part-17.txt)** | **Teil 18**  <br>**241.849** Einträge · 5.0 MiB  <br>[Anzeigen](lists/combined/ultimate-part-18.txt) · **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/ultimate-part-18.txt)** |
-| **Teil 19**  <br>**222.191** Einträge · 5.0 MiB  <br>[Anzeigen](lists/combined/ultimate-part-19.txt) · **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/ultimate-part-19.txt)** | **Teil 20**  <br>**219.398** Einträge · 4.0 MiB  <br>[Anzeigen](lists/combined/ultimate-part-20.txt) · **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/ultimate-part-20.txt)** |
+| **Teil 19**  <br>**222.191** Einträge · 5.0 MiB  <br>[Anzeigen](lists/combined/ultimate-part-19.txt) · **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/ultimate-part-19.txt)** | **Teil 20**  <br>**219.393** Einträge · 4.0 MiB  <br>[Anzeigen](lists/combined/ultimate-part-20.txt) · **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/ultimate-part-20.txt)** |
 
 </details>
 <!-- SPLIT_PROFILES_END -->
@@ -210,6 +235,47 @@ Du wechselst vom bisherigen `security.txt` / `family.txt` / `ultimate-N.txt`-Sch
 | 🍪 **Consent / CMP** | 44 | Optionales Blocking von Consent-Management/CMP mit erhöhtem Risiko für Website-Fehlfunktionen | [Anzeigen](lists/categories/consent-cmp.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/consent-cmp.txt) |
 
 > **Consent/CMP ist bewusst in keinem kombinierten Schutzprofil enthalten.** DNS-basiertes Blocking von Consent-Infrastruktur kann Seitenaufbau, Consent-Status und Website-Funktionen beeinträchtigen.
+
+## 🧩 Zusätzliche Werbe- & Trackinglisten
+
+Die folgenden optionalen Listen ergänzen die normalen BlackRabbitZ-Kategorien. Sie stammen aus dem dokumentierten HaGeZi-Stand und bleiben bewusst getrennt von den Standardprofilen.
+
+<!-- SPECIAL_ADS_TRACKING_START -->
+<a id="special-popup-ads"></a>
+<details>
+<summary><strong>8. 🎉 Pop-Up-Werbung</strong> — Blockiert störende und potenziell schädliche Pop-up-Werbe-Domains.</summary>
+
+**Risiko: Mittel**
+
+| Variante | Einträge | Format | Anzeigen / Teile | Raw |
+|---|---:|---|:---:|:---:|
+| **Voll** | Noch nicht erzeugt | Domains | — | — |
+
+</details>
+
+<a id="special-native-tracker-archive"></a>
+<details>
+<summary><strong>22. 📲 Native Tracker – Geräte & Dienste</strong> — Geräte- und dienstespezifische Trackerlisten für Amazon, Apple, Huawei, Microsoft, Samsung, TikTok, LG webOS, Roku, Vivo, OPPO/Realme und Xiaomi.</summary>
+
+**Risiko: Mittel–Hoch**
+
+| Variante | Einträge | Format | Anzeigen / Teile | Raw |
+|---|---:|---|:---:|:---:|
+| **Amazon** | Noch nicht erzeugt | Domains | — | — |
+| **Apple** | Noch nicht erzeugt | Domains | — | — |
+| **Huawei** | Noch nicht erzeugt | Domains | — | — |
+| **Microsoft / Windows / Office** | Noch nicht erzeugt | Domains | — | — |
+| **Samsung** | Noch nicht erzeugt | Domains | — | — |
+| **TikTok** | Noch nicht erzeugt | Domains | — | — |
+| **TikTok – Aggressiv** | Noch nicht erzeugt | Domains | — | — |
+| **LG webOS** | Noch nicht erzeugt | Domains | — | — |
+| **Roku** | Noch nicht erzeugt | Domains | — | — |
+| **Vivo** | Noch nicht erzeugt | Domains | — | — |
+| **OPPO / Realme** | Noch nicht erzeugt | Domains | — | — |
+| **Xiaomi** | Noch nicht erzeugt | Domains | — | — |
+
+</details>
+<!-- SPECIAL_ADS_TRACKING_END -->
 
 ---
 
@@ -250,13 +316,146 @@ Du wechselst vom bisherigen `security.txt` / `family.txt` / `ultimate-N.txt`-Sch
 
 | Liste | Einträge | Beschreibung | Anzeigen | Raw |
 |---|---:|---|:---:|:---:|
-| 🦠 **Malware** | 2.710.235 | Sehr große Sammlung von Malware-, Ransomware- und aktiven Malware-Hosts | [Anzeigen](lists/categories/malware.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/malware.txt) |
+| 🦠 **Malware** | 2.710.231 | Sehr große Sammlung von Malware-, Ransomware- und aktiven Malware-Hosts | [Anzeigen](lists/categories/malware.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/malware.txt) |
 | 🎣 **Phishing** | 572.332 | Sehr große Sammlung aktiver und kuratierter Phishing-Domains | [Anzeigen](lists/categories/phishing.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/phishing.txt) |
 | 💰 **Scam** | 266.444 | Sehr große Sammlung von Betrugs-, Fraud- und täuschenden Plattform-Domains | [Anzeigen](lists/categories/scam.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/scam.txt) |
 | 🛒 **Fake-Shops** | 11.380 | Aggressive Sammlung potenzieller Fake-Shops und täuschender Shops | [Anzeigen](lists/categories/fake-shops.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/fake-shops.txt) |
 | ⛏️ **Kryptomining** | 6.121 | Browser-/Remote-Mining-Infrastruktur; allgemeine Börsen sind ausgeschlossen | [Anzeigen](lists/categories/cryptomining.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/cryptomining.txt) |
 
 > Sicherheitslisten sind bewusst **groß und aggressiv** und kombinieren mehrere Upstream-Intelligence-Quellen. Bedrohungsdaten ändern sich schnell; Fehlblockierungen sind daher möglich und Upstream-Daten sollten regelmäßig aktualisiert werden.
+
+## 🧩 Erweiterte Sicherheitslisten
+
+Für Umgebungen mit höherem Schutzbedarf stehen zusätzliche Threat-Intelligence-, NRD/DGA-, DynDNS-, Hoster- und TLD-Listen bereit. Diese Module sind aggressiver und können mehr Fehlblockierungen verursachen.
+
+<!-- SPECIAL_SECURITY_START -->
+<a id="special-fake"></a>
+<details>
+<summary><strong>7. 🎭 Fake & Internet-Betrug</strong> — Schutz vor Fake-Shops, Abzocke, Kostenfallen und betrügerischen Fake-Angeboten.</summary>
+
+**Risiko: Mittel**
+
+| Variante | Einträge | Format | Anzeigen / Teile | Raw |
+|---|---:|---|:---:|:---:|
+| **Voll** | Noch nicht erzeugt | Domains | — | — |
+
+</details>
+
+<a id="special-threat-intelligence"></a>
+<details>
+<summary><strong>9. 🔐 Threat Intelligence Feeds</strong> — Zusätzliche Malware-, Phishing-, Scam-, Spam-, Kryptojacking- und C2-Indikatoren in mehreren Größen.</summary>
+
+**Risiko: Mittel–Hoch**
+
+| Variante | Einträge | Format | Anzeigen / Teile | Raw |
+|---|---:|---|:---:|:---:|
+| **Voll** | Noch nicht erzeugt | Domains | — | — |
+| **Medium** | Noch nicht erzeugt | Domains | — | — |
+| **Mini** | Noch nicht erzeugt | Domains | — | — |
+| **IPv4** | Noch nicht erzeugt | IPv4 / Firewall | — | — |
+
+</details>
+
+<a id="special-nrd-dga"></a>
+<details>
+<summary><strong>10. 🆕 Neu registrierte Domains / NRD & DGA</strong> — Zeitfenster für neu registrierte Domains sowie hochentropische DGA-Domains; sehr groß und besonders aggressiv.</summary>
+
+**Risiko: Sehr hoch**
+
+| Variante | Einträge | Format | Anzeigen / Teile | Raw |
+|---|---:|---|:---:|:---:|
+| **NRD 1–7 Tage** | Noch nicht erzeugt | Domains | — | — |
+| **NRD 8–14 Tage** | Noch nicht erzeugt | Domains | — | — |
+| **NRD 15–21 Tage** | Noch nicht erzeugt | Domains | — | — |
+| **NRD 22–28 Tage** | Noch nicht erzeugt | Domains | — | — |
+| **NRD 29–35 Tage** | Noch nicht erzeugt | Domains | — | — |
+| **DGA 7 Tage** | Noch nicht erzeugt | Domains | — | — |
+| **DGA 14 Tage** | Noch nicht erzeugt | Domains | — | — |
+| **DGA 30 Tage** | Noch nicht erzeugt | Domains | — | — |
+
+</details>
+
+<a id="special-dynamic-dns"></a>
+<details>
+<summary><strong>13. 🔏 Dynamic DNS</strong> — Blockiert bekannte Dynamic-DNS-Dienste, die in Phishing- oder Malware-Kampagnen missbraucht werden können.</summary>
+
+**Risiko: Hoch**
+
+| Variante | Einträge | Format | Anzeigen / Teile | Raw |
+|---|---:|---|:---:|:---:|
+| **Voll** | Noch nicht erzeugt | Domains | — | — |
+
+</details>
+
+<a id="special-badware-hoster"></a>
+<details>
+<summary><strong>14. 💻 Badware-Hoster</strong> — Blockiert ganze Hosting-Anbieter-Domains, die wiederholt für schädliche Inhalte missbraucht wurden; hohes Fehlblockierungsrisiko.</summary>
+
+**Risiko: Sehr hoch**
+
+| Variante | Einträge | Format | Anzeigen / Teile | Raw |
+|---|---:|---|:---:|:---:|
+| **Voll** | Noch nicht erzeugt | Domains | — | — |
+
+</details>
+
+<a id="special-most-abused-tlds"></a>
+<details>
+<summary><strong>16. 🔮 Besonders missbrauchte TLDs</strong> — Aggressive Regeln zum Sperren ganzer, häufig missbrauchter Top-Level-Domains; im Pi-hole-kompatiblen Adblock-Format archiviert.</summary>
+
+**Risiko: Sehr hoch**
+
+| Variante | Einträge | Format | Anzeigen / Teile | Raw |
+|---|---:|---|:---:|:---:|
+| **Pi-hole Adblock** | Noch nicht erzeugt | Adblock | — | — |
+
+</details>
+<!-- SPECIAL_SECURITY_END -->
+
+---
+
+<a id="dns-web-protection"></a>
+# 🌐 DNS-, Web- & Bypass-Schutz
+
+Diese optionalen Module richten sich gegen **DNS-Umgehung, DNS-Rebinding und verschleierte Weiterleitungen**. Sie sind nicht Bestandteil der normalen Datenschutzprofile und sollten gezielt eingesetzt werden.
+
+<!-- SPECIAL_NETWORK_START -->
+<a id="special-dns-bypass"></a>
+<details>
+<summary><strong>11. 📤 DoH/VPN/TOR/Proxy-Bypass</strong> — Blockiert bekannte verschlüsselte DNS-, VPN-, TOR- und Proxy-Endpunkte, die lokale DNS-Filter umgehen können.</summary>
+
+**Risiko: Hoch**
+
+| Variante | Einträge | Format | Anzeigen / Teile | Raw |
+|---|---:|---|:---:|:---:|
+| **Voll** | Noch nicht erzeugt | Domains | — | — |
+| **Nur DoH** | Noch nicht erzeugt | Domains | — | — |
+| **DoH IPv4** | Noch nicht erzeugt | IPv4 / Firewall | — | — |
+
+</details>
+
+<a id="special-url-shortener"></a>
+<details>
+<summary><strong>15. 📲 URL-Kürzer</strong> — Blockiert bekannte Link-/URL-Shortener; für normale Heimnetze bewusst als sehr aggressiv markiert.</summary>
+
+**Risiko: Sehr hoch**
+
+| Variante | Einträge | Format | Anzeigen / Teile | Raw |
+|---|---:|---|:---:|:---:|
+| **Voll** | Noch nicht erzeugt | Domains | — | — |
+
+</details>
+
+<a id="special-dns-rebind-protection"></a>
+<details>
+<summary><strong>17. 🛡️ DNS-Rebind-Schutz</strong> — Pi-hole-/dnsmasq-Konfiguration gegen DNS-Rebinding; keine normale statische Domain-Adlist.</summary>
+
+**Risiko: Konfiguration**
+
+[Dokumentation](docs/DNS_REBIND_PROTECTION.md)
+
+</details>
+<!-- SPECIAL_NETWORK_END -->
 
 ---
 
@@ -268,7 +467,110 @@ Du wechselst vom bisherigen `security.txt` / `family.txt` / `ultimate-N.txt`-Sch
 | 🔞 **Erwachsene Inhalte** | 999.123 | Sehr große Domain-Sammlung für Erwachsenen-Inhalte und Pornografie | [Anzeigen](lists/categories/adult.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/adult.txt) |
 | 🎰 **Glücksspiel** | 420.536 | Sehr große Domain-Sammlung für Wetten, Casinos und Glücksspiel | [Anzeigen](lists/categories/gambling.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/gambling.txt) |
 
-> Zukünftige Jugendschutzmodule wie SafeSearch oder DNS-Bypass-Schutz sollten erst hinzugefügt werden, nachdem Datenquellen und mögliche Fehlfunktionen unabhängig geprüft wurden. Solche Funktionen werden hier bewusst nicht erfunden oder standardmäßig aktiviert.
+> **Diese Zusatzfilter bleiben bewusst optional und werden nicht automatisch in das Family-Profil aufgenommen.** So kannst du Jugendschutz und Inhaltsfilter gezielt an dein Netzwerk anpassen.
+
+## 🧩 Zusätzliche Familien- & Inhaltsfilter
+
+Zusätzlich zur normalen Adult- und Glücksspiel-Kategorie stehen optionale SafeSearch-, Anti-Piracy-, Social-Network- und NSFW-Listen zur Verfügung. Diese Filter können gewünschte Inhalte oder ganze Dienste blockieren.
+
+<!-- SPECIAL_FAMILY_START -->
+<a id="special-safesearch-unsupported"></a>
+<details>
+<summary><strong>12. 🔍 Suchmaschinen ohne SafeSearch</strong> — Blockiert Suchmaschinen, die keine SafeSearch-Funktion unterstützen.</summary>
+
+**Risiko: Hoch**
+
+| Variante | Einträge | Format | Anzeigen / Teile | Raw |
+|---|---:|---|:---:|:---:|
+| **Voll** | Noch nicht erzeugt | Domains | — | — |
+
+</details>
+
+<a id="special-anti-piracy"></a>
+<details>
+<summary><strong>18. 💀 Anti-Piracy</strong> — Blockiert Domains und Dienste, die überwiegend für nicht autorisierte Verbreitung urheberrechtlich geschützter Inhalte genutzt werden.</summary>
+
+**Risiko: Hoch**
+
+| Variante | Einträge | Format | Anzeigen / Teile | Raw |
+|---|---:|---|:---:|:---:|
+| **Voll** | Noch nicht erzeugt | Domains | — | — |
+
+</details>
+
+<a id="special-gambling-archive"></a>
+<details>
+<summary><strong>19. 🎰 Glücksspiel – HaGeZi-Varianten</strong> — Archivierte Voll-, Medium- und Mini-Varianten zusätzlich zur bereits vorhandenen BlackRabbitZ-Glücksspielliste.</summary>
+
+**Risiko: Hoch**
+
+| Variante | Einträge | Format | Anzeigen / Teile | Raw |
+|---|---:|---|:---:|:---:|
+| **Voll** | Noch nicht erzeugt | Domains | — | — |
+| **Medium** | Noch nicht erzeugt | Domains | — | — |
+| **Mini** | Noch nicht erzeugt | Domains | — | — |
+
+</details>
+
+<a id="special-social-networks"></a>
+<details>
+<summary><strong>20. 💬 Soziale Netzwerke sperren</strong> — Blockiert den Zugriff auf klassische soziale Netzwerke; Messaging und Streaming sind nicht automatisch gleichbedeutend damit.</summary>
+
+**Risiko: Sehr hoch**
+
+| Variante | Einträge | Format | Anzeigen / Teile | Raw |
+|---|---:|---|:---:|:---:|
+| **Voll** | Noch nicht erzeugt | Domains | — | — |
+
+</details>
+
+<a id="special-nsfw-archive"></a>
+<details>
+<summary><strong>21. 🔞 NSFW / Erwachsene Inhalte – HaGeZi</strong> — Archivierte HaGeZi-NSFW-Liste zusätzlich zur bereits vorhandenen BlackRabbitZ-Adult-Kategorie.</summary>
+
+**Risiko: Hoch**
+
+| Variante | Einträge | Format | Anzeigen / Teile | Raw |
+|---|---:|---|:---:|:---:|
+| **Voll** | Noch nicht erzeugt | Domains | — | — |
+
+</details>
+<!-- SPECIAL_FAMILY_END -->
+
+---
+
+<a id="recommendations"></a>
+# 💡 23. Empfehlungen
+
+BlackRabbitZ trennt **Datenschutzprofile**, **Schutzmodule** und **aggressive Speziallisten**, damit nicht jede Funktion automatisch in einem riesigen All-in-one-Profil landet.
+
+| Ziel | Empfehlung |
+|---|---|
+| Möglichst problemlos Werbung/Tracking reduzieren | **Balanced ⭐** |
+| Mehr Datenschutz und Telemetrie-Blocking | **Strict** |
+| Zusätzlicher Bedrohungsschutz | **Balanced oder Strict + Security** |
+| Familiennetzwerk | **Family** und bei Bedarf gezielt SafeSearch-/Social-/Bypass-Module |
+| Maximales integriertes Blocking | **Ultimate**, nur wenn du Fehlblockierungen selbst beheben kannst |
+| Zusätzliche Threat Intelligence | zuerst **TIF Mini/Medium**, Full nur bei ausreichend Ressourcen |
+| NRD/DGA, Badware-Hoster, URL-Shortener, TLD-Blocking | nur für bewusst aggressive oder besonders sensible Umgebungen |
+
+DNS-Blocking kann viel Werbung, Tracking und bekannte schädliche Infrastruktur abfangen, aber **nicht jeden Inhalt auf Webseiten ersetzen oder filtern**. Für browserseitige Elemente ist zusätzlich ein guter Content-Blocker sinnvoll.
+
+---
+
+<a id="online-dns-services"></a>
+# 🏬 24. Online-DNS-Dienste
+
+BlackRabbitZ ist in erster Linie für **selbst verwaltete DNS-Filter** wie Pi-hole gedacht. Die veröffentlichten reinen Domainlisten können auch in anderen Produkten verwendet werden, sofern der jeweilige Dienst eigene Blocklisten unterstützt.
+
+| Einsatz | Empfehlung |
+|---|---|
+| Heimnetz / volle Kontrolle | Pi-hole oder ein vergleichbarer selbst gehosteter DNS-Filter |
+| Mobil außerhalb des Heimnetzes | eigener DNS-Zugang per VPN/Tunnel oder ein externer DNS-Dienst mit benutzerdefinierten Listen |
+| IPv4-Speziallisten | nur in Produkten/Firewalls einsetzen, die IP-/Netzlisten ausdrücklich unterstützen |
+| DNS-Rebind-Schutz | integrierte Rebind-Funktion des DNS-Resolvers verwenden; siehe [Dokumentation](docs/DNS_REBIND_PROTECTION.md) |
+
+> Welche externen DNS-Anbieter benutzerdefinierte Listen unterstützen, kann sich ändern. Deshalb behauptet BlackRabbitZ hier keine dauerhaft gültige Verfügbarkeit einzelner Anbieter und veröffentlicht stattdessen portable Raw-Listen.
 
 ---
 
