@@ -141,7 +141,7 @@ build_combined family \
 
 build_ultimate_split() {
   local categories=(
-    ads trackers telemetry windows-telemetry apple-telemetry android-telemetry
+    ads trackers telemetry gaming-telemetry windows-telemetry apple-telemetry android-telemetry
     linux-telemetry nas-telemetry server-telemetry
     smart-tv iot mobile-tracking social-trackers native-tracking
     phishing malware scam cryptomining fake-shops adult gambling

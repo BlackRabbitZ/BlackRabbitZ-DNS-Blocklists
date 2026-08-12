@@ -1,0 +1,48 @@
+# BlackRabbitZ DNS Blocklists
+# Category: gaming-telemetry
+# Author: BlackRabbitZ
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
+# Entries: 38
+# Description: Recommended game, launcher, analytics, diagnostics and crash-reporting endpoints with lower known breakage risk.
+# Sources: Manually curated vendor endpoints and public DNS-filtering research
+# Snapshot: 2026-08
+#
+api-eu.mixpanel.com
+api.amplitude.com
+api.gameanalytics.com
+api.gameofwhales.com
+api.keen.io
+api.mixpanel.com
+api.redshell.io
+api.segment.io
+api.uca.cloud.unity3d.com
+api2.amplitude.com
+bam.nr-data.net
+capture.trackjs.co
+cdp.cloud.unity3d.com
+collect.analytics.unity3d.com
+crash.steampowered.com
+events.api.kochava.com
+events.gfe.nvidia.com
+galaxy-log.gog.com
+ingest.sentry.io
+insights-collector.gog.com
+ls.dtrace.nvidia.com
+metrics.live.public.prod.ubiconnect.fleet.ubi.com
+metrics.ubi.com
+mobile-collector.newrelic.com
+notify.bugsnag.com
+nvidia.tt.omtrdc.net
+o0.ingest.sentry.io
+opstm.paradoxplaza.com
+perf-events.cloud.unity3d.com
+prod-telemetry.paradox-interactive.com
+redshell.io
+rubick.gameanalytics.com
+sdk-api-v1.singular.net
+sessions.bugsnag.com
+smetrics.ubi.com
+telemetry.gfe.nvidia.com
+track.tenjin.com
+usage.trackjs.com

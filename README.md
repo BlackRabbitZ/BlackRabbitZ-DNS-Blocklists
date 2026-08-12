@@ -78,6 +78,7 @@ https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/
 | Social Tracking | — | ✅ | ✅ | — | ✅ | ✅ |
 | Affiliate Tracking | — | ✅ | ✅ | — | — | ✅ |
 | General Telemetry | — | — | ✅ | — | — | ✅ |
+| Gaming Telemetry | — | — | — | — | — | ✅ |
 | Windows Telemetry | — | — | ✅ | — | — | ✅ |
 | Apple Telemetry | — | — | ✅ | — | — | ✅ |
 | Android Telemetry | — | — | ✅ | — | — | ✅ |
@@ -124,6 +125,18 @@ https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/
 | 🏠 **IoT** | 85 | IoT and connected-device telemetry/tracking endpoints | [View](lists/categories/iot.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/iot.txt) |
 
 > Device-specific lists may disable recommendations, diagnostics, usage reporting, ACR, advertising or other cloud-backed features.
+
+---
+
+# 🎮 Gaming Privacy
+
+| List | Entries | Description | View | Raw |
+|---|---:|---|:---:|:---:|
+| 🎮 **Gaming Telemetry** | 38 | Recommended game, launcher, analytics and crash-reporting endpoints with lower breakage risk | [View](lists/categories/gaming-telemetry.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/gaming-telemetry.txt) |
+| ⚠️ **Gaming Telemetry – Aggressive** | 62 | Optional additional endpoints with increased launcher, login and gameplay breakage risk | [View](lists/categories/gaming-telemetry-aggressive.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/gaming-telemetry-aggressive.txt) |
+| 🧩 **Gaming RegEx Rules** | 5 | Dynamic Pi-hole deny patterns; import individually, not as a normal Adlist | [View](lists/regex/gaming-telemetry-regex.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/regex/gaming-telemetry-regex.txt) |
+
+> Start with **Gaming Telemetry**. The aggressive list and RegEx rules can interfere with Battle.net, Epic, Rockstar, Riot, EA and individual games. Test them in a separate Pi-hole group first.
 
 ---
 
@@ -203,10 +216,15 @@ BlackRabbitZ-DNS-Blocklists/
     │   ├── ultimate-3.txt
     │   └── ... ultimate-N.txt
     │
+    ├── regex/
+    │   └── gaming-telemetry-regex.txt
+    │
     └── categories/
         ├── ads.txt
         ├── trackers.txt
         ├── telemetry.txt
+        ├── gaming-telemetry.txt
+        ├── gaming-telemetry-aggressive.txt
         ├── social-trackers.txt
         ├── mobile-tracking.txt
         ├── native-tracking.txt
@@ -256,7 +274,7 @@ The automatic updater:
 - updates all **Entries** values in this README
 - commits generated changes back to `main` only after all checks pass
 
-Automatic upstream imports are **additive**: the updater can extend the lists automatically, but it does not silently delete existing BlackRabbitZ entries. `linux-telemetry.txt`, `nas-telemetry.txt` and `server-telemetry.txt` remain manually curated because those vendor-specific endpoints do not have a single trustworthy general-purpose upstream feed.
+Automatic upstream imports are **additive**: the updater can extend the lists automatically, but it does not silently delete existing BlackRabbitZ entries. `gaming-telemetry.txt`, `gaming-telemetry-aggressive.txt`, `linux-telemetry.txt`, `nas-telemetry.txt` and `server-telemetry.txt` remain manually curated because those specialized endpoints do not have a single trustworthy general-purpose upstream feed.
 
 The profile definitions in `scripts/update-lists.sh` remain the single source of truth for which categories are included in **Light**, **Balanced**, **Strict**, **Security**, **Family** and **Ultimate**. Full details are in [`docs/AUTOMATIC_UPDATES.md`](docs/AUTOMATIC_UPDATES.md).
 

@@ -1,0 +1,13 @@
+# BlackRabbitZ DNS Blocklists
+# Type: Pi-hole RegEx deny rules
+# Author: BlackRabbitZ
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# Entries: 5
+# Snapshot: 2026-08
+# Warning: This is not a normal Adlist. Add each rule individually as a Pi-hole RegEx deny entry.
+#
+(^|\.)telemetry(\.[^.]+)*\.pvp\.net$
+(^|\.)telemetry(\.[^.]+)*\.rockstargames\.com$
+(^|\.)datarouter([.-][^.]+)*(\.ol)?\.epicgames\.com$
+(^|\.)o[0-9]+\.ingest\.sentry\.io$
+(^|\.)[^.]+\.sp\.backtrace\.io$

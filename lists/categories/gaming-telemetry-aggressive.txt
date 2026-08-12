@@ -1,0 +1,73 @@
+# BlackRabbitZ DNS Blocklists
+# Category: gaming-telemetry-aggressive
+# Author: BlackRabbitZ
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
+# Entries: 62
+# Description: Optional aggressive gaming telemetry extension with increased launcher, login, update, multiplayer and gameplay breakage risk.
+# Sources: Manually curated vendor endpoints and public DNS-filtering research
+# Snapshot: 2026-08
+# Warning: Use together with gaming-telemetry.txt and test in a separate Pi-hole group.
+#
+ad.doubleclick.net
+analytics.google.com
+api.treasuredata.com
+api2.branch.io
+api4.origin.com
+app.adjust.com
+browser-intake-datadoghq.com
+browser-intake-us3-datadoghq.com
+browser-intake-us5-datadoghq.com
+cdn-settings.segment.com
+config.uca.cloud.unity3d.com
+control.kochava.com
+crashlyticsreports-pa.googleapis.com
+data.riotgames.com
+datarouter-prod.ak.epicgames.com
+datarouter-weighted.ol.epicgames.com
+datarouter.ol.epicgames.com
+decide.mixpanel.com
+ekg.riotgames.com
+et.epicgames.com
+et2.epicgames.com
+etsource.epicgames.com
+events.adjust.com
+events.appsflyer.com
+firebase-settings.crashlytics.com
+fls.doubleclick.net
+google-analytics.com
+googleads.g.doubleclick.net
+googletagmanager.com
+in.treasuredata.com
+js-agent.newrelic.com
+metrics.ol.epicgames.com
+mobile-service.segment.com
+o1.ingest.sentry.io
+o2.ingest.sentry.io
+o3.ingest.sentry.io
+o4.ingest.sentry.io
+o5.ingest.sentry.io
+pin-river.data.ea.com
+prod.telemetry.ros.rockstargames.com
+profiles.segment.com
+public-trace-http-intake.logs.datadoghq.com
+qos1.ol.epicgames.com
+qos2.ol.epicgames.com
+qos3.ol.epicgames.com
+qos4.ol.epicgames.com
+remote-config-proxy-prd.uca.cloud.unity3d.com
+reports.crashlytics.com
+rum-http-intake.logs.datadoghq.com
+sdk.adjust.com
+sdk.appsflyer.com
+settings.crashlytics.com
+ssl.google-analytics.com
+telemetry-in.battle.net
+telemetry.ros.rockstargames.com
+telemetry.sgp.pvp.net
+telemetry.vg.ac.pvp.net
+tm-rgl-prod.rockstargames.com
+tm-rgl-prod.ros.rockstargames.com
+tracking.epicgames.com
+treasuredata.com
+www.google-analytics.com
