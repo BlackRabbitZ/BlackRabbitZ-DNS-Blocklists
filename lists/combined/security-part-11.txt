@@ -3,14 +3,19 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 280775
-# Profile Total Entries: 3458013
+# Entries: 280773
+# Profile Total Entries: 3458017
 #
 # Includes: malware,phishing,scam,fake-shops,cryptomining
 #
 # IMPORTANT: This is only one part of the security profile.
 # Add every security-part-NN.txt Raw URL listed in the README for complete coverage.
 #
+studioprogrid.click
+studiopromoters.com
+studiopromotes.com
+studioprotec.com
+studiopryzmat.pl
 studiopsicologiaroma.com
 studiopulseco.cloud
 studiopuntoin.it
@@ -280779,10 +280784,3 @@ vinaliahubco.digital
 vinalianova.click
 vinalorestuqem.com
 vinalorexum.com
-vinalosperiq.sbs
-vinaltara.com
-vinamike.com
-vinance.online
-vinance.pro
-vinancee.app
-vinanceee.com

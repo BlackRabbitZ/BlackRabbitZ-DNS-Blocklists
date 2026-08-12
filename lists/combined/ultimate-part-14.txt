@@ -4,13 +4,16 @@
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
 # Entries: 258896
-# Profile Total Entries: 5169014
+# Profile Total Entries: 5169018
 #
 # Includes: ads,trackers,telemetry,gaming-telemetry,windows-telemetry,apple-telemetry,android-telemetry,linux-telemetry,nas-telemetry,server-telemetry,smart-tv,iot,mobile-tracking,social-trackers,native-tracking,phishing,malware,scam,cryptomining,fake-shops,adult,gambling,affiliate-tracking
 #
 # IMPORTANT: This is only one part of the ultimate profile.
 # Add every ultimate-part-NN.txt Raw URL listed in the README for complete coverage.
 #
+powerenergyswitchgearuae.com
+powerengagementmarketing.com
+powererotic.de
 powererotica.com
 powerery.com
 poweretail.com
@@ -258904,6 +258907,3 @@ safehighgain.com
 safehillsheritagebank.com
 safehodl.org
 safehold056-booking.com
-safehome.com.au
-safehomehelp.com
-safehomepage.com

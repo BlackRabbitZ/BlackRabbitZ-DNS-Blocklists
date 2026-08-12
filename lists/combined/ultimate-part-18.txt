@@ -4,13 +4,17 @@
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
 # Entries: 241849
-# Profile Total Entries: 5169014
+# Profile Total Entries: 5169018
 #
 # Includes: ads,trackers,telemetry,gaming-telemetry,windows-telemetry,apple-telemetry,android-telemetry,linux-telemetry,nas-telemetry,server-telemetry,smart-tv,iot,mobile-tracking,social-trackers,native-tracking,phishing,malware,scam,cryptomining,fake-shops,adult,gambling,affiliate-tracking
 #
 # IMPORTANT: This is only one part of the ultimate profile.
 # Add every ultimate-part-NN.txt Raw URL listed in the README for complete coverage.
 #
+w3gkh68v.top
+w3gqfwg4.top
+w3gvgf4w.top
+w3h-info.cash
 w3h.miu8ekuryezmw8.cfd
 w3h.ventures
 w3h6t.com
@@ -108362,6 +108366,7 @@ www-compelesadsmanagerfixs216.info
 www-compelesadsmanagerfixs223.info
 www-confimsadsmanger2025.info
 www-confirmcheckup2025.info
+www-connect-secure-wellcfargo.sekolahkejarpaket.com
 www-consignes-lockers.com
 www-consorbnk.com
 www-consulta.info
@@ -241855,8 +241860,3 @@ www.freepayingsurveys.com
 www.freepaypalgiftcard.com
 www.freepb.net
 www.freepc-download.com
-www.freepcapp.com
-www.freepcerrorfixcleaner.com
-www.freepcountry.com
-www.freepcscan.com
-www.freepcsupport.net

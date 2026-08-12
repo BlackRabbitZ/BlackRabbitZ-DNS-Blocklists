@@ -3,14 +3,18 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 266309
-# Profile Total Entries: 5169014
+# Entries: 266310
+# Profile Total Entries: 5169018
 #
 # Includes: ads,trackers,telemetry,gaming-telemetry,windows-telemetry,apple-telemetry,android-telemetry,linux-telemetry,nas-telemetry,server-telemetry,smart-tv,iot,mobile-tracking,social-trackers,native-tracking,phishing,malware,scam,cryptomining,fake-shops,adult,gambling,affiliate-tracking
 #
 # IMPORTANT: This is only one part of the ultimate profile.
 # Add every ultimate-part-NN.txt Raw URL listed in the README for complete coverage.
 #
+one-vv07219.life
+one-vv07234.life
+one-vv0725.com
+one-vv0726.com
 one-vv0729.com
 one-vv0738.com
 one-vv074.com
@@ -266317,6 +266321,3 @@ powerelectronics.es
 powerelixir.online
 powerello.info
 powerello.link
-powerenergyswitchgearuae.com
-powerengagementmarketing.com
-powererotic.de

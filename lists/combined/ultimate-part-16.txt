@@ -3,14 +3,16 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 264670
-# Profile Total Entries: 5169014
+# Entries: 264668
+# Profile Total Entries: 5169018
 #
 # Includes: ads,trackers,telemetry,gaming-telemetry,windows-telemetry,apple-telemetry,android-telemetry,linux-telemetry,nas-telemetry,server-telemetry,smart-tv,iot,mobile-tracking,social-trackers,native-tracking,phishing,malware,scam,cryptomining,fake-shops,adult,gambling,affiliate-tracking
 #
 # IMPORTANT: This is only one part of the ultimate profile.
 # Add every ultimate-part-NN.txt Raw URL listed in the README for complete coverage.
 #
+spacefortunacasino-france.com
+spacefortunacasinoenfrance.shop
 spacefortunacasinofr.net
 spacefortunacasinos.com
 spacefortunafr.fr
@@ -264677,7 +264679,3 @@ tiktokbrasiloflcial.shop
 tiktokbrazill.com
 tiktokbreathrox.com
 tiktokbroker.com
-tiktokbt.com
-tiktokbtfc.com
-tiktokbts.com
-tiktokbucin.pro

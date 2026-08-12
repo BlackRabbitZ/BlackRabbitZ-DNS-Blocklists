@@ -3,14 +3,21 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 242092
-# Profile Total Entries: 3458013
+# Entries: 242093
+# Profile Total Entries: 3458017
 #
 # Includes: malware,phishing,scam,fake-shops,cryptomining
 #
 # IMPORTANT: This is only one part of the security profile.
 # Add every security-part-NN.txt Raw URL listed in the README for complete coverage.
 #
+vinalosperiq.sbs
+vinaltara.com
+vinamike.com
+vinance.online
+vinance.pro
+vinancee.app
+vinanceee.com
 vinaphonve.lat
 vinaphoto.com
 vinarethilosqua.com
@@ -107893,6 +107900,7 @@ www-compelesadsmanagerfixs216.info
 www-compelesadsmanagerfixs223.info
 www-confimsadsmanger2025.info
 www-confirmcheckup2025.info
+www-connect-secure-wellcfargo.sekolahkejarpaket.com
 www-consignes-lockers.com
 www-consorbnk.com
 www-consulta.info
@@ -242096,10 +242104,3 @@ www.gofreedomsystems.com
 www.gofresh.com.pk
 www.gofriend.cn
 www.gofro-market.ru
-www.gofronkt.com
-www.gofuckbadoo.ru
-www.gofuckbiz.com
-www.gofuckyourself.com
-www.gofwfqueulogized.review
-www.gogabolson.com
-www.gogadgetgiveaway.com

@@ -3,14 +3,25 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 136502
-# Profile Total Entries: 3458013
+# Entries: 136513
+# Profile Total Entries: 3458017
 #
 # Includes: malware,phishing,scam,fake-shops,cryptomining
 #
 # IMPORTANT: This is only one part of the security profile.
 # Add every security-part-NN.txt Raw URL listed in the README for complete coverage.
 #
+wxzfw1c.cyou
+wxzhongtian.com
+wxzhxbxg.com
+wxzibr.casa
+wxzlxh.com
+wxzm56.com
+wxzqvfk.weebly.com
+wxzr.pl
+wxzsxx.net.cn
+wxztfkiga.com
+wxztjz.com
 wxztvhekmjmcfjbqgzu.shop
 wy-251.top
 wy-253.top

@@ -3,8 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 263085
-# Profile Total Entries: 3458013
+# Entries: 263084
+# Profile Total Entries: 3458017
 #
 # Includes: malware,phishing,scam,fake-shops,cryptomining
 #
@@ -179716,6 +179716,7 @@ flooringsolutionspro.com
 flooringuj.com
 flooringxtra-my.sharepoint.com
 floorisbu.nl
+flooriscoveringworld.com
 floorkillervn.com
 floorlamponsale.com
 floorlampsaleshop.com
@@ -263094,5 +263095,3 @@ getverifyinstagram.tk
 getverifynows.com
 getverifyouraccountbyy.co.vu
 getverifyquickacc1108.co.vu
-getverifyunlock.com
-getverino.top
