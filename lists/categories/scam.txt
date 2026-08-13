@@ -3,8 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 283956
-# Auto-updated: 2026-08-12T05:03:59Z
+# Entries: 284050
+# Auto-updated: 2026-08-13T05:06:39Z
 # Description: Massive scam, fraud and deceptive-platform domain set.
 # Sources: Block List Project Fraud/Scam; DurableNapkin Scam Blocklist; curated BaFin entries
 # Snapshot: 2026-08
@@ -13,6 +13,7 @@
 #
 #
 #
+
 0-0-----------------------------------------------------------0.com
 0-google.com
 00-lawyer.com
@@ -85865,6 +85866,7 @@ lisawood634.wixsite.com
 lisbon.support
 liscoot.com
 lisft.shop
+lisianstore.com
 lisimya.pro
 lisinux.top
 liskit.me
@@ -115403,6 +115405,7 @@ photos-facebook.com
 photos.cpcempower.com
 photoschneider.de
 photosetten.stream
+phototan-erneueren.com
 photovoltaikprofis.de
 php-mail-domain-verify.info
 phpapps.de
@@ -125153,6 +125156,8 @@ robrta.top
 robsdt-738.getforge.io
 robustwerkzeug.com
 robuxcodestips.com
+robuxmenu.vip
+robuxreward.live
 rochobbies.com
 rocimining.co.uk
 rock-fortune.com
@@ -127590,6 +127595,8 @@ sbd-exporters.com
 sbdufkkcp.bid
 sbdvjhsdbv.tk
 sbendpeci.cyou
+sber.booking.com-id802912.com
+sber.com-id329712.com
 sberbank-online-gid.ru
 sberbank.avito.com-id20341.info
 sberboom.plp7.ru
@@ -132840,6 +132847,7 @@ sms-support.online
 sms-verify.ru
 sms-whatsapp.online
 sms-za-darmo.pl
+sms_aktiv.deer.io
 smsa-tracking.com
 smsactivator.ru
 smsak.ru
@@ -136555,6 +136563,7 @@ store.1stfinancefirm.wixsite.com
 store.1stireland.com
 store.1sttheworld.co
 store.25twelve.com
+store.270278609-2020004278-462904544-440202503325--570202500372x-usps.com
 store.365analytics.xyz
 store.3ab48a20-acaa-49ab-95cc-3eb16f1cda78-00-1a0l3yf6hw9aq.sisko.replit.dev
 store.3ae52b08mbt3oxw4zh32q5-z5m.hop.clickbank.net
@@ -165353,6 +165362,7 @@ webtrader.capexgo.net
 webtrader.finaurex.org
 webtrader.swisscapitalplatform.com
 webubisof409-online.gq
+webui_34785312.hookupss.com
 webuildbc.com
 webustoconnect.club
 webuyanyapplemac.info
@@ -233766,6 +233776,7 @@ www.norgejakke.com
 www.norgejakkerbutikk.com
 www.norgeshoes.com
 www.norivantix-software.com
+www.norma_jbaker.brands.brandcollections.ru
 www.normalization.fed-logix.xyz
 www.normandy.com.br
 www.normyacht.com
@@ -249142,6 +249153,8 @@ www.sbcglobalsupportnumber.com
 www.sbcglobaltechnicalsuppo.wordpress.com
 www.sbcglobaltechsupportphonenumber.blogspot.com
 www.sbendpeci.cyou
+www.sber.avito.booking.com-id3212341.info
+www.sber.avito.sber.booking.com-id322712.com
 www.sberbank-online-gid.ru
 www.sberboom.plp7.ru
 www.sberrdisse.cyou
@@ -252059,6 +252072,7 @@ www.sms-support.info
 www.sms-verify.ru
 www.sms-whatsapp.online
 www.sms-za-darmo.pl
+www.sms_aktiv.deer.io
 www.smsa-tracking.com
 www.smsactivator.ru
 www.smsak.ru
@@ -259034,6 +259048,7 @@ www.talecarry.casa
 www.taleeroberts.com
 www.talenshot.com
 www.talent-support.com
+www.talented_totes.brands.brandcollections.ru
 www.talentodeportivo.cl
 www.talentpsyche.com
 www.talenzio.store
@@ -259056,6 +259071,7 @@ www.tallowbrook.eu
 www.tallowhouse.eu
 www.tallowooyrand.info
 www.tallulahestates.com
+www.tally_weijl.brands.brandcollections.ru
 www.talmorzeno.eu
 www.talnex-core.net
 www.talonextrader8-3core.com
@@ -259070,6 +259086,7 @@ www.tamamdirr.com
 www.tamara-milf.echtmageil.net
 www.tamaris-onlines.com
 www.tamaris.brands.brandcollections.ru
+www.tamaris_trend.brands.brandcollections.ru
 www.tamed-exotics.com
 www.tamgdziewarszawa.top
 www.tamgdziewroclaw.top
@@ -263468,6 +263485,9 @@ www.the-vegetable-site.com
 www.the-veltrix-ai-app.com
 www.the-vortexiontrade.com
 www.the10bestantivirus.com
+www.the_bridge.brands.brandcollections.ru
+www.the_original_satchel.brands.brandcollections.ru
+www.the_seller.brands.brandcollections.ru
 www.theacademicpapers.co.uk
 www.theaccuratestore.com
 www.theaglet.shop
@@ -263966,6 +263986,8 @@ www.thiswonderful.tk
 www.thjinvest.pro
 www.thmorning.tk
 www.thnore.com
+www.thomas_munz.brands.brandcollections.ru
+www.thomas_wylde.brands.brandcollections.ru
 www.thomasboursin.fr
 www.thomaseips.shop
 www.thomashenrytailors.com
@@ -264037,6 +264059,7 @@ www.thunderbirdsupport.com
 www.thunderbirdsupport.wordpress.com
 www.thunderbirdsupports.com
 www.thunderbit.io
+www.thursday_friday.brands.brandcollections.ru
 www.thursdayboots-polska.com
 www.thursdaybootspolska.com
 www.thurstonwolfe.com
@@ -264694,6 +264717,7 @@ www.tollfreetechnicalsupportphonenumber.wordpress.com
 www.tollymoreredsquirrelgroup.com
 www.tolyatti-cc.ru
 www.tom001.site
+www.tom_farr.brands.brandcollections.ru
 www.toma.la
 www.tomadamsenergy.com
 www.tomasnatalio.com
@@ -264744,6 +264768,7 @@ www.toniesweb.com
 www.toniger.com
 www.tonkpi.info
 www.tonusposture.com
+www.tony_perotti.brands.brandcollections.ru
 www.tonyacollins.shop
 www.tonymontana.cc
 www.tonyprevite.com
@@ -264870,6 +264895,8 @@ www.top5antivirus20l8.com
 www.top5antivirusdeals.com
 www.top5bestantivirus.info
 www.top5softwareantivirus.org
+www.top_line.brands.brandcollections.ru
+www.top_look.brands.brandcollections.ru
 www.topantivirus-20l8.com
 www.topantivirus.online
 www.topantivirus.reviews
@@ -265039,6 +265066,8 @@ www.torvoaccam.cyou
 www.torvoimeka.info
 www.toryburchfactoryoutlet.com
 www.toryburchoutletstore.name
+www.tosca_blu.brands.brandcollections.ru
+www.tosca_blu_shoes.brands.brandcollections.ru
 www.toshiba-printer.com
 www.toshiba-support-us.com
 www.toshiba-support.com
@@ -265484,6 +265513,7 @@ www.trendomat.shop
 www.trendopolis.shop
 www.trends-google.news
 www.trends88.com
+www.trends_brands.brands.brandcollections.ru
 www.trendsgal.com
 www.trendsharks.com
 www.trendsmidia.com
@@ -265760,6 +265790,7 @@ www.tsrxz.net
 www.tssgroup.support
 www.tsukemon.info
 www.tsukidi-global.com
+www.tsumori_chisato.brands.brandcollections.ru
 www.tsvetolina.ru
 www.ttdating28.com
 www.ttdating29.com
@@ -265984,6 +266015,7 @@ www.twifollowers.com
 www.twiiiter.com
 www.twilahomelive.com
 www.twilltcallingt6211.tk
+www.twin_set.brands.brandcollections.ru
 www.twindowsphone.net
 www.twinsbio.com
 www.twisprofit-soft.com
@@ -266171,6 +266203,8 @@ www.twitterverifiedservice.online
 www.twitterverifiedsupport.com
 www.twitterz.net
 www.twittshock.com
+www.two_ile.brands.brandcollections.ru
+www.two_ta.brands.brandcollections.ru
 www.twoj-typ.pl
 www.twoj-voucher.com
 www.twoj-wybor.com
@@ -266353,6 +266387,7 @@ www.ugg-australia.fr
 www.ugg-boots.net.co
 www.ugg-warsawa.com
 www.ugg.hotoutlets.com
+www.ugg_australia.brands.brandcollections.ru
 www.uggbaratasoutlet.net
 www.uggboots.fr
 www.uggboots.mex.com
@@ -266783,6 +266818,7 @@ www.umat.biz
 www.umayracafe.com
 www.umayracafe.info
 www.umberlane.eu
+www.umberto_mancini.brands.brandcollections.ru
 www.umbra.support
 www.umbrella-matrix.com
 www.umbrella.support
@@ -266876,6 +266912,7 @@ www.unhefsconc.cyou
 www.uni-login.com
 www.uni-swap.online
 www.uniaxes.com
+www.unica_shoes.brands.brandcollections.ru
 www.uniccshop.ru
 www.unicorn-analytics.org
 www.unicorn.creditfacts.info
@@ -266957,6 +266994,7 @@ www.united-nations-update.info
 www.united-systemsmsp.com
 www.united-systemsmsp.net
 www.united-we-help.com
+www.united_nude.brands.brandcollections.ru
 www.unitedcars.co.uk
 www.unitedcoins.net
 www.uniteddatasupport.net
@@ -267391,6 +267429,8 @@ www.uragan.online
 www.uralklad.biz
 www.urayasu-pc-support.com
 www.urbabsale.com
+www.urban_classics.brands.brandcollections.ru
+www.urban_expressions.brands.brandcollections.ru
 www.urbanbase.org
 www.urbanbasketco.eu
 www.urbandogs.es
@@ -267558,6 +267598,7 @@ www.us933autoinsur.webzone51.tk
 www.us939autoinsur.infnet.tk
 www.us986carinsur.webzone51.tk
 www.us99.pro
+www.us_polo.brands.brandcollections.ru
 www.usa-autoinsur129.ciy2kci.tk
 www.usa-autoinsur530.ciy2kci.tk
 www.usa-autoinsur823.ciy2kci.tk
@@ -267947,6 +267988,7 @@ www.uspcsupportszs.club
 www.uspcsupportvn.club
 www.uspeh-na-avinj.blogspot.co.uk
 www.uspexkaknekryti.ru
+www.uspolo_assn.brands.brandcollections.ru
 www.uspora-tradium-app.com
 www.usposrodducklts4.tk
 www.usprintersupport.net
@@ -268153,6 +268195,7 @@ www.vajra.brands.brandcollections.ru
 www.vakiline.com
 www.vakwerkmetverve.nl
 www.valacsform.cyou
+www.valance_paris.brands.brandcollections.ru
 www.valarie01.hookupdating33.com
 www.valarstore.com
 www.vale-davvero.com
@@ -268161,6 +268204,8 @@ www.valenciareve.casa
 www.valentines-jewelry-gifts.com
 www.valentino-polska.pl
 www.valentino.brands.brandcollections.ru
+www.valentino_garavani.brands.brandcollections.ru
+www.valentino_orlandi.brands.brandcollections.ru
 www.valentinoshoesoutlets.us.com
 www.valeofoodsgroup.com
 www.valeri.brands.brandcollections.ru
@@ -268187,6 +268232,7 @@ www.valleycresthome.eu
 www.valleyviewhome.eu
 www.vallid-accounts.com
 www.vallyo.top
+www.valor_wolf.brands.brandcollections.ru
 www.valore-fundexsystem.com
 www.valtorinix.com
 www.valtramedia.com
@@ -268208,12 +268254,14 @@ www.vanartsanat.com
 www.vanced-official.com
 www.vancell-technology.com
 www.vandeeppkalra.com
+www.vanessa_scani.brands.brandcollections.ru
 www.vanessacybulski.com
 www.vanguardbreakingnews.pro
 www.vanguardbuzzalert.pro
 www.vanguardnewsfocus.pro
 www.vanhalen2000.com
 www.vanharen.peek-cloppenburg.sbs
+www.vanilla_moon.brands.brandcollections.ru
 www.vanishappar.com
 www.vanmovies.download
 www.vannichile.cl
@@ -268489,6 +268537,7 @@ www.vegliscemp.cyou
 www.vegplay.net
 www.vehicleinsured-update.online
 www.veicoinser.cyou
+www.veidi_amo.brands.brandcollections.ru
 www.veilstroooll.info
 www.veipclick.ru
 www.vejapoland.com
@@ -268571,12 +268620,14 @@ www.venumsport.shop
 www.veoeyewear.com
 www.veogeldi.com
 www.veornexalti.info
+www.vera_victoria_vito.brands.brandcollections.ru
 www.verage.brands.brandcollections.ru
 www.verbadisto.cyou
 www.verbalsim.com
 www.verbalsupport.com
 www.vercel-build.borderlandhof.de
 www.verdantcu.com
+www.verde_line.brands.brandcollections.ru
 www.verderconwhatsapp.com
 www.verdesendero.com
 www.verdginia.brands.brandcollections.ru
@@ -269237,11 +269288,16 @@ www.vernie-delo.ru
 www.vernisoft.us
 www.vernoncorner.eu
 www.vernytradex-system.com
+www.vero_moda.brands.brandcollections.ru
 www.verona.brands.brandcollections.ru
 www.veronadonna.it
 www.veroni.brands.brandcollections.ru
 www.veronicaroper.com
+www.veronique_branquinho.brands.brandcollections.ru
 www.versace.brands.brandcollections.ru
+www.versace_collection.brands.brandcollections.ru
+www.versace_jeans.brands.brandcollections.ru
+www.versace_jeans_couture.brands.brandcollections.ru
 www.versacepoland.pl
 www.versalka.pl
 www.versatiletree.buyfirealarm.com
@@ -269322,6 +269378,8 @@ www.vhykyflel.bid
 www.vhz16.tk
 www.vi-play.com
 www.vi4a6.rockt.es
+www.via_republica.brands.brandcollections.ru
+www.via_uno.brands.brandcollections.ru
 www.viagraonlinesupport.com
 www.viajeporlosantiguos.com
 www.viajerocultural.blogspot.com
@@ -269338,17 +269396,22 @@ www.viber-whatsapp.com
 www.viberman.com
 www.viberwindows.com
 www.vibram-fivefingers.us.com
+www.vibram_five_fingers.brands.brandcollections.ru
 www.vibrampolskasale.com
 www.vibrzo.shop
 www.vic.brands.brandcollections.ru
+www.vic_matie.brands.brandcollections.ru
 www.vicenza.brands.brandcollections.ru
 www.viciworld.com
 www.vickypoe.shop
 www.victorandson.com
+www.victoria_beckham.brands.brandcollections.ru
+www.victoria_casal_couture.brands.brandcollections.ru
 www.victoriabrides.com
 www.victoriacomputersupport.com
 www.victoriacre.cfd
 www.victoriahearts.com
+www.victorias_secret.brands.brandcollections.ru
 www.victorimof.com
 www.victorvilleconcreteco.com
 www.victory-invest.net
@@ -269447,6 +269510,7 @@ www.vimaxsuplementos.edublogs.org
 www.vimcelebrating.com
 www.vimovie.date
 www.vin0x00a2.science
+www.vina_vestina.brands.brandcollections.ru
 www.vincentrincs.com
 www.vincenzodellavecchia.xyz
 www.vinchezmoi.com
@@ -269722,6 +269786,7 @@ www.vip-zarobotok.narod.ru
 www.vip.consultcrypt.info
 www.vip100.cc
 www.vip228.biz
+www.vip_collection.brands.brandcollections.ru
 www.vipartoonline.shop
 www.vipbluerentacar.shop
 www.vipbrides.com
@@ -270086,6 +270151,8 @@ www.visualace.com
 www.visualacegold.com
 www.visualvirus.com
 www.visumbuitenland.nl
+www.vita_pelle.brands.brandcollections.ru
+www.vita_pelle_studio.brands.brandcollections.ru
 www.vitacci.brands.brandcollections.ru
 www.vitajuice.com.pl
 www.vitalcleansecompletesite.net
@@ -270098,6 +270165,8 @@ www.vitalya-bro.com
 www.vitogpx.com
 www.vitranexima.net
 www.vittabella.com
+www.vittoria_b.brands.brandcollections.ru
+www.vittorio_virgili.brands.brandcollections.ru
 www.vittosozi.cyou
 www.vitufuj.com
 www.vityas-helpers.ru
@@ -270111,10 +270180,16 @@ www.vivalincat.cyou
 www.vivek.howtowpguide.info
 www.vivekkumarsingh.com
 www.vivelafete.com
+www.vivian_royal.brands.brandcollections.ru
 www.vividfancydress.co.uk
 www.vividinfotech.com
 www.vividnewspulse.pro
 www.viviendassevilla.tk
+www.vivienne_westwood.brands.brandcollections.ru
+www.vivienne_westwood_anglomania.brands.brandcollections.ru
+www.vivienne_westwood_bags_by_braccialini.brands.brandcollections.ru
+www.vivienne_westwood_by_braccialini.brands.brandcollections.ru
+www.vivienne_westwood_for_melissa.brands.brandcollections.ru
 www.vivintnow.com
 www.vivintphonenumber.com
 www.vivo-support.ru
@@ -270233,6 +270308,7 @@ www.vksupports.pro
 www.vksupports.ru
 www.vktarget.ru
 www.vktradeco.com
+www.vkus_italian_design.brands.brandcollections.ru
 www.vkvideoz.com
 www.vkx.biz
 www.vkyoutube.com
@@ -270622,6 +270698,8 @@ www.w1dzien-gotowka.pl
 www.w1rhna.cfd
 www.w2.brands.brandcollections.ru
 www.w2.e7rlbm.qpon
+www.w2_shoes__accessories.brands.brandcollections.ru
+www.w2_shoesaccessories.brands.brandcollections.ru
 www.w2c.co.in
 www.w2cinfotech.com
 www.w2cit.in
@@ -274556,6 +274634,7 @@ www.webtechsolution.us
 www.webtechsupport.net
 www.webtechsupports.com
 www.webtools-tech.com
+www.webui_34785312.hookupss.com
 www.webuildbc.com
 www.webuyanyapplemac.info
 www.webuzz.co
@@ -274589,6 +274668,7 @@ www.weddingdresshot.net
 www.weddingjimmychooshoes.top
 www.weddingsales.cn
 www.weddington.ru
+www.wedge_welly.brands.brandcollections.ru
 www.wedgee.brestelbucar.com
 www.wedgeworld.click
 www.wedosupport.com
@@ -274596,6 +274676,7 @@ www.weedp0rn.com
 www.weee-support.com
 www.weeeshooa.com
 www.weeesupport.com
+www.weekend_by_pedro_miralles.brands.brandcollections.ru
 www.weekendssales.xyz
 www.weekfreedownloadbookspdf.tk
 www.weeneedyourverify.com
@@ -274714,6 +274795,8 @@ www.wesleyhomespace.com
 www.wesmere-bitmark-engine.com
 www.wesolebuciki-pl.shop
 www.wesports.tv
+www.west_club.brands.brandcollections.ru
+www.west_coast.brands.brandcollections.ru
 www.westandvine.eu
 www.westandwillow.eu
 www.westarsatelliteservices.online
@@ -275402,6 +275485,7 @@ www.whereiwalk.info
 www.wheretobuyfollowers.net
 www.wheretobuyfree.uk.com
 www.wheretobuyyoutubeviews.online
+www.wherever_you_go_i_will_go_with_you.brands.brandcollections.ru
 www.whichisworse.tk
 www.whimsical-dragon-9d0f53.netlify.app
 www.whimsicalityty.top
@@ -275496,6 +275580,7 @@ www.wholesalenfljerseyssite.us.com
 www.wholesalesneakershoes.com
 www.wholesalevipjerseys.com
 www.wholestorysupport.net
+www.whos_who.brands.brandcollections.ru
 www.whothailand.org
 www.whoviewedmywhatsappprofile.com
 www.whowasgoing.tk
@@ -275588,6 +275673,8 @@ www.willapasym.pl
 www.willardrow.eu
 www.willcoward.shop
 www.willemleeks.com
+www.william_fox__sons.brands.brandcollections.ru
+www.william_massini.brands.brandcollections.ru
 www.williamswebdesign.net
 www.williot.brands.brandcollections.ru
 www.willipolec.cyou
@@ -276740,6 +276827,7 @@ www.womenwatches.club
 www.womenwatches.co
 www.womeras.stream
 www.womisouja.autos
+www.won_hundred.brands.brandcollections.ru
 www.wondehumor.cyou
 www.wonder-will.tk
 www.wonderful24.ru
@@ -277471,6 +277559,7 @@ www.x9mn2qz.skin
 www.x9mt2qn.skin
 www.x9vapmn7sjbkvdd7lt92nq.bid
 www.x9wt3mq.skin
+www.x_bakko.brands.brandcollections.ru
 www.xabivya.pro
 www.xabo.io
 www.xafbl.com
@@ -278077,6 +278166,7 @@ www.y4iwbj.top
 www.y4vjgxvvrzvaed4fruraza.trade
 www.y6vyokx7nhlbowv1hr.science
 www.y87f6s34a2qw-dp3fy8azkrz8.edgeone.dev
+www.y_3.brands.brandcollections.ru
 www.ya-support.com
 www.ya0tlcxu3t5h8kpdlpvq.stream
 www.ya804x.jpbrazs.com
@@ -278484,6 +278574,7 @@ www.yeezyuiad.com
 www.yejzz.exclusiverewards.cikix.xyz
 www.yektadogru.com
 www.yelkenflama.com
+www.yellow_cab.brands.brandcollections.ru
 www.yellownet.pl
 www.yellowpages.support
 www.yelpverify.com
@@ -278654,6 +278745,7 @@ www.yorz468womy8.swipepages.net
 www.yosakutorive.pics
 www.yosemitesupportservice.com
 www.yoshikawa-pc-support.com
+www.yoshitomo_nara.brands.brandcollections.ru
 www.yoshkayandex.ru
 www.yota.biz
 www.yotafiles.com
@@ -280254,6 +280346,7 @@ x9kq5mt.skin
 x9mn2qz.skin
 x9mt2qn.skin
 x9wt3mq.skin
+x_bakko.brands.brandcollections.ru
 xa.cpcempower.com
 xabivya.pro
 xabo.io
@@ -281199,6 +281292,7 @@ y4n3d3b1l.ru
 y7byn.filled.pw
 y87f6s34a2qw-dp3fy8azkrz8.edgeone.dev
 y95906u4.beget.tech
+y_3.brands.brandcollections.ru
 ya-support.com
 ya.cpcempower.com
 ya804x.jpbrazs.com
@@ -283338,6 +283432,7 @@ zillahs.stream
 zillapaper.com
 zillatrack.com
 zillays.com
+zillify.cfd
 zillteprefi.cyou
 zilool.com
 zim-rider.com

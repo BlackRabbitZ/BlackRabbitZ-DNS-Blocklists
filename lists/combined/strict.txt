@@ -3,7 +3,7 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 374914
+# Entries: 374947
 #
 # Includes: ads,trackers,social-trackers,affiliate-tracking,telemetry,windows-telemetry,apple-telemetry,android-telemetry,linux-telemetry,nas-telemetry,server-telemetry,mobile-tracking,native-tracking,smart-tv,iot
 #
@@ -6888,6 +6888,7 @@
 221737361.keywordblocks.com
 2218289.fls.doubleclick.net
 221864132.keywordblocks.com
+222-33544_999.pub.adfirmative.com
 222.6.87.194.dynamic.dol.ru
 22200.engine.mobileapptracking.com
 2222rv.com
@@ -39470,6 +39471,7 @@ adman.kathimerini.gr
 adman.otenet.gr
 adman.se
 adman.si
+adman_test.go2cloud.org
 admana.net
 admanage.com
 admanagement.ch
@@ -45759,6 +45761,7 @@ ads97.hpg.com.br
 ads98.hpg.com.br
 ads99.hpg.com.br
 ads99.unoadsrv.com
+ads_ad_center.s3.amazonaws.com
 adsa.socdate.net
 adsaccount.appcpi.net
 adsadept.com
@@ -52105,6 +52108,7 @@ ainu.intel.vn
 ainwfcsnq.net
 aio.lp.mydas.mobi
 aio.media
+aio_flashlight.s.xoxknct.com
 aioan.tailoredcanvases.com
 aiocleaner.s.xoxknct.com
 aiocleaner.u.xoxknct.com
@@ -95243,6 +95247,7 @@ chi2only.outbrain.com
 chiamfxz.com
 chiantiriem.com
 chiboukscho.com
+chicago_cbslocal.us.intellitxt.com
 chicagobooth.qualtrics.com
 chicagogsb.qualtrics.com
 chicagosuntimes.122.2o7.net
@@ -97858,6 +97863,7 @@ client.vads.net.vn
 client.video.ucweb.com
 client.yixe.com
 client2009x25.xcdn.ovh
+client_monitor.isnssdk.com
 clientapi-reliance.dtignite.com
 clientapi-samsung.dtignite.com
 clientapi.clinkad.com
@@ -118418,6 +118424,7 @@ dev2pub.com
 dev3.flurry.com
 dev4enki.com
 dev8.supersonicads.com
+dev_similarweb.onthe.io
 devacurl.pxf.io
 devadmin.cimedia.com
 devaluequalmrelative.com
@@ -120927,6 +120934,7 @@ dmneh.com
 dmntft.com
 dmoid.top
 dmojscqlwewu.com
+dmol_mn.adk2x.com
 dmonastydrumgm.org
 dmoonvotlo.com
 dmp-api.adform.com
@@ -125778,6 +125786,7 @@ ecp.eitacasaperfeita.com.br
 ecpchngnkshn.com
 ecpm.adbooth.com
 ecpm.adk2x.com
+ecpm_api.propellerads.com
 ecpmnetwork.adbooth.com
 ecpmrocks.com
 ecpms.net
@@ -129937,6 +129946,7 @@ es-plus.videoplaza.tv
 es-spotbid.videoplaza.tv
 es-suncopperland.videoplaza.tv
 es-sunicontent.videoplaza.tv
+es-sunicontent_test.videoplaza.tv
 es-suntaringa.videoplaza.tv
 es-vittalia.a.videoplaza.tv
 es-vittalia.cdn.videoplaza.tv
@@ -134923,6 +134933,7 @@ fb12bet.com
 fb2.hu
 fb7d-c607-75e8-8432.reporo.net
 fb88.com
+fb_servpub-a.akamaihd.net
 fba9-2ec4-4ff7-912a.reporo.net
 fbabhget.com
 fbafbbujy.com
@@ -145092,6 +145103,7 @@ ghkihfwfxb.com
 ghkjsss.com
 ghkrndebbziup.online
 ghlft.mercimamanboutique.com
+ghm_bulgaria.hit.gemius.pl
 ghmbg.hit.gemius.pl
 ghmhu.hit.gemius.pl
 ghmme.hit.gemius.pl
@@ -158759,6 +158771,7 @@ ht-thenm.hoverr.media
 ht-thm.hoverr.media
 ht-thw.hoverr.media
 ht-updatedtrendsco.native.andbeyond.media
+ht-viral_laughingc.native.andbeyond.media
 ht-virallaughingc.native.andbeyond.media
 ht-vogue.native.andbeyond.media
 ht-webdunia.hoverr.media
@@ -160211,6 +160224,7 @@ i9complete.com
 i9mhy.voluumtrk.com
 i9w8p.pw
 i9zqq3fj.top
+i_mobistar.tealiumiq.com
 ia-cert.inner-active.mobi
 ia-client01.inner-active.mobi
 ia-dmp.com
@@ -187238,6 +187252,7 @@ lorybnfh.com
 lorymo.online
 los-millares.com
 los.go2cloud.org
+losangeles_cbslocal.us.intellitxt.com
 losangelesangels.net
 losbs.voluumtrk.com
 loscu9ukueyhop5s1pqjdod8e7fmh1514984422.nuid.imrworldwide.com
@@ -197875,6 +197890,8 @@ mcpuwpsh.com
 mcpvkhoven.review
 mcpwarehouse.com
 mcqtgbcmijfee.com
+mcr_media.adk2.co
+mcr_media.adk2x.com
 mcresearch.co1.qualtrics.com
 mcrjoftwhprkrx.bid
 mcs-i18n.tiktok.com
@@ -229883,6 +229900,7 @@ o8yrg.voluumtrk.com
 o911o.com
 o9mcx.voluumtrk.com
 o9prk2kxtqgjchkgjfxjpcuaidjai1509499921.nuid.imrworldwide.com
+o_thus.ero-advertising.com
 oa-stc.zdn.vn
 oa.afishamedia.net
 oa.hiido.com
@@ -239767,6 +239785,7 @@ p9thv0fa.com
 p9tre.emv3.com
 p9wkp5ctrk.com
 p9ws3l9.x.incapdns.net
+p_en.popunder.net
 pa-ad-lgsmartad-com.aws-prd.net
 pa-cd.com
 pa-group.com.au
@@ -243063,6 +243082,7 @@ phiesi.stroeerdp.de
 phil-flash-cash.com
 phil-ups.com
 philadelphia.in-viacom18.videoplaza.tv
+philadelphia_cbslocal.us.intellitxt.com
 philadelphiagossipapril.com
 philanthropology101.shop
 philbardre.com
@@ -253466,6 +253486,7 @@ posh-owner.com
 posh-wind.pro
 poshheight.pro
 poshmixture.pro
+posibilities_en.popunder.net
 posicionamientowebcadiz.es
 posit-workbench.ndis.gov.au
 positionsuburbdeplorable.com
@@ -256684,6 +256705,7 @@ pt200204.unica.com
 pt21na.com
 pt5.titans-gel.net
 pt7ma.voluumtrk.com
+pt_br.statcounter.com
 pta.wcm.pl
 ptackoucmaib.net
 ptadrupteft.com
@@ -273690,6 +273712,7 @@ sanespend.pro
 sanestruggle.com
 saneworkbench.com
 sanfordglobal.com.au
+sanfrancisco_cbslocal.us.intellitxt.com
 sanfranciscojapanesefusion.com
 sangersgodhood.shop
 sanglah.com
@@ -325666,6 +325689,7 @@ test3.mobadvent.com
 test4-lax.adsrvr.org
 test4.9game.ucdns.uc.cn
 test4.arinbusiness.com
+test_pages.crittercism.com
 testa8wifi.dokoyorimo.com
 testad.gpwa.org
 testadmin.cimedia.com
@@ -355582,6 +355606,7 @@ whamuthygle.com
 whardobel.com
 wharrownecia.com
 wharton.qualtrics.com
+wharton_360.qualtrics.com
 what-ip.info
 what-is-my-ip.co
 what-is-my-ip.org
@@ -373284,6 +373309,8 @@ zh.tiredduck.com
 zh.zeroredirect1.com
 zh1.zeroredirect11.com
 zh9prl.5200e.com
+zh_cn.statcounter.com
+zh_tw.statcounter.com
 zhabyesrdnvn.com
 zhafrhqri.com
 zhalehziba.com
@@ -373854,6 +373881,12 @@ zn9tslis2mj3kopgp-cfigroup.siteintercept.qualtrics.com
 zn9xowqszdbqtbfwx-seasamsung.siteintercept.qualtrics.com
 zn9yauo1hia5mptaj-sni.siteintercept.qualtrics.com
 zn9zehpth5cyq05kz-shipley.siteintercept.qualtrics.com
+zn_0pxrmhobblncaad-hpsupport.siteintercept.qualtrics.com
+zn_0xssfnnsxmogd01-cbs.siteintercept.qualtrics.com
+zn_9nquvazst1xipkt-cbs.siteintercept.qualtrics.com
+zn_aah4vz47v491vlf-cbs.siteintercept.qualtrics.com
+zn_b4q1adq70amqdth-citrix.siteintercept.qualtrics.com
+zn_brp7urzdaj4xmxn-edhealth.siteintercept.qualtrics.com
 znacktv.it
 znakovinky.cz
 znaptag-us.s3.amazonaws.com

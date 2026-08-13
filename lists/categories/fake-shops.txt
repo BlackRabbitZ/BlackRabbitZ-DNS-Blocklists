@@ -3,8 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 11380
-# Auto-updated: 2026-08-12T05:03:59Z
+# Entries: 11382
+# Auto-updated: 2026-08-13T05:06:40Z
 # Description: Aggressive deceptive-store and fake-shop candidates derived from fraud/scam intelligence.
 # Sources: Block List Project Fraud/Scam (retail subset); DurableNapkin (retail subset); Verbraucherzentrale curated entries
 # Snapshot: 2026-08
@@ -2728,6 +2728,7 @@ lions.nfljersey.us.com
 liquidsurfshop.be
 lisacacace.shop
 lisaformenti.shop
+lisianstore.com
 littleharvestshop.eu
 littlehearthshop.eu
 littlewindowshop.eu
@@ -4526,6 +4527,7 @@ store.1stfinancefirm.wixsite.com
 store.1stireland.com
 store.1sttheworld.co
 store.25twelve.com
+store.270278609-2020004278-462904544-440202503325--570202500372x-usps.com
 store.365analytics.xyz
 store.3ab48a20-acaa-49ab-95cc-3eb16f1cda78-00-1a0l3yf6hw9aq.sisko.replit.dev
 store.3ae52b08mbt3oxw4zh32q5-z5m.hop.clickbank.net
