@@ -282,7 +282,17 @@ Upgrading from the previous `security.txt` / `family.txt` / `ultimate-N.txt` lay
 | **NRD days 29–35** | 2,298,771 | [View](lists/categories/nrd-29-35.txt) | **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/nrd-29-35.txt)** |
 | **DGA 7 days** | 539,743 | [View](lists/categories/dga-7.txt) | **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/dga-7.txt)** |
 | **DGA 14 days** | 1,125,605 | [View](lists/categories/dga-14.txt) | **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/dga-14.txt)** |
-| **DGA 30 days** | Not built yet | — | — |
+| **DGA 30 days** | 2,461,156 | [View](#dga-30-parts) | **[Parts](#dga-30-parts)** |
+
+<a id="dga-30-parts"></a>
+<details>
+<summary><strong>DGA 30 days: 2 show parts</strong></summary>
+
+| Part | Part |
+|---|---|
+| **Part 01**  <br>**2,220,726** entries · 50.0 MiB  <br>[View](lists/categories/dga-30-part-01.txt) · **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/dga-30-part-01.txt)** | 2,220,726 |
+
+</details>
 
 </details>
 <!-- SECURITY_TABLE_END -->

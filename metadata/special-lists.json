@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T19:43:24Z",
+  "generated_at": "2026-08-13T19:08:16Z",
   "integration_revision": 4,
   "items": {
     "anti-piracy": {
@@ -368,16 +368,25 @@
           "status": "existing"
         },
         "dga-30": {
-          "entries": 0,
-          "error": "source unavailable after 3 attempt(s): <urlopen error [Errno 111] Connection refused>",
-          "files": [],
+          "entries": 2461156,
+          "files": [
+            {
+              "bytes": 52428252,
+              "entries": 2220726,
+              "file": "lists/categories/dga-30-part-01.txt",
+              "sha256": "4b8f3b67174992d7d950c6a691cbf854aa987a14fa7fe90df6145d64b2cd3426"
+            },
+            {
+              "bytes": 5904531,
+              "entries": 240430,
+              "file": "lists/categories/dga-30-part-02.txt",
+              "sha256": "8debc50d4b1cb8472ec6a837e8fc778eb811ebd8b9b24f0909273ed9125ab71b"
+            }
+          ],
           "kind": "domains",
-          "note": "Remote source unavailable; build deferred and will be retried on a later run.",
-          "parts": 0,
-          "source_url": "https://web.archive.org/web/20260802022330if_/https://raw.githubusercontent.com/hagezi/nrd/main/domains/dga30.txt",
-          "status": "source_unavailable",
-          "update_error": "source unavailable after 3 attempt(s): HTTP Error 404: Not Found",
-          "update_status": "source_unavailable"
+          "parts": 2,
+          "source_url": "https://raw.githubusercontent.com/hagezi/nrd/main/domains/dga30.txt",
+          "status": "built"
         },
         "dga-7": {
           "entries": 539743,

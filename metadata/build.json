@@ -60,11 +60,17 @@
       "file": "lists/categories/dga-14.txt",
       "sha256": "fd7899ca7ab5e4f92934db2825a92f8f909b51a9a6fb043e9532e4a7747f856a"
     },
-    "dga-30": {
-      "bytes": 442,
-      "entries": 0,
-      "file": "lists/categories/dga-30.txt",
-      "sha256": "7a758857bb0932e7efedeba0ce3dd29247d25b2c6895c2475ce917d3733a683a"
+    "dga-30-part-01": {
+      "bytes": 52428252,
+      "entries": 2220726,
+      "file": "lists/categories/dga-30-part-01.txt",
+      "sha256": "4b8f3b67174992d7d950c6a691cbf854aa987a14fa7fe90df6145d64b2cd3426"
+    },
+    "dga-30-part-02": {
+      "bytes": 5904531,
+      "entries": 240430,
+      "file": "lists/categories/dga-30-part-02.txt",
+      "sha256": "8debc50d4b1cb8472ec6a837e8fc778eb811ebd8b9b24f0909273ed9125ab71b"
     },
     "dga-7": {
       "bytes": 12758167,
