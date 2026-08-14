@@ -1,0 +1,47 @@
+name: Validate repository
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Repository auschecken
+        uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
+
+      - name: Python- und Shell-Syntax prüfen
+        shell: bash
+        run: |
+          python3 -m compileall -q scripts
+          find scripts -type f -name '*.sh' -print0 | xargs -0 -r -n1 bash -n
+
+      - name: Upstream-Konfiguration prüfen
+        run: python3 ./scripts/update-upstreams.py --check-config
+
+      - name: Geänderte Kategorien validieren
+        if: github.event_name == 'pull_request'
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+        run: python3 ./scripts/automation/validate_repository.py --diff-range "$BASE_SHA...HEAD"
+
+      - name: Vollständige Kategorien validieren
+        if: github.event_name != 'pull_request'
+        run: python3 ./scripts/automation/validate_repository.py --full
+
+      - name: Erzeugte Profile validieren
+        run: python3 ./scripts/validate-generated.py
+
+      - name: Whitespace-Fehler prüfen
+        if: github.event_name == 'pull_request'
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+        run: git diff --check "$BASE_SHA...HEAD"

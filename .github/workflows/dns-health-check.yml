@@ -1,0 +1,52 @@
+name: DNS health check
+
+on:
+  schedule:
+    - cron: '43 2 * * 1'
+  workflow_dispatch:
+    inputs:
+      sample_size:
+        description: 'Anzahl neuer Stichproben-Domains'
+        required: true
+        default: '10000'
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: blocklist-write-main
+  cancel-in-progress: false
+
+jobs:
+  health:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - name: Repository auschecken
+        uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+
+      - name: Rotierenden DNS-Health-Check ausführen
+        env:
+          SAMPLE_SIZE: ${{ inputs.sample_size || '10000' }}
+        run: |
+          python3 ./scripts/automation/dns_health.py \
+            --sample-size "$SAMPLE_SIZE" \
+            --workers 32 \
+            --timeout 2
+
+      - name: DNS-Health-Metadaten committen
+        shell: bash
+        run: |
+          git diff --check
+          if [[ -z "$(git status --porcelain metadata/dns-health.json metadata/dns-health-state.json)" ]]; then
+            echo "Keine Änderungen am DNS-Health-State."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add metadata/dns-health.json metadata/dns-health-state.json
+          git commit -m "chore: update DNS health state"
+          git push

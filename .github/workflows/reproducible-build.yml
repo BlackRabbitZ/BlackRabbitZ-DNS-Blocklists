@@ -1,0 +1,51 @@
+name: Reproducible build
+
+on:
+  pull_request:
+    paths:
+      - 'lists/categories/**'
+      - 'scripts/update-lists.sh'
+      - 'scripts/split-ultimate.py'
+      - 'scripts/update-ultimate-readme.py'
+      - 'config/**'
+  schedule:
+    - cron: '7 4 * * 4'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  reproducible:
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    steps:
+      - name: Repository auschecken
+        uses: actions/checkout@v7
+
+      - name: Zwei unabhängige Builds vorbereiten
+        shell: bash
+        run: |
+          rsync -a --delete --exclude '.git' ./ /tmp/brz-build-a/
+          rsync -a --delete --exclude '.git' ./ /tmp/brz-build-b/
+
+      - name: Build A
+        shell: bash
+        run: |
+          cd /tmp/brz-build-a
+          bash ./scripts/update-lists.sh
+
+      - name: Build B
+        shell: bash
+        run: |
+          cd /tmp/brz-build-b
+          bash ./scripts/update-lists.sh
+
+      - name: Veröffentlichte Listen vergleichen
+        shell: bash
+        run: |
+          diff -qr /tmp/brz-build-a/lists/combined /tmp/brz-build-b/lists/combined
+          find /tmp/brz-build-a/lists/combined -type f -name '*.txt' -print0 | sort -z | xargs -0 sha256sum > /tmp/a.sha256
+          find /tmp/brz-build-b/lists/combined -type f -name '*.txt' -print0 | sort -z | xargs -0 sha256sum | sed 's#/tmp/brz-build-b#/tmp/brz-build-a#' > /tmp/b.sha256
+          diff -u /tmp/a.sha256 /tmp/b.sha256
+          echo "Reproduzierbarer Build bestätigt."

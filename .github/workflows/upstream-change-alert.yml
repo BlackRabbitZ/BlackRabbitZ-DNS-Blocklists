@@ -1,0 +1,79 @@
+name: Upstream change alert
+
+on:
+  schedule:
+    - cron: '41 4 * * 5'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: blocklist-write-main
+  cancel-in-progress: false
+
+jobs:
+  compare:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - name: Repository auschecken
+        uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+
+      - name: Aktuellen Upstream-Zustand erfassen
+        run: |
+          python3 ./scripts/automation/upstream_health.py \
+            --output /tmp/upstream-current.json \
+            --workers 8 \
+            --timeout 20
+
+      - name: Mit Baseline vergleichen
+        id: compare
+        shell: bash
+        run: |
+          set +e
+          python3 ./scripts/automation/upstream_change_alert.py \
+            --baseline metadata/upstream-baseline.json \
+            --current /tmp/upstream-current.json \
+            --report /tmp/upstream-change-report.json \
+            --max-drop 0.70 \
+            --max-growth 3.0
+          rc=$?
+          set -e
+          echo "rc=$rc" >> "$GITHUB_OUTPUT"
+          if [[ "$rc" -eq 0 ]]; then
+            cp /tmp/upstream-current.json metadata/upstream-baseline.json
+          fi
+          exit 0
+
+      - name: Vergleichsbericht hochladen
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: upstream-change-report
+          path: |
+            /tmp/upstream-current.json
+            /tmp/upstream-change-report.json
+          retention-days: 30
+
+      - name: Gesunde Baseline aktualisieren
+        if: steps.compare.outputs.rc == '0'
+        shell: bash
+        run: |
+          if [[ -z "$(git status --porcelain metadata/upstream-baseline.json)" ]]; then
+            echo "Baseline unverändert."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add metadata/upstream-baseline.json
+          git commit -m "chore: update upstream health baseline"
+          git push
+
+      - name: Bei ungewöhnlicher Änderung fehlschlagen
+        if: steps.compare.outputs.rc != '0'
+        run: |
+          echo "Ungewöhnliche Upstream-Änderung erkannt. Siehe Artefakt upstream-change-report."
+          exit 1

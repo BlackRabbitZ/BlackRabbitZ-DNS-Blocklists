@@ -1,0 +1,44 @@
+name: Security scan
+
+on:
+  pull_request:
+    paths:
+      - 'scripts/**'
+      - '.github/workflows/**'
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/**'
+      - '.github/workflows/**'
+  schedule:
+    - cron: '31 4 * * 3'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Repository auschecken
+        uses: actions/checkout@v7
+
+      - name: Python kompilieren
+        run: python3 -m compileall -q scripts
+
+      - name: ShellCheck
+        shell: bash
+        run: |
+          if command -v shellcheck >/dev/null 2>&1; then
+            find scripts -type f -name '*.sh' -print0 | xargs -0 -r shellcheck -x
+          else
+            echo "::warning::ShellCheck ist auf diesem Runner nicht verfügbar."
+          fi
+
+      - name: Projekt-spezifische Hochrisiko-Muster prüfen
+        run: python3 ./scripts/automation/security_scan.py
+
+      - name: Workflow-Berechtigungen prüfen
+        run: python3 ./scripts/automation/permissions_audit.py
