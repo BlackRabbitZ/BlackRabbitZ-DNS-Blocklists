@@ -3,8 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 284050
-# Auto-updated: 2026-08-13T05:06:39Z
+# Entries: 284061
+# Auto-updated: 2026-08-14T05:04:49Z
 # Description: Massive scam, fraud and deceptive-platform domain set.
 # Sources: Block List Project Fraud/Scam; DurableNapkin Scam Blocklist; curated BaFin entries
 # Snapshot: 2026-08
@@ -1084,6 +1084,7 @@
 21e2bfefb8.pw
 21gradi.com
 21shoesshop.com
+21spacex.net
 21ukshoes.uk.com
 21website-error-xx230z-deteted.xyz
 21wholesalemall.com
@@ -13736,6 +13737,7 @@ amjbzzicysu.bid
 amjtechnologies.co.in
 amkleidung.com
 amlanita.com
+amlbot.request.report
 amlodipine.stream
 amltools.com
 amlwerifex.onl
@@ -123844,6 +123846,7 @@ reputtiion.com
 repwarning.biz
 request-appeal-help-1000006419745218.com
 request-copyright-support-10000061452798.com
+request.report
 requestlegalsupport.com
 requiemsoul.stream
 required-accesverifyeuyy.solutions
@@ -136562,6 +136565,7 @@ store-xinqiusports.com
 store.1stfinancefirm.wixsite.com
 store.1stireland.com
 store.1sttheworld.co
+store.1sttheworld.com
 store.25twelve.com
 store.270278609-2020004278-462904544-440202503325--570202500372x-usps.com
 store.365analytics.xyz
@@ -136582,6 +136586,7 @@ store.aliyaoberbrunnergreg21.myshopify.com
 store.allcars.cn
 store.allnewsready.com
 store.allupdatenow.com
+store.amlbot.request.report
 store.anaturaldifference.com
 store.animeshoppers.com
 store.appdrive.info
@@ -136590,6 +136595,7 @@ store.arnoldgloverruss58.myshopify.com
 store.atoins.com
 store.atrendsz.com
 store.avarik.web.app
+store.avito.avito.avito.avito.avito.booking.com-id23901.info
 store.backend.store.eset.co.il
 store.bajeczki.org.pl
 store.baltic-pipe-finansowy.blogspot.com
@@ -136893,6 +136899,7 @@ store.qq51f.short.gy
 store.quarryby.com
 store.re-captha-version-3-277.buzz
 store.reforest-iita.org
+store.request.report
 store.resources4gaming.com
 store.revanced-extended.com
 store.ringtoperfection.com
@@ -136903,6 +136910,7 @@ store.rsaonlinenow.com.au
 store.rustdesk.secure-box.de
 store.saveeeee.myshopify.com
 store.sber.avito.booking.com-id334212.com
+store.sberbank.avito.avito.sber.www42.com-id23901.info
 store.seasonsofficial.com
 store.securevault.top
 store.security-meta.pages.app.br
@@ -179325,6 +179333,7 @@ www.amiramagazine.com
 www.amishjim.com
 www.amjtechnologies.co.in
 www.amlanita.com
+www.amlbot.request.report
 www.amltools.com
 www.amlwerifex.onl
 www.amlwerifex.online
@@ -220394,6 +220403,7 @@ www.kevinhomelive.com
 www.kevinmariam.shop
 www.kevinpottsdecorators.co.uk
 www.kevinvirus.xyz
+www.kewal.shop
 www.key-spy.com
 www.key4windows.com
 www.keyfile-kaspersky.com
@@ -246959,6 +246969,7 @@ www.repwarning.biz
 www.request-appeal-help-1000006419745218.com
 www.request-appeal-support-10000049513254.com
 www.request-copyright-support-10000061452798.com
+www.request.report
 www.requestlegalsupport.com
 www.rera-pl.shop
 www.rererererererwrew.site

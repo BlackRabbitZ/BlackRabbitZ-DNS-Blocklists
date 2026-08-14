@@ -3,8 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 1028835
-# Auto-updated: 2026-08-13T05:06:58Z
+# Entries: 1028840
+# Auto-updated: 2026-08-14T05:05:09Z
 # Description: Massive adult-content and pornography domain set.
 # Sources: Block List Project Porn; StevenBlack porn-only
 # Snapshot: 2026-08
@@ -71688,6 +71688,7 @@ analyzingtaylor.tumblr.com
 analzmovies.com
 analzon.com
 analzoofilia.fun
+analzoofilia.xyz
 analzoom.com
 analzooporn.com
 analzooporn.shop
@@ -176585,6 +176586,7 @@ cdn2.porntop666.com
 cdn2.pornv.xxx
 cdn2.pornvideos7.com
 cdn2.pussyspot.net
+cdn2.pvvstream.pro
 cdn2.realpornclips.com
 cdn2.restmature.com
 cdn2.retroporn.sexy
@@ -330027,6 +330029,7 @@ freeteenworld.com
 freeteenxl.com
 freeteenxxx.cc
 freeteenxxx.com
+freeteenxxx.net
 freeteenxxx.netxxxorsex.com
 freeteenxxx.pages.dev
 freeteenxxxpics.com
@@ -908511,6 +908514,7 @@ trueshockingextreme.com
 truesissy96.tumblr.com
 trueslotsexpress.com
 truesm.com
+truesnaps.com
 truesnaps.comvip.sexhd.pics
 truespankings.com
 truespeedphoto.com
@@ -1027083,6 +1027087,7 @@ zoophilia-story.info
 zoophilia.adult
 zoophilia.club
 zoophilia.co
+zoophilia.me
 zoophilia.org
 zoophilia.porn
 zoophilia.sex
