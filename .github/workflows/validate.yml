@@ -3,14 +3,32 @@ name: Validate repository
 on:
   pull_request:
   workflow_dispatch:
+    inputs:
+      scope:
+        description: "Welche BlackRabbitZ-Listen sollen geprüft werden?"
+        required: true
+        default: all
+        type: choice
+        options:
+          - all
+          - categories
+          - combined
+          - ips
+          - regex
 
 permissions:
   contents: read
 
+concurrency:
+  group: validate-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   validate:
+    name: BlackRabbitZ Listen prüfen
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 60
+
     steps:
       - name: Repository auschecken
         uses: actions/checkout@v7
@@ -24,24 +42,83 @@ jobs:
           python3 -m compileall -q scripts
           find scripts -type f -name '*.sh' -print0 | xargs -0 -r -n1 bash -n
 
-      - name: Upstream-Konfiguration prüfen
-        run: python3 ./scripts/update-upstreams.py --check-config
+      - name: JSON- und Upstream-Konfiguration prüfen
+        shell: bash
+        run: |
+          python3 ./scripts/automation/validate_repository.py --scope config --full
+          python3 ./scripts/update-upstreams.py --check-config
 
-      - name: Geänderte Kategorien validieren
-        if: github.event_name == 'pull_request'
+      - name: "1/4 Kategorie-Blocklisten prüfen"
+        if: github.event_name == 'pull_request' || inputs.scope == 'all' || inputs.scope == 'categories'
+        shell: bash
         env:
           BASE_SHA: ${{ github.event.pull_request.base.sha }}
-        run: python3 ./scripts/automation/validate_repository.py --diff-range "$BASE_SHA...HEAD"
+        run: |
+          if [[ "${{ github.event_name }}" == "pull_request" ]]; then
+            python3 ./scripts/automation/validate_repository.py \
+              --scope categories \
+              --diff-range "$BASE_SHA...HEAD"
+          else
+            python3 ./scripts/automation/validate_repository.py \
+              --scope categories \
+              --full
+          fi
 
-      - name: Vollständige Kategorien validieren
-        if: github.event_name != 'pull_request'
-        run: python3 ./scripts/automation/validate_repository.py --full
+      - name: "2/4 Kombinierte Profile prüfen"
+        if: github.event_name == 'pull_request' || inputs.scope == 'all' || inputs.scope == 'combined'
+        shell: bash
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+        run: |
+          if [[ "${{ github.event_name }}" == "pull_request" ]]; then
+            python3 ./scripts/automation/validate_repository.py \
+              --scope combined \
+              --diff-range "$BASE_SHA...HEAD"
+          else
+            python3 ./scripts/automation/validate_repository.py \
+              --scope combined \
+              --full
+          fi
 
-      - name: Erzeugte Profile validieren
+      - name: Generierte Profil-Metadaten prüfen
+        if: github.event_name == 'pull_request' || inputs.scope == 'all' || inputs.scope == 'combined'
         run: python3 ./scripts/validate-generated.py
+
+      - name: "3/4 IP-Blocklisten prüfen"
+        if: github.event_name == 'pull_request' || inputs.scope == 'all' || inputs.scope == 'ips'
+        shell: bash
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+        run: |
+          if [[ "${{ github.event_name }}" == "pull_request" ]]; then
+            python3 ./scripts/automation/validate_repository.py \
+              --scope ips \
+              --diff-range "$BASE_SHA...HEAD"
+          else
+            python3 ./scripts/automation/validate_repository.py \
+              --scope ips \
+              --full
+          fi
+
+      - name: "4/4 RegEx-Blocklisten prüfen"
+        if: github.event_name == 'pull_request' || inputs.scope == 'all' || inputs.scope == 'regex'
+        shell: bash
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+        run: |
+          if [[ "${{ github.event_name }}" == "pull_request" ]]; then
+            python3 ./scripts/automation/validate_repository.py \
+              --scope regex \
+              --diff-range "$BASE_SHA...HEAD"
+          else
+            python3 ./scripts/automation/validate_repository.py \
+              --scope regex \
+              --full
+          fi
 
       - name: Whitespace-Fehler prüfen
         if: github.event_name == 'pull_request'
+        shell: bash
         env:
           BASE_SHA: ${{ github.event.pull_request.base.sha }}
         run: git diff --check "$BASE_SHA...HEAD"
