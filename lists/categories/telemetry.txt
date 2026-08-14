@@ -3,7 +3,7 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 29289
+# Entries: 29288
 # Description: Broad product, application, analytics, diagnostics and telemetry endpoints.
 # Sources: Block List Project (derived telemetry subset)
 # Snapshot: 2026-08
@@ -12351,7 +12351,6 @@ collector.funnel.io
 collector.gamezop.com
 collector.getguardianlegal.com
 collector.getyourguide.com
-collector.github.com
 collector.githubapp.com
 collector.globalxh.site
 collector.goldwaterlawfirm.com

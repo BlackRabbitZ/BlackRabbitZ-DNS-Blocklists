@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T19:08:16Z",
+  "generated_at": "2026-08-14T09:11:11Z",
   "integration_revision": 4,
   "items": {
     "anti-piracy": {
@@ -386,7 +386,7 @@
           "kind": "domains",
           "parts": 2,
           "source_url": "https://raw.githubusercontent.com/hagezi/nrd/main/domains/dga30.txt",
-          "status": "built"
+          "status": "existing"
         },
         "dga-7": {
           "entries": 539743,
