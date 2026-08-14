@@ -1,0 +1,138 @@
+name: CI & Security
+
+on:
+  pull_request:
+    paths:
+      - 'lists/categories/**'
+      - 'config/**'
+      - 'scripts/**'
+      - '.github/workflows/**'
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/**'
+      - '.github/workflows/**'
+  schedule:
+    # Security + Permissions: Mittwoch
+    - cron: '31 4 * * 3'
+    # Reproduzierbarer Build: Donnerstag
+    - cron: '7 4 * * 4'
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'Welche CI-Prüfung soll laufen?'
+        required: true
+        default: all
+        type: choice
+        options:
+          - all
+          - security
+          - reproducible
+
+permissions:
+  contents: read
+
+jobs:
+  changes:
+    name: Benötigte Prüfungen bestimmen
+    runs-on: ubuntu-latest
+    outputs:
+      security: ${{ steps.detect.outputs.security }}
+      build: ${{ steps.detect.outputs.build }}
+    steps:
+      - name: Repository auschecken
+        uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+      - name: Änderungen auswerten
+        id: detect
+        shell: bash
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          SCHEDULE: ${{ github.event.schedule }}
+          MODE: ${{ inputs.mode }}
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          BEFORE_SHA: ${{ github.event.before }}
+        run: |
+          security=false
+          build=false
+
+          if [[ "$EVENT_NAME" == "workflow_dispatch" ]]; then
+            [[ "$MODE" == "all" || "$MODE" == "security" ]] && security=true
+            [[ "$MODE" == "all" || "$MODE" == "reproducible" ]] && build=true
+          elif [[ "$EVENT_NAME" == "schedule" ]]; then
+            [[ "$SCHEDULE" == "31 4 * * 3" ]] && security=true
+            [[ "$SCHEDULE" == "7 4 * * 4" ]] && build=true
+          elif [[ "$EVENT_NAME" == "push" ]]; then
+            security=true
+          elif [[ "$EVENT_NAME" == "pull_request" ]]; then
+            git diff --name-only "$BASE_SHA...HEAD" > /tmp/changed.txt
+            if grep -Eq '^(scripts/|\.github/workflows/)' /tmp/changed.txt; then
+              security=true
+            fi
+            if grep -Eq '^(lists/categories/|config/|scripts/update-lists\.sh$|scripts/split-ultimate\.py$|scripts/update-ultimate-readme\.py$|scripts/publish-profile\.py$)' /tmp/changed.txt; then
+              build=true
+            fi
+          fi
+
+          echo "security=$security" >> "$GITHUB_OUTPUT"
+          echo "build=$build" >> "$GITHUB_OUTPUT"
+          echo "Security: $security"
+          echo "Reproducible build: $build"
+
+  security:
+    name: Security & Permissions
+    needs: changes
+    if: needs.changes.outputs.security == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Repository auschecken
+        uses: actions/checkout@v7
+      - name: Python kompilieren
+        run: python3 -m compileall -q scripts
+      - name: ShellCheck
+        shell: bash
+        run: |
+          if command -v shellcheck >/dev/null 2>&1; then
+            find scripts -type f -name '*.sh' -print0 | xargs -0 -r shellcheck -x
+          else
+            echo "::warning::ShellCheck ist auf diesem Runner nicht verfügbar."
+          fi
+      - name: Projekt-spezifische Hochrisiko-Muster prüfen
+        run: python3 ./scripts/automation/security_scan.py
+      - name: Minimale Workflow-Berechtigungen prüfen
+        run: python3 ./scripts/automation/permissions_audit.py
+
+  reproducible:
+    name: Reproduzierbaren Build prüfen
+    needs: changes
+    if: needs.changes.outputs.build == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    steps:
+      - name: Repository auschecken
+        uses: actions/checkout@v7
+      - name: Zwei unabhängige Builds vorbereiten
+        shell: bash
+        run: |
+          rsync -a --delete --exclude '.git' ./ /tmp/brz-build-a/
+          rsync -a --delete --exclude '.git' ./ /tmp/brz-build-b/
+      - name: Build A
+        shell: bash
+        run: |
+          cd /tmp/brz-build-a
+          bash ./scripts/update-lists.sh
+      - name: Build B
+        shell: bash
+        run: |
+          cd /tmp/brz-build-b
+          bash ./scripts/update-lists.sh
+      - name: Veröffentlichte Listen vergleichen
+        shell: bash
+        run: |
+          diff -qr /tmp/brz-build-a/lists/combined /tmp/brz-build-b/lists/combined
+          find /tmp/brz-build-a/lists/combined -type f -name '*.txt' -print0 | sort -z | xargs -0 sha256sum > /tmp/a.sha256
+          find /tmp/brz-build-b/lists/combined -type f -name '*.txt' -print0 | sort -z | xargs -0 sha256sum | sed 's#/tmp/brz-build-b#/tmp/brz-build-a#' > /tmp/b.sha256
+          diff -u /tmp/a.sha256 /tmp/b.sha256
+          echo "Reproduzierbarer Build bestätigt."

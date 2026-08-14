@@ -1,0 +1,93 @@
+name: Update blocklists
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'lists/categories/**'
+      - 'config/allowlist.txt'
+      - 'config/profiles.json'
+      - 'config/readme-i18n.json'
+      - 'config/special-lists.json'
+      - 'scripts/apply-allowlist.py'
+      - 'scripts/update-lists.sh'
+      - 'scripts/split-ultimate.py'
+      - 'scripts/update-ultimate-readme.py'
+      - 'scripts/publish-profile.py'
+      - 'scripts/generate-metadata.py'
+      - 'scripts/update-readme.py'
+      - 'scripts/update-special-lists.py'
+      - 'scripts/validate-generated.py'
+      - 'scripts/validate-special-integration.py'
+      - '.github/workflows/update-lists.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+
+concurrency:
+  group: blocklist-write-main
+  cancel-in-progress: false
+
+jobs:
+  update:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+      - name: Validate profile, README and extended-list configuration
+        run: |
+          python3 -m json.tool config/profiles.json >/dev/null
+          python3 -m json.tool config/readme-i18n.json >/dev/null
+          python3 -m json.tool config/special-lists.json >/dev/null
+
+      - name: Remove Python cache artifacts
+        run: find . -type d -name __pycache__ -prune -exec rm -rf {} +
+      - name: Build or migrate extended lists
+        shell: bash
+        run: |
+          needs_extended_build=false
+          if [[ ! -f metadata/special-lists.json ]]; then
+            needs_extended_build=true
+          elif ! grep -q '"integration_revision": 2' metadata/special-lists.json; then
+            # v3.3.3 migration: merge overlapping extended sources into the
+            # existing BlackRabbitZ functional categories and remove duplicates.
+            needs_extended_build=true
+          elif ! grep -q '"threat-intelligence-full"' metadata/special-lists.json; then
+            needs_extended_build=true
+          elif grep -Eq '"(status|update_status)": "source_unavailable"' metadata/special-lists.json; then
+            # A previous run continued while an external archive source was down.
+            # Retry those deferred sources on the next normal workflow run.
+            needs_extended_build=true
+          fi
+          if [[ "$needs_extended_build" == "true" ]]; then
+            echo "Migrating extended sources into functional BlackRabbitZ categories and building unique optional lists, including NRD/DGA."
+            python3 ./scripts/update-special-lists.py --include-heavy
+          else
+            echo "Functionally integrated extended lists already exist; no archive rebuild needed."
+          fi
+      - name: Validate functional source integration
+        run: python3 ./scripts/validate-special-integration.py
+
+      - name: Rebuild profiles, apply safety allowlist, parts, metadata and READMEs
+        shell: bash
+        run: bash ./scripts/update-lists.sh
+
+      - name: Validate generated diff
+        run: git diff --check
+      - name: Commit generated changes
+        shell: bash
+        run: |
+          if [[ -z "$(git status --porcelain)" ]]; then
+            echo "Everything is already up to date."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "chore: update blocklists and generated metadata"
+          git push

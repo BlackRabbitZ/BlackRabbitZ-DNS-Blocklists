@@ -1,0 +1,140 @@
+name: Issue & PR automation
+
+on:
+  issues:
+    types: [labeled]
+  pull_request_target:
+    types: [opened, synchronize, reopened, ready_for_review]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  setup-labels:
+    name: Triage-Labels einrichten
+    if: github.event_name == 'workflow_dispatch'
+    permissions:
+      contents: read
+      issues: write
+    runs-on: ubuntu-latest
+    steps:
+      - name: Benötigte Triage-Labels anlegen oder aktualisieren
+        uses: actions/github-script@v9
+        with:
+          script: |
+            const owner = context.repo.owner;
+            const repo = context.repo.repo;
+            const labels = [
+              ['already-included', '2da44e', 'Domain ist bereits enthalten'],
+              ['dead-domain', '6e7781', 'Domain existiert nicht mehr / bestätigtes NXDOMAIN'],
+              ['duplicate', 'cfd3d7', 'Doppelte Meldung'],
+              ['invalid-report', 'd73a4a', 'Meldung enthält nicht genügend prüfbare Angaben'],
+              ['fixed-pending-release', '1d76db', 'Fix ist vorbereitet und wartet auf Release'],
+              ['wontfix', 'ffffff', 'Änderung ist derzeit nicht geplant']
+            ];
+            for (const [name, color, description] of labels) {
+              try {
+                await github.rest.issues.getLabel({owner, repo, name});
+                await github.rest.issues.updateLabel({owner, repo, name, new_name: name, color, description});
+              } catch (error) {
+                if (error.status !== 404) throw error;
+                await github.rest.issues.createLabel({owner, repo, name, color, description});
+              }
+            }
+
+  triage:
+    name: Issue automatisch bearbeiten
+    if: github.event_name == 'issues'
+    permissions:
+      contents: read
+      issues: write
+    runs-on: ubuntu-latest
+    steps:
+      - name: Issue anhand des Labels bearbeiten
+        uses: actions/github-script@v9
+        env:
+          LABEL: ${{ github.event.label.name }}
+        with:
+          script: |
+            const label = process.env.LABEL;
+            const issue_number = context.issue.number;
+            const owner = context.repo.owner;
+            const repo = context.repo.repo;
+            const rules = {
+              'already-included': {body: '✅ Die gemeldete Domain ist bereits enthalten. Das Issue wird automatisch geschlossen.', close: true, reason: 'completed'},
+              'dead-domain': {body: '🌐 Die Domain wurde als nicht existent bzw. dauerhaft NXDOMAIN eingestuft. Das Issue wird geschlossen.', close: true, reason: 'not_planned'},
+              'duplicate': {body: '♻️ Diese Meldung ist ein Duplikat und wird automatisch geschlossen.', close: true, reason: 'not_planned'},
+              'invalid-report': {body: '⚠️ Für eine reproduzierbare Prüfung fehlen notwendige Angaben. Bitte bei Bedarf ein neues, vollständiges Issue erstellen.', close: true, reason: 'not_planned'},
+              'fixed-pending-release': {body: '🛠️ Die Änderung ist vorbereitet und für den nächsten Release vorgesehen. Das Issue bleibt bis dahin offen.', close: false},
+              'wontfix': {body: 'ℹ️ Diese Änderung wird derzeit nicht übernommen. Das Issue wird als nicht geplant geschlossen.', close: true, reason: 'not_planned'}
+            };
+            const rule = rules[label];
+            if (!rule) {
+              core.info(`Kein automatischer Triage-Schritt für Label: ${label}`);
+              return;
+            }
+            await github.rest.issues.createComment({owner, repo, issue_number, body: rule.body});
+            if (rule.close) {
+              await github.rest.issues.update({owner, repo, issue_number, state: 'closed', state_reason: rule.reason});
+            }
+
+  pr-summary:
+    name: PR-Zusammenfassung aktualisieren
+    if: github.event_name == 'pull_request_target'
+    permissions:
+      contents: read
+      issues: write
+      pull-requests: write
+    runs-on: ubuntu-latest
+    steps:
+      - name: Sichere Pull-Request-Zusammenfassung erstellen
+        uses: actions/github-script@v9
+        with:
+          script: |
+            const owner = context.repo.owner;
+            const repo = context.repo.repo;
+            const pull_number = context.payload.pull_request.number;
+            const files = await github.paginate(github.rest.pulls.listFiles, {owner, repo, pull_number, per_page: 100});
+            let additions = 0;
+            let deletions = 0;
+            const categories = [];
+            const workflows = [];
+            const scripts = [];
+            for (const file of files) {
+              additions += file.additions || 0;
+              deletions += file.deletions || 0;
+              if (file.filename.startsWith('lists/categories/')) categories.push(file.filename);
+              if (file.filename.startsWith('.github/workflows/')) workflows.push(file.filename);
+              if (file.filename.startsWith('scripts/')) scripts.push(file.filename);
+            }
+            const marker = '<!-- blackrabbitz-pr-summary -->';
+            const fmt = xs => xs.length ? xs.slice(0, 15).map(x => `- \`${x}\``).join('\n') + (xs.length > 15 ? `\n- … ${xs.length - 15} weitere` : '') : '- —';
+            const body = `${marker}
+            ## 🐇 BlackRabbitZ PR-Zusammenfassung
+            | Kennzahl | Wert |
+            |---|---:|
+            | Geänderte Dateien | ${files.length} |
+            | Hinzugefügte Zeilen | +${additions} |
+            | Entfernte Zeilen | -${deletions} |
+            | Geänderte Kategorie-Dateien | ${categories.length} |
+            | Geänderte Workflows | ${workflows.length} |
+            | Geänderte Skripte | ${scripts.length} |
+
+            ### Kategorien
+            ${fmt(categories)}
+
+            ### Workflows
+            ${fmt(workflows)}
+
+            ### Skripte
+            ${fmt(scripts)}
+
+            > Domain-, DNS- und Build-Validierung erfolgt durch Validate repository und CI & Security.`;
+            const comments = await github.paginate(github.rest.issues.listComments, {owner, repo, issue_number: pull_number, per_page: 100});
+            const previous = comments.find(c => c.user?.type === 'Bot' && c.body?.includes(marker));
+            if (previous) {
+              await github.rest.issues.updateComment({owner, repo, comment_id: previous.id, body});
+            } else {
+              await github.rest.issues.createComment({owner, repo, issue_number: pull_number, body});
+            }
