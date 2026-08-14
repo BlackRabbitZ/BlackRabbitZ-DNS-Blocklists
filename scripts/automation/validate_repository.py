@@ -25,8 +25,16 @@ ENTRY_HEADER_RE = re.compile(
     re.IGNORECASE,
 )
 
-MAX_ERRORS_PER_FILE = 50
-MAX_ERRORS_TOTAL = 300
+# Ein Adblock-Host darf auch nur aus einem TLD-Label bestehen, z. B. ||actor^.
+ADBLOCK_HOST_RE = re.compile(
+    r"^(?=.{1,253}$)"
+    r"(?:[a-z0-9](?:[a-z0-9_-]{0,61}[a-z0-9])?\.)*"
+    r"[a-z0-9](?:[a-z0-9_-]{0,61}[a-z0-9])?$",
+    re.IGNORECASE,
+)
+
+MAX_ISSUES_PER_FILE = 50
+MAX_ISSUES_TO_PRINT = 300
 
 
 @dataclass
@@ -46,6 +54,7 @@ class Issue:
 class Stats:
     files: int = 0
     entries: int = 0
+    adblock_files: int = 0
     duplicates: int = 0
     invalid: int = 0
     unsorted: int = 0
@@ -55,11 +64,28 @@ class Stats:
     def add(self, other: "Stats") -> None:
         self.files += other.files
         self.entries += other.entries
+        self.adblock_files += other.adblock_files
         self.duplicates += other.duplicates
         self.invalid += other.invalid
         self.unsorted += other.unsorted
         self.allowlist_collisions += other.allowlist_collisions
         self.header_errors += other.header_errors
+
+    @property
+    def errors(self) -> int:
+        return (
+            self.duplicates
+            + self.invalid
+            + self.unsorted
+            + self.allowlist_collisions
+            + self.header_errors
+        )
+
+
+def add_issue(issues: list[Issue], issue: Issue) -> None:
+    """Details begrenzen, Prüfung und Zähler aber NIE vorzeitig abbrechen."""
+    if len(issues) < MAX_ISSUES_PER_FILE:
+        issues.append(issue)
 
 
 def parse_declared_entries(text: str) -> int | None:
@@ -74,7 +100,6 @@ def parse_declared_entries(text: str) -> int | None:
 
 
 def fast_is_allowlisted(domain: str, allowlist: set[str]) -> bool:
-    """Gleiche Semantik wie domain == item / Subdomain, aber ohne O(N*M)-Scan."""
     if not allowlist:
         return False
     parts = domain.split(".")
@@ -105,9 +130,11 @@ def changed_files(diff_range: str, scope: str) -> list[Path]:
 def scope_files(scope: str, diff_range: str | None) -> list[Path]:
     if diff_range:
         return changed_files(diff_range, scope)
+
     directory = LIST_DIRS[scope]
     if not directory.exists():
         return []
+
     return sorted(path for path in directory.glob("*.txt") if path.is_file())
 
 
@@ -130,8 +157,119 @@ def check_json() -> list[Issue]:
 def _read_payload(path: Path):
     with path.open("r", encoding="utf-8", errors="strict") as handle:
         for line_no, raw in enumerate(handle, start=1):
-            text = raw.strip()
-            yield line_no, text
+            yield line_no, raw.strip()
+
+
+def detect_category_format(path: Path) -> str:
+    """
+    Erkennt gemischte Kategorieformate.
+
+    Rückgabe:
+      - "adblock" für Adblock Plus / AdGuard Filterlisten
+      - "domains" für normale DNS-Domainlisten
+    """
+    try:
+        with path.open("r", encoding="utf-8", errors="strict") as handle:
+            for index, raw in enumerate(handle):
+                if index >= 250:
+                    break
+                text = raw.strip()
+                lowered = text.lower()
+
+                if lowered in {"[adblock plus]", "[adblock]"}:
+                    return "adblock"
+
+                if lowered.startswith("! syntax:") and "adblock" in lowered:
+                    return "adblock"
+
+                # Starker Indikator für DNS-artige Adblock-Regeln.
+                if text.startswith(("||", "@@||")) and "^" in text:
+                    return "adblock"
+
+    except (UnicodeDecodeError, OSError):
+        # Der eigentliche Validator erzeugt später die konkrete Fehlermeldung.
+        pass
+
+    return "domains"
+
+
+def header_count_non_hash_unique(path: Path) -> int:
+    """
+    Spiegelt die bestehende count_entries()-Logik aus scripts/update-lists.sh:
+    - leere Zeilen ignorieren
+    - Zeilen mit # ignorieren
+    - alle übrigen eindeutigen Zeilen zählen
+
+    Dadurch werden bei Adblock-Dateien absichtlich auch [Adblock Plus] und
+    !-Metadaten so gezählt, wie es der bestehende Repository-Build bereits tut.
+    """
+    seen: set[str] = set()
+
+    with path.open("r", encoding="utf-8", errors="strict") as handle:
+        for raw in handle:
+            text = raw.rstrip("\r\n").strip()
+            if not text or text.startswith("#"):
+                continue
+            seen.add(text)
+
+    return len(seen)
+
+
+def declared_entries_for_file(path: Path) -> int | None:
+    with path.open("r", encoding="utf-8", errors="strict") as handle:
+        for raw in handle:
+            parsed = parse_declared_entries(raw.strip())
+            if parsed is not None:
+                return parsed
+    return None
+
+
+def normalize_adblock_host(value: str) -> str | None:
+    value = value.strip().lower().rstrip(".")
+    if not value:
+        return None
+
+    try:
+        value = value.encode("idna").decode("ascii")
+    except (UnicodeError, ValueError):
+        return None
+
+    return value if ADBLOCK_HOST_RE.fullmatch(value) else None
+
+
+def parse_adblock_rule(text: str) -> tuple[str | None, str | None]:
+    """
+    Validiert DNS-artige Adblock-Regeln wie:
+      ||example.com^
+      ||actor^
+      @@||example.com^
+      ||example.com^$important
+
+    Rückgabe: (host, fehler)
+    """
+    rule = text.strip()
+
+    if rule.startswith("@@"):
+        rule = rule[2:]
+
+    if not rule.startswith("||"):
+        return None, "nicht unterstützte Adblock-Regel (erwartet ||host^)"
+
+    body = rule[2:]
+    if "^" not in body:
+        return None, "Adblock-Regel ohne ^-Separator"
+
+    host, suffix = body.split("^", 1)
+
+    # Nach ^ dürfen keine beliebigen Zeichen stehen; Filteroptionen beginnen mit $.
+    if suffix and not suffix.startswith("$"):
+        return None, f"unerwarteter Inhalt nach ^: {suffix[:80]}"
+
+    host = normalize_adblock_host(host)
+    if host is None:
+        return None, "ungültiger Host in Adblock-Regel"
+
+    return host, None
 
 
 def validate_domain_file(
@@ -144,14 +282,12 @@ def validate_domain_file(
     stats = Stats(files=1)
     seen: set[str] = set()
     previous: str | None = None
-    declared: int | None = None
 
     try:
-        iterator = _read_payload(path)
-        for line_no, text in iterator:
-            parsed_header = parse_declared_entries(text)
-            if parsed_header is not None:
-                declared = parsed_header
+        declared = declared_entries_for_file(path)
+
+        for line_no, text in _read_payload(path):
+            if parse_declared_entries(text) is not None:
                 continue
 
             if not text or text.startswith(("#", "!")):
@@ -162,52 +298,167 @@ def validate_domain_file(
 
             if not domain:
                 stats.invalid += 1
-                issues.append(Issue(path, line_no, f"ungültige Domain: {text[:160]}"))
-                if len(issues) >= MAX_ERRORS_PER_FILE:
-                    break
+                add_issue(
+                    issues,
+                    Issue(path, line_no, f"ungültige Domain: {text[:160]}"),
+                )
                 continue
 
-            # Set-basierte Prüfung erkennt Duplikate auch dann, wenn die Datei
-            # versehentlich nicht mehr sortiert ist.
             if domain in seen:
                 stats.duplicates += 1
-                issues.append(Issue(path, line_no, f"Duplikat: {domain}"))
+                add_issue(issues, Issue(path, line_no, f"Duplikat: {domain}"))
             else:
                 seen.add(domain)
 
             if previous is not None and domain < previous:
                 stats.unsorted += 1
-                issues.append(
+                add_issue(
+                    issues,
                     Issue(
                         path,
                         line_no,
                         f"nicht sortiert: {domain} steht nach {previous}",
-                    )
+                    ),
                 )
             previous = domain
 
             if check_allowlist and fast_is_allowlisted(domain, allowlist):
                 stats.allowlist_collisions += 1
-                issues.append(Issue(path, line_no, f"Allowlist-Kollision: {domain}"))
+                add_issue(
+                    issues,
+                    Issue(path, line_no, f"Allowlist-Kollision: {domain}"),
+                )
 
-            if len(issues) >= MAX_ERRORS_PER_FILE:
-                break
+        if declared is not None:
+            actual_header_count = header_count_non_hash_unique(path)
+            if declared != actual_header_count:
+                stats.header_errors += 1
+                add_issue(
+                    issues,
+                    Issue(
+                        path,
+                        None,
+                        f"Entries-Header {declared:,} != Build-Zählung {actual_header_count:,}",
+                    ),
+                )
 
     except UnicodeDecodeError as exc:
         stats.invalid += 1
-        issues.append(Issue(path, None, f"Datei ist nicht gültiges UTF-8: {exc}"))
+        add_issue(
+            issues,
+            Issue(path, None, f"Datei ist nicht gültiges UTF-8: {exc}"),
+        )
     except OSError as exc:
         stats.invalid += 1
-        issues.append(Issue(path, None, f"Datei konnte nicht gelesen werden: {exc}"))
+        add_issue(
+            issues,
+            Issue(path, None, f"Datei konnte nicht gelesen werden: {exc}"),
+        )
 
-    if declared is not None and declared != stats.entries:
-        stats.header_errors += 1
-        issues.append(
-            Issue(
-                path,
-                None,
-                f"Entries-Header {declared:,} != tatsächliche Einträge {stats.entries:,}",
+    return issues, stats
+
+
+def validate_adblock_file(
+    path: Path,
+    *,
+    allowlist: set[str],
+) -> tuple[list[Issue], Stats]:
+    issues: list[Issue] = []
+    stats = Stats(files=1, adblock_files=1)
+    seen_rules: set[str] = set()
+    previous_rule: str | None = None
+
+    try:
+        declared = declared_entries_for_file(path)
+        saw_header = False
+
+        for line_no, text in _read_payload(path):
+            if parse_declared_entries(text) is not None:
+                continue
+
+            if not text or text.startswith("#"):
+                continue
+
+            # Adblock-Dateikopf und Metadaten sind gültig, aber keine Filterregel.
+            if text.lower() in {"[adblock plus]", "[adblock]"}:
+                saw_header = True
+                continue
+
+            if text.startswith("!"):
+                continue
+
+            stats.entries += 1
+
+            normalized_rule = text.lower()
+            if normalized_rule in seen_rules:
+                stats.duplicates += 1
+                add_issue(
+                    issues,
+                    Issue(path, line_no, f"Duplikat-Adblock-Regel: {text[:160]}"),
+                )
+            else:
+                seen_rules.add(normalized_rule)
+
+            host, error = parse_adblock_rule(text)
+            if error:
+                stats.invalid += 1
+                add_issue(
+                    issues,
+                    Issue(path, line_no, f"ungültige Adblock-Regel: {error}: {text[:160]}"),
+                )
+                continue
+
+            # Sortierung nur unter tatsächlichen Regeln prüfen.
+            if previous_rule is not None and normalized_rule < previous_rule:
+                stats.unsorted += 1
+                add_issue(
+                    issues,
+                    Issue(
+                        path,
+                        line_no,
+                        f"Adblock-Regeln nicht sortiert: {text[:120]}",
+                    ),
+                )
+            previous_rule = normalized_rule
+
+            if host and fast_is_allowlisted(host, allowlist):
+                stats.allowlist_collisions += 1
+                add_issue(
+                    issues,
+                    Issue(path, line_no, f"Allowlist-Kollision in Adblock-Regel: {host}"),
+                )
+
+        if not saw_header:
+            stats.invalid += 1
+            add_issue(
+                issues,
+                Issue(path, None, "Adblock-Format erkannt, aber [Adblock Plus]-Header fehlt"),
             )
+
+        if declared is not None:
+            actual_header_count = header_count_non_hash_unique(path)
+            if declared != actual_header_count:
+                stats.header_errors += 1
+                add_issue(
+                    issues,
+                    Issue(
+                        path,
+                        None,
+                        f"Entries-Header {declared:,} != Build-Zählung {actual_header_count:,}",
+                    ),
+                )
+
+    except UnicodeDecodeError as exc:
+        stats.invalid += 1
+        add_issue(
+            issues,
+            Issue(path, None, f"Datei ist nicht gültiges UTF-8: {exc}"),
+        )
+    except OSError as exc:
+        stats.invalid += 1
+        add_issue(
+            issues,
+            Issue(path, None, f"Datei konnte nicht gelesen werden: {exc}"),
         )
 
     return issues, stats
@@ -218,7 +469,6 @@ def validate_ip_file(path: Path) -> tuple[list[Issue], Stats]:
     stats = Stats(files=1)
     seen: set[str] = set()
     previous: str | None = None
-    declared: int | None = None
 
     expected_version: int | None = None
     lower_name = path.name.lower()
@@ -228,10 +478,10 @@ def validate_ip_file(path: Path) -> tuple[list[Issue], Stats]:
         expected_version = 6
 
     try:
+        declared = declared_entries_for_file(path)
+
         for line_no, text in _read_payload(path):
-            parsed_header = parse_declared_entries(text)
-            if parsed_header is not None:
-                declared = parsed_header
+            if parse_declared_entries(text) is not None:
                 continue
 
             if not text or text.startswith(("#", "!")):
@@ -243,66 +493,74 @@ def validate_ip_file(path: Path) -> tuple[list[Issue], Stats]:
                 address = ipaddress.ip_address(text)
             except ValueError:
                 stats.invalid += 1
-                issues.append(Issue(path, line_no, f"ungültige IP-Adresse: {text[:160]}"))
-                if len(issues) >= MAX_ERRORS_PER_FILE:
-                    break
+                add_issue(
+                    issues,
+                    Issue(path, line_no, f"ungültige IP-Adresse: {text[:160]}"),
+                )
                 continue
 
             if expected_version is not None and address.version != expected_version:
                 stats.invalid += 1
-                issues.append(
+                add_issue(
+                    issues,
                     Issue(
                         path,
                         line_no,
-                        f"falsche IP-Version: erwartet IPv{expected_version}, gefunden IPv{address.version}: {text}",
-                    )
+                        f"falsche IP-Version: erwartet IPv{expected_version}, "
+                        f"gefunden IPv{address.version}: {text}",
+                    ),
                 )
 
             canonical = str(address)
 
             if canonical in seen:
                 stats.duplicates += 1
-                issues.append(Issue(path, line_no, f"Duplikat: {canonical}"))
+                add_issue(issues, Issue(path, line_no, f"Duplikat: {canonical}"))
             else:
                 seen.add(canonical)
 
-            # Die bestehenden BlackRabbitZ-IP-Listen sind textuell sortiert.
             if previous is not None and canonical < previous:
                 stats.unsorted += 1
-                issues.append(
+                add_issue(
+                    issues,
                     Issue(
                         path,
                         line_no,
                         f"nicht sortiert: {canonical} steht nach {previous}",
-                    )
+                    ),
                 )
             previous = canonical
 
-            if len(issues) >= MAX_ERRORS_PER_FILE:
-                break
+        if declared is not None:
+            actual_header_count = header_count_non_hash_unique(path)
+            if declared != actual_header_count:
+                stats.header_errors += 1
+                add_issue(
+                    issues,
+                    Issue(
+                        path,
+                        None,
+                        f"Entries-Header {declared:,} != Build-Zählung {actual_header_count:,}",
+                    ),
+                )
 
     except UnicodeDecodeError as exc:
         stats.invalid += 1
-        issues.append(Issue(path, None, f"Datei ist nicht gültiges UTF-8: {exc}"))
+        add_issue(
+            issues,
+            Issue(path, None, f"Datei ist nicht gültiges UTF-8: {exc}"),
+        )
     except OSError as exc:
         stats.invalid += 1
-        issues.append(Issue(path, None, f"Datei konnte nicht gelesen werden: {exc}"))
-
-    if declared is not None and declared != stats.entries:
-        stats.header_errors += 1
-        issues.append(
-            Issue(
-                path,
-                None,
-                f"Entries-Header {declared:,} != tatsächliche Einträge {stats.entries:,}",
-            )
+        add_issue(
+            issues,
+            Issue(path, None, f"Datei konnte nicht gelesen werden: {exc}"),
         )
 
     return issues, stats
 
 
 def validate_regex_pattern(pattern: str) -> str | None:
-    """Prüft bevorzugt mit GNU grep -P (PCRE). Python-re ist nur Fallback."""
     grep = shutil.which("grep")
 
     if grep:
@@ -318,9 +576,9 @@ def validate_regex_pattern(pattern: str) -> str | None:
         except subprocess.TimeoutExpired:
             return "RegEx-Kompilierung hat das Zeitlimit überschritten"
 
-        # grep: 0 = Match, 1 = kein Match aber gültiger Ausdruck, >1 = Fehler.
         if proc.returncode in (0, 1):
             return None
+
         message = (proc.stderr or proc.stdout).strip()
         return message or f"PCRE-Prüfung fehlgeschlagen (Exit {proc.returncode})"
 
@@ -336,13 +594,12 @@ def validate_regex_file(path: Path) -> tuple[list[Issue], Stats]:
     issues: list[Issue] = []
     stats = Stats(files=1)
     seen: set[str] = set()
-    declared: int | None = None
 
     try:
+        declared = declared_entries_for_file(path)
+
         for line_no, text in _read_payload(path):
-            parsed_header = parse_declared_entries(text)
-            if parsed_header is not None:
-                declared = parsed_header
+            if parse_declared_entries(text) is not None:
                 continue
 
             if not text or text.startswith(("#", "!")):
@@ -352,35 +609,49 @@ def validate_regex_file(path: Path) -> tuple[list[Issue], Stats]:
 
             if text in seen:
                 stats.duplicates += 1
-                issues.append(Issue(path, line_no, f"Duplikat-RegEx: {text[:160]}"))
+                add_issue(
+                    issues,
+                    Issue(path, line_no, f"Duplikat-RegEx: {text[:160]}"),
+                )
             else:
                 seen.add(text)
 
             regex_error = validate_regex_pattern(text)
             if regex_error:
                 stats.invalid += 1
-                issues.append(
-                    Issue(path, line_no, f"ungültige RegEx: {regex_error}: {text[:160]}")
+                add_issue(
+                    issues,
+                    Issue(
+                        path,
+                        line_no,
+                        f"ungültige RegEx: {regex_error}: {text[:160]}",
+                    ),
                 )
 
-            if len(issues) >= MAX_ERRORS_PER_FILE:
-                break
+        if declared is not None:
+            actual_header_count = header_count_non_hash_unique(path)
+            if declared != actual_header_count:
+                stats.header_errors += 1
+                add_issue(
+                    issues,
+                    Issue(
+                        path,
+                        None,
+                        f"Entries-Header {declared:,} != Build-Zählung {actual_header_count:,}",
+                    ),
+                )
 
     except UnicodeDecodeError as exc:
         stats.invalid += 1
-        issues.append(Issue(path, None, f"Datei ist nicht gültiges UTF-8: {exc}"))
+        add_issue(
+            issues,
+            Issue(path, None, f"Datei ist nicht gültiges UTF-8: {exc}"),
+        )
     except OSError as exc:
         stats.invalid += 1
-        issues.append(Issue(path, None, f"Datei konnte nicht gelesen werden: {exc}"))
-
-    if declared is not None and declared != stats.entries:
-        stats.header_errors += 1
-        issues.append(
-            Issue(
-                path,
-                None,
-                f"Entries-Header {declared:,} != tatsächliche Einträge {stats.entries:,}",
-            )
+        add_issue(
+            issues,
+            Issue(path, None, f"Datei konnte nicht gelesen werden: {exc}"),
         )
 
     return issues, stats
@@ -393,16 +664,24 @@ def print_stats(scope: str, stats: Stats) -> None:
         "ips": "IP-Blocklisten",
         "regex": "RegEx-Blocklisten",
     }
+
     print(f"\n=== {labels[scope]} ===")
-    print(f"Dateien:              {stats.files:,}")
-    print(f"Einträge:              {stats.entries:,}")
-    print(f"Duplikate:             {stats.duplicates:,}")
-    print(f"Ungültige Einträge:    {stats.invalid:,}")
+    print(f"Dateien:               {stats.files:,}")
+    print(f"Geprüfte Einträge:     {stats.entries:,}")
+
+    if scope == "categories" and stats.adblock_files:
+        print(f"Adblock-Dateien:        {stats.adblock_files:,}")
+
+    print(f"Duplikate:              {stats.duplicates:,}")
+    print(f"Ungültige Einträge:     {stats.invalid:,}")
+
     if scope != "regex":
-        print(f"Sortierungsfehler:     {stats.unsorted:,}")
+        print(f"Sortierungsfehler:      {stats.unsorted:,}")
+
     if scope in {"categories", "combined"}:
-        print(f"Allowlist-Kollisionen: {stats.allowlist_collisions:,}")
-    print(f"Header-Fehler:         {stats.header_errors:,}")
+        print(f"Allowlist-Kollisionen:  {stats.allowlist_collisions:,}")
+
+    print(f"Header-Fehler:          {stats.header_errors:,}")
 
 
 def emit_issue(issue: Issue) -> None:
@@ -410,7 +689,12 @@ def emit_issue(issue: Issue) -> None:
 
     if os.environ.get("GITHUB_ACTIONS") == "true":
         rel = issue.path.relative_to(ROOT)
-        message = issue.message.replace("%", "%25").replace("\r", "%0D").replace("\n", "%0A")
+        message = (
+            issue.message.replace("%", "%25")
+            .replace("\r", "%0D")
+            .replace("\n", "%0A")
+        )
+
         if issue.line is None:
             print(f"::error file={rel}::{message}")
         else:
@@ -430,24 +714,41 @@ def validate_scope(
     total = Stats()
 
     for path in files:
-        if scope in {"categories", "combined"}:
+        if scope == "categories":
+            category_format = detect_category_format(path)
+
+            if category_format == "adblock":
+                print(f"  Adblock-Syntax erkannt: {path.relative_to(ROOT)}")
+                issues, stats = validate_adblock_file(
+                    path,
+                    allowlist=allowlist,
+                )
+            else:
+                issues, stats = validate_domain_file(
+                    path,
+                    allowlist=allowlist,
+                    check_allowlist=True,
+                )
+
+        elif scope == "combined":
+            # Kombinierte Profile sind weiterhin reine Domainlisten.
             issues, stats = validate_domain_file(
                 path,
                 allowlist=allowlist,
                 check_allowlist=True,
             )
+
         elif scope == "ips":
             issues, stats = validate_ip_file(path)
+
         elif scope == "regex":
             issues, stats = validate_regex_file(path)
+
         else:
             raise ValueError(f"Unbekannter Scope: {scope}")
 
         all_issues.extend(issues)
         total.add(stats)
-
-        if len(all_issues) >= MAX_ERRORS_TOTAL:
-            break
 
     return all_issues, total
 
@@ -469,34 +770,39 @@ def main() -> int:
     parser.add_argument(
         "--full",
         action="store_true",
-        help="Alle Dateien des gewählten Scopes prüfen (Standard ohne --diff-range)",
+        help="Alle Dateien des gewählten Scopes prüfen",
     )
     args = parser.parse_args()
 
     print("====================================================")
-    print(" BlackRabbitZ DNS Blocklists - Repository Validator")
+    print(" BlackRabbitZ DNS Blocklists - Repository Validator v3")
     print("====================================================")
 
-    all_issues: list[Issue] = []
+    displayed_issues: list[Issue] = []
+    total_errors = 0
 
     if args.scope in {"all", "config"}:
         print("\n=== JSON-Konfiguration ===")
         json_issues = check_json()
+
         if json_issues:
-            all_issues.extend(json_issues)
+            total_errors += len(json_issues)
+            displayed_issues.extend(json_issues)
             print(f"JSON-Fehler: {len(json_issues)}")
         else:
             print("JSON-Konfiguration: OK")
 
     if args.scope == "config":
-        if all_issues:
-            for issue in all_issues[:MAX_ERRORS_TOTAL]:
+        if total_errors:
+            for issue in displayed_issues[:MAX_ISSUES_TO_PRINT]:
                 emit_issue(issue)
             return 1
+
         print("\n✅ Konfigurationsprüfung erfolgreich.")
         return 0
 
     allowlist = load_allowlist()
+
     scopes = (
         ("categories", "combined", "ips", "regex")
         if args.scope == "all"
@@ -509,20 +815,28 @@ def main() -> int:
             diff_range=args.diff_range,
             allowlist=allowlist,
         )
+
         print_stats(scope, stats)
-        all_issues.extend(issues)
+        total_errors += stats.errors
 
-        if len(all_issues) >= MAX_ERRORS_TOTAL:
-            break
+        if len(displayed_issues) < MAX_ISSUES_TO_PRINT:
+            remaining = MAX_ISSUES_TO_PRINT - len(displayed_issues)
+            displayed_issues.extend(issues[:remaining])
 
-    if all_issues:
+    if total_errors:
         print("\n====================================================")
-        print(f"❌ VALIDIERUNG FEHLGESCHLAGEN: {len(all_issues)} Fehler")
+        print(f"❌ VALIDIERUNG FEHLGESCHLAGEN: {total_errors:,} Fehler")
         print("====================================================")
-        for issue in all_issues[:MAX_ERRORS_TOTAL]:
+
+        for issue in displayed_issues:
             emit_issue(issue)
-        if len(all_issues) > MAX_ERRORS_TOTAL:
-            print(f"... {len(all_issues) - MAX_ERRORS_TOTAL} weitere Fehler")
+
+        if total_errors > len(displayed_issues):
+            print(
+                f"... nur {len(displayed_issues):,} Fehlerdetails angezeigt; "
+                f"{total_errors - len(displayed_issues):,} weitere Fehler wurden gezählt."
+            )
+
         return 1
 
     print("\n====================================================")
