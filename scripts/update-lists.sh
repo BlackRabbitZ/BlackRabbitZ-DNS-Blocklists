@@ -10,7 +10,6 @@ export LC_ALL=C
 
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 cd "$ROOT_DIR"
-
 # v3.3.3: force a clean republish of every split profile. This is intentional:
 # repositories that still contain legacy 5-MiB parts must not keep reusing those
 # files after the configured limit changed to 50 MiB. publish-profile.py will
@@ -20,9 +19,9 @@ rm -f lists/combined/security-part-*.txt \
       lists/combined/ultimate-part-*.txt \
       lists/combined/ultimate-[0-9]*.txt 2>/dev/null || true
 rm -f metadata/build.json metadata/SHA256SUMS 2>/dev/null || true
-
 REPO_URL="https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists"
 PROFILE_CONFIG="config/profiles.json"
+ALLOWLIST_FILE="config/allowlist.txt"
 
 count_entries() {
   local file="$1"
@@ -32,7 +31,6 @@ count_entries() {
     | wc -l \
     | tr -d '[:space:]'
 }
-
 update_entries_header() {
   local file="$1"
   local count="$2"
@@ -56,7 +54,6 @@ write_category_header_if_missing() {
   if grep -q '^# BlackRabbitZ DNS Blocklists$' "$file"; then
     return 0
   fi
-
   local tmp
   tmp="$(mktemp)"
   {
@@ -71,11 +68,23 @@ write_category_header_if_missing() {
   } > "$tmp"
   mv "$tmp" "$file"
 }
-
 if [[ ! -f "$PROFILE_CONFIG" ]]; then
   echo "Missing profile configuration: $PROFILE_CONFIG" >&2
   exit 1
 fi
+if [[ ! -s "$ALLOWLIST_FILE" ]]; then
+  echo "Missing or empty safety allowlist: $ALLOWLIST_FILE" >&2
+  exit 1
+fi
+
+# Defense in depth, layer 1 at build time:
+# Remove any allowlisted DNS name that already exists in a category file.
+# The upstream importer already blocks new allowlisted imports; this catches
+# legacy/manual entries as well. Mixed non-domain formats are preserved.
+echo "Applying safety allowlist to category lists..."
+python3 ./scripts/apply-allowlist.py \
+  --allowlist "$ALLOWLIST_FILE" \
+  --categories lists/categories
 
 # Keep category-file entry headers synchronized with actual unique non-comment entries.
 for file in lists/categories/*.txt; do
@@ -93,7 +102,6 @@ build_profile() {
   local tmp_domains
   tmp_domains="$(mktemp)"
   : > "$tmp_domains"
-
   local categories=()
   IFS=',' read -r -a categories <<< "$categories_csv"
 
@@ -108,6 +116,14 @@ build_profile() {
   done
 
   sort -u "$tmp_domains" -o "$tmp_domains"
+
+  # Defense in depth, layer 2 at publish time:
+  # Even if an allowlisted name somehow survives in a source category, it can
+  # never be emitted into a published combined profile.
+  echo "Applying final safety allowlist to profile '$profile'..."
+  python3 ./scripts/apply-allowlist.py \
+    --allowlist "$ALLOWLIST_FILE" \
+    --file "$tmp_domains"
 
   local includes
   includes="$(IFS=', '; echo "${categories[*]}")"
@@ -127,7 +143,6 @@ build_profile() {
   python3 ./scripts/publish-profile.py "${args[@]}"
   rm -f "$tmp_domains"
 }
-
 # config/profiles.json is the single source of truth for profile composition,
 # display metadata and which large profiles are published as numbered parts.
 while IFS=$'\t' read -r profile split max_bytes categories_csv; do
@@ -137,7 +152,6 @@ done < <(
 import json
 import sys
 from pathlib import Path
-
 config = json.loads(Path(sys.argv[1]).read_text(encoding="utf-8"))
 max_bytes = int(config["split_max_bytes"])
 for name, profile in config["profiles"].items():
@@ -154,7 +168,6 @@ check_github_file_sizes() {
   local warn_bytes=$((50 * 1024 * 1024))
   local max_bytes=$((100 * 1024 * 1024))
   local failed=0
-
   for file in lists/categories/*.txt lists/combined/*.txt; do
     local size
     size="$(wc -c < "$file" | tr -d '[:space:]')"
@@ -170,10 +183,9 @@ check_github_file_sizes() {
     exit 1
   fi
 }
-
 check_github_file_sizes
 python3 ./scripts/generate-metadata.py
 python3 ./scripts/update-readme.py
 python3 ./scripts/validate-generated.py
 
-echo "Blocklists, combined profiles, split parts, metadata, checksums and German/English READMEs are synchronized."
+echo "Blocklists, safety allowlist, combined profiles, split parts, metadata, checksums and German/English READMEs are synchronized."

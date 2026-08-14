@@ -1,14 +1,15 @@
 name: Update blocklists
-
 on:
   push:
     branches:
       - main
     paths:
       - 'lists/categories/**'
+      - 'config/allowlist.txt'
       - 'config/profiles.json'
       - 'config/readme-i18n.json'
       - 'config/special-lists.json'
+      - 'scripts/apply-allowlist.py'
       - 'scripts/update-lists.sh'
       - 'scripts/split-ultimate.py'
       - 'scripts/update-ultimate-readme.py'
@@ -20,7 +21,6 @@ on:
       - 'scripts/validate-special-integration.py'
       - '.github/workflows/update-lists.yml'
   workflow_dispatch:
-
 permissions:
   contents: write
 
@@ -38,7 +38,6 @@ jobs:
         uses: actions/checkout@v7
         with:
           fetch-depth: 0
-
       - name: Validate profile, README and extended-list configuration
         run: |
           python3 -m json.tool config/profiles.json >/dev/null
@@ -47,7 +46,6 @@ jobs:
 
       - name: Remove Python cache artifacts
         run: find . -type d -name __pycache__ -prune -exec rm -rf {} +
-
       - name: Build or migrate extended lists
         shell: bash
         run: |
@@ -65,24 +63,21 @@ jobs:
             # Retry those deferred sources on the next normal workflow run.
             needs_extended_build=true
           fi
-
           if [[ "$needs_extended_build" == "true" ]]; then
             echo "Migrating extended sources into functional BlackRabbitZ categories and building unique optional lists, including NRD/DGA."
             python3 ./scripts/update-special-lists.py --include-heavy
           else
             echo "Functionally integrated extended lists already exist; no archive rebuild needed."
           fi
-
       - name: Validate functional source integration
         run: python3 ./scripts/validate-special-integration.py
 
-      - name: Rebuild profiles, parts, metadata and READMEs
+      - name: Rebuild profiles, apply safety allowlist, parts, metadata and READMEs
         shell: bash
         run: bash ./scripts/update-lists.sh
 
       - name: Validate generated diff
         run: git diff --check
-
       - name: Commit generated changes
         shell: bash
         run: |
