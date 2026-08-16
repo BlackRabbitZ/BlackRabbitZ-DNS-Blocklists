@@ -3,22 +3,32 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 622
+# Entries: 659
 # Description: Smart-TV advertising, ACR, diagnostics and telemetry endpoints.
 # Sources: Block List Project; Perflyst PiHoleBlocklist; HaGeZi LG webOS
 # Snapshot: 2026-08
 #
 # Additional third-party integrations: see THIRD_PARTY.md
+# Curated import: user-provided Pi-Hole-main.zip; reviewed 2026-08-16
 #
 #
 #
 #
+
 2mdn.net
 7345023508.fxm9485766783.com
 7345023508.fxmconnect.com
 a1.resources.foxtel.com.au
 aax-eu.amazon-adsystem.com
 abtauthprd.samsungcloudsolution.com
+acr-au-prd.samsungcloud.tv
+acr-br-prd.samsungcloud.tv
+acr-ca-prd.samsungcloud.tv
+acr-eu-prd.samsungcloud.tv
+acr-in-prd.samsungcloud.tv
+acr-kr-prd.samsungcloud.tv
+acr-mx-prd.samsungcloud.tv
+acr-nz-prd.samsungcloud.tv
 acr-us-prd.samsungcloud.tv
 acr.roku.com
 acr0.samsungcloudsolution.com
@@ -42,6 +52,7 @@ ad.lgsmartad.com
 ad.nettvservices.com
 ad.prod.rpay.int.roku.com
 ad.qa.ap.int.roku.com
+ad.samsungadhub.com
 ad.staging.rpay.int.roku.com
 ad.sxp.smartclip.net
 ad.usw2.qa.ap.int.roku.com
@@ -67,6 +78,7 @@ ads.samsung.com
 ads.samsungads.com
 ads.spotx.tv
 ads.staging.roku.com
+ads.vizio.com
 adservices.roku.com
 adv.ettoday.net
 advertising-qa.us-east-1.dev.msc.roku.com
@@ -85,6 +97,7 @@ ag-ad-lgsmartad-com.aws-prd.net
 ag.lgsmartad.com
 ai.lgsmartad.com
 aic-ngfts.lge.com
+aic.lgsmartad.com
 al-ad-lgsmartad-com.aws-prd.net
 al.lgsmartad.com
 alphonso.tv
@@ -96,6 +109,7 @@ amazonadsi-a.akamaihd.net
 amoeba.web.roku.com
 an.lgsmartad.com
 analytics.roku.com
+analytics.tcl.com
 androidtvchannels-pa.googleapis.com
 androidtvwatsonfe-pa.googleapis.com
 ao-ad-lgsmartad-com.aws-prd.net
@@ -106,8 +120,10 @@ api-hub.samsungyosemite.com
 api-launcher-em.hismarttv.com
 api-launcher-na.hismarttv.com
 api-mf1.meta.ndmdhs.com
+api.alphonso.tv
 api.cid.samba.tv
 api.distribution.hulu.com
+api.samba.tv
 api.thetake.com
 ar-ad-lgsmartad-com.aws-prd.net
 ar.lgsmartad.com
@@ -167,6 +183,7 @@ call.me.sel.sony.com
 cd-ad-lgsmartad-com.aws-prd.net
 cd.lgsmartad.com
 cdn.hbbtv.smartclip.net
+cdn.samba.tv
 cdn.samsungcloudsolution.com
 cdn.samsungcloudsolution.net
 cdpbeacon.lgtvcommon.com
@@ -180,6 +197,7 @@ ci-ad-lgsmartad-com.aws-prd.net
 ci.lgsmartad.com
 cl-ad-lgsmartad-com.aws-prd.net
 cl.lgsmartad.com
+clientapi-samsung.dtignite.com
 cloud.arqiva.tv
 cloudservices.roku.com
 cm-ad-lgsmartad-com.aws-prd.net
@@ -189,6 +207,7 @@ cn.lgsmartad.com
 co-ad-lgsmartad-com.aws-prd.net
 co.lgsmartad.com
 config.ioam.de
+config.lgsmartad.com
 config.samsungads.com
 connecttv.pelmorex.com
 control-zoo-dai-default.tvinteractive.tv
@@ -215,6 +234,7 @@ d37ju0xanoz6gh.cloudfront.net
 d3mjsomixevyw7.cloudfront.net
 d3p8zr0ffa9t17.cloudfront.net
 data.arqiva.tv
+data.vizio.com
 database01p.anixe.net
 de-ad-lgsmartad-com.aws-prd.net
 de.ioam.de
@@ -231,6 +251,7 @@ dm-ad-lgsmartad-com.aws-prd.net
 dm.lgsmartad.com
 do-ad-lgsmartad-com.aws-prd.net
 do.lgsmartad.com
+download-samsung.dtignite.com
 drscdn.500px.org
 dz-ad-lgsmartad-com.aws-prd.net
 dz.lgsmartad.com
@@ -251,7 +272,9 @@ es.lgsmartad.com
 et-ad-lgsmartad-com.aws-prd.net
 et.lgsmartad.com
 eu-auth2.samsungosp.com
+events.alphonso.tv
 events.cid.samba.tv
+events.samba.tv
 events.samsungads.com
 facemap.foldlife.net
 fi-ad-lgsmartad-com.aws-prd.net
@@ -355,6 +378,7 @@ kw.lgsmartad.com
 ky.lgsmartad.com
 kz-ad-lgsmartad-com.aws-prd.net
 kz.lgsmartad.com
+lat-services.api.data.roku.com
 lb-ad-lgsmartad-com.aws-prd.net
 lb.lgsmartad.com
 lc.lgsmartad.com
@@ -367,11 +391,15 @@ lgsmartad.com
 lgtvcommon.com
 lgtvonline.lge.com
 li-ad-lgsmartad-com.aws-prd.net
+liberty.logs.roku.com
 lk-ad-lgsmartad-com.aws-prd.net
 lk.lgsmartad.com
 log-1.samsungacr.com
 log-2.samsungacr.com
+log-3.samsungacr.com
 log-config.samsungacr.com
+log-ingestion-eu.samsungacr.com
+log-ingestion.samsungacr.com
 log.internetat.tv
 logs.dev.sr.roku.com
 logs.qa.ap.int.roku.com
@@ -400,6 +428,7 @@ me-ad-lgsmartad-com.aws-prd.net
 me.lgsmartad.com
 mf.lgsmartad.com
 mg-ad-lgsmartad-com.aws-prd.net
+microsites.sr.roku.com
 mitv.tracking.intl.miui.com
 mk-ad-lgsmartad-com.aws-prd.net
 mk.lgsmartad.com
@@ -490,6 +519,7 @@ qt2-ngfts.lge.com
 qt2-ngfts.lge.com.edgekey.net
 ravm-staging.data.roku.com
 ravm.tv
+rd.samsungadhub.com
 rdl.lgtvcommon.com
 rdx2.lgtvsdp.com
 re-ad-lgsmartad-com.aws-prd.net
@@ -510,15 +540,20 @@ rw.lgsmartad.com
 rwww.samsungotn.net
 sa-ad-lgsmartad-com.aws-prd.net
 sa.lgsmartad.com
+samba.tv
 samples.voice.cti.roku.com
+samsung.attn.tv
 samsungacr.com
 samsungadhub.com
+samsungads.adsmeasurement.com
 samsungads.com
 samsungcloudsolution.com
 samsungcloudsolution.net
 samsungelectronics.com
 samsungotn.net
 samsungrm.net
+samsungtv-d.openx.net
+samsungtvads.com
 sas.samsungcloudsolution.com
 sca.samsung.com
 scheduler.hbbtv.smartclip.net
@@ -575,8 +610,10 @@ traces-us-west-2.dev.sr.roku.com
 traces.dev.sr.roku.com
 traces.sr.roku.com
 track.sr.roku.com
+tracking.hisense.com
 tracking.intl.miui.com
 tracking.lgappstv.com
+tracking.tcl.com
 tracksrv.zdf.de
 trvdp.com
 tt-ad-lgsmartad-com.aws-prd.net
@@ -584,6 +621,8 @@ tt.lgsmartad.com
 tv-static.scdn.co
 tvinteractive.tv
 tvmeta-dynamic.tvinteractive.tv
+tvp-ads-log.samsungads.com
+tvpnlogopus.samsungcloud.tv
 tvsideviewandroidv2-cfgdst-ore-pro.bda.ndmdhs.com
 tvx.adgrx.com
 tw-ad-lgsmartad-com.aws-prd.net

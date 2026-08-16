@@ -3,11 +3,75 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 3
+# Entries: 65
 # Description: Linux distribution telemetry, package popularity and usage reporting.
 # Sources: Debian/Ubuntu project endpoints
 # Snapshot: 2026-08
+# Curated import: user-provided Pi-Hole-main.zip; reviewed 2026-08-16
 #
+
+analytics.google.com
+analytics.plex.tv
+api-js.mixpanel.com
+api.amplitude.com
+api.mixpanel.com
+api.segment.io
+api.statsig.com
+api2.amplitude.com
+browser.events.data.mozilla.com
+browser.pipe.aria.microsoft.com
+cdn.amplitude.com
+cdn.mxpnl.com
+cdn.segment.com
+cdn.segment.io
+client-stats.dropbox.com
+clientsdk.launchdarkly.com
+contile.services.mozilla.com
+crash-reports.mozilla.com
+crash-stats.mozilla.org
+d.dropbox.com
+daisy.ubuntu.com
+data.services.jetbrains.com
+dc.applicationinsights.azure.com
+dc.services.visualstudio.com
+errors.ubuntu.com
+events.data.microsoft.com
+events.launchdarkly.com
+events.split.io
+events.statsigapi.net
+google-analytics.com
+incoming.telemetry.mozilla.org
+ingest.sentry.io
+logx.optimizely.com
+metrics.gnome.org
+metrics.jellyfin.org
+metrics.kde.org
+metrics.plex.tv
 metrics.ubuntu.com
+mobile.launchdarkly.com
+mobile.pipe.aria.microsoft.com
+o450.ingest.sentry.io
 popcon.debian.org
 popcon.ubuntu.com
+region1.google-analytics.com
+sentry.io
+socorro.mozilla.org
+ssl.google-analytics.com
+stats.g.doubleclick.net
+stats.jetbrains.com
+stats.nextcloud.com
+statsigapi.net
+telemetry-incoming.r53-2.services.mozilla.com
+telemetry.dropbox.com
+telemetry.gnome.org
+telemetry.jellyfin.org
+telemetry.jetbrains.com
+telemetry.kde.org
+telemetry.mozilla.org
+telemetry.nextcloud.com
+telemetry.plex.tv
+telemetry.vscode.dev
+tiles.services.mozilla.com
+usage-reporting.nextcloud.com
+vortex.data.microsoft.com
+www.google-analytics.com

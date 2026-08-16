@@ -3,16 +3,18 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 808
+# Entries: 823
 # Description: Mobile attribution, SDK analytics and app-tracking endpoints.
 # Sources: Perflyst PiHoleBlocklist; Block List Project (derived mobile subset)
 # Snapshot: 2026-08
 #
 # Additional third-party integrations: see THIRD_PARTY.md
+# Curated import: user-provided Pi-Hole-main.zip; reviewed 2026-08-16
 #
 #
 #
 #
+
 1681.engine.mobileapptracking.com
 a-graph.facebook.com
 a.applovin.com
@@ -68,6 +70,7 @@ ads.twitter.com
 ads.us.tiktok.com
 ads16-normal-useastred.tiktokw.eu
 adserver.snapads.com
+adservice.google.com
 adservice.google.de
 airbridge.io
 alog.umeng.com
@@ -110,6 +113,7 @@ analytics-useast2a.tiktok.com
 analytics-v6.tiktok.com
 analytics-v6.tiktok.com.edgesuite.net
 analytics-v6.tiktok.com.ttdns2.com
+analytics.google.com
 analytics.portalinmobiliario.com
 analytics.snssdk.com
 analytics.tiktok.com
@@ -172,6 +176,7 @@ business-api.tiktok.com
 cdn.branch.io
 cdp.cloud.unity3d.com
 chartboost.com
+cm.g.doubleclick.net
 config.ioam.de
 config.uca.cloud.unity3d.com
 config.unityads.unity3d.com
@@ -192,6 +197,7 @@ data0.virginmobile.ca
 data1.virginmobile.ca
 dev.appboy.com
 device.zhiliaoapp.com
+doubleclick.net
 e.crashlytics.com
 eloqua-trackings.unity3d.com
 elumenguides.elumenapp.com
@@ -243,7 +249,10 @@ fyber.com
 gameanalytics.com
 gate.hockeyapp.net
 go.adjust.com
+google-analytics.com
 googleads.g.doubleclick.net
+googleadservices.com
+googlesyndication.com
 gplog-sg.byteoversea.com
 gplog-va-useast2a.byteoversea.com
 gplog-va.byteoversea.com
@@ -597,6 +606,7 @@ p16-ad.byteoversea.com
 p16-tiktok-ads-sg.tiktokcdn.com
 p16-tiktok-ads-sg.tiktokcdn.com.bytegeo.akadns.net
 p16-tiktok-ads-sg.tiktokcdn.com.edgesuite.net
+pagead2.googlesyndication.com
 pangolin.snssdk.com
 pc-mon-boot.capcutapi.com
 pc-mon-boot.capcutapi.com.edgesuite.net
@@ -617,6 +627,8 @@ pls.prd.mz.internal.unity3d.com
 postback.pointwise.co
 pushwoosh.com
 re.masoinmobiliaria.com
+region1.analytics.google.com
+region1.google-analytics.com
 reports.crashlytics.com
 rt.applovin.com
 rtc-logger-i18n.tiktokv.com
@@ -708,9 +720,12 @@ sgtm.inmobiliario.npro21.org
 sgtm.inmobiliariolatam.com
 singular.net
 smaato.net
+somcmetrics.com
 ssl.google-analytics.com
 stape.inmobiliariaversatil.com
+static.doubleclick.net
 stats.appsflyer.com
+stats.g.doubleclick.net
 stats.gc.apple.com
 stats.singular.de
 stats.singularities.org
@@ -802,7 +817,9 @@ web-mon-useast2a.byteoversea.com
 webview.unityads.unity3d.com
 wix-engage-visitors-prod-5.firebaseio.com
 ws.tapjoyads.com
+www.google-analytics.com
 www.googleadservices.com
+www.googlesyndication.com
 www.leanplum.com
 www.re.masoinmobiliaria.com
 xlog-o.byteoversea.com

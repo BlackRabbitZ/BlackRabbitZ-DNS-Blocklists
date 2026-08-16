@@ -3,21 +3,25 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 119
+# Entries: 135
 # Description: Apple native telemetry, metrics, diagnostics and analytics endpoints.
 # Sources: NextDNS Native Tracking Protection; HaGeZi Apple native tracking
 # Snapshot: 2026-08
 #
 # Additional third-party integrations: see THIRD_PARTY.md
+# Curated import: user-provided Pi-Hole-main.zip; reviewed 2026-08-16
 #
 #
+
 ab.apple.com.akadns.net
 acfeedbackws.icloud.com
+adservices.apple.com
 advertising.apple.com
 advp.apple.com
 analytics-events.apple.com
 analytics.apple.com
 analytics.icloud.com
+analytics.push.apple.com
 api-adservices.apple.com
 applemediaservices.com
 beacon.shazam.com
@@ -27,6 +31,7 @@ ca.iadsdk.apple.com
 cdn-xp-ingest-ab.v.aaplimg.com
 cdn-xp-ingest.edge.apple
 cf.iadsdk.apple.com
+crashreports.apple.com
 cstat-origin.apple.com
 cstat.apple.com
 cstat.apple.com.edgesuite.net
@@ -39,6 +44,7 @@ diagassets.apple.com
 diagassets.g.aaplimg.com
 diagnostics.apple.com
 diagnostics.apple.com.akadns.net
+diagnostics.icloud.com
 diagnostics.support.apple.com
 dz1dt3wqswdezgx4j2ryem5iad.apple.com
 dzc-metrics.mzstatic.com
@@ -54,6 +60,7 @@ feedbackws.icloud.com
 feedbackws.icloud.com.cn
 flirfvysba2opz0zmzqs5iuiad.apple.com
 graffiti-tags.apple.com
+grs.hicloud.com
 h4g3z1-native.apple.web.app
 iad-apple.com.akadns.net
 iad.apple.com
@@ -73,11 +80,18 @@ iphonesubmissions.apple.com
 iphonesubmissions.apple.com.akadns.net
 iphonesubmissions.v.aaplimg.com
 launch.apple.com
+logbak.hicloud.com
+logservice-dra.platform.hicloud.com
+logservice.hicloud.com
+logservice1.hicloud.com
 marketing.services.apple
 me.apple-dns.net
+metrics-dra.dt.hicloud.com
 metrics.apple.com
+metrics.data.hicloud.com
 metrics.icloud.com
 metrics.mzstatic.com
+metrics2.data.hicloud.com
 metrics2.icloud.com
 msc-dct-prod.msc.apple.com
 news-analytics-events.apple.com
@@ -88,6 +102,7 @@ news-sports-events.apple.com
 notes-analytics-events.apple.com
 notes-analytics-events.news.apple-dns.net
 odin-signals.apple.com
+pancake.apple.com
 partiality.itunes-apple.com.akadns.net
 partiality.itunes.apple.com
 partiality.itunes.apple.com.edgekey.net
@@ -95,6 +110,7 @@ performance-partners.apple.com
 phonesubmissions.apple.com
 podcasts-analytics-events.apple.com
 prd-usw2-requestattribution-iad.apple.com
+privacyproxyreports.apple.com
 probe.me.apple-dns.net
 prod-event-relay-api.v.aaplimg.com
 prod-event-relay-books-api.v.aaplimg.com
@@ -117,12 +133,14 @@ securemetrics.v.aaplimg.com
 securemvt.apple.com
 securemvt.v.aaplimg.com
 smoot-feedback.v.aaplimg.com
+smoot.apple.com
 stocks-analytics-events.apple.com
 stocks-analytics-events.news.apple-dns.net
 supportmetrics.apple.com
 supportmetrics.v.aaplimg.com
 tr.iadsdk.apple.com
 tv-analytics-events.apple.com
+ut.iadsdk.apple.com
 weather-analytics-events.apple.com
 weather-analytics-events.news.apple-dns.net
 www.qwapi.com

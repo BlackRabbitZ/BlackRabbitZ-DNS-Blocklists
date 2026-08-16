@@ -3,13 +3,14 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 426
+# Entries: 459
 # Auto-updated: 2026-08-16T04:00:02Z
 # Description: Windows diagnostics, Connected User Experiences and telemetry endpoints.
 # Sources: NextDNS Native Tracking Protection
 # Snapshot: 2026-08
 #
 # Additional third-party integrations: see THIRD_PARTY.md
+# Curated import: user-provided Pi-Hole-main.zip; reviewed 2026-08-16
 #
 #
 
@@ -20,13 +21,17 @@ ac2.msn.com
 activity.windows.com
 ad.msn.com
 adevents.msn.com
+adnexus.net
+adnxs.com
 ads-msn-com-profile.trafficmanager.net
 ads.bing.com
 ads.eu.msn.com
 ads.jp.msn.com
 ads.microsoft.com
 ads.msn.com
+ads1.msads.net
 ads1.msn.com
+ads2.msads.net
 adsdk.microsoft.com
 adsdk.trafficmanager.net
 adsdkpreprod.afd.azureedge.net
@@ -47,7 +52,9 @@ analytics.trafficmanager.net
 analyticsehnwe.servicebus.windows.net
 analyticspixel.microsoft.com
 api.applicationinsights.azure.cn
+api.diagnostics.office.com
 api.edgeoffer.microsoft.com
+api.msa.diagnostics.office.com
 api.msn.com
 applicationinsights.azure.com
 applicationinsights.microsoft.com
@@ -67,12 +74,14 @@ azurewatsontest.microsoft.com
 b-ring-fallback.msedge.net
 b-ring.msedge.net
 bat.bing.com
+bat.bing.net
 bat.r.msn.com
 beacons.trafficmanager.net
 beacons.xboxlive.com
 bingads.microsoft.com
 bingads.trafficmanager.net
 brc-visio-telemetry.officeapps.live.com
+browser.events.data.microsoft.com
 browser.events.data.msn.com
 browser.pipe.aria.microsoft.com
 c-bingapis-com.dual-a-0034.a-msedge.net
@@ -140,6 +149,7 @@ citrixtelemetryeheu-alias.servicebus.windows.net
 citrixtelemetryeheu.servicebus.windows.net
 cjs-diagnostics-office-com-gvdhgwfwbbfsd9g3.z01.azurefd.net
 clarity.microsoft.com
+co4.telecommand.telemetry.microsoft.com
 collection-location-livenet.trafficmanager.net
 collector-main.trafficmanager.net
 collector.azure.cn
@@ -151,6 +161,7 @@ corp.sts.microsoft.com
 dc.applicationinsights.azure.cn
 dc.applicationinsights.azure.us
 dc.services.visualstudio.com
+dcg.microsoft.com
 dec-visio-telemetry.officeapps.live.com
 diagnostics-eudb.office.com
 diagnostics.office.com
@@ -162,7 +173,14 @@ eaus2watcab01.blob.core.windows.net
 eaus2watcab02.blob.core.windows.net
 ecs.nel.measure.office.net
 edge.activity.windows.com
+edge.nelreports.net
 ehtelemetrystaging-alias.servicebus.windows.net
+eu-kmwatsonc.events.data.microsoft.com
+eu-mobile.events.data.microsoft.com
+eu-office.events.data.microsoft.com
+eu-teams.events.data.microsoft.com
+eu-umwatsonc.events.data.microsoft.com
+eu-watsonc.events.data.microsoft.com
 euc-excel-telemetry.officeapps.live.com
 euc-excel-telemetry.wac.trafficmanager.net
 euc-onenote-telemetry.officeapps.live.com
@@ -237,6 +255,7 @@ js2.tst.applicationinsights.io
 k-ring-fallback.msedge.net
 k-ring.msedge.net
 kg-legacy-analytics.servicebus.windows.net
+kmwatsonc.events.data.microsoft.com
 legacywatson.trafficmanager.net
 licensingtelemetry-prod.servicebus.windows.net
 ln-ring-fallback.msedge.net
@@ -251,8 +270,11 @@ measure.office.com.akamaized.net
 measure.office.net
 measure.office.net.edgesuite.net
 metric.appex-rf.msn.com
+microsoftadvertising.com
+mobile.events.data.microsoft.com
 mobileads.msn.com
 mobileleads.msn.com
+modern.watson.data.microsoft.com
 msads.net
 msadsscale.azureedge.net
 msadsscale.microsoft.com
@@ -268,6 +290,7 @@ oca.telemetry.microsoft.com
 ocws.officeapps.live.com
 odc.officeapps.live.com
 office-events-data.trafficmanager.net
+office.events.data.microsoft.com
 officehub.nel.measure.office.net.cardano.com
 oms-analytics.trafficmanager.net
 onecollector.cloudapp.aria.akadns.net
@@ -334,6 +357,7 @@ prod-eh-v1-analytics.servicebus.windows.net
 prod-eventhub-analytics.servicebus.windows.net
 prod.editor.ads.trafficmanager.net
 prod.nexusrules.live.com.akadns.net
+prod.rewardsplatform.microsoft.com
 production-jobactivity-analytics.servicebus.windows.net
 rad.live.com
 rad.microsoft.com
@@ -343,6 +367,8 @@ rawtelemetry-east.servicebus.windows.net
 rawtelemetry-west.servicebus.windows.net
 redir.metaservices.microsoft.com
 rel.msn.com
+reports.wes.df.telemetry.microsoft.com
+rewards.bing.com
 ris.api.iris.microsoft.com
 rmads.eu.msn.com
 rmads.msn.com
@@ -387,6 +413,7 @@ teams-events-data.trafficmanager.net
 teams.events.data.microsoft.com
 teams.nel.measure.office.net.cardano.com
 telecommand.telemetry.microsoft.com
+telecommandstorageprod.blob.core.windows.net
 telecommandsvc.microsoft.com
 telem-edge.smartscreen.microsoft.com
 telemetry-lcp.trafficmanager.net
@@ -398,6 +425,7 @@ telemetry.officeapps.live.com
 telemetry.urs.microsoft.com
 telemetry.visualstudio.microsoft.com
 telemetrycollector.microsoft.com
+tfl.nel.measure.office.net
 tgtus1-excel-telemetry-vip.officeapps.live.com
 tgtus1-powerpoint-telemetry-vip.officeapps.live.com
 tgtus1-word-telemetry-vip.officeapps.live.com
@@ -410,11 +438,14 @@ tracker.flightview.com.trafficmanager.net
 udc.msn.com
 ukc-onenote-telemetry.officeapps.live.com
 ukc-visio-telemetry.officeapps.live.com
+umwatsonc.events.data.microsoft.com
 us-mesh-events-data-leafs.trafficmanager.net
+us-watsonc.events.data.microsoft.com
 usc-onenote-telemetry.officeapps.live.com
 usc-visio-telemetry.officeapps.live.com
 utm.sankei.jp.msn.com
 v10.events.data.microsoft.com
+v10.vortex-win.data.microsoft.com
 visio-telemetry.officeapps.live.com
 vortex-sandbox.data.microsoft.com
 vortex-win-sandbox.data.microsoft.com
@@ -428,7 +459,9 @@ watson.live.com
 watson.microsoft.com
 watson.officeint.microsoft.com
 watson.telemetry.microsoft.com
+watsonc.events.data.microsoft.com
 wayfinderanalytics.servicebus.windows.net
+wes.df.telemetry.microsoft.com
 westeurope-5.in.applicationinsights.azure.com.fiege.de
 weus2watcab01.blob.core.windows.net
 weus2watcab02.blob.core.windows.net
@@ -437,5 +470,6 @@ win10-trt.msedge.net
 word-telemetry.officeapps.live.com
 word-telemetry.wac.trafficmanager.net
 wttwebsiteprodapi-liveevents.trafficmanager.net
+www.microsoftadvertising.com
 www.telecommandsvc.microsoft.com
 zmetrics.msn.com

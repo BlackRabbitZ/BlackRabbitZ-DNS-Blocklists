@@ -3,13 +3,14 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 235663
+# Entries: 235703
 # Auto-updated: 2026-08-13T05:05:24Z
 # Description: Large advertising and ad-delivery domain set.
 # Sources: Block List Project; AnudeepND
 # Snapshot: 2026-08
 #
 # Additional third-party integrations: see THIRD_PARTY.md
+# Curated import: user-provided Pi-Hole-main.zip; reviewed 2026-08-16
 #
 #
 #
@@ -31703,6 +31704,7 @@ ad.hrincjob.com
 ad.html.it
 ad.httpool.com
 ad.hu.doubleclick.net
+ad.hulu.com
 ad.hutor.ru
 ad.hyena.cz
 ad.hzrcloud.de
@@ -40603,6 +40605,7 @@ ads.tso.dennisnet.co.uk
 ads.ttgchina.com
 ads.tubemogul.com
 ads.tubewolf.com
+ads.tubitv.com
 ads.tucows.com
 ads.tunein.com
 ads.tuniscope.com
@@ -45342,6 +45345,7 @@ advertiseworld.com
 advertiseyourgame.com
 advertising-alliance.de
 advertising-api-eu.amazon.com
+advertising-api.amazon.com
 advertising-cdn.com
 advertising-cdn.dpgmedia.cloud
 advertising-department.com
@@ -45422,6 +45426,7 @@ advertising.oriel.io
 advertising.paltalk.com
 advertising.philstar.com
 advertising.quote.com
+advertising.rakuten.com
 advertising.ru
 advertising.se
 advertising.seenews.com
@@ -49145,6 +49150,7 @@ amazinglyjvrucwx.download
 amazinglyperception.com
 amazingomgnews.ru
 amazingvacationhotels.com
+amazon-ads-attestation.com
 amazon-adsystem.amazon.com
 amazon-adsystem.com
 amazon-cornerstone.com
@@ -95264,6 +95270,7 @@ enduranceappropriate.com
 endurancesupervision.com
 endureart.com
 endurosweekday.com
+enduser.adsrvr.org
 endy-sleep-ca.evyy.net
 enecto.com
 enectoanalytics.com
@@ -120076,6 +120083,7 @@ imarker.com
 imarker.ru
 imarketservices.com
 imarsi.it
+imasdk.googleapis.com
 imatmobile.com
 imaxcash.com
 imayjubge.com
@@ -164891,6 +164899,7 @@ prod.criteo.com
 prod.criteo.net
 prod.e.singular.net
 prod.eu-central-1.int.vidible.tv
+prod.eu.origin.amazon-ads-attestation.com
 prod.fraud.adjoe.zone
 prod.justpremium.com
 prod.leanplum.com
@@ -178307,20 +178316,51 @@ samsung-germany.demdex.net
 samsung-italy.demdex.net
 samsung-mena.demdex.net
 samsung-poland.demdex.net
+samsung.appnext.com
 samsung.demdex.net
 samsung3.solution.weborama.fr
 samsungacr.com
 samsungadhub.com
 samsungads.com
 samsungallstore.com
+samsungau.api.useinsider.com
+samsungca.api.useinsider.com
 samsungelectronicsamericainc.demdex.net
+samsunghk.api.useinsider.com
+samsungid.api.useinsider.com
 samsungindonesia.demdex.net
+samsungiraq.api.useinsider.com
+samsungjordan.api.useinsider.com
+samsungkr.api.useinsider.com
+samsungksa.api.useinsider.com
+samsungmalaysia.api.useinsider.com
 samsungmsc.d1.sc.omtrdc.net
+samsungpakistan.api.useinsider.com
+samsungph.api.useinsider.com
 samsungrs.com
+samsungsamcol.api.useinsider.com
+samsungsamcolepp.api.useinsider.com
+samsungsavinaepp.api.useinsider.com
+samsungsebnbg.api.useinsider.com
+samsungsebnnl.api.useinsider.com
 samsungsec.demdex.net
+samsungseda.api.useinsider.com
+samsungsem.api.useinsider.com
+samsungsemepp.api.useinsider.com
+samsungsepr.api.useinsider.com
+samsungseromro.api.useinsider.com
+samsungsesarepp.api.useinsider.com
+samsungsetkepp.api.useinsider.com
+samsungsingapore.api.useinsider.com
+samsungth.api.useinsider.com
 samsungthailand.demdex.net
+samsungtseepp.api.useinsider.com
+samsungturkey.api.useinsider.com
 samsungtvads.com
+samsunguk.api.useinsider.com
 samsungus.btttag.com
+samsungusa.api.useinsider.com
+samsungvn.api.useinsider.com
 samtrack1.com
 samtraitpesky.com
 samurai-pudding.com
@@ -223400,6 +223440,7 @@ www.discoverexactly.com
 www.disgustingsjnhmuv.download
 www.disjoiningjfdxyogp.download
 www.dismalitydbjmfaux.download
+www.disneyadvertising.com
 www.displacedijnnd.download
 www.displaybrowser.com
 www.distortiveecynxpidy.download

@@ -3,11 +3,13 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 29288
+# Entries: 29324
 # Description: Broad product, application, analytics, diagnostics and telemetry endpoints.
 # Sources: Block List Project (derived telemetry subset)
 # Snapshot: 2026-08
+# Curated import: user-provided Pi-Hole-main.zip; reviewed 2026-08-16
 #
+
 0001-metrics1-data-hicloud-com.geac.dbankedge.cn
 0001-metrics1-drcn-dt-dbankcloud-cn.geac.dbankedge.cn
 0002-metrics1-drcn-dt-dbankcloud-cn.geac.dbankedge.cn
@@ -191,6 +193,7 @@ adsmeasurement.com
 advanced-web-analytics.com
 advertisinganalyticsllc.com
 adwstats.com
+aefd.nelreports.net
 aem-collector.daumkakao.io
 aem-kakao-collector.onkakao.net
 affanalytics.com
@@ -10526,6 +10529,7 @@ analytics.tt-webhosting.de
 analytics.tteld.com
 analytics.ttglog.com.br
 analytics.ttgnet.de
+analytics.tubitv.com
 analytics.tucarro.com.co
 analytics.tucarro.com.ve
 analytics.tulz.com.br
@@ -10573,6 +10577,7 @@ analytics.twincreekmedia.com
 analytics.twingate.com
 analytics.twinhosting.nl
 analytics.twinter.eu
+analytics.twitch.tv
 analytics.twitter.com
 analytics.twnty.de
 analytics.two.com.pk
@@ -11858,6 +11863,7 @@ appanalytics.embarcadero.com
 appanalytics.in
 appanalytics.io
 appanalytics.smartsheet.com
+appcenter.ms
 appfolio-analytics.com
 appinsights.com
 applicationdiagnostics.com
@@ -11947,6 +11953,7 @@ beacon.itmedia.jp
 beacon.jk.cn
 beacon.marketshot.com
 beacon.mitremedia.org
+beacon.netflix.com
 beacon.performave.com
 beacon.playback.api.brightcove.com
 beacon.prod.minionplatform.com
@@ -12129,6 +12136,7 @@ click.knobbeevents.com
 clicky-analytics.com
 client-analytics.braintreegateway.com
 client-analytics.grigora.co
+client-event-reporter.twitch.tv
 client-events.gambinoslot.com
 client-metrics-cf.chess.com
 client-metrics.chess.com
@@ -12543,6 +12551,7 @@ coremetrics.co.in
 coremetrics.com
 coremetrics.eu
 coremetrics.net
+countess.twitch.tv
 crash-report-service.svc.ui.com
 crash-reports.mozilla.com
 crash-stats.mozilla.com
@@ -12652,6 +12661,7 @@ demo-beacons.xumo.com
 dev-analytics-cf.bigcrunch.com
 dev-analytics.surebright.com
 developmentanalytics.org
+device-metrics-eu.amazon.com
 device-metrics-us-2.amazon.com
 device-metrics-us.amazon.com
 devstats.cncf.io
@@ -12796,6 +12806,7 @@ events.absolutaimobiliaria.com.br
 events.adorsi.com
 events.animecix.co
 events.api.faire.com
+events.api.hbo.com
 events.appsflyer.com
 events.asurion.com
 events.ato.santander.co.uk
@@ -12875,6 +12886,7 @@ events.odt.net
 events.omrf.org
 events.onet.pl
 events.ourpassionformusic.com
+events.pluto.tv
 events.pollo.ai
 events.prd.api.discomax.com
 events.prd.api.max.com
@@ -12889,6 +12901,7 @@ events.squarespace.com
 events.textme-app.com
 events.thangs.com
 events.tubecup.org
+events.tubitv.com
 events.turbosquid.com
 events.vivago.ai
 events.web.money
@@ -12916,12 +12929,17 @@ feedanalytics.com
 femetrics.grammarly.io
 ffg-analyticsk3nvxfne4dp4s.servicebus.windows.net
 figmetrics.captain-design.com
+firebase-settings.crashlytics.com
+firebaselogging-pa.googleapis.com
+firebaselogging.googleapis.com
 firetv-beacons.xumo.com
 fireworkanalytics.com
 firstinsights.com
 fishbone-analytics.com
 fitanalytics.com
 flare-analytics.com
+fls-eu.amazon.com
+fls-na.amazon.com
 fluid-player-analytics.sky.it
 fm-analytics.cloudbees.io
 fnxstats.net
@@ -12980,6 +12998,7 @@ glance-analytics.trafficmanager.net
 glimpseanalytics.com
 global.aria.events.data.trafficmanager.net
 global.asimov.events.data.trafficmanager.net
+global.telemetry.insights.video.a2z.com
 globalsiteanalytics.com
 globalstats.ekmsecure.com
 globalworkplaceanalytics.com
@@ -13072,6 +13091,7 @@ hs-analytics.net
 hs-website-interactive-analytics.net
 hsanalytics-cdn.com
 hsanalytics-cdn.net
+http-intake.logs.datadoghq.com
 hub.analytics.trafficmanager.net
 hubmetrics.samsclub.com
 hubspotanalytics.com
@@ -13505,6 +13525,7 @@ localanalytics.io
 loft-analytics.gtmcapital.com.br
 loganalytics.io
 logcollector.entreda.com
+logging.netflix.com
 logianalytics.com
 logicanalytics.io
 loopanalytics.com
@@ -13767,6 +13788,7 @@ metrics.aohostels.com
 metrics.aon.com
 metrics.apartmentfinder.com
 metrics.apartments.com
+metrics.api.hbo.com
 metrics.api4pw.com
 metrics.aplux.ro
 metrics.apple.com
@@ -16399,6 +16421,7 @@ nmetrics.creditcards.money.qantas.com
 nmetrics.koganmoney.com.au
 nmetrics.samsung.com
 nmetrics.samsungmobile.com
+nmtracking.netflix.com
 noam.events.data.microsoft.com
 noam.events.data.trafficmanager.net
 norrisinsights.com
@@ -16415,6 +16438,7 @@ notes-analytics-events.apple.com
 notes-analytics-events.news.apple-dns.net
 notify.bugsnag.com
 nr-beacon.movingimage.com
+nr-data.net
 nscmetrics.shell.com
 nsmetrics.adelaidenow.com.au
 nsmetrics.cairnspost.com.au
@@ -16440,6 +16464,7 @@ nthanalytics.com
 numericalinsights.com
 nw-umwatson.events.data.microsoft.com
 o0.ingest.sentry.io
+o22381.ingest.sentry.io
 o365diagtelemetry.trafficmanager.net
 oca.telemetry.microsoft.com
 oca.telemetry.microsoft.us
@@ -16495,6 +16520,7 @@ overwolf-analytics.tracker.network
 owistats.net
 owl.sentrydiscord.dev
 p-cg64-slinganalytics.movetv.com
+p-v-logs.amazon.com
 p84umamianalytics.vercel.app
 pa-stats.u-strasbg.fr
 pac-analytics.s3-us-west-1.amazonaws.com
@@ -16578,6 +16604,7 @@ predictiveanalyticsframework.com
 predictiveanalyticsworld.com
 preoanalytics.com
 prescriptionanalytics.com
+presentationtracking.netflix.com
 presidioanalytics.com
 prettyanalytics.com
 principiaanalytics.com
@@ -17023,6 +17050,7 @@ sc-analytics.appspot.com
 sc.metrics-shell.com
 scanalytics.wral.com
 scanalyticsinc.com
+science.twitch.tv
 scmetrics.shell.com
 scmetrics.vodafone.it
 scoutanalytics.net
@@ -17153,6 +17181,7 @@ services.wes.df.telemetry.microsoft.com
 seshatanalytics.com
 sessions-bugsnag.docker.com
 sessions.bugsnag.com
+settings-win.data.microsoft.com
 settings.crashlytics.com
 sganalytics.com
 sgappanalytics.com
@@ -18207,6 +18236,7 @@ smetrics.datatrue.com
 smetrics.davidclulow.com
 smetrics.daysinn.co.uk
 smetrics.daysinn.com
+smetrics.dazn.com
 smetrics.dcperformance.com
 smetrics.dcu.org
 smetrics.deadgoodbooks.co.uk
@@ -18735,6 +18765,7 @@ smetrics.hartenergy.com
 smetrics.havenwellwithin.com
 smetrics.hawthorn.com
 smetrics.hayesandjarvis.co.uk
+smetrics.hbo.com
 smetrics.hbogo.com
 smetrics.hbonow.com
 smetrics.hbr.org
@@ -20035,6 +20066,7 @@ smetrics.radiole.com
 smetrics.radissonhotels.com
 smetrics.ragsdaleair.com
 smetrics.railpost.it
+smetrics.rakuten.tv
 smetrics.rallysubaruedmonton.com
 smetrics.ralphlauren.be
 smetrics.ralphlauren.ch
@@ -20178,6 +20210,7 @@ smetrics.royalcaribbean.com
 smetrics.rozerem.com
 smetrics.rozlytrek.com
 smetrics.rtg.jp
+smetrics.rtl.de
 smetrics.rtl.nl
 smetrics.rubbernews.com
 smetrics.ruminants-care.nl
@@ -21198,6 +21231,7 @@ southcentralus-3.in.applicationinsights.azure.com
 southeastasia-0.in.applicationinsights.azure.com
 southeastasia-1.in.applicationinsights.azure.com
 southindia-0.in.applicationinsights.azure.com
+spade.twitch.tv
 spaincentral-0.in.applicationinsights.azure.com
 spanalytics.netapp.com
 sparkinsights.co
@@ -28610,6 +28644,7 @@ telemetry.enterprise.githubcopilot.com
 telemetry.firez.one
 telemetry.gfe.nvidia.com
 telemetry.goodlifefitness.com
+telemetry.google.com
 telemetry.hoerbuchfabrik.de
 telemetry.horizonfitness.ca
 telemetry.horizonfitness.com
@@ -28928,6 +28963,7 @@ uxanalytics.ama.gov.pt
 uxmetrics.unipolsai.it
 v-collector.dp.aws.charter.com
 v-stats.vividus.agency
+v10.events.data.microsoft.com
 v10c.events.data.microsoft.com
 v2.analytics.dreher-media.de
 valencia-beacons.xumo.com
@@ -29024,6 +29060,7 @@ web-analytics.zaonce.net
 web-analytics.zero-gravity-service.de
 web-beacon.starii-rover.com
 web-call-analytics.com
+web-checks.a2z.com
 web-events.esputnik.com
 web-matomo-analytics.aphp.fr
 web-shape-analytics.co.uk
@@ -29291,6 +29328,7 @@ zhihu-web-analytics.zhihu.com
 zillametrics.io
 zkustats.ziraatkatilim.com.tr
 zmetrics.msn.com
+zoar.triggers-v1.prod.mobile.weblab.a2z.com
 zogbyanalytics.com
 zohoinsights.com
 zoomanalytics.co

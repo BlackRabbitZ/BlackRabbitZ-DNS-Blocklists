@@ -3,11 +3,13 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 143939
+# Entries: 143967
 # Description: Large analytics, tracking and measurement infrastructure set.
 # Sources: Block List Project
 # Snapshot: 2026-08
+# Curated import: user-provided Pi-Hole-main.zip; reviewed 2026-08-16
 #
+
 000-000-37645t2783296323fn2.calibrescientifics.com
 0001-metrics1-data-hicloud-com.geac.dbankedge.cn
 0001-metrics1-drcn-dt-dbankcloud-cn.geac.dbankedge.cn
@@ -9942,6 +9944,7 @@ analytics.goodlandks.net
 analytics.goodmorningcologne.com
 analytics.goodnews.id
 analytics.google.com
+analytics.googleusercontent.com
 analytics.googlie.vip
 analytics.goolimoveis.com.br
 analytics.goonus.io
@@ -20227,6 +20230,7 @@ beacon.hy.ly
 beacon.ichkoche.at
 beacon.itmedia.jp
 beacon.jk.cn
+beacon.krxd.net
 beacon.marketshot.com
 beacon.mitremedia.org
 beacon.performave.com
@@ -22761,6 +22765,7 @@ cbsd.nl3.vip.prod.criteo.com
 cbsd.sg1.vip.prod.criteo.com
 cbsd.us5.vip.prod.criteo.com
 cbsdigitalmedia.hb.omtrdc.net
+cbsi.demdex.net
 cbsinteractive.hb.omtrdc.net
 cbsnews.hb-api.omtrdc.net
 cbtks.happysocks.com
@@ -22900,6 +22905,7 @@ cdn.contentstack.io
 cdn.cxloyalty-mcc.com
 cdn.dmepyodjotcuks.com
 cdn.dminorschool.com
+cdn.doubleverify.com
 cdn.download.sweetpacks.com
 cdn.dsncdn.com
 cdn.dsspn.com
@@ -27744,6 +27750,7 @@ cvq-matomo.angers.fr
 cw.chatwork.com
 cw360.co.uk
 cwcdmm.zennioptical.com
+cws-hulu.conviva.com
 cwv-insights.com
 cx.quadient.com
 cx3vp8trk.com
@@ -31648,6 +31655,8 @@ daymasterpieces.boats
 daymasterpieces.click
 dayofeternaljoy.com
 daytoday.ownbazarbd.com
+dazn.com.ssl.sc.omtrdc.net
+dazn.sc.omtrdc.net
 dazurebox-420.top
 dazzlingbook.com
 db-ip.com
@@ -32813,6 +32822,8 @@ disney.tt.omtrdc.net
 disneycasting.net
 disneyinteractive-games.com
 disneyinternational.hb.omtrdc.net
+disneyplus.bn5x.net
+disneyplus.com.ssl.sc.omtrdc.net
 disneyvacations.com.102.112.2o7.net
 dispatch.com.102.112.2o7.net
 dispatches.subvert.fm
@@ -33271,6 +33282,7 @@ dsppixel.pinbn.net
 dsrvt.mytinyhomehub.com
 dss.camerabeveiligingkopen.nl
 dss0.baidu.com
+dssott.com.ssl.sc.omtrdc.net
 dsss.dach-shop24.de
 dstillery.com
 dsvucxtj.aanhangwagendirect.nl
@@ -44082,6 +44094,8 @@ hbldg.manna.com
 hbnqg.quickbeauty.com
 hboaop.harpreplacement.com
 hbolag.hb.omtrdc.net
+hbomax.com.ssl.sc.omtrdc.net
+hbomax.sc.omtrdc.net
 hbpvm.lapolicegear.com
 hbr7rt6trk.com
 hbrt.adobe.com
@@ -44835,8 +44849,10 @@ hull.io
 hullapp.io
 hulu-ios.hb-api.omtrdc.net
 hulu-lr.hb-api.omtrdc.net
+hulu.com.ssl.sc.omtrdc.net
 hulu.hb-api.omtrdc.net
 hulu.hb.omtrdc.net
+hulu.sc.omtrdc.net
 humanet.com
 humanlistening.com
 humann-affiliate.com
@@ -47706,6 +47722,7 @@ journy.io
 jovenclub.cu
 joy.so
 joy.teddybearmetal.com
+joyn.sc.omtrdc.net
 joyoussurprise.com
 jp-ad-lgsmartad-com.aws-prd.net
 jp-mobile.events.data.microsoft.com
@@ -85674,6 +85691,8 @@ peacefullimit.com
 peach-static.ebu.io
 peacock.davidlevai.com
 peacock.psych.help
+peacocktv.com.ssl.sc.omtrdc.net
+peacocktv.sc.omtrdc.net
 peafowl.prod.fyi
 peafowl.projectstrackt.dev
 peahn.modlily.com
@@ -92785,6 +92804,8 @@ plus.neurogami.com
 plushrepublic.com
 plusmargin.com
 pluto.kunze.tech
+plutotv.demdex.net
+plutotv.sc.omtrdc.net
 plymedia.com
 pm28-3-dconposty.top
 pm360-reporting.parkmobile.io
@@ -96607,6 +96628,7 @@ rojoma.com
 rokt.com
 roktinternal.com
 roku-beacons.xumo.com
+roku.admeasurement.com
 rol.co.uk
 rollbar.com
 rollconnection.com
@@ -96843,6 +96865,8 @@ rtf-40-netred.top
 rtg.wewomedia.com
 rtg2trk.com
 rtgs.aimroas.com
+rtl.demdex.net
+rtl.sc.omtrdc.net
 rtlog.byteoversea.com
 rtlog.isnssdk.com
 rtlog.musical.ly
@@ -105735,7 +105759,9 @@ sksvu.battlbox.com
 skunk.dwa.li
 skunk.gameworkersolidarity.com
 skvmc.atomstoastronauts.com
+sky.com.ssl.sc.omtrdc.net
 sky.ronan-hello.fr
+sky.sc.omtrdc.net
 skydeo.com
 skydive.modeimpact.com
 skygeo.com
@@ -132769,6 +132795,7 @@ tags.theklovestory.com
 tags.thesun.ie
 tags.tiq.rbcinsurance.com
 tags.tiq.rbcprivateinsurance.com
+tags.tiqcdn.com
 tags.toitpourtoi.fr
 tags.tommy.com
 tags.tryg.dk
@@ -138405,6 +138432,8 @@ ttv.transforme-ta-vie.com
 ttxm.co.uk
 tu7xx3zi.com
 tubemogul.com
+tubitv.com.ssl.sc.omtrdc.net
+tubitv.demdex.net
 tubql.cestlaviebirmingham.uk
 tubularlabs.com
 tucdj.trollcoclothing.ca
@@ -142473,6 +142502,7 @@ www.eum-appdynamics.com
 www.gold.smbusinessbiz.com
 www.google-analytics.com
 www.googleadservices.com
+www.googletagmanager.com
 www.gothaer01.webtrekk.net
 www.group-metrics.com
 www.groupcreative365.com
