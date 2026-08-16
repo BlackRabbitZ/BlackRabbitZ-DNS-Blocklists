@@ -3,8 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 425
-# Auto-updated: 2026-08-11T23:18:39Z
+# Entries: 426
+# Auto-updated: 2026-08-16T04:00:02Z
 # Description: Windows diagnostics, Connected User Experiences and telemetry endpoints.
 # Sources: NextDNS Native Tracking Protection
 # Snapshot: 2026-08
@@ -12,6 +12,7 @@
 # Additional third-party integrations: see THIRD_PARTY.md
 #
 #
+
 a-ring-fallback.msedge.net
 a-ring.msedge.net
 a4.bing.com
@@ -428,6 +429,7 @@ watson.microsoft.com
 watson.officeint.microsoft.com
 watson.telemetry.microsoft.com
 wayfinderanalytics.servicebus.windows.net
+westeurope-5.in.applicationinsights.azure.com.fiege.de
 weus2watcab01.blob.core.windows.net
 weus2watcab02.blob.core.windows.net
 win-global-asimov-leafs-events-data.trafficmanager.net

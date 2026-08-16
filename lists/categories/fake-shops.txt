@@ -3,8 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 11388
-# Auto-updated: 2026-08-14T05:04:50Z
+# Entries: 11389
+# Auto-updated: 2026-08-16T04:01:01Z
 # Description: Aggressive deceptive-store and fake-shop candidates derived from fraud/scam intelligence.
 # Sources: Block List Project Fraud/Scam (retail subset); DurableNapkin (retail subset); Verbraucherzentrale curated entries
 # Snapshot: 2026-08
@@ -4789,6 +4789,7 @@ store.navi21.com
 store.navi23.com
 store.navi24.com
 store.navi3.com
+store.navi42.ru
 store.navi5.com
 store.navi6.com
 store.navi65.com
