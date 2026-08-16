@@ -3,7 +3,7 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 373165
+# Entries: 373196
 #
 # Includes: ads,trackers,social-trackers
 #
@@ -34998,6 +34998,7 @@ ad.hrincjob.com
 ad.html.it
 ad.httpool.com
 ad.hu.doubleclick.net
+ad.hulu.com
 ad.hutor.ru
 ad.hyena.cz
 ad.hzrcloud.de
@@ -44306,6 +44307,7 @@ ads.tso.dennisnet.co.uk
 ads.ttgchina.com
 ads.tubemogul.com
 ads.tubewolf.com
+ads.tubitv.com
 ads.tucows.com
 ads.tunein.com
 ads.tuniscope.com
@@ -49170,6 +49172,7 @@ advertiseworld.com
 advertiseyourgame.com
 advertising-alliance.de
 advertising-api-eu.amazon.com
+advertising-api.amazon.com
 advertising-cdn.com
 advertising-cdn.dpgmedia.cloud
 advertising-department.com
@@ -49256,6 +49259,7 @@ advertising.paltalk.com
 advertising.philstar.com
 advertising.qa.us-east-1.dev.msc.roku.com
 advertising.quote.com
+advertising.rakuten.com
 advertising.roku.com
 advertising.ru
 advertising.se
@@ -53719,6 +53723,7 @@ amazinglyjvrucwx.download
 amazinglyperception.com
 amazingomgnews.ru
 amazingvacationhotels.com
+amazon-ads-attestation.com
 amazon-adsystem.amazon.com
 amazon-adsystem.com
 amazon-bulk-device-sales.com
@@ -59251,6 +59256,7 @@ analytics.goodlandks.net
 analytics.goodmorningcologne.com
 analytics.goodnews.id
 analytics.google.com
+analytics.googleusercontent.com
 analytics.googlie.vip
 analytics.goolimoveis.com.br
 analytics.goonus.io
@@ -115284,6 +115290,8 @@ dazedengage.com
 dazeurbht.download
 dazhantai.com
 dazmmlkurukfj.space
+dazn.com.ssl.sc.omtrdc.net
+dazn.sc.omtrdc.net
 dazurebox-420.top
 dazzling-bone.pro
 dazzlingbook.com
@@ -119593,6 +119601,8 @@ disneyinteractive-games.com
 disneyinternational.hb.omtrdc.net
 disneylandtrips.com
 disneyplus-tv.com
+disneyplus.bn5x.net
+disneyplus.com.ssl.sc.omtrdc.net
 disneyvacations.com.102.112.2o7.net
 disobeybewail.com
 disparagecaleb.com
@@ -122529,6 +122539,7 @@ dsrvt.mytinyhomehub.com
 dss.camerabeveiligingkopen.nl
 dss0.baidu.com
 dssja7qsifeak.cloudfront.net
+dssott.com.ssl.sc.omtrdc.net
 dsss.dach-shop24.de
 dsstrk.com
 dstaging.adgear.com
@@ -127956,6 +127967,7 @@ enduranceappropriate.com
 endurancesupervision.com
 endureart.com
 endurosweekday.com
+enduser.adsrvr.org
 endy-sleep-ca.evyy.net
 enecto.com
 enecto.net
@@ -154326,6 +154338,8 @@ hbnqg.quickbeauty.com
 hboaop.harpreplacement.com
 hboehzaifxnsn.website
 hbolag.hb.omtrdc.net
+hbomax.com.ssl.sc.omtrdc.net
+hbomax.sc.omtrdc.net
 hbonus.com
 hbopenbid-sg.pubmatic.com
 hbopenbid-sgc.pubmatic.com
@@ -158461,8 +158475,10 @@ hult360.qualtrics.com
 hulu-ios.hb-api.omtrdc.net
 hulu-lr.hb-api.omtrdc.net
 hulu.112.2o7.net
+hulu.com.ssl.sc.omtrdc.net
 hulu.hb-api.omtrdc.net
 hulu.hb.omtrdc.net
+hulu.sc.omtrdc.net
 huluad.com
 huluads.info
 huludev.112.2o7.net
@@ -162551,6 +162567,7 @@ imarker.com
 imarker.ru
 imarketservices.com
 imarsi.it
+imasdk.googleapis.com
 imata.signetlondon.com
 imatmobile.com
 imaxcash.com
@@ -170745,6 +170762,7 @@ joyfulkeen.com
 joyfultuckalluded.com
 joyfulvibe.com
 joyme.adsame.com
+joyn.sc.omtrdc.net
 joynxonnxfnvqr.com
 joyoshare.pxf.io
 joyourself.com
@@ -240541,6 +240559,8 @@ peachscone2020.com
 peacock.davidlevai.com
 peacock.psych.help
 peacockadvertising.com
+peacocktv.com.ssl.sc.omtrdc.net
+peacocktv.sc.omtrdc.net
 peacooked.com
 peafowl.prod.fyi
 peafowl.projectstrackt.dev
@@ -250877,6 +250897,8 @@ pluto.mgr.consensu.org
 pluto.sina.cn
 plutoclean.com
 plutothejewel.com
+plutotv.demdex.net
+plutotv.sc.omtrdc.net
 plutusads.com
 pluvianuruguay.com
 pluzhybovatzz.com
@@ -253941,6 +253963,7 @@ prod.e.singular.net
 prod.editor.ads.microsoft.com
 prod.editor.ads.trafficmanager.net
 prod.eu-central-1.int.vidible.tv
+prod.eu.origin.amazon-ads-attestation.com
 prod.fraud.adjoe.zone
 prod.geo.gluops.com
 prod.geoservice.gluops.com
@@ -266492,6 +266515,7 @@ rokt.com
 roktb.adx1.com
 roktinternal.com
 roku-beacons.xumo.com
+roku.admeasurement.com
 roku.prod.vidible.tv
 roku.stage.vidible.tv
 roku.vidible.tv
@@ -268206,8 +268230,10 @@ rtkndlpcwprqp.online
 rtksalt002.rtk.io
 rtl-most.blogspot.hu
 rtl.2cnt.net
+rtl.demdex.net
 rtl.hb.omtrdc.net
 rtl.ivwbox.de
+rtl.sc.omtrdc.net
 rtl1.biz
 rtl1.net
 rtlfqocrotlhz.website
@@ -284855,10 +284881,12 @@ skwheunderlines.review
 skwstat.ru
 sky-connect.adinfuse.com
 sky.adinfuse.com
+sky.com.ssl.sc.omtrdc.net
 sky.ijhyugb.com
 sky.inq.com
 sky.it.hb.omtrdc.net
 sky.ronan-hello.fr
+sky.sc.omtrdc.net
 sky.touchcommerce.com
 sky777.cc
 skyactivate.com
@@ -335432,6 +335460,8 @@ tubeultra.com
 tubfurryhen.com
 tubgirl.me
 tubiaoyi.com
+tubitv.com.ssl.sc.omtrdc.net
+tubitv.demdex.net
 tubogomifo.com
 tubosgroup.org
 tubql.cestlaviebirmingham.uk
@@ -359489,6 +359519,7 @@ www.discoverexactly.com
 www.disgustingsjnhmuv.download
 www.disjoiningjfdxyogp.download
 www.dismalitydbjmfaux.download
+www.disneyadvertising.com
 www.displacedijnnd.download
 www.displaybrowser.com
 www.distortiveecynxpidy.download

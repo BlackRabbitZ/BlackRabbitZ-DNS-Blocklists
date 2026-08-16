@@ -82,10 +82,10 @@ Das sind die Haupt-Schutzstufen. Starte mit **Balanced** und wechsle nur dann zu
 <!-- MAIN_PROFILES_START -->
 | Profil | Schutz | Einträge | Empfohlen für | Anzeigen | Raw |
 |---|:---:|---:|---|:---:|:---:|
-| 🟢 **Light** | Niedrig | **235.663** | Einfaches Werbeblocking | [Anzeigen](lists/combined/light.txt) | **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/light.txt)** |
-| 🔵 **Balanced ⭐** | Mittel | **373.165** | Die meisten Nutzer | [Anzeigen](lists/combined/balanced.txt) | **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/balanced.txt)** |
-| 🟠 **Strict** | Hoch | **374.948** | Datenschutzorientierte Setups | [Anzeigen](lists/combined/strict.txt) | **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/strict.txt)** |
-| 🔴 **Ultimate** | Maximum | **5.240.933** | Aggressive Filterung | [Teile anzeigen](#ultimate-parts) | **[Raw-Teile](#ultimate-parts)** |
+| 🟢 **Light** | Niedrig | **235.703** | Einfaches Werbeblocking | [Anzeigen](lists/combined/light.txt) | **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/light.txt)** |
+| 🔵 **Balanced ⭐** | Mittel | **373.196** | Die meisten Nutzer | [Anzeigen](lists/combined/balanced.txt) | **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/balanced.txt)** |
+| 🟠 **Strict** | Hoch | **375.065** | Datenschutzorientierte Setups | [Anzeigen](lists/combined/strict.txt) | **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/strict.txt)** |
+| 🔴 **Ultimate** | Maximum | **5.241.049** | Aggressive Filterung | [Teile anzeigen](#ultimate-parts) | **[Raw-Teile](#ultimate-parts)** |
 <!-- MAIN_PROFILES_END -->
 
 > **Balanced** wird für die meisten Installationen empfohlen.
@@ -131,7 +131,7 @@ Diese Profile lösen andere Aufgaben als die Datenschutzstufen oben. Sie sollten
 | Profil | Schutz | Einträge | Empfohlen für | Anzeigen | Raw |
 |---|:---:|---:|---|:---:|:---:|
 | 🛡️ **Security** | Sicherheit | **3.469.292** | Sicherheitsorientierte Filterung | [Teile anzeigen](#security-parts) | **[Raw-Teile](#security-parts)** |
-| 👨‍👩‍👧 **Family** | Familie | **1.848.615** | Familiennetzwerke | [Teile anzeigen](#family-parts) | **[Raw-Teile](#family-parts)** |
+| 👨‍👩‍👧 **Family** | Familie | **1.848.646** | Familiennetzwerke | [Teile anzeigen](#family-parts) | **[Raw-Teile](#family-parts)** |
 <!-- ADDON_PROFILES_END -->
 
 - **Security** konzentriert sich auf Malware, Phishing, Betrug, Fake-Shops und Kryptomining. Es kann mit Balanced oder Strict kombiniert werden.
@@ -162,11 +162,11 @@ Du wechselst vom bisherigen `security.txt` / `family.txt` / `ultimate-N.txt`-Sch
 <details>
 <summary><strong>👨‍👩‍👧 Family: Teile anzeigen (1 Dateien)</strong></summary>
 
-**Gesamt: 1.848.615 eindeutige Domains.** Füge alle Teile zu Pi-hole oder deinem DNS-Blocker hinzu, um die vollständige Abdeckung dieses Profils zu erhalten.
+**Gesamt: 1.848.646 eindeutige Domains.** Füge alle Teile zu Pi-hole oder deinem DNS-Blocker hinzu, um die vollständige Abdeckung dieses Profils zu erhalten.
 
 | Family Teil | Family Teil |
 |---|---|
-| **Teil 01**  <br>**1.848.615** Einträge · 33.7 MiB  <br>[Anzeigen](lists/combined/family-part-01.txt) · **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/family-part-01.txt)** |  |
+| **Teil 01**  <br>**1.848.646** Einträge · 33.7 MiB  <br>[Anzeigen](lists/combined/family-part-01.txt) · **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/family-part-01.txt)** |  |
 
 </details>
 
@@ -174,12 +174,12 @@ Du wechselst vom bisherigen `security.txt` / `family.txt` / `ultimate-N.txt`-Sch
 <details>
 <summary><strong>🔴 Ultimate: Teile anzeigen (3 Dateien)</strong></summary>
 
-**Gesamt: 5.240.933 eindeutige Domains.** Füge alle Teile zu Pi-hole oder deinem DNS-Blocker hinzu, um die vollständige Abdeckung dieses Profils zu erhalten.
+**Gesamt: 5.241.049 eindeutige Domains.** Füge alle Teile zu Pi-hole oder deinem DNS-Blocker hinzu, um die vollständige Abdeckung dieses Profils zu erhalten.
 
 | Ultimate Teil | Ultimate Teil |
 |---|---|
-| **Teil 01**  <br>**2.632.860** Einträge · 50.0 MiB  <br>[Anzeigen](lists/combined/ultimate-part-01.txt) · **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/ultimate-part-01.txt)** | **Teil 02**  <br>**2.600.429** Einträge · 50.0 MiB  <br>[Anzeigen](lists/combined/ultimate-part-02.txt) · **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/ultimate-part-02.txt)** |
-| **Teil 03**  <br>**7.644** Einträge · 0.1 MiB  <br>[Anzeigen](lists/combined/ultimate-part-03.txt) · **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/ultimate-part-03.txt)** |  |
+| **Teil 01**  <br>**2.632.856** Einträge · 50.0 MiB  <br>[Anzeigen](lists/combined/ultimate-part-01.txt) · **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/ultimate-part-01.txt)** | **Teil 02**  <br>**2.600.402** Einträge · 50.0 MiB  <br>[Anzeigen](lists/combined/ultimate-part-02.txt) · **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/ultimate-part-02.txt)** |
+| **Teil 03**  <br>**7.791** Einträge · 0.1 MiB  <br>[Anzeigen](lists/combined/ultimate-part-03.txt) · **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/ultimate-part-03.txt)** |  |
 
 </details>
 <!-- SPLIT_PROFILES_END -->
@@ -194,10 +194,10 @@ Du wechselst vom bisherigen `security.txt` / `family.txt` / `ultimate-N.txt`-Sch
 <!-- ADS_TRACKING_TABLE_START -->
 | Liste | Einträge | Beschreibung | Anzeigen | Raw |
 |---|---:|---|:---:|:---:|
-| 📣 **Werbung** | 235.663 | Große Domain-Sammlung für Werbung, Werbeauslieferung und integrierte Pop-Up-Werbung | [Anzeigen](lists/categories/ads.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/ads.txt) |
-| 👁️ **Tracker** | 143.939 | Große Sammlung von Analyse- und Tracking-Infrastruktur | [Anzeigen](lists/categories/trackers.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/trackers.txt) |
+| 📣 **Werbung** | 235.703 | Große Domain-Sammlung für Werbung, Werbeauslieferung und integrierte Pop-Up-Werbung | [Anzeigen](lists/categories/ads.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/ads.txt) |
+| 👁️ **Tracker** | 143.967 | Große Sammlung von Analyse- und Tracking-Infrastruktur | [Anzeigen](lists/categories/trackers.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/trackers.txt) |
 | 👥 **Social Tracker** | 99 | Tracking- und Analyse-Endpunkte sozialer Netzwerke | [Anzeigen](lists/categories/social-trackers.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/social-trackers.txt) |
-| 📲 **Mobiles Tracking** | 808 | Mobile Attribution, SDK-Analysen, App-Tracking und integrierte TikTok-Native-Tracker | [Anzeigen](lists/categories/mobile-tracking.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/mobile-tracking.txt) |
+| 📲 **Mobiles Tracking** | 823 | Mobile Attribution, SDK-Analysen, App-Tracking und integrierte TikTok-Native-Tracker | [Anzeigen](lists/categories/mobile-tracking.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/mobile-tracking.txt) |
 | 🧩 **Natives/App-Tracking** | 1.467 | Natives Betriebssystem-/Geräte- und Anwendungs-Tracking | [Anzeigen](lists/categories/native-tracking.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/native-tracking.txt) |
 | 🔗 **Affiliate-Tracking** | 643 | Affiliate-, Klick-, Referral- und Conversion-Tracking; ab Strict enthalten | [Anzeigen](lists/categories/affiliate-tracking.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/affiliate-tracking.txt) |
 | 🍪 **Consent / CMP** | 44 | Optionales Blocking von Consent-Management/CMP mit erhöhtem Risiko für Website-Fehlfunktionen | [Anzeigen](lists/categories/consent-cmp.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/consent-cmp.txt) |
@@ -213,14 +213,14 @@ Du wechselst vom bisherigen `security.txt` / `family.txt` / `ultimate-N.txt`-Sch
 <!-- TELEMETRY_TABLE_START -->
 | Liste | Einträge | Beschreibung | Anzeigen | Raw |
 |---|---:|---|:---:|:---:|
-| 📊 **Allgemeine Telemetrie** | 29.288 | Breite Produkt-/App-Analysen, Diagnosen und Telemetrie | [Anzeigen](lists/categories/telemetry.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/telemetry.txt) |
-| 🪟 **Windows-Telemetrie** | 426 | Windows-/Office-Diagnose, Telemetrie und integrierte Microsoft-Native-Tracker | [Anzeigen](lists/categories/windows-telemetry.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/windows-telemetry.txt) |
-| 🍎 **Apple-Telemetrie** | 119 | Apple-Telemetrie, Metriken, Diagnosen und integrierte Native-Tracker | [Anzeigen](lists/categories/apple-telemetry.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/apple-telemetry.txt) |
-| 🤖 **Android-Telemetrie** | 1.513 | Android-/Hersteller-Telemetrie inkl. Huawei, Samsung, Vivo, OPPO/Realme und Xiaomi | [Anzeigen](lists/categories/android-telemetry.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/android-telemetry.txt) |
-| 🐧 **Linux-Telemetrie** | 3 | Telemetrie, Diagnosen und Nutzungsberichte von Linux-Distributionen | [Anzeigen](lists/categories/linux-telemetry.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/linux-telemetry.txt) |
+| 📊 **Allgemeine Telemetrie** | 29.324 | Breite Produkt-/App-Analysen, Diagnosen und Telemetrie | [Anzeigen](lists/categories/telemetry.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/telemetry.txt) |
+| 🪟 **Windows-Telemetrie** | 459 | Windows-/Office-Diagnose, Telemetrie und integrierte Microsoft-Native-Tracker | [Anzeigen](lists/categories/windows-telemetry.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/windows-telemetry.txt) |
+| 🍎 **Apple-Telemetrie** | 135 | Apple-Telemetrie, Metriken, Diagnosen und integrierte Native-Tracker | [Anzeigen](lists/categories/apple-telemetry.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/apple-telemetry.txt) |
+| 🤖 **Android-Telemetrie** | 1.536 | Android-/Hersteller-Telemetrie inkl. Huawei, Samsung, Vivo, OPPO/Realme und Xiaomi | [Anzeigen](lists/categories/android-telemetry.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/android-telemetry.txt) |
+| 🐧 **Linux-Telemetrie** | 65 | Telemetrie, Diagnosen und Nutzungsberichte von Linux-Distributionen | [Anzeigen](lists/categories/linux-telemetry.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/linux-telemetry.txt) |
 | 💾 **NAS-Telemetrie** | 12 | NAS-Telemetrie und Nutzungsberichte (Synology, TrueNAS und weitere) | [Anzeigen](lists/categories/nas-telemetry.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/nas-telemetry.txt) |
 | 🖥️ **Server-Telemetrie** | 10 | Server-, Red-Hat-Insights- und Management-Telemetrie | [Anzeigen](lists/categories/server-telemetry.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/server-telemetry.txt) |
-| 📺 **Smart-TV** | 622 | Smart-TV-Werbung, ACR, Diagnosen, Telemetrie sowie integrierte LG-webOS-/Roku-Tracker | [Anzeigen](lists/categories/smart-tv.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/smart-tv.txt) |
+| 📺 **Smart-TV** | 659 | Smart-TV-Werbung, ACR, Diagnosen, Telemetrie sowie integrierte LG-webOS-/Roku-Tracker | [Anzeigen](lists/categories/smart-tv.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/smart-tv.txt) |
 | 🏠 **IoT** | 437 | Telemetrie-/Tracking-Endpunkte von IoT-, verbundenen und Amazon-Geräten/Diensten | [Anzeigen](lists/categories/iot.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/iot.txt) |
 <!-- TELEMETRY_TABLE_END -->
 
