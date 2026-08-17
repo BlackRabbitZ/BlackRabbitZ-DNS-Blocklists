@@ -1,0 +1,11 @@
+{
+  "checked": 9998,
+  "confirmed_after_3_checks": 0,
+  "confirmed_domains": [],
+  "exists": 4805,
+  "nxdomain": 588,
+  "rechecked_candidates": 0,
+  "sampled_new": 9998,
+  "temporary": 4605,
+  "tracked_candidates": 588
+}
