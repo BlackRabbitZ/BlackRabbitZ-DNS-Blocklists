@@ -3,8 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 11389
-# Auto-updated: 2026-08-17T04:04:23Z
+# Entries: 11391
+# Auto-updated: 2026-08-18T03:59:37Z
 # Description: Aggressive deceptive-store and fake-shop candidates derived from fraud/scam intelligence.
 # Sources: Block List Project Fraud/Scam (retail subset); DurableNapkin (retail subset); Verbraucherzentrale curated entries
 # Snapshot: 2026-08
@@ -4567,6 +4567,7 @@ store.bestvod.pl
 store.billboardwring.com
 store.binomo-id.in
 store.binomo.broker
+store.binomo.vip
 store.binomo2.zendesk.com
 store.bitsoft360.com
 store.bitsoft360.io
@@ -7239,6 +7240,7 @@ www.canadagooseparka.store
 www.canadiensteamstore.com
 www.candyshop27.biz
 www.canondiscountstore.com
+www.caoefe.shop
 www.cardmora.shop
 www.care4youstore.com
 www.carmira.shop
