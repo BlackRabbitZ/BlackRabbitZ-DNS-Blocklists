@@ -3,8 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 11391
-# Auto-updated: 2026-08-18T03:59:37Z
+# Entries: 11392
+# Auto-updated: 2026-08-19T04:06:02Z
 # Description: Aggressive deceptive-store and fake-shop candidates derived from fraud/scam intelligence.
 # Sources: Block List Project Fraud/Scam (retail subset); DurableNapkin (retail subset); Verbraucherzentrale curated entries
 # Snapshot: 2026-08
@@ -4679,6 +4679,7 @@ store.filser.pl
 store.find-vod.com
 store.finnews7.wordpress.com
 store.fishingdaily.shop
+store.fitgirl-repacks.vip
 store.fixpub.com
 store.flattee.com
 store.folkrbvi.pages.dev

@@ -3,8 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 284065
-# Auto-updated: 2026-08-18T03:59:37Z
+# Entries: 284071
+# Auto-updated: 2026-08-19T04:06:01Z
 # Description: Massive scam, fraud and deceptive-platform domain set.
 # Sources: Block List Project Fraud/Scam; DurableNapkin Scam Blocklist; curated BaFin entries
 # Snapshot: 2026-08
@@ -34048,6 +34048,7 @@ com-viruskeeper.win
 com-webappsupport.com
 com-wepsupport-cancellation-order.com
 com-yahoo-health.com
+com.id11853502.date
 com.legalize.pw
 com1-support.com
 com64.co
@@ -107763,6 +107764,7 @@ onsujkfgc.bid
 onsupport24x7.com
 ontable.tk
 ontario-energy.com
+ontariokitcarbuilders.com
 ontariomallantique.com
 ontasksupport.com
 ontb.ru
@@ -132168,6 +132170,7 @@ skinsplanet.net
 skinsycs.89.pl
 skinszone.net
 skinwell.store
+skipped.vip
 skiptonfield.eu
 skiracedepartment.com
 skirred.stream
@@ -136722,6 +136725,7 @@ store.filser.pl
 store.find-vod.com
 store.finnews7.wordpress.com
 store.fishingdaily.shop
+store.fitgirl-repacks.vip
 store.fixpub.com
 store.flattee.com
 store.folkrbvi.pages.dev
@@ -231041,6 +231045,7 @@ www.navi35.com
 www.navi36.ru
 www.navi38.ru
 www.navi39.ru
+www.navi42.ru
 www.navi5.com
 www.navi53.com
 www.navi56.com
@@ -247573,6 +247578,7 @@ www.robottechnicalsupport.com
 www.robotxpress.com
 www.robrta.top
 www.robsdt-738.getforge.io
+www.robuxmenu.vip
 www.rocioshayler.com
 www.rock-fortune.com
 www.rockawaybeachor.us
