@@ -3,8 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 284071
-# Auto-updated: 2026-08-19T04:06:01Z
+# Entries: 284079
+# Auto-updated: 2026-08-20T04:00:33Z
 # Description: Massive scam, fraud and deceptive-platform domain set.
 # Sources: Block List Project Fraud/Scam; DurableNapkin Scam Blocklist; curated BaFin entries
 # Snapshot: 2026-08
@@ -136638,6 +136638,7 @@ store.buddhakind.com
 store.buzzazone.com
 store.bwpkizpfms.funnelish.com
 store.by-emmamuller.de
+store.byeuys.shop
 store.c0nt4ct-me.pages.dev
 store.californiacondoguru.com
 store.caraci.it
@@ -136755,6 +136756,7 @@ store.hidden-champion.net
 store.himete.com
 store.hiresbigh.com
 store.hityvod.pl
+store.hmccommerce.com
 store.hollisternorge.com
 store.hookahheroes.com
 store.hubfiles.ws
@@ -136779,6 +136781,7 @@ store.jaimerico.net
 store.jasper-lilac-van.glitch.me
 store.jbpserver.com.br
 store.jellystores.com
+store.jewellvanmarter.za.com
 store.jsdimmigration.com
 store.karanpcofficial.blogspot.com
 store.kestrelby.com
@@ -136837,6 +136840,7 @@ store.navi20.ru
 store.navi21.com
 store.navi23.com
 store.navi24.com
+store.navi26.ru
 store.navi3.com
 store.navi42.ru
 store.navi5.com
@@ -136871,6 +136875,7 @@ store.notify-user-adjustments.vercel.app
 store.obejrzyj-to.pl
 store.official.olymptrade-my.com
 store.oflike.com
+store.ojlkimed.vip
 store.oldcube.com
 store.olive121407.studio.site
 store.olymptrade-qid.com
@@ -136918,6 +136923,8 @@ store.rustdesk.secure-box.de
 store.saveeeee.myshopify.com
 store.sber.avito.booking.com-id334212.com
 store.sberbank.avito.avito.sber.www42.com-id23901.info
+store.sberbank.pay.sber.www.com-id1800853.com
+store.sberbank.sber.id19845672.info
 store.seasonsofficial.com
 store.securevault.top
 store.security-meta.pages.app.br
@@ -251668,6 +251675,7 @@ www.skins-store.net
 www.skinsplanet.net
 www.skinsycs.89.pl
 www.skinszone.net
+www.skipped.vip
 www.skiptonfield.eu
 www.skirtshop.shop
 www.skktultificationboycott.info
