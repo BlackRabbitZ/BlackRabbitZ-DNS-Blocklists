@@ -1,0 +1,575 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "categories": [
+        "ads"
+      ],
+      "content_length": 4944431,
+      "error": null,
+      "http_status": 206,
+      "names": [
+        "Block List Project Ads"
+      ],
+      "sample_sha256": "a587ea05530a687192ac4941d7f7f7cd822333cbd56b835c305a552f115d35f2",
+      "status": "ok",
+      "url": "https://blocklistproject.github.io/Lists/alt-version/ads-nl.txt"
+    },
+    {
+      "categories": [
+        "fake-shops",
+        "scam"
+      ],
+      "content_length": 5657997,
+      "error": null,
+      "http_status": 206,
+      "names": [
+        "Block List Project Fraud",
+        "Block List Project Fraud retail subset"
+      ],
+      "sample_sha256": "f811f1fc89f1be40ff09f786e3b15d766d8958ac6f72bd14795cc25c4522911b",
+      "status": "ok",
+      "url": "https://blocklistproject.github.io/Lists/alt-version/fraud-nl.txt"
+    },
+    {
+      "categories": [
+        "gambling"
+      ],
+      "content_length": 4479130,
+      "error": null,
+      "http_status": 206,
+      "names": [
+        "Block List Project Gambling"
+      ],
+      "sample_sha256": "eb0c4d2d2d50e280c4abcc1665eb6505dd8d53a9bf66a86dbb5b53ae1657befa",
+      "status": "ok",
+      "url": "https://blocklistproject.github.io/Lists/alt-version/gambling-nl.txt"
+    },
+    {
+      "categories": [
+        "malware"
+      ],
+      "content_length": 50910539,
+      "error": null,
+      "http_status": 206,
+      "names": [
+        "Block List Project Malware"
+      ],
+      "sample_sha256": "2f3e587c3301a93bf249cb3a84e1e64728ba17f6c50823c45d6b46e6d16e31f7",
+      "status": "ok",
+      "url": "https://blocklistproject.github.io/Lists/alt-version/malware-nl.txt"
+    },
+    {
+      "categories": [
+        "phishing"
+      ],
+      "content_length": 4164418,
+      "error": null,
+      "http_status": 206,
+      "names": [
+        "Block List Project Phishing"
+      ],
+      "sample_sha256": "6c21f9292c5b58ab3091f6cfed33b3da305d03cf024506694e5207d037c869c3",
+      "status": "ok",
+      "url": "https://blocklistproject.github.io/Lists/alt-version/phishing-nl.txt"
+    },
+    {
+      "categories": [
+        "adult"
+      ],
+      "content_length": 18467911,
+      "error": null,
+      "http_status": 206,
+      "names": [
+        "Block List Project Porn"
+      ],
+      "sample_sha256": "3c817d773b5d75f4898da40808af784af61a76ef525a009bcede14f4553b360c",
+      "status": "ok",
+      "url": "https://blocklistproject.github.io/Lists/alt-version/porn-nl.txt"
+    },
+    {
+      "categories": [
+        "malware"
+      ],
+      "content_length": 51534,
+      "error": null,
+      "http_status": 206,
+      "names": [
+        "Block List Project Ransomware"
+      ],
+      "sample_sha256": "6de3fb46da3bba95f8d7eb4149ea7ceeeb06891b7b7035fe74fc24e716aa2a48",
+      "status": "ok",
+      "url": "https://blocklistproject.github.io/Lists/alt-version/ransomware-nl.txt"
+    },
+    {
+      "categories": [
+        "fake-shops",
+        "scam"
+      ],
+      "content_length": 155461,
+      "error": null,
+      "http_status": 206,
+      "names": [
+        "Block List Project Scam",
+        "Block List Project Scam retail subset"
+      ],
+      "sample_sha256": "7779e10d42f0b31947bea69ced73113583f4691815314fb53d8304dd802fc103",
+      "status": "ok",
+      "url": "https://blocklistproject.github.io/Lists/alt-version/scam-nl.txt"
+    },
+    {
+      "categories": [
+        "smart-tv"
+      ],
+      "content_length": 2169,
+      "error": null,
+      "http_status": 206,
+      "names": [
+        "Block List Project Smart TV"
+      ],
+      "sample_sha256": "f7bcb5298b0ba433d72ca316990876783bc99689c5db8b59a0b64f67bef06363",
+      "status": "ok",
+      "url": "https://blocklistproject.github.io/Lists/alt-version/smart-tv-nl.txt"
+    },
+    {
+      "categories": [
+        "affiliate-tracking",
+        "consent-cmp",
+        "mobile-tracking",
+        "social-trackers",
+        "telemetry",
+        "trackers"
+      ],
+      "content_length": 3064535,
+      "error": null,
+      "http_status": 206,
+      "names": [
+        "Block List Project Tracking",
+        "Block List Project Tracking CMP subset",
+        "Block List Project Tracking affiliate subset",
+        "Block List Project Tracking mobile subset",
+        "Block List Project Tracking social subset",
+        "Block List Project Tracking telemetry subset"
+      ],
+      "sample_sha256": "15c6566d38c3e31c592438555fc2390b7ef4241481cd9a09e7c77ed465f898e4",
+      "status": "ok",
+      "url": "https://blocklistproject.github.io/Lists/alt-version/tracking-nl.txt"
+    },
+    {
+      "categories": [
+        "gambling"
+      ],
+      "content_length": 7792454,
+      "error": null,
+      "http_status": 206,
+      "names": [
+        "HaGeZi Gambling"
+      ],
+      "sample_sha256": "3697c13ad773e925ea75402a24b79af968fb514bd16d1112b9a8a5da36aa4fc1",
+      "status": "ok",
+      "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/gambling-onlydomains.txt"
+    },
+    {
+      "categories": [
+        "apple-telemetry",
+        "native-tracking"
+      ],
+      "content_length": 3751,
+      "error": null,
+      "http_status": 206,
+      "names": [
+        "HaGeZi Apple Native Tracking"
+      ],
+      "sample_sha256": "5932abd8769c8c8026046c1ad2cf99748a8bd5c740e77f9401257a5953e339dd",
+      "status": "ok",
+      "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.apple.txt"
+    },
+    {
+      "categories": [
+        "android-telemetry",
+        "native-tracking"
+      ],
+      "content_length": 6014,
+      "error": null,
+      "http_status": 206,
+      "names": [
+        "HaGeZi Huawei Native Tracking"
+      ],
+      "sample_sha256": "d4b1cdd2058ebeb066ed07952476a3bccb243c7abedae8f74ec47dac9182f6b8",
+      "status": "ok",
+      "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.huawei.txt"
+    },
+    {
+      "categories": [
+        "native-tracking",
+        "smart-tv"
+      ],
+      "content_length": 9559,
+      "error": null,
+      "http_status": 206,
+      "names": [
+        "HaGeZi LG webOS Native Tracking"
+      ],
+      "sample_sha256": "771efde6b664bda3555c143a315581098db83523228f0ab72ff2072890cb1c4f",
+      "status": "ok",
+      "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.lgwebos.txt"
+    },
+    {
+      "categories": [
+        "android-telemetry"
+      ],
+      "content_length": 15957,
+      "error": null,
+      "http_status": 206,
+      "names": [
+        "HaGeZi Oppo/Realme Native Tracking"
+      ],
+      "sample_sha256": "00ac665ffff8eb4ed7f9992b7562cf8120d02fe74650be827362a23d62131f24",
+      "status": "ok",
+      "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.oppo-realme.txt"
+    },
+    {
+      "categories": [
+        "android-telemetry"
+      ],
+      "content_length": 7698,
+      "error": null,
+      "http_status": 206,
+      "names": [
+        "HaGeZi Vivo Native Tracking"
+      ],
+      "sample_sha256": "6451d6386697b28ddc49a01e22b0cd6ffdb5389bb928616fbfcf3ade0fef5bd7",
+      "status": "ok",
+      "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.vivo.txt"
+    },
+    {
+      "categories": [
+        "native-tracking",
+        "windows-telemetry"
+      ],
+      "content_length": 13523,
+      "error": null,
+      "http_status": 206,
+      "names": [
+        "HaGeZi Windows and Office Native Tracking"
+      ],
+      "sample_sha256": "f20cee5e50318f8d1cd2cb03dec33b3774314600a018c5619caec0d747dec74d",
+      "status": "ok",
+      "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.winoffice.txt"
+    },
+    {
+      "categories": [
+        "android-telemetry",
+        "native-tracking"
+      ],
+      "content_length": 9971,
+      "error": null,
+      "http_status": 206,
+      "names": [
+        "HaGeZi Xiaomi Native Tracking"
+      ],
+      "sample_sha256": "c1b55e099825194edf36388752d3c96762ed9c37a4706703f2c20cbb28a79355",
+      "status": "ok",
+      "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.xiaomi.txt"
+    },
+    {
+      "categories": [
+        "malware"
+      ],
+      "content_length": 3538805,
+      "error": null,
+      "http_status": 206,
+      "names": [
+        "HaGeZi Threat Intelligence Mini"
+      ],
+      "sample_sha256": "e4648fceaa5650e3618c3ff62b05506dd83644c3ee2e33d6321d6b21013175c9",
+      "status": "ok",
+      "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/tif.mini.txt"
+    },
+    {
+      "categories": [
+        "iot",
+        "smart-tv"
+      ],
+      "content_length": 1502,
+      "error": null,
+      "http_status": 206,
+      "names": [
+        "Perflyst Amazon Fire TV"
+      ],
+      "sample_sha256": "22d719cde872d51365f350e142e102be5c53dcbd668a795c0f51c14d1d812fbb",
+      "status": "ok",
+      "url": "https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/AmazonFireTV.txt"
+    },
+    {
+      "categories": [
+        "smart-tv"
+      ],
+      "content_length": 10939,
+      "error": null,
+      "http_status": 206,
+      "names": [
+        "Perflyst Smart TV"
+      ],
+      "sample_sha256": "6e868b7bd65c913ff5def9be0c453ef7044f1d1f4e60656e7bffbc9a93183d7f",
+      "status": "ok",
+      "url": "https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV-AGH.txt"
+    },
+    {
+      "categories": [
+        "android-telemetry",
+        "mobile-tracking"
+      ],
+      "content_length": 2153,
+      "error": null,
+      "http_status": 206,
+      "names": [
+        "Perflyst Android Tracking"
+      ],
+      "sample_sha256": "164b9bbb1030b69da5d0c2f5a327c7780c9674dc589f65996a974bb0184814ab",
+      "status": "ok",
+      "url": "https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/android-tracking.txt"
+    },
+    {
+      "categories": [
+        "phishing"
+      ],
+      "content_length": 11013638,
+      "error": null,
+      "http_status": 206,
+      "names": [
+        "Phishing.Database Active Domains"
+      ],
+      "sample_sha256": "ef4e82718e3f51503a728413d7687d6e677d4819a6a8fe553614484b14a5e10a",
+      "status": "ok",
+      "url": "https://raw.githubusercontent.com/Phishing-Database/Phishing.Database/master/phishing-domains-ACTIVE.txt"
+    },
+    {
+      "categories": [
+        "adult"
+      ],
+      "content_length": 1959787,
+      "error": null,
+      "http_status": 206,
+      "names": [
+        "StevenBlack Porn-only Hosts"
+      ],
+      "sample_sha256": "44d5b799a21f4a7a680b128c936105bc5e707301ef653a623b1460e36af2cea6",
+      "status": "ok",
+      "url": "https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-only/hosts"
+    },
+    {
+      "categories": [
+        "cryptomining"
+      ],
+      "content_length": 147523,
+      "error": null,
+      "http_status": 206,
+      "names": [
+        "AnudeepND CoinMiner"
+      ],
+      "sample_sha256": "b4274678c8227828ccea68d6de4a5613830f4d528bd8ecc19f0f4c943d8ce33b",
+      "status": "ok",
+      "url": "https://raw.githubusercontent.com/anudeepND/blacklist/master/CoinMiner.txt"
+    },
+    {
+      "categories": [
+        "ads"
+      ],
+      "content_length": 1354227,
+      "error": null,
+      "http_status": 206,
+      "names": [
+        "AnudeepND adservers"
+      ],
+      "sample_sha256": "dde47eb6586bb9180786c76289529aef8d834fb71f92139abe05c0b950f2d928",
+      "status": "ok",
+      "url": "https://raw.githubusercontent.com/anudeepND/blacklist/master/adservers.txt"
+    },
+    {
+      "categories": [
+        "fake-shops",
+        "scam"
+      ],
+      "content_length": 61341,
+      "error": null,
+      "http_status": 206,
+      "names": [
+        "DurableNapkin Scam Blocklist",
+        "DurableNapkin retail subset"
+      ],
+      "sample_sha256": "9a4f96191bde5fd218e6b7db9863fd165a950f582c8d699efbea443e372c82c7",
+      "status": "ok",
+      "url": "https://raw.githubusercontent.com/durablenapkin/scamblocklist/master/hosts.txt"
+    },
+    {
+      "categories": [
+        "cryptomining"
+      ],
+      "content_length": 8173,
+      "error": null,
+      "http_status": 206,
+      "names": [
+        "NoCoin Hosts"
+      ],
+      "sample_sha256": "34abec73c9823cb1d0c9b85b18572c49f10f246a846adcf044a21c4b62371e09",
+      "status": "ok",
+      "url": "https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt"
+    },
+    {
+      "categories": [
+        "affiliate-tracking"
+      ],
+      "content_length": 12965,
+      "error": null,
+      "http_status": 206,
+      "names": [
+        "NextDNS Click Tracking Domains"
+      ],
+      "sample_sha256": "963a31686d37b0b54fe6c585f6b8a2c6ceaf31c4664f9e10a62e117aefdb15f7",
+      "status": "ok",
+      "url": "https://raw.githubusercontent.com/nextdns/click-tracking-domains/main/domains"
+    },
+    {
+      "categories": [
+        "iot",
+        "native-tracking"
+      ],
+      "content_length": 76,
+      "error": null,
+      "http_status": 206,
+      "names": [
+        "NextDNS Alexa Native Tracking"
+      ],
+      "sample_sha256": "f525ffe6c2069d3d14c6b9e6398e4402d9d7ea6e884652f0e03f92a2d6c94ac0",
+      "status": "ok",
+      "url": "https://raw.githubusercontent.com/nextdns/native-tracking-domains/main/domains/alexa"
+    },
+    {
+      "categories": [
+        "apple-telemetry",
+        "native-tracking"
+      ],
+      "content_length": 546,
+      "error": null,
+      "http_status": 206,
+      "names": [
+        "NextDNS Apple Native Tracking"
+      ],
+      "sample_sha256": "d5fb8872117ec38dec292e924179ad947071661cb9a5bae2366208fcc7b9df11",
+      "status": "ok",
+      "url": "https://raw.githubusercontent.com/nextdns/native-tracking-domains/main/domains/apple"
+    },
+    {
+      "categories": [
+        "android-telemetry",
+        "iot",
+        "native-tracking"
+      ],
+      "content_length": 1041,
+      "error": null,
+      "http_status": 206,
+      "names": [
+        "NextDNS Huawei Native Tracking"
+      ],
+      "sample_sha256": "b7bc8a0273859c59d1f37b91a34e73a2a6514250d2f64716e61c838d6f4dcecb",
+      "status": "ok",
+      "url": "https://raw.githubusercontent.com/nextdns/native-tracking-domains/main/domains/huawei"
+    },
+    {
+      "categories": [
+        "iot",
+        "native-tracking"
+      ],
+      "content_length": 14,
+      "error": null,
+      "http_status": 206,
+      "names": [
+        "NextDNS Roku Native Tracking"
+      ],
+      "sample_sha256": "7cedfd6b5da1908a537ce28b8aacfaaa9a206bb1f4bdedad6fbe3e268f027ddb",
+      "status": "ok",
+      "url": "https://raw.githubusercontent.com/nextdns/native-tracking-domains/main/domains/roku"
+    },
+    {
+      "categories": [
+        "iot",
+        "native-tracking"
+      ],
+      "content_length": 92,
+      "error": null,
+      "http_status": 206,
+      "names": [
+        "NextDNS Samsung Native Tracking"
+      ],
+      "sample_sha256": "cf1ecdbb64dfb37dec7ebcdf514e9e44496a55d1c4e5458da274d20f137fa668",
+      "status": "ok",
+      "url": "https://raw.githubusercontent.com/nextdns/native-tracking-domains/main/domains/samsung"
+    },
+    {
+      "categories": [
+        "iot",
+        "native-tracking"
+      ],
+      "content_length": 51,
+      "error": null,
+      "http_status": 206,
+      "names": [
+        "NextDNS Sonos Native Tracking"
+      ],
+      "sample_sha256": "320f5984fdcee307cd0123b2e76e95e4f47c43eb9a1e497018a35ffc1e067b19",
+      "status": "ok",
+      "url": "https://raw.githubusercontent.com/nextdns/native-tracking-domains/main/domains/sonos"
+    },
+    {
+      "categories": [
+        "native-tracking",
+        "windows-telemetry"
+      ],
+      "content_length": 764,
+      "error": null,
+      "http_status": 206,
+      "names": [
+        "NextDNS Windows Native Tracking"
+      ],
+      "sample_sha256": "1fd47a9be414fa06289adf89682836c490fb2fde93d5f4d9aaf60da816e0c413",
+      "status": "ok",
+      "url": "https://raw.githubusercontent.com/nextdns/native-tracking-domains/main/domains/windows"
+    },
+    {
+      "categories": [
+        "android-telemetry",
+        "iot",
+        "native-tracking"
+      ],
+      "content_length": 217,
+      "error": null,
+      "http_status": 206,
+      "names": [
+        "NextDNS Xiaomi Native Tracking"
+      ],
+      "sample_sha256": "857c9a441e1ce16ce549d2abf03b681217399466ef6e6d78f35154eb3be70dab",
+      "status": "ok",
+      "url": "https://raw.githubusercontent.com/nextdns/native-tracking-domains/main/domains/xiaomi"
+    },
+    {
+      "categories": [
+        "malware"
+      ],
+      "content_length": 11994,
+      "error": null,
+      "http_status": 206,
+      "names": [
+        "URLhaus Hostfile"
+      ],
+      "sample_sha256": "2a2bc9586dd5baf034e28394bfca760f6d1a11868bb25fcbafe7863104ea82cf",
+      "status": "ok",
+      "url": "https://urlhaus.abuse.ch/downloads/hostfile"
+    }
+  ],
+  "summary": {
+    "failed": 0,
+    "ok": 38,
+    "total": 38
+  }
+}
