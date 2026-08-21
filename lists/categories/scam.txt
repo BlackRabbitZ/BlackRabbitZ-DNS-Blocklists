@@ -3,8 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 284079
-# Auto-updated: 2026-08-20T04:00:33Z
+# Entries: 284106
+# Auto-updated: 2026-08-21T04:02:59Z
 # Description: Massive scam, fraud and deceptive-platform domain set.
 # Sources: Block List Project Fraud/Scam; DurableNapkin Scam Blocklist; curated BaFin entries
 # Snapshot: 2026-08
@@ -53284,6 +53284,7 @@ exedllerrorsfix.com
 exelmembers.com
 exeloniq.org
 exelorate.info
+exelsure.com
 exemplaiory.com
 exemplar-education-support.com
 exemplar-education-support.org
@@ -60658,6 +60659,7 @@ freedhom.com
 freedodo.xyz
 freedom-5g.com
 freedom-life.today
+freedom.mobile-log-in.com
 freedomcashlenders.com
 freedomfreelancer.com
 freedomfuckingvirus.com
@@ -127605,6 +127607,8 @@ sber.booking.com-id802912.com
 sber.com-id329712.com
 sberbank-online-gid.ru
 sberbank.avito.com-id20341.info
+sberbank.com-id02349.info
+sberbank.pay.avito.avito.avito.avito.com-id809702.com
 sberboom.plp7.ru
 sberex.com
 sberrdisse.cyou
@@ -136636,6 +136640,7 @@ store.breakshirts.com
 store.bsnltowerinstallations.com
 store.buddhakind.com
 store.buzzazone.com
+store.buzzdeal.com
 store.bwpkizpfms.funnelish.com
 store.by-emmamuller.de
 store.byeuys.shop
@@ -136650,10 +136655,12 @@ store.cibtvisas.com
 store.ckkebt.shop
 store.clubatleticodemadrid.com
 store.cluckergifts.ecwid.com
+store.cma88.vip
 store.cmoboy.com
 store.cognatesyringe.com
 store.coinaps.com
 store.coinreq.com
+store.commerztan.com
 store.communityappitem.shop
 store.communityappmarket.shop
 store.communityapponline.shop
@@ -136890,9 +136897,13 @@ store.paloalto.com
 store.pantacusa.com
 store.parajumpersnettbutikk.com
 store.parajumpersnorway.com
+store.pay.avito.avito.avito.pay.com-id20341.info
+store.pay.avito.pay.com-id02349.info
+store.pay.com-id15421.info
 store.penguinnow.com
 store.pharaohstore.com
 store.phirussacmush.net
+store.physiotherapyindhaka.com
 store.pinjamanrupiah.xyz
 store.piratedrive.com
 store.pjs.outlet.com
@@ -136964,6 +136975,7 @@ store.supervisualteam.com
 store.supperbrand.company.site
 store.swellsup.com
 store.tartannewzealand.myshopify.com
+store.tdgrop168.vip
 store.telegramweb.vercel.app
 store.terverystaio.info
 store.the-north-face.gr
@@ -148245,6 +148257,7 @@ tesla-discount-code.com
 tesla-online.net
 tesla-support.com
 tesla-support.net
+tesla2xdrop.com
 teslaassembly.org
 teslacoin.io
 teslaminingprogram.com
@@ -169531,6 +169544,7 @@ www.201vulkanvegas.com
 www.2020warning.com
 www.2021warning.com
 www.2022warning.com
+www.2023-openai.com
 www.2023warning.com
 www.2024warning.com
 www.2025052922144612146957.onamaeweb.jp
@@ -173060,6 +173074,7 @@ www.akubegini-support.info
 www.akuglin.cf
 www.akujet.shop
 www.akukangapernah-support.info
+www.akulaku.me
 www.akularc.biz
 www.akunservice-support23974.com
 www.akunservice-support741.com
@@ -183810,6 +183825,7 @@ www.bing-mei.com
 www.bingads-login.win
 www.bingfollowers.com
 www.bingg.club
+www.binggrondahlshop.com
 www.bingo-bonus-code.co.uk
 www.binom0-web.com
 www.binomo-brokers.com
@@ -187115,6 +187131,7 @@ www.cashpark.ru
 www.cashpins.com
 www.cashrefer.top
 www.cashsend.ru
+www.cashspacex.org
 www.casimricom.cyou
 www.casimstroz.cyou
 www.casino-bonus-codes.online
@@ -203877,6 +203894,7 @@ www.excitingbag.com
 www.exclusive-essays.com
 www.exclusive-offer.net
 www.exclusive-paper.com
+www.exclusivebuyz4uu.shop
 www.exclusiveclosed.timereserve.com
 www.exclusiverewards.faxix.xyz
 www.exclusivewebnews.com
@@ -203893,6 +203911,7 @@ www.executivetradestation.com
 www.exedllerrorsfix.com
 www.exelmembers.com
 www.exelorate.info
+www.exelsure.com
 www.exemplar-education-support.com
 www.exemplar-education-support.org
 www.exemplar-support.com
@@ -219908,6 +219927,7 @@ www.jxlvx.com
 www.jxpzz.superpromo.hiig.info
 www.jxupohs1.com
 www.jxvjshp.setteracademie.com
+www.jyfrsjdkkhue.com
 www.jygwl.com
 www.jyhguang.com
 www.jyixi.com
@@ -219997,6 +220017,7 @@ www.kaiorcollectibles.com
 www.kaiosddksioadks.site
 www.kaizen365-tech.net
 www.kajt24.pl
+www.kakaopv.co.kr
 www.kakasoft.com
 www.kakegirfacebookcustomercarephonenumber8448.wordpress.com
 www.kakeiwooakwurjsuwdm.site
@@ -231064,6 +231085,7 @@ www.navi69.com
 www.navi7.com
 www.navi72.com
 www.navi72.ru
+www.navi76.ru
 www.navi77.com
 www.navi78.ru
 www.navi8.com
@@ -242353,6 +242375,7 @@ www.plastitude.com
 www.plata.rnum8392.pl
 www.plateg-system.ru
 www.platform-az.com
+www.platform.crypto1capital-trade.com
 www.platformcoop.net
 www.platformrentos.ru
 www.plati.msk.ru
@@ -247586,6 +247609,7 @@ www.robotxpress.com
 www.robrta.top
 www.robsdt-738.getforge.io
 www.robuxmenu.vip
+www.robuxreward.live
 www.rocioshayler.com
 www.rock-fortune.com
 www.rockawaybeachor.us
@@ -249183,6 +249207,7 @@ www.sbcglobaltechsupportphonenumber.blogspot.com
 www.sbendpeci.cyou
 www.sber.avito.booking.com-id3212341.info
 www.sber.avito.sber.booking.com-id322712.com
+www.sber.booking.com-id23901.info
 www.sberbank-online-gid.ru
 www.sberboom.plp7.ru
 www.sberrdisse.cyou
@@ -253202,6 +253227,7 @@ www.sportavantgarde.com
 www.sportbet.bid
 www.sportblue6sonline.makesit.net
 www.sportezpremium.com
+www.sportfamily.us
 www.sportfanlab.com
 www.sportfirestore.com
 www.sportflix.co
@@ -253252,6 +253278,7 @@ www.sportswearfanatics.com
 www.sportswearforfans.com
 www.sporttnpascher.org
 www.sportumfrage.de
+www.sportyprinty.com
 www.sportzz.shop
 www.spospotify.com
 www.spostpseud.cyou

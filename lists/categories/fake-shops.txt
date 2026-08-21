@@ -3,8 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 11399
-# Auto-updated: 2026-08-20T04:00:34Z
+# Entries: 11409
+# Auto-updated: 2026-08-21T04:02:59Z
 # Description: Aggressive deceptive-store and fake-shop candidates derived from fraud/scam intelligence.
 # Sources: Block List Project Fraud/Scam (retail subset); DurableNapkin (retail subset); Verbraucherzentrale curated entries
 # Snapshot: 2026-08
@@ -4591,6 +4591,7 @@ store.breakshirts.com
 store.bsnltowerinstallations.com
 store.buddhakind.com
 store.buzzazone.com
+store.buzzdeal.com
 store.bwpkizpfms.funnelish.com
 store.by-emmamuller.de
 store.byeuys.shop
@@ -4605,10 +4606,12 @@ store.cibtvisas.com
 store.ckkebt.shop
 store.clubatleticodemadrid.com
 store.cluckergifts.ecwid.com
+store.cma88.vip
 store.cmoboy.com
 store.cognatesyringe.com
 store.coinaps.com
 store.coinreq.com
+store.commerztan.com
 store.communityappitem.shop
 store.communityappmarket.shop
 store.communityapponline.shop
@@ -4843,9 +4846,13 @@ store.paloalto.com
 store.pantacusa.com
 store.parajumpersnettbutikk.com
 store.parajumpersnorway.com
+store.pay.avito.avito.avito.pay.com-id20341.info
+store.pay.avito.pay.com-id02349.info
+store.pay.com-id15421.info
 store.penguinnow.com
 store.pharaohstore.com
 store.phirussacmush.net
+store.physiotherapyindhaka.com
 store.pinjamanrupiah.xyz
 store.piratedrive.com
 store.pjs.outlet.com
@@ -4915,6 +4922,7 @@ store.supervisualteam.com
 store.supperbrand.company.site
 store.swellsup.com
 store.tartannewzealand.myshopify.com
+store.tdgrop168.vip
 store.telegramweb.vercel.app
 store.terverystaio.info
 store.the-north-face.gr
@@ -7121,6 +7129,7 @@ www.bigstarshoes.idrinks.sbs
 www.bigtradeshoes.ru
 www.bih4837h4h93.shop
 www.binfashiontrending.co
+www.binggrondahlshop.com
 www.biogtzgx.shop
 www.bioracerzi-store.shop
 www.biosustainf.shop
@@ -7806,6 +7815,7 @@ www.evantio.shop
 www.everoutlet.shop
 www.eviralstore.com
 www.ewa-michalak.shop
+www.exclusivebuyz4uu.shop
 www.exshop24.biz
 www.extrastore.biz
 www.eyeletandhook.shop
