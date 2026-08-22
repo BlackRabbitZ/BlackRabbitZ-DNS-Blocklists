@@ -3,8 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 284106
-# Auto-updated: 2026-08-21T04:02:59Z
+# Entries: 284121
+# Auto-updated: 2026-08-22T03:58:12Z
 # Description: Massive scam, fraud and deceptive-platform domain set.
 # Sources: Block List Project Fraud/Scam; DurableNapkin Scam Blocklist; curated BaFin entries
 # Snapshot: 2026-08
@@ -57208,6 +57208,7 @@ faze3.com
 faze4.com
 faze47.com
 faze5.com
+faze76.com
 faze77.com
 faze8.com
 faze9.com
@@ -107704,6 +107705,7 @@ onrunningon.myshoplaza.com
 onrunningoutletdeutschland.com
 onrunningoutletdeutschland.de
 onrunningoutletfactory.com
+onrunningshop.com
 onrunningsoutlet.de
 onrunningwien.at
 onryd.com
@@ -181615,6 +181617,7 @@ www.aushadhee.com
 www.aushadhimart.com
 www.aushka.biz
 www.ausoleillevant.fr
+www.auspost.your-redelivery-au.com
 www.aussiecoupons.net
 www.aussiemethod.com
 www.aussiesportfashion.com
@@ -182124,6 +182127,7 @@ www.aviravip.com
 www.avirusscan.com
 www.avita.net.pl
 www.avito-help.ru
+www.avito.pay.avito.avito.avito.avito.avito.com-id90123.info
 www.avlegalsupport.com
 www.avocat-ndoba.be
 www.avocatbarbulescu.ro
@@ -197579,6 +197583,7 @@ www.dexmax.ai
 www.dexnomor.eu
 www.dexplay.net
 www.dexylon.org
+www.deytee.com
 www.dezpez.com
 www.df-cigarettes-tobacco-cigars.com
 www.dfdddxdcf.blogspot.com
@@ -208869,6 +208874,7 @@ www.freegamesonlinee.club
 www.freegiftcards.science
 www.freegiftcode.com
 www.freegiftcodegenerator.com
+www.freegiftscards.shop
 www.freegovernmentjobalert.com
 www.freegovjobalert.com
 www.freegovtjobalert.com
@@ -231074,6 +231080,7 @@ www.navi36.ru
 www.navi38.ru
 www.navi39.ru
 www.navi42.ru
+www.navi44.ru
 www.navi5.com
 www.navi53.com
 www.navi56.com
@@ -231088,7 +231095,9 @@ www.navi72.ru
 www.navi76.ru
 www.navi77.com
 www.navi78.ru
+www.navi79.ru
 www.navi8.com
+www.navi8.ru
 www.navi86.ru
 www.navi88.com
 www.navi9.com
@@ -233578,6 +233587,7 @@ www.nip4.com
 www.nip46.com
 www.nip5.com
 www.nip57.com
+www.nip76.com
 www.nip8.com
 www.nip9.com
 www.nippywarthog.autos
@@ -236435,6 +236445,7 @@ www.onpagehelp-logportal86354.com
 www.onphonesupport.com
 www.onpointstockalerts.com
 www.onrunning-polskas.com
+www.onrunningshop.com
 www.ons-bank.com
 www.onsale-market.shop
 www.onsalers.com
@@ -249209,6 +249220,8 @@ www.sber.avito.booking.com-id3212341.info
 www.sber.avito.sber.booking.com-id322712.com
 www.sber.booking.com-id23901.info
 www.sberbank-online-gid.ru
+www.sberbank.avito.avito.avito.avito.com-id309712.com
+www.sberbank.sberbank.www.booking.com-id123251.info
 www.sberboom.plp7.ru
 www.sberrdisse.cyou
 www.sberrtaroke.cyou
@@ -267029,6 +267042,7 @@ www.uniswapai.xyz
 www.uniswapapp.xyz
 www.uniswapbot.xyz
 www.uniswapcapital.xyz
+www.uniswapcriterion.com
 www.uniswapdao.xyz
 www.uniswapdefi.xyz
 www.uniswapetf.xyz
@@ -278445,6 +278459,7 @@ www.yandex-uber.taxi
 www.yandex-windows-7.ru
 www.yandex-windows-8.ru
 www.yandex-yan.ru
+www.yandex.avito.booking.com-id302912.com
 www.yandex.avito.pay.avito.avito.com-id809712.com
 www.yandex.blue
 www.yandex.feedback

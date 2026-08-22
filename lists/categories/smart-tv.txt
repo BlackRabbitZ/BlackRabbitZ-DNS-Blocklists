@@ -3,7 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 659
+# Entries: 660
+# Auto-updated: 2026-08-22T03:57:04Z
 # Description: Smart-TV advertising, ACR, diagnostics and telemetry endpoints.
 # Sources: Block List Project; Perflyst PiHoleBlocklist; HaGeZi LG webOS
 # Snapshot: 2026-08
@@ -370,6 +371,7 @@ kg.lgsmartad.com
 kh-ad-lgsmartad-com.aws-prd.net
 kic-ngfts.lge.com
 kic-ngfts.lge.com.edgekey.net
+kic-qt2-ngfts.lge.com
 kn.lgsmartad.com
 kr-ad-lgsmartad-com.aws-prd.net
 kr.lgsmartad.com

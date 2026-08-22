@@ -3,7 +3,7 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 375065
+# Entries: 375066
 #
 # Includes: ads,trackers,social-trackers,affiliate-tracking,telemetry,windows-telemetry,apple-telemetry,android-telemetry,linux-telemetry,nas-telemetry,server-telemetry,mobile-tracking,native-tracking,smart-tv,iot
 #
@@ -174416,6 +174416,7 @@ kibocommerce.com
 kibou-no-hane.com
 kic-ngfts.lge.com
 kic-ngfts.lge.com.edgekey.net
+kic-qt2-ngfts.lge.com
 kic.cdpbeacon.lgtvcommon.com
 kic.homeprv.lgtvcommon.com
 kic.nudge.lgtvcommon.com

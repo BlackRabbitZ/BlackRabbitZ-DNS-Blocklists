@@ -3,8 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 1467
-# Auto-updated: 2026-08-16T04:00:04Z
+# Entries: 1468
+# Auto-updated: 2026-08-22T03:57:04Z
 # Description: Native OS, device and application tracking endpoints.
 # Sources: NextDNS Native Tracking Protection; Perflyst PiHoleBlocklist; HaGeZi native tracking
 # Snapshot: 2026-08
@@ -789,6 +789,7 @@ kg.lgsmartad.com
 kh-ad-lgsmartad-com.aws-prd.net
 kic-ngfts.lge.com
 kic-ngfts.lge.com.edgekey.net
+kic-qt2-ngfts.lge.com
 kn.lgsmartad.com
 kr-ad-lgsmartad-com.aws-prd.net
 kr.lgsmartad.com

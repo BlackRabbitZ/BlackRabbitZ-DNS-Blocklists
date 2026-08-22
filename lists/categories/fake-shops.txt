@@ -3,8 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 11409
-# Auto-updated: 2026-08-21T04:02:59Z
+# Entries: 11412
+# Auto-updated: 2026-08-22T03:58:13Z
 # Description: Aggressive deceptive-store and fake-shop candidates derived from fraud/scam intelligence.
 # Sources: Block List Project Fraud/Scam (retail subset); DurableNapkin (retail subset); Verbraucherzentrale curated entries
 # Snapshot: 2026-08
@@ -3528,6 +3528,7 @@ onlinewebmyshops.com
 onlinewebshop.net
 onlinewebstoresupport.com
 onlsated.shop
+onrunningshop.com
 onsale-market.shop
 onsite-support.store
 ontariomallantique.com
@@ -8000,6 +8001,7 @@ www.fractalfashion.com
 www.franzkobler.shop
 www.frclarks.shop
 www.free-uber-lyft-discount-code.com
+www.freegiftscards.shop
 www.freshccshop.com
 www.freshdiscountcorner.shop
 www.freshino.shop
@@ -9303,6 +9305,7 @@ www.onlinewebmyshops.com
 www.onlinewebshop.net
 www.onlinewebstoresupport.com
 www.onlsated.shop
+www.onrunningshop.com
 www.onsale-market.shop
 www.ontariomallantique.com
 www.oo.storeieslife.com
