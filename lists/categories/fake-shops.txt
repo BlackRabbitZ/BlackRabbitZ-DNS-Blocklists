@@ -3,8 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 11412
-# Auto-updated: 2026-08-22T03:58:13Z
+# Entries: 11418
+# Auto-updated: 2026-08-23T04:03:10Z
 # Description: Aggressive deceptive-store and fake-shop candidates derived from fraud/scam intelligence.
 # Sources: Block List Project Fraud/Scam (retail subset); DurableNapkin (retail subset); Verbraucherzentrale curated entries
 # Snapshot: 2026-08
@@ -4541,6 +4541,7 @@ store.airteltower.com
 store.airup-romania.com
 store.airupsrbija.com
 store.aldebaran.com
+store.aldi-life.vip
 store.alindflepkaty14.pages.dev
 store.aliyaoberbrunnergreg21.myshopify.com
 store.allcars.cn
@@ -4658,6 +4659,7 @@ store.empowerfitness.com
 store.enchantestore.myshopify.com
 store.envisiongear.com
 store.eset.co.il
+store.eshaalfawson.shop
 store.evisaindia.com
 store.evisaindia.org
 store.ex-torrenty.org
@@ -4854,6 +4856,7 @@ store.penguinnow.com
 store.pharaohstore.com
 store.phirussacmush.net
 store.physiotherapyindhaka.com
+store.pickcheaptee.com
 store.pinjamanrupiah.xyz
 store.piratedrive.com
 store.pjs.outlet.com
@@ -4881,6 +4884,7 @@ store.rsaonlinenow.com.au
 store.rustdesk.secure-box.de
 store.saveeeee.myshopify.com
 store.sber.avito.booking.com-id334212.com
+store.sber.com-id129041.info
 store.sberbank.avito.avito.sber.www42.com-id23901.info
 store.sberbank.pay.sber.www.com-id1800853.com
 store.sberbank.sber.id19845672.info
@@ -5018,6 +5022,7 @@ store.xcartpro.com
 store.xvid.social-previews.top
 store.yahhhoo.com
 store.yandex.avito.bo0king.com-id16313.info
+store.yandex.www.booking.com-id302912.com
 store.ygtube.xyz
 store.youtubee.com
 store.youtunbe.com
@@ -8124,6 +8129,7 @@ www.guruaidshop.mobi
 www.guruaidshop.net
 www.guruaidshop.us
 www.gustinstore.com
+www.guus.store
 www.gym-market.shop
 www.gym-online.shop
 www.gymbeam-pl.shop
