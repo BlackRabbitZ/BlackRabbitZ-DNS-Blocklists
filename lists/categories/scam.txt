@@ -3,8 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 284140
-# Auto-updated: 2026-08-23T04:03:09Z
+# Entries: 284171
+# Auto-updated: 2026-08-24T04:07:18Z
 # Description: Massive scam, fraud and deceptive-platform domain set.
 # Sources: Block List Project Fraud/Scam; DurableNapkin Scam Blocklist; curated BaFin entries
 # Snapshot: 2026-08
@@ -84500,6 +84500,7 @@ ledger.live-transactions-check.com
 ledgerlive.claims
 ledgerliveapps.web.app
 ledgerone.stream
+ledgerslive.org
 ledgerwalletfirmwareupdate.com
 ledgerwalletupdates.com
 ledgiest.pw
@@ -110369,7 +110370,9 @@ pay-profit.space
 pay-someone-to-write-my-paper.com
 pay-update.com
 pay.avito.avito.avito.avito.avito.avito.com-id02349.info
+pay.avito.avito.avito.avito.avito.booking.com-id15421.info
 pay.avito.avito.avito.com-id809702.com
+pay.avito.com-id90123.info
 pay.osoobe.com
 pay.quicktechies.com
 pay2me.pl
@@ -127613,7 +127616,9 @@ sberbank-online-gid.ru
 sberbank.avito.com-id20341.info
 sberbank.com-id02349.info
 sberbank.pay.avito.avito.avito.avito.com-id809702.com
+sberbank.pay.www.booking.com-id322712.com
 sberbank.www.avito.www.booking.com-id90123.info
+sberbank.www.blablacar.id90152861.com
 sberboom.plp7.ru
 sberex.com
 sberrdisse.cyou
@@ -136610,6 +136615,7 @@ store.atoins.com
 store.atrendsz.com
 store.avarik.web.app
 store.avito.avito.avito.avito.avito.booking.com-id23901.info
+store.avito.avito.avito.pay.com-id02349.info
 store.backend.store.eset.co.il
 store.bajeczki.org.pl
 store.baltic-pipe-finansowy.blogspot.com
@@ -136666,6 +136672,7 @@ store.cmoboy.com
 store.cognatesyringe.com
 store.coinaps.com
 store.coinreq.com
+store.com-id15421.info
 store.commerztan.com
 store.communityappitem.shop
 store.communityappmarket.shop
@@ -136725,6 +136732,7 @@ store.facebook-support-team-980.pages.med.br
 store.familybestgifts.com
 store.familygiftlove.myshopify.com
 store.fancycentral.com
+store.fashionshawaii.com
 store.faunugraipt.com
 store.faze2.com
 store.faze3.com
@@ -136763,6 +136771,7 @@ store.graphyon.com
 store.gsport.com
 store.gtlinfrastructurelimited.com
 store.headlessduplicatedtapes.cz
+store.headsets4business.co.uk
 store.healthsoluteions.com
 store.helpnanacenter.helpscoutdocs.com
 store.heukmsactivator.com
@@ -136818,6 +136827,7 @@ store.lucidtiger.com
 store.luckyhomie.com
 store.lucysstyle.com
 store.luxsgear.com
+store.m.coinexeu.vip
 store.maebl.com
 store.magnite.shop
 store.mahoganycanada.com
@@ -136849,6 +136859,7 @@ store.navi10.com
 store.navi100.com
 store.navi11.com
 store.navi12.com
+store.navi13.ru
 store.navi20.com
 store.navi20.ru
 store.navi21.com
@@ -136860,6 +136871,7 @@ store.navi42.ru
 store.navi5.com
 store.navi6.com
 store.navi65.com
+store.navi67.com
 store.navi72.ru
 store.navi77.com
 store.navi78.ru
@@ -136868,6 +136880,7 @@ store.navi88.com
 store.navi9.com
 store.navi98.com
 store.navi99.com
+store.new-spacex-2023.com
 store.new.gdtot.me
 store.new.piratedrive.com
 store.new2.gdtot.sbs
@@ -136901,10 +136914,13 @@ store.outel.abmarketworks.com
 store.padsims.com
 store.pages.tempisite.com
 store.paloalto.com
+store.pambi.tech
 store.pantacusa.com
 store.parajumpersnettbutikk.com
 store.parajumpersnorway.com
+store.pay.avito.avito.avito.avito.booking.com-id20341.info
 store.pay.avito.avito.avito.pay.com-id20341.info
+store.pay.avito.avito.pay.booking.com-id809702.com
 store.pay.avito.pay.com-id02349.info
 store.pay.com-id15421.info
 store.penguinnow.com
@@ -136932,9 +136948,11 @@ store.re-captha-version-3-277.buzz
 store.reforest-iita.org
 store.request.report
 store.resources4gaming.com
+store.retoaudi.com
 store.revanced-extended.com
 store.ringtoperfection.com
 store.robalmeister.workers.dev
+store.robuxmenu.vip
 store.royaldecorcollection.com
 store.rozomii.info
 store.rsaonlinenow.com.au
@@ -136986,6 +137004,7 @@ store.swellsup.com
 store.tartannewzealand.myshopify.com
 store.tdgrop168.vip
 store.telegramweb.vercel.app
+store.tencheckit.org
 store.terverystaio.info
 store.the-north-face.gr
 store.thecabinas.com
@@ -137080,6 +137099,7 @@ store.xcartpro.com
 store.xvid.social-previews.top
 store.yahhhoo.com
 store.yandex.avito.bo0king.com-id16313.info
+store.yandex.pay.avito.avito.avito.sberbank.booking.com-id90123.info
 store.yandex.www.booking.com-id302912.com
 store.yeelight.com
 store.ygtube.xyz
@@ -148269,6 +148289,7 @@ tesla-support.com
 tesla-support.net
 tesla2xdrop.com
 teslaassembly.org
+teslaclub.io
 teslacoin.io
 teslaminingprogram.com
 teslamower.com
@@ -157165,6 +157186,7 @@ ussoftwaresolutionsinc.com
 ussolesensation.com
 ussolutionssupport.club
 ussolutionssupports.club
+ussportpioneer.com
 ussteamviewer.com
 usstylesite.com
 ussupport.tech
@@ -172929,6 +172951,7 @@ www.aircanada-get.us
 www.aircanada-offer.us
 www.aircanada-offers.us
 www.aircanada-signup.us
+www.aircgd.shop
 www.airdropalerts2018.com
 www.airerrorcode.com
 www.airesdeldelta.com.ar
@@ -233602,6 +233625,7 @@ www.nip5.com
 www.nip57.com
 www.nip76.com
 www.nip8.com
+www.nip86.com
 www.nip9.com
 www.nip94.com
 www.nippywarthog.autos
@@ -236698,6 +236722,7 @@ www.oracledailybrief.pro
 www.orafresh.pl
 www.oralcancersupportgroup.com
 www.oralfarma.com.br
+www.orami.one
 www.oramothery.tk
 www.orandeltaai-app.com
 www.orangbcks.cyou
@@ -237727,9 +237752,12 @@ www.pay-pal-support.com
 www.pay-pall.support
 www.pay-someone-to-write-my-paper.com
 www.pay-update.com
+www.pay.avito.pay.booking.com-id3212341.info
+www.pay.avito.sber.pay.booking.com-id809702.com
 www.pay.avito.www.com-id1800853.com
 www.pay.osoobe.com
 www.pay.www.avito.booking.com-id9523416.com
+www.pay.www.avito.www.booking.com-id15421.info
 www.pay2me.pl
 www.pay2x.ru
 www.pay4by.cc
@@ -246639,6 +246667,7 @@ www.relatifpasser.tk
 www.relationshipmarketingcenter.com
 www.relationshiprewind.com
 www.relationsupport.com
+www.relaxcsvote.shop
 www.relayimmo.com
 www.relazoctae.cyou
 www.release-shop.de
@@ -249234,6 +249263,8 @@ www.sbcglobaltechsupportphonenumber.blogspot.com
 www.sbendpeci.cyou
 www.sber.avito.booking.com-id3212341.info
 www.sber.avito.sber.booking.com-id322712.com
+www.sber.avito.www.booking.com-id329712.com
+www.sber.avito.www.booking.com-id334212.com
 www.sber.booking.com-id23901.info
 www.sberbank-online-gid.ru
 www.sberbank.avito.avito.avito.avito.com-id309712.com

@@ -3,8 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 11418
-# Auto-updated: 2026-08-23T04:03:10Z
+# Entries: 11435
+# Auto-updated: 2026-08-24T04:07:19Z
 # Description: Aggressive deceptive-store and fake-shop candidates derived from fraud/scam intelligence.
 # Sources: Block List Project Fraud/Scam (retail subset); DurableNapkin (retail subset); Verbraucherzentrale curated entries
 # Snapshot: 2026-08
@@ -4557,6 +4557,7 @@ store.atoins.com
 store.atrendsz.com
 store.avarik.web.app
 store.avito.avito.avito.avito.avito.booking.com-id23901.info
+store.avito.avito.avito.pay.com-id02349.info
 store.backend.store.eset.co.il
 store.bajeczki.org.pl
 store.baltic-pipe-finansowy.blogspot.com
@@ -4613,6 +4614,7 @@ store.cmoboy.com
 store.cognatesyringe.com
 store.coinaps.com
 store.coinreq.com
+store.com-id15421.info
 store.commerztan.com
 store.communityappitem.shop
 store.communityappmarket.shop
@@ -4671,6 +4673,7 @@ store.facebook-support-team-980.pages.med.br
 store.familybestgifts.com
 store.familygiftlove.myshopify.com
 store.fancycentral.com
+store.fashionshawaii.com
 store.faunugraipt.com
 store.faze2.com
 store.faze3.com
@@ -4709,6 +4712,7 @@ store.graphyon.com
 store.gsport.com
 store.gtlinfrastructurelimited.com
 store.headlessduplicatedtapes.cz
+store.headsets4business.co.uk
 store.healthsoluteions.com
 store.helpnanacenter.helpscoutdocs.com
 store.heukmsactivator.com
@@ -4763,6 +4767,7 @@ store.lucidtiger.com
 store.luckyhomie.com
 store.lucysstyle.com
 store.luxsgear.com
+store.m.coinexeu.vip
 store.maebl.com
 store.magnite.shop
 store.mahoganycanada.com
@@ -4794,6 +4799,7 @@ store.navi10.com
 store.navi100.com
 store.navi11.com
 store.navi12.com
+store.navi13.ru
 store.navi20.com
 store.navi20.ru
 store.navi21.com
@@ -4805,6 +4811,7 @@ store.navi42.ru
 store.navi5.com
 store.navi6.com
 store.navi65.com
+store.navi67.com
 store.navi72.ru
 store.navi77.com
 store.navi78.ru
@@ -4813,6 +4820,7 @@ store.navi88.com
 store.navi9.com
 store.navi98.com
 store.navi99.com
+store.new-spacex-2023.com
 store.new.gdtot.me
 store.new.piratedrive.com
 store.new2.gdtot.sbs
@@ -4846,10 +4854,13 @@ store.outel.abmarketworks.com
 store.padsims.com
 store.pages.tempisite.com
 store.paloalto.com
+store.pambi.tech
 store.pantacusa.com
 store.parajumpersnettbutikk.com
 store.parajumpersnorway.com
+store.pay.avito.avito.avito.avito.booking.com-id20341.info
 store.pay.avito.avito.avito.pay.com-id20341.info
+store.pay.avito.avito.pay.booking.com-id809702.com
 store.pay.avito.pay.com-id02349.info
 store.pay.com-id15421.info
 store.penguinnow.com
@@ -4875,9 +4886,11 @@ store.re-captha-version-3-277.buzz
 store.reforest-iita.org
 store.request.report
 store.resources4gaming.com
+store.retoaudi.com
 store.revanced-extended.com
 store.ringtoperfection.com
 store.robalmeister.workers.dev
+store.robuxmenu.vip
 store.royaldecorcollection.com
 store.rozomii.info
 store.rsaonlinenow.com.au
@@ -4929,6 +4942,7 @@ store.swellsup.com
 store.tartannewzealand.myshopify.com
 store.tdgrop168.vip
 store.telegramweb.vercel.app
+store.tencheckit.org
 store.terverystaio.info
 store.the-north-face.gr
 store.thecabinas.com
@@ -5022,6 +5036,7 @@ store.xcartpro.com
 store.xvid.social-previews.top
 store.yahhhoo.com
 store.yandex.avito.bo0king.com-id16313.info
+store.yandex.pay.avito.avito.avito.sberbank.booking.com-id90123.info
 store.yandex.www.booking.com-id302912.com
 store.ygtube.xyz
 store.youtubee.com
@@ -6237,6 +6252,7 @@ www.aiebilet.smart9432823813734.shop
 www.aiebilet.smart94381239.shop
 www.ainayyaboutique.site
 www.air-jordanshoes.us.com
+www.aircgd.shop
 www.airjordansneaker.com
 www.airjordansshoesbuyonlinecheap.com
 www.airmaxdiscountol.com
@@ -9641,6 +9657,7 @@ www.redrunningshoes.com
 www.refund-support-in-app.store
 www.refundza.shop
 www.reg953792.shop
+www.relaxcsvote.shop
 www.release-shop.de
 www.remember-to-check.nowo-link.shop
 www.remvvn.shop
