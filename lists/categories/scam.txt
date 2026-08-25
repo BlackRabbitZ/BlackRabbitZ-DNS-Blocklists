@@ -3,8 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 284171
-# Auto-updated: 2026-08-24T04:07:18Z
+# Entries: 284175
+# Auto-updated: 2026-08-25T04:01:32Z
 # Description: Massive scam, fraud and deceptive-platform domain set.
 # Sources: Block List Project Fraud/Scam; DurableNapkin Scam Blocklist; curated BaFin entries
 # Snapshot: 2026-08
@@ -48951,6 +48951,7 @@ en-applverifynow.com
 en-idwebpages-unauthorized-login-attempt.com
 en-supportappl.com
 en-supportunlock.com
+en-trezor.io
 en.bigtests.club
 en.btcinvestor.biz
 en.panapromostore.com
@@ -200213,6 +200214,7 @@ www.ekejw.com
 www.ekeventmore.com
 www.ekiison.com
 www.ekino-tv.com.pl
+www.ekino-tv.eu
 www.ekino-tv.online
 www.ekino-tv.tv
 www.ekipaforex.pl
@@ -200761,6 +200763,7 @@ www.en-applverifynow.com
 www.en-idwebpages-unauthorized-login-attempt.com
 www.en-supportappl.com
 www.en-supportunlock.com
+www.en-trezor.io
 www.en.btcinvestor.biz
 www.en.efhr.eu
 www.enablebol.life
@@ -259368,6 +259371,7 @@ www.td-mobile-ca-login.info
 www.td-updateonline.com
 www.td903.inspectionprocedure.shop
 www.tdcdn-verify.com
+www.tdgrop168.vip
 www.tdm.com.co
 www.tdrdwhxxgjzhztwxtxsf-dp9ctcz1v8gi.edgeone.dev
 www.tdservis.blogspot.com
