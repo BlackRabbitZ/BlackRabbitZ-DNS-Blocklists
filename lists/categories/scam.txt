@@ -3,8 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 284175
-# Auto-updated: 2026-08-25T04:01:32Z
+# Entries: 284181
+# Auto-updated: 2026-08-26T04:04:22Z
 # Description: Massive scam, fraud and deceptive-platform domain set.
 # Sources: Block List Project Fraud/Scam; DurableNapkin Scam Blocklist; curated BaFin entries
 # Snapshot: 2026-08
@@ -20761,6 +20761,7 @@ bentozi.store
 benutzer-anmeldung.com
 benutzeranmeldung.com
 benx828nwbq.shop
+benxi.info
 benzene.stream
 benzine.stream
 benzinkanistertrichter.com
@@ -136623,6 +136624,7 @@ store.baltic-pipe-finansowy.blogspot.com
 store.baltic79.wordpress.com
 store.balticpipe.wordpress.com
 store.benecharm.com
+store.benxi.info
 store.bertasxt.com
 store.best-torrents.com
 store.bestvod.pl
@@ -136722,6 +136724,7 @@ store.enchantestore.myshopify.com
 store.envisiongear.com
 store.eset.co.il
 store.eshaalfawson.shop
+store.eurosko.net
 store.evisaindia.com
 store.evisaindia.org
 store.ex-torrenty.org
@@ -183212,6 +183215,7 @@ www.bentleytechsupport.com
 www.benutzer-anmeldung.com
 www.benutzeranmeldung.com
 www.benx828nwbq.shop
+www.benxi.info
 www.benzkartel.duckdns.org
 www.beooshadowed.info
 www.beosdirwekaiweorlfd.com
@@ -196495,6 +196499,7 @@ www.custumersupportnumber.help
 www.cutbackbitumenpn.com
 www.cutbrand.com
 www.cuteboo.com
+www.cuteclub.org
 www.cutefollowers24.site
 www.cutewikipedia.com
 www.cutguru.com
@@ -219021,6 +219026,7 @@ www.itpcsupport.online
 www.itpesthetique.pl
 www.itphonenumber.com
 www.itprosupport.online
+www.itq.cuteclub.org
 www.itqisupport.com
 www.itracktech.com
 www.itrmc.tk
