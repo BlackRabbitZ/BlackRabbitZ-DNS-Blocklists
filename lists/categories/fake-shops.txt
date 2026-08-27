@@ -3,8 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 11437
-# Auto-updated: 2026-08-26T04:04:23Z
+# Entries: 11439
+# Auto-updated: 2026-08-27T14:15:04Z
 # Description: Aggressive deceptive-store and fake-shop candidates derived from fraud/scam intelligence.
 # Sources: Block List Project Fraud/Scam (retail subset); DurableNapkin (retail subset); Verbraucherzentrale curated entries
 # Snapshot: 2026-08
@@ -4757,6 +4757,7 @@ store.kinomaniak.cc
 store.klasykavod.pl
 store.kmspicoofficial.com
 store.koinprime.com
+store.kontribusiuang.top
 store.legabitid.com
 store.lesliespracklen.sa.com
 store.letteringift.com
@@ -4870,6 +4871,7 @@ store.pharaohstore.com
 store.phirussacmush.net
 store.physiotherapyindhaka.com
 store.pickcheaptee.com
+store.pinjamanelit.top
 store.pinjamanrupiah.xyz
 store.piratedrive.com
 store.pjs.outlet.com

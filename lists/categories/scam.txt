@@ -3,8 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 284181
-# Auto-updated: 2026-08-26T04:04:22Z
+# Entries: 284186
+# Auto-updated: 2026-08-27T14:15:03Z
 # Description: Massive scam, fraud and deceptive-platform domain set.
 # Sources: Block List Project Fraud/Scam; DurableNapkin Scam Blocklist; curated BaFin entries
 # Snapshot: 2026-08
@@ -18801,6 +18801,7 @@ avis.support
 avita.net.pl
 avitaminoses.us
 avito-help.ru
+avito.avito.pay.booking.com-id329712.com
 avk.support
 avlegalsupport.com
 avn.network
@@ -82901,6 +82902,7 @@ kms-tool.com
 kmsauto.info
 kmsinn.com
 kmspi.co
+kmspico-official.org
 kmspico.io
 kmspicoofficial.com
 kmspicowindows10.com
@@ -136819,6 +136821,7 @@ store.kinomaniak.cc
 store.klasykavod.pl
 store.kmspicoofficial.com
 store.koinprime.com
+store.kontribusiuang.top
 store.legabitid.com
 store.lesliespracklen.sa.com
 store.letteringift.com
@@ -136932,6 +136935,7 @@ store.pharaohstore.com
 store.phirussacmush.net
 store.physiotherapyindhaka.com
 store.pickcheaptee.com
+store.pinjamanelit.top
 store.pinjamanrupiah.xyz
 store.piratedrive.com
 store.pjs.outlet.com
@@ -220812,6 +220816,7 @@ www.kms-tool.com
 www.kmsauto.info
 www.kmsinn.com
 www.kmspi.co
+www.kmspico-official.org
 www.kmspicoofficial.com
 www.kmspicowindows10.com
 www.kmssupport.com
