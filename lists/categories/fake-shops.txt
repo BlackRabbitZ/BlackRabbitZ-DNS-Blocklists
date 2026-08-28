@@ -3,8 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 11439
-# Auto-updated: 2026-08-27T14:15:04Z
+# Entries: 11442
+# Auto-updated: 2026-08-28T15:24:32Z
 # Description: Aggressive deceptive-store and fake-shop candidates derived from fraud/scam intelligence.
 # Sources: Block List Project Fraud/Scam (retail subset); DurableNapkin (retail subset); Verbraucherzentrale curated entries
 # Snapshot: 2026-08
@@ -7759,6 +7759,7 @@ www.ed-hardyoutlet.us
 www.edhardyoutletstore.us
 www.edwiinmoll.shop
 www.efendilerpetshop.com
+www.eggdy.shop
 www.egolfoutlet.ae
 www.ehathe.shop
 www.ejizkyql.shop
@@ -9212,6 +9213,7 @@ www.okazje-pl.shop
 www.oksupermall.com
 www.okusshop.com
 www.ol-xpaczka.profselqpo24h.shop
+www.olaoffer.shop
 www.olaroka.fashion
 www.olistore.co.uk
 www.oliveranchbergos.shop
@@ -10158,6 +10160,7 @@ www.spyderjacketretail.com
 www.sqkaymenu.shop
 www.srogoldshop.com
 www.stadiumshop.sbs
+www.stage3-last.store
 www.staging.mkpstore.com
 www.starkgen.store
 www.steelersjersey.us

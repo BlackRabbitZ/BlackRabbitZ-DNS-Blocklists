@@ -85,7 +85,7 @@ These are the main protection levels. Start with **Balanced** and move to **Stri
 | 🟢 **Light** | Low | **235,703** | Basic ad blocking | [View](lists/combined/light.txt) | **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/light.txt)** |
 | 🔵 **Balanced ⭐** | Medium | **373,196** | Most users | [View](lists/combined/balanced.txt) | **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/balanced.txt)** |
 | 🟠 **Strict** | High | **375,066** | Privacy-focused setups | [View](lists/combined/strict.txt) | **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/strict.txt)** |
-| 🔴 **Ultimate** | Maximum | **5,307,206** | Aggressive filtering | [Show Parts](#ultimate-parts) | **[Raw Parts](#ultimate-parts)** |
+| 🔴 **Ultimate** | Maximum | **5,312,611** | Aggressive filtering | [Show Parts](#ultimate-parts) | **[Raw Parts](#ultimate-parts)** |
 <!-- MAIN_PROFILES_END -->
 
 > **Balanced** is recommended for most installations.
@@ -130,8 +130,8 @@ These profiles solve a different problem than the privacy tiers above. They are 
 <!-- ADDON_PROFILES_START -->
 | Profile | Protection | Entries | Recommended for | View | Raw |
 |---|:---:|---:|---|:---:|:---:|
-| 🛡️ **Security** | Security | **3,491,791** | Security-focused filtering | [Show Parts](#security-parts) | **[Raw Parts](#security-parts)** |
-| 👨‍👩‍👧 **Family** | Family | **1,892,457** | Family networks | [Show Parts](#family-parts) | **[Raw Parts](#family-parts)** |
+| 🛡️ **Security** | Security | **3,493,032** | Security-focused filtering | [Show Parts](#security-parts) | **[Raw Parts](#security-parts)** |
+| 👨‍👩‍👧 **Family** | Family | **1,896,631** | Family networks | [Show Parts](#family-parts) | **[Raw Parts](#family-parts)** |
 <!-- ADDON_PROFILES_END -->
 
 - **Security** focuses on malware, phishing, scams, fake shops and cryptomining. It can be combined with Balanced or Strict.
@@ -150,11 +150,11 @@ Upgrading from the previous `security.txt` / `family.txt` / `ultimate-N.txt` lay
 <details>
 <summary><strong>🛡️ Security: Show Parts (2 files)</strong></summary>
 
-**Total: 3,491,791 unique domains.** Add all parts to Pi-hole or your DNS blocker for complete profile coverage.
+**Total: 3,493,032 unique domains.** Add all parts to Pi-hole or your DNS blocker for complete profile coverage.
 
 | Security Part | Security Part |
 |---|---|
-| **Part 01**  <br>**2,580,796** entries · 50.0 MiB  <br>[View](lists/combined/security-part-01.txt) · **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/security-part-01.txt)** | **Part 02**  <br>**910,995** entries · 18.1 MiB  <br>[View](lists/combined/security-part-02.txt) · **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/security-part-02.txt)** |
+| **Part 01**  <br>**2,580,848** entries · 50.0 MiB  <br>[View](lists/combined/security-part-01.txt) · **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/security-part-01.txt)** | **Part 02**  <br>**912,184** entries · 18.1 MiB  <br>[View](lists/combined/security-part-02.txt) · **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/security-part-02.txt)** |
 
 </details>
 
@@ -162,11 +162,11 @@ Upgrading from the previous `security.txt` / `family.txt` / `ultimate-N.txt` lay
 <details>
 <summary><strong>👨‍👩‍👧 Family: Show Parts (1 files)</strong></summary>
 
-**Total: 1,892,457 unique domains.** Add all parts to Pi-hole or your DNS blocker for complete profile coverage.
+**Total: 1,896,631 unique domains.** Add all parts to Pi-hole or your DNS blocker for complete profile coverage.
 
 | Family Part | Family Part |
 |---|---|
-| **Part 01**  <br>**1,892,457** entries · 34.4 MiB  <br>[View](lists/combined/family-part-01.txt) · **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/family-part-01.txt)** |  |
+| **Part 01**  <br>**1,896,631** entries · 34.5 MiB  <br>[View](lists/combined/family-part-01.txt) · **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/family-part-01.txt)** |  |
 
 </details>
 
@@ -174,12 +174,12 @@ Upgrading from the previous `security.txt` / `family.txt` / `ultimate-N.txt` lay
 <details>
 <summary><strong>🔴 Ultimate: Show Parts (3 files)</strong></summary>
 
-**Total: 5,307,206 unique domains.** Add all parts to Pi-hole or your DNS blocker for complete profile coverage.
+**Total: 5,312,611 unique domains.** Add all parts to Pi-hole or your DNS blocker for complete profile coverage.
 
 | Ultimate Part | Ultimate Part |
 |---|---|
-| **Part 01**  <br>**2,636,646** entries · 50.0 MiB  <br>[View](lists/combined/ultimate-part-01.txt) · **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/ultimate-part-01.txt)** | **Part 02**  <br>**2,593,412** entries · 50.0 MiB  <br>[View](lists/combined/ultimate-part-02.txt) · **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/ultimate-part-02.txt)** |
-| **Part 03**  <br>**77,148** entries · 1.3 MiB  <br>[View](lists/combined/ultimate-part-03.txt) · **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/ultimate-part-03.txt)** |  |
+| **Part 01**  <br>**2,636,606** entries · 50.0 MiB  <br>[View](lists/combined/ultimate-part-01.txt) · **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/ultimate-part-01.txt)** | **Part 02**  <br>**2,592,623** entries · 50.0 MiB  <br>[View](lists/combined/ultimate-part-02.txt) · **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/ultimate-part-02.txt)** |
+| **Part 03**  <br>**83,382** entries · 1.4 MiB  <br>[View](lists/combined/ultimate-part-03.txt) · **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/ultimate-part-03.txt)** |  |
 
 </details>
 <!-- SPLIT_PROFILES_END -->
@@ -247,10 +247,10 @@ Upgrading from the previous `security.txt` / `family.txt` / `ultimate-N.txt` lay
 <!-- SECURITY_TABLE_START -->
 | List | Entries | Description | View | Raw |
 |---|---:|---|:---:|:---:|
-| 🦠 **Malware** | 2,743,876 | Massive malware, ransomware and active malware-host set | [View](lists/categories/malware.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/malware.txt) |
+| 🦠 **Malware** | 2,745,105 | Massive malware, ransomware and active malware-host set | [View](lists/categories/malware.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/malware.txt) |
 | 🎣 **Phishing** | 572,468 | Massive active and curated phishing-domain set | [View](lists/categories/phishing.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/phishing.txt) |
-| 💰 **Scam & Internet Fraud** | 284,186 | Scam, fraud, fake-offer, trap and deceptive-platform domains | [View](lists/categories/scam.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/scam.txt) |
-| 🛒 **Fake Shops** | 11,439 | Aggressive fake-shop/deceptive-store candidate set | [View](lists/categories/fake-shops.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/fake-shops.txt) |
+| 💰 **Scam & Internet Fraud** | 284,201 | Scam, fraud, fake-offer, trap and deceptive-platform domains | [View](lists/categories/scam.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/scam.txt) |
+| 🛒 **Fake Shops** | 11,442 | Aggressive fake-shop/deceptive-store candidate set | [View](lists/categories/fake-shops.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/fake-shops.txt) |
 | ⛏️ **Cryptomining** | 6,121 | Browser/remote mining infrastructure (generic exchanges excluded) | [View](lists/categories/cryptomining.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/cryptomining.txt) |
 | <a id="list-threat-intelligence"></a>🔐 **Threat Intelligence Feeds** | 4 variants | Additional malware, phishing, scam, spam, cryptojacking and C2 indicators in multiple sizes. | [Variants](#list-threat-intelligence-variants) | — |
 | <a id="list-nrd-dga"></a>🆕 **Newly Registered Domains / NRD & DGA** | 8 variants | Time-window lists for newly registered domains and high-entropy DGA domains; very large and especially aggressive. | [Variants](#list-nrd-dga-variants) | — |
@@ -335,8 +335,8 @@ These optional modules target **DNS bypass, DNS rebinding and obfuscated redirec
 <!-- FAMILY_TABLE_START -->
 | List | Entries | Description | View | Raw |
 |---|---:|---|:---:|:---:|
-| 🔞 **Adult / NSFW** | 1,028,845 | Massive adult/NSFW-content and pornography domain set | [View](lists/categories/adult.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/adult.txt) |
-| 🎰 **Gambling** | 493,542 | Massive betting, casino and gambling domain set · [optional variants](#list-gambling-variants) | [View](lists/categories/gambling.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/gambling.txt) |
+| 🔞 **Adult / NSFW** | 1,028,846 | Massive adult/NSFW-content and pornography domain set | [View](lists/categories/adult.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/adult.txt) |
+| 🎰 **Gambling** | 497,715 | Massive betting, casino and gambling domain set · [optional variants](#list-gambling-variants) | [View](lists/categories/gambling.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/gambling.txt) |
 | <a id="list-safesearch-unsupported"></a>🔍 **SafeSearch Unsupported** | 206 | Blocks search engines that do not support SafeSearch. | [View](lists/categories/safesearch-unsupported.txt) | **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/safesearch-unsupported.txt)** |
 | <a id="list-anti-piracy"></a>💀 **Anti Piracy** | 39,740 | Blocks domains and services mainly used for unauthorized distribution of copyrighted content. | [View](lists/categories/anti-piracy.txt) | **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/anti-piracy.txt)** |
 | <a id="list-social-networks"></a>💬 **Social Networks** | 898 | Blocks access to traditional social networks; messaging and streaming are not automatically treated the same way. | [View](lists/categories/social-networks.txt) | **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/social-networks.txt)** |

@@ -3,8 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 284186
-# Auto-updated: 2026-08-27T14:15:03Z
+# Entries: 284201
+# Auto-updated: 2026-08-28T15:24:31Z
 # Description: Massive scam, fraud and deceptive-platform domain set.
 # Sources: Block List Project Fraud/Scam; DurableNapkin Scam Blocklist; curated BaFin entries
 # Snapshot: 2026-08
@@ -29374,6 +29374,7 @@ cheriutreeopewerder.site
 cherrico.com
 cherrylips.tvgoods4u.ru
 cherryspec.dumbgamers.com
+cherryzones.com
 chese-account-signin.com
 cheshep.com
 cheska-lekarna.com
@@ -39625,6 +39626,7 @@ crockpots.store
 crocs.farmacieravennait.sbs
 crocs.rohliksalecz.top
 crocslietuva.com
+crocssalenz.com
 croftandco.eu
 crofter.stream
 crokdalien.com
@@ -39690,6 +39692,7 @@ crucisitem.stream
 crudest.stream
 crudives.stream
 cruelnumb.icu
+crueltyspongy.cn
 crugo.de
 cruisecapital.co.uk
 cruiserollcall.com
@@ -42116,6 +42119,7 @@ deaden.stream
 deadened.stream
 deader.stream
 deadescrow.icu
+deadlockbeta.com
 deadsilencers.com
 deafest.stream
 deairecru.com
@@ -57206,6 +57210,7 @@ faynimaneli.com
 faysal4.com
 faze1.com
 faze10.com
+faze12.com
 faze2.com
 faze3.com
 faze4.com
@@ -172228,6 +172233,7 @@ www.admin-pc.com
 www.admin-supporter.com
 www.admin-user-windows.stream
 www.admin-whatsapp.com
+www.admin.ozon.id601294105.date
 www.admin.support
 www.admindevicealert.date
 www.admindevicealert.download
@@ -182168,6 +182174,7 @@ www.aviravip.com
 www.avirusscan.com
 www.avita.net.pl
 www.avito-help.ru
+www.avito.avito.pay.avito.avito.avito.booking.com-id90123.info
 www.avito.pay.avito.avito.avito.avito.avito.com-id90123.info
 www.avlegalsupport.com
 www.avocat-ndoba.be
@@ -200160,6 +200167,7 @@ www.egeocapital.com
 www.egeosoftware.com
 www.egesupmarine.com
 www.egfreepdf.site
+www.eggdy.shop
 www.eggsinthenest.com
 www.eghros.cf
 www.egiftss.com
@@ -207063,6 +207071,7 @@ www.faze3.com
 www.faze4.com
 www.faze47.com
 www.faze5.com
+www.faze66.com
 www.faze77.com
 www.faze8.com
 www.faze9.com
@@ -235450,6 +235459,7 @@ www.ol-xpaczka.zj37ak.cfd
 www.ol-xzamowienie1.lat
 www.ol-xzamowienie135.lat
 www.olajgarden.pl
+www.olaoffer.shop
 www.olaroka.fashion
 www.olcayto.art
 www.olcoga.top
@@ -237766,6 +237776,7 @@ www.pay-pal-support.com
 www.pay-pall.support
 www.pay-someone-to-write-my-paper.com
 www.pay-update.com
+www.pay.avito.avito.www.booking.com-id20341.info
 www.pay.avito.pay.booking.com-id3212341.info
 www.pay.avito.sber.pay.booking.com-id809702.com
 www.pay.avito.www.com-id1800853.com
@@ -249280,6 +249291,7 @@ www.sber.avito.sber.booking.com-id322712.com
 www.sber.avito.www.booking.com-id329712.com
 www.sber.avito.www.booking.com-id334212.com
 www.sber.booking.com-id23901.info
+www.sber.pay.sber.booking.com-id20341.info
 www.sberbank-online-gid.ru
 www.sberbank.avito.avito.avito.avito.com-id309712.com
 www.sberbank.sberbank.www.booking.com-id123251.info
@@ -253787,6 +253799,7 @@ www.stacy53.hookupdating33.com
 www.stadiumshop.sbs
 www.staf.cc
 www.stafab.se
+www.stage3-last.store
 www.stage3.wpengine-universalimaginginc.com
 www.stagewicke.cyou
 www.stagiacnod.cyou
@@ -267104,6 +267117,7 @@ www.uniswapai.xyz
 www.uniswapapp.xyz
 www.uniswapbot.xyz
 www.uniswapcapital.xyz
+www.uniswapcriteria.org
 www.uniswapcriterion.com
 www.uniswapdao.xyz
 www.uniswapdefi.xyz
@@ -280169,6 +280183,7 @@ www.zulicwroclawia.xyz
 www.zuluplayster.stream
 www.zulurunner.com
 www.zulustig.de
+www.zumam.us
 www.zumodi.com
 www.zumreonline.com
 www.zunduarex.pro

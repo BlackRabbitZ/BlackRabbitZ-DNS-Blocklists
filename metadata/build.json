@@ -7,10 +7,10 @@
       "sha256": "a1966351e5ffbd6b9f8b4f3c8334a9d5597b148c2dd3113f6762a2366505c126"
     },
     "adult": {
-      "bytes": 19822586,
-      "entries": 1028845,
+      "bytes": 19822596,
+      "entries": 1028846,
       "file": "lists/categories/adult.txt",
-      "sha256": "53be9e9addef856b94810f782aed3272268ac7afba3b547f80a954c01b169bd1"
+      "sha256": "7a9cb006d198f8a958e7a3a7380f08bdc30547820aa185b1fee1b95c979f7f38"
     },
     "affiliate-tracking": {
       "bytes": 14219,
@@ -97,16 +97,16 @@
       "sha256": "7e8326f7d9ce4db2fe91ba90a699cf018973ac1e98b7acd3dc8fc98fcb9bb989"
     },
     "fake-shops": {
-      "bytes": 261670,
-      "entries": 11439,
+      "bytes": 261725,
+      "entries": 11442,
       "file": "lists/categories/fake-shops.txt",
-      "sha256": "bfdfbd74155b464ffc12c5d7319a158eb3612e60c888453d5af996ce1371308f"
+      "sha256": "9f33773ba384bc07e9f59ae973721cf7edce8c8aa7f07132b65ac712a0af8de8"
     },
     "gambling": {
-      "bytes": 8386701,
-      "entries": 493542,
+      "bytes": 8466254,
+      "entries": 497715,
       "file": "lists/categories/gambling.txt",
-      "sha256": "a5eb623f3f1600d5139bd70f22033a6c9bd9131b5157f90fdba547a5d4a9e7b4"
+      "sha256": "722a782eb9969d2289e1ca3ed097508cd141fb56a69590baa5f09e3052a8efde"
     },
     "gambling-medium": {
       "bytes": 2564638,
@@ -145,10 +145,10 @@
       "sha256": "33cecda876993d903687efe8a239390fac23fa2ea2dbc4c504f4777eeb201257"
     },
     "malware": {
-      "bytes": 52608315,
-      "entries": 2743876,
+      "bytes": 52632103,
+      "entries": 2745105,
       "file": "lists/categories/malware.txt",
-      "sha256": "92e07a7eaafddeb8888583c9e9c9c876925ee59720bfd0684883a8506a8cad49"
+      "sha256": "3313c4e0f4de8031b8c0a83e31f975f3164b48a6abcd8938bc6b08acfced578c"
     },
     "mobile-tracking": {
       "bytes": 23297,
@@ -208,7 +208,7 @@
       "bytes": 15015929,
       "entries": 572468,
       "file": "lists/categories/phishing.txt",
-      "sha256": "2ccf3648e33b66d0d374018fee97802ebec95e6a4abf6161005976d1e82ee967"
+      "sha256": "9a206d3cf395d1fd65fc70298d3543a107e68a6dd017e7dc4908b1f9489b2d24"
     },
     "safesearch-unsupported": {
       "bytes": 3795,
@@ -217,10 +217,10 @@
       "sha256": "fdd209442f2624778a5b62a29edb86d49f4b0a80c667bbc928804a5156907363"
     },
     "scam": {
-      "bytes": 6151400,
-      "entries": 284186,
+      "bytes": 6151771,
+      "entries": 284201,
       "file": "lists/categories/scam.txt",
-      "sha256": "f74c07678ef3a730024d0a4f54a6cf62d1bd48d480310b455959b02dedd3cfee"
+      "sha256": "917ae462e762def35d99e9870deb139fc05385957516240e797db29d9daf153b"
     },
     "server-telemetry": {
       "bytes": 732,
@@ -318,13 +318,13 @@
         "adult",
         "gambling"
       ],
-      "entries": 1892457,
+      "entries": 1896631,
       "files": [
         {
-          "bytes": 36082151,
-          "entries": 1892457,
+          "bytes": 36161714,
+          "entries": 1896631,
           "file": "lists/combined/family-part-01.txt",
-          "sha256": "cebaa954797c1912b70dd9f5039730cc9da72b3da049aa5b658cb16d732e82d4"
+          "sha256": "a40910d89ad3511ca15fd7b09a7f6228c83a6d7ae8a0501f1752fdff36babd2b"
         }
       ],
       "group": "addon",
@@ -358,19 +358,19 @@
         "fake-shops",
         "cryptomining"
       ],
-      "entries": 3491791,
+      "entries": 3493032,
       "files": [
         {
           "bytes": 52425224,
-          "entries": 2580796,
+          "entries": 2580848,
           "file": "lists/combined/security-part-01.txt",
-          "sha256": "60ddd65599cc5b056912ad90d10b28097a316c45f5522a125c93093a9e156ae7"
+          "sha256": "4ed7eeed619fdc8755c32927e3f068f0a8c63bce54fb67599b9f415381736089"
         },
         {
-          "bytes": 19007249,
-          "entries": 910995,
+          "bytes": 19031344,
+          "entries": 912184,
           "file": "lists/combined/security-part-02.txt",
-          "sha256": "e6ef6cf43db6a11b0f216d29a36f698e0ebab839d401205589601eb79434109a"
+          "sha256": "37bb84da57f34a5c4e9a1e51b54e4b8574f887cd0a0fa1b043bc8228ea9c454c"
         }
       ],
       "group": "addon",
@@ -436,25 +436,25 @@
         "gambling",
         "affiliate-tracking"
       ],
-      "entries": 5307206,
+      "entries": 5312611,
       "files": [
         {
-          "bytes": 52425454,
-          "entries": 2636646,
+          "bytes": 52425423,
+          "entries": 2636606,
           "file": "lists/combined/ultimate-part-01.txt",
-          "sha256": "90d76e04feb5c488a1b3f0846a4bddb8a0e28b647ad84f99f7207a61db486ac1"
+          "sha256": "a0d6d159b30fd57aa3ddf76182ce665f3112b97d53385a0efc50c242e63d2046"
         },
         {
-          "bytes": 52425453,
-          "entries": 2593412,
+          "bytes": 52425458,
+          "entries": 2592623,
           "file": "lists/combined/ultimate-part-02.txt",
-          "sha256": "2ef131c2f36f1b25f6cef2fff32f02edb85f2b25b98f6b32099f6ed6b3dd46dc"
+          "sha256": "5fcba73eab5b3b244e2b91525ad8da8f42aef76c4297b5b1348c3d482c38b805"
         },
         {
-          "bytes": 1347520,
-          "entries": 77148,
+          "bytes": 1450956,
+          "entries": 83382,
           "file": "lists/combined/ultimate-part-03.txt",
-          "sha256": "de959b85785a1f54027a2465e9a8704405acb3a64744f1c9104daa644755a045"
+          "sha256": "05dca99e12d07105956724fb992b5abc2056afc7be733ddca19a508e29467144"
         }
       ],
       "group": "main",

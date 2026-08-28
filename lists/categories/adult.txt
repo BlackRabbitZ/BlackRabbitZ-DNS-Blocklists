@@ -3,8 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 1028845
-# Auto-updated: 2026-08-26T04:04:35Z
+# Entries: 1028846
+# Auto-updated: 2026-08-28T15:24:50Z
 # Description: Massive adult-content and pornography domain set.
 # Sources: Block List Project Porn; StevenBlack porn-only
 # Snapshot: 2026-08
@@ -463071,6 +463071,7 @@ javhdz.hot
 javhdz.men
 javhdz.org
 javhdz.pro
+javhdz.pw
 javhdz.red
 javhdz.today
 javhdz.top
