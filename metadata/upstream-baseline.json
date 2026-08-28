@@ -159,13 +159,13 @@
       "categories": [
         "gambling"
       ],
-      "content_length": 7792454,
+      "content_length": 7960574,
       "error": null,
       "http_status": 206,
       "names": [
         "HaGeZi Gambling"
       ],
-      "sample_sha256": "3697c13ad773e925ea75402a24b79af968fb514bd16d1112b9a8a5da36aa4fc1",
+      "sample_sha256": "5f06905d444b7c53fde80f2d9e343ac74d214dad41de737a68811e76997ea178",
       "status": "ok",
       "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/gambling-onlydomains.txt"
     },
@@ -204,13 +204,13 @@
         "native-tracking",
         "smart-tv"
       ],
-      "content_length": 9559,
+      "content_length": 9583,
       "error": null,
       "http_status": 206,
       "names": [
         "HaGeZi LG webOS Native Tracking"
       ],
-      "sample_sha256": "771efde6b664bda3555c143a315581098db83523228f0ab72ff2072890cb1c4f",
+      "sample_sha256": "0ffe9cc84a8270aa71c94fb029bf9e805dda4b32ca257b0f264a1f37b40b8348",
       "status": "ok",
       "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.lgwebos.txt"
     },
@@ -253,7 +253,7 @@
       "names": [
         "HaGeZi Windows and Office Native Tracking"
       ],
-      "sample_sha256": "f20cee5e50318f8d1cd2cb03dec33b3774314600a018c5619caec0d747dec74d",
+      "sample_sha256": "7bc0c08d99ae532fb0623ffad74a17c1d8797bdce051f1883ce91d6b3749933a",
       "status": "ok",
       "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.winoffice.txt"
     },
@@ -276,13 +276,13 @@
       "categories": [
         "malware"
       ],
-      "content_length": 3538805,
+      "content_length": 3530032,
       "error": null,
       "http_status": 206,
       "names": [
         "HaGeZi Threat Intelligence Mini"
       ],
-      "sample_sha256": "e4648fceaa5650e3618c3ff62b05506dd83644c3ee2e33d6321d6b21013175c9",
+      "sample_sha256": "8a38e67023bac053803134ab1160fcd9be07c9ab1357905afde466dfc9b104b0",
       "status": "ok",
       "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/tif.mini.txt"
     },
@@ -334,7 +334,7 @@
       "categories": [
         "phishing"
       ],
-      "content_length": 11013638,
+      "content_length": 11015665,
       "error": null,
       "http_status": 206,
       "names": [
@@ -348,13 +348,13 @@
       "categories": [
         "adult"
       ],
-      "content_length": 1959787,
+      "content_length": 1959861,
       "error": null,
       "http_status": 206,
       "names": [
         "StevenBlack Porn-only Hosts"
       ],
-      "sample_sha256": "44d5b799a21f4a7a680b128c936105bc5e707301ef653a623b1460e36af2cea6",
+      "sample_sha256": "fcdc83eb9150b1ba85e4f7f99c99b7db25401d7758ef5e99f6dbdbae65ed991e",
       "status": "ok",
       "url": "https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-only/hosts"
     },
@@ -391,14 +391,14 @@
         "fake-shops",
         "scam"
       ],
-      "content_length": 61341,
+      "content_length": 61545,
       "error": null,
       "http_status": 206,
       "names": [
         "DurableNapkin Scam Blocklist",
         "DurableNapkin retail subset"
       ],
-      "sample_sha256": "9a4f96191bde5fd218e6b7db9863fd165a950f582c8d699efbea443e372c82c7",
+      "sample_sha256": "ca801c69440c9343230223f1b7783c82f171d788634706d4ec3c8c49559e5724",
       "status": "ok",
       "url": "https://raw.githubusercontent.com/durablenapkin/scamblocklist/master/hosts.txt"
     },
@@ -556,13 +556,13 @@
       "categories": [
         "malware"
       ],
-      "content_length": 11994,
+      "content_length": 12387,
       "error": null,
       "http_status": 206,
       "names": [
         "URLhaus Hostfile"
       ],
-      "sample_sha256": "2a2bc9586dd5baf034e28394bfca760f6d1a11868bb25fcbafe7863104ea82cf",
+      "sample_sha256": "4445b7f1c6054de91845e424e40f4cf28389aeb06b7041853b6cf40ab88a5107",
       "status": "ok",
       "url": "https://urlhaus.abuse.ch/downloads/hostfile"
     }
