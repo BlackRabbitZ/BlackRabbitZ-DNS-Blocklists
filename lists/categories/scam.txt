@@ -3,8 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 284201
-# Auto-updated: 2026-08-28T15:24:31Z
+# Entries: 284205
+# Auto-updated: 2026-08-29T10:06:22Z
 # Description: Massive scam, fraud and deceptive-platform domain set.
 # Sources: Block List Project Fraud/Scam; DurableNapkin Scam Blocklist; curated BaFin entries
 # Snapshot: 2026-08
@@ -6692,6 +6692,7 @@ air-jordanshoes.us.com
 air-max-schoenen.nl
 air-max2017.com
 air-up-turkiye.com
+air-upfrance.com
 air-uposterreich.at
 air-uposterreich.com
 air-yeezyshoes.com
@@ -135094,6 +135095,7 @@ sportsocc.shop
 sportspherenet.com
 sportssklep.shop
 sportsskoonlineudsalg.org
+sportsspot-moviebuffs.com
 sportssue.com
 sportstech.at
 sportster-fitness.com
@@ -136984,6 +136986,7 @@ store.seryna.co
 store.shy-boat-90ce.jiko728928922.workers.dev
 store.signpify.com
 store.skincheap.com
+store.skipped.vip
 store.smartproduct.site
 store.smartuniswap.xyz
 store.sneakermart.us
@@ -172946,6 +172949,7 @@ www.air-max-plus.com
 www.air-max-schoenen.nl
 www.air-max2017.com
 www.air-up-turkiye.com
+www.air-upfrance.com
 www.airaceusa.com
 www.airbnb-code.promo
 www.airbnb-help.com
