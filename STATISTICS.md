@@ -3,9 +3,9 @@
 Automatisch erzeugte Größenübersicht. Die Summen sind Dateisummen und keine globale Deduplizierung über Kategorien hinweg.
 
 - Kategorie-Dateien: **48**
-- Summe Kategorie-Einträge: **25,178,503**
+- Summe Kategorie-Einträge: **25,183,374**
 - Kombinierte Dateien: **9**
-- Summe kombinierte Einträge: **11,699,060**
+- Summe kombinierte Einträge: **11,708,789**
 
 ## Kategorien
 
@@ -30,12 +30,12 @@ Automatisch erzeugte Größenübersicht. Die Summen sind Dateisummen und keine g
 | `fake-shops.txt` | 11,443 |
 | `gambling-medium.txt` | 142,337 |
 | `gambling-mini.txt` | 93,306 |
-| `gambling.txt` | 502,138 |
+| `gambling.txt` | 505,747 |
 | `gaming-telemetry-aggressive.txt` | 62 |
 | `gaming-telemetry.txt` | 38 |
 | `iot.txt` | 437 |
 | `linux-telemetry.txt` | 65 |
-| `malware.txt` | 2,747,090 |
+| `malware.txt` | 2,748,350 |
 | `mobile-tracking.txt` | 823 |
 | `most-abused-tlds.txt` | 130 |
 | `nas-telemetry.txt` | 12 |
@@ -47,7 +47,7 @@ Automatisch erzeugte Größenübersicht. Die Summen sind Dateisummen und keine g
 | `nrd-29-35.txt` | 2,298,771 |
 | `phishing.txt` | 572,468 |
 | `safesearch-unsupported.txt` | 206 |
-| `scam.txt` | 284,205 |
+| `scam.txt` | 284,207 |
 | `server-telemetry.txt` | 10 |
 | `smart-tv.txt` | 660 |
 | `social-networks.txt` | 898 |
@@ -65,11 +65,11 @@ Automatisch erzeugte Größenübersicht. Die Summen sind Dateisummen und keine g
 | Datei | Einträge |
 |---|---:|
 | `balanced.txt` | 373,196 |
-| `family-part-01.txt` | 1,901,054 |
+| `family-part-01.txt` | 1,904,662 |
 | `light.txt` | 235,703 |
-| `security-part-01.txt` | 2,581,129 |
-| `security-part-02.txt` | 913,892 |
+| `security-part-01.txt` | 2,581,652 |
+| `security-part-02.txt` | 914,630 |
 | `strict.txt` | 375,066 |
-| `ultimate-part-01.txt` | 2,636,883 |
-| `ultimate-part-02.txt` | 2,591,602 |
-| `ultimate-part-03.txt` | 90,535 |
+| `ultimate-part-01.txt` | 2,637,179 |
+| `ultimate-part-02.txt` | 2,591,169 |
+| `ultimate-part-03.txt` | 95,532 |
