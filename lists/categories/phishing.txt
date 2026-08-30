@@ -4,7 +4,7 @@
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
 # Entries: 572468
-# Auto-updated: 2026-08-29T10:06:16Z
+# Auto-updated: 2026-08-30T09:16:09Z
 # Description: Massive active and curated phishing-domain set.
 # Sources: Block List Project Phishing; Phishing.Database ACTIVE
 # Snapshot: 2026-08

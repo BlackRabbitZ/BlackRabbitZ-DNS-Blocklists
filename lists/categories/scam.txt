@@ -3,8 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 284205
-# Auto-updated: 2026-08-29T10:06:22Z
+# Entries: 284207
+# Auto-updated: 2026-08-30T09:16:14Z
 # Description: Massive scam, fraud and deceptive-platform domain set.
 # Sources: Block List Project Fraud/Scam; DurableNapkin Scam Blocklist; curated BaFin entries
 # Snapshot: 2026-08
@@ -121582,6 +121582,7 @@ qyuvqba1.com
 qyvpgddwqynp.com
 qyvtls749tio.com
 qyzoejyqbqyd.com
+qz94.com
 qzadueyzyto.bid
 qzayyghs.bid
 qzcpotzdkfyn.com
@@ -179365,6 +179366,7 @@ www.ambienttempco.com
 www.ambis.biz
 www.ambitrim.net
 www.ambleford.eu
+www.ambulancesodium.cn
 www.amdconcepts.com
 www.ameco.pl
 www.amelindo.it
