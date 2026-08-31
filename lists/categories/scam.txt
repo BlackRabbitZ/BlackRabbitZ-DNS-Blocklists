@@ -3,8 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 284207
-# Auto-updated: 2026-08-30T09:16:14Z
+# Entries: 284229
+# Auto-updated: 2026-08-31T09:46:55Z
 # Description: Massive scam, fraud and deceptive-platform domain set.
 # Sources: Block List Project Fraud/Scam; DurableNapkin Scam Blocklist; curated BaFin entries
 # Snapshot: 2026-08
@@ -6851,6 +6851,7 @@ airtrvl.com
 airtsupport.com
 airtz.info
 airup-romania.com
+airupfrance.fr
 airupsrbija.com
 airvaxde.com
 airway-support.com
@@ -82178,6 +82179,7 @@ kelseytoney.com
 keltecweaponshop.com
 keltraxde.com
 keltygear.com
+keltysale.com
 kelvaro.vu
 kelvins.stream
 kemalyapi.com
@@ -127621,9 +127623,11 @@ sbdufkkcp.bid
 sbdvjhsdbv.tk
 sbendpeci.cyou
 sber.booking.com-id802912.com
+sber.booking.com-id879712.com
 sber.com-id129041.info
 sber.com-id329712.com
 sberbank-online-gid.ru
+sberbank.avito.avito.avito.avito.avito.com-id90123.info
 sberbank.avito.com-id20341.info
 sberbank.com-id02349.info
 sberbank.pay.avito.avito.avito.avito.com-id809702.com
@@ -136717,6 +136721,7 @@ store.deluxdoll.com
 store.desilvaimports.com
 store.desiupload.in
 store.dieserbenni.ru
+store.diytsi.shop
 store.doh-gov.ph
 store.dolystore.com
 store.dopestore.pl
@@ -136821,6 +136826,7 @@ store.jellystores.com
 store.jewellvanmarter.za.com
 store.jsdimmigration.com
 store.karanpcofficial.blogspot.com
+store.keltysale.com
 store.kestrelby.com
 store.kesug.com
 store.khoinguyenhanoi.vn
@@ -136936,6 +136942,7 @@ store.parajumpersnorway.com
 store.pay.avito.avito.avito.avito.booking.com-id20341.info
 store.pay.avito.avito.avito.pay.com-id20341.info
 store.pay.avito.avito.pay.booking.com-id809702.com
+store.pay.avito.avito.sber.pay.booking.com-id809702.com
 store.pay.avito.pay.com-id02349.info
 store.pay.com-id15421.info
 store.penguinnow.com
@@ -136973,9 +136980,12 @@ store.royaldecorcollection.com
 store.rozomii.info
 store.rsaonlinenow.com.au
 store.rustdesk.secure-box.de
+store.sale-friday.info
 store.saveeeee.myshopify.com
 store.sber.avito.booking.com-id334212.com
 store.sber.com-id129041.info
+store.sber.sberbank.avito.avito.avito.avito.avito.com-id20341.info
+store.sberbank.avito.avito.avito.avito.avito.sber.com-id02349.info
 store.sberbank.avito.avito.sber.www42.com-id23901.info
 store.sberbank.pay.sber.www.com-id1800853.com
 store.sberbank.sber.id19845672.info
@@ -137107,6 +137117,7 @@ store.wazees.com
 store.wdfmuseum.org
 store.webvod.pl
 store.wichky.info
+store.wikeb.com
 store.workshopcommunitymodrate.com
 store.wp3.xyz
 store.wpad.ru
@@ -173025,6 +173036,7 @@ www.airtoff.com
 www.airtsupport.com
 www.airtz.info
 www.airup-romania.com
+www.airupfrance.fr
 www.airupsrbija.com
 www.airwaystickets.co
 www.ais.ae
@@ -182181,7 +182193,9 @@ www.avirusscan.com
 www.avita.net.pl
 www.avito-help.ru
 www.avito.avito.pay.avito.avito.avito.booking.com-id90123.info
+www.avito.avito.pay.www.booking.com-id20341.info
 www.avito.pay.avito.avito.avito.avito.avito.com-id90123.info
+www.avito.pay.booklng.com-id129041.info
 www.avlegalsupport.com
 www.avocat-ndoba.be
 www.avocatbarbulescu.ro
@@ -220457,6 +220471,7 @@ www.kelliya.ru
 www.kellydaniels.doodlekit.com
 www.kelpmedia.com
 www.kelseytoney.com
+www.keltysale.com
 www.kelvaro.vu
 www.kemalyapi.com
 www.kemo6.com
@@ -231148,7 +231163,9 @@ www.navi42.ru
 www.navi44.ru
 www.navi5.com
 www.navi53.com
+www.navi55.ru
 www.navi56.com
+www.navi57.com
 www.navi59.ru
 www.navi6.com
 www.navi65.com
@@ -249300,6 +249317,8 @@ www.sber.booking.com-id23901.info
 www.sber.pay.sber.booking.com-id20341.info
 www.sberbank-online-gid.ru
 www.sberbank.avito.avito.avito.avito.com-id309712.com
+www.sberbank.avito.avito.sber.pay.com-id809702.com
+www.sberbank.avito.www.booking.com-id1800853.com
 www.sberbank.sberbank.www.booking.com-id123251.info
 www.sberboom.plp7.ru
 www.sberrdisse.cyou
@@ -278544,6 +278563,7 @@ www.yandex-windows-8.ru
 www.yandex-yan.ru
 www.yandex.avito.booking.com-id302912.com
 www.yandex.avito.pay.avito.avito.com-id809712.com
+www.yandex.avito.sber.booking.com-id3212341.info
 www.yandex.avito.sber.pay.com-id20341.info
 www.yandex.blue
 www.yandex.feedback
@@ -278552,6 +278572,7 @@ www.yandex.help
 www.yandex.link
 www.yandex.love
 www.yandex.ru.com
+www.yandex.sberbank.com-id409712.com
 www.yandex123.ru
 www.yandex174.ru
 www.yandex24.com
@@ -281708,6 +281729,7 @@ yandex-windows-7.ru
 yandex-windows-8.ru
 yandex-yan.ru
 yandex.avito.avito.pay.booking.com-id309712.com
+yandex.avito.booking.com-id23901.info
 yandex.blue
 yandex.booking.com-id321112.com
 yandex.feedback

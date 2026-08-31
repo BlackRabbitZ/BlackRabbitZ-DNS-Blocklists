@@ -3,8 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 11443
-# Auto-updated: 2026-08-30T09:16:14Z
+# Entries: 11450
+# Auto-updated: 2026-08-31T09:46:56Z
 # Description: Aggressive deceptive-store and fake-shop candidates derived from fraud/scam intelligence.
 # Sources: Block List Project Fraud/Scam (retail subset); DurableNapkin (retail subset); Verbraucherzentrale curated entries
 # Snapshot: 2026-08
@@ -4646,6 +4646,7 @@ store.deluxdoll.com
 store.desilvaimports.com
 store.desiupload.in
 store.dieserbenni.ru
+store.diytsi.shop
 store.doh-gov.ph
 store.dolystore.com
 store.dopestore.pl
@@ -4750,6 +4751,7 @@ store.jellystores.com
 store.jewellvanmarter.za.com
 store.jsdimmigration.com
 store.karanpcofficial.blogspot.com
+store.keltysale.com
 store.kesug.com
 store.khoinguyenhanoi.vn
 store.kino-cda.pl
@@ -4864,6 +4866,7 @@ store.parajumpersnorway.com
 store.pay.avito.avito.avito.avito.booking.com-id20341.info
 store.pay.avito.avito.avito.pay.com-id20341.info
 store.pay.avito.avito.pay.booking.com-id809702.com
+store.pay.avito.avito.sber.pay.booking.com-id809702.com
 store.pay.avito.pay.com-id02349.info
 store.pay.com-id15421.info
 store.penguinnow.com
@@ -4899,9 +4902,12 @@ store.royaldecorcollection.com
 store.rozomii.info
 store.rsaonlinenow.com.au
 store.rustdesk.secure-box.de
+store.sale-friday.info
 store.saveeeee.myshopify.com
 store.sber.avito.booking.com-id334212.com
 store.sber.com-id129041.info
+store.sber.sberbank.avito.avito.avito.avito.avito.com-id20341.info
+store.sberbank.avito.avito.avito.avito.avito.sber.com-id02349.info
 store.sberbank.avito.avito.sber.www42.com-id23901.info
 store.sberbank.pay.sber.www.com-id1800853.com
 store.sberbank.sber.id19845672.info
@@ -5032,6 +5038,7 @@ store.wazees.com
 store.wdfmuseum.org
 store.webvod.pl
 store.wichky.info
+store.wikeb.com
 store.workshopcommunitymodrate.com
 store.wp3.xyz
 store.wpad.ru
