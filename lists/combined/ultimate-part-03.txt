@@ -3,14 +3,49 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 99611
-# Profile Total Entries: 5326983
+# Entries: 99646
+# Profile Total Entries: 5327013
 #
 # Includes: ads,trackers,telemetry,gaming-telemetry,windows-telemetry,apple-telemetry,android-telemetry,linux-telemetry,nas-telemetry,server-telemetry,smart-tv,iot,mobile-tracking,social-trackers,native-tracking,phishing,malware,scam,cryptomining,fake-shops,adult,gambling,affiliate-tracking
 #
 # IMPORTANT: This is only one part of the ultimate profile.
 # Add every ultimate-part-NN.txt Raw URL listed in the README for complete coverage.
 #
+xyfvvfyy.elementor.cloud
+xyfx.com
+xyfzt01281100.cyou
+xyg30.top
+xyg35.top
+xygallery.com
+xygaosu.com
+xygay.blogg.de
+xygaytr.tumblr.com
+xygdj01280600.cyou
+xygee01271800.cyou
+xygfhq60wo8-bzcf.top
+xyggfw.com
+xyggs01311201.cyou
+xygiw01281400.cyou
+xygj55555.com
+xygj66666.com
+xygj77777.com
+xygj88888.com
+xygj99999.com
+xygrz.com
+xygs999.com
+xygsav.com
+xygsebtz1-security-netflix.info
+xygsh01312201.cyou
+xyguilin.com
+xygwf01271400.cyou
+xygwt01310301.cyou
+xygzlbizru.com
+xyh19990211.top
+xyh7vy5j.top
+xyhairless.blogg.de
+xyhbgl.com
+xyhbsb.com
+xyhcbzj.com
 xyhcp.com
 xyhd.xyz
 xyhdc.club

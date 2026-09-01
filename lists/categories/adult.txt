@@ -3,8 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 1028846
-# Auto-updated: 2026-08-28T15:24:50Z
+# Entries: 1028855
+# Auto-updated: 2026-09-01T08:42:05Z
 # Description: Massive adult-content and pornography domain set.
 # Sources: Block List Project Porn; StevenBlack porn-only
 # Snapshot: 2026-08
@@ -169780,6 +169780,7 @@ cap1369.tumblr.com
 cap3.autos
 cap3.beer
 cap3.click
+cap3.email
 cap3.monster
 cap3.pics
 cap3.pro
@@ -344689,8 +344690,11 @@ gaidam69.blog
 gaidam69.info
 gaidamvip.com
 gaidamvl.xyz
+gaidep.blog
 gaidep1.blogspot.com
 gaidepvn.xyz
+gaidepxx.com
+gaidepxx.me
 gaidepxx.net
 gaidibar.shop
 gaidibarlux.shop
@@ -737829,6 +737833,7 @@ s.fap.to
 s.fapax.pro
 s.fapcat.com
 s.freeteenpussypic.com
+s.gaidep.blog
 s.jzzo.com
 s.liveanal.tv
 s.lolsex.eu
@@ -789647,6 +789652,7 @@ sextop1.sex
 sextop1.shop
 sextop1.site
 sextop1.skin
+sextop1.spa
 sextop1.stream
 sextop1.tattoo
 sextop1.taxi
@@ -851164,6 +851170,7 @@ subitomature.com
 subjames71.tumblr.com
 subjarinta-live-webcam.startspot.nl
 subjav.best
+subjav.buzz
 subjav.ca
 subjav.live
 subjav.men
@@ -924965,6 +924972,7 @@ v.fakedriver.net
 v.fapster.xxx
 v.hog.tv
 v.japaneseporn.xxx
+v.javhd.co.uk
 v.javhdo.net
 v.jizzoncam.com
 v.liveanal.tv
@@ -981748,6 +981756,7 @@ x.hotmaals.info
 x.ici.free.fr
 x.ijavhd.com
 x.intense.free.fr
+x.javhd.co.uk
 x.lenta.ru
 x.maniac.free.fr
 x.maniac.online.fr

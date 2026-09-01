@@ -4,7 +4,7 @@
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
 # Entries: 507870
-# Auto-updated: 2026-08-31T09:47:24Z
+# Auto-updated: 2026-09-01T08:42:17Z
 # Description: Massive betting, casino and gambling domain set.
 # Sources: Block List Project Gambling; HaGeZi Gambling
 # Snapshot: 2026-08

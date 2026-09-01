@@ -3,14 +3,22 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 915277
-# Profile Total Entries: 3497267
+# Entries: 915291
+# Profile Total Entries: 3497288
 #
 # Includes: malware,phishing,scam,fake-shops,cryptomining
 #
 # IMPORTANT: This is only one part of the security profile.
 # Add every security-part-NN.txt Raw URL listed in the README for complete coverage.
 #
+sso-hub-crypto-com--cdn.webflow.io
+sso-hub-crypto-com-sso--cdn.webflow.io
+sso-hub-crypto-sso-cdn.webflow.io
+sso-hub-cryptoo-sso---cdn.webflow.io
+sso-i---trustcapital---comm---auth.webflow.io
+sso-i---trustcapital---comm--auth.webflow.io
+sso-i---trustcapital--comm--auth.webflow.io
+sso-i---trustcapital-com---apply.webflow.io
 sso-i---trustcapital-com---help.webflow.io
 sso-i--trustcapital-com--autthh.webflow.io
 sso-i--trustcapital-com--l-autth.webflow.io
@@ -19781,6 +19789,7 @@ store.metascrape.com
 store.micronit.com
 store.microsoft-notifcation.com
 store.microsoft-surface.ru
+store.millabay.com
 store.modalsaya.xyz
 store.moddetail.com
 store.modmobile24.com
@@ -84033,6 +84042,7 @@ tauma.es
 taumaoay.icu
 taun.us
 taunae.vejigatorias.uk.net
+taunahi.st
 taungridio.click
 taunt.link
 taunt.pfdnlwyu.in
@@ -265562,6 +265572,7 @@ userteamernetflix.com
 usertech.org
 usertimes.com
 usertrackhst.top
+usertunelaccount1.royalbnkmail.com
 useruno.com
 userupdate.info
 userupdater.info
@@ -449267,6 +449278,7 @@ www.altus-monvexsoft.com
 www.altushealth.org
 www.altvm.com
 www.altwheels.com
+www.altwi-zgs.com
 www.altyourmind.com
 www.alu-kos.com
 www.alu-pvc-trade.hr
@@ -615342,6 +615354,7 @@ www.milkstore.co.nz
 www.milkybeauty.com
 www.milkyfan.com
 www.mill-turnmachining.com
+www.millabay.com
 www.millan-automation.com
 www.millandstone.eu
 www.millangtabriz.com
@@ -643684,6 +643697,7 @@ www.pakpr.com
 www.pakrealtyclub.com
 www.paksite.tk
 www.paksoymuhendislik.com
+www.pakstones.com
 www.paktaivariety.com
 www.pakteb.com
 www.paktechinfo.com

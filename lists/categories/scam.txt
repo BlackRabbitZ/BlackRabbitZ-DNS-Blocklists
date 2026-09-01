@@ -3,8 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 284229
-# Auto-updated: 2026-08-31T09:46:55Z
+# Entries: 284235
+# Auto-updated: 2026-09-01T08:41:46Z
 # Description: Massive scam, fraud and deceptive-platform domain set.
 # Sources: Block List Project Fraud/Scam; DurableNapkin Scam Blocklist; curated BaFin entries
 # Snapshot: 2026-08
@@ -13369,6 +13369,7 @@ alturarituals.shop
 altus-monvexsoft.com
 altusfund.com
 altuswap.icu
+altwi-zgs.com
 aludelux.icu
 aluhsda.com
 alulae.stream
@@ -95776,6 +95777,7 @@ milkstore.co.nz
 milkteapool.com
 milkweed.stream
 milkybeauty.com
+millabay.com
 millandstone.eu
 millarbusinesssupport.com
 millaura.com
@@ -110383,6 +110385,7 @@ pay-someone-to-write-my-paper.com
 pay-update.com
 pay.avito.avito.avito.avito.avito.avito.com-id02349.info
 pay.avito.avito.avito.avito.avito.booking.com-id15421.info
+pay.avito.avito.avito.avito.www.booking.com-id90123.info
 pay.avito.avito.avito.com-id809702.com
 pay.avito.com-id90123.info
 pay.osoobe.com
@@ -136859,6 +136862,7 @@ store.meaningift.com
 store.mega-kino.pl
 store.micronit.com
 store.microsoft-notifcation.com
+store.millabay.com
 store.modalsaya.xyz
 store.moddetail.com
 store.modmobile24.com
@@ -179278,6 +179282,7 @@ www.altrix-quantum-tech.com
 www.altruetech.com
 www.altunvidanjor.com
 www.altus-monvexsoft.com
+www.altwi-zgs.com
 www.alumesta.cfd
 www.aluminiummetals.info
 www.alumnibanquet.com
@@ -228546,6 +228551,7 @@ www.militimmol.cyou
 www.milkingmachinery.com
 www.milkstore.co.nz
 www.milkybeauty.com
+www.millabay.com
 www.millandstone.eu
 www.millarbusinesssupport.com
 www.millcorner.eu

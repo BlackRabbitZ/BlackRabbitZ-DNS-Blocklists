@@ -3,8 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 11450
-# Auto-updated: 2026-08-31T09:46:56Z
+# Entries: 11451
+# Auto-updated: 2026-09-01T08:41:47Z
 # Description: Aggressive deceptive-store and fake-shop candidates derived from fraud/scam intelligence.
 # Sources: Block List Project Fraud/Scam (retail subset); DurableNapkin (retail subset); Verbraucherzentrale curated entries
 # Snapshot: 2026-08
@@ -4783,6 +4783,7 @@ store.meaningift.com
 store.mega-kino.pl
 store.micronit.com
 store.microsoft-notifcation.com
+store.millabay.com
 store.modalsaya.xyz
 store.moddetail.com
 store.modmobile24.com
