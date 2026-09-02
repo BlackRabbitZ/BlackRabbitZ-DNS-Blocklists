@@ -31,10 +31,10 @@
       "sha256": "24240accc5f29cdcb1d218a864c583bf20a65a36159c9ac617728368899f818b"
     },
     "apple-telemetry": {
-      "bytes": 4196,
-      "entries": 135,
+      "bytes": 4247,
+      "entries": 136,
       "file": "lists/categories/apple-telemetry.txt",
-      "sha256": "4c7f43be3d51b302bf8a2337b578bcc587c0cfcf9b93721e52daaa099247d033"
+      "sha256": "4355ff67b9056e88e0c8102945ec924a7fcf3c22c8cfb33425b4150f1b472c57"
     },
     "badware-hoster": {
       "bytes": 14572,
@@ -97,16 +97,16 @@
       "sha256": "7e8326f7d9ce4db2fe91ba90a699cf018973ac1e98b7acd3dc8fc98fcb9bb989"
     },
     "fake-shops": {
-      "bytes": 262029,
-      "entries": 11451,
+      "bytes": 262073,
+      "entries": 11453,
       "file": "lists/categories/fake-shops.txt",
-      "sha256": "a28db1cfdb6af70b92c360c5ae3414a0cf135042e687fda79afddf6e7adf0a06"
+      "sha256": "af3e7ba5d4f0899435cc214fb5da06bb1ce00002b75b8a0f87593b8db64f7738"
     },
     "gambling": {
-      "bytes": 8659449,
-      "entries": 507870,
+      "bytes": 8735543,
+      "entries": 512362,
       "file": "lists/categories/gambling.txt",
-      "sha256": "2d9dd760e866068fe74401115c17ba31d82ab4ed44110b8b9b77f8bf7fe6d36b"
+      "sha256": "e5023b77fb61f5b9eacf07b1ecd888032c623fe083366fa317f341a892c0b25d"
     },
     "gambling-medium": {
       "bytes": 2564638,
@@ -145,10 +145,10 @@
       "sha256": "33cecda876993d903687efe8a239390fac23fa2ea2dbc4c504f4777eeb201257"
     },
     "malware": {
-      "bytes": 52712777,
-      "entries": 2749335,
+      "bytes": 52746073,
+      "entries": 2751063,
       "file": "lists/categories/malware.txt",
-      "sha256": "000dfc72d9f544447d9a9197cc40fb9ed06f4eba467d46cd4bd1ba6b01772e21"
+      "sha256": "c820cbca31dd8f278acfeedc21fcc46d57a7d9f71d21396968efa382ccda2ef7"
     },
     "mobile-tracking": {
       "bytes": 23297,
@@ -169,10 +169,10 @@
       "sha256": "0da9aa514d88283b26f50bda4722fa5498ce57ba40c960661e588813c1124ec0"
     },
     "native-tracking": {
-      "bytes": 41257,
-      "entries": 1468,
+      "bytes": 41313,
+      "entries": 1470,
       "file": "lists/categories/native-tracking.txt",
-      "sha256": "41c868de87d83e95d412ad485f1893f79439fdd48c5d351e941145316d23e348"
+      "sha256": "d131639cc041cd94665bf8240df1382c6f8e6531ec10a86258c5e11de05f2f5c"
     },
     "nrd-01-07": {
       "bytes": 44138401,
@@ -208,7 +208,7 @@
       "bytes": 15015929,
       "entries": 572468,
       "file": "lists/categories/phishing.txt",
-      "sha256": "7268afa307ef8e4115e2c3dcd26a490c69395ff8bbc59775972842a5f147fcc9"
+      "sha256": "34f9ccfb89c0216fedb58131791f19f270ce28ffa8d75e91d3b8f6d9ee62928d"
     },
     "safesearch-unsupported": {
       "bytes": 3795,
@@ -217,10 +217,10 @@
       "sha256": "fdd209442f2624778a5b62a29edb86d49f4b0a80c667bbc928804a5156907363"
     },
     "scam": {
-      "bytes": 6152784,
-      "entries": 284235,
+      "bytes": 6152852,
+      "entries": 284239,
       "file": "lists/categories/scam.txt",
-      "sha256": "733e3962e666cce9b69470f95003c2321fd4e0890ecfbda52b4890c6d458000b"
+      "sha256": "ea7793509bcd76f979c2cde5dbd976873f483377c541b9d5e1c9d9f597ef7c94"
     },
     "server-telemetry": {
       "bytes": 732,
@@ -283,10 +283,10 @@
       "sha256": "3e66f5d17e8a55cd3ac1230c5a540e36476dd8b46bf007ce122842c5275665ce"
     },
     "windows-telemetry": {
-      "bytes": 14804,
-      "entries": 459,
+      "bytes": 14846,
+      "entries": 460,
       "file": "lists/categories/windows-telemetry.txt",
-      "sha256": "fd4b56f72c86a91fc913b089a865fa3c10cb1217cb140f29eea13b4ed53b594a"
+      "sha256": "9bc286c0203198841caed5e26d181dc9f273665538e29f49a0273449f56558fc"
     }
   },
   "profiles": {
@@ -318,13 +318,13 @@
         "adult",
         "gambling"
       ],
-      "entries": 1906794,
+      "entries": 1911286,
       "files": [
         {
-          "bytes": 36355004,
-          "entries": 1906794,
+          "bytes": 36431098,
+          "entries": 1911286,
           "file": "lists/combined/family-part-01.txt",
-          "sha256": "019bd943d3867c3663dcbe1858fec9bbb9385f31cc544a5bb3255d3aabfca8c5"
+          "sha256": "e5af0b7c10627c1f4c9e2c4dd51075ebc586071250bc07f0bee546f6bd0b37a4"
         }
       ],
       "group": "addon",
@@ -358,19 +358,19 @@
         "fake-shops",
         "cryptomining"
       ],
-      "entries": 3497288,
+      "entries": 3499019,
       "files": [
         {
-          "bytes": 52425200,
-          "entries": 2581997,
+          "bytes": 52425203,
+          "entries": 2582698,
           "file": "lists/combined/security-part-01.txt",
-          "sha256": "3a4d76debc622fbe0cc3eb1f8d7c8a66abb3dacaf07444d3e61266cd5f12506e"
+          "sha256": "f87ac48053855677b166cf00601f9455193041cad6cb1a55f6ebaa0bf9da1d27"
         },
         {
-          "bytes": 19112821,
-          "entries": 915291,
+          "bytes": 19146162,
+          "entries": 916321,
           "file": "lists/combined/security-part-02.txt",
-          "sha256": "622644b0f9305f0b55693825557a1a1bcc7c8b5e17e8f366e6094c5182e407ce"
+          "sha256": "797b44501feae4493eb115e3fc339deb6d5f64fa0e38e92a38b6708640c29ada"
         }
       ],
       "group": "addon",
@@ -396,13 +396,13 @@
         "smart-tv",
         "iot"
       ],
-      "entries": 375066,
+      "entries": 375068,
       "files": [
         {
-          "bytes": 7980539,
-          "entries": 375066,
+          "bytes": 7980595,
+          "entries": 375068,
           "file": "lists/combined/strict.txt",
-          "sha256": "1e4f6224a500b7106b9fb216dc99c7cd96184cccb42f290b6f8e2f44cc705e14"
+          "sha256": "2367b8039c78032f2857e500846348ae2a3c730e57f7a77ed2af110f3cdf702d"
         }
       ],
       "group": "main",
@@ -436,25 +436,25 @@
         "gambling",
         "affiliate-tracking"
       ],
-      "entries": 5327013,
+      "entries": 5333227,
       "files": [
         {
-          "bytes": 52425455,
-          "entries": 2637226,
+          "bytes": 52425438,
+          "entries": 2637500,
           "file": "lists/combined/ultimate-part-01.txt",
-          "sha256": "b75a837b82522a6d216d13bdd6631adcf26938528ab46995b01ce2c85d1e2294"
+          "sha256": "c98df3659a4afe84aee555d84e91a2b8896fa345b231b012c2e2975a97856ab7"
         },
         {
-          "bytes": 52425434,
-          "entries": 2590141,
+          "bytes": 52425440,
+          "entries": 2589347,
           "file": "lists/combined/ultimate-part-02.txt",
-          "sha256": "6e022a7df74ebc615937c50be928c5140cb262de53e85314e9d067868263620e"
+          "sha256": "fce7783f984e9a65e4cdbfeabcd3bb17d2c8ecba2fca910937fbbdafcbda50fc"
         },
         {
-          "bytes": 1725374,
-          "entries": 99646,
+          "bytes": 1834680,
+          "entries": 106380,
           "file": "lists/combined/ultimate-part-03.txt",
-          "sha256": "9c6d1110c8285b5470e3dd0b338669d5b6e4c8a337b916fc564c4a32e56f263f"
+          "sha256": "269f58335549fe57d98d36e12831df92f8f42697c85c275ddb212da02926b1cb"
         }
       ],
       "group": "main",

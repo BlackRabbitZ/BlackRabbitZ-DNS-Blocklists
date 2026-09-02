@@ -3,7 +3,7 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 375066
+# Entries: 375068
 #
 # Includes: ads,trackers,social-trackers,affiliate-tracking,telemetry,windows-telemetry,apple-telemetry,android-telemetry,linux-telemetry,nas-telemetry,server-telemetry,mobile-tracking,native-tracking,smart-tv,iot
 #
@@ -41378,6 +41378,7 @@ ads.app-authority.com
 ads.appchair.com
 ads.appia.com
 ads.appinf.com
+ads.apple.com
 ads.applelinks.com
 ads.appnext.com
 ads.appota.com
@@ -254239,6 +254240,7 @@ prd-collector-anon.ex.co
 prd-collector-anon.playbuzz.com
 prd-collector-platform.ex.co
 prd-collector-requests.ex.co
+prd-qlik-telemetry.servicebus.windows.net
 prd-usw2-requestattribution-iad.apple.com
 prd.innopage.com
 prd.jwpltx.com

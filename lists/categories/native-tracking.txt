@@ -3,8 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 1468
-# Auto-updated: 2026-08-22T03:57:04Z
+# Entries: 1470
+# Auto-updated: 2026-09-02T07:55:37Z
 # Description: Native OS, device and application tracking endpoints.
 # Sources: NextDNS Native Tracking Protection; Perflyst PiHoleBlocklist; HaGeZi native tracking
 # Snapshot: 2026-08
@@ -60,6 +60,7 @@ ads-drru.cloud.huawei.ru
 ads-drru.platform.hihonorcloud.com
 ads-msn-com-profile.trafficmanager.net
 ads.api.vungle.com
+ads.apple.com
 ads.bing.com
 ads.cloud.huawei.com
 ads.eu.msn.com
@@ -1115,6 +1116,7 @@ ppc-word-telemetry.wac.trafficmanager.net
 ppm-licensingtelemetry.servicebus.windows.net
 pr-ad-lgsmartad-com.aws-prd.net
 pr.lgsmartad.com
+prd-qlik-telemetry.servicebus.windows.net
 prd-usw2-requestattribution-iad.apple.com
 preload.xiaomi.com
 preview.crm.sms.miui.com

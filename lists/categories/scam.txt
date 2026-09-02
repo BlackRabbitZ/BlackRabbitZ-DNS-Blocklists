@@ -3,8 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 284235
-# Auto-updated: 2026-09-01T08:41:46Z
+# Entries: 284239
+# Auto-updated: 2026-09-02T07:56:46Z
 # Description: Massive scam, fraud and deceptive-platform domain set.
 # Sources: Block List Project Fraud/Scam; DurableNapkin Scam Blocklist; curated BaFin entries
 # Snapshot: 2026-08
@@ -44088,6 +44088,7 @@ discounted.bike
 discountfahrradde.com
 discounthedges.com
 discountheldende.de
+discounthoneywell.com
 discountjimmychooss.com
 discountlinksoflondon.top
 discountmall.club
@@ -137137,6 +137138,7 @@ store.yeelight.com
 store.ygtube.xyz
 store.youtubee.com
 store.youtunbe.com
+store.yyderfreap.shop
 store.z-lib.is
 store.zalukaj-film.pl
 store.zalukaj-vip.pl
@@ -156290,6 +156292,7 @@ updeposit.com
 updmax.xyz
 updrymudmi.cyou
 upendcrema.stream
+upfilm.pl
 upfirmness.com
 upflowhub.site
 upgazette.com
@@ -267554,6 +267557,7 @@ www.updeposit.com
 www.updetteacc.beget.tech
 www.updmax.xyz
 www.updrymudmi.cyou
+www.upfilm.pl
 www.upflowhub.site
 www.upgrade-accounts.com
 www.upgrade-desksupport.net

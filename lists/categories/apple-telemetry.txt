@@ -3,7 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 135
+# Entries: 136
+# Auto-updated: 2026-09-02T07:55:36Z
 # Description: Apple native telemetry, metrics, diagnostics and analytics endpoints.
 # Sources: NextDNS Native Tracking Protection; HaGeZi Apple native tracking
 # Snapshot: 2026-08
@@ -15,6 +16,7 @@
 
 ab.apple.com.akadns.net
 acfeedbackws.icloud.com
+ads.apple.com
 adservices.apple.com
 advertising.apple.com
 advp.apple.com

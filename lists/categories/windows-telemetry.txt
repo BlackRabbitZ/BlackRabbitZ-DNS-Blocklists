@@ -3,8 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 459
-# Auto-updated: 2026-08-16T04:00:02Z
+# Entries: 460
+# Auto-updated: 2026-09-02T07:55:36Z
 # Description: Windows diagnostics, Connected User Experiences and telemetry endpoints.
 # Sources: NextDNS Native Tracking Protection
 # Snapshot: 2026-08
@@ -352,6 +352,7 @@ ppc-powerpoint-telemetry.wac.trafficmanager.net
 ppc-word-telemetry.officeapps.live.com
 ppc-word-telemetry.wac.trafficmanager.net
 ppm-licensingtelemetry.servicebus.windows.net
+prd-qlik-telemetry.servicebus.windows.net
 preview.msn.com
 prod-eh-v1-analytics.servicebus.windows.net
 prod-eventhub-analytics.servicebus.windows.net

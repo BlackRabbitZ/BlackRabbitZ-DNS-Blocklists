@@ -3,8 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 11451
-# Auto-updated: 2026-09-01T08:41:47Z
+# Entries: 11453
+# Auto-updated: 2026-09-02T07:56:46Z
 # Description: Aggressive deceptive-store and fake-shop candidates derived from fraud/scam intelligence.
 # Sources: Block List Project Fraud/Scam (retail subset); DurableNapkin (retail subset); Verbraucherzentrale curated entries
 # Snapshot: 2026-08
@@ -1652,6 +1652,7 @@ discountbloc.ru
 discountc.digital
 discountdoorhardware.com
 discounthedges.com
+discounthoneywell.com
 discountjimmychooss.com
 discountlinksoflondon.top
 discountmoncler.com
@@ -5054,6 +5055,7 @@ store.yandex.www.booking.com-id302912.com
 store.ygtube.xyz
 store.youtubee.com
 store.youtunbe.com
+store.yyderfreap.shop
 store.z-lib.is
 store.zalukaj-film.pl
 store.zalukaj-vip.pl
