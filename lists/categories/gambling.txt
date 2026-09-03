@@ -3,7 +3,7 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 512362
+# Entries: 512361
 # Auto-updated: 2026-09-02T07:57:15Z
 # Description: Massive betting, casino and gambling domain set.
 # Sources: Block List Project Gambling; HaGeZi Gambling
@@ -17766,7 +17766,6 @@
 1xbet-awzx.top
 1xbet-ax1m.lol
 1xbet-axa.top
-1xbet-axc.top
 1xbet-axd.top
 1xbet-axe.top
 1xbet-axg.top

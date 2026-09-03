@@ -3,7 +3,7 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 235703
+# Entries: 235698
 #
 # Includes: ads
 #
@@ -50112,7 +50112,6 @@ analytics.prezly.com
 analytics.prod.aws.ecnext.net
 analytics.proofapi.com
 analytics.proxer.me
-analytics.prx.org
 analytics.publitas.com
 analytics.pubmatic.com
 analytics.qlook.net
@@ -121858,7 +121857,6 @@ inmrjokdxmkh.com
 innassociatecancer.com
 innatek.com
 inncreasukedrev.info
-inndl.com
 inner-active.com
 inner-active.mobi
 inner.newinform.com
@@ -124436,7 +124434,6 @@ iziwhlafxitn.com
 izixtxrvogaq.com
 izjguvanm.com
 izjvwx.mirtesen.ru
-izjzyykiyn.club
 izkcesinsyz.com
 izkivydhiqfjx.store
 izlrmsjdntfhpr.com
@@ -124925,7 +124922,6 @@ jbugk.com
 jbutml.com
 jbvdo.com
 jbvisobwrlcv.com
-jbvng.dremlove.com
 jbvoejzmaqmjw.top
 jbvoejzmaqqjj.top
 jbvyjtyhatpam.com
@@ -186476,7 +186472,6 @@ sparefoot.pxf.io
 sparelli.com
 sparersruiner.shop
 sparhandyde.widget.criteo.com
-sparical.com
 spark-displayads-creatives-prod.s3.amazonaws.com
 spark.marketo.com
 spark5-de.b.appier.net

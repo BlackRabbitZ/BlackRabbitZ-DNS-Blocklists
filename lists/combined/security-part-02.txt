@@ -3,66 +3,14 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 916321
-# Profile Total Entries: 3499019
+# Entries: 916262
+# Profile Total Entries: 3498916
 #
 # Includes: malware,phishing,scam,fake-shops,cryptomining
 #
 # IMPORTANT: This is only one part of the security profile.
 # Add every security-part-NN.txt Raw URL listed in the README for complete coverage.
 #
-sso--ndax-io-xyz--auth.webflow.io
-sso--ndax-ioo-auth-h.webflow.io
-sso--ndax-login--authe.webflow.io
-sso--ndax-view---cdn-io-authd.webflow.io
-sso--ndax-view-cdn-io---authd.webflow.io
-sso--ndax-view-cdn-io-authd.webflow.io
-sso--ndaxa-en--auth.webflow.io
-sso--ndaxx--io-auth.webflow.io
-sso--ndaxx--io-authh.webflow.io
-sso--ndaxx-io-authh.webflow.io
-sso--ndaxx-login.webflow.io
-sso--ndx-io--ndax.webflow.io
-sso--ndx-io-ndax.webflow.io
-sso--neetcoins-com-cdn.webflow.io
-sso--netcoiins-com--cdn--authh.webflow.io
-sso--netcoiins-com-cdn-nav-io.webflow.io
-sso--netcoinns-com-oouth-cdn.webflow.io
-sso--netcoins----com--cdn---auth.webflow.io
-sso--netcoins----com-cdn-nav.webflow.io
-sso--netcoins--com-cdn-n--nav.webflow.io
-sso--netcoins-cdn----auth.webflow.io
-sso--netcoins-cdn----oauth.webflow.io
-sso--netcoins-com---cdnn---nav.webflow.io
-sso--netcoins-com-aouth-cdn.webflow.io
-sso--netcoins-com-auth-cdn-auth.webflow.io
-sso--netcoins-com-cdn--na-uatth.webflow.io
-sso--netcoins-com-cdn-g-uatth.webflow.io
-sso--netcoins-com-cdn-nv-uatth.webflow.io
-sso--netcoins-com-cdn-x--uath.webflow.io
-sso--netcoins-com-en-cdn.webflow.io
-sso--netcoins-com-io-cdn-nav.webflow.io
-sso--nndax-io-aouth.webflow.io
-sso--nndax-io-auth.webflow.io
-sso--o--coinbasepro--cdnn---auth.webflow.io
-sso--o-trustcapital--c-oauth.webflow.io
-sso--org--coinspot--login.webflow.io
-sso--p-coinbasepro--cdn--auth-serv.webflow.io
-sso--p-coinbasepro--cdn-z-auth.webflow.io
-sso--p-coinbasepro-cdn-auth.webflow.io
-sso--page-bybit.webflow.io
-sso--phantomwallet-cdn-com.webflow.io
-sso--portal--ndax--cdn-auths.webflow.io
-sso--portal--ndax--cdns.webflow.io
-sso--portal--ndax-cdn.webflow.io
-sso--portal--ndax-nv-cdn.webflow.io
-sso--qucoinn--aauth.webflow.io
-sso--robinhood---com----cdn-h-autths.webflow.io
-sso--robinhood---com---cdn---aauth.webflow.io
-sso--robinhood---com---cdn-autth.webflow.io
-sso--robinhood---com--cdn--auuth.webflow.io
-sso--robinhood---com--cdn--q-autth.webflow.io
-sso--robinhood---com--cdn-auths.webflow.io
 sso--robinhood---com-cdn----g-autth.webflow.io
 sso--robinhood---com-cdn-auth.webflow.io
 sso--robinhood---com-cdn-h--autths.webflow.io
@@ -7101,7 +7049,6 @@ start-cdn-trezor.pages.dev
 start-check.info
 start-chrome-mettamsk.gitbook.io
 start-clean63.ru
-start-coinbase.com
 start-coinbaseproo-com.pages.dev
 start-collab.land
 start-com--ledegerlive.webflow.io
@@ -18555,7 +18502,6 @@ stockpowr.com
 stockpreacher.com
 stockpresentsauspice.com
 stockprime.top
-stockprimemarket.com
 stockprovv.cyou
 stockpulse.ru
 stockpulse.top
@@ -23860,7 +23806,6 @@ stratum.sye.host
 stratum.wemineftc.com
 stratum01.hashco.ws
 stratum2.dogehouse.org
-stratum2.wemineltc.com
 stratum3.dogehouse.org
 stratum5.dogehouse.org
 stratum6.dogehouse.org
@@ -30207,7 +30152,6 @@ stylishseason.com
 stylishshoe.shop
 stylishshoeclub.club
 stylishshoes.top
-stylishshoesell.com
 stylishsneakers.shop
 stylishsolecenter.shop
 stylishsplashts.shop
@@ -36652,7 +36596,6 @@ sun.ope-772281.pro
 sun.pbphgwbr.in
 sun.to
 sun.wf
-sun0016.com
 sun0039.com
 sun0rbit.ru
 sun0x.com
@@ -37175,7 +37118,6 @@ sunfideld.info
 sunfieldstream.pro
 sunfirstfederalunion.com
 sunfitness.ru
-sunfixq.de
 sunfje.com
 sunflagsteel.com
 sunflare-apples.com
@@ -43954,7 +43896,6 @@ support-center-customer-security.com
 support-center-for-business-open-case-id-101207.vercel.app
 support-center-for-business-open-cases-appeal-id-416.vercel.app
 support-center-information.com
-support-center-manage-accounthelp.com
 support-center-payments-appleld-apple.com
 support-center-refund-appleld-apple.com
 support-center-security.com

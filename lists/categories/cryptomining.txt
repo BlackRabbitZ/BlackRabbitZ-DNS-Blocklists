@@ -3,7 +3,7 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 6121
+# Entries: 6120
 # Description: Browser and remote cryptomining infrastructure; excludes generic exchanges/crypto sites.
 # Sources: AnudeepND CoinMiner; NoCoin
 # Snapshot: 2026-08
@@ -4284,7 +4284,6 @@ stratum.eu.bitcoin.cz
 stratum.kano.is
 stratum.mining.eligius.st
 stratum.slushpool.com
-stratum2.wemineltc.com
 stratun.bitcoin.cz
 straum.bitcoin.cz
 stwcozfiavhh.bid

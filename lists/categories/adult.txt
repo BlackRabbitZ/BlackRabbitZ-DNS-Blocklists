@@ -3,7 +3,7 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 1028855
+# Entries: 1028845
 # Auto-updated: 2026-09-01T08:42:05Z
 # Description: Massive adult-content and pornography domain set.
 # Sources: Block List Project Porn; StevenBlack porn-only
@@ -2105,7 +2105,6 @@
 1000sexartikelen.nl
 1000sexblog.blogspot.com
 1000sexybabesphotogalleries.blogspot.com
-1000sofadultsextoys.co.uk
 1000sun.com
 1000teencamvideos.com
 1000teens.blogspot.com
@@ -5789,7 +5788,6 @@
 18freshteenies.com
 18friend.com
 18frsexe.top
-18ftp.com
 18ftw.com
 18fu.com
 18fuck.com
@@ -27084,7 +27082,6 @@
 8mobileporn.com
 8mq.xyz
 8mr.top
-8muses-com.ru
 8muses-io.zproxy.org
 8muses.com
 8muses.download
@@ -43309,7 +43306,6 @@ adultliteracy.boutique
 adultliteracyacademy.com
 adultliteracyeducation.com
 adultliterature.com
-adultlive-cams.com
 adultlive.co.nz
 adultlive.pages.dev
 adultlive.xxx
@@ -43666,7 +43662,6 @@ adultmobxv.shop
 adultmoda.com
 adultmodel.com
 adultmodelclub.com
-adultmodelfinder.com
 adultmodelindex.com
 adultmodeling.com
 adultmodelingjob.com
@@ -48053,7 +48048,6 @@ aeroporntube.com
 aerorat.tumblr.com
 aeros02.tk
 aeroshop.gay
-aerosouz-vrn.ru
 aerospacekitting.uk
 aerospaceradar.com
 aerospec.gay
@@ -57846,7 +57840,6 @@ allrusamateurs.com
 allrusex.net
 allrusporno.com
 allrussianbrides.chat.ru
-allrussianclips.com
 allrussianwomen.chat.ru
 allruth.com
 allsaintscranham.co.uk
@@ -62650,7 +62643,6 @@ amateurasians.blogspot.com
 amateurasians.com
 amateurasians.net
 amateurasiansex.blogspot.com
-amateurasiansex.com
 amateurasiansex.pro
 amateurasiansex.tumblr.com
 amateurasiansex.xyz
@@ -406301,7 +406293,6 @@ heresquirt.com
 heresquirt.tv
 herestars.com
 herestars.tv
-herestockings.com
 herestockings.tv
 herestoohot.tumblr.com
 herestuds.com
@@ -445109,7 +445100,6 @@ incestsecrets.com
 incestseks.com
 incestseks.maakjestart.nl
 incestseks.nl
-incestseksfilm.com
 incestseksfilm.nl
 incestseksfilms.nl
 incestseksverhaaltjes.nl

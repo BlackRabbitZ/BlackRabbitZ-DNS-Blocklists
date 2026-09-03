@@ -3,7 +3,7 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 572468
+# Entries: 572441
 # Auto-updated: 2026-09-02T07:56:40Z
 # Description: Massive active and curated phishing-domain set.
 # Sources: Block List Project Phishing; Phishing.Database ACTIVE
@@ -8248,7 +8248,6 @@
 210gm.xyz
 211.249.224.35.bc.googleusercontent.com
 21104.43811.wap.shuaihu99.com
-21110045600047.cf
 21110045600048.cf
 21110045600049.cf
 21113138.com
@@ -11245,7 +11244,6 @@
 30419395.cgsw.sa.com
 3045abff-25d5-478c-8bf7-aabc6fd24b77.usrfiles.com
 30463526.awi.za.com
-304723.cc
 304838.com
 3049101939011093i102.hyperphp.com
 304994097064545.foodonline.com.pk
@@ -19134,7 +19132,6 @@
 5678016.com
 5678018.com
 567802.selcdn.ru
-5678050.com
 5678099.com
 567830.selcdn.ru
 56783138.com
@@ -19544,7 +19541,6 @@
 5897591920.rangiroaplongee.pf
 5898657.com
 589902.selcdn.ru
-589ebeaf.hi8lsm.shop
 58a336b1.yiqiyouxueba.cn
 58a49241.d26218.cn
 58aaa.vip
@@ -21262,7 +21258,6 @@
 5rd43ede4566gt67ytu7h6.kardelenambalaj.com
 5rdhdxhdhgzdshg.blogspot.com
 5rdhdxhdhgzdshg.blogspot.mk
-5reviews.info
 5rfdfdf3f2f2f.blogspot.com
 5rffghjj5g33g4j.blogspot.com
 5rffiel844ig1dwhgmh4qqnjo.53244ds.xyz
@@ -26887,7 +26882,6 @@
 875889690600098940944858787jh.weebly.com
 875ae86850973090b8e6c47a6e1d407cf64dcec492f17f31f41e5b666a.pages.dev
 875f9a5f-52a3-46b0-916e-fce9bc1806e9.usrfiles.com
-875j0lxl.com
 875rcvrsrvcehlpbsnsreq4.xyz
 8760000uc.duckdns.org
 8760365.com
@@ -30114,7 +30108,6 @@ a-fmezv1.ml
 a-fratellanza.corsica
 a-free-rewards.surge.sh
 a-geminilogin.mystrikingly.com
-a-gps.top
 a-haber-gov.com
 a-handlar.com
 a-home-mobile.de
@@ -39035,7 +39028,6 @@ accouunt-informatioon-metaa.start.page
 accouunts-verifyonlinesuspen.com
 accovnt-updata.amazom-co-jp.buzz
 accpayablesloveniaecoresort-max.github.io
-accplanzz.click
 accppalcare.xyz
 accpplsales.ddns.net
 accprety.000webhostapp.com
@@ -45151,7 +45143,6 @@ adtshelpdesk.direct.quickconnect.to
 adttslo.vip
 adty.cc
 aduanas-mexico.org
-aduayam.us
 adubasul.com.br
 adubuildersorangecounty.com
 aducosigngurnets7115.blob.core.windows.net
@@ -51034,7 +51025,6 @@ ait-mart.com
 ait.edu.pk
 ait.vic.edu.au
 aita.eventsredeems.com
-aitafaq.sbs
 aitatennis.com
 aitechfl.com
 aitechph.com
@@ -52730,7 +52720,6 @@ alaliallc.com
 alalowpeorlrlfmdncjfs.weebly.com
 alalsjeudhjsdhf.weebly.com
 alam.com.au
-alama.construction
 alamacademy.com
 alamaibisa.com
 alamaison-home.com
@@ -53546,7 +53535,6 @@ alert.roninsupport.info
 alert.serveuser.com
 alert.suspend-pages-fb.a4lkks1hwd-xlm41rj9r6dy.p.runcloud.link
 alert.system-abuse-recovery.0rgkdwx0er-yjr3ow2zz41m.p.runcloud.link
-alert.wshj.ml
 alert0-platform.cloudns.nz
 alert01mygov.info
 alert02i-2fa.ddns.net
@@ -56140,7 +56128,6 @@ allmantravel.com
 allmark.app
 allmarksintl.com
 allmediashop.nl
-allmediks.com
 allmeetup.com
 allmeusite.com
 allmini.com.br
@@ -56938,7 +56925,6 @@ alphameadtraining.com
 alphamedicalediting.com
 alphamomentum.com
 alphamultichain.pages.dev
-alphan.762126.repl.co
 alphanotebook.id
 alphanouveau.com
 alphanumericfamiliarinstruction.cesarcastillo9.repl.co
@@ -58226,7 +58212,6 @@ amanov.sdfgty8.top
 amanp23.github.io
 amanpacker.in
 amanpati1712.github.io
-amanpoiare.serpgold.com
 amanrk28.github.io
 amanrwtsre.github.io
 amansaocasavida.com
@@ -58341,7 +58326,6 @@ amaongeiuyhhelggewgiohsruwr.xyz
 amaons.com
 amaonsafe.cf
 amaonsafe.gq
-amaonsafe.tk
 amaonv.ioyufrt4.top
 amaonx.jfeuirter11.top
 amaonz-mail.xyz
@@ -58689,7 +58673,6 @@ amaz0n.co.jp-token.wvw1-bmo.com
 amaz0n.co.jp.akhg.top
 amaz0n.enonsec.com
 amaz0n.ioeutt.shop
-amaz0n.lindstromlaw.com
 amaz0n.yuntutp42.top
 amaz0n.zhongxiaoyang.top
 amaz0n8.com
@@ -58858,7 +58841,6 @@ amazingconnections.in
 amazingdaviehomevalues.com
 amazingextras.000webhostapp.com
 amazingfood.com.ar
-amazingglitz.com
 amazinggoodies.ca
 amazinggrace2clean.com
 amazinggracefashion.com
@@ -59033,7 +59015,6 @@ amazo-alpha.vercel.app
 amazo-ana.shop
 amazo-anm.shop
 amazo-co.xyz
-amazo-n.top
 amazo-ns-contact-us.senioradvisorsplus.com
 amazo-update.p9pi.xyz
 amazo.8vhhm59.cn
@@ -60677,7 +60658,6 @@ amazon.co.jp.s6xaunxmxa72bvhz.net
 amazon.co.jp.s8u913f0fed42f3c6a45b3.net
 amazon.co.jp.sa22csdasd522d8s3fg2hfd13.monster
 amazon.co.jp.sadvbnghteryyu12-vcbcvb.com
-amazon.co.jp.sdaez.xyz
 amazon.co.jp.selectopenid.xyz
 amazon.co.jp.shop-signin.xyz
 amazon.co.jp.signin.id-68423.accountcheckback.mixh.jp
@@ -70206,7 +70186,6 @@ ap.fbcom-19455353.intertrans-inc.com
 ap.fbcom-27834365.intertrans-inc.com
 ap.fbcom-30565265.intertrans-inc.com
 ap.fbcom-33208537.intertrans-inc.com
-ap.fbcom-36831755.intertrans-inc.com
 ap.fbcom-39155448.intertrans-inc.com
 ap.fbcom-41870771.intertrans-inc.com
 ap.fbcom-47075245.intertrans-inc.com
@@ -73492,7 +73471,6 @@ app.otcib.com
 app.otcib.net
 app.ourswap.xyz
 app.owapostmaster-messages.somersetdeals.com
-app.owawebcloud.ga
 app.pagehlpinfo04.my.id
 app.pages-unlock-issue.v0m3ljmqvg-jqp3vvon7350.p.runcloud.link
 app.pagessystemfabuk-1105176205.1oxjkps3ah-yjr3oxzrm31m.p.runcloud.link
@@ -76532,7 +76510,6 @@ apple.fmi.services
 apple.fnf478.com
 apple.found-alert.us
 apple.found-idevice.com
-apple.found-live.info
 apple.fr-findmy-icloud.com
 apple.gfcyzx.com
 apple.gjdljz.com
@@ -262837,7 +262814,6 @@ hgbhjkljh.weebly.com
 hgbirkcvwglagqazhczkpygaoh-dot-gleowayel400503.uc.r.appspot.com
 hgcdhbxnf.weebly.com
 hgcffddddd8888888.000webhostapp.com
-hgchinesemedicines.com
 hgcontabilidade.shop
 hgcp880.com
 hgcp881.com
@@ -268115,7 +268091,6 @@ housing.stylecasterads.com
 housing22-viewlistinglistingnearyou.tabularasa.com
 housing4123-viewlistinglisting.fintusbd.com
 housing51-viewlistinglisting.theartsvalley.com
-housing913-viewlistinglisting.langstonegate.com
 housingfinancecommission.com
 housingheadquarters-my.sharepoint.com
 housingmeister.jp
@@ -273154,7 +273129,6 @@ icedamremovallicense.com
 icedamremovallicensing.com
 icedamremovalmn.com
 iceeewpwll.cf
-icef.g.maxgrowth.ru
 iceilandia.com.br
 icejunior.com
 icejzddgtogkdzcfzycetkagmk-dot-gleow23456788988878.ts.r.appspot.com
@@ -293271,7 +293245,6 @@ jiediances.nakeked434.workers.dev
 jiedu89.com
 jieefiaic.s.maxgrowth.ru
 jieeins8.cf
-jiegeads.site
 jiewnge.com
 jifexwhyeergwoonjbvfxaptkf-dot-gloff849483.uk.r.appspot.com
 jiff-meta.pages.dev

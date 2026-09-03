@@ -3,7 +3,7 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 284239
+# Entries: 284231
 # Auto-updated: 2026-09-02T07:56:46Z
 # Description: Massive scam, fraud and deceptive-platform domain set.
 # Sources: Block List Project Fraud/Scam; DurableNapkin Scam Blocklist; curated BaFin entries
@@ -4343,7 +4343,6 @@ accou-supports.works
 accouchement.space
 accoucheur.space
 accoun-servicess.support
-accoun-support.com
 account-ability-online.uk
 account-acces-manager.com
 account-access-blocked.info
@@ -6192,7 +6191,6 @@ agenes.stream
 agengacor.org
 agent-aghast.stream
 agent-login.info
-agent007me.agency
 agentmanagementsupport.com
 agents-login.info
 agents.stream
@@ -11530,7 +11528,6 @@ allegro.1231823812giri.lol
 allegro.1239812ht.baby
 allegro.126251.shop
 allegro.12939h74.xyz
-allegro.161251.click
 allegro.162616.click
 allegro.188139.click
 allegro.1945jkk.shop
@@ -13900,7 +13897,6 @@ amremorques.com
 amritamaz.me
 amsmmdorwprwsdkalsr.site
 amsorry.tk
-amsterdam-coin.com
 amsterdam-nl.com
 amsterdamout.store
 amsthor.xyz
@@ -14995,7 +14991,6 @@ antivirusconsulting.com
 antiviruscontacthelp.com
 antiviruscontactnumber.co.uk
 antiviruscontactsupport.wordpress.com
-antiviruscontrol.date
 antiviruscontrol.download
 antiviruscontrol.review
 antiviruscontrol.win
@@ -74874,7 +74869,6 @@ indgfilker.com
 indhkoile.com
 india-call-girls.com
 india-e-visa.com
-india-job-alert.online
 india-jobalert.com
 india-visa-online.com
 india-visa-online.org
@@ -77592,7 +77586,6 @@ issue-1abac0.stream
 issue-1abot0.stream
 issue-1acer0.stream
 issue-1acr10.stream
-issue-1adbn0.stream
 issue-1agh0.stream
 issue-1ahjl0.stream
 issue-1aiel0.stream
@@ -139561,7 +139554,6 @@ support-care.biz
 support-cashapp-quickhelp.com
 support-center-customer-security.com
 support-center-information.com
-support-center-manage-accounthelp.com
 support-center-security.com
 support-center.info
 support-center.online
