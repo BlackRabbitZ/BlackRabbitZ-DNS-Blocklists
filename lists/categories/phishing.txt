@@ -3,8 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 572441
-# Auto-updated: 2026-09-02T07:56:40Z
+# Entries: 572444
+# Auto-updated: 2026-09-04T08:00:36Z
 # Description: Massive active and curated phishing-domain set.
 # Sources: Block List Project Phishing; Phishing.Database ACTIVE
 # Snapshot: 2026-08
@@ -268091,6 +268091,7 @@ housing.stylecasterads.com
 housing22-viewlistinglistingnearyou.tabularasa.com
 housing4123-viewlistinglisting.fintusbd.com
 housing51-viewlistinglisting.theartsvalley.com
+housing913-viewlistinglisting.langstonegate.com
 housingfinancecommission.com
 housingheadquarters-my.sharepoint.com
 housingmeister.jp
@@ -273129,6 +273130,7 @@ icedamremovallicense.com
 icedamremovallicensing.com
 icedamremovalmn.com
 iceeewpwll.cf
+icef.g.maxgrowth.ru
 iceilandia.com.br
 icejunior.com
 icejzddgtogkdzcfzycetkagmk-dot-gleow23456788988878.ts.r.appspot.com
@@ -293245,6 +293247,7 @@ jiediances.nakeked434.workers.dev
 jiedu89.com
 jieefiaic.s.maxgrowth.ru
 jieeins8.cf
+jiegeads.site
 jiewnge.com
 jifexwhyeergwoonjbvfxaptkf-dot-gloff849483.uk.r.appspot.com
 jiff-meta.pages.dev

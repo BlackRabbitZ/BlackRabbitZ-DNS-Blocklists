@@ -3,8 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 11453
-# Auto-updated: 2026-09-02T07:56:46Z
+# Entries: 11467
+# Auto-updated: 2026-09-04T08:00:43Z
 # Description: Aggressive deceptive-store and fake-shop candidates derived from fraud/scam intelligence.
 # Sources: Block List Project Fraud/Scam (retail subset); DurableNapkin (retail subset); Verbraucherzentrale curated entries
 # Snapshot: 2026-08
@@ -1696,6 +1696,7 @@ doeoolza.shop
 dogparadiseshop.com
 dogparadisestore.com
 doladujtelefon.shop
+dolomiteoutlet.com
 dolphins.nfljersey.us.com
 dolviao.shop
 dolystore.com
@@ -4538,6 +4539,7 @@ store.47n78xprrvp1.top
 store.adminicesm.life
 store.affordableforyouusa5.godaddysites.com
 store.air-up-turkiye.com
+store.aircgd.shop
 store.airteltower.com
 store.airup-romania.com
 store.airupsrbija.com
@@ -4649,6 +4651,7 @@ store.desiupload.in
 store.dieserbenni.ru
 store.diytsi.shop
 store.doh-gov.ph
+store.dolomiteoutlet.com
 store.dolystore.com
 store.dopestore.pl
 store.draxu.com
@@ -4761,6 +4764,7 @@ store.klasykavod.pl
 store.kmspicoofficial.com
 store.koinprime.com
 store.kontribusiuang.top
+store.kra18.com
 store.legabitid.com
 store.lesliespracklen.sa.com
 store.letteringift.com
@@ -4800,6 +4804,7 @@ store.muskusa.com
 store.mybestautologin567.com
 store.myhandshops.myshopify.com
 store.nalzahqp.page.link
+store.namemory.co.uk
 store.natistorez.com
 store.navi1.com
 store.navi10.com
@@ -4812,6 +4817,7 @@ store.navi20.ru
 store.navi21.com
 store.navi23.com
 store.navi24.com
+store.navi26.com
 store.navi26.ru
 store.navi3.com
 store.navi42.ru
@@ -4839,6 +4845,7 @@ store.nip3.com
 store.nip4.com
 store.nip46.com
 store.nip5.com
+store.nip50.com
 store.nip9.com
 store.nonofy.com
 store.nordavind.ru
@@ -4871,6 +4878,7 @@ store.pay.avito.avito.pay.booking.com-id809702.com
 store.pay.avito.avito.sber.pay.booking.com-id809702.com
 store.pay.avito.pay.com-id02349.info
 store.pay.com-id15421.info
+store.pay.pay.com-id309712.com
 store.penguinnow.com
 store.pharaohstore.com
 store.phirussacmush.net
@@ -4908,9 +4916,11 @@ store.sale-friday.info
 store.saveeeee.myshopify.com
 store.sber.avito.booking.com-id334212.com
 store.sber.com-id129041.info
+store.sber.pay.com-id20341.info
 store.sber.sberbank.avito.avito.avito.avito.avito.com-id20341.info
 store.sberbank.avito.avito.avito.avito.avito.sber.com-id02349.info
 store.sberbank.avito.avito.sber.www42.com-id23901.info
+store.sberbank.pay.com-id322712.com
 store.sberbank.pay.sber.www.com-id1800853.com
 store.sberbank.sber.id19845672.info
 store.seasonsofficial.com
@@ -4968,6 +4978,7 @@ store.timebestbuy.com
 store.tinkleo.com
 store.tiranaaquapark-eg.com
 store.tiskomarket.com
+store.tlonsey.com
 store.tobiascelebritymusicevents.com
 store.tomadamsenergy.com
 store.topsolid.com
@@ -4993,6 +5004,7 @@ store.ultraboxlab.com
 store.unifully.com
 store.uniswap.host
 store.uniswap.ro
+store.uniswap5.work
 store.uniswapai.xyz
 store.uniswapapp.xyz
 store.uniswapbot.xyz
@@ -5037,6 +5049,7 @@ store.w0-eg-d12-de-yd-nka-ne-rklkyazwo0.vercel.app
 store.wanedo.net
 store.watchmark.shop
 store.wazees.com
+store.wbebellmail.z13.web.core.windows.net
 store.wdfmuseum.org
 store.webvod.pl
 store.wichky.info
@@ -7663,6 +7676,7 @@ www.doallshops.com
 www.doeoolza.shop
 www.dogparadisestore.com
 www.doladujtelefon.shop
+www.dolomiteoutlet.com
 www.dolviao.shop
 www.dolystore.com
 www.domainsdiscount.win

@@ -3,8 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 1028845
-# Auto-updated: 2026-09-01T08:42:05Z
+# Entries: 1028846
+# Auto-updated: 2026-09-04T08:01:02Z
 # Description: Massive adult-content and pornography domain set.
 # Sources: Block List Project Porn; StevenBlack porn-only
 # Snapshot: 2026-08
@@ -445100,6 +445100,7 @@ incestsecrets.com
 incestseks.com
 incestseks.maakjestart.nl
 incestseks.nl
+incestseksfilm.com
 incestseksfilm.nl
 incestseksfilms.nl
 incestseksverhaaltjes.nl

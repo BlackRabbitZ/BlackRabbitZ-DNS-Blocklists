@@ -3,8 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 284231
-# Auto-updated: 2026-09-02T07:56:46Z
+# Entries: 284260
+# Auto-updated: 2026-09-04T08:00:42Z
 # Description: Massive scam, fraud and deceptive-platform domain set.
 # Sources: Block List Project Fraud/Scam; DurableNapkin Scam Blocklist; curated BaFin entries
 # Snapshot: 2026-08
@@ -44741,6 +44741,7 @@ dollishreborndolls.com
 dollytub.co.uk
 dolomite.co.at
 dolomite.com.de
+dolomiteoutlet.com
 dolomsfals.cyou
 dolores13phone.tk
 dolorimetry.stream
@@ -74869,6 +74870,7 @@ indgfilker.com
 indhkoile.com
 india-call-girls.com
 india-e-visa.com
+india-job-alert.online
 india-jobalert.com
 india-visa-online.com
 india-visa-online.org
@@ -77586,6 +77588,7 @@ issue-1abac0.stream
 issue-1abot0.stream
 issue-1acer0.stream
 issue-1acr10.stream
+issue-1adbn0.stream
 issue-1agh0.stream
 issue-1ahjl0.stream
 issue-1aiel0.stream
@@ -127631,6 +127634,7 @@ sberbank.pay.avito.avito.avito.avito.com-id809702.com
 sberbank.pay.www.booking.com-id322712.com
 sberbank.www.avito.www.booking.com-id90123.info
 sberbank.www.blablacar.id90152861.com
+sberbank.www.com-id9033316.com
 sberboom.plp7.ru
 sberex.com
 sberrdisse.cyou
@@ -136607,6 +136611,7 @@ store.adminicesm.life
 store.aeotec.com
 store.affordableforyouusa5.godaddysites.com
 store.air-up-turkiye.com
+store.aircgd.shop
 store.airteltower.com
 store.airup-romania.com
 store.airupsrbija.com
@@ -136720,6 +136725,7 @@ store.desiupload.in
 store.dieserbenni.ru
 store.diytsi.shop
 store.doh-gov.ph
+store.dolomiteoutlet.com
 store.dolystore.com
 store.dopestore.pl
 store.draxu.com
@@ -136833,6 +136839,7 @@ store.klasykavod.pl
 store.kmspicoofficial.com
 store.koinprime.com
 store.kontribusiuang.top
+store.kra18.com
 store.legabitid.com
 store.lesliespracklen.sa.com
 store.letteringift.com
@@ -136872,6 +136879,7 @@ store.muskusa.com
 store.mybestautologin567.com
 store.myhandshops.myshopify.com
 store.nalzahqp.page.link
+store.namemory.co.uk
 store.natistorez.com
 store.navi1.com
 store.navi10.com
@@ -136884,6 +136892,7 @@ store.navi20.ru
 store.navi21.com
 store.navi23.com
 store.navi24.com
+store.navi26.com
 store.navi26.ru
 store.navi3.com
 store.navi42.ru
@@ -136911,6 +136920,7 @@ store.nip3.com
 store.nip4.com
 store.nip46.com
 store.nip5.com
+store.nip50.com
 store.nip9.com
 store.nonofy.com
 store.nordavind.ru
@@ -136943,6 +136953,7 @@ store.pay.avito.avito.pay.booking.com-id809702.com
 store.pay.avito.avito.sber.pay.booking.com-id809702.com
 store.pay.avito.pay.com-id02349.info
 store.pay.com-id15421.info
+store.pay.pay.com-id309712.com
 store.penguinnow.com
 store.pharaohstore.com
 store.phirussacmush.net
@@ -136982,9 +136993,11 @@ store.sale-friday.info
 store.saveeeee.myshopify.com
 store.sber.avito.booking.com-id334212.com
 store.sber.com-id129041.info
+store.sber.pay.com-id20341.info
 store.sber.sberbank.avito.avito.avito.avito.avito.com-id20341.info
 store.sberbank.avito.avito.avito.avito.avito.sber.com-id02349.info
 store.sberbank.avito.avito.sber.www42.com-id23901.info
+store.sberbank.pay.com-id322712.com
 store.sberbank.pay.sber.www.com-id1800853.com
 store.sberbank.sber.id19845672.info
 store.seasonsofficial.com
@@ -137042,6 +137055,7 @@ store.timebestbuy.com
 store.tinkleo.com
 store.tiranaaquapark-eg.com
 store.tiskomarket.com
+store.tlonsey.com
 store.tobiascelebritymusicevents.com
 store.tomadamsenergy.com
 store.topsolid.com
@@ -137067,6 +137081,7 @@ store.ultraboxlab.com
 store.unifully.com
 store.uniswap.host
 store.uniswap.ro
+store.uniswap5.work
 store.uniswapai.xyz
 store.uniswapapp.xyz
 store.uniswapbot.xyz
@@ -137112,6 +137127,7 @@ store.w0-eg-d12-de-yd-nka-ne-rklkyazwo0.vercel.app
 store.wanedo.net
 store.watchmark.shop
 store.wazees.com
+store.wbebellmail.z13.web.core.windows.net
 store.wdfmuseum.org
 store.webvod.pl
 store.wichky.info
@@ -139554,6 +139570,7 @@ support-care.biz
 support-cashapp-quickhelp.com
 support-center-customer-security.com
 support-center-information.com
+support-center-manage-accounthelp.com
 support-center-security.com
 support-center.info
 support-center.online
@@ -170917,6 +170934,7 @@ www.9upx.org
 www.9uqvy.tk
 www.9uyv5.tk
 www.9vskin1.skin
+www.9vzn29.98kk89.com
 www.9xiufacebook.com
 www.9xqm4vz.skin
 www.a-50.com
@@ -181056,6 +181074,7 @@ www.arizonaannuityalert.com
 www.arizonabyways.com
 www.arizonaphp.com
 www.arjunaclasses.com
+www.ark-invests.net
 www.arkansas-job-openings.info
 www.arkansas-jobs.info
 www.arkansasbaptist.edu
@@ -198300,6 +198319,7 @@ www.dolcevitahotel.dn.ua
 www.dollartechsupport.com
 www.dollishreborndolls.com
 www.dollytub.co.uk
+www.dolomiteoutlet.com
 www.dolomsfals.cyou
 www.dolores13phone.tk
 www.dolpeing.com
@@ -236964,6 +236984,7 @@ www.oszukacruletke.blogspot.com
 www.oszukacruletke.like.pl
 www.otaato.com
 www.otaet.ru
+www.otakupuzzle.com
 www.otamakozmetik.com
 www.otarilinol.cyou
 www.otceczanem.com
@@ -237800,7 +237821,9 @@ www.pay-pal-support.com
 www.pay-pall.support
 www.pay-someone-to-write-my-paper.com
 www.pay-update.com
+www.pay.avito.avito.avito.sber.pay.com-id809702.com
 www.pay.avito.avito.www.booking.com-id20341.info
+www.pay.avito.pay.avito.avito.avito.com-id809702.com
 www.pay.avito.pay.booking.com-id3212341.info
 www.pay.avito.sber.pay.booking.com-id809702.com
 www.pay.avito.www.com-id1800853.com
@@ -249317,8 +249340,11 @@ www.sber.avito.www.booking.com-id334212.com
 www.sber.booking.com-id23901.info
 www.sber.pay.sber.booking.com-id20341.info
 www.sberbank-online-gid.ru
+www.sberbank.avito.avito.avito.avito.booking.com-id15421.info
 www.sberbank.avito.avito.avito.avito.com-id309712.com
 www.sberbank.avito.avito.sber.pay.com-id809702.com
+www.sberbank.avito.com-id90123.info
+www.sberbank.avito.pay.booking.id05196219.com
 www.sberbank.avito.www.booking.com-id1800853.com
 www.sberbank.sberbank.www.booking.com-id123251.info
 www.sberboom.plp7.ru
@@ -265954,6 +265980,7 @@ www.tsarmedia.com
 www.tsfreejobalert.com
 www.tshirtis.com
 www.tshirtjp.com
+www.tsla-win.com
 www.tsmhouseafrica.com
 www.tspny.com
 www.tsrxz.net
@@ -281730,8 +281757,10 @@ yandex-uber.taxi
 yandex-windows-7.ru
 yandex-windows-8.ru
 yandex-yan.ru
+yandex.avito.avito.avito.com-id1800853.com
 yandex.avito.avito.pay.booking.com-id309712.com
 yandex.avito.booking.com-id23901.info
+yandex.avito.sberbank.booking.com-id90123.info
 yandex.blue
 yandex.booking.com-id321112.com
 yandex.feedback

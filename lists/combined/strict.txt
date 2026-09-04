@@ -3,7 +3,7 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 375062
+# Entries: 375067
 #
 # Includes: ads,trackers,social-trackers,affiliate-tracking,telemetry,windows-telemetry,apple-telemetry,android-telemetry,linux-telemetry,nas-telemetry,server-telemetry,mobile-tracking,native-tracking,smart-tv,iot
 #
@@ -166048,6 +166048,7 @@ innae.mftstamps.com
 innassociatecancer.com
 innatek.com
 inncreasukedrev.info
+inndl.com
 inner-active.com
 inner-active.mobi
 inner.newinform.com
@@ -169447,6 +169448,7 @@ iziwhlafxitn.com
 izixtxrvogaq.com
 izjguvanm.com
 izjvwx.mirtesen.ru
+izjzyykiyn.club
 izkcesinsyz.com
 izkivydhiqfjx.store
 izlrmsjdntfhpr.com
@@ -170027,6 +170029,7 @@ jbutml.com
 jbvdo.com
 jbvisobwrlcv.com
 jbvmn.whitehouseblackmarket.com
+jbvng.dremlove.com
 jbvoejzmaqmjw.top
 jbvoejzmaqqjj.top
 jbvszzri.avxperten.dk
@@ -296141,6 +296144,7 @@ sparefoot.pxf.io
 sparelli.com
 sparersruiner.shop
 sparhandyde.widget.criteo.com
+sparical.com
 spark-displayads-creatives-prod.s3.amazonaws.com
 spark.marketo.com
 spark5-de.b.appier.net
@@ -315759,6 +315763,7 @@ stats.sozialismus.ch
 stats.sp-server.net
 stats.spaceiran.com
 stats.spaceverb.de
+stats.spacezz.ca
 stats.spaciotempo.fr
 stats.spackmat.de
 stats.spaggiari.eu

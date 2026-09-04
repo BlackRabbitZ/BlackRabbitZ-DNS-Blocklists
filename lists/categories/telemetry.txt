@@ -3,7 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 29323
+# Entries: 29324
+# Auto-updated: 2026-09-04T07:59:25Z
 # Description: Broad product, application, analytics, diagnostics and telemetry endpoints.
 # Sources: Block List Project (derived telemetry subset)
 # Snapshot: 2026-08
@@ -27227,6 +27228,7 @@ stats.sozialismus.ch
 stats.sp-server.net
 stats.spaceiran.com
 stats.spaceverb.de
+stats.spacezz.ca
 stats.spaciotempo.fr
 stats.spackmat.de
 stats.spaggiari.eu
