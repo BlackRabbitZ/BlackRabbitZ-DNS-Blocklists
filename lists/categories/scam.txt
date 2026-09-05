@@ -3,8 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 284260
-# Auto-updated: 2026-09-04T08:00:42Z
+# Entries: 284275
+# Auto-updated: 2026-09-05T07:42:44Z
 # Description: Massive scam, fraud and deceptive-platform domain set.
 # Sources: Block List Project Fraud/Scam; DurableNapkin Scam Blocklist; curated BaFin entries
 # Snapshot: 2026-08
@@ -53585,6 +53585,7 @@ extraconjugales.com
 extraconjugales.fr
 extractioni.com
 extractiontogethis.loan
+extradevip.com
 extrados.us
 extralangrotary.com
 extranet-login.com
@@ -110382,9 +110383,11 @@ pay-someone-to-write-my-paper.com
 pay-update.com
 pay.avito.avito.avito.avito.avito.avito.com-id02349.info
 pay.avito.avito.avito.avito.avito.booking.com-id15421.info
+pay.avito.avito.avito.avito.sber.www42.com-id23901.info
 pay.avito.avito.avito.avito.www.booking.com-id90123.info
 pay.avito.avito.avito.com-id809702.com
 pay.avito.com-id90123.info
+pay.avito.pay.avito.avito.avito.avito.com-id809702.com
 pay.osoobe.com
 pay.quicktechies.com
 pay2me.pl
@@ -117750,6 +117753,7 @@ portu-ai.com
 portu-pl.com
 portugalnewstoday.com
 posda-ba.cfd
+posehee.com
 poseidon-home.com
 poseidon.guru
 poseidonbikeworld.shop
@@ -127628,10 +127632,12 @@ sber.com-id129041.info
 sber.com-id329712.com
 sberbank-online-gid.ru
 sberbank.avito.avito.avito.avito.avito.com-id90123.info
+sberbank.avito.avito.avito.com-id309712.com
 sberbank.avito.com-id20341.info
 sberbank.com-id02349.info
 sberbank.pay.avito.avito.avito.avito.com-id809702.com
 sberbank.pay.www.booking.com-id322712.com
+sberbank.www.avito.com-id802915.com
 sberbank.www.avito.www.booking.com-id90123.info
 sberbank.www.blablacar.id90152861.com
 sberbank.www.com-id9033316.com
@@ -136634,6 +136640,7 @@ store.atrendsz.com
 store.avarik.web.app
 store.avito.avito.avito.avito.avito.booking.com-id23901.info
 store.avito.avito.avito.pay.com-id02349.info
+store.avito.pay.com-id129041.info
 store.backend.store.eset.co.il
 store.bajeczki.org.pl
 store.baltic-pipe-finansowy.blogspot.com
@@ -136688,6 +136695,7 @@ store.clubatleticodemadrid.com
 store.cluckergifts.ecwid.com
 store.cma88.vip
 store.cmoboy.com
+store.cnhvirtual.co
 store.cognatesyringe.com
 store.coinaps.com
 store.coinreq.com
@@ -136867,6 +136875,7 @@ store.millabay.com
 store.modalsaya.xyz
 store.moddetail.com
 store.modmobile24.com
+store.moneymm1688.shop
 store.monkstars.co
 store.moteshoes.com
 store.ms-analytics.mywire.org
@@ -136895,6 +136904,7 @@ store.navi24.com
 store.navi26.com
 store.navi26.ru
 store.navi3.com
+store.navi32.com
 store.navi42.ru
 store.navi5.com
 store.navi6.com
@@ -136997,6 +137007,7 @@ store.sber.pay.com-id20341.info
 store.sber.sberbank.avito.avito.avito.avito.avito.com-id20341.info
 store.sberbank.avito.avito.avito.avito.avito.sber.com-id02349.info
 store.sberbank.avito.avito.sber.www42.com-id23901.info
+store.sberbank.pay.avito.avito.avito.avito.com-id90123.info
 store.sberbank.pay.com-id322712.com
 store.sberbank.pay.sber.www.com-id1800853.com
 store.sberbank.sber.id19845672.info
@@ -137022,6 +137033,7 @@ store.southernutahlive.com
 store.stableuniswap.xyz
 store.startuplatte.com
 store.steamgateways.com
+store.steanmconnmunnity.com
 store.stellara.de
 store.stingcool-com.myshopify.com
 store.stoeki.com
@@ -137067,6 +137079,7 @@ store.travisa.com
 store.trendsharks.com
 store.treverschmelerkris18.myshopify.com
 store.tripinpremiumsnacks.com
+store.tromselementbygg.no
 store.turtleclient.xyz
 store.twiiiter.com
 store.twinsbio.com
@@ -137140,6 +137153,7 @@ store.www.base-vod.pl
 store.xcartpro.com
 store.xvid.social-previews.top
 store.yahhhoo.com
+store.yandex.avito.avito.com-id90123.info
 store.yandex.avito.bo0king.com-id16313.info
 store.yandex.pay.avito.avito.avito.sberbank.booking.com-id90123.info
 store.yandex.www.booking.com-id302912.com
@@ -204130,6 +204144,7 @@ www.extlikes.com
 www.extra-account-limited-id.com
 www.extra-zarabotok.info
 www.extrabrut.at
+www.extradevip.com
 www.extragram.net
 www.extranet-login.com
 www.extraordinary-marzipan-01f72a.netlify.app

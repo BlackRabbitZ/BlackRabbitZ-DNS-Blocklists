@@ -4,7 +4,7 @@
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
 # Entries: 235702
-# Auto-updated: 2026-09-04T07:59:21Z
+# Auto-updated: 2026-09-05T07:41:26Z
 # Description: Large advertising and ad-delivery domain set.
 # Sources: Block List Project; AnudeepND
 # Snapshot: 2026-08

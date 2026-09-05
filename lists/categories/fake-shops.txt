@@ -3,8 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 11467
-# Auto-updated: 2026-09-04T08:00:43Z
+# Entries: 11475
+# Auto-updated: 2026-09-05T07:42:45Z
 # Description: Aggressive deceptive-store and fake-shop candidates derived from fraud/scam intelligence.
 # Sources: Block List Project Fraud/Scam (retail subset); DurableNapkin (retail subset); Verbraucherzentrale curated entries
 # Snapshot: 2026-08
@@ -4561,6 +4561,7 @@ store.atrendsz.com
 store.avarik.web.app
 store.avito.avito.avito.avito.avito.booking.com-id23901.info
 store.avito.avito.avito.pay.com-id02349.info
+store.avito.pay.com-id129041.info
 store.backend.store.eset.co.il
 store.bajeczki.org.pl
 store.baltic-pipe-finansowy.blogspot.com
@@ -4615,6 +4616,7 @@ store.clubatleticodemadrid.com
 store.cluckergifts.ecwid.com
 store.cma88.vip
 store.cmoboy.com
+store.cnhvirtual.co
 store.cognatesyringe.com
 store.coinaps.com
 store.coinreq.com
@@ -4792,6 +4794,7 @@ store.millabay.com
 store.modalsaya.xyz
 store.moddetail.com
 store.modmobile24.com
+store.moneymm1688.shop
 store.monkstars.co
 store.moteshoes.com
 store.ms-analytics.mywire.org
@@ -4820,6 +4823,7 @@ store.navi24.com
 store.navi26.com
 store.navi26.ru
 store.navi3.com
+store.navi32.com
 store.navi42.ru
 store.navi5.com
 store.navi6.com
@@ -4920,6 +4924,7 @@ store.sber.pay.com-id20341.info
 store.sber.sberbank.avito.avito.avito.avito.avito.com-id20341.info
 store.sberbank.avito.avito.avito.avito.avito.sber.com-id02349.info
 store.sberbank.avito.avito.sber.www42.com-id23901.info
+store.sberbank.pay.avito.avito.avito.avito.com-id90123.info
 store.sberbank.pay.com-id322712.com
 store.sberbank.pay.sber.www.com-id1800853.com
 store.sberbank.sber.id19845672.info
@@ -4945,6 +4950,7 @@ store.southernutahlive.com
 store.stableuniswap.xyz
 store.startuplatte.com
 store.steamgateways.com
+store.steanmconnmunnity.com
 store.stellara.de
 store.stingcool-com.myshopify.com
 store.stoeki.com
@@ -4990,6 +4996,7 @@ store.travisa.com
 store.trendsharks.com
 store.treverschmelerkris18.myshopify.com
 store.tripinpremiumsnacks.com
+store.tromselementbygg.no
 store.turtleclient.xyz
 store.twiiiter.com
 store.twinsbio.com
@@ -5062,6 +5069,7 @@ store.www.base-vod.pl
 store.xcartpro.com
 store.xvid.social-previews.top
 store.yahhhoo.com
+store.yandex.avito.avito.com-id90123.info
 store.yandex.avito.bo0king.com-id16313.info
 store.yandex.pay.avito.avito.avito.sberbank.booking.com-id90123.info
 store.yandex.www.booking.com-id302912.com
