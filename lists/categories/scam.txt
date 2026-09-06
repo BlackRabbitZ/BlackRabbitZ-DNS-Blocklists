@@ -3,8 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 284275
-# Auto-updated: 2026-09-05T07:42:44Z
+# Entries: 284278
+# Auto-updated: 2026-09-06T07:56:37Z
 # Description: Massive scam, fraud and deceptive-platform domain set.
 # Sources: Block List Project Fraud/Scam; DurableNapkin Scam Blocklist; curated BaFin entries
 # Snapshot: 2026-08
@@ -136677,6 +136677,7 @@ store.bradcroninnapo82.myshopify.com
 store.breakshirts.com
 store.bsnltowerinstallations.com
 store.buddhakind.com
+store.budm.shop
 store.buzzazone.com
 store.buzzdeal.com
 store.bwpkizpfms.funnelish.com
@@ -136979,6 +136980,7 @@ store.popeurope.com
 store.porkbunrr.web.app
 store.pridesocial.net
 store.primevod.pl
+store.produktretter.org
 store.promomesh.com
 store.pslcpdfhjmxpldvfrhttxxdqzgr2.godaddysites.com
 store.punchonsol.top
@@ -228725,6 +228727,7 @@ www.missioncriticalemail.org
 www.missionsaveasmile.org
 www.mississippi-job-openings.info
 www.mississippi-jobs.info
+www.missmatch3-addressdelivery.mails-5v6i15.aww9lv2.shop
 www.missouri-job-openings.info
 www.missouri-jobs.info
 www.missouri-works.info

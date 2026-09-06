@@ -3,8 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 572445
-# Auto-updated: 2026-09-05T07:42:38Z
+# Entries: 572448
+# Auto-updated: 2026-09-06T07:56:31Z
 # Description: Massive active and curated phishing-domain set.
 # Sources: Block List Project Phishing; Phishing.Database ACTIVE
 # Snapshot: 2026-08
@@ -73471,6 +73471,7 @@ app.otcib.com
 app.otcib.net
 app.ourswap.xyz
 app.owapostmaster-messages.somersetdeals.com
+app.owawebcloud.ga
 app.pagehlpinfo04.my.id
 app.pages-unlock-issue.v0m3ljmqvg-jqp3vvon7350.p.runcloud.link
 app.pagessystemfabuk-1105176205.1oxjkps3ah-yjr3oxzrm31m.p.runcloud.link
@@ -76510,6 +76511,7 @@ apple.fmi.services
 apple.fnf478.com
 apple.found-alert.us
 apple.found-idevice.com
+apple.found-live.info
 apple.fr-findmy-icloud.com
 apple.gfcyzx.com
 apple.gjdljz.com
@@ -80746,6 +80748,7 @@ appsworldave.vercel.app
 appsxxi.com
 appsy-itunes-cuenta.com
 appsync.info
+appsync.live
 appsync.netlify.app
 appsync.page.link
 appsyncresolve.pages.dev

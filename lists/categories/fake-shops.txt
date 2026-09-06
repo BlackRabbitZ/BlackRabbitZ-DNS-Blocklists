@@ -3,8 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 11475
-# Auto-updated: 2026-09-05T07:42:45Z
+# Entries: 11478
+# Auto-updated: 2026-09-06T07:56:37Z
 # Description: Aggressive deceptive-store and fake-shop candidates derived from fraud/scam intelligence.
 # Sources: Block List Project Fraud/Scam (retail subset); DurableNapkin (retail subset); Verbraucherzentrale curated entries
 # Snapshot: 2026-08
@@ -4598,6 +4598,7 @@ store.bradcroninnapo82.myshopify.com
 store.breakshirts.com
 store.bsnltowerinstallations.com
 store.buddhakind.com
+store.budm.shop
 store.buzzazone.com
 store.buzzdeal.com
 store.bwpkizpfms.funnelish.com
@@ -4898,6 +4899,7 @@ store.popeurope.com
 store.porkbunrr.web.app
 store.pridesocial.net
 store.primevod.pl
+store.produktretter.org
 store.pslcpdfhjmxpldvfrhttxxdqzgr2.godaddysites.com
 store.punchonsol.top
 store.purative.com
@@ -8878,6 +8880,7 @@ www.milorefashion.com
 www.minayang.shop
 www.mindfeorge.shop
 www.miosalstssal.shop
+www.missmatch3-addressdelivery.mails-5v6i15.aww9lv2.shop
 www.miumiu-online-outlet.com
 www.mixesshop.com
 www.mixpowdershop.com

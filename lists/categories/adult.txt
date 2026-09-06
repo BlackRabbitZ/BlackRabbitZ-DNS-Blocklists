@@ -4,7 +4,7 @@
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
 # Entries: 1028847
-# Auto-updated: 2026-09-05T07:43:04Z
+# Auto-updated: 2026-09-06T07:56:56Z
 # Description: Massive adult-content and pornography domain set.
 # Sources: Block List Project Porn; StevenBlack porn-only
 # Snapshot: 2026-08
