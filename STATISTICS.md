@@ -3,9 +3,9 @@
 Automatisch erzeugte Größenübersicht. Die Summen sind Dateisummen und keine globale Deduplizierung über Kategorien hinweg.
 
 - Kategorie-Dateien: **48**
-- Summe Kategorie-Einträge: **25,213,223**
+- Summe Kategorie-Einträge: **25,226,988**
 - Kombinierte Dateien: **9**
-- Summe kombinierte Einträge: **11,768,737**
+- Summe kombinierte Einträge: **11,790,638**
 
 ## Kategorien
 
@@ -27,15 +27,15 @@ Automatisch erzeugte Größenübersicht. Die Summen sind Dateisummen und keine g
 | `dns-bypass-full.txt` | 16,965 |
 | `doh-only.txt` | 3,384 |
 | `dynamic-dns.txt` | 1,524 |
-| `fake-shops.txt` | 11,475 |
+| `fake-shops.txt` | 11,478 |
 | `gambling-medium.txt` | 142,337 |
 | `gambling-mini.txt` | 93,306 |
-| `gambling.txt` | 529,691 |
+| `gambling.txt` | 536,486 |
 | `gaming-telemetry-aggressive.txt` | 62 |
 | `gaming-telemetry.txt` | 38 |
 | `iot.txt` | 437 |
 | `linux-telemetry.txt` | 65 |
-| `malware.txt` | 2,754,377 |
+| `malware.txt` | 2,761,338 |
 | `mobile-tracking.txt` | 823 |
 | `most-abused-tlds.txt` | 130 |
 | `nas-telemetry.txt` | 12 |
@@ -45,9 +45,9 @@ Automatisch erzeugte Größenübersicht. Die Summen sind Dateisummen und keine g
 | `nrd-15-21.txt` | 2,428,402 |
 | `nrd-22-28.txt` | 2,922,635 |
 | `nrd-29-35.txt` | 2,298,750 |
-| `phishing.txt` | 572,445 |
+| `phishing.txt` | 572,448 |
 | `safesearch-unsupported.txt` | 206 |
-| `scam.txt` | 284,275 |
+| `scam.txt` | 284,278 |
 | `server-telemetry.txt` | 10 |
 | `smart-tv.txt` | 660 |
 | `social-networks.txt` | 898 |
@@ -65,11 +65,11 @@ Automatisch erzeugte Größenübersicht. Die Summen sind Dateisummen und keine g
 | Datei | Einträge |
 |---|---:|
 | `balanced.txt` | 373,195 |
-| `family-part-01.txt` | 1,928,602 |
+| `family-part-01.txt` | 1,935,395 |
 | `light.txt` | 235,702 |
-| `security-part-01.txt` | 2,583,729 |
-| `security-part-02.txt` | 918,609 |
+| `security-part-01.txt` | 2,583,884 |
+| `security-part-02.txt` | 925,416 |
 | `strict.txt` | 375,067 |
-| `ultimate-part-01.txt` | 2,637,883 |
-| `ultimate-part-02.txt` | 2,586,038 |
-| `ultimate-part-03.txt` | 129,912 |
+| `ultimate-part-01.txt` | 2,637,920 |
+| `ultimate-part-02.txt` | 2,587,257 |
+| `ultimate-part-03.txt` | 136,802 |
