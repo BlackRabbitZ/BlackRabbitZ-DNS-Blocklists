@@ -3,8 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 284278
-# Auto-updated: 2026-09-06T07:56:37Z
+# Entries: 284288
+# Auto-updated: 2026-09-07T08:20:29Z
 # Description: Massive scam, fraud and deceptive-platform domain set.
 # Sources: Block List Project Fraud/Scam; DurableNapkin Scam Blocklist; curated BaFin entries
 # Snapshot: 2026-08
@@ -30373,6 +30373,7 @@ claracasperjuwelen.de
 clarachristine-wien.at
 claranodo.com
 clarerentre.tk
+claretaskertza.com
 clarifylaim.com
 claringtonforge.com
 claritycheck.com
@@ -84506,6 +84507,7 @@ ledaabute.tk
 ledchannel.com.br
 leder-hermann.com
 lederhermann.com
+ledger-liveweb3app.com
 ledger.com.ag
 ledger.live-transactions-check.com
 ledgerlive.claims
@@ -182227,10 +182229,12 @@ www.aviravip.com
 www.avirusscan.com
 www.avita.net.pl
 www.avito-help.ru
+www.avito.avito.avito.avito.avito.booking.com-id01251.info
 www.avito.avito.pay.avito.avito.avito.booking.com-id90123.info
 www.avito.avito.pay.www.booking.com-id20341.info
 www.avito.pay.avito.avito.avito.avito.avito.com-id90123.info
 www.avito.pay.booklng.com-id129041.info
+www.avito.pay.sber.avito.www.booking.com-id20341.info
 www.avlegalsupport.com
 www.avocat-ndoba.be
 www.avocatbarbulescu.ro
@@ -221560,6 +221564,7 @@ www.ldcetinkanat.com
 www.ldcsupport.info
 www.ldloutletssale.co
 www.ldlsales.shop
+www.lds.xyz
 www.ldverify.com
 www.le-meridien.ch
 www.le-treport-76470.com
@@ -237846,6 +237851,7 @@ www.pay.avito.pay.booking.com-id3212341.info
 www.pay.avito.sber.pay.booking.com-id809702.com
 www.pay.avito.www.com-id1800853.com
 www.pay.osoobe.com
+www.pay.sber.www.avito.booking.com-id15421.info
 www.pay.www.avito.booking.com-id9523416.com
 www.pay.www.avito.www.booking.com-id15421.info
 www.pay2me.pl
@@ -242060,6 +242066,7 @@ www.photoinstagram.review
 www.photoroute.click
 www.php-mail-domain-verify.info
 www.phperrorcode.com
+www.phpmyadmin.staging.demo.www1.transaction-processing.one
 www.phrasema.com
 www.phrasescame.tk
 www.phtoothbrush.club
@@ -249361,8 +249368,10 @@ www.sberbank-online-gid.ru
 www.sberbank.avito.avito.avito.avito.booking.com-id15421.info
 www.sberbank.avito.avito.avito.avito.com-id309712.com
 www.sberbank.avito.avito.sber.pay.com-id809702.com
+www.sberbank.avito.avito.www.booking.com-id309712.com
 www.sberbank.avito.com-id90123.info
 www.sberbank.avito.pay.booking.id05196219.com
+www.sberbank.avito.sber.sberbank.booking.com-id90123.info
 www.sberbank.avito.www.booking.com-id1800853.com
 www.sberbank.sberbank.www.booking.com-id123251.info
 www.sberboom.plp7.ru
@@ -268436,6 +268445,7 @@ www.valhalladothraki.com
 www.valhalladumbledore.online
 www.valiacs.ru
 www.valid-premuem-accounts.com
+www.validacaodetran.co
 www.validate-support.com
 www.validate-your-account.com
 www.validateleads.com

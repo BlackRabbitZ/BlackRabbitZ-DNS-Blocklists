@@ -4,7 +4,7 @@
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
 # Entries: 11478
-# Auto-updated: 2026-09-06T07:56:37Z
+# Auto-updated: 2026-09-07T08:20:30Z
 # Description: Aggressive deceptive-store and fake-shop candidates derived from fraud/scam intelligence.
 # Sources: Block List Project Fraud/Scam (retail subset); DurableNapkin (retail subset); Verbraucherzentrale curated entries
 # Snapshot: 2026-08
