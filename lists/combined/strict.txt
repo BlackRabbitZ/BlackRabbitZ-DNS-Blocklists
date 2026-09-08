@@ -3,7 +3,7 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 375067
+# Entries: 375068
 #
 # Includes: ads,trackers,social-trackers,affiliate-tracking,telemetry,windows-telemetry,apple-telemetry,android-telemetry,linux-telemetry,nas-telemetry,server-telemetry,mobile-tracking,native-tracking,smart-tv,iot
 #
@@ -67310,6 +67310,7 @@ androidquery.appspot.com
 androidsdk.ads.mp.mydas.mobi
 androidsk.ads.mp.mydas.mobi
 androidtvchannels-pa.googleapis.com
+androidtvlauncherxfe-pa.googleapis.com
 androidtvwatsonfe-pa.googleapis.com
 androidupdate.info
 andromeda.iad-01.braze.com

@@ -3,8 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 660
-# Auto-updated: 2026-08-22T03:57:04Z
+# Entries: 662
+# Auto-updated: 2026-09-08T08:06:25Z
 # Description: Smart-TV advertising, ACR, diagnostics and telemetry endpoints.
 # Sources: Block List Project; Perflyst PiHoleBlocklist; HaGeZi LG webOS
 # Snapshot: 2026-08
@@ -112,6 +112,7 @@ an.lgsmartad.com
 analytics.roku.com
 analytics.tcl.com
 androidtvchannels-pa.googleapis.com
+androidtvlauncherxfe-pa.googleapis.com
 androidtvwatsonfe-pa.googleapis.com
 ao-ad-lgsmartad-com.aws-prd.net
 ao.lgsmartad.com
@@ -665,6 +666,7 @@ vn-ad-lgsmartad-com.aws-prd.net
 vn.lgsmartad.com
 vu-ad-lgsmartad-com.aws-prd.net
 wiseconfig.lgtvcommon.com
+www.samsungotn.net
 wwwimg.roku.com
 wwwimg.staging.roku.com
 xml.opera.com

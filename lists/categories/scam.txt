@@ -3,8 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 284288
-# Auto-updated: 2026-09-07T08:20:29Z
+# Entries: 284301
+# Auto-updated: 2026-09-08T08:07:36Z
 # Description: Massive scam, fraud and deceptive-platform domain set.
 # Sources: Block List Project Fraud/Scam; DurableNapkin Scam Blocklist; curated BaFin entries
 # Snapshot: 2026-08
@@ -136677,6 +136677,7 @@ store.booklng.security16.com
 store.bookng.security16.com
 store.bradcroninnapo82.myshopify.com
 store.breakshirts.com
+store.brightonmover.com
 store.bsnltowerinstallations.com
 store.buddhakind.com
 store.budm.shop
@@ -172283,6 +172284,7 @@ www.admin-pc.com
 www.admin-supporter.com
 www.admin-user-windows.stream
 www.admin-whatsapp.com
+www.admin.id71481393.date
 www.admin.ozon.id601294105.date
 www.admin.support
 www.admindevicealert.date
@@ -182230,6 +182232,8 @@ www.avirusscan.com
 www.avita.net.pl
 www.avito-help.ru
 www.avito.avito.avito.avito.avito.booking.com-id01251.info
+www.avito.avito.avito.pay.com-id15421.info
+www.avito.avito.avito.pay.com-id20341.info
 www.avito.avito.pay.avito.avito.avito.booking.com-id90123.info
 www.avito.avito.pay.www.booking.com-id20341.info
 www.avito.pay.avito.avito.avito.avito.avito.com-id90123.info
@@ -204258,6 +204262,7 @@ www.ezbody.com
 www.ezcashpaydayloans.com
 www.ezcomputertechsupport.com
 www.ezdietz.com
+www.ezdrive.com-wfyu.xin
 www.eze.darmowy.boats
 www.ezebra-perfumy.vip
 www.ezebra-rabat.shop
@@ -215171,6 +215176,7 @@ www.ikktt.com
 www.iklad.support
 www.iklerty.com
 www.iklimkurutemizleme.com
+www.iklrge.com
 www.ikmeleuz.ru
 www.ikoee.com
 www.ikohs.com
@@ -231203,6 +231209,7 @@ www.navi35.com
 www.navi36.ru
 www.navi38.ru
 www.navi39.ru
+www.navi4.ru
 www.navi42.ru
 www.navi44.ru
 www.navi5.com
@@ -231224,6 +231231,7 @@ www.navi78.ru
 www.navi79.ru
 www.navi8.com
 www.navi8.ru
+www.navi86.com
 www.navi86.ru
 www.navi88.com
 www.navi9.com
@@ -237854,6 +237862,7 @@ www.pay.osoobe.com
 www.pay.sber.www.avito.booking.com-id15421.info
 www.pay.www.avito.booking.com-id9523416.com
 www.pay.www.avito.www.booking.com-id15421.info
+www.pay.www.www70.com-id23901.info
 www.pay2me.pl
 www.pay2x.ru
 www.pay4by.cc
@@ -249155,6 +249164,7 @@ www.sangudisen.cyou
 www.sani-tryb.pl
 www.sanisans.com
 www.sanitar.re
+www.sanla-tan.net
 www.sanliurfasutesisat.com
 www.sanliurfatemizliksirketi.com
 www.sansastark.online
@@ -249364,12 +249374,14 @@ www.sber.avito.www.booking.com-id329712.com
 www.sber.avito.www.booking.com-id334212.com
 www.sber.booking.com-id23901.info
 www.sber.pay.sber.booking.com-id20341.info
+www.sber.pay.sber.com-id20341.info
 www.sberbank-online-gid.ru
 www.sberbank.avito.avito.avito.avito.booking.com-id15421.info
 www.sberbank.avito.avito.avito.avito.com-id309712.com
 www.sberbank.avito.avito.sber.pay.com-id809702.com
 www.sberbank.avito.avito.www.booking.com-id309712.com
 www.sberbank.avito.com-id90123.info
+www.sberbank.avito.pay.avito.www.com-id879712.com
 www.sberbank.avito.pay.booking.id05196219.com
 www.sberbank.avito.sber.sberbank.booking.com-id90123.info
 www.sberbank.avito.www.booking.com-id1800853.com
@@ -281786,6 +281798,7 @@ yandex-windows-7.ru
 yandex-windows-8.ru
 yandex-yan.ru
 yandex.avito.avito.avito.com-id1800853.com
+yandex.avito.avito.com-id3212341.info
 yandex.avito.avito.pay.booking.com-id309712.com
 yandex.avito.booking.com-id23901.info
 yandex.avito.sberbank.booking.com-id90123.info
