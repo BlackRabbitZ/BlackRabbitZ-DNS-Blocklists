@@ -3,8 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 284301
-# Auto-updated: 2026-09-08T08:07:36Z
+# Entries: 284305
+# Auto-updated: 2026-09-09T08:10:33Z
 # Description: Massive scam, fraud and deceptive-platform domain set.
 # Sources: Block List Project Fraud/Scam; DurableNapkin Scam Blocklist; curated BaFin entries
 # Snapshot: 2026-08
@@ -72426,6 +72426,7 @@ hotmilf.pl
 hotmilfs.co.nz
 hotmilfs.dk
 hotmilfs.se
+hotmod.eu
 hotmuckuna.com
 hotnewstodaynow.live
 hotoffersalert.com
@@ -136675,6 +136676,7 @@ store.bookling.security16.com
 store.bookllng.security16.com
 store.booklng.security16.com
 store.bookng.security16.com
+store.botsuanah.com
 store.bradcroninnapo82.myshopify.com
 store.breakshirts.com
 store.brightonmover.com
@@ -136816,6 +136818,7 @@ store.hityvod.pl
 store.hmccommerce.com
 store.hollisternorge.com
 store.hookahheroes.com
+store.hotmod.eu
 store.hubfiles.ws
 store.hunterbeus.com
 store.hyndtren25.pages.dev
@@ -214065,6 +214068,7 @@ www.hotmama.pl
 www.hotmialtechnicalsupportnumber.blogspot.com
 www.hotmilf.pl
 www.hotmilfs.me
+www.hotmod.eu
 www.hotmuckuna.com
 www.hotnewstodaynow.live
 www.hotoffersalert.com

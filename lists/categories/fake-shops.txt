@@ -3,8 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 11479
-# Auto-updated: 2026-09-08T08:07:37Z
+# Entries: 11481
+# Auto-updated: 2026-09-09T08:10:34Z
 # Description: Aggressive deceptive-store and fake-shop candidates derived from fraud/scam intelligence.
 # Sources: Block List Project Fraud/Scam (retail subset); DurableNapkin (retail subset); Verbraucherzentrale curated entries
 # Snapshot: 2026-08
@@ -4594,6 +4594,7 @@ store.bookling.security16.com
 store.bookllng.security16.com
 store.booklng.security16.com
 store.bookng.security16.com
+store.botsuanah.com
 store.bradcroninnapo82.myshopify.com
 store.breakshirts.com
 store.brightonmover.com
@@ -4734,6 +4735,7 @@ store.hityvod.pl
 store.hmccommerce.com
 store.hollisternorge.com
 store.hookahheroes.com
+store.hotmod.eu
 store.hubfiles.ws
 store.hunterbeus.com
 store.hyndtren25.pages.dev
