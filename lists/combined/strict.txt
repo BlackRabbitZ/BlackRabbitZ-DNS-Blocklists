@@ -3,7 +3,7 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 375068
+# Entries: 375056
 #
 # Includes: ads,trackers,social-trackers,affiliate-tracking,telemetry,windows-telemetry,apple-telemetry,android-telemetry,linux-telemetry,nas-telemetry,server-telemetry,mobile-tracking,native-tracking,smart-tv,iot
 #
@@ -13730,7 +13730,6 @@
 808ba9fe3d.com
 809002.com
 809071.adoric-om.com
-8092686a39ac5.com
 8096888.com
 8097-c493-8fbf-0dc2.reporo.net
 8099888.com
@@ -47809,7 +47808,6 @@ adsparc.com
 adsparc.net
 adsparkmedia.net
 adsparx.com
-adspayformy.site
 adspayformymortgage.win
 adspcces.ero-advertising.com
 adspdbl.com
@@ -53108,7 +53106,6 @@ aliru2.ru
 aliru2.ru.p.pstl.live
 aliru3.ru
 aliru4.ru
-aliru5.ru
 alisat.biz
 alishop7.ru
 alisonforny.com
@@ -54933,7 +54930,6 @@ analytic.cheesemobile.com
 analytic.cloud.sovichetra.com
 analytic.coinclarity.com
 analytic.correosecommerce.com
-analytic.dangduter.com
 analytic.de3.smartosc.com
 analytic.detik.com
 analytic.dimdm.com
@@ -68007,7 +68003,6 @@ aodqhrwbaky.com
 aoean.ehplabs.com
 aoedo.renewablehomesolutions.com
 aofob.manssion.com
-aofxqchnbtae.bid
 aoglfrntimnre.space
 aohakcilphnsmkw.com
 aohegrogmzgxy.space
@@ -141270,7 +141265,6 @@ fulcrumanalytics.com
 fulevmy.com
 fulfilledsecurity.com
 fulgentrosalyn.com
-fulhudhoo.com
 full-copy.com
 full-edition.info
 full-raise.pro
@@ -148902,7 +148896,6 @@ gqrxjgmwgw.kameleoon.eu
 gqrxsjqo.com
 gqsrirsleazes.review
 gqssj.dukesweightloss.com.au
-gqtaibrlhbwd.bid
 gqtcapjnn.bid
 gqthfroeirol.com
 gqtliogb.com
@@ -155910,7 +155903,6 @@ heropocket.com
 herowebads.com
 herpassages.com
 herpes2.pa-ruit.jp
-herphemiste.com
 herrenausstatterde.widget.criteo.com
 herreperolsof.pro
 herrerapropertiesllc.com
@@ -158961,7 +158953,6 @@ htrtb.adx1.com
 hts.youbit.co.kr
 hts2.adpremium.org
 hts4.adpremium.org
-htsasc.bid.com
 htsc6lksufb6fcdwjobyld0xrm4hc1516693857.nuid.imrworldwide.com
 htswu.com
 htt.adx1.com
@@ -160604,7 +160595,6 @@ ibis.lgappstv.com
 ibishic.ru
 ibizne.ru
 ibjbookpublishing.com
-ibjivzn.com
 ibjk3.voluumtrk.com
 ibjtuhcgwnamyf.com
 ibkfummkqzlg.com
@@ -265030,7 +265020,6 @@ release-law.lexisnexis.com
 release-me.ru
 release.admin-zone-dev.adtelligent.com
 release.baidu.com
-release.dsp-member-zone.adtelligent.com
 release.kite.com
 release.services.adtelligent.com
 releaseadvt.com
@@ -270432,7 +270421,6 @@ rvnewstoday.com
 rvnpytnhxppkzv.com
 rvo-cohesion.healthline.com
 rvoxndszxwmo.com
-rvqfjvlpdbjy.com
 rvqnahkwdhird.com
 rvrd1.01l.xyz
 rvrfoskjq.bid

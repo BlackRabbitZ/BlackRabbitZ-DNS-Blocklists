@@ -3,7 +3,7 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 284305
+# Entries: 284288
 # Auto-updated: 2026-09-09T08:10:33Z
 # Description: Massive scam, fraud and deceptive-platform domain set.
 # Sources: Block List Project Fraud/Scam; DurableNapkin Scam Blocklist; curated BaFin entries
@@ -4791,7 +4791,6 @@ accounts-google.org
 accounts-help.com
 accounts-help.org
 accounts-helpsmek-verifications-order-2017.com
-accounts-instagram.com
 accounts-login-goododdomd.date
 accounts-login.biz
 accounts-mail-login.site
@@ -6031,7 +6030,6 @@ affair-nextdoor.co.uk
 affair-nextdoor.com
 affair-ups.com
 affairchats.com
-affaireeither.host
 affairen-deutschlandweit.com
 affairfantasy.com
 affairforlove.com
@@ -6158,7 +6156,6 @@ agatameble-pl-online.shop
 agatameblesale.shop
 agate-eyes.tk
 agates.stream
-agathanowchristie.tk
 agatish.lovable.app
 agbazar.ir
 agbglobal.cc
@@ -6732,7 +6729,6 @@ airdatetwo.host
 airdropalerts2018.com
 airedone.host
 airenu.host
-airerrorcode.com
 airesdeldelta.com.ar
 airezero.host
 airfarefour.host
@@ -7619,7 +7615,6 @@ alebilet.pl-4839804561.xyz
 alebilet.pl-48918956819.sbs
 alebilet.pl-4893902753.xyz
 alebilet.pl-4932493.cfd
-alebilet.pl-498083926.xyz
 alebilet.pl-5890124812.sbs
 alebilet.pl-589127951243.sbs
 alebilet.pl-589128095919.sbs
@@ -8494,7 +8489,6 @@ alert-36jk6.stream
 alert-36vj6.stream
 alert-37jl7.stream
 alert-37vk7.stream
-alert-38jm8.stream
 alert-38vl8.stream
 alert-39jn9.stream
 alert-39vm9.stream
@@ -9365,7 +9359,6 @@ alert-qx51.stream
 alert-qx71.stream
 alert-qx91.stream
 alert-qy11.stream
-alert-ra91.stream
 alert-rb11.stream
 alert-rb31.stream
 alert-rb51.stream
@@ -9771,7 +9764,6 @@ alerte-2538.win
 alerte-25447.win
 alerte-2547.win
 alerte-2558.win
-alerte-2563.win
 alerte-2565.win
 alerte-2566.win
 alerte-2571.win
@@ -9857,7 +9849,6 @@ alerte-3525.win
 alerte-353.win
 alerte-3532.win
 alerte-3558.win
-alerte-3566.win
 alerte-3567.win
 alerte-35741.win
 alerte-3581.win
@@ -11565,7 +11556,6 @@ allegro.3737282733828.lol
 allegro.382839j56.shop
 allegro.4237329810293-9124.lol
 allegro.42873892.shop
-allegro.4309284302842.sbs
 allegro.4387167h7hh.shop
 allegro.4389239hihi.bond
 allegro.43i12984h457.baby
@@ -12411,7 +12401,6 @@ allegrolokalnie.hdmtt.sbs
 allegrolokalnie.hhgi3488g2.xyz
 allegrolokalnie.hpmttl.sbs
 allegrolokalnie.hpooti54823.shop
-allegrolokalnie.hpplt.sbs
 allegrolokalnie.htsml.sbs
 allegrolokalnie.iauckej83429.xyz
 allegrolokalnie.iaukcej84934921928.baby
@@ -14146,7 +14135,6 @@ andreaswerkstatt.de
 andreturn.tk
 andrew-stross.blogmasters.ru
 andrewjackson120.org
-andrewsstore.shop
 andreyhas.tk
 andreyheis.tk
 androgenic.us
@@ -15432,7 +15420,6 @@ aodlchangwangyj.jxckd.shop
 aoeud.com
 aofeida.com
 aofreepdf.site
-aofxqchnbtae.bid
 aoiemailsupport.com
 aoipool.net
 aokafis.xyz
@@ -63614,7 +63601,6 @@ getvirusfreesystem.xyz
 getvirusremoved.com
 getvoltbox.com
 getvoucher.stream
-getvoucher.win
 getwavemax.com
 getwavetune.com
 getwebsitesupport.com
@@ -65669,7 +65655,6 @@ google-szadwords.com
 google-tds.ru
 google-token.com
 google-top.com
-google-traffic.info
 google-tsukaikata.com
 google-tv.info
 google-universal-analytics-consultancy.com
@@ -69412,7 +69397,6 @@ herpetiform.pw
 herpetiformis.pw
 herpetomonas.pw
 herpetophobia.pw
-herphemiste.com
 herr-bergholz.de
 herrbio.com
 herren-shop.com
@@ -123994,7 +123978,6 @@ residualsix.us
 residuanine.us
 residuum.stream
 resighted.stream
-resightone.us
 resignee.stream
 resignees.stream
 resignnine.us

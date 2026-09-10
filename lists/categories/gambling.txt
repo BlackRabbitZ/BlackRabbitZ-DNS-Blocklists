@@ -3,7 +3,7 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 547265
+# Entries: 547262
 # Auto-updated: 2026-09-09T08:11:02Z
 # Description: Massive betting, casino and gambling domain set.
 # Sources: Block List Project Gambling; HaGeZi Gambling
@@ -18676,7 +18676,6 @@
 1xbet-bet-profile.ru
 1xbet-bet-profile1.ru
 1xbet-bet-review.ru
-1xbet-bet.cfd
 1xbet-bet.icu
 1xbet-bet.sbs
 1xbet-bet.xyz
@@ -33056,7 +33055,6 @@
 1xbet-signup.click
 1xbet-signup.cyou
 1xbet-signup.lat
-1xbet-signup.sbs
 1xbet-signup.xyz
 1xbet-siir.top
 1xbet-sij26.sbs
@@ -74332,7 +74330,6 @@
 6682n.com
 668366.vip
 6683666.com
-66849.cn
 6685.casino
 66855.com
 668555500.com

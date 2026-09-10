@@ -3,7 +3,7 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 572448
+# Entries: 572412
 # Auto-updated: 2026-09-09T08:10:27Z
 # Description: Massive active and curated phishing-domain set.
 # Sources: Block List Project Phishing; Phishing.Database ACTIVE
@@ -79,7 +79,6 @@
 000001010010104106.cloud
 000002456171.ml
 000002456180.ml
-000003.000000000013.repl.co
 0000091193.xyz
 00000f.nuevaconfirma.repl.co
 00000microsof.tonohost.com
@@ -4979,7 +4978,6 @@
 1598restrictedpagesuspend30135.duckdns.org
 15a2c142.adorn-insight.co.uk
 15a63b43-7d40-4960-9b17-e62e4490d233.id.repl.co
-15a77881-9ad1-4ee0-9535-12106f2290ef.id.repl.co
 15b5458d.qepfmq.shop
 15bd07e7.hotdzk.shop
 15bro2719u.125mb.com
@@ -6684,7 +6682,6 @@
 1inch-pools.io
 1inch-ru.vercel.app
 1inch.4-app.io
-1inch.app-2.io
 1inch.gitbook.io
 1inch.io-defi.one
 1inch.v2-app.io
@@ -17793,7 +17790,6 @@
 5002mark_resslerii.posshop.com.jo
 5003659.com
 500465345666.cloud
-50050089.com
 50054096943288759876454.com
 50054m.com
 50082773562.duckdns.org
@@ -19338,7 +19334,6 @@
 577bde63.ngrok.io
 577obogrimadiaddress7347289-wpincludesin7347289attsend77yhie.weebly.com
 57804.cn
-578095095413140.graficaaoquadrado.com.br
 5781875818.xyz
 5782787632909296200182.33445566.repl.co
 578361-coinbase.com
@@ -21997,7 +21992,6 @@
 6325478596589654256.servecounterstrike.com
 63273.43811.wap.shuaihu99.com
 63278137832782332.netlify.app
-6328bfc0.voag.cn
 6329038.weebly.com
 632ceoqpeoqwial.ga
 632df0ae-0a35-49c6-970f-af631d3104b8.htmlpasta.com
@@ -25711,7 +25705,6 @@
 7ldp3-mqaaa-aaaad-qdaka-cai.raw.ic0.app
 7learn-api.pymovyka.workers.dev
 7les.com
-7lfu.veritas.nossosupermercado.com
 7lgpmc4yq2ff93xdk8u5gzjl8z9.vercel.app
 7llaw.app.link
 7lmf4nkhts.taisonmail.us
@@ -28332,7 +28325,6 @@
 918312.icu
 9183139716.ir
 9183idappwkqm.servehttp.com
-9186.jvcapitalgroup.com
 918621521.live
 9188368.com
 9188wnsr.com
@@ -36724,7 +36716,6 @@ acconfirmacion8.webcindario.com
 acconfirmacion9.webcindario.com
 acconfrimacion4.webcindario.com
 acconlineservicecontact.org
-acconnernssyllenesliopa.com
 acconnex.eu
 acconsult.info
 accont-cofirmed-color.github.io
@@ -40357,7 +40348,6 @@ acountbsnspgs4035812.ydns.eu
 acountcheck.verificationv1.repl.co
 acountcomfim.ygto.com
 acountgogle.infinityfreeapp.com
-acounthelp.thisistap.com
 acountlivemsn.tonohost.com
 acountmanager-authplatform-hell.vercel.app
 acountmanager-authplatform-hell1.vercel.app
@@ -41024,7 +41014,6 @@ activatupindeseguridadmsn.ezzeblog.com
 activatuseguro-mensualcol.brizy.site
 activavisionoptica.es
 activaydesbloquea.com
-activaydesbloquear.com
 activbpostaledepfoncauthgroup.justns.ru
 activciones.life
 active-107742.weeblysite.com
@@ -41980,7 +41969,6 @@ adamgordon.com.au
 adamgrant.ca
 adamgreenberglcsw.com
 adamgroup-inc.com.kuel.al
-adamhawa.co.nf
 adamhugheswriter.com
 adamjak.sk
 adamjeefabric.com
@@ -45182,7 +45170,6 @@ adunumlaw.com
 adunzz-jeev-vzxv.s3-eu-west-1.amazonaws.com
 aduosa.site
 aduqueza.com.br
-aduristeis.sa.com
 adurosmart.com
 adutpagetws.com
 aduunlvvel.temp.swtest.ru
@@ -47188,7 +47175,6 @@ afm567.wixsite.com
 afm5c6xtczrm50lzjztwlfdb6vs.qwo231sdx.club
 afmcarrepairs.com.au
 afmecanique.com
-afmercan.com
 afmicro.com
 afmj.gop.shadamstoncollege.co.za
 afmkzidzzp.duckdns.org
@@ -47661,7 +47647,6 @@ agate-nebulous-iridium.glitch.me
 agate-talented-azimuth.glitch.me
 agatebo.com
 agateenchantment.com
-agateexporter.com
 agaturk.com
 agauru.413.com1.ru
 agav.in
@@ -49880,7 +49865,6 @@ aide-client.skoa.li
 aide-compte-auth-aide.tips
 aide-connexion.zapto.org
 aide-france-verification.com
-aide-netflix-login-fr-search.prohoster.biz
 aide.dehoyymananas.com
 aidealavulnerabillite.org
 aideiade.jumpingcrab.com
@@ -50425,7 +50409,6 @@ airbnb-trust-platform.yunlink.top
 airbnb-v2-navy.vercel.app
 airbnb-validacion.com
 airbnb-verif.co
-airbnb-verify.com-id69821.com
 airbnb-view-room.1794293.online
 airbnb-view-rooms.283739402.xyz
 airbnb-virid-five.vercel.app
@@ -51537,7 +51520,6 @@ akanshaseth.com
 akanurag12.github.io
 akapellaleather.com
 akaphibetaomega.org
-akar.com.kz
 akara.id
 akarabia.com
 akarachuw.dxlea2jtu3lir.amplifyapp.com
@@ -58540,7 +58522,6 @@ amassable-formats.000webhostapp.com
 amassupport.com
 amassupports.com
 amastepbysteprim.live
-amasvip.shop
 amasystemsglobal.in
 amat.su
 amatajobs.com
@@ -65196,7 +65177,6 @@ anamariajerez.com
 anamariavelezaccesorios.com
 anamcarapublishing.com
 anamcgowa.weeblysite.com
-anamdcum.xhljkf.cn
 anamdcum.zbrqcp.cn
 anamedina.com
 anamediolaro.com.br
@@ -65544,7 +65524,6 @@ anazon.co.ip.pejmw.org
 anazon.co.ip.phczau.com
 anazon.co.ip.qcvzva.com
 anazon.co.ip.sovebp.com
-anazon.co.ip.verifymembergod.info
 anazon.co.jp.check-information.gjyybgq.cn
 anazon.co.jp.check-information.rhjsumt.cn
 anazon.co.jp.check-information.uwtipxn.cn
@@ -74561,7 +74540,6 @@ appelvocal.godaddysites.com
 appelvocalau070707.godaddysites.com
 appen-vipps.com
 appencontrar-iphone.life
-appencontrar.support
 appencontrar.support.dteam23.com
 appencontrarip.info.dteam23.com
 appencontreaki.com.br
@@ -76313,7 +76291,6 @@ apple.buscar-inc.com
 apple.buscar-iphone.app
 apple.bves.top
 apple.bytpfsyr.com
-apple.c0o1mw.com
 apple.ca-icloud.com
 apple.care-map.info
 apple.cat
@@ -78987,7 +78964,6 @@ applesnd.com
 applesnjacks.org
 applesoa.com
 applesofgoldcc-blog.com
-applesofgoldsocialmedia.com
 applesoftwaresolutions.com
 applesoftwash.com
 applesoluc.com
@@ -82708,7 +82684,6 @@ arequire.com
 arereco.000webhostapp.com
 arereducation.org
 arereszs.000webhostapp.com
-arermlifoi.business
 arermnzsx.000webhostapp.com
 arerp.kr
 ares-sc.org
@@ -244762,7 +244737,6 @@ golgfcpmoz.duckdns.org
 goliathbusinesscapital.com
 golimo1.com
 golislikinikolovskavenera.xyz
-golislikisofi.xyz
 golislikisofitanevska.xyz
 goliteslikisofijatanevska.xyz
 golkondaresorts.com
@@ -245754,7 +245728,6 @@ gotduetelus.com
 gotdy.com
 gotecland.vn
 goteleg-br.top
-goteslath.com
 gotgamecheats.net
 gotgeek.com
 gothenburg98.000webhostapp.com
@@ -260541,7 +260514,6 @@ help-juhyg.ml
 help-juhyg.tk
 help-juhygt.cf
 help-juhygt.ga
-help-juhygt.gq
 help-juhygt.ml
 help-juhygt.tk
 help-kijhgt.cf
@@ -260835,7 +260807,6 @@ help-mnbnbhjoiaasw.ga
 help-mnbvfcdewq.ga
 help-mnbvfcdewqoo.cf
 help-mnbvfcdewqoo.ga
-help-mnbvfcdewqoo.ml
 help-mnbvfcdewqoo.tk
 help-mnvbcfgrdtyoi.ga
 help-mnvytfdrtfd.ga
@@ -266134,7 +266105,6 @@ home-post-die-sendungsstatus.post-die-ch-staute.com
 home-post-die-sendungsstatus.sbb-purchase.net
 home-post-die-sendungsstatus.support-bonuscard.com
 home-post-die-sendungsstatus.swiss-ch-post.com
-home-post-die-sendungsstatus.swiss-die-ch.com
 home-post-die-sendungsstatus.swisspost-die-go.com
 home-post-die-sendungsstatus.tracking-diepost.com
 home-post-die-sendungsstatus.trackingdietpost.com
@@ -274882,7 +274852,6 @@ idex.dev
 idex.ga
 idex.market.transactlon.info
 idex24.io
-idexairdrop.com
 idexchange.pro
 idexcorp.comgg.gg
 idexgroup.online
@@ -277895,7 +277864,6 @@ imt0ken-2h.life
 imt0ken-2i.life
 imt0ken-2j.life
 imt0ken-2k.life
-imt0ken-2n.life
 imt0ken-2s.life
 imt0ken-2x.life
 imt0ken-3k.life
@@ -434884,7 +434852,6 @@ recouvrado.blogspot.com
 recouvrementtutiac.wixsite.com
 recove-ry1002289357.duckdns.org
 recovehlp4443189999.cloud
-recovehlp723123.cyou
 recovehlp7244655.cloud
 recovehlp7445.us
 recovehlp744655.business
@@ -435376,7 +435343,6 @@ redamegehna.com
 redamegenka.com
 redamegenqa.com
 redandblackonline.com
-redappleiphone7.com
 redapplenews.com
 redapplespanj.com
 redappletechindiaisdishonest.com
@@ -437735,7 +437701,6 @@ removefb-ggucwe9yxv.goodseo.tw
 removefb-k4fd6d5f.goodseo.tw
 removefb-ke2bvsxzw.goodseo.tw
 removefb-og97cxofi.goodseo.tw
-removefb-q4k7tp2f.goodseo.tw
 removefb-qm5pd20gch.goodseo.tw
 removefb-qoa7gsiwd.goodseo.tw
 removefb-sy1j46zf.goodseo.tw
@@ -450466,7 +450431,6 @@ saludyhogar.com.mx
 saludynaturaleza.com.ar
 salujafashion.com
 salukasishusikshaniketan.org
-salukiengineers.com
 salun.org
 salus.siamconnect2.net
 salusinvest.com
