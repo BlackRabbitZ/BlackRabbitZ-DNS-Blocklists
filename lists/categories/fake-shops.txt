@@ -3,8 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 11481
-# Auto-updated: 2026-09-09T08:10:34Z
+# Entries: 11501
+# Auto-updated: 2026-09-11T08:05:44Z
 # Description: Aggressive deceptive-store and fake-shop candidates derived from fraud/scam intelligence.
 # Sources: Block List Project Fraud/Scam (retail subset); DurableNapkin (retail subset); Verbraucherzentrale curated entries
 # Snapshot: 2026-08
@@ -4608,6 +4608,7 @@ store.by-emmamuller.de
 store.byeuys.shop
 store.c0nt4ct-me.pages.dev
 store.californiacondoguru.com
+store.canjaume.com
 store.caraci.it
 store.celebtoysshop.com
 store.cheat-on.com
@@ -4677,6 +4678,7 @@ store.eurosko.net
 store.evisaindia.com
 store.evisaindia.org
 store.ex-torrenty.org
+store.exclusivebuyz4uu.shop
 store.expressmovers.com
 store.facebook-google-15oqyxwtkremqyujsm.vercel.app
 store.facebook-google-vptyyny63pwfipshmm.vercel.app
@@ -4693,6 +4695,7 @@ store.faze8.com
 store.fazpowerdenet.tumblr.com
 store.fdrc-gov.org
 store.field-garnet-duckling.glitch.me
+store.filexstorage.site
 store.fili-cc.tv
 store.filmersi.pl
 store.filmhit.pl
@@ -4710,6 +4713,7 @@ store.freebitcoin.pages.dev
 store.friday89.com
 store.frostgoddess.com
 store.fullview.pl
+store.futhem.info
 store.fveco.com
 store.gearhomies.com
 store.geekupdates.notion.site
@@ -4826,6 +4830,7 @@ store.navi23.com
 store.navi24.com
 store.navi26.com
 store.navi26.ru
+store.navi28.ru
 store.navi3.com
 store.navi32.com
 store.navi42.ru
@@ -4887,6 +4892,7 @@ store.pay.avito.avito.sber.pay.booking.com-id809702.com
 store.pay.avito.pay.com-id02349.info
 store.pay.com-id15421.info
 store.pay.pay.com-id309712.com
+store.pay.sber.www.booking.com-id15421.info
 store.penguinnow.com
 store.pharaohstore.com
 store.phirussacmush.net
@@ -4896,10 +4902,12 @@ store.pinjamanelit.top
 store.pinjamanrupiah.xyz
 store.piratedrive.com
 store.pjs.outlet.com
+store.pl.wojewodapodlaski.pl
 store.player-qr.com
 store.polish-money-matters.blogspot.com
 store.popeurope.com
 store.porkbunrr.web.app
+store.prcrypt.top
 store.pridesocial.net
 store.primevod.pl
 store.produktretter.org
@@ -4929,10 +4937,14 @@ store.sber.pay.com-id20341.info
 store.sber.sberbank.avito.avito.avito.avito.avito.com-id20341.info
 store.sberbank.avito.avito.avito.avito.avito.sber.com-id02349.info
 store.sberbank.avito.avito.sber.www42.com-id23901.info
+store.sberbank.com-id15421.info
+store.sberbank.com-id409712.com
 store.sberbank.pay.avito.avito.avito.avito.com-id90123.info
 store.sberbank.pay.com-id322712.com
 store.sberbank.pay.sber.www.com-id1800853.com
 store.sberbank.sber.id19845672.info
+store.sberbank.www.avito.www.com-id802914.com
+store.sberbank.www.com-id802914.com
 store.seasonsofficial.com
 store.securevault.top
 store.security-meta.pages.app.br
@@ -4962,6 +4974,7 @@ store.stoeki.com
 store.storagestory.com
 store.store25848025.company.site
 store.storeax.com
+store.storecommuinityworkshop.com
 store.storesp.com
 store.streamabie.com
 store.streamvod.pl
@@ -4982,6 +4995,7 @@ store.the-north-face.gr
 store.thecabinas.com
 store.thechildhooddream.com
 store.theeaglebrand.company.site
+store.theshirtyouneed.com
 store.thevitic.com
 store.thevitic.onshopbase.com
 store.tikgeeker.com
@@ -5002,6 +5016,7 @@ store.trendsharks.com
 store.treverschmelerkris18.myshopify.com
 store.tripinpremiumsnacks.com
 store.tromselementbygg.no
+store.trumpsupport.help
 store.turtleclient.xyz
 store.twiiiter.com
 store.twinsbio.com
@@ -5016,6 +5031,7 @@ store.ultraboxlab.com
 store.unifully.com
 store.uniswap.host
 store.uniswap.ro
+store.uniswap1.online
 store.uniswap5.work
 store.uniswapai.xyz
 store.uniswapapp.xyz
@@ -5038,12 +5054,14 @@ store.universityofqatarrectorate.godaddysites.com
 store.ureashi.com
 store.us99.pro
 store.uschse04.my03.com
+store.uszjj.fyjkxzq.shop
 store.v-power.sm
 store.vanced-official.com
 store.vessisdeutschland.com
 store.vider-cda.online
 store.vider-pl.pl
 store.vider.cc
+store.vider.com.pl
 store.vip100.cc
 store.virustoal.com
 store.visacentral.com
@@ -8697,6 +8715,7 @@ www.lowa202606.myshoplaza.com
 www.lpadiytoaej.shop
 www.ltcbbdwe.shop
 www.ltunestore-appileid-report-payments.com
+www.lucchesesale.shop
 www.luggagestores.shop
 www.lululemonsaleoutletca.com
 www.lumabasket.shop
@@ -8910,6 +8929,7 @@ www.mohitoretail.shop
 www.mohitoshops.shop
 www.mojalekarenoutlet.shop
 www.mollyguy.shop
+www.monark-store.com
 www.moncler-coatsshop.com
 www.moncler-eshop.com
 www.moncler-onlinestore.com

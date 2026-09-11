@@ -3,8 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 235691
-# Auto-updated: 2026-09-09T08:09:19Z
+# Entries: 235695
+# Auto-updated: 2026-09-11T08:04:22Z
 # Description: Large advertising and ad-delivery domain set.
 # Sources: Block List Project; AnudeepND
 # Snapshot: 2026-08
@@ -48532,6 +48532,7 @@ aliru2.ru
 aliru2.ru.p.pstl.live
 aliru3.ru
 aliru4.ru
+aliru5.ru
 alisat.biz
 alishop7.ru
 alisongaudino992.wixsite.com
@@ -50117,6 +50118,7 @@ analytics.prezly.com
 analytics.prod.aws.ecnext.net
 analytics.proofapi.com
 analytics.proxer.me
+analytics.prx.org
 analytics.publitas.com
 analytics.pubmatic.com
 analytics.qlook.net
@@ -51024,6 +51026,7 @@ aocaxppjxvhfj.online
 aochina.com
 aocular.com
 aodqhrwbaky.com
+aofxqchnbtae.bid
 aoglfrntimnre.space
 aohakcilphnsmkw.com
 aohegrogmzgxy.space
@@ -176591,6 +176594,7 @@ rvnc72k.com
 rvnewstoday.com
 rvnpytnhxppkzv.com
 rvoxndszxwmo.com
+rvqfjvlpdbjy.com
 rvqnahkwdhird.com
 rvrd1.01l.xyz
 rvrfoskjq.bid

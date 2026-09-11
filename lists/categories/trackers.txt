@@ -3,8 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 143966
-# Auto-updated: 2026-09-04T07:59:24Z
+# Entries: 143967
+# Auto-updated: 2026-09-11T08:04:25Z
 # Description: Large analytics, tracking and measurement infrastructure set.
 # Sources: Block List Project
 # Snapshot: 2026-08
@@ -5643,6 +5643,7 @@ analytic.cheesemobile.com
 analytic.cloud.sovichetra.com
 analytic.coinclarity.com
 analytic.correosecommerce.com
+analytic.dangduter.com
 analytic.de3.smartosc.com
 analytic.dimdm.com
 analytic.dive-shop.ro

@@ -3,8 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 1028832
-# Auto-updated: 2026-09-09T08:10:51Z
+# Entries: 1028841
+# Auto-updated: 2026-09-11T08:06:04Z
 # Description: Massive adult-content and pornography domain set.
 # Sources: Block List Project Porn; StevenBlack porn-only
 # Snapshot: 2026-08
@@ -57834,6 +57834,7 @@ allrusamateurs.com
 allrusex.net
 allrusporno.com
 allrussianbrides.chat.ru
+allrussianclips.com
 allrussianwomen.chat.ru
 allruth.com
 allsaintscranham.co.uk
@@ -62637,6 +62638,7 @@ amateurasians.blogspot.com
 amateurasians.com
 amateurasians.net
 amateurasiansex.blogspot.com
+amateurasiansex.com
 amateurasiansex.pro
 amateurasiansex.tumblr.com
 amateurasiansex.xyz
@@ -77556,6 +77558,7 @@ anyporn.club
 anyporn.co
 anyporn.com
 anyporn.de
+anyporn.exploitedcollegegirlsporn.com
 anyporn.fun
 anyporn.help
 anyporn.homes
@@ -442065,6 +442068,7 @@ img4570.gay
 img4fap.club
 img4fap.com
 img5.18andabuse.com
+img5.adultmetas.com
 img5.artpanty.com
 img5.artthong.com
 img5.artxgirl.com
@@ -443152,6 +443156,7 @@ imgrb.beautyxgirl.com
 imgrb.beautyxpic.com
 imgrb.bellexpic.com
 imgrb.bestxass.com
+imgrb.bestxbeauty.com
 imgrb.bestxboobs.com
 imgrb.bestxbum.com
 imgrb.bestxleg.com
@@ -502404,6 +502409,7 @@ lecheur2chatte.com
 lecheuse-bite.com
 lecheuse.com
 lecheuse.free.fr
+lechitax.com
 lechoc.info
 lechqw.blogspot.com
 lechtivenoci.com
@@ -533225,6 +533231,7 @@ m.xcams.cam
 m.xhamster.com
 m.xhamsterlive.com
 m.xn----ztbcbceder.net
+m.xnhau.city
 m.xnxx.com
 m.xtoons.art
 m.xvideos.fr
@@ -747733,6 +747740,7 @@ secrett.ru
 secrettanningbedcam.com
 secrettanningbedcamera.com
 secrettantric.com
+secretteenfuck.com
 secretteensex.com
 secretteenvideo.com
 secretthoughts96.tumblr.com
@@ -990349,6 +990357,7 @@ xngyh11.lat
 xnhau.bio
 xnhau.blog
 xnhau.casa
+xnhau.city
 xnhau.co.uk
 xnhau.io
 xnhau.moe

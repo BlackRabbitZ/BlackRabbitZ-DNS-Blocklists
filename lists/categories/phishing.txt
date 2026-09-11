@@ -3,8 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 572412
-# Auto-updated: 2026-09-09T08:10:27Z
+# Entries: 572431
+# Auto-updated: 2026-09-11T08:05:37Z
 # Description: Massive active and curated phishing-domain set.
 # Sources: Block List Project Phishing; Phishing.Database ACTIVE
 # Snapshot: 2026-08
@@ -53517,6 +53517,7 @@ alert.roninsupport.info
 alert.serveuser.com
 alert.suspend-pages-fb.a4lkks1hwd-xlm41rj9r6dy.p.runcloud.link
 alert.system-abuse-recovery.0rgkdwx0er-yjr3ow2zz41m.p.runcloud.link
+alert.wshj.ml
 alert0-platform.cloudns.nz
 alert01mygov.info
 alert02i-2fa.ddns.net
@@ -56110,6 +56111,7 @@ allmantravel.com
 allmark.app
 allmarksintl.com
 allmediashop.nl
+allmediks.com
 allmeetup.com
 allmeusite.com
 allmini.com.br
@@ -56907,6 +56909,7 @@ alphameadtraining.com
 alphamedicalediting.com
 alphamomentum.com
 alphamultichain.pages.dev
+alphan.762126.repl.co
 alphanotebook.id
 alphanouveau.com
 alphanumericfamiliarinstruction.cesarcastillo9.repl.co
@@ -58194,6 +58197,7 @@ amanov.sdfgty8.top
 amanp23.github.io
 amanpacker.in
 amanpati1712.github.io
+amanpoiare.serpgold.com
 amanrk28.github.io
 amanrwtsre.github.io
 amansaocasavida.com
@@ -58308,6 +58312,7 @@ amaongeiuyhhelggewgiohsruwr.xyz
 amaons.com
 amaonsafe.cf
 amaonsafe.gq
+amaonsafe.tk
 amaonv.ioyufrt4.top
 amaonx.jfeuirter11.top
 amaonz-mail.xyz
@@ -58522,6 +58527,7 @@ amassable-formats.000webhostapp.com
 amassupport.com
 amassupports.com
 amastepbysteprim.live
+amasvip.shop
 amasystemsglobal.in
 amat.su
 amatajobs.com
@@ -58654,6 +58660,7 @@ amaz0n.co.jp-token.wvw1-bmo.com
 amaz0n.co.jp.akhg.top
 amaz0n.enonsec.com
 amaz0n.ioeutt.shop
+amaz0n.lindstromlaw.com
 amaz0n.yuntutp42.top
 amaz0n.zhongxiaoyang.top
 amaz0n8.com
@@ -58822,6 +58829,7 @@ amazingconnections.in
 amazingdaviehomevalues.com
 amazingextras.000webhostapp.com
 amazingfood.com.ar
+amazingglitz.com
 amazinggoodies.ca
 amazinggrace2clean.com
 amazinggracefashion.com
@@ -58996,6 +59004,7 @@ amazo-alpha.vercel.app
 amazo-ana.shop
 amazo-anm.shop
 amazo-co.xyz
+amazo-n.top
 amazo-ns-contact-us.senioradvisorsplus.com
 amazo-update.p9pi.xyz
 amazo.8vhhm59.cn
@@ -60639,6 +60648,7 @@ amazon.co.jp.s6xaunxmxa72bvhz.net
 amazon.co.jp.s8u913f0fed42f3c6a45b3.net
 amazon.co.jp.sa22csdasd522d8s3fg2hfd13.monster
 amazon.co.jp.sadvbnghteryyu12-vcbcvb.com
+amazon.co.jp.sdaez.xyz
 amazon.co.jp.selectopenid.xyz
 amazon.co.jp.shop-signin.xyz
 amazon.co.jp.signin.id-68423.accountcheckback.mixh.jp
@@ -65524,6 +65534,7 @@ anazon.co.ip.pejmw.org
 anazon.co.ip.phczau.com
 anazon.co.ip.qcvzva.com
 anazon.co.ip.sovebp.com
+anazon.co.ip.verifymembergod.info
 anazon.co.jp.check-information.gjyybgq.cn
 anazon.co.jp.check-information.rhjsumt.cn
 anazon.co.jp.check-information.uwtipxn.cn
@@ -70165,6 +70176,7 @@ ap.fbcom-19455353.intertrans-inc.com
 ap.fbcom-27834365.intertrans-inc.com
 ap.fbcom-30565265.intertrans-inc.com
 ap.fbcom-33208537.intertrans-inc.com
+ap.fbcom-36831755.intertrans-inc.com
 ap.fbcom-39155448.intertrans-inc.com
 ap.fbcom-41870771.intertrans-inc.com
 ap.fbcom-47075245.intertrans-inc.com
@@ -74540,6 +74552,7 @@ appelvocal.godaddysites.com
 appelvocalau070707.godaddysites.com
 appen-vipps.com
 appencontrar-iphone.life
+appencontrar.support
 appencontrar.support.dteam23.com
 appencontrarip.info.dteam23.com
 appencontreaki.com.br
@@ -76291,6 +76304,7 @@ apple.buscar-inc.com
 apple.buscar-iphone.app
 apple.bves.top
 apple.bytpfsyr.com
+apple.c0o1mw.com
 apple.ca-icloud.com
 apple.care-map.info
 apple.cat
@@ -78964,6 +78978,7 @@ applesnd.com
 applesnjacks.org
 applesoa.com
 applesofgoldcc-blog.com
+applesofgoldsocialmedia.com
 applesoftwaresolutions.com
 applesoftwash.com
 applesoluc.com
@@ -82684,6 +82699,7 @@ arequire.com
 arereco.000webhostapp.com
 arereducation.org
 arereszs.000webhostapp.com
+arermlifoi.business
 arermnzsx.000webhostapp.com
 arerp.kr
 ares-sc.org
@@ -277864,6 +277880,7 @@ imt0ken-2h.life
 imt0ken-2i.life
 imt0ken-2j.life
 imt0ken-2k.life
+imt0ken-2n.life
 imt0ken-2s.life
 imt0ken-2x.life
 imt0ken-3k.life
@@ -437701,6 +437718,7 @@ removefb-ggucwe9yxv.goodseo.tw
 removefb-k4fd6d5f.goodseo.tw
 removefb-ke2bvsxzw.goodseo.tw
 removefb-og97cxofi.goodseo.tw
+removefb-q4k7tp2f.goodseo.tw
 removefb-qm5pd20gch.goodseo.tw
 removefb-qoa7gsiwd.goodseo.tw
 removefb-sy1j46zf.goodseo.tw
@@ -450431,6 +450449,7 @@ saludyhogar.com.mx
 saludynaturaleza.com.ar
 salujafashion.com
 salukasishusikshaniketan.org
+salukiengineers.com
 salun.org
 salus.siamconnect2.net
 salusinvest.com

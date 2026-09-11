@@ -3,7 +3,7 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 375056
+# Entries: 375061
 #
 # Includes: ads,trackers,social-trackers,affiliate-tracking,telemetry,windows-telemetry,apple-telemetry,android-telemetry,linux-telemetry,nas-telemetry,server-telemetry,mobile-tracking,native-tracking,smart-tv,iot
 #
@@ -53106,6 +53106,7 @@ aliru2.ru
 aliru2.ru.p.pstl.live
 aliru3.ru
 aliru4.ru
+aliru5.ru
 alisat.biz
 alishop7.ru
 alisonforny.com
@@ -54930,6 +54931,7 @@ analytic.cheesemobile.com
 analytic.cloud.sovichetra.com
 analytic.coinclarity.com
 analytic.correosecommerce.com
+analytic.dangduter.com
 analytic.de3.smartosc.com
 analytic.detik.com
 analytic.dimdm.com
@@ -63442,6 +63444,7 @@ analytics.proware.fr
 analytics.proxad.net
 analytics.proxer.me
 analytics.proxy.mycryptoapi.com
+analytics.prx.org
 analytics.pryer.co
 analytics.prysless.de
 analytics.psalido.net
@@ -68003,6 +68006,7 @@ aodqhrwbaky.com
 aoean.ehplabs.com
 aoedo.renewablehomesolutions.com
 aofob.manssion.com
+aofxqchnbtae.bid
 aoglfrntimnre.space
 aohakcilphnsmkw.com
 aohegrogmzgxy.space
@@ -270421,6 +270425,7 @@ rvnewstoday.com
 rvnpytnhxppkzv.com
 rvo-cohesion.healthline.com
 rvoxndszxwmo.com
+rvqfjvlpdbjy.com
 rvqnahkwdhird.com
 rvrd1.01l.xyz
 rvrfoskjq.bid

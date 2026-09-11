@@ -3,8 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 1470
-# Auto-updated: 2026-09-02T07:55:37Z
+# Entries: 1473
+# Auto-updated: 2026-09-11T08:04:30Z
 # Description: Native OS, device and application tracking endpoints.
 # Sources: NextDNS Native Tracking Protection; Perflyst PiHoleBlocklist; HaGeZi native tracking
 # Snapshot: 2026-08
@@ -808,6 +808,8 @@ leanplum.com
 legacywatson.trafficmanager.net
 lg-bgp-misc.pandora.xiaomi.com
 lgads.tv
+lgsmartad.com
+lgtvcommon.com
 li-ad-lgsmartad-com.aws-prd.net
 licensingtelemetry-prod.servicebus.windows.net
 live.direct.ly
@@ -976,6 +978,7 @@ news-app-events.apple.com
 news-events.apple.com
 news-notification-events.apple.com
 news-sports-events.apple.com
+nextlgsdp.com
 nexus.officeapps.live.com
 nexusrules.live.com
 nexusrules.officeapps.live.com

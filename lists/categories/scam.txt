@@ -3,8 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 284288
-# Auto-updated: 2026-09-09T08:10:33Z
+# Entries: 284348
+# Auto-updated: 2026-09-11T08:05:43Z
 # Description: Massive scam, fraud and deceptive-platform domain set.
 # Sources: Block List Project Fraud/Scam; DurableNapkin Scam Blocklist; curated BaFin entries
 # Snapshot: 2026-08
@@ -7615,6 +7615,7 @@ alebilet.pl-4839804561.xyz
 alebilet.pl-48918956819.sbs
 alebilet.pl-4893902753.xyz
 alebilet.pl-4932493.cfd
+alebilet.pl-498083926.xyz
 alebilet.pl-5890124812.sbs
 alebilet.pl-589127951243.sbs
 alebilet.pl-589128095919.sbs
@@ -8489,6 +8490,7 @@ alert-36jk6.stream
 alert-36vj6.stream
 alert-37jl7.stream
 alert-37vk7.stream
+alert-38jm8.stream
 alert-38vl8.stream
 alert-39jn9.stream
 alert-39vm9.stream
@@ -9359,6 +9361,7 @@ alert-qx51.stream
 alert-qx71.stream
 alert-qx91.stream
 alert-qy11.stream
+alert-ra91.stream
 alert-rb11.stream
 alert-rb31.stream
 alert-rb51.stream
@@ -9764,6 +9767,7 @@ alerte-2538.win
 alerte-25447.win
 alerte-2547.win
 alerte-2558.win
+alerte-2563.win
 alerte-2565.win
 alerte-2566.win
 alerte-2571.win
@@ -9849,6 +9853,7 @@ alerte-3525.win
 alerte-353.win
 alerte-3532.win
 alerte-3558.win
+alerte-3566.win
 alerte-3567.win
 alerte-35741.win
 alerte-3581.win
@@ -11519,6 +11524,7 @@ allegro.1231823812giri.lol
 allegro.1239812ht.baby
 allegro.126251.shop
 allegro.12939h74.xyz
+allegro.161251.click
 allegro.162616.click
 allegro.188139.click
 allegro.1945jkk.shop
@@ -11556,6 +11562,7 @@ allegro.3737282733828.lol
 allegro.382839j56.shop
 allegro.4237329810293-9124.lol
 allegro.42873892.shop
+allegro.4309284302842.sbs
 allegro.4387167h7hh.shop
 allegro.4389239hihi.bond
 allegro.43i12984h457.baby
@@ -12401,6 +12408,7 @@ allegrolokalnie.hdmtt.sbs
 allegrolokalnie.hhgi3488g2.xyz
 allegrolokalnie.hpmttl.sbs
 allegrolokalnie.hpooti54823.shop
+allegrolokalnie.hpplt.sbs
 allegrolokalnie.htsml.sbs
 allegrolokalnie.iauckej83429.xyz
 allegrolokalnie.iaukcej84934921928.baby
@@ -13886,6 +13894,7 @@ amremorques.com
 amritamaz.me
 amsmmdorwprwsdkalsr.site
 amsorry.tk
+amsterdam-coin.com
 amsterdam-nl.com
 amsterdamout.store
 amsthor.xyz
@@ -14979,6 +14988,7 @@ antivirusconsulting.com
 antiviruscontacthelp.com
 antiviruscontactnumber.co.uk
 antiviruscontactsupport.wordpress.com
+antiviruscontrol.date
 antiviruscontrol.download
 antiviruscontrol.review
 antiviruscontrol.win
@@ -15420,6 +15430,7 @@ aodlchangwangyj.jxckd.shop
 aoeud.com
 aofeida.com
 aofreepdf.site
+aofxqchnbtae.bid
 aoiemailsupport.com
 aoipool.net
 aokafis.xyz
@@ -102858,6 +102869,8 @@ nip4.com
 nip46.com
 nip5.com
 nip57.com
+nip6.com
+nip7.com
 nip8.com
 nip9.com
 nip98.com
@@ -123978,6 +123991,7 @@ residualsix.us
 residuanine.us
 residuum.stream
 resighted.stream
+resightone.us
 resignee.stream
 resignees.stream
 resignnine.us
@@ -127612,6 +127626,8 @@ sbd-exporters.com
 sbdufkkcp.bid
 sbdvjhsdbv.tk
 sbendpeci.cyou
+sber.avito.sber.avito.www.booking.com-id309712.com
+sber.avito.sber.avito.www.booking.com-id809702.com
 sber.booking.com-id802912.com
 sber.booking.com-id879712.com
 sber.com-id129041.info
@@ -127620,12 +127636,16 @@ sberbank-online-gid.ru
 sberbank.avito.avito.avito.avito.avito.com-id90123.info
 sberbank.avito.avito.avito.com-id309712.com
 sberbank.avito.com-id20341.info
+sberbank.avito.pay.www.booking.com-id329712.com
 sberbank.com-id02349.info
 sberbank.pay.avito.avito.avito.avito.com-id809702.com
 sberbank.pay.www.booking.com-id322712.com
+sberbank.sberbank.www.www.com-id802914.com
 sberbank.www.avito.com-id802915.com
+sberbank.www.avito.www.booking.com-id123251.info
 sberbank.www.avito.www.booking.com-id90123.info
 sberbank.www.blablacar.id90152861.com
+sberbank.www.com-id409712.com
 sberbank.www.com-id9033316.com
 sberboom.plp7.ru
 sberex.com
@@ -131637,6 +131657,7 @@ sign-insupport.com
 sign-support.com
 sign-unlock-accountsecuritytoacceptformjszxcnnashdjqdasndm.com
 signaalreporter.com
+signal-confirm.site
 signal-flarex-xp.com
 signal-group.tech
 signal-lasix-cap.com
@@ -136673,6 +136694,7 @@ store.by-emmamuller.de
 store.byeuys.shop
 store.c0nt4ct-me.pages.dev
 store.californiacondoguru.com
+store.canjaume.com
 store.caraci.it
 store.celebtoysshop.com
 store.cheat-on.com
@@ -136743,6 +136765,7 @@ store.eurosko.net
 store.evisaindia.com
 store.evisaindia.org
 store.ex-torrenty.org
+store.exclusivebuyz4uu.shop
 store.expressmovers.com
 store.facebook-google-15oqyxwtkremqyujsm.vercel.app
 store.facebook-google-vptyyny63pwfipshmm.vercel.app
@@ -136759,6 +136782,7 @@ store.faze8.com
 store.fazpowerdenet.tumblr.com
 store.fdrc-gov.org
 store.field-garnet-duckling.glitch.me
+store.filexstorage.site
 store.fili-cc.tv
 store.filmersi.pl
 store.filmhit.pl
@@ -136776,6 +136800,7 @@ store.freebitcoin.pages.dev
 store.friday89.com
 store.frostgoddess.com
 store.fullview.pl
+store.futhem.info
 store.fveco.com
 store.gearhomies.com
 store.geekupdates.notion.site
@@ -136893,6 +136918,7 @@ store.navi23.com
 store.navi24.com
 store.navi26.com
 store.navi26.ru
+store.navi28.ru
 store.navi3.com
 store.navi32.com
 store.navi42.ru
@@ -136954,6 +136980,7 @@ store.pay.avito.avito.sber.pay.booking.com-id809702.com
 store.pay.avito.pay.com-id02349.info
 store.pay.com-id15421.info
 store.pay.pay.com-id309712.com
+store.pay.sber.www.booking.com-id15421.info
 store.penguinnow.com
 store.pharaohstore.com
 store.phirussacmush.net
@@ -136963,10 +136990,12 @@ store.pinjamanelit.top
 store.pinjamanrupiah.xyz
 store.piratedrive.com
 store.pjs.outlet.com
+store.pl.wojewodapodlaski.pl
 store.player-qr.com
 store.polish-money-matters.blogspot.com
 store.popeurope.com
 store.porkbunrr.web.app
+store.prcrypt.top
 store.pridesocial.net
 store.primevod.pl
 store.produktretter.org
@@ -136998,10 +137027,14 @@ store.sber.pay.com-id20341.info
 store.sber.sberbank.avito.avito.avito.avito.avito.com-id20341.info
 store.sberbank.avito.avito.avito.avito.avito.sber.com-id02349.info
 store.sberbank.avito.avito.sber.www42.com-id23901.info
+store.sberbank.com-id15421.info
+store.sberbank.com-id409712.com
 store.sberbank.pay.avito.avito.avito.avito.com-id90123.info
 store.sberbank.pay.com-id322712.com
 store.sberbank.pay.sber.www.com-id1800853.com
 store.sberbank.sber.id19845672.info
+store.sberbank.www.avito.www.com-id802914.com
+store.sberbank.www.com-id802914.com
 store.seasonsofficial.com
 store.securevault.top
 store.security-meta.pages.app.br
@@ -137031,6 +137064,7 @@ store.stoeki.com
 store.storagestory.com
 store.store25848025.company.site
 store.storeax.com
+store.storecommuinityworkshop.com
 store.storesp.com
 store.streamabie.com
 store.streamvod.pl
@@ -137051,6 +137085,7 @@ store.the-north-face.gr
 store.thecabinas.com
 store.thechildhooddream.com
 store.theeaglebrand.company.site
+store.theshirtyouneed.com
 store.thevitic.com
 store.thevitic.onshopbase.com
 store.tikgeeker.com
@@ -137071,6 +137106,7 @@ store.trendsharks.com
 store.treverschmelerkris18.myshopify.com
 store.tripinpremiumsnacks.com
 store.tromselementbygg.no
+store.trumpsupport.help
 store.turtleclient.xyz
 store.twiiiter.com
 store.twinsbio.com
@@ -137085,6 +137121,7 @@ store.ultraboxlab.com
 store.unifully.com
 store.uniswap.host
 store.uniswap.ro
+store.uniswap1.online
 store.uniswap5.work
 store.uniswapai.xyz
 store.uniswapapp.xyz
@@ -137108,12 +137145,14 @@ store.ureashi.com
 store.us99.pro
 store.uschse04.my03.com
 store.useum.org
+store.uszjj.fyjkxzq.shop
 store.v-power.sm
 store.vanced-official.com
 store.vessisdeutschland.com
 store.vider-cda.online
 store.vider-pl.pl
 store.vider.cc
+store.vider.com.pl
 store.vip100.cc
 store.virustoal.com
 store.visacentral.com
@@ -147457,6 +147496,7 @@ tedzxrqpla.wiki
 tedzxrqpla.xyz
 tee1.shop
 tee24h.com
+teearrow.com
 teechip.online
 teecream.com
 teedasikop.tk
@@ -159296,6 +159336,7 @@ vider-pl.pl
 vider-vod.pl
 vider.ai
 vider.cc
+vider.com.pl
 vider.fun
 vider.info.pl
 vider.online
@@ -184323,6 +184364,7 @@ www.bitsoft360.io
 www.bitsoft360.net
 www.bitspeed.io
 www.bitsrefll.com
+www.bitstenali.com
 www.bitstream-ai-systems-com.financecryptoworld.com
 www.bitsupport.biz
 www.bittech.co
@@ -197074,6 +197116,7 @@ www.daytonsuboxonesupport.com
 www.daytontechsupport.com
 www.dazzlemart.com
 www.db-support-update-123.com
+www.dbkdsale.com
 www.dbmw.info
 www.dbpcsafealert.club
 www.dbsrilwf.shop
@@ -204083,6 +204126,7 @@ www.expertnewswatch.pro
 www.experto-google.com
 www.expertoption.com
 www.expertprinterdriversupport.com
+www.expertrader.me
 www.expertsbiguide.info
 www.expertsbuzz.com
 www.expertsmind.co.uk
@@ -207120,6 +207164,7 @@ www.faze1.com
 www.faze10.com
 www.faze2.com
 www.faze3.com
+www.faze35.com
 www.faze4.com
 www.faze47.com
 www.faze5.com
@@ -225246,6 +225291,7 @@ www.lubnafoods.com
 www.lubnantasimacilik.com
 www.lucasr.com.br
 www.lucatee.com
+www.lucchesesale.shop
 www.lucentfun.com
 www.lucenzatradexplatform.com
 www.luciathebat.blogspot.com
@@ -229292,6 +229338,7 @@ www.mona-mono.blogspot.com
 www.monamoosco.cyou
 www.monantivirus.cloud
 www.monarcaproai-solution.com
+www.monark-store.com
 www.monatisome.cyou
 www.moncawhitt.cyou
 www.moncentra-tech.com
@@ -231172,6 +231219,7 @@ www.navcom-support.com
 www.navelora.com
 www.navetrade.com
 www.navi1.com
+www.navi1.ru
 www.navi10.com
 www.navi100.com
 www.navi11.com
@@ -231182,6 +231230,7 @@ www.navi20.com
 www.navi20.ru
 www.navi21.com
 www.navi21.ru
+www.navi22.com
 www.navi23.com
 www.navi23.ru
 www.navi24.com
@@ -233708,6 +233757,8 @@ www.nip4.com
 www.nip46.com
 www.nip5.com
 www.nip57.com
+www.nip6.com
+www.nip7.com
 www.nip76.com
 www.nip8.com
 www.nip86.com
@@ -236848,6 +236899,7 @@ www.orcsmedia.com
 www.ord-er.co.za
 www.order-alert.com
 www.order-cancel-verify-process-secure-server.com
+www.order-deposit.com
 www.order-essay-online.net
 www.order-essay.com
 www.order-papers.com
@@ -237845,9 +237897,11 @@ www.pay.avito.pay.avito.avito.avito.com-id809702.com
 www.pay.avito.pay.booking.com-id3212341.info
 www.pay.avito.sber.pay.booking.com-id809702.com
 www.pay.avito.www.com-id1800853.com
+www.pay.booking.id19045617.info
 www.pay.osoobe.com
 www.pay.sber.www.avito.booking.com-id15421.info
 www.pay.www.avito.booking.com-id9523416.com
+www.pay.www.avito.com-id15421.info
 www.pay.www.avito.www.booking.com-id15421.info
 www.pay.www.www70.com-id23901.info
 www.pay2me.pl
@@ -242060,6 +242114,7 @@ www.photo-zj.com
 www.photocrimson.com
 www.photoinstagram.review
 www.photoroute.click
+www.phototan-update.cfd
 www.php-mail-domain-verify.info
 www.phperrorcode.com
 www.phpmyadmin.staging.demo.www1.transaction-processing.one
@@ -249356,6 +249411,7 @@ www.sbcglobaltechnicalsuppo.wordpress.com
 www.sbcglobaltechsupportphonenumber.blogspot.com
 www.sbendpeci.cyou
 www.sber.avito.booking.com-id3212341.info
+www.sber.avito.pay.www.booking.com-id809702.com
 www.sber.avito.sber.booking.com-id322712.com
 www.sber.avito.www.booking.com-id329712.com
 www.sber.avito.www.booking.com-id334212.com
@@ -249373,6 +249429,7 @@ www.sberbank.avito.pay.booking.id05196219.com
 www.sberbank.avito.sber.sberbank.booking.com-id90123.info
 www.sberbank.avito.www.booking.com-id1800853.com
 www.sberbank.sberbank.www.booking.com-id123251.info
+www.sberbank.www.id19045617.info
 www.sberboom.plp7.ru
 www.sberrdisse.cyou
 www.sberrtaroke.cyou
@@ -267191,6 +267248,7 @@ www.unisite.support
 www.unisonofashion.shop
 www.uniswap.host
 www.uniswap.ro
+www.uniswap2.click
 www.uniswapagent.com
 www.uniswapai.xyz
 www.uniswapapp.xyz
@@ -269674,6 +269732,7 @@ www.vider-pl.org
 www.vider-pl.pl
 www.vider-vod.pl
 www.vider.cc
+www.vider.com.pl
 www.vider.info.pl
 www.vider.online
 www.vidoaller.tk
@@ -281787,6 +281846,7 @@ yandex-yan.ru
 yandex.avito.avito.avito.com-id1800853.com
 yandex.avito.avito.com-id3212341.info
 yandex.avito.avito.pay.booking.com-id309712.com
+yandex.avito.b0oking.com-id16313.info
 yandex.avito.booking.com-id23901.info
 yandex.avito.sberbank.booking.com-id90123.info
 yandex.blue
