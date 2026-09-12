@@ -3,8 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 11501
-# Auto-updated: 2026-09-11T08:05:44Z
+# Entries: 11512
+# Auto-updated: 2026-09-12T07:57:55Z
 # Description: Aggressive deceptive-store and fake-shop candidates derived from fraud/scam intelligence.
 # Sources: Block List Project Fraud/Scam (retail subset); DurableNapkin (retail subset); Verbraucherzentrale curated entries
 # Snapshot: 2026-08
@@ -1866,6 +1866,7 @@ eu-wojas.shop
 eudlond.shop
 eudoal.shop
 eudsal.shop
+eudshop.shop
 euduka.shop
 eueucmu.store
 euonlfr.shop
@@ -4604,6 +4605,7 @@ store.budm.shop
 store.buzzazone.com
 store.buzzdeal.com
 store.bwpkizpfms.funnelish.com
+store.bwsvbk.info
 store.by-emmamuller.de
 store.byeuys.shop
 store.c0nt4ct-me.pages.dev
@@ -4641,6 +4643,7 @@ store.couponxoo.com
 store.crackedpc.org
 store.cricosphere.com
 store.crossfiterada.com
+store.crypto022.online
 store.crypto030.online
 store.cryptot.net
 store.customizerbox.com
@@ -4710,6 +4713,7 @@ store.flattee.com
 store.folkrbvi.pages.dev
 store.foryourdears.com
 store.freebitcoin.pages.dev
+store.freeuspshomehhasfe.top
 store.friday89.com
 store.frostgoddess.com
 store.fullview.pl
@@ -4771,6 +4775,7 @@ store.khoinguyenhanoi.vn
 store.kino-cda.pl
 store.kinomaniak.cc
 store.klasykavod.pl
+store.kmsauto.info
 store.kmspicoofficial.com
 store.koinprime.com
 store.kontribusiuang.top
@@ -4893,6 +4898,7 @@ store.pay.avito.pay.com-id02349.info
 store.pay.com-id15421.info
 store.pay.pay.com-id309712.com
 store.pay.sber.www.booking.com-id15421.info
+store.pay.www.avito.com-id802914.com
 store.penguinnow.com
 store.pharaohstore.com
 store.phirussacmush.net
@@ -4936,14 +4942,17 @@ store.sber.com-id129041.info
 store.sber.pay.com-id20341.info
 store.sber.sberbank.avito.avito.avito.avito.avito.com-id20341.info
 store.sberbank.avito.avito.avito.avito.avito.sber.com-id02349.info
+store.sberbank.avito.avito.avito.com-id3212341.info
 store.sberbank.avito.avito.sber.www42.com-id23901.info
 store.sberbank.com-id15421.info
 store.sberbank.com-id409712.com
 store.sberbank.pay.avito.avito.avito.avito.com-id90123.info
 store.sberbank.pay.com-id322712.com
+store.sberbank.pay.com-id329712.com
 store.sberbank.pay.sber.www.com-id1800853.com
 store.sberbank.sber.id19845672.info
 store.sberbank.www.avito.www.com-id802914.com
+store.sberbank.www.blablacar.id90152861.com
 store.sberbank.www.com-id802914.com
 store.seasonsofficial.com
 store.securevault.top
@@ -5056,6 +5065,7 @@ store.us99.pro
 store.uschse04.my03.com
 store.uszjj.fyjkxzq.shop
 store.v-power.sm
+store.v5-uniswap.info
 store.vanced-official.com
 store.vessisdeutschland.com
 store.vider-cda.online
@@ -5096,6 +5106,7 @@ store.yandex.avito.avito.com-id90123.info
 store.yandex.avito.bo0king.com-id16313.info
 store.yandex.pay.avito.avito.avito.sberbank.booking.com-id90123.info
 store.yandex.www.booking.com-id302912.com
+store.yeyvibe.com
 store.ygtube.xyz
 store.youtubee.com
 store.youtunbe.com

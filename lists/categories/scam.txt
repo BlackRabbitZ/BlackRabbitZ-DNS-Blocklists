@@ -3,8 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 284348
-# Auto-updated: 2026-09-11T08:05:43Z
+# Entries: 284369
+# Auto-updated: 2026-09-12T07:57:55Z
 # Description: Massive scam, fraud and deceptive-platform domain set.
 # Sources: Block List Project Fraud/Scam; DurableNapkin Scam Blocklist; curated BaFin entries
 # Snapshot: 2026-08
@@ -52827,6 +52827,7 @@ eudoal.shop
 eudoraz.com
 eudsal.shop
 eudsgvo.support
+eudshop.shop
 euduka.shop
 eue5jx99.top
 euenterprise.eu
@@ -91541,6 +91542,7 @@ mam999.com
 mama-work.com
 mamaliga.pw
 mamanchabada.fr
+mamapapaclothing.com
 mamboing.pw
 mambojamboaruba.com
 mambon.pl
@@ -127632,10 +127634,12 @@ sber.booking.com-id802912.com
 sber.booking.com-id879712.com
 sber.com-id129041.info
 sber.com-id329712.com
+sber.www42.com-id23901.info
 sberbank-online-gid.ru
 sberbank.avito.avito.avito.avito.avito.com-id90123.info
 sberbank.avito.avito.avito.com-id309712.com
 sberbank.avito.com-id20341.info
+sberbank.avito.ozon.id19845672.info
 sberbank.avito.pay.www.booking.com-id329712.com
 sberbank.com-id02349.info
 sberbank.pay.avito.avito.avito.avito.com-id809702.com
@@ -136690,6 +136694,7 @@ store.budm.shop
 store.buzzazone.com
 store.buzzdeal.com
 store.bwpkizpfms.funnelish.com
+store.bwsvbk.info
 store.by-emmamuller.de
 store.byeuys.shop
 store.c0nt4ct-me.pages.dev
@@ -136727,6 +136732,7 @@ store.couponxoo.com
 store.crackedpc.org
 store.cricosphere.com
 store.crossfiterada.com
+store.crypto022.online
 store.crypto030.online
 store.cryptot.net
 store.customizerbox.com
@@ -136797,6 +136803,7 @@ store.flattee.com
 store.folkrbvi.pages.dev
 store.foryourdears.com
 store.freebitcoin.pages.dev
+store.freeuspshomehhasfe.top
 store.friday89.com
 store.frostgoddess.com
 store.fullview.pl
@@ -136859,6 +136866,7 @@ store.khoinguyenhanoi.vn
 store.kino-cda.pl
 store.kinomaniak.cc
 store.klasykavod.pl
+store.kmsauto.info
 store.kmspicoofficial.com
 store.koinprime.com
 store.kontribusiuang.top
@@ -136981,6 +136989,7 @@ store.pay.avito.pay.com-id02349.info
 store.pay.com-id15421.info
 store.pay.pay.com-id309712.com
 store.pay.sber.www.booking.com-id15421.info
+store.pay.www.avito.com-id802914.com
 store.penguinnow.com
 store.pharaohstore.com
 store.phirussacmush.net
@@ -137026,14 +137035,17 @@ store.sber.com-id129041.info
 store.sber.pay.com-id20341.info
 store.sber.sberbank.avito.avito.avito.avito.avito.com-id20341.info
 store.sberbank.avito.avito.avito.avito.avito.sber.com-id02349.info
+store.sberbank.avito.avito.avito.com-id3212341.info
 store.sberbank.avito.avito.sber.www42.com-id23901.info
 store.sberbank.com-id15421.info
 store.sberbank.com-id409712.com
 store.sberbank.pay.avito.avito.avito.avito.com-id90123.info
 store.sberbank.pay.com-id322712.com
+store.sberbank.pay.com-id329712.com
 store.sberbank.pay.sber.www.com-id1800853.com
 store.sberbank.sber.id19845672.info
 store.sberbank.www.avito.www.com-id802914.com
+store.sberbank.www.blablacar.id90152861.com
 store.sberbank.www.com-id802914.com
 store.seasonsofficial.com
 store.securevault.top
@@ -137147,6 +137159,7 @@ store.uschse04.my03.com
 store.useum.org
 store.uszjj.fyjkxzq.shop
 store.v-power.sm
+store.v5-uniswap.info
 store.vanced-official.com
 store.vessisdeutschland.com
 store.vider-cda.online
@@ -137188,6 +137201,7 @@ store.yandex.avito.bo0king.com-id16313.info
 store.yandex.pay.avito.avito.avito.sberbank.booking.com-id90123.info
 store.yandex.www.booking.com-id302912.com
 store.yeelight.com
+store.yeyvibe.com
 store.ygtube.xyz
 store.youtubee.com
 store.youtunbe.com
@@ -182266,6 +182280,7 @@ www.avito.avito.pay.www.booking.com-id20341.info
 www.avito.pay.avito.avito.avito.avito.avito.com-id90123.info
 www.avito.pay.booklng.com-id129041.info
 www.avito.pay.sber.avito.www.booking.com-id20341.info
+www.avito.www.pay.www.com-id802914.com
 www.avlegalsupport.com
 www.avocat-ndoba.be
 www.avocatbarbulescu.ro
@@ -225311,6 +225326,7 @@ www.lucky7clothing.com
 www.luckybits.club
 www.luckyblog.it
 www.luckychance1.loan
+www.luckydraws.buzz
 www.luckyducknet.com
 www.luckyfarm.org
 www.luckyfinance.biz
@@ -231224,6 +231240,7 @@ www.navi10.com
 www.navi100.com
 www.navi11.com
 www.navi12.com
+www.navi12.ru
 www.navi18.com
 www.navi2.com
 www.navi20.com
@@ -237893,6 +237910,7 @@ www.pay-someone-to-write-my-paper.com
 www.pay-update.com
 www.pay.avito.avito.avito.sber.pay.com-id809702.com
 www.pay.avito.avito.www.booking.com-id20341.info
+www.pay.avito.b0oking.com-id16313.info
 www.pay.avito.pay.avito.avito.avito.com-id809702.com
 www.pay.avito.pay.booking.com-id3212341.info
 www.pay.avito.sber.pay.booking.com-id809702.com
@@ -253258,6 +253276,7 @@ www.spanner.store
 www.spapasubla.cyou
 www.sparcoaj.shop
 www.spark-support.com
+www.spark.kindpickle.info
 www.sparklecateringsupportservices.com
 www.sparklecleanpro.icu
 www.sparkleplentyinc.com
@@ -277648,6 +277667,7 @@ www.www3-tinderplus-alrt-prcasing.com
 www.www3-tinderplus-alrt-prcasing.cymru
 www.www365serversupport.com
 www.www3windows.com
+www.www42.com-id23901.info
 www.www855support.com
 www.wwwaccount-secure.com
 www.wwwacersupport.com
@@ -279358,6 +279378,7 @@ www.youtubeboost.com
 www.youtubeboost.info
 www.youtubeboostup.com
 www.youtubebot.net
+www.youtubebplan.com
 www.youtubecash.com
 www.youtubecashcode.com
 www.youtubecode.com
