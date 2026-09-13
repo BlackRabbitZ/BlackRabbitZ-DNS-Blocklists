@@ -3,8 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 1473
-# Auto-updated: 2026-09-11T08:04:30Z
+# Entries: 1525
+# Auto-updated: 2026-09-13T08:19:40Z
 # Description: Native OS, device and application tracking endpoints.
 # Sources: NextDNS Native Tracking Protection; Perflyst PiHoleBlocklist; HaGeZi native tracking
 # Snapshot: 2026-08
@@ -104,6 +104,7 @@ adx-drru.op.dbankcloud.com
 adx-drru.op.hicloud.com
 adx.tv.mi.com
 ae-ad-lgsmartad-com.aws-prd.net
+ae-rdx2-lgtvsdp-com.aws-prd.net
 ae.lgsmartad.com
 af-ad-lgsmartad-com.aws-prd.net
 af.lgsmartad.com
@@ -112,6 +113,8 @@ ag.lgsmartad.com
 agps-location-livenet.trafficmanager.net
 ai.lgsmartad.com
 al-ad-lgsmartad-com.aws-prd.net
+al-info-lgsmartad-com.aws-prd.net
+al-rdx2-lgtvsdp-com.aws-prd.net
 al.lgsmartad.com
 alog.umeng.com
 alog.umengcloud.com
@@ -201,8 +204,12 @@ arc5.msn.com
 arc9.msn.com
 ase.adserver.snapads.com
 at-ad-lgsmartad-com.aws-prd.net
+at-info-lgsmartad-com.aws-prd.net
+at-rdx2-lgtvsdp-com.aws-prd.net
 at.lgsmartad.com
 au-ad-lgsmartad-com.aws-prd.net
+au-info-lgsmartad-com.aws-prd.net
+au-rdx2-lgtvsdp-com.aws-prd.net
 au.ff.avast.sec.miui.com
 au.lgsmartad.com
 auc-visio-telemetry.officeapps.live.com
@@ -230,6 +237,7 @@ bb-ad-lgsmartad-com.aws-prd.net
 bb.lgsmartad.com
 bd-ad-lgsmartad-com.aws-prd.net
 be-ad-lgsmartad-com.aws-prd.net
+be-info-lgsmartad-com.aws-prd.net
 be.lgsmartad.com
 beacon.shazam.com
 beacons.trafficmanager.net
@@ -237,6 +245,7 @@ beacons.xboxlive.com
 bf-ad-lgsmartad-com.aws-prd.net
 bf.lgsmartad.com
 bg-ad-lgsmartad-com.aws-prd.net
+bg-info-lgsmartad-com.aws-prd.net
 bg.lgsmartad.com
 bgp.fe01.c3.xiaomi.com
 bgp.tv.pandora.xiaomi.com
@@ -256,6 +265,8 @@ books-analytics-events.news.apple-dns.net
 bossadmin.pandora.xiaomi.com
 box.pandora.xiaomi.com
 br-ad-lgsmartad-com.aws-prd.net
+br-info-lgsmartad-com.aws-prd.net
+br-rdx2-lgtvsdp-com.aws-prd.net
 br.lgsmartad.com
 brc-visio-telemetry.officeapps.live.com
 browser-intake-datadoghq.com
@@ -269,6 +280,8 @@ bugreport.pt.xiaomi.com
 bugreport.xiaomi.net
 bw-ad-lgsmartad-com.aws-prd.net
 by-ad-lgsmartad-com.aws-prd.net
+by-info-lgsmartad-com.aws-prd.net
+by-rdx2-lgtvsdp-com.aws-prd.net
 bz-ad-lgsmartad-com.aws-prd.net
 bz.lgsmartad.com
 c-bingapis-com.dual-a-0034.a-msedge.net
@@ -316,6 +329,8 @@ c1.microsoft.com
 c3-bgp.pandora.xiaomi.com
 c3mini.pandora.xiaomi.com
 ca-ad-lgsmartad-com.aws-prd.net
+ca-info-lgsmartad-com.aws-prd.net
+ca-rdx2-lgtvsdp-com.aws-prd.net
 ca.iadsdk.apple.com
 ca.lgsmartad.com
 cac-visio-telemetry.officeapps.live.com
@@ -343,6 +358,8 @@ cg-ad-lgsmartad-com.aws-prd.net
 cg.lgsmartad.com
 ch-ad-lgsmartad-com.aws-prd.net
 ch-asimov-leafs-events-data.trafficmanager.net
+ch-info-lgsmartad-com.aws-prd.net
+ch-rdx2-lgtvsdp-com.aws-prd.net
 ch.lgsmartad.com
 chc-visio-telemetry.officeapps.live.com
 child.sec.miui.com
@@ -440,6 +457,8 @@ dc.applicationinsights.azure.cn
 dc.applicationinsights.azure.us
 dc.services.visualstudio.com
 de-ad-lgsmartad-com.aws-prd.net
+de-info-lgsmartad-com.aws-prd.net
+de-rdx2-lgtvsdp-com.aws-prd.net
 de.lgsmartad.com
 de.pandora.xiaomi.com
 dec-visio-telemetry.officeapps.live.com
@@ -484,8 +503,11 @@ eaus2watcab02.blob.core.windows.net
 ec-ad-lgsmartad-com.aws-prd.net
 ec.lgsmartad.com
 ee-ad-lgsmartad-com.aws-prd.net
+ee-info-lgsmartad-com.aws-prd.net
+ee-rdx2-lgtvsdp-com.aws-prd.net
 ee.lgsmartad.com
 eg-ad-lgsmartad-com.aws-prd.net
+eg-info-lgsmartad-com.aws-prd.net
 eg.lgsmartad.com
 ehtelemetrystaging-alias.servicebus.windows.net
 eic-ngfts.lge.com
@@ -499,6 +521,7 @@ es-ad-lgsmartad-com.aws-prd.net
 es.lgsmartad.com
 et-ad-lgsmartad-com.aws-prd.net
 et.lgsmartad.com
+eu7-info-lgsmartad-com.aws-prd.net
 euc-excel-telemetry.officeapps.live.com
 euc-excel-telemetry.wac.trafficmanager.net
 euc-onenote-telemetry.officeapps.live.com
@@ -576,6 +599,8 @@ ffc-word-telemetry.officeapps.live.com
 ffg-analyticsk3nvxfne4dp4s.servicebus.windows.net
 fgteu1-word-telemetry-vip.officeapps.live.com
 fi-ad-lgsmartad-com.aws-prd.net
+fi-info-lgsmartad-com.aws-prd.net
+fi-rdx2-lgtvsdp-com.aws-prd.net
 fi.lgsmartad.com
 file.cdn.mvideo.xiaomi.com
 findapi.micloud.xiaomi.net
@@ -589,6 +614,8 @@ flow.sec.miui.com
 fp.msedge.net
 fr-ad-lgsmartad-com.aws-prd.net
 fr-api.xmpush.global.xiaomi.com
+fr-info-lgsmartad-com.aws-prd.net
+fr-rdx2-lgtvsdp-com.aws-prd.net
 fr-register.xmpush.global.xiaomi.com
 fr.feedback.xmpush.global.xiaomi.com
 fr.lgsmartad.com
@@ -603,6 +630,8 @@ gamebox.sec.miui.com
 gate.hockeyapp.net
 gateway.bingviz.microsoftapp.net
 gb-ad-lgsmartad-com.aws-prd.net
+gb-info-lgsmartad-com.aws-prd.net
+gb-rdx2-lgtvsdp-com.aws-prd.net
 gb.lgsmartad.com
 gd-ad-lgsmartad-com.aws-prd.net
 gd.lgsmartad.com
@@ -626,6 +655,8 @@ gp.lgsmartad.com
 gq-ad-lgsmartad-com.aws-prd.net
 gq.lgsmartad.com
 gr-ad-lgsmartad-com.aws-prd.net
+gr-info-lgsmartad-com.aws-prd.net
+gr-rdx2-lgtvsdp-com.aws-prd.net
 gr.lgsmartad.com
 graffiti-tags.apple.com
 graph.accountkit.com
@@ -725,6 +756,7 @@ image.box.xiaomi.com
 image.cdn.mvideo.xiaomi.com
 image.cdn.pandora.xiaomi.com
 in-ad-lgsmartad-com.aws-prd.net
+in-info-lgsmartad-com.aws-prd.net
 in-miuilog.sms.intl.xiaomi.com
 in-protect-dev.sec.intl.miui.com
 in.appcenter.ms
@@ -755,6 +787,8 @@ iphonesubmissions.v.aaplimg.com
 iq-ad-lgsmartad-com.aws-prd.net
 iq.lgsmartad.com
 ir-ad-lgsmartad-com.aws-prd.net
+ir-info-lgsmartad-com.aws-prd.net
+ir-rdx2-lgtvsdp-com.aws-prd.net
 ir-tracking.trafficmanager.net
 ir.lgsmartad.com
 irreverselookuptm.trafficmanager.net
@@ -762,6 +796,8 @@ is-ad-lgsmartad-com.aws-prd.net
 is.lgsmartad.com
 ism-telemetry.trafficmanager.net
 it-ad-lgsmartad-com.aws-prd.net
+it-info-lgsmartad-com.aws-prd.net
+it-rdx2-lgtvsdp-com.aws-prd.net
 it.lgsmartad.com
 jm-ad-lgsmartad-com.aws-prd.net
 jm.lgsmartad.com
@@ -989,10 +1025,14 @@ nginx.34.sec.miui.com
 ni-ad-lgsmartad-com.aws-prd.net
 ni.lgsmartad.com
 nl-ad-lgsmartad-com.aws-prd.net
+nl-info-lgsmartad-com.aws-prd.net
+nl-rdx2-lgtvsdp-com.aws-prd.net
 nl.lgsmartad.com
 nl.rcd.ptqy.gitv.tv
 nmetrics.samsung.com
 no-ad-lgsmartad-com.aws-prd.net
+no-info-lgsmartad-com.aws-prd.net
+no-rdx2-lgtvsdp-com.aws-prd.net
 no.lgsmartad.com
 noc-visio-telemetry.officeapps.live.com
 notes-analytics-events.apple.com
@@ -1092,6 +1132,7 @@ pgtus6-excel-telemetry-vip.officeapps.live.com
 pgtus6-powerpoint-telemetry-vip.officeapps.live.com
 pgtus6-word-telemetry-vip.officeapps.live.com
 ph-ad-lgsmartad-com.aws-prd.net
+ph-info-lgsmartad-com.aws-prd.net
 ph.lgsmartad.com
 phonesubmissions.apple.com
 pi.ias.xiaomi.com
@@ -1100,6 +1141,8 @@ pixel-sync.trafficmanager.net
 pk-ad-lgsmartad-com.aws-prd.net
 pk.lgsmartad.com
 pl-ad-lgsmartad-com.aws-prd.net
+pl-info-lgsmartad-com.aws-prd.net
+pl-rdx2-lgtvsdp-com.aws-prd.net
 pl.lgsmartad.com
 pmir.sec.miui.com
 podcasts-analytics-events.apple.com
@@ -1169,6 +1212,7 @@ raka.bing.com
 rawtelemetry-east.servicebus.windows.net
 rawtelemetry-west.servicebus.windows.net
 rdl.lgtvcommon.com
+rdx2.lgtvsdp.com
 re-ad-lgsmartad-com.aws-prd.net
 redir.metaservices.microsoft.com
 redirect.pandora.xiaomi.com
@@ -1183,6 +1227,7 @@ rmads.eu.msn.com
 rmads.msn.com
 rnd-cbgpas01.huawei.com
 ro-ad-lgsmartad-com.aws-prd.net
+ro-info-lgsmartad-com.aws-prd.net
 ro.lgsmartad.com
 rs-ad-lgsmartad-com.aws-prd.net
 rs.lgsmartad.com
@@ -1217,6 +1262,8 @@ sdk.hockeyapp.net
 sdk.ptqy.gitv.tv
 sdktm.w.inmobi.com
 se-ad-lgsmartad-com.aws-prd.net
+se-info-lgsmartad-com.aws-prd.net
+se-rdx2-lgtvsdp-com.aws-prd.net
 se.lgsmartad.com
 search.miui.com
 searchads.apple.com
@@ -1251,6 +1298,8 @@ sgtus1-word-telemetry-vip.officeapps.live.com
 shoes.app-xae.xiaomi.com
 shop.pandora.xiaomi.com
 si-ad-lgsmartad-com.aws-prd.net
+si-info-lgsmartad-com.aws-prd.net
+si-rdx2-lgtvsdp-com.aws-prd.net
 si.lgsmartad.com
 si.ptqy.gitv.tv
 sk-ad-lgsmartad-com.aws-prd.net
@@ -1369,6 +1418,7 @@ tn-ad-lgsmartad-com.aws-prd.net
 tn.lgsmartad.com
 toolbar.msn.com
 tr-ad-lgsmartad-com.aws-prd.net
+tr-info-lgsmartad-com.aws-prd.net
 tr.iadsdk.apple.com
 tr.lgsmartad.com
 tr.snapchat.com
@@ -1411,7 +1461,9 @@ uop.umeng.com
 update.avlyun.sec.miui.com
 upgrade.pandora.xiaomi.com
 us-ad-lgsmartad-com.aws-prd.net
+us-info-lgsmartad-com.aws-prd.net
 us-mesh-events-data-leafs.trafficmanager.net
+us-rdx2-lgtvsdp-com.aws-prd.net
 us.lgsmartad.com
 usc-onenote-telemetry.officeapps.live.com
 usc-visio-telemetry.officeapps.live.com

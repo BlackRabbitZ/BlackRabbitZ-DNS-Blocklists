@@ -3,7 +3,7 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 375061
+# Entries: 375116
 #
 # Includes: ads,trackers,social-trackers,affiliate-tracking,telemetry,windows-telemetry,apple-telemetry,android-telemetry,linux-telemetry,nas-telemetry,server-telemetry,mobile-tracking,native-tracking,smart-tv,iot
 #
@@ -50169,6 +50169,7 @@ ae-ad-lgsmartad-com.aws-prd.net
 ae-gb.adskeeper.co.uk
 ae-gb.mgid.com
 ae-gmtdmp.mookie1.com
+ae-rdx2-lgtvsdp-com.aws-prd.net
 ae.7eer.net
 ae.ad.lgsmartad.com
 ae.ads.justpremium.com
@@ -52754,7 +52755,9 @@ al-amerat.com
 al-azharinternationalcollege.com
 al-gb.adskeeper.co.uk
 al-gb.mgid.com
+al-info-lgsmartad-com.aws-prd.net
 al-metrics.vizio.com
+al-rdx2-lgtvsdp-com.aws-prd.net
 al-smetrics.vizio.com
 al.ad.lgsmartad.com
 al.attabalyttrias.top
@@ -73568,7 +73571,9 @@ at-go.kelkoogroup.net
 at-img1.tdimg.com
 at-img2.tdimg.com
 at-img3.tdimg.com
+at-info-lgsmartad-com.aws-prd.net
 at-o.net
+at-rdx2-lgtvsdp-com.aws-prd.net
 at-t-admin.daftpage.com
 at-us-east.amazon-adsystem.com
 at.ad.lgsmartad.com
@@ -74113,7 +74118,9 @@ au-cn.w.inmobi.com
 au-gb.mgid.com
 au-gmtdmp.gd3.mookie1.com
 au-gmtdmp.mookie1.com
+au-info-lgsmartad-com.aws-prd.net
 au-mobile.events.data.microsoft.com
+au-rdx2-lgtvsdp-com.aws-prd.net
 au-sn01.marketo.com
 au-sn02.marketo.com
 au-ssl.effectivemeasure.net
@@ -79367,6 +79374,7 @@ be-funk.com
 be-get.teads.tv
 be-gmtdmp.mookie1.com
 be-go.kelkoogroup.net
+be-info-lgsmartad-com.aws-prd.net
 be-loaded.com
 be-mine.ru
 be-ms.teads.tv
@@ -80987,6 +80995,7 @@ bfxytxdpnk.com
 bfzb8.com
 bfzuuuuhvexxs.com
 bg-ad-lgsmartad-com.aws-prd.net
+bg-info-lgsmartad-com.aws-prd.net
 bg-mezonet.info
 bg-mtg.a.videoplaza.tv
 bg-mtg.cdn.videoplaza.tv
@@ -84656,8 +84665,10 @@ br-ad-lgsmartad-com.aws-prd.net
 br-ad.sam4m.com
 br-gmtdmp.mookie1.com
 br-go.kelkoogroup.net
+br-info-lgsmartad-com.aws-prd.net
 br-p.vivoglobal.com
 br-rbso.com
+br-rdx2-lgtvsdp-com.aws-prd.net
 br-tags.vizury.com
 br.ad.lgsmartad.com
 br.ads.justpremium.com
@@ -88119,6 +88130,8 @@ bxzjytu2elwokof.ru
 bxzkknilgmdt.bid
 by-ad-lgsmartad-com.aws-prd.net
 by-content.adriver.ru
+by-info-lgsmartad-com.aws-prd.net
+by-rdx2-lgtvsdp-com.aws-prd.net
 by.ad.lgsmartad.com
 by.addrecipes.com
 by.adocean.pl
@@ -89279,9 +89292,11 @@ ca-ad-lgsmartad-com.aws-prd.net
 ca-as-1.agilone.com
 ca-cdn.effectivemeasure.net
 ca-gmtdmp.mookie1.com
+ca-info-lgsmartad-com.aws-prd.net
 ca-lapresse-main.collector.snplow.net
 ca-lpcdn.lpsnmedia.net
 ca-mpr.jp
+ca-rdx2-lgtvsdp-com.aws-prd.net
 ca-service.acr.roku.com
 ca.2.cqcounter.com
 ca.429men.com
@@ -94592,10 +94607,12 @@ ch-goldbach.videoplaza.tv
 ch-iconcerts.a.videoplaza.tv
 ch-iconcerts.cdn.videoplaza.tv
 ch-iconcerts.videoplaza.tv
+ch-info-lgsmartad-com.aws-prd.net
 ch-match.taboola.com
 ch-mobile.events.data.microsoft.com
 ch-news.line-apps.com
 ch-qishui-music.com.cn
+ch-rdx2-lgtvsdp-com.aws-prd.net
 ch-stailamedia.videoplaza.tv
 ch-sync.taboola.com
 ch-vid-events.taboola.com
@@ -116551,6 +116568,7 @@ de-glibhippo.videoplaza.tv
 de-glibhippo.vp.videoplaza.tv
 de-gmtdmp.mookie1.com
 de-go.kelkoogroup.net
+de-info-lgsmartad-com.aws-prd.net
 de-ipd.a.videoplaza.tv
 de-ipd.cdn.videoplaza.tv
 de-ipd.videoplaza.tv
@@ -116562,6 +116580,7 @@ de-netpointmedia.a.videoplaza.tv
 de-netpointmedia.cdn.videoplaza.tv
 de-netpointmedia.videoplaza.tv
 de-nis-ner-mi-5.info
+de-rdx2-lgtvsdp-com.aws-prd.net
 de-uim.a.videoplaza.tv
 de-uim.cdn.videoplaza.tv
 de-uim.videoplaza.tv
@@ -126298,12 +126317,14 @@ edxvyyywsxqh.com
 edyjiqxeppjkj.com
 ee-ad-lgsmartad-com.aws-prd.net
 ee-billing-recovery.web.app
+ee-info-lgsmartad-com.aws-prd.net
 ee-mtg.cdn.videoplaza.tv
 ee-mtg.videoplaza.tv
 ee-network.web.app
 ee-payment-issue.web.app
 ee-payment-method-issue.firebaseapp.com
 ee-pending-payment.firebaseapp.com
+ee-rdx2-lgtvsdp-com.aws-prd.net
 ee.ad.lgsmartad.com
 ee.adocean.pl
 ee.connextra.com
@@ -126638,6 +126659,7 @@ efyvcvjmtxg.com
 efzhzqtyomldfj.com
 efzuf.revscale.com
 eg-ad-lgsmartad-com.aws-prd.net
+eg-info-lgsmartad-com.aws-prd.net
 eg.ad.lgsmartad.com
 eg.ads.justpremium.com
 eg.bettaninons.com
@@ -131001,6 +131023,7 @@ eu-sls-ls.locknewslab.com
 eu-sonar.sociomantic.com
 eu-srv.apptornado.com
 eu-srv2.apptornado.com
+eu-st-exappupgrade.vivoglobal.com
 eu-st-sl.vivoglobal.com
 eu-static.load.exelator.com
 eu-stsdk.vivoglobal.com
@@ -131110,6 +131133,7 @@ eu2.madsone.com
 eu2xml.com
 eu3.adlooxtracking.com
 eu3.madsone.com
+eu7-info-lgsmartad-com.aws-prd.net
 eu9l4dq0x3mlqjstgmddy6fwy6gcn1509532131.nuid.imrworldwide.com
 eua-insight.adsrvr.org
 eua-match.adsrvr.org
@@ -136206,9 +136230,11 @@ fi-ad-lgsmartad-com.aws-prd.net
 fi-analytics.mgsn.it
 fi-gmtdmp.mookie1.com
 fi-go.kelkoogroup.net
+fi-info-lgsmartad-com.aws-prd.net
 fi-mtv.videoplaza.tv
 fi-mtv3.cdn.videoplaza.tv
 fi-mtv3.videoplaza.tv
+fi-rdx2-lgtvsdp-com.aws-prd.net
 fi.ad.lgsmartad.com
 fi.ads.justpremium.com
 fi.advertising.com
@@ -139454,12 +139480,14 @@ fr-himedia.cdn.videoplaza.tv
 fr-himedia.videoplaza.tv
 fr-himedia.vp.videoplaza.tv
 fr-hmd.com
+fr-info-lgsmartad-com.aws-prd.net
 fr-instagram.com
 fr-m6-validation.videoplaza.tv
 fr-m6.cdn.videoplaza.tv
 fr-m6.videoplaza.tv
 fr-mailbox-965.top
 fr-meteofrance.cdn.videoplaza.tv
+fr-rdx2-lgtvsdp-com.aws-prd.net
 fr-register.xmpush.global.xiaomi.com
 fr-sien.a.videoplaza.tv
 fr-sien.cdn.videoplaza.tv
@@ -143113,7 +143141,9 @@ gazzz.survey7.adsservingtwig.xyz
 gb-ad-lgsmartad-com.aws-prd.net
 gb-d.openx.net
 gb-gmtdmp.mookie1.com
+gb-info-lgsmartad-com.aws-prd.net
 gb-notify.mgid.com
+gb-rdx2-lgtvsdp-com.aws-prd.net
 gb.ad.lgsmartad.com
 gb.autordapropriasaude.com.br
 gb.blogdomacrame.com.br
@@ -148920,6 +148950,8 @@ gr-ad-lgsmartad-com.aws-prd.net
 gr-cdn.com
 gr-gmtdmp.mookie1.com
 gr-go.kelkoogroup.net
+gr-info-lgsmartad-com.aws-prd.net
+gr-rdx2-lgtvsdp-com.aws-prd.net
 gr.ad.lgsmartad.com
 gr.adserver.yahoo.com
 gr.info.lgsmartad.com
@@ -164451,6 +164483,7 @@ in-ftd-90.sg1.vip.prod.criteo.com
 in-ftd-90.us5.vip.prod.criteo.com
 in-gmtdmp.mookie1.com
 in-img.peco.uodoo.com
+in-info-lgsmartad-com.aws-prd.net
 in-miuilog.sms.intl.xiaomi.com
 in-mobile.events.data.microsoft.com
 in-monitor-stsdk.vivoglobal.com
@@ -168220,6 +168253,7 @@ ir-de.amazon-adsystem.com
 ir-es.amazon-adsystem.com
 ir-fr.amazon-adsystem.com
 ir-in.amazon-adsystem.com
+ir-info-lgsmartad-com.aws-prd.net
 ir-ing-district.clicktale.net
 ir-ing.clicktale.net
 ir-it.amazon-adsystem.com
@@ -168227,6 +168261,7 @@ ir-jp.amazon-adsystem.com
 ir-mx.amazon-adsystem.com
 ir-na.amazon-adsystem.com
 ir-nl.amazon-adsystem.com
+ir-rdx2-lgtvsdp-com.aws-prd.net
 ir-tracking.trafficmanager.net
 ir-uk.amazon-adsystem.com
 ir.7eer.net
@@ -168643,8 +168678,10 @@ it-adt-playeranalytics-prod-lb-48df7ec15be9ee39.elb.eu-south-1.amazonaws.com
 it-gmtdmp.mookie1.com
 it-go.kelkoogroup.net
 it-governanceportal.net
+it-info-lgsmartad-com.aws-prd.net
 it-melona.marketing
 it-pearl.com
+it-rdx2-lgtvsdp-com.aws-prd.net
 it-v2.presage.io
 it-v2.prod.cloud.ogury.io
 it.ad.lgsmartad.com
@@ -176841,18 +176878,21 @@ kyzhecmvpiaw.com
 kyzlzjtbgjr.bid
 kz-ad-lgsmartad-com.aws-prd.net
 kz-ai-bobo.ru
+kz-album-api.vivoglobal.com
 kz-cname-sin01-bigdata.vivoglobal.com
 kz-content.adriver.ru
 kz-err-up.vivoglobal.com
 kz-monitor-stsdk.vivoglobal.com
 kz-onrt-stsdk.vivoglobal.com
 kz-ort-stsdk.vivoglobal.com
+kz-p.vivoglobal.com
 kz-pnrt-stsdk.vivoglobal.com
 kz-prt-stsdk.vivoglobal.com
 kz-st-exappupgrade.vivoglobal.com
 kz-st-sl.vivoglobal.com
 kz-st-sysupgrade.vivoglobal.com
 kz-stsdk.vivoglobal.com
+kz-timesync.vivoglobal.com
 kz-vcode-od.vivoglobal.com
 kz-vcode-or.vivoglobal.com
 kz.ad.lgsmartad.com
@@ -227030,7 +227070,9 @@ nl-ad-lgsmartad-com.aws-prd.net
 nl-ams-as44788.anchors.atlas.ripe.net
 nl-gmtdmp.mookie1.com
 nl-go.kelkoogroup.net
+nl-info-lgsmartad-com.aws-prd.net
 nl-moneyou.netmining.com
+nl-rdx2-lgtvsdp-com.aws-prd.net
 nl-saab.netmining.com
 nl-sanoma.a.videoplaza.tv
 nl-sanoma.cdn.videoplaza.tv
@@ -227399,6 +227441,7 @@ no-go.kelkoogroup.net
 no-htg.a.videoplaza.tv
 no-htg.cdn.videoplaza.tv
 no-htg.videoplaza.tv
+no-info-lgsmartad-com.aws-prd.net
 no-minimum.com
 no-mno.a.videoplaza.tv
 no-mno.cdn.videoplaza.tv
@@ -227407,6 +227450,7 @@ no-mtg.cdn.videoplaza.tv
 no-mtg.videoplaza.tv
 no-rbnett.cdn.videoplaza.tv
 no-rbnett.videoplaza.tv
+no-rdx2-lgtvsdp-com.aws-prd.net
 no-services.theknot.com
 no-smp.a.videoplaza.tv
 no-smp.cdn.videoplaza.tv
@@ -243020,6 +243064,7 @@ ph-ad21.focalink.com
 ph-ad23.focalink.com
 ph-cdn.effectivemeasure.net
 ph-gmtdmp.mookie1.com
+ph-info-lgsmartad-com.aws-prd.net
 ph.ad.lgsmartad.com
 ph.affinity.com
 ph.corsesvauntie.world
@@ -249896,6 +249941,8 @@ pl-engine.intextad.net
 pl-gmtdmp.mookie1.com
 pl-go.kelkoogroup.net
 pl-goldbach.videoplaza.tv
+pl-info-lgsmartad-com.aws-prd.net
+pl-rdx2-lgtvsdp-com.aws-prd.net
 pl-v2.presage.io
 pl.263gmail.org
 pl.ad.lgsmartad.com
@@ -267661,6 +267708,7 @@ rnzzrylopa.bid
 ro-ad-lgsmartad-com.aws-prd.net
 ro-gmtdmp.mookie1.com
 ro-go.kelkoogroup.net
+ro-info-lgsmartad-com.aws-prd.net
 ro-up.vivoglobal.com
 ro.ad.lgsmartad.com
 ro.adocean.pl
@@ -275677,6 +275725,7 @@ se-hd.cdn.videoplaza.tv
 se-hd.videoplaza.tv
 se-hockeyligan.cdn.videoplaza.tv
 se-hockeyligan.videoplaza.tv
+se-info-lgsmartad-com.aws-prd.net
 se-int.stickyadstv.com
 se-kanal5.videoplaza.tv
 se-leeads.a.videoplaza.tv
@@ -275688,6 +275737,7 @@ se-mk.cdn.videoplaza.tv
 se-mk.videoplaza.tv
 se-mtg.cdn.videoplaza.tv
 se-mtg.videoplaza.tv
+se-rdx2-lgtvsdp-com.aws-prd.net
 se-showroom.cdn.videoplaza.tv
 se-showroom.videoplaza.tv
 se-sportsnewmedia.cdn.videoplaza.tv
@@ -284959,7 +285009,9 @@ shztrk.com
 shzwsrc.ksapisrv.com
 shzwx.com
 si-ad-lgsmartad-com.aws-prd.net
+si-info-lgsmartad-com.aws-prd.net
 si-n.cc
+si-rdx2-lgtvsdp-com.aws-prd.net
 si.2.cqcounter.com
 si.ad.lgsmartad.com
 si.adocean.pl
@@ -330613,6 +330665,7 @@ tr-err-up.vivoglobal.com
 tr-eu.adsmoloco.com
 tr-gdpr-vgc-datacenter.vivoglobal.com
 tr-gmtdmp.mookie1.com
+tr-info-lgsmartad-com.aws-prd.net
 tr-metrics.loomia.com
 tr-mi.de
 tr-monday.xyz
@@ -342056,6 +342109,7 @@ us-greenatom.cdn.videoplaza.tv
 us-greenatom.videoplaza.tv
 us-haymon.videoplaza.tv
 us-img.videoplaza.tv
+us-info-lgsmartad-com.aws-prd.net
 us-level1.dyntrk.com
 us-library.klarnaservices.com
 us-ma.sam4m.com
@@ -342075,6 +342129,7 @@ us-pl.vizury.com
 us-plz-as19750.anchors.atlas.ripe.net
 us-pulpomedia.videoplaza.tv
 us-qas-as19750.anchors.atlas.ripe.net
+us-rdx2-lgtvsdp-com.aws-prd.net
 us-report.gras.samsungdm.com
 us-runnerspace.cdn.videoplaza.tv
 us-runnerspace.videoplaza.tv
