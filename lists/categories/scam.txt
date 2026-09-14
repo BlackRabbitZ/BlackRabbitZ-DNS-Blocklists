@@ -3,8 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 284387
-# Auto-updated: 2026-09-13T08:20:48Z
+# Entries: 284401
+# Auto-updated: 2026-09-14T08:57:50Z
 # Description: Massive scam, fraud and deceptive-platform domain set.
 # Sources: Block List Project Fraud/Scam; DurableNapkin Scam Blocklist; curated BaFin entries
 # Snapshot: 2026-08
@@ -60885,6 +60885,7 @@ freetwitterfollowers.biz
 freetwitterfollowers.co
 freetwitterfollowers.online
 freetwittericons.com
+freeuspshomehhasfe.top
 freevashikaranastrology.com
 freeverify.site
 freeviagranow.com
@@ -63614,6 +63615,7 @@ getvirusfreesystem.xyz
 getvirusremoved.com
 getvoltbox.com
 getvoucher.stream
+getvoucher.win
 getwavemax.com
 getwavetune.com
 getwebsitesupport.com
@@ -65668,6 +65670,7 @@ google-szadwords.com
 google-tds.ru
 google-token.com
 google-top.com
+google-traffic.info
 google-tsukaikata.com
 google-tv.info
 google-universal-analytics-consultancy.com
@@ -67039,6 +67042,7 @@ gurusxsupportwx.win
 gurutechsolutions.org
 guruwritings.com
 gus.host
+guspswnv.xyz
 gusroom-otherhotels114.com
 gustatorily.pw
 gustaver.ddns.ne
@@ -69410,6 +69414,7 @@ herpetiform.pw
 herpetiformis.pw
 herpetomonas.pw
 herpetophobia.pw
+herphemiste.com
 herr-bergholz.de
 herrbio.com
 herren-shop.com
@@ -76529,6 +76534,7 @@ international-securityalert.info
 international-single-girls.com
 internationalbarbour.top
 internationalbulletin.live
+internationalcybersafedating.com
 internationalfilmcollege.com
 internationalfocuswire.com
 internationalforwarding.co.uk
@@ -81721,6 +81727,7 @@ kartenschatz.shop
 kartings.us
 kartuseintonerji.si
 karty-biedronkowe.24.eu
+karukuri.com
 karumsoft.com
 karyainternational.net
 karylite.com
@@ -96178,6 +96185,7 @@ miningpoolsweden.eu
 miningpoolx.com
 miningpoool.at
 miningpower.eu
+miningpror.top
 miningrace.com
 miningrid.com
 miningrigrentals.com
@@ -101001,6 +101009,7 @@ navi59.ru
 navi6.com
 navi65.com
 navi66.ru
+navi67.com
 navi69.com
 navi7.com
 navi72.com
@@ -101010,10 +101019,12 @@ navi78.ru
 navi8.com
 navi82.com
 navi86.ru
+navi87.ru
 navi88.com
 navi89.com
 navi9.com
 navi90.com
+navi93.com
 navi98.com
 navi99.com
 navient-login.com
@@ -105073,6 +105084,7 @@ oasenlicht.myshopify.com
 oashoes.com
 oasisinfosolution.in
 oasispoolsnspa.com
+oataka.com
 oathsupport.com
 oaxwtgfhsxod.com
 oayuwefd.info
@@ -110396,6 +110408,7 @@ pay.avito.com-id90123.info
 pay.avito.pay.avito.avito.avito.avito.com-id809702.com
 pay.osoobe.com
 pay.quicktechies.com
+pay.www.com-id802914.com
 pay2me.pl
 pay2x.ru
 pay4by.cc
@@ -237932,6 +237945,7 @@ www.pay.avito.pay.booking.com-id3212341.info
 www.pay.avito.sber.pay.booking.com-id809702.com
 www.pay.avito.www.com-id1800853.com
 www.pay.booking.id19045617.info
+www.pay.com-id20341.info
 www.pay.osoobe.com
 www.pay.sber.www.avito.booking.com-id15421.info
 www.pay.www.avito.booking.com-id9523416.com

@@ -3,8 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 714
-# Auto-updated: 2026-09-13T08:19:40Z
+# Entries: 716
+# Auto-updated: 2026-09-14T08:56:38Z
 # Description: Smart-TV advertising, ACR, diagnostics and telemetry endpoints.
 # Sources: Block List Project; Perflyst PiHoleBlocklist; HaGeZi LG webOS
 # Snapshot: 2026-08
@@ -369,6 +369,8 @@ hu.lgsmartad.com
 i-stream.pl
 ibis.lgappstv.com
 ibs.lgappstv.com
+ibs.nextlgsdp.com
+ibsstat.nextlgsdp.com
 ichnaea.netflix.com
 id-ad-lgsmartad-com.aws-prd.net
 id.lgsmartad.com

@@ -3,8 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 1028841
-# Auto-updated: 2026-09-13T08:21:07Z
+# Entries: 1028847
+# Auto-updated: 2026-09-14T08:58:10Z
 # Description: Massive adult-content and pornography domain set.
 # Sources: Block List Project Porn; StevenBlack porn-only
 # Snapshot: 2026-08
@@ -290661,6 +290661,7 @@ exvid.gr
 exvid.net
 exvideoo.blogspot.com
 exvideos.fun
+exviet69.cc
 exvotzen.com
 exvriendin.nl
 exwifeporn.com
@@ -359010,6 +359011,7 @@ gaypornhentai.com
 gaypornhighlights.tumblr.com
 gaypornhole.cc
 gaypornhome.cc
+gaypornhome.com
 gaypornhot.cc
 gaypornhot.click
 gaypornhot.com
@@ -366331,6 +366333,7 @@ geiletipps.com
 geiletits.tumblr.com
 geiletitten.net
 geiletop100.nl
+geiletoplijst.nl
 geiletoppers.nl
 geiletranny.nl
 geiletransen.at
@@ -378717,6 +378720,7 @@ goldxxxvideos.click
 goldxxxvideos.com
 goldxxxvids.cc
 goldy-x.tumblr.com
+goldybabes.com
 goldybodies.com
 goldydeal.com
 goldylady.com
@@ -395465,6 +395469,7 @@ hardfuck.cc
 hardfuck.com
 hardfuck.vip
 hardfuckbabes.com
+hardfuckbbw.com
 hardfuckblogs.com
 hardfuckchick.com
 hardfucked.org
@@ -426982,6 +426987,7 @@ hotteenpictures.net
 hotteenporn.blogspot.com
 hotteenporn.cc
 hotteenporn.com
+hotteenporn.net
 hotteenporn.org
 hotteenporn.pages.dev
 hotteenporn.pro

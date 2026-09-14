@@ -3,8 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 1525
-# Auto-updated: 2026-09-13T08:19:40Z
+# Entries: 1527
+# Auto-updated: 2026-09-14T08:56:37Z
 # Description: Native OS, device and application tracking endpoints.
 # Sources: NextDNS Native Tracking Protection; Perflyst PiHoleBlocklist; HaGeZi native tracking
 # Snapshot: 2026-08
@@ -736,6 +736,8 @@ iadsdk.apple.com
 iadsdk.apple.com.akadns.net
 iadsdk.apple.com.edgekey.net
 iadworkbench.apple.com
+ibs.nextlgsdp.com
+ibsstat.nextlgsdp.com
 id-ad-lgsmartad-com.aws-prd.net
 id.google.de
 id.lgsmartad.com
