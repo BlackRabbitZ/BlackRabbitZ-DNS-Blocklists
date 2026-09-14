@@ -3,23 +3,23 @@
 Automatisch erzeugte Größenübersicht. Die Summen sind Dateisummen und keine globale Deduplizierung über Kategorien hinweg.
 
 - Kategorie-Dateien: **48**
-- Summe Kategorie-Einträge: **25,270,750**
+- Summe Kategorie-Einträge: **25,275,530**
 - Kombinierte Dateien: **9**
-- Summe kombinierte Einträge: **11,878,212**
+- Summe kombinierte Einträge: **11,887,675**
 
 ## Kategorien
 
 | Datei | Einträge |
 |---|---:|
-| `ads.txt` | 235,695 |
-| `adult.txt` | 1,028,841 |
+| `ads.txt` | 235,700 |
+| `adult.txt` | 1,028,847 |
 | `affiliate-tracking.txt` | 643 |
 | `android-telemetry.txt` | 1,540 |
 | `anti-piracy.txt` | 39,740 |
 | `apple-telemetry.txt` | 136 |
 | `badware-hoster.txt` | 1,258 |
 | `consent-cmp.txt` | 44 |
-| `cryptomining.txt` | 6,120 |
+| `cryptomining.txt` | 6,121 |
 | `dga-14.txt` | 1,125,568 |
 | `dga-30-part-01.txt` | 2,220,671 |
 | `dga-30-part-02.txt` | 240,430 |
@@ -30,26 +30,26 @@ Automatisch erzeugte Größenübersicht. Die Summen sind Dateisummen und keine g
 | `fake-shops.txt` | 11,518 |
 | `gambling-medium.txt` | 142,337 |
 | `gambling-mini.txt` | 93,306 |
-| `gambling.txt` | 567,278 |
+| `gambling.txt` | 570,434 |
 | `gaming-telemetry-aggressive.txt` | 62 |
 | `gaming-telemetry.txt` | 38 |
 | `iot.txt` | 437 |
 | `linux-telemetry.txt` | 65 |
-| `malware.txt` | 2,774,393 |
+| `malware.txt` | 2,775,771 |
 | `mobile-tracking.txt` | 823 |
 | `most-abused-tlds.txt` | 130 |
 | `nas-telemetry.txt` | 12 |
-| `native-tracking.txt` | 1,525 |
+| `native-tracking.txt` | 1,527 |
 | `nrd-01-07.txt` | 2,474,761 |
 | `nrd-08-14.txt` | 2,628,610 |
 | `nrd-15-21.txt` | 2,428,364 |
 | `nrd-22-28.txt` | 2,922,607 |
 | `nrd-29-35.txt` | 2,298,719 |
-| `phishing.txt` | 572,431 |
+| `phishing.txt` | 572,647 |
 | `safesearch-unsupported.txt` | 206 |
-| `scam.txt` | 284,387 |
+| `scam.txt` | 284,401 |
 | `server-telemetry.txt` | 10 |
-| `smart-tv.txt` | 714 |
+| `smart-tv.txt` | 716 |
 | `social-networks.txt` | 898 |
 | `social-trackers.txt` | 99 |
 | `telemetry.txt` | 29,324 |
@@ -64,12 +64,12 @@ Automatisch erzeugte Größenübersicht. Die Summen sind Dateisummen und keine g
 
 | Datei | Einträge |
 |---|---:|
-| `balanced.txt` | 373,188 |
-| `family-part-01.txt` | 1,966,165 |
-| `light.txt` | 235,695 |
-| `security-part-01.txt` | 2,583,965 |
-| `security-part-02.txt` | 938,454 |
-| `strict.txt` | 375,116 |
-| `ultimate-part-01.txt` | 2,636,911 |
-| `ultimate-part-02.txt` | 2,600,558 |
-| `ultimate-part-03.txt` | 168,160 |
+| `balanced.txt` | 373,193 |
+| `family-part-01.txt` | 1,969,331 |
+| `light.txt` | 235,700 |
+| `security-part-01.txt` | 2,584,082 |
+| `security-part-02.txt` | 939,906 |
+| `strict.txt` | 375,123 |
+| `ultimate-part-01.txt` | 2,637,041 |
+| `ultimate-part-02.txt` | 2,602,455 |
+| `ultimate-part-03.txt` | 170,844 |
