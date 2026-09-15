@@ -3,7 +3,7 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 375123
+# Entries: 375124
 #
 # Includes: ads,trackers,social-trackers,affiliate-tracking,telemetry,windows-telemetry,apple-telemetry,android-telemetry,linux-telemetry,nas-telemetry,server-telemetry,mobile-tracking,native-tracking,smart-tv,iot
 #
@@ -129994,6 +129994,7 @@ es-go.kelkoogroup.net
 es-grupogodo.a.videoplaza.tv
 es-grupogodo.cdn.videoplaza.tv
 es-grupogodo.videoplaza.tv
+es-info-lgsmartad-com.aws-prd.net
 es-la.tubemogul.com
 es-mediaset.a.videoplaza.tv
 es-mediaset.cdn.videoplaza.tv

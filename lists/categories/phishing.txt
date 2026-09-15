@@ -3,8 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 572647
-# Auto-updated: 2026-09-14T08:57:44Z
+# Entries: 572650
+# Auto-updated: 2026-09-15T08:42:40Z
 # Description: Massive active and curated phishing-domain set.
 # Sources: Block List Project Phishing; Phishing.Database ACTIVE
 # Snapshot: 2026-08
@@ -462779,7 +462779,9 @@ spmofficer.000webhostapp.com
 spmxj198793.000webhostapp.com
 spn007.com
 spoals.fr.fo
+spoasmascaasro.shop
 spoasmascaassk.shop
+spoasmascsalero.com
 spoasmotasa.com
 spoasmotasro.shop
 spoasmotsdro.shop
@@ -462836,6 +462838,7 @@ sportisimo.outlcsale.com
 sportisimo.sfd-pl.shop
 sportisimocz.shop
 sportisimoczolinesale.com
+sportisimohuu.shop
 sportisimoonlineshop.com
 sportisimoonlinesk.com
 sportisimoonlinesk.shop

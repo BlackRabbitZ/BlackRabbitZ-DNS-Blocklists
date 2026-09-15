@@ -3,8 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 1527
-# Auto-updated: 2026-09-14T08:56:37Z
+# Entries: 1528
+# Auto-updated: 2026-09-15T08:41:48Z
 # Description: Native OS, device and application tracking endpoints.
 # Sources: NextDNS Native Tracking Protection; Perflyst PiHoleBlocklist; HaGeZi native tracking
 # Snapshot: 2026-08
@@ -518,6 +518,7 @@ emq.xmpush.xiaomi.com
 engine.fyber.com
 engine.mobileapptracking.com
 es-ad-lgsmartad-com.aws-prd.net
+es-info-lgsmartad-com.aws-prd.net
 es.lgsmartad.com
 et-ad-lgsmartad-com.aws-prd.net
 et.lgsmartad.com

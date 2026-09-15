@@ -3,8 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 284401
-# Auto-updated: 2026-09-14T08:57:50Z
+# Entries: 284403
+# Auto-updated: 2026-09-15T08:42:45Z
 # Description: Massive scam, fraud and deceptive-platform domain set.
 # Sources: Block List Project Fraud/Scam; DurableNapkin Scam Blocklist; curated BaFin entries
 # Snapshot: 2026-08
@@ -110612,6 +110612,7 @@ paypalneo.com
 paypalnotification.xyz
 paypaltobitcoin.com
 paypay-fix-accounts.com
+paypays.shop
 paypel-account.com
 paypelsupport.com
 paypelsupportt.com
@@ -127657,6 +127658,7 @@ sber.www42.com-id23901.info
 sberbank-online-gid.ru
 sberbank.avito.avito.avito.avito.avito.com-id90123.info
 sberbank.avito.avito.avito.com-id309712.com
+sberbank.avito.booking.com-id123251.info
 sberbank.avito.com-id20341.info
 sberbank.avito.ozon.id19845672.info
 sberbank.avito.pay.www.booking.com-id329712.com
