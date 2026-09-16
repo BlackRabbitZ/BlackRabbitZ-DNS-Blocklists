@@ -4,7 +4,7 @@
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
 # Entries: 1528
-# Auto-updated: 2026-09-15T08:41:48Z
+# Auto-updated: 2026-09-16T08:36:34Z
 # Description: Native OS, device and application tracking endpoints.
 # Sources: NextDNS Native Tracking Protection; Perflyst PiHoleBlocklist; HaGeZi native tracking
 # Snapshot: 2026-08
