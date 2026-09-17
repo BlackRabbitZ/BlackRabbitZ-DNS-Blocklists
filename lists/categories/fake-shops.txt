@@ -3,7 +3,7 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 11519
+# Entries: 11518
 # Auto-updated: 2026-09-16T08:37:28Z
 # Description: Aggressive deceptive-store and fake-shop candidates derived from fraud/scam intelligence.
 # Sources: Block List Project Fraud/Scam (retail subset); DurableNapkin (retail subset); Verbraucherzentrale curated entries
@@ -3891,7 +3891,6 @@ rawlplugpl.shop
 rawlplugselected.shop
 ray-ban.maxbrandoutlet.com
 rayban-sunglasses-store.com
-rayban-sunglassesoutlet.org.uk
 raybanoutletclearance.com
 raybans-outlet.co.uk
 raybansunglassesoutlet.name

@@ -3,7 +3,7 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 576585
+# Entries: 576578
 # Auto-updated: 2026-09-16T08:37:51Z
 # Description: Massive betting, casino and gambling domain set.
 # Sources: Block List Project Gambling; HaGeZi Gambling
@@ -8066,7 +8066,6 @@
 138bersama.store
 138bet22.com
 138bet33.net
-138bet365.com
 138bet55.com
 138bet77.com
 138bet99.com
@@ -25076,7 +25075,6 @@
 1xbet-hepa.top
 1xbet-heq.cfd
 1xbet-heq36lv.cfd
-1xbet-heqpxuw.top
 1xbet-herp.top
 1xbet-hes62.cfd
 1xbet-het.xyz
@@ -334434,7 +334432,6 @@ jojobet8199.com
 jojobet8200.com
 jojobet8200.icu
 jojobet8201.com
-jojobet8202.com
 jojobet82032.com
 jojobet82033.com
 jojobet8205.com
@@ -344168,7 +344165,6 @@ juwa777.casino
 juwa777.win
 juwacasino777online.com
 juwaslots2.net
-juwaxcasino.com
 juxuan.space
 juy.casino
 juzeuzmost.com
@@ -469520,7 +469516,6 @@ rainbetdk.com
 rainbetelegaleinitalia.com
 rainbetengine.com
 rainbetes.com
-rainbetfinland.com
 rainbetflash.us
 rainbetfr.net
 rainbetgames.ca
@@ -494918,7 +494913,6 @@ skybet.com
 skybet66.casino
 skybet66.com
 skybet66.life
-skybetcasino-pt.top
 skybetcasino.top
 skybets-ie.com
 skybets.bet
@@ -509271,7 +509265,6 @@ spngreen2.com
 spnjava.xyz
 spnlts.xyz
 spnsy100.com
-spoilmovieclub.com
 spok.casino
 spokanegardens.com
 spoker.de

@@ -3,7 +3,7 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 572650
+# Entries: 572616
 # Auto-updated: 2026-09-16T08:37:24Z
 # Description: Massive active and curated phishing-domain set.
 # Sources: Block List Project Phishing; Phishing.Database ACTIVE
@@ -2834,7 +2834,6 @@
 1000000000000000000000000000852585525508.tk
 10000000000000000000000005255526920.tk
 100000000000000000000000052555269203.tk
-100000000000000000000000052555269206.tk
 100000000000000000000000052555269207.tk
 100000000000000000000000052555269208.tk
 10000000000000000000000056268556666544.tk
@@ -2941,7 +2940,6 @@
 100000000098749416510644620-gq.tk
 1000000000987651321005469871-gq.tk
 1000000000987651321005469872-gq.tk
-1000000000987651321005469873-gq.tk
 1000000000987651321005469875-gq.tk
 100000000098765461565478765-gq.tk
 100000000098765461565478767-gq.tk
@@ -9256,7 +9254,6 @@
 251830.com
 2518800.com
 25189.shengwangsw.com
-251892381923123.tech
 251928.8b.io
 2519963.000webhostapp.com
 251e17a3d96d1a04c0165a5f3467e818-dot-spow3039.df.r.appspot.com
@@ -18701,7 +18698,6 @@
 551002.pro
 5510022.vip
 551002g.cc
-551002h.cc
 551002i.cc
 551002k.cc
 551002l.cc
@@ -36409,7 +36405,6 @@ accessfamilytrustcu.pages.dev
 accessfb.de.tl
 accessfil.com
 accessfirsttechfed.info
-accessfl.blob.core.windows.net
 accessform.hopto.org
 accessfreevpn.com
 accessfreight.com.np
@@ -37165,7 +37160,6 @@ account-help-center.fbckhnf.cn
 account-help-center.jsscuzjr.cn
 account-help-center.org
 account-help-center.pdscmkq.cn
-account-help-center.stljqyo.cn
 account-help-centors.safenxcvbmvwwyefiwbfmbvkaowinmcxbuyqewtuirweqf.xyz
 account-help-id033195901.vercel.app
 account-help-id033195916.vercel.app
@@ -45724,7 +45718,6 @@ advertising-restriction-ads.firebaseapp.com
 advertising-restriction-ads.web.app
 advertising-restriction-ed827.firebaseapp.com
 advertising-restriction-ed827.web.app
-advertising-review-appeal-center.dv44fa9tuau4z.amplifyapp.com
 advertising-review-appeal.d2n9zusbijhr73.amplifyapp.com
 advertising-review-appeal.d2omkt7hjyvtie.amplifyapp.com
 advertising-review-appeal.d3nr3dq8q94ozh.amplifyapp.com
@@ -53092,7 +53085,6 @@ albumdefotosen.000webhostapp.com
 albumdoclube.com.br
 albumehd.ro
 albumfoto2.000webhostapp.com
-albumninho.ml
 albums-01075691.nemsawy.com
 albums-14276540.nemsawy.com
 albums-28291265.nemsawy.com
@@ -56305,7 +56297,6 @@ allswellinc.com
 allsyuine.com
 alltago.weebly.com
 alltagshelfer-giessen.de
-alltal.co.in
 alltayer.finance
 allteameetinvitation.azurewebsites.net
 allteams.co.nz
@@ -56860,7 +56851,6 @@ alphabank-reviews.com
 alphabank.infoscompte.com
 alphabank.shop
 alphabee.fund
-alphabete-noir.com
 alphabetic-custody.000webhostapp.com
 alphabeticala.000webhostapp.com
 alphabetofranquias.com
@@ -57551,7 +57541,6 @@ alvorereports.com
 alvorkitecenter.com
 alvos-vision.pages.dev
 alvra-node.pages.dev
-alvreo.socialhosting.net.ve
 alvro.com
 alvtfeedback.com
 alw-armanave-kev.pages.dev
@@ -67389,7 +67378,6 @@ annzon-evoxs-co-jp.ismve.top
 annzon-fbmja-co-jp.nvgaj.top
 annzon-fcvbj-co-jp.mvnxt.top
 annzon-fdpkhn-co-jp.ncdohjf.buzz
-annzon-feofh-co-jp.srtgv.top
 annzon-fhakc-co-jp.ufvba.top
 annzon-fhskv-co-jp.ncgzr.top
 annzon-fhvts-co-jp.qjctfi.buzz
@@ -76108,7 +76096,6 @@ apple-verifylocation.com
 apple-verifylogin.com
 apple-vertification.rlrebollos.com
 apple-vpn.com
-apple-vxos10.com
 apple-wallet-activation.com
 apple-wap.com
 apple-we.com
@@ -76786,7 +76773,6 @@ apple.wikback.com
 apple.wyhzzx.com
 apple.xhyz0x.com
 apple.xiaoyuanzhiqing.com
-apple.xusay.cn
 apple.xxd.workers.dev
 apple.xzcrm.com
 apple.ybdzxs.com
@@ -78703,7 +78689,6 @@ applerealtor.com
 applerecals.com
 applereceipt.com
 applereceipts.com
-applereciepts.com
 applerecovery.ru
 applerecuperacion-mx.in
 applered1.com
@@ -83691,7 +83676,6 @@ arodkasalek.blogspot.ro
 arodkasalek.blogspot.se
 arodrome-fad6fd.ingress-alpha.ewp.live
 aroeira333.skin
-aroentertaiinment.com
 aroflora.com
 arogyakar.com
 arogyamvardan.in
@@ -105878,7 +105862,6 @@ awinyain.pages.dev
 awis-tek.gjh3.info
 awisar.ppks.edu.my
 awislk.yolasite.com
-awitiqueens.com
 awiwn.media4europe.info
 awiypqxkmtcsocsx-dot-millinium.ey.r.appspot.com
 awjaltob-ly.com
@@ -106370,7 +106353,6 @@ axsvzdanyelsoebzommwpzlbbq-dot-gleowayel400503.uc.r.appspot.com
 axswecer.000webhostapp.com
 axsxrgxzirpglnpmttsjgaedxtuipsgaxhay-dot-cedar-code-289917.nn.r.appspot.com
 axsysair.com
-axt65gyt7.com
 axta.in
 axte.better-than.tv
 axtionclub.com
@@ -108923,7 +108905,6 @@ backgroundschedule.pages.dev
 backgroundspecialistonline.pages.dev
 backgroundvision.com
 backhills.com
-backhousebrewing.com
 backinfor-one-digital-service.azurewebsites.net
 backing-appeal-c0c09435iosde.vercel.app
 backing-tr-multimedia-deal.trycloudflare.com
@@ -233586,7 +233567,6 @@ ftud.new3d.ir
 ftukcfsyrslzjmjw-dot-millinium.ey.r.appspot.com
 ftv7.c1l.us
 ftvyiihbnhojwbda-dot-millinium.ey.r.appspot.com
-ftw8hb.top
 ftwhalloween.com
 ftx-access-portal.com
 ftx-claims-notice.com
@@ -262919,7 +262899,6 @@ hggspjhbuhnayiegsolnyqyyyeedzljoefic-dot-offgl8876899977678.uk.r.appspot.com
 hggstore.in
 hggxiohgndq.monster
 hggxiohgndq.wiki
-hgh767gh.ktt55.my.id
 hghdgsds.weebly.com
 hghdhsdgsupport.org
 hghghg6969500.kleap.co
@@ -273479,7 +273458,6 @@ icloud-securitty.help
 icloud-server-findmyiphone.com
 icloud-service-locked-account-authenticated-tls.com
 icloud-sever.com
-icloud-shouhou.com
 icloud-signin-support.live
 icloud-signs-io.com
 icloud-sing.com.de
@@ -273693,7 +273671,6 @@ icloud.idfmid.com
 icloud.ifind-my-device.com
 icloud.iforgott-id.com
 icloud.ifuid.cn
-icloud.imap.africa
 icloud.in-login.in
 icloud.inc-es.info
 icloud.inc-support.co
@@ -279196,7 +279173,6 @@ indiapost.gov.guangm.top
 indiapost.gov.gyiaeu.top
 indiapost.gov.itvsqtr.top
 indiapost.gov.wzdygy.top
-indiapost.gov.ykoil.top
 indiapost.gov.ypaypro.top
 indiapost.govin.life
 indiapost.inflab.top
@@ -281567,7 +281543,6 @@ innovative-pattern-curler.glitch.me
 innovative-space.s3.amazonaws.com
 innovativeassociates.com.au
 innovativebusinesssys.com
-innovativeconstructionanchal.com
 innovativefilmcity.in
 innovativehomesofvirginia.com
 innovativeinteriors.in
@@ -297708,7 +297683,6 @@ josephgraham1.com
 josephinesofboca.com
 josephjlucas.com
 josephlofton.com
-josephnhoffman.xyz
 josephpolytechnic.com
 josephr.ga
 josephribkoffhandbags.com
@@ -430492,7 +430466,6 @@ r.jlxnesex.in
 r.lemparis.fr
 r.leoconstore.co.uk
 r.levvisbrisbois.com
-r.mail-nandadeepexim.com
 r.mail.alliance-bio-expertise.com
 r.mailing.alservices.fr
 r.mailsend.mpsa.co.uk
@@ -437808,7 +437781,6 @@ remove.fbcom-861082761.feltna.si
 remove.fbcom-899724330.feltna.si
 remove.fbcom-902650807.feltna.si
 remove.fbcom-941673377.feltna.si
-remove.fbcom-945710966.feltna.si
 remove.fbcom-987931949.feltna.si
 remove.fbcom-990698712.feltna.si
 removecomment-nyyst750k0.anastorni.com.ar
@@ -439482,7 +439454,6 @@ restored-mypaypalaccount.misecure.com
 restoredabefore-com.filesusr.com
 restoredapple.ru
 restoredapps.work.gd
-restoredefi.net
 restorekesleer.org
 restoremanageaccount-apple.com
 restoremembership.ignorelist.com
@@ -450468,7 +450439,6 @@ salfoldfalu.hu
 salfromvenice.github.io
 salgadinhosclick.com.br
 salhwebsolutions.com
-sali3.pages.dev
 salianfjvx.top
 saliconvals.org
 saliekmaspa.mybigcommerce.com
@@ -458725,7 +458695,6 @@ shop.flowersparadise.com.au
 shop.futocoin.cc
 shop.gevanet.hu
 shop.gofortravel.co.uk
-shop.ir-dl.com
 shop.jimpike.com.au
 shop.labottegadelleidee.com
 shop.landsberg.eu
@@ -459490,7 +459459,6 @@ signorseven.com
 signrecoverii.000webhostapp.com
 signs-lifes.125mb.com
 signs-myaccounts.com
-signsas.com
 signsatthecrossing.com
 signsbybarry.com
 signsbysam.com
@@ -483311,7 +483279,6 @@ venkiteshns.github.io
 venkyb.com
 venneslaturnforening.no
 venom.net.pl
-venom.pbphgwbr.in
 venom766.github.io
 venox-trylek-syvol.pages.dev
 ventadecamposenuruguay.com
@@ -496288,7 +496255,6 @@ www.amazon-web-services.net
 www.amazon-web-services.org
 www.amazon-web-student.com
 www.amazon-wellness.com
-www.amazon.de.0-vwixn-amazon-qu0y1.ru
 www.amazon.de.16-konto-oea-amazon-8mk.ru
 www.amazon.de.8p-amazon-f8cuf.ru
 www.amazon.de.dc-amazon-nm01c.ru

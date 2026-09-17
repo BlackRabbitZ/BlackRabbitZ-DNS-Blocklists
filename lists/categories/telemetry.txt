@@ -3,7 +3,7 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 29324
+# Entries: 29323
 # Auto-updated: 2026-09-04T07:59:25Z
 # Description: Broad product, application, analytics, diagnostics and telemetry endpoints.
 # Sources: Block List Project (derived telemetry subset)
@@ -9684,7 +9684,6 @@ analytics.stanallain.fr
 analytics.stanby.com
 analytics.standardprocess.com
 analytics.stanis.org
-analytics.stanwith.me
 analytics.stapel.io
 analytics.stapp.ch
 analytics.star-traffic.com

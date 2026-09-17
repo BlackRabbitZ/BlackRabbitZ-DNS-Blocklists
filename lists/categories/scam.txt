@@ -3,7 +3,7 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 284404
+# Entries: 284384
 # Auto-updated: 2026-09-16T08:37:28Z
 # Description: Massive scam, fraud and deceptive-platform domain set.
 # Sources: Block List Project Fraud/Scam; DurableNapkin Scam Blocklist; curated BaFin entries
@@ -351,7 +351,6 @@
 10gram.ru
 10in10trading.com
 10jhutysystem.tk
-10jktubcalltoday.tk
 10kjfiuysupport.tk
 10kjtuygpickup.tk
 10kloan.net
@@ -1226,7 +1225,6 @@
 247techsupport.in
 247techsupportnumber.com
 247tradeoption.com
-247ustechsupport.com
 247worldtechsupport.com
 247wpsupport.com
 247wt.d4huiz.top
@@ -1711,7 +1709,6 @@
 30daysuccess.review
 30nlycalling3141212345.tk
 30nlycalling314121234567.tk
-310ca263.space
 313galleria.com
 31fss.support
 31youtube.com
@@ -2171,7 +2168,6 @@
 45uirnjhelp.tk
 45wfwt.rest
 45youtube.com
-460-diet.com-oo4.net
 4600usd.com
 462-fitness.com-cst.net
 467844.glycyl.pw
@@ -8047,7 +8043,6 @@ alert-1r2and1.stream
 alert-1r3enz1.stream
 alert-1ra1zy1.stream
 alert-1ract1.stream
-alert-1rafa1.stream
 alert-1rjhd1.stream
 alert-1road1.stream
 alert-1ruit1.stream
@@ -12304,7 +12299,6 @@ allegrolokalnie.43i12984h457.baby
 allegrolokalnie.43i4023489230942.cyou
 allegrolokalnie.487syss1.shop
 allegrolokalnie.4892985.sbs
-allegrolokalnie.4892k67.lol
 allegrolokalnie.493492300h9.shop
 allegrolokalnie.4o5rgvefdk.sbs
 allegrolokalnie.4o5tbrvdjc.sbs
@@ -12639,7 +12633,6 @@ allegrolokalnie.okazja-na-lato-2026-34ogv.sbs
 allegrolokalnie.okazja-na-lato-2026-3ne4vn.sbs
 allegrolokalnie.okazja-na-lato-2026-45b0v.sbs
 allegrolokalnie.okazja-na-lato-2026-45ohgitrv1.sbs
-allegrolokalnie.okazja-na-lato-2026-56hkgrvec.sbs
 allegrolokalnie.okazja-na-lato-2026-o45rgve.sbs
 allegrolokalnie.ordkcsjx.sbs
 allegrolokalnie.otrbvkdscj.sbs
@@ -13765,7 +13758,6 @@ ammonium.stream
 ammonium.us
 ammono.stream
 ammonolyses.stream
-ammonolyses.us
 ammonolysis.stream
 ammonolysis.us
 ammonolytic.stream
@@ -59889,7 +59881,6 @@ foodadven.top
 foodbabe.com
 foodiefusionworld.com
 foodixs.com
-foodpornhub.site
 foodstampassistanceforyou.com
 foodtruckbuildersofphoenix.com
 foofaraw.us
@@ -69606,7 +69597,6 @@ hiddenlistings.com
 hiddenmatches.com
 hiddenvariable.com
 hiddenville.com
-hide.ovh
 hidensof.today
 hideous-corruption.tk
 hideposit.com
@@ -75502,7 +75492,6 @@ inoverify.com
 inovexamotion-system.com
 inowaciaplus.site
 inowaciapolish.site
-inowaciapro.site
 inowacinaplsk.site
 inowacinaplskego.site
 inowacinapolska.site
@@ -77039,7 +77028,6 @@ iosuser5.usa.cc
 iosuser6.usa.cc
 iosverifyhealth.com
 ioswarning.info
-iot-tech.xyz
 iot-technology.info
 iotadministrator.com
 iotadministrators.com
@@ -77861,7 +77849,6 @@ issue-26qz6.stream
 issue-26uz6.stream
 issue-27bc7.stream
 issue-27ez7.stream
-issue-27ra7.stream
 issue-27va7.stream
 issue-28bd8.stream
 issue-28fa8.stream
@@ -122170,7 +122157,6 @@ rayani-iuewshed.tk
 rayanthomastechugs.blogspot.com
 rayb-site.com
 rayban-sunglasses-store.com
-rayban-sunglassesoutlet.org.uk
 raybanlink.com
 raybanoutletclearance.com
 raybans-outlet.co.uk
@@ -126428,7 +126414,6 @@ s84ciudsious12.club
 s8i.podatkl.com
 s8powazkowska-modlinska.pl
 s92518e9.beget.tech
-s9pool.com
 sa-mila.com
 sa02i5.isogransoutheurope.eu
 sa9muc5f.top
@@ -126695,7 +126680,6 @@ safety.apple.com.ullrozkmu.5fbxhmdm076qgvh7dvlq.download
 safety.apple.com.ulmipehatj.wd4rdtazsvhrna2q.trade
 safety.apple.com.uoxqb.o6nlrsbnsfamrh6qwgoc4ri.download
 safety.apple.com.ureyv.cjpv8xsxzbb6bqbu4q.download
-safety.apple.com.urjuzinxmpw.nhgvudhssrosh4csosokmklc3w.trade
 safety.apple.com.uxbdqngm.zi1tjdmyw2zkqk8hpmbvkq.bid
 safety.apple.com.vnuil.2px39ubvllxppsbh.bid
 safety.apple.com.vpwmryqyqpk.br6xo38lcmknba.review
@@ -131620,7 +131604,6 @@ sicherheitsupdate-1089.info
 sicherheitsupdate-1989.info
 sicherheitsupdate-2332.info
 sicherheitsupdate-4372.info
-sicherheitsupdate-8972.info
 sicherheitsupdate-8989.info
 sicherprufkonto.com
 sichherheitinvestmentfinance.com
@@ -141608,7 +141591,6 @@ supportprinter24.com
 supportprinterassist.co.uk
 supportprinterassists.com
 supportprinterdriver.net
-supportprinterdrivers.net
 supportprinterhelp.net
 supportprinters.com
 supportprintersetup.com
@@ -143024,7 +143006,6 @@ system-bsod-alertb10w.stream
 system-bsod-alertb11c.stream
 system-bsod-alertb9c.stream
 system-bsod-alertlf6yv23.stream
-system-bsod-alertlf6yv3.stream
 system-bsod-alertlf6yv43.stream
 system-bsod-alertlf6yv63.stream
 system-bsod-alertlf6yv83.stream
@@ -143932,7 +143913,6 @@ talenorvixa.com
 talenshot.com
 talent-levia.com
 talent.com
-talentedtwo.us
 talentfour.us
 talentloompro-de.com
 talentnexuspro-de.com
