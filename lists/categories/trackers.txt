@@ -3,8 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 143963
-# Auto-updated: 2026-09-11T08:04:25Z
+# Entries: 143967
+# Auto-updated: 2026-09-21T18:19:36Z
 # Description: Large analytics, tracking and measurement infrastructure set.
 # Sources: Block List Project
 # Snapshot: 2026-08
@@ -15210,6 +15210,7 @@ analytics.stanallain.fr
 analytics.stanby.com
 analytics.standardprocess.com
 analytics.stanis.org
+analytics.stanwith.me
 analytics.stapel.io
 analytics.stapp.ch
 analytics.star-traffic.com
@@ -41006,6 +41007,7 @@ gtm.arikiinternet.com.br
 gtm.aristerpersonal.com.br
 gtm.armazemmendonca.com.br
 gtm.arqplace.com.br
+gtm.arquitecturaa3.com
 gtm.arraiadaju.com.br
 gtm.arrowplumbing.ca
 gtm.artbarspeakeasy.com.br
@@ -117579,6 +117581,7 @@ sst.relocateyourteam.com
 sst.relodin.com
 sst.reneskins.hr
 sst.rent.is
+sst.rentalbike.hk
 sst.rentiva.com
 sst.repalogic.com
 sst.restauracjaopolanka.pl
@@ -130435,6 +130438,7 @@ statswebtown.com
 statsy.net
 stattool.wip.pl
 stattrack.0catch.com
+statuesquebrush.com
 statuesqueship.com
 status.ads.microsoft.com
 status.badgen.net

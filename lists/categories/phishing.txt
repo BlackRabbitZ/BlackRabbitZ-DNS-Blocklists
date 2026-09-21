@@ -3,8 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 572616
-# Auto-updated: 2026-09-16T08:37:24Z
+# Entries: 572700
+# Auto-updated: 2026-09-21T18:20:28Z
 # Description: Massive active and curated phishing-domain set.
 # Sources: Block List Project Phishing; Phishing.Database ACTIVE
 # Snapshot: 2026-08
@@ -79,6 +79,7 @@
 000001010010104106.cloud
 000002456171.ml
 000002456180.ml
+000003.000000000013.repl.co
 0000091193.xyz
 00000f.nuevaconfirma.repl.co
 00000microsof.tonohost.com
@@ -2834,6 +2835,7 @@
 1000000000000000000000000000852585525508.tk
 10000000000000000000000005255526920.tk
 100000000000000000000000052555269203.tk
+100000000000000000000000052555269206.tk
 100000000000000000000000052555269207.tk
 100000000000000000000000052555269208.tk
 10000000000000000000000056268556666544.tk
@@ -2940,6 +2942,7 @@
 100000000098749416510644620-gq.tk
 1000000000987651321005469871-gq.tk
 1000000000987651321005469872-gq.tk
+1000000000987651321005469873-gq.tk
 1000000000987651321005469875-gq.tk
 100000000098765461565478765-gq.tk
 100000000098765461565478767-gq.tk
@@ -4977,6 +4980,7 @@
 1598restrictedpagesuspend30135.duckdns.org
 15a2c142.adorn-insight.co.uk
 15a63b43-7d40-4960-9b17-e62e4490d233.id.repl.co
+15a77881-9ad1-4ee0-9535-12106f2290ef.id.repl.co
 15b5458d.qepfmq.shop
 15bd07e7.hotdzk.shop
 15bro2719u.125mb.com
@@ -6681,6 +6685,7 @@
 1inch-pools.io
 1inch-ru.vercel.app
 1inch.4-app.io
+1inch.app-2.io
 1inch.gitbook.io
 1inch.io-defi.one
 1inch.v2-app.io
@@ -8244,6 +8249,7 @@
 210gm.xyz
 211.249.224.35.bc.googleusercontent.com
 21104.43811.wap.shuaihu99.com
+21110045600047.cf
 21110045600048.cf
 21110045600049.cf
 21113138.com
@@ -9254,6 +9260,7 @@
 251830.com
 2518800.com
 25189.shengwangsw.com
+251892381923123.tech
 251928.8b.io
 2519963.000webhostapp.com
 251e17a3d96d1a04c0165a5f3467e818-dot-spow3039.df.r.appspot.com
@@ -11239,6 +11246,7 @@
 30419395.cgsw.sa.com
 3045abff-25d5-478c-8bf7-aabc6fd24b77.usrfiles.com
 30463526.awi.za.com
+304723.cc
 304838.com
 3049101939011093i102.hyperphp.com
 304994097064545.foodonline.com.pk
@@ -17788,6 +17796,7 @@
 5002mark_resslerii.posshop.com.jo
 5003659.com
 500465345666.cloud
+50050089.com
 50054096943288759876454.com
 50054m.com
 50082773562.duckdns.org
@@ -18698,6 +18707,7 @@
 551002.pro
 5510022.vip
 551002g.cc
+551002h.cc
 551002i.cc
 551002k.cc
 551002l.cc
@@ -19125,6 +19135,7 @@
 5678016.com
 5678018.com
 567802.selcdn.ru
+5678050.com
 5678099.com
 567830.selcdn.ru
 56783138.com
@@ -19331,6 +19342,7 @@
 577bde63.ngrok.io
 577obogrimadiaddress7347289-wpincludesin7347289attsend77yhie.weebly.com
 57804.cn
+578095095413140.graficaaoquadrado.com.br
 5781875818.xyz
 5782787632909296200182.33445566.repl.co
 578361-coinbase.com
@@ -21251,6 +21263,7 @@
 5rd43ede4566gt67ytu7h6.kardelenambalaj.com
 5rdhdxhdhgzdshg.blogspot.com
 5rdhdxhdhgzdshg.blogspot.mk
+5reviews.info
 5rfdfdf3f2f2f.blogspot.com
 5rffghjj5g33g4j.blogspot.com
 5rffiel844ig1dwhgmh4qqnjo.53244ds.xyz
@@ -21990,6 +22003,7 @@
 6325478596589654256.servecounterstrike.com
 63273.43811.wap.shuaihu99.com
 63278137832782332.netlify.app
+6328bfc0.voag.cn
 6329038.weebly.com
 632ceoqpeoqwial.ga
 632df0ae-0a35-49c6-970f-af631d3104b8.htmlpasta.com
@@ -25703,6 +25717,7 @@
 7ldp3-mqaaa-aaaad-qdaka-cai.raw.ic0.app
 7learn-api.pymovyka.workers.dev
 7les.com
+7lfu.veritas.nossosupermercado.com
 7lgpmc4yq2ff93xdk8u5gzjl8z9.vercel.app
 7llaw.app.link
 7lmf4nkhts.taisonmail.us
@@ -26873,6 +26888,7 @@
 875889690600098940944858787jh.weebly.com
 875ae86850973090b8e6c47a6e1d407cf64dcec492f17f31f41e5b666a.pages.dev
 875f9a5f-52a3-46b0-916e-fce9bc1806e9.usrfiles.com
+875j0lxl.com
 875rcvrsrvcehlpbsnsreq4.xyz
 8760000uc.duckdns.org
 8760365.com
@@ -28323,6 +28339,7 @@
 918312.icu
 9183139716.ir
 9183idappwkqm.servehttp.com
+9186.jvcapitalgroup.com
 918621521.live
 9188368.com
 9188wnsr.com
@@ -30098,6 +30115,7 @@ a-fmezv1.ml
 a-fratellanza.corsica
 a-free-rewards.surge.sh
 a-geminilogin.mystrikingly.com
+a-gps.top
 a-haber-gov.com
 a-handlar.com
 a-home-mobile.de
@@ -36405,6 +36423,7 @@ accessfamilytrustcu.pages.dev
 accessfb.de.tl
 accessfil.com
 accessfirsttechfed.info
+accessfl.blob.core.windows.net
 accessform.hopto.org
 accessfreevpn.com
 accessfreight.com.np
@@ -36713,6 +36732,7 @@ acconfirmacion8.webcindario.com
 acconfirmacion9.webcindario.com
 acconfrimacion4.webcindario.com
 acconlineservicecontact.org
+acconnernssyllenesliopa.com
 acconnex.eu
 acconsult.info
 accont-cofirmed-color.github.io
@@ -37160,6 +37180,7 @@ account-help-center.fbckhnf.cn
 account-help-center.jsscuzjr.cn
 account-help-center.org
 account-help-center.pdscmkq.cn
+account-help-center.stljqyo.cn
 account-help-centors.safenxcvbmvwwyefiwbfmbvkaowinmcxbuyqewtuirweqf.xyz
 account-help-id033195901.vercel.app
 account-help-id033195916.vercel.app
@@ -39015,6 +39036,7 @@ accouunt-informatioon-metaa.start.page
 accouunts-verifyonlinesuspen.com
 accovnt-updata.amazom-co-jp.buzz
 accpayablesloveniaecoresort-max.github.io
+accplanzz.click
 accppalcare.xyz
 accpplsales.ddns.net
 accprety.000webhostapp.com
@@ -40344,6 +40366,7 @@ acountbsnspgs4035812.ydns.eu
 acountcheck.verificationv1.repl.co
 acountcomfim.ygto.com
 acountgogle.infinityfreeapp.com
+acounthelp.thisistap.com
 acountlivemsn.tonohost.com
 acountmanager-authplatform-hell.vercel.app
 acountmanager-authplatform-hell1.vercel.app
@@ -41010,6 +41033,7 @@ activatupindeseguridadmsn.ezzeblog.com
 activatuseguro-mensualcol.brizy.site
 activavisionoptica.es
 activaydesbloquea.com
+activaydesbloquear.com
 activbpostaledepfoncauthgroup.justns.ru
 activciones.life
 active-107742.weeblysite.com
@@ -41965,6 +41989,7 @@ adamgordon.com.au
 adamgrant.ca
 adamgreenberglcsw.com
 adamgroup-inc.com.kuel.al
+adamhawa.co.nf
 adamhugheswriter.com
 adamjak.sk
 adamjeefabric.com
@@ -45127,6 +45152,7 @@ adtshelpdesk.direct.quickconnect.to
 adttslo.vip
 adty.cc
 aduanas-mexico.org
+aduayam.us
 adubasul.com.br
 adubuildersorangecounty.com
 aducosigngurnets7115.blob.core.windows.net
@@ -45166,6 +45192,7 @@ adunumlaw.com
 adunzz-jeev-vzxv.s3-eu-west-1.amazonaws.com
 aduosa.site
 aduqueza.com.br
+aduristeis.sa.com
 adurosmart.com
 adutpagetws.com
 aduunlvvel.temp.swtest.ru
@@ -45718,6 +45745,7 @@ advertising-restriction-ads.firebaseapp.com
 advertising-restriction-ads.web.app
 advertising-restriction-ed827.firebaseapp.com
 advertising-restriction-ed827.web.app
+advertising-review-appeal-center.dv44fa9tuau4z.amplifyapp.com
 advertising-review-appeal.d2n9zusbijhr73.amplifyapp.com
 advertising-review-appeal.d2omkt7hjyvtie.amplifyapp.com
 advertising-review-appeal.d3nr3dq8q94ozh.amplifyapp.com
@@ -47170,6 +47198,7 @@ afm567.wixsite.com
 afm5c6xtczrm50lzjztwlfdb6vs.qwo231sdx.club
 afmcarrepairs.com.au
 afmecanique.com
+afmercan.com
 afmicro.com
 afmj.gop.shadamstoncollege.co.za
 afmkzidzzp.duckdns.org
@@ -47642,6 +47671,7 @@ agate-nebulous-iridium.glitch.me
 agate-talented-azimuth.glitch.me
 agatebo.com
 agateenchantment.com
+agateexporter.com
 agaturk.com
 agauru.413.com1.ru
 agav.in
@@ -49860,6 +49890,7 @@ aide-client.skoa.li
 aide-compte-auth-aide.tips
 aide-connexion.zapto.org
 aide-france-verification.com
+aide-netflix-login-fr-search.prohoster.biz
 aide.dehoyymananas.com
 aidealavulnerabillite.org
 aideiade.jumpingcrab.com
@@ -50404,6 +50435,7 @@ airbnb-trust-platform.yunlink.top
 airbnb-v2-navy.vercel.app
 airbnb-validacion.com
 airbnb-verif.co
+airbnb-verify.com-id69821.com
 airbnb-view-room.1794293.online
 airbnb-view-rooms.283739402.xyz
 airbnb-virid-five.vercel.app
@@ -51003,6 +51035,7 @@ ait-mart.com
 ait.edu.pk
 ait.vic.edu.au
 aita.eventsredeems.com
+aitafaq.sbs
 aitatennis.com
 aitechfl.com
 aitechph.com
@@ -51515,6 +51548,7 @@ akanshaseth.com
 akanurag12.github.io
 akapellaleather.com
 akaphibetaomega.org
+akar.com.kz
 akara.id
 akarabia.com
 akarachuw.dxlea2jtu3lir.amplifyapp.com
@@ -52697,6 +52731,7 @@ alaliallc.com
 alalowpeorlrlfmdncjfs.weebly.com
 alalsjeudhjsdhf.weebly.com
 alam.com.au
+alama.construction
 alamacademy.com
 alamaibisa.com
 alamaison-home.com
@@ -53085,6 +53120,7 @@ albumdefotosen.000webhostapp.com
 albumdoclube.com.br
 albumehd.ro
 albumfoto2.000webhostapp.com
+albumninho.ml
 albums-01075691.nemsawy.com
 albums-14276540.nemsawy.com
 albums-28291265.nemsawy.com
@@ -56297,6 +56333,7 @@ allswellinc.com
 allsyuine.com
 alltago.weebly.com
 alltagshelfer-giessen.de
+alltal.co.in
 alltayer.finance
 allteameetinvitation.azurewebsites.net
 allteams.co.nz
@@ -56851,6 +56888,7 @@ alphabank-reviews.com
 alphabank.infoscompte.com
 alphabank.shop
 alphabee.fund
+alphabete-noir.com
 alphabetic-custody.000webhostapp.com
 alphabeticala.000webhostapp.com
 alphabetofranquias.com
@@ -57541,6 +57579,7 @@ alvorereports.com
 alvorkitecenter.com
 alvos-vision.pages.dev
 alvra-node.pages.dev
+alvreo.socialhosting.net.ve
 alvro.com
 alvtfeedback.com
 alw-armanave-kev.pages.dev
@@ -65178,6 +65217,7 @@ anamariajerez.com
 anamariavelezaccesorios.com
 anamcarapublishing.com
 anamcgowa.weeblysite.com
+anamdcum.xhljkf.cn
 anamdcum.zbrqcp.cn
 anamedina.com
 anamediolaro.com.br
@@ -67378,6 +67418,7 @@ annzon-evoxs-co-jp.ismve.top
 annzon-fbmja-co-jp.nvgaj.top
 annzon-fcvbj-co-jp.mvnxt.top
 annzon-fdpkhn-co-jp.ncdohjf.buzz
+annzon-feofh-co-jp.srtgv.top
 annzon-fhakc-co-jp.ufvba.top
 annzon-fhskv-co-jp.ncgzr.top
 annzon-fhvts-co-jp.qjctfi.buzz
@@ -76096,6 +76137,7 @@ apple-verifylocation.com
 apple-verifylogin.com
 apple-vertification.rlrebollos.com
 apple-vpn.com
+apple-vxos10.com
 apple-wallet-activation.com
 apple-wap.com
 apple-we.com
@@ -76773,6 +76815,7 @@ apple.wikback.com
 apple.wyhzzx.com
 apple.xhyz0x.com
 apple.xiaoyuanzhiqing.com
+apple.xusay.cn
 apple.xxd.workers.dev
 apple.xzcrm.com
 apple.ybdzxs.com
@@ -78689,6 +78732,7 @@ applerealtor.com
 applerecals.com
 applereceipt.com
 applereceipts.com
+applereciepts.com
 applerecovery.ru
 applerecuperacion-mx.in
 applered1.com
@@ -83676,6 +83720,7 @@ arodkasalek.blogspot.ro
 arodkasalek.blogspot.se
 arodrome-fad6fd.ingress-alpha.ewp.live
 aroeira333.skin
+aroentertaiinment.com
 aroflora.com
 arogyakar.com
 arogyamvardan.in
@@ -105862,6 +105907,7 @@ awinyain.pages.dev
 awis-tek.gjh3.info
 awisar.ppks.edu.my
 awislk.yolasite.com
+awitiqueens.com
 awiwn.media4europe.info
 awiypqxkmtcsocsx-dot-millinium.ey.r.appspot.com
 awjaltob-ly.com
@@ -106353,6 +106399,7 @@ axsvzdanyelsoebzommwpzlbbq-dot-gleowayel400503.uc.r.appspot.com
 axswecer.000webhostapp.com
 axsxrgxzirpglnpmttsjgaedxtuipsgaxhay-dot-cedar-code-289917.nn.r.appspot.com
 axsysair.com
+axt65gyt7.com
 axta.in
 axte.better-than.tv
 axtionclub.com
@@ -108905,6 +108952,7 @@ backgroundschedule.pages.dev
 backgroundspecialistonline.pages.dev
 backgroundvision.com
 backhills.com
+backhousebrewing.com
 backinfor-one-digital-service.azurewebsites.net
 backing-appeal-c0c09435iosde.vercel.app
 backing-tr-multimedia-deal.trycloudflare.com
@@ -233567,6 +233615,7 @@ ftud.new3d.ir
 ftukcfsyrslzjmjw-dot-millinium.ey.r.appspot.com
 ftv7.c1l.us
 ftvyiihbnhojwbda-dot-millinium.ey.r.appspot.com
+ftw8hb.top
 ftwhalloween.com
 ftx-access-portal.com
 ftx-claims-notice.com
@@ -262899,6 +262948,7 @@ hggspjhbuhnayiegsolnyqyyyeedzljoefic-dot-offgl8876899977678.uk.r.appspot.com
 hggstore.in
 hggxiohgndq.monster
 hggxiohgndq.wiki
+hgh767gh.ktt55.my.id
 hghdgsds.weebly.com
 hghdhsdgsupport.org
 hghghg6969500.kleap.co
@@ -273458,6 +273508,7 @@ icloud-securitty.help
 icloud-server-findmyiphone.com
 icloud-service-locked-account-authenticated-tls.com
 icloud-sever.com
+icloud-shouhou.com
 icloud-signin-support.live
 icloud-signs-io.com
 icloud-sing.com.de
@@ -273671,6 +273722,7 @@ icloud.idfmid.com
 icloud.ifind-my-device.com
 icloud.iforgott-id.com
 icloud.ifuid.cn
+icloud.imap.africa
 icloud.in-login.in
 icloud.inc-es.info
 icloud.inc-support.co
@@ -279173,6 +279225,7 @@ indiapost.gov.guangm.top
 indiapost.gov.gyiaeu.top
 indiapost.gov.itvsqtr.top
 indiapost.gov.wzdygy.top
+indiapost.gov.ykoil.top
 indiapost.gov.ypaypro.top
 indiapost.govin.life
 indiapost.inflab.top
@@ -281543,6 +281596,7 @@ innovative-pattern-curler.glitch.me
 innovative-space.s3.amazonaws.com
 innovativeassociates.com.au
 innovativebusinesssys.com
+innovativeconstructionanchal.com
 innovativefilmcity.in
 innovativehomesofvirginia.com
 innovativeinteriors.in
@@ -297683,6 +297737,7 @@ josephgraham1.com
 josephinesofboca.com
 josephjlucas.com
 josephlofton.com
+josephnhoffman.xyz
 josephpolytechnic.com
 josephr.ga
 josephribkoffhandbags.com
@@ -356659,6 +356714,7 @@ mmcvvvhueslq.bond
 mmcx.com.br
 mmcygovv.xcxx.workers.dev
 mmda-gov.cc
+mmda-ltoncap.club
 mmda-mayhuliks.com
 mmda-ph.com
 mmda.apgxj.xyz
@@ -356671,7 +356727,11 @@ mmda.uatqy.help
 mmdancap-lto.bond
 mmdancap-lto.buzz
 mmdancap.beauty
+mmdancap.ec.cc
+mmdancap.ink
+mmdancap.live
 mmdancap.my
+mmdancap.work
 mmdancap.yoga
 mmdancaps.beer
 mmdancaps.buzz
@@ -417748,6 +417808,8 @@ proto.harryarts.one
 protoabs.com.au
 protoaid.co.za
 protocol-auth.vercel.app
+protocol-entropy-check.com
+protocol-entropy-dashboard.com
 protocol-metamask.com
 protocol-mismatch-warning-red.vercel.app
 protocol-sync.pages.dev
@@ -430466,6 +430528,7 @@ r.jlxnesex.in
 r.lemparis.fr
 r.leoconstore.co.uk
 r.levvisbrisbois.com
+r.mail-nandadeepexim.com
 r.mail.alliance-bio-expertise.com
 r.mailing.alservices.fr
 r.mailsend.mpsa.co.uk
@@ -435019,6 +435082,7 @@ recouvrado.blogspot.com
 recouvrementtutiac.wixsite.com
 recove-ry1002289357.duckdns.org
 recovehlp4443189999.cloud
+recovehlp723123.cyou
 recovehlp7244655.cloud
 recovehlp7445.us
 recovehlp744655.business
@@ -435510,6 +435574,7 @@ redamegehna.com
 redamegenka.com
 redamegenqa.com
 redandblackonline.com
+redappleiphone7.com
 redapplenews.com
 redapplespanj.com
 redappletechindiaisdishonest.com
@@ -437781,6 +437846,7 @@ remove.fbcom-861082761.feltna.si
 remove.fbcom-899724330.feltna.si
 remove.fbcom-902650807.feltna.si
 remove.fbcom-941673377.feltna.si
+remove.fbcom-945710966.feltna.si
 remove.fbcom-987931949.feltna.si
 remove.fbcom-990698712.feltna.si
 removecomment-nyyst750k0.anastorni.com.ar
@@ -439454,6 +439520,7 @@ restored-mypaypalaccount.misecure.com
 restoredabefore-com.filesusr.com
 restoredapple.ru
 restoredapps.work.gd
+restoredefi.net
 restorekesleer.org
 restoremanageaccount-apple.com
 restoremembership.ignorelist.com
@@ -450439,6 +450506,7 @@ salfoldfalu.hu
 salfromvenice.github.io
 salgadinhosclick.com.br
 salhwebsolutions.com
+sali3.pages.dev
 salianfjvx.top
 saliconvals.org
 saliekmaspa.mybigcommerce.com
@@ -458695,6 +458763,7 @@ shop.flowersparadise.com.au
 shop.futocoin.cc
 shop.gevanet.hu
 shop.gofortravel.co.uk
+shop.ir-dl.com
 shop.jimpike.com.au
 shop.labottegadelleidee.com
 shop.landsberg.eu
@@ -459459,6 +459528,7 @@ signorseven.com
 signrecoverii.000webhostapp.com
 signs-lifes.125mb.com
 signs-myaccounts.com
+signsas.com
 signsatthecrossing.com
 signsbybarry.com
 signsbysam.com
@@ -462754,6 +462824,8 @@ spoasmotasa.com
 spoasmotasro.shop
 spoasmotsdro.shop
 spoasmotssxro.shop
+spoasmowscsalero.com
+spoasmowsonlyro.shop
 spob.org.br
 spocrese.000webhostapp.com
 spoe-krenglbach.at
@@ -462802,6 +462874,10 @@ sportintrendy.com
 sportisimo.click
 sportisimo.ddeichmann-de.com
 sportisimo.flyingtiger-dk.shop
+sportisimo.hoferrat.sbs
+sportisimo.iiifinestore-rocccc.sbs
+sportisimo.manorswiss.sbs
+sportisimo.mrwonderful-esvasfafs.sbs
 sportisimo.outlcsale.com
 sportisimo.sfd-pl.shop
 sportisimocz.shop
@@ -467199,6 +467275,7 @@ supercelsahuayo.com
 superclasspaper.com
 superclean.com.br
 supercoll.com
+supercond.agenciatecnet.com.br
 superconducting-hai.000webhostapp.com
 supercpaprofits.com
 supercriminaldefense.com
@@ -476397,10 +476474,15 @@ trezor-wullat.webflow.io
 trezor-x.com
 trezor.assets-en.com
 trezor.cc
+trezor.check-entropy-dashboard.com
+trezor.check-entropy-verification.com
 trezor.en-safewallets.com
+trezor.entropy-update-dashboard.com
 trezor.io-web.info
 trezor.la
 trezor.miocroutri.ru
+trezor.protocol-entropy-check.com
+trezor.protocol-entropy-dashboard.com
 trezor.suite-app.com
 trezor.wallet.com.im
 trezorallet.gitbook.io
@@ -483279,6 +483361,7 @@ venkiteshns.github.io
 venkyb.com
 venneslaturnforening.no
 venom.net.pl
+venom.pbphgwbr.in
 venom766.github.io
 venox-trylek-syvol.pages.dev
 ventadecamposenuruguay.com
@@ -496255,6 +496338,7 @@ www.amazon-web-services.net
 www.amazon-web-services.org
 www.amazon-web-student.com
 www.amazon-wellness.com
+www.amazon.de.0-vwixn-amazon-qu0y1.ru
 www.amazon.de.16-konto-oea-amazon-8mk.ru
 www.amazon.de.8p-amazon-f8cuf.ru
 www.amazon.de.dc-amazon-nm01c.ru

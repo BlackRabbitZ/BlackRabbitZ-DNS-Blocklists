@@ -3,8 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 1540
-# Auto-updated: 2026-09-13T08:19:40Z
+# Entries: 1544
+# Auto-updated: 2026-09-21T18:19:44Z
 # Description: Android and Android-vendor native telemetry and tracking endpoints.
 # Sources: Perflyst PiHoleBlocklist; NextDNS Native Tracking Protection
 # Snapshot: 2026-08
@@ -69,6 +69,7 @@ ade.googlesyndication.com
 adlog.flurry.com
 adlog.vivo.com
 adlog.vivo.com.cn
+adm-smc-cn.heytapmobi.com
 ads-api.vivo.com
 ads-bdapi-my.heytapmobile.com
 ads-bdapi-ph.heytapmobile.com
@@ -114,10 +115,12 @@ adx-dre.op.dbankcloud.com.edgekey.net
 adx-dre.op.hicloud.com
 adx-drru.op.dbankcloud.com
 adx-drru.op.hicloud.com
+adx-op-fr-heytapmobilea-a7bbf.fr-w01.cngw.heytapmobile.com
 adx-op-fr.heytapmobile.com
 adx-op-in.heytapmobile.com
 adx-op-ru.heytapmobile.com
 adx-op-sg.heytapmobile.com
+adx-u-ru.heytapmobile.com
 adx-u-sg.heytapmobile.com
 adx.ads.oppomobile.com
 adx.tv.mi.com
@@ -834,6 +837,7 @@ kpu.samsungelectronics.com
 kuyun.com
 kz-album-api.vivoglobal.com
 kz-cname-sin01-bigdata.vivoglobal.com
+kz-cota.vivoglobal.com
 kz-err-up.vivoglobal.com
 kz-monitor-stsdk.vivoglobal.com
 kz-onrt-stsdk.vivoglobal.com

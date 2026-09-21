@@ -3,8 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 11518
-# Auto-updated: 2026-09-16T08:37:28Z
+# Entries: 11533
+# Auto-updated: 2026-09-21T18:20:32Z
 # Description: Aggressive deceptive-store and fake-shop candidates derived from fraud/scam intelligence.
 # Sources: Block List Project Fraud/Scam (retail subset); DurableNapkin (retail subset); Verbraucherzentrale curated entries
 # Snapshot: 2026-08
@@ -3891,6 +3891,7 @@ rawlplugpl.shop
 rawlplugselected.shop
 ray-ban.maxbrandoutlet.com
 rayban-sunglasses-store.com
+rayban-sunglassesoutlet.org.uk
 raybanoutletclearance.com
 raybans-outlet.co.uk
 raybansunglassesoutlet.name
@@ -4647,6 +4648,7 @@ store.crypto022.online
 store.crypto030.online
 store.cryptot.net
 store.customizerbox.com
+store.customurink.com
 store.cutty.app
 store.czwcvfbc.page.link
 store.d.slowmitter.top
@@ -4714,6 +4716,7 @@ store.flattee.com
 store.folkrbvi.pages.dev
 store.foryourdears.com
 store.freebitcoin.pages.dev
+store.freedom.invoice5g-bill.com
 store.freeuspshomehhasfe.top
 store.friday89.com
 store.frostgoddess.com
@@ -4961,6 +4964,7 @@ store.sberbank.www.avito.www.com-id802914.com
 store.sberbank.www.blablacar.id90152861.com
 store.sberbank.www.com-id802914.com
 store.seasonsofficial.com
+store.secrity2redline.com
 store.securevault.top
 store.security-meta.pages.app.br
 store.serialefilmy.pl
@@ -5111,12 +5115,18 @@ store.yahhhoo.com
 store.yandex.avito.avito.com-id90123.info
 store.yandex.avito.bo0king.com-id16313.info
 store.yandex.pay.avito.avito.avito.sberbank.booking.com-id90123.info
+store.yandex.pay.booking.com-id02349.info
+store.yandex.pay.booking.com-id309712.com
+store.yandex.pay.booking.com-id3212341.info
+store.yandex.pay.booklng.com-id129041.info
 store.yandex.www.booking.com-id302912.com
 store.yeyvibe.com
 store.ygtube.xyz
 store.youtubee.com
 store.youtunbe.com
+store.yvjexi.shop
 store.yyderfreap.shop
+store.z-lib.io
 store.z-lib.is
 store.zalukaj-film.pl
 store.zalukaj-vip.pl
@@ -5126,6 +5136,7 @@ store.zalukaj.eu
 store.zalukaj.film
 store.zalukaj.info.pl
 store.zalukaj.io
+store.zalukaj.my
 store.zalukaj.site
 store.zalukaj.us
 store.zat.io
@@ -9550,6 +9561,7 @@ www.personalisedgiftshop.co.uk
 www.petalisse.store
 www.petechaucer.shop
 www.peto543734.shop
+www.petparty.store
 www.peweddingdressoutlet.com
 www.pharaohstore.com
 www.pharm-pl.shop
@@ -11318,6 +11330,7 @@ www.yoyosneaker.pl
 www.yrkgzlyl.shop
 www.yumware.store
 www.yuynstore.com
+www.yvjexi.shop
 www.yzysneaker.com
 www.zac55.store
 www.zakishop.com
@@ -11469,6 +11482,8 @@ yoyosneaker.pl
 yrkgzlyl.shop
 yumware.store
 yuynstore.com
+yvjexi.shop
+yyderfreap.shop
 yzysneaker.com
 zac55.store
 zakishop.com

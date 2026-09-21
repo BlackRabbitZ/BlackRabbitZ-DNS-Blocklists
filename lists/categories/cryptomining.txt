@@ -3,8 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 6117
-# Auto-updated: 2026-09-14T08:56:39Z
+# Entries: 6121
+# Auto-updated: 2026-09-21T18:19:45Z
 # Description: Browser and remote cryptomining infrastructure; excludes generic exchanges/crypto sites.
 # Sources: AnudeepND CoinMiner; NoCoin
 # Snapshot: 2026-08
@@ -14,6 +14,7 @@
 1q2w3.fun
 2giga.link
 300ca0d0.space
+310ca263.space
 320ca3f6.space
 330ca589.space
 340ca71c.space
@@ -1473,6 +1474,7 @@ gedmodsxbebd.com
 gefaqjwdgzbo.com
 gemius.pl
 geo.suprnova.cc
+geocoin.miningpoolhub.com
 getpool.network
 geudyhlxmbj.bid
 gevrsbmqvp.bid
@@ -1717,6 +1719,7 @@ hhshbknewaikmj.bid
 hhwqfmqyqoks.com
 hi.suprnova.cc
 hibtgsibarfg.bid
+hide.ovh
 hihyunxtiuqhhm.bid
 hijvwwbnbhb.bid
 hilkfxdqxzac.com
@@ -3692,6 +3695,7 @@ qeembhyfvjtq.com
 qefjdsfny.bid
 qekmxaimxkok.com
 qerlbvqwsqtb.com
+qeuggztcqmashg.bid
 qevfmwciyp.bid
 qevivcixnngf.com
 qevkdmgcv.bid

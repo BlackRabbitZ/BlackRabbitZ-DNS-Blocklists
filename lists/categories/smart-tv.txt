@@ -3,8 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 717
-# Auto-updated: 2026-09-16T08:36:34Z
+# Entries: 718
+# Auto-updated: 2026-09-21T18:19:45Z
 # Description: Smart-TV advertising, ACR, diagnostics and telemetry endpoints.
 # Sources: Block List Project; Perflyst PiHoleBlocklist; HaGeZi LG webOS
 # Snapshot: 2026-08
@@ -572,6 +572,7 @@ ravm.tv
 rd.samsungadhub.com
 rdl.lgtvcommon.com
 rdx2.lgtvsdp.com
+rdx2.nextlgsdp.com
 re-ad-lgsmartad-com.aws-prd.net
 redbutton-adproxy-lb-prod.redbutton.de
 redbutton-lb-prod.redbutton.de

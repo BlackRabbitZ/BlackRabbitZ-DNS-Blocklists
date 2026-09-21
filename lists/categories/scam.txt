@@ -3,8 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 284384
-# Auto-updated: 2026-09-16T08:37:28Z
+# Entries: 284443
+# Auto-updated: 2026-09-21T18:20:32Z
 # Description: Massive scam, fraud and deceptive-platform domain set.
 # Sources: Block List Project Fraud/Scam; DurableNapkin Scam Blocklist; curated BaFin entries
 # Snapshot: 2026-08
@@ -351,6 +351,7 @@
 10gram.ru
 10in10trading.com
 10jhutysystem.tk
+10jktubcalltoday.tk
 10kjfiuysupport.tk
 10kjtuygpickup.tk
 10kloan.net
@@ -1225,6 +1226,7 @@
 247techsupport.in
 247techsupportnumber.com
 247tradeoption.com
+247ustechsupport.com
 247worldtechsupport.com
 247wpsupport.com
 247wt.d4huiz.top
@@ -1709,6 +1711,7 @@
 30daysuccess.review
 30nlycalling3141212345.tk
 30nlycalling314121234567.tk
+310ca263.space
 313galleria.com
 31fss.support
 31youtube.com
@@ -2168,6 +2171,7 @@
 45uirnjhelp.tk
 45wfwt.rest
 45youtube.com
+460-diet.com-oo4.net
 4600usd.com
 462-fitness.com-cst.net
 467844.glycyl.pw
@@ -4339,6 +4343,7 @@ accou-supports.works
 accouchement.space
 accoucheur.space
 accoun-servicess.support
+accoun-support.com
 account-ability-online.uk
 account-acces-manager.com
 account-access-blocked.info
@@ -4787,6 +4792,7 @@ accounts-google.org
 accounts-help.com
 accounts-help.org
 accounts-helpsmek-verifications-order-2017.com
+accounts-instagram.com
 accounts-login-goododdomd.date
 accounts-login.biz
 accounts-mail-login.site
@@ -6026,6 +6032,7 @@ affair-nextdoor.co.uk
 affair-nextdoor.com
 affair-ups.com
 affairchats.com
+affaireeither.host
 affairen-deutschlandweit.com
 affairfantasy.com
 affairforlove.com
@@ -6152,6 +6159,7 @@ agatameble-pl-online.shop
 agatameblesale.shop
 agate-eyes.tk
 agates.stream
+agathanowchristie.tk
 agatish.lovable.app
 agbazar.ir
 agbglobal.cc
@@ -6184,6 +6192,7 @@ agenes.stream
 agengacor.org
 agent-aghast.stream
 agent-login.info
+agent007me.agency
 agentmanagementsupport.com
 agents-login.info
 agents.stream
@@ -6725,6 +6734,7 @@ airdatetwo.host
 airdropalerts2018.com
 airedone.host
 airenu.host
+airerrorcode.com
 airesdeldelta.com.ar
 airezero.host
 airfarefour.host
@@ -8043,6 +8053,7 @@ alert-1r2and1.stream
 alert-1r3enz1.stream
 alert-1ra1zy1.stream
 alert-1ract1.stream
+alert-1rafa1.stream
 alert-1rjhd1.stream
 alert-1road1.stream
 alert-1ruit1.stream
@@ -12299,6 +12310,7 @@ allegrolokalnie.43i12984h457.baby
 allegrolokalnie.43i4023489230942.cyou
 allegrolokalnie.487syss1.shop
 allegrolokalnie.4892985.sbs
+allegrolokalnie.4892k67.lol
 allegrolokalnie.493492300h9.shop
 allegrolokalnie.4o5rgvefdk.sbs
 allegrolokalnie.4o5tbrvdjc.sbs
@@ -12633,6 +12645,7 @@ allegrolokalnie.okazja-na-lato-2026-34ogv.sbs
 allegrolokalnie.okazja-na-lato-2026-3ne4vn.sbs
 allegrolokalnie.okazja-na-lato-2026-45b0v.sbs
 allegrolokalnie.okazja-na-lato-2026-45ohgitrv1.sbs
+allegrolokalnie.okazja-na-lato-2026-56hkgrvec.sbs
 allegrolokalnie.okazja-na-lato-2026-o45rgve.sbs
 allegrolokalnie.ordkcsjx.sbs
 allegrolokalnie.otrbvkdscj.sbs
@@ -13758,6 +13771,7 @@ ammonium.stream
 ammonium.us
 ammono.stream
 ammonolyses.stream
+ammonolyses.us
 ammonolysis.stream
 ammonolysis.us
 ammonolytic.stream
@@ -59881,6 +59895,7 @@ foodadven.top
 foodbabe.com
 foodiefusionworld.com
 foodixs.com
+foodpornhub.site
 foodstampassistanceforyou.com
 foodtruckbuildersofphoenix.com
 foofaraw.us
@@ -60661,6 +60676,7 @@ freedhom.com
 freedodo.xyz
 freedom-5g.com
 freedom-life.today
+freedom.invoice5g-bill.com
 freedom.mobile-log-in.com
 freedomcashlenders.com
 freedomfreelancer.com
@@ -69597,6 +69613,7 @@ hiddenlistings.com
 hiddenmatches.com
 hiddenvariable.com
 hiddenville.com
+hide.ovh
 hidensof.today
 hideous-corruption.tk
 hideposit.com
@@ -75492,6 +75509,7 @@ inoverify.com
 inovexamotion-system.com
 inowaciaplus.site
 inowaciapolish.site
+inowaciapro.site
 inowacinaplsk.site
 inowacinaplskego.site
 inowacinapolska.site
@@ -77028,6 +77046,7 @@ iosuser5.usa.cc
 iosuser6.usa.cc
 iosverifyhealth.com
 ioswarning.info
+iot-tech.xyz
 iot-technology.info
 iotadministrator.com
 iotadministrators.com
@@ -77849,6 +77868,7 @@ issue-26qz6.stream
 issue-26uz6.stream
 issue-27bc7.stream
 issue-27ez7.stream
+issue-27ra7.stream
 issue-27va7.stream
 issue-28bd8.stream
 issue-28fa8.stream
@@ -122157,6 +122177,7 @@ rayani-iuewshed.tk
 rayanthomastechugs.blogspot.com
 rayb-site.com
 rayban-sunglasses-store.com
+rayban-sunglassesoutlet.org.uk
 raybanlink.com
 raybanoutletclearance.com
 raybans-outlet.co.uk
@@ -126414,6 +126435,7 @@ s84ciudsious12.club
 s8i.podatkl.com
 s8powazkowska-modlinska.pl
 s92518e9.beget.tech
+s9pool.com
 sa-mila.com
 sa02i5.isogransoutheurope.eu
 sa9muc5f.top
@@ -126680,6 +126702,7 @@ safety.apple.com.ullrozkmu.5fbxhmdm076qgvh7dvlq.download
 safety.apple.com.ulmipehatj.wd4rdtazsvhrna2q.trade
 safety.apple.com.uoxqb.o6nlrsbnsfamrh6qwgoc4ri.download
 safety.apple.com.ureyv.cjpv8xsxzbb6bqbu4q.download
+safety.apple.com.urjuzinxmpw.nhgvudhssrosh4csosokmklc3w.trade
 safety.apple.com.uxbdqngm.zi1tjdmyw2zkqk8hpmbvkq.bid
 safety.apple.com.vnuil.2px39ubvllxppsbh.bid
 safety.apple.com.vpwmryqyqpk.br6xo38lcmknba.review
@@ -127642,6 +127665,7 @@ sber.www42.com-id23901.info
 sberbank-online-gid.ru
 sberbank.avito.avito.avito.avito.avito.com-id90123.info
 sberbank.avito.avito.avito.com-id309712.com
+sberbank.avito.avito.com-id809712.com
 sberbank.avito.booking.com-id123251.info
 sberbank.avito.com-id20341.info
 sberbank.avito.ozon.id19845672.info
@@ -131604,6 +131628,7 @@ sicherheitsupdate-1089.info
 sicherheitsupdate-1989.info
 sicherheitsupdate-2332.info
 sicherheitsupdate-4372.info
+sicherheitsupdate-8972.info
 sicherheitsupdate-8989.info
 sicherprufkonto.com
 sichherheitinvestmentfinance.com
@@ -134332,6 +134357,7 @@ soundsystemtechsupport.com
 sourballsimplausibilirrty.info
 source4cc.com
 source4dumps.cc
+source84.com
 sourceforsport.com
 sources.sviluppo.host
 sourcesubmit.com
@@ -136741,6 +136767,7 @@ store.crypto022.online
 store.crypto030.online
 store.cryptot.net
 store.customizerbox.com
+store.customurink.com
 store.cutty.app
 store.czwcvfbc.page.link
 store.d.slowmitter.top
@@ -136809,6 +136836,7 @@ store.flattee.com
 store.folkrbvi.pages.dev
 store.foryourdears.com
 store.freebitcoin.pages.dev
+store.freedom.invoice5g-bill.com
 store.freeuspshomehhasfe.top
 store.friday89.com
 store.frostgoddess.com
@@ -137059,6 +137087,7 @@ store.sberbank.www.avito.www.com-id802914.com
 store.sberbank.www.blablacar.id90152861.com
 store.sberbank.www.com-id802914.com
 store.seasonsofficial.com
+store.secrity2redline.com
 store.securevault.top
 store.security-meta.pages.app.br
 store.serialefilmy.pl
@@ -137210,13 +137239,19 @@ store.yahhhoo.com
 store.yandex.avito.avito.com-id90123.info
 store.yandex.avito.bo0king.com-id16313.info
 store.yandex.pay.avito.avito.avito.sberbank.booking.com-id90123.info
+store.yandex.pay.booking.com-id02349.info
+store.yandex.pay.booking.com-id309712.com
+store.yandex.pay.booking.com-id3212341.info
+store.yandex.pay.booklng.com-id129041.info
 store.yandex.www.booking.com-id302912.com
 store.yeelight.com
 store.yeyvibe.com
 store.ygtube.xyz
 store.youtubee.com
 store.youtunbe.com
+store.yvjexi.shop
 store.yyderfreap.shop
+store.z-lib.io
 store.z-lib.is
 store.zalukaj-film.pl
 store.zalukaj-vip.pl
@@ -137226,6 +137261,7 @@ store.zalukaj.eu
 store.zalukaj.film
 store.zalukaj.info.pl
 store.zalukaj.io
+store.zalukaj.my
 store.zalukaj.site
 store.zalukaj.us
 store.zat.io
@@ -141591,6 +141627,7 @@ supportprinter24.com
 supportprinterassist.co.uk
 supportprinterassists.com
 supportprinterdriver.net
+supportprinterdrivers.net
 supportprinterhelp.net
 supportprinters.com
 supportprintersetup.com
@@ -143006,6 +143043,7 @@ system-bsod-alertb10w.stream
 system-bsod-alertb11c.stream
 system-bsod-alertb9c.stream
 system-bsod-alertlf6yv23.stream
+system-bsod-alertlf6yv3.stream
 system-bsod-alertlf6yv43.stream
 system-bsod-alertlf6yv63.stream
 system-bsod-alertlf6yv83.stream
@@ -143913,6 +143951,7 @@ talenorvixa.com
 talenshot.com
 talent-levia.com
 talent.com
+talentedtwo.us
 talentfour.us
 talentloompro-de.com
 talentnexuspro-de.com
@@ -209025,6 +209064,7 @@ www.freedaterverify.com
 www.freedhom.com
 www.freedom-5g.com
 www.freedom-life.today
+www.freedom.invoice5g-bill.com
 www.freedomfreelancer.com
 www.freedomfuckingvirus.com
 www.freedomlend.net
@@ -220950,6 +220990,7 @@ www.kmsauto.info
 www.kmsinn.com
 www.kmspi.co
 www.kmspico-official.org
+www.kmspico.io
 www.kmspicoofficial.com
 www.kmspicowindows10.com
 www.kmssupport.com
@@ -242009,6 +242050,7 @@ www.petizoeiwe.autos
 www.petmais.net
 www.peto543734.shop
 www.petomania.com.au
+www.petparty.store
 www.petribaldl.cyou
 www.petroleum-eucorp.com
 www.petroleumjellypn.com
@@ -249748,6 +249790,7 @@ www.secrets-d-artisan.fr
 www.secrets-of-fast-money.ru
 www.secretstore.biz
 www.secretwish.pl
+www.secrity2redline.com
 www.sectionshide.lokazz.com
 www.secu-update.com
 www.secualert.live
@@ -253240,6 +253283,7 @@ www.soundsystemsupport.com
 www.soundsystemtechsupport.com
 www.sourballsimplausibilirrty.info
 www.source4cc.com
+www.source84.com
 www.sources.sviluppo.host
 www.sourcevan.com
 www.southcarolina-job-openings.info
@@ -267280,6 +267324,7 @@ www.uniquickitsolutions.com
 www.unisal-money.gq
 www.unisite.support
 www.unisonofashion.shop
+www.uniswap-gold-now.run
 www.uniswap.host
 www.uniswap.ro
 www.uniswap2.click
@@ -278721,6 +278766,11 @@ www.yandex.gift
 www.yandex.help
 www.yandex.link
 www.yandex.love
+www.yandex.pay.booking.com-id02349.info
+www.yandex.pay.booking.com-id20341.info
+www.yandex.pay.booking.com-id2435141.info
+www.yandex.pay.booking.com-id329712.com
+www.yandex.pay.booklng.com-id334112.com
 www.yandex.ru.com
 www.yandex.sberbank.com-id409712.com
 www.yandex123.ru
@@ -279600,6 +279650,7 @@ www.yuxlbsxo.bid
 www.yuynstore.com
 www.yuyupatisserie.com
 www.yuzlfy.top
+www.yvjexi.shop
 www.yvoghflbx.bid
 www.ywedaduadyandyadud.site
 www.ywfixsupportc.win
@@ -279641,6 +279692,7 @@ www.yzysneaker.com
 www.z-aokesports.com
 www.z-google.com
 www.z-lib.id
+www.z-lib.io
 www.z-lib.is
 www.z-milosci.pl
 www.z-promo.com
@@ -281892,6 +281944,11 @@ yandex.gift
 yandex.help
 yandex.link
 yandex.love
+yandex.pay.booking.com-id02349.info
+yandex.pay.booking.com-id20341.info
+yandex.pay.booking.com-id2435141.info
+yandex.pay.booklng.com-id129041.info
+yandex.pay.booklng.com-id334112.com
 yandex123.ru
 yandex174.ru
 yandex24.com
@@ -283016,6 +283073,7 @@ yuyyio.com
 yvarrd.shop
 yvipharmacy.com
 yvjdvcgomph.bid
+yvjexi.shop
 yvmzmyol.bid
 yvqpoiqcijc.bid
 ywaspopabolshaya.tk
@@ -283053,6 +283111,7 @@ yyajvvjrcigf.com
 yybjolz.000webhostapp.com
 yybpijyx.bid
 yyc0wo.top
+yyderfreap.shop
 yydms.com
 yydspan.com
 yyebntqnlvqb.bid

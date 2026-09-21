@@ -3,8 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 1528
-# Auto-updated: 2026-09-16T08:36:34Z
+# Entries: 1530
+# Auto-updated: 2026-09-21T18:19:44Z
 # Description: Native OS, device and application tracking endpoints.
 # Sources: NextDNS Native Tracking Protection; Perflyst PiHoleBlocklist; HaGeZi native tracking
 # Snapshot: 2026-08
@@ -112,6 +112,7 @@ ag-ad-lgsmartad-com.aws-prd.net
 ag.lgsmartad.com
 agps-location-livenet.trafficmanager.net
 ai.lgsmartad.com
+aios-otel-collector.g.apple.com
 al-ad-lgsmartad-com.aws-prd.net
 al-info-lgsmartad-com.aws-prd.net
 al-rdx2-lgtvsdp-com.aws-prd.net
@@ -1216,6 +1217,7 @@ rawtelemetry-east.servicebus.windows.net
 rawtelemetry-west.servicebus.windows.net
 rdl.lgtvcommon.com
 rdx2.lgtvsdp.com
+rdx2.nextlgsdp.com
 re-ad-lgsmartad-com.aws-prd.net
 redir.metaservices.microsoft.com
 redirect.pandora.xiaomi.com

@@ -3,8 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 235679
-# Auto-updated: 2026-09-16T08:36:21Z
+# Entries: 235703
+# Auto-updated: 2026-09-21T18:19:34Z
 # Description: Large advertising and ad-delivery domain set.
 # Sources: Block List Project; AnudeepND
 # Snapshot: 2026-08
@@ -2967,6 +2967,7 @@
 10xstack.com
 10xvideos.com
 10y3j.com
+10y5gehv.com
 10yeartarget.com
 10yp.com
 11-london.com
@@ -8093,6 +8094,7 @@
 310449.measurementapi.com
 3106981.fls.doubleclick.net
 310987714.log.optimizely.com
+310ca263.space
 311049.measurementapi.com
 311577732.keywordblocks.com
 311c41a1.webengage.co
@@ -8674,6 +8676,7 @@
 36d7107f.akstat.io
 36d7107f.mpstat.us
 36d71138.akstat.io
+36d71138.mpstat.us
 36d71176.akstat.io
 36d71176.go-mpulse.net
 36d71176.mpstat.us
@@ -13112,6 +13115,7 @@
 8088insensor.net
 808ba9fe3d.com
 809071.adoric-om.com
+8092686a39ac5.com
 8097-c493-8fbf-0dc2.reporo.net
 80a16e63df.com
 80cd-f452-2db0-8671.reporo.net
@@ -31963,6 +31967,7 @@ ad.mx.doubleclick.net
 ad.my.doubleclick.net
 ad.myapple.pl
 ad.mygamesol.com
+ad.myinstashot.com
 ad.mylinea.com
 ad.mylook.ee
 ad.mynetreklam.com
@@ -43968,6 +43973,7 @@ adsparc.com
 adsparc.net
 adsparkmedia.net
 adsparx.com
+adspayformy.site
 adspayformymortgage.win
 adspcces.ero-advertising.com
 adspdbl.com
@@ -48799,6 +48805,7 @@ alocdn.com
 alodd.likeyoudate.com
 alodd.romancellffe.com
 aloftech.com
+aloftloan.com
 aloftrecedestatistics.com
 aloftriottomato.com
 alog-default.umeng.com
@@ -53525,6 +53532,7 @@ apxlv.com
 apxor.com
 apxtarget.com
 apxtaxvasop.com
+apyboqno.com
 apycdtdlkjqka.site
 apycomm.com
 apyecom.com
@@ -53629,6 +53637,7 @@ ar.429men.com
 ar.4wank.com
 ar.ad.lgsmartad.com
 ar.ads.justpremium.com
+ar.adserver.yahoo.com
 ar.atwola.com
 ar.donga.com
 ar.fapnado.xxx
@@ -106053,6 +106062,7 @@ galleryn2.awemwh.com
 galleryoftheabsurd.us.intellitxt.com
 gallerytraffic.net
 galleyn.com
+gallonairborne.com
 gallonuncanny.com
 gallsrpvzalfr.download
 gallup.2cnt.net
@@ -114066,6 +114076,7 @@ hiddenvalleyrvparkandstorage.com
 hiddenvalleyshop.com
 hide-and-seek.nl
 hide.io
+hide.ovh
 hideaway.com
 hidebux.com
 hidecatastropheappend.com
@@ -124518,6 +124529,7 @@ j5sjr.voluumtrk.com
 j6em9.voluumtrk.com
 j6hek.voluumtrk.com
 j6hek.voluumtrk3.com
+j6mn99mr0m2n.com
 j6wys.rdtk.io
 j7.news-subscribe.com
 j89a.net
@@ -126290,6 +126302,7 @@ jp.cxense.com
 jp.dorpshexyls.com
 jp.doubleclick.net
 jp.gmads.mookie1.com
+jp.go.zog.link
 jp.info.lgsmartad.com
 jp.livelog.nexon.com
 jp.marketo.com
@@ -126487,6 +126500,7 @@ jrmyhchnfawh.com
 jrnefbrogdppa.online
 jroqvbvw.info
 jroxkqhin.com
+jrpfekf.angelfire.com
 jrpkizae.com
 jrqqr.online
 jrqtuk0iravokplxvapb35nnqeo711510243181.nuid.imrworldwide.com
@@ -127081,6 +127095,7 @@ jumpystupid.pro
 jumvsaapqxaed.site
 jun45.com
 junbi-tracker.com
+juncabyssa.cfd
 junclikrmedi.com
 junctioncertifiedwildly.com
 jundclikrmdi.com
@@ -127400,6 +127415,7 @@ jxpieseudktcy.site
 jxqopk.com
 jxseoruuv.com
 jxsixnzrm.bid
+jxsnbpigylb.com
 jxteaj.com
 jxtgroup.com
 jxuezvyaakks.com
@@ -165994,6 +166010,7 @@ psulsobi.net
 psunseewhu.com
 psuphuns.net
 psuqcrvrchbbv.space
+psurdoak.com
 psurigrabi.com
 psusseelsaix.com
 psustaufubu.net
@@ -166715,6 +166732,7 @@ pubpress.net
 pubrain.com
 pubrepo.pubmatic.com
 pubs.france-hardware.com
+pubs.hiddennetwork.com
 pubs.lemonde.fr
 pubs.mgn.net
 pubs.opportunites.mg
@@ -168380,6 +168398,7 @@ qertewrt.com
 qerubbomxxfhw.com
 qesrnpogpignd.store
 qetvprss.com
+qeuggztcqmashg.bid
 qevfmwciyp.bid
 qevivcixnngf.com
 qevkdmgcv.bid
@@ -170761,6 +170780,7 @@ rb-express.com
 rb-ff.com
 rb-nb.com
 rb-net.com
+rb-rr.com
 rb-sk.com
 rb-sk.org
 rb.adnxs.com
@@ -171247,6 +171267,7 @@ realistic-negotiation.com
 realistic-total.pro
 realisticwhite.com
 realisticwindow.com
+realitance.com
 realitatea.2cnt.net
 realitateadro.hit.gemius.pl
 realityads.co.za
@@ -172301,6 +172322,7 @@ relearnpsycter.digital
 release-me.ru
 release.admin-zone-dev.adtelligent.com
 release.baidu.com
+release.dsp-member-zone.adtelligent.com
 release.kite.com
 release.services.adtelligent.com
 releaseadvt.com
@@ -179747,6 +179769,7 @@ sdkm.w.inmobi.cn
 sdkm.w.inmobi.com
 sdkm.w.vip.ams1.inmobi.com
 sdkmetrics.mercadopago.com.br
+sdks.stats-locations.com
 sdkstat.ggsafe.com
 sdkstatic.onemt.co
 sdksync.prod.vuforia.com
@@ -182008,6 +182031,7 @@ sfwwzmtlhrajx.website
 sfx-preprod.stickyadstv.com
 sfx.stickyadstv.com
 sfxdifdabwsux.site
+sfxmdqbi.com
 sfxuiadi.com
 sfybuzosbl.com
 sfzcbcrwxhic.com
