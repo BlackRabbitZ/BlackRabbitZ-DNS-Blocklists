@@ -40,8 +40,10 @@ jobs:
         uses: actions/checkout@v7
         with:
           fetch-depth: 0
+
       - name: Statistiken erzeugen
         run: python3 ./scripts/automation/list_statistics.py
+
       - name: Änderungen committen
         shell: bash
         run: |
@@ -68,33 +70,54 @@ jobs:
     permissions:
       contents: write
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+    timeout-minutes: 300
     steps:
       - name: Aktuellen Repository-Stand auschecken
         uses: actions/checkout@v7
         with:
           fetch-depth: 0
+
+      - name: Kategorie-Listen sicher bereinigen
+        run: python3 ./scripts/automation/quality_report.py --fix
+
+      - name: Abgeleitete Listen nach einer Bereinigung neu bauen
+        shell: bash
+        run: |
+          if git diff --quiet -- lists/categories; then
+            echo "Keine Kategorie-Datei geändert; vollständiger Rebuild nicht erforderlich."
+          else
+            echo "Kategorie-Dateien wurden bereinigt; Profile und Metadaten werden synchronisiert."
+            bash ./scripts/update-lists.sh
+          fi
+
       - name: Qualitätsbericht erzeugen
         run: python3 ./scripts/automation/quality_report.py
+
       - name: Bericht als Artefakt hochladen
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: quality-report
           path: |
             QUALITY.md
             metadata/quality.json
           retention-days: 30
-      - name: Qualitätsfehler als CI-Fehler markieren
-        run: python3 ./scripts/automation/quality_report.py --check
-      - name: Bericht committen
+          if-no-files-found: error
+
+      - name: Änderungen validieren
+        run: git diff --check
+
+      - name: Bereinigungen und Bericht committen
         shell: bash
         run: |
-          if [[ -z "$(git status --porcelain QUALITY.md metadata/quality.json)" ]]; then
-            echo "Qualitätsbericht unverändert."
+          if [[ -z "$(git status --porcelain)" ]]; then
+            echo "Keine Änderungen zu committen."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add QUALITY.md metadata/quality.json
-          git commit -m "chore: update quality report"
+          git add -A
+          git commit -m "chore: repair blocklists and update quality report"
           git push
+
+      - name: Qualitätsfehler als CI-Fehler markieren
+        run: python3 ./scripts/automation/quality_report.py --check
