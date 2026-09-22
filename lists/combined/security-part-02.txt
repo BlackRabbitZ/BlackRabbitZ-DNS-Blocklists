@@ -3,14 +3,16 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 955669
-# Profile Total Entries: 3539369
+# Entries: 955673
+# Profile Total Entries: 3539373
 #
 # Includes: malware,phishing,scam,fake-shops,cryptomining
 #
 # IMPORTANT: This is only one part of the security profile.
 # Add every security-part-NN.txt Raw URL listed in the README for complete coverage.
 #
+sognebairn.cyou
+sogneklatreklubb.no
 sognfr.firebaseapp.com
 sognfr.web.app
 sognnfr.firebaseapp.com
@@ -67260,6 +67262,7 @@ sultan88.live
 sultan88.xyz
 sultan88dana.com
 sultan979.online
+sultanaexecutive.com
 sultanaflow.click
 sultanagrid.digital
 sultanahmetshuttle.com
@@ -730642,6 +730645,7 @@ www.sivolumeupflash.icu
 www.sivolumeupflash.xyz
 www.sivrex.com
 www.sivricerihtim.com
+www.sivritepeinsaat.com
 www.siw.godlopolski.com
 www.siwasrl.com
 www.siwi.solutions

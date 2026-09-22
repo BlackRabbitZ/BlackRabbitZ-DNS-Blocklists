@@ -3,14 +3,18 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 265942
-# Profile Total Entries: 5511468
+# Entries: 265946
+# Profile Total Entries: 5511472
 #
 # Includes: ads,trackers,telemetry,gaming-telemetry,windows-telemetry,apple-telemetry,android-telemetry,linux-telemetry,nas-telemetry,server-telemetry,smart-tv,iot,mobile-tracking,social-trackers,native-tracking,phishing,malware,scam,cryptomining,fake-shops,adult,gambling,affiliate-tracking
 #
 # IMPORTANT: This is only one part of the ultimate profile.
 # Add every ultimate-part-NN.txt Raw URL listed in the README for complete coverage.
 #
+www.thepantheon.co
+www.thepaperbelle.com
+www.thepaperboy.com
+www.thepaperdollarmy.com
 www.thepapermill.com
 www.theparismetro.com
 www.thepark14.com
