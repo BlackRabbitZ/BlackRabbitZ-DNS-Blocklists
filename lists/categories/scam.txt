@@ -3,8 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 284443
-# Auto-updated: 2026-09-22T08:35:23Z
+# Entries: 284445
+# Auto-updated: 2026-09-23T08:37:09Z
 # Description: Massive scam, fraud and deceptive-platform domain set.
 # Sources: Block List Project Fraud/Scam; DurableNapkin Scam Blocklist; curated BaFin entries
 # Snapshot: 2026-08
@@ -101001,6 +101001,7 @@ navi24.ru
 navi26.ru
 navi27.ru
 navi3.com
+navi30.com
 navi30.ru
 navi33.com
 navi35.com
@@ -231306,6 +231307,7 @@ www.navi25.ru
 www.navi26.ru
 www.navi27.ru
 www.navi3.com
+www.navi30.com
 www.navi30.ru
 www.navi33.com
 www.navi35.com

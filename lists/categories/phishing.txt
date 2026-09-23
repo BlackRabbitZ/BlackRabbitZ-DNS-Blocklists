@@ -3,8 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 572700
-# Auto-updated: 2026-09-21T18:20:28Z
+# Entries: 572701
+# Auto-updated: 2026-09-23T08:37:03Z
 # Description: Massive active and curated phishing-domain set.
 # Sources: Block List Project Phishing; Phishing.Database ACTIVE
 # Snapshot: 2026-08
@@ -485204,6 +485204,7 @@ vivamoda.by
 vivamusica.sk
 vivantis.1day-sk.shop
 vivantis.cosibellapl-co.com
+vivantis.cosmetica-sale.com
 vivantis.cupio.it.com
 vivantis.edeka24salede24.top
 vivantis.ejnl.shop
