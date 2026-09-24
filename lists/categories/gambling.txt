@@ -3,7 +3,7 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 661229
+# Entries: 661227
 # Auto-updated: 2026-09-23T08:37:42Z
 # Description: Massive betting, casino and gambling domain set.
 # Sources: Block List Project Gambling; HaGeZi Gambling
@@ -94355,7 +94355,6 @@
 7k-01.casino
 7k-0100.casino
 7k-098.casino
-7k-099.casino
 7k-126.casino
 7k-128.casino
 7k-129.casino
@@ -513029,7 +513028,6 @@ pokercasinogaming.online
 pokercasinojackpots.com
 pokercasinon.se
 pokercasinonow.com
-pokercasinoonline.net
 pokercasinos.xyz
 pokercasinosanpaolo.com
 pokercasinosports.com

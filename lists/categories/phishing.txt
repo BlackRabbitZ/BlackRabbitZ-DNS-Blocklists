@@ -3,7 +3,7 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 572701
+# Entries: 572663
 # Auto-updated: 2026-09-23T08:37:03Z
 # Description: Massive active and curated phishing-domain set.
 # Sources: Block List Project Phishing; Phishing.Database ACTIVE
@@ -6842,7 +6842,6 @@
 1notic-apple.servehttp.com
 1notificationdhl1exprex-baca12.ingress-earth.ewp.live
 1npos-t.shopsite-32.xyz
-1npost.320212111222.xyz
 1npost.net
 1nst4gr4m.duckdns.org
 1nstagerinsataeqy39hzh3wbwivzv-login-com.filesusr.com
@@ -12501,7 +12500,6 @@
 360care-online-docs.ml
 360care-online-pdf.cf
 360care-online-pdf.ga
-360care-online-pdf.gq
 360care-online.cf
 360care-online.ga
 360care-pdf-docs.ga
@@ -17109,7 +17107,6 @@
 4ea8068ab1dec5705d2ae378c29993e0-dot-gle9392420309493993.rj.r.appspot.com
 4ea81b21bbd213fef855e114424d147f-dot-goff039302032323.rj.r.appspot.com
 4eb2845e-d0b2-4e2e-922c-ads-business-request-review.vercel.app
-4ebd0208-8328-5d69-8c44-ec50939c0967.slaxy.net
 4eblzrt1rhql0bsprc.53244ds.xyz
 4ecd2.z6.web.core.windows.net
 4ed0c23b.huaxinsbm.com
@@ -22996,7 +22993,6 @@
 68151.a16jw8.edu.cn.shuaihu99.com
 68164155415214.hyperphp.com
 681651.duckdns.org
-681661.com
 6817d43d-c0cf-420a-86e8-cc323f6f8237.id.repl.co
 68194779.cnhls.com.cn
 681djo.68399j.vip
@@ -25754,7 +25750,6 @@
 7n8o.top
 7namtuhao.gaerana.io.vn
 7namtuhao.gasenna.id.vn
-7ncfagb5cakpudf00ls7.mafe.edu.co
 7neta5ej22j.access.ly
 7nfwupdc1d56bcp6xkcnk.qwo231sdx.club
 7ngvt.qwo231sdx.club
@@ -33760,7 +33755,6 @@ abcsms.com.my
 abcstone-tiling.com.au
 abcsupportt.com
 abctutors.in
-abcuipo.com
 abcushingmills.gotdns.ch
 abcvnitu.xyz
 abcweb.com.br
@@ -36082,7 +36076,6 @@ acceso24-banorte.com24wps-homeportal87656.com
 acceso24-banorte.com7687-gvdbcyj87.com
 acceso24.banorte-com.ws
 acceso24.banorte.com.bxi081.xyz
-acceso24.banorte.com.mx-ssl1.xyz
 acceso24banorte.com091-sn92.com
 acceso24bnorte.accesomx.info
 accesoathe244micr.glitch.me
@@ -50998,7 +50991,6 @@ aislacentro.cl
 aislarefordecopamplona.com
 aisle.pbphgwbr.in
 aislingsmith.com
-aismalibar.cn
 aismartmall.vip
 aisne-ec74fe.ingress-florina.ewp.live
 aisnetworkaward.pages.dev
@@ -51652,7 +51644,6 @@ akbnkbmsmczz.com
 akbnkiadesihizmetinizdeyizsubattr2023tr3.net
 akbnktalebleriniz.com
 akbnktemmuzfirsatlari.com
-akbntronlineduyuru.com
 akboss.net
 akbotago.kz
 akbotalife.com
@@ -53552,7 +53543,6 @@ alert0-platform.cloudns.nz
 alert01mygov.info
 alert02i-2fa.ddns.net
 alert09-web.cloudns.ph
-alert2023.repl.co
 alert4.info
 alert9kfcu.org
 alerta--marielarlhuehue.repl.co
@@ -64966,7 +64956,6 @@ amzonz.shop
 amzoon.co
 amzoonmmm.top
 amzoptimizers.com.pk
-amzosdn-9ytew.kshouyou.com
 amzoshcjeassdg.top
 amzosn.ddnsking.com
 amzosp-4urwem.shengqianguanjia.net
@@ -66496,7 +66485,6 @@ anhchieumay.000webhostapp.com
 anhdailaso.github.io
 anhdaquenna.tallit-for-woman.com
 anhduongyoga.com
-anhdv1.ml
 anhedeme.kimsohun.sbs
 anhelarsac.com
 anheuser-busch.aircargorecife.com.br
@@ -73242,7 +73230,6 @@ app.clickfunnels.com
 app.cliente.juridico.caixabr.acesso.mobiile.site
 app.cliente.santan.der.brasil.br.clientis.xyz
 app.cloudstream.xyz
-app.coinwalletforex.com
 app.colsgurty.cloud
 app.com-yxzx.xyz
 app.confirm-user-selection.top
@@ -74975,7 +74962,6 @@ appl-info.com
 appl-isupport.us
 appl-jpan-support.usa.cc
 appl-ld-findmy.live
-appl-location.com
 appl-login.sytes.net
 appl-manegenonemm.myftp.biz
 appl-qx.ws
@@ -75283,7 +75269,6 @@ apple-drone.solutions
 apple-drones.solutions
 apple-dt-portal-online.com
 apple-e-com.com
-apple-e.space
 apple-e.support
 apple-ec2-support-online.com
 apple-edition.com
@@ -76811,7 +76796,6 @@ apple.vgueed.com
 apple.vjh724.com
 apple.vn377.com
 apple.vrservicio.com
-apple.wikback.com
 apple.wyhzzx.com
 apple.xhyz0x.com
 apple.xiaoyuanzhiqing.com
@@ -80054,7 +80038,6 @@ appnormativa.com
 appnormativa.net
 appnosticworx.com
 appnotification.duckdns.org
-appnubank.jdevcloud.com
 appnubank.sslblindado.com
 appnubankcomunytii.duckdns.org
 appnubankonlinee.joomla.com
@@ -81115,7 +81098,6 @@ aproveiteamaiorlojaonline.com
 aproveiteasnossasmelhoresofertas.com
 aproveitegrandediadecomprarbarato.club
 aproveitegrandesaldao.com
-aproveitehojee.online
 aproveitehooje.online
 aproveitemagazine.online
 aproveitemelhoravida-online.umbler.net
@@ -86553,7 +86535,6 @@ ask-tre--zor-bridge-access-auth.pages.dev
 ask-wop-2132kks.pages.dev
 ask.careers
 ask.ffbgid.com.51-79-175-155.cpanel.site
-ask.smragle.com
 ask.wawpp.icu
 ask.ysxzfbi.ru
 ask02.blob.core.windows.net
@@ -220513,7 +220494,6 @@ fb50eprotection262gas.web.id
 fb53155334116521-com.preview-domain.com
 fb5454.000webhostapp.com
 fb56-real-estate-buying3-page68.house
-fb564-real-estate-buying23-page5.house
 fb56725-real-estate-item67487-page29845.house
 fb57893-page57869-real-estate-item25634.house
 fb6-real-estate-buying35-page1.house
@@ -224845,7 +224825,6 @@ fide-litynxutz.qpon
 fide-lityqjxya.shop
 fide-lityxuyea.qpon
 fide-llty.cyou
-fide11ti.cc
 fide11tyxz.cc
 fide1i1ty.cc
 fide1i7t1.cc
@@ -241673,7 +241652,6 @@ gift7500xlm.org
 giftabudhabionline.com
 giftaccents.duckdns.org
 giftaty.com
-giftboxindia.com
 giftbpi-vip.cc
 giftcard-gameroom-bonus.890m.com
 giftcard-sale.com
@@ -244121,7 +244099,6 @@ go2futurelife.com
 go2grass.co.uk
 go2l.ink
 go2media.co.za
-go2mysjrb.com
 go2page.org
 go2slidell.com
 go2social.ca
@@ -250268,7 +250245,6 @@ grubwhatsappviral.ml
 grubwhatsappviral18.duckdns.org
 grubwhatsappviral18plus.se.ke
 grubwhatsappvrl21.duckdns.org
-grubwhatsappwahyukadeoasli.tk
 grubwhatsapsarah.duckdns.org
 grubwhatsapviral7.duckdns.org
 grubwhatshap-28.duckdns.org
@@ -255985,7 +255961,6 @@ halifax-userupdate.com
 halifax-verifiydevice.com
 halifax-verify-payeeuk.com
 halifax-verifybankingapp.team
-halifax-verifylogin.team
 halifax.a3utho.com
 halifax.access-mydevice.uk
 halifax.access-mypayee.com
@@ -256039,7 +256014,6 @@ halifax.canellation-payee-alert.com
 halifax.co.in
 halifax.co.uk-de-register.com
 halifax.co.uk-mobileappupdate-system-update.07bilgisayar.com
-halifax.co.uk-mobileappupdate-system-update.balesbudi.club
 halifax.co.uk-mobileappupdate-system-update.bracaduric.ba
 halifax.co.uk-mobileappupdate-system-update.esenbogashuttle.com
 halifax.co.uk-mobileappupdate-system-update.gdtechnologist.com
@@ -402652,7 +402626,6 @@ pe.meegmfio.in
 pe.telegramc.top
 pe1ny7sg5wrbs-hgvt6qjdpb.web.app
 pe6ps1.com
-pe852cemy7t1tafknfq3xkngcuh1fg6owatj0tolvr4dw8zxddhavm5z0ckdnoe.xzone.no
 pe9xh1o.gdkc9q.cn
 pea.pbphgwbr.in
 peabodyautocollision.com
@@ -403939,7 +403912,6 @@ perdai.pages.dev
 perdecolombia.com.co
 perdida-de-seguimiento-del-paquete.mx
 perdidoonline.help
-perduksa.groupcompanie.com
 perealvees.github.io
 pereatt.weebly.com
 peredaflu.net
@@ -404554,7 +404526,6 @@ personas-do.com
 personas-itauu.website
 personas-only.000webhostapp.com
 personas-virtualbqcolombia.vercel.app
-personas.2sites.repl.co
 personas.balajicotton.com
 personas.bancobcr.com.yobugo.com
 personas.banistmo-app.com
@@ -405257,7 +405228,6 @@ pgsspprttaccntaadmsssty.co.vu
 pgsspptandrcvry.co.vu
 pgstone.ir
 pgsventure.com.au
-pgsvioltnsrestricteds17ul003434545696745.co.vu
 pgsvltionsbsnss1022329203874rcvry.duckdns.org
 pgtesla.com
 pgtgroupme.com
@@ -410829,7 +410799,6 @@ portal.moldoweb.com
 portal.mwebserver.workers.dev
 portal.myonlineservicesnow.co
 portal.nci.cu.edu.eg
-portal.negociebra.com.br
 portal.openledgerhq.click
 portal.organiseit.workers.dev
 portal.outlookonlineportals.top
@@ -412746,7 +412715,6 @@ postsfb-o3naz7pi.novitium.ca
 postsfb-o755wwkzf.novitium.ca
 postsfb-odry5m7k.novitium.ca
 postsfb-olvi1318f5.novitium.ca
-postsfb-p256wz3o4.eximco.mg
 postsfb-pa3ghgpa72.novitium.ca
 postsfb-paahei8w.npfchs.pk
 postsfb-pqka2jte.eximco.mg
@@ -418272,7 +418240,6 @@ psbctts.com
 psbglobal.com
 psbijwmompmzitdeqbyemketyx-dot-gleowayel400503.uc.r.appspot.com
 psbounce.com
-psbt128.com
 psc2wm.com
 pscbank.org
 pscdkgdswmfdasqo-dot-millinium.ey.r.appspot.com
@@ -426778,7 +426745,6 @@ pvuprhbcasnjfctz-dot-millinium.ey.r.appspot.com
 pvvpvi.000webhostapp.com
 pvwkbzfckwonmutn-dot-millinium.ey.r.appspot.com
 pvxlrimsdamredsfimjmrsdqyj-dot-gleowayel400503.uc.r.appspot.com
-pvxooq.site
 pvxyobsiagehbvjc-dot-millinium.ey.r.appspot.com
 pvybggf.cn
 pvzdmpwvcacdukid-dot-millinium.ey.r.appspot.com
@@ -492900,7 +492866,6 @@ www.819wnsr.com
 www.82-ccujmii.net
 www.820e1367e2.000webhostapp.com
 www.83-sfse.ml
-www.831167d1d11e16b877055beb00ffec4b.com
 www.840a667948d8-amazon.com
 www.8438348934sssdfile.000webhostapp.com
 www.843deals.com
@@ -504434,7 +504399,6 @@ www.blockcnalh.com
 www.blockcnaln.com
 www.blocked-firewall-apple.com
 www.blocked-restore.000webhostapp.com
-www.blockersm.ga
 www.blockglobalsecurity.com
 www.blockhaine.blogspot.com
 www.bloclkchaln.online
@@ -531291,7 +531255,6 @@ www.lafamilledegazon.com.br
 www.lafayedemicheauxluka.000webhostapp.com
 www.lafayettebeauty.net
 www.lafede.es
-www.lafemmeglitz.com
 www.lafibraottica.it
 www.laficosmeticos.com.br
 www.lafinikera.com
@@ -531396,7 +531359,6 @@ www.lampsncrafts.co.ke
 www.lampwork.su
 www.lamsinternetguide.com
 www.lamusa.com.au
-www.lamusica-dj.com
 www.lamusika2016.com
 www.lanafurniture.com
 www.lanajafactory.com

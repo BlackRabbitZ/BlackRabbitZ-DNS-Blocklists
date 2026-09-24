@@ -3,7 +3,7 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 284445
+# Entries: 284425
 # Auto-updated: 2026-09-23T08:37:09Z
 # Description: Massive scam, fraud and deceptive-platform domain set.
 # Sources: Block List Project Fraud/Scam; DurableNapkin Scam Blocklist; curated BaFin entries
@@ -963,7 +963,6 @@
 1xpornhub.com
 1xsupport.com
 1y2tft3.hair
-1zasacallcenter.tk
 1zl8l3sy.top
 1zv449.filled.pw
 1zynzv-streamless53.stream
@@ -5765,7 +5764,6 @@ advance-support-notify-services.com
 advance-systems-support.com
 advance.sanfranciscocityhotel.com
 advancealertsecurity.net
-advancecashinstant.com
 advanced-code7189.com
 advanced-file-recovery.com
 advanced-investors.com
@@ -7724,7 +7722,6 @@ aleefai.com
 alefinancing.com
 alegar.stream
 alehin.biz
-aleinvest.xyz
 alejandrocoussio.com.ar
 alekonta.pl
 alekseyshlyahov.ru
@@ -12253,7 +12250,6 @@ allegrolokalnie.12200h0592.xyz
 allegrolokalnie.12304982h5.xyz
 allegrolokalnie.1231823812giri.lol
 allegrolokalnie.126251.shop
-allegrolokalnie.12939h74.xyz
 allegrolokalnie.161251.click
 allegrolokalnie.162561.shop
 allegrolokalnie.162616.click
@@ -12805,7 +12801,6 @@ allegrolokalnie.pl-s.shop
 allegrolokalnie.pl-u.shop
 allegrolokalnie.pl-u1gyf.sbs
 allegrolokalnie.pl-ws010101012.shop
-allegrolokalnie.pl-wsed.shop
 allegrolokalnie.pl-x.xyz
 allegrolokalnie.pl018986702306.cfd
 allegrolokalnie.pl1-32142.cfd
@@ -15755,7 +15750,6 @@ app-acc-verify7652.systems
 app-accltunsverify24155.com
 app-account-information.com
 app-alert1.com
-app-alpha.net
 app-analyse.de
 app-associates.com
 app-customer-updates.com
@@ -57712,7 +57706,6 @@ ff2dead5a7.pw
 ff7drift.com
 ffaddpar.shop
 ffarmers.eu
-ffcchh.com
 ffcdiecast.com
 ffch.rp8trq.qpon
 ffdm1.tk
@@ -58851,7 +58844,6 @@ fitavon.shop
 fitbands.de
 fitbinz.com
 fitboxy.pl
-fitbuyfollower.com
 fitcart.shop
 fitchciapara.com
 fitchets.us
@@ -68204,7 +68196,6 @@ hbvnnwtoonhh.com
 hbzfhzpd.bid
 hbzzkwsuaooc.com
 hc-host-01.com
-hc-host-02.com
 hc-host-03.com
 hc-host-04.com
 hc-host-05.com
@@ -111970,7 +111961,6 @@ pc-7cz25.stream
 pc-7dj26.stream
 pc-7dt27.stream
 pc-7ei28.stream
-pc-7fx32.stream
 pc-7gh33.stream
 pc-7gr34.stream
 pc-7hq37.stream
@@ -112158,7 +112148,6 @@ pc-abp3.stream
 pc-abp38.stream
 pc-abp43.stream
 pc-abp58.stream
-pc-abp63.stream
 pc-abp78.stream
 pc-abp83.stream
 pc-abp98.stream
@@ -112742,7 +112731,6 @@ pc-mb78.stream
 pc-mb83.stream
 pc-mb98.stream
 pc-mc18.stream
-pc-mc23.stream
 pc-mc3.stream
 pc-mc38.stream
 pc-mc43.stream
@@ -118119,7 +118107,6 @@ pradashoponline.top
 pradatote.top
 pradatotebag.top
 praeicwgzapf.com
-praelect.icu
 praetors.icu
 praezisionswerkzeugbau.de
 prafa42d.lat
@@ -160607,7 +160594,6 @@ vlrzhoueyoxw.com
 vltrkltuqe.bid
 vltvhssjbliy.com
 vlufledr.bid
-vlvowhlxxibn.com
 vlxgszdgmnay.com
 vm33m2hj2l.info
 vm3cit.qpon
@@ -161008,7 +160994,6 @@ vsanos.online
 vscan.best
 vseas.thegeneralpurposepodcast.com
 vsecuresupport.online
-vsecuritys.com
 vsegda-plus.info
 vsegda-plys.ru
 vseobuch.ru
@@ -161202,7 +161187,6 @@ vwbvandbj.bid
 vwebers.us
 vwemlicv.shop
 vwgffbknpgxe.com
-vwimfzntn.bid
 vwmux7.com
 vwpowhxrpdlmtq.bid
 vwretrofit.ro
@@ -165280,7 +165264,6 @@ webhubtest.net
 webhubunisol.com
 webinar-universe.com
 webinfotechllc.com
-webinno-support.com
 webinopoly.com
 webinsert53-net.ga
 webinsert53-net.tk
@@ -192247,7 +192230,6 @@ www.com-summary-account-status-signin.com
 www.com-summary-account-status-signin.support
 www.com-summary-account9123.uk
 www.com-support-account-information.com
-www.com-support-account-verification.com
 www.com-support-auth-policy-agreements.net
 www.com-support-contact-help-1000889665009.com
 www.com-support-inc.info
@@ -223308,7 +223290,6 @@ www.lmportant-notlce-px0.gdn
 www.lmportant-notlce-pz0.gdn
 www.lmportant-notlce-q01.gdn
 www.lmportant-notlce-q11.gdn
-www.lmportant-notlce-q21.gdn
 www.lmportant-notlce-q31.gdn
 www.lmportant-notlce-q41.gdn
 www.lmportant-notlce-q70.gdn
@@ -280298,7 +280279,6 @@ www.zolotoy-slitok.pro
 www.zolrqw.palatlaldate.com
 www.zoltravanix.site
 www.zom007.site
-www.zombieshiphack.online
 www.zombiestakingover.com
 www.zombiie.com
 www.zomosta.com

@@ -3,7 +3,7 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 373196
+# Entries: 373183
 #
 # Includes: ads,trackers,social-trackers
 #
@@ -17058,7 +17058,6 @@ a19961.actonsoftware.com
 a1a5ab31bcd1bc68.com
 a1b1ea8f418ca02ad4e.com
 a1budgetcarpetcleaners.com
-a1d62657ec88.com
 a1db6a0384.c63b91ca50.com
 a1dentalcareinc.com
 a1dev.com
@@ -52763,7 +52762,6 @@ alecmind.com
 alefrfobkoxbgaf.com
 alegroup.info
 aleilu.com
-aleinvest.xyz
 alejandramarroquin.com
 aleloinst.tt.omtrdc.net
 alemoney.xyz
@@ -53989,7 +53987,6 @@ ammunitionlikelihoodtrigger.com
 ammunitionorgans.com
 amnatu.info
 amnestygall.com
-amnestyhailstone.com
 amnet.adswizz.com
 amnet.tw
 amnet01trks.com
@@ -71264,7 +71261,6 @@ appsgrowthpromo-pa.clients6.google.com
 appsgrowthpromo-pa.googleapis.com
 appsha2.ctnetload2.com
 appsha2.space
-appsha4.space
 appsha5.space
 appshake.engine.adglare.net
 appshelf.ttpsdk.info
@@ -143322,7 +143318,6 @@ geobytes.com
 geocdn.unityads.unity3d.com
 geoced.smartadserver.com
 geocities.be
-geocities.bfast.com
 geocities.co.in
 geocities.eu
 geocities.nl
@@ -155398,7 +155393,6 @@ hg16.hitbox.com
 hg17.hitbox.com
 hg2.hitbox.com
 hg45.app
-hg65p.com
 hg6a.hitbox.com
 hg7nu.voluumtrk.com
 hg8dc7bm.com
@@ -242249,7 +242243,6 @@ pikelogisticsllc.com
 pikeloxamic.qpon
 pikinessyard.com
 piksel.com
-pikulhttcwgtyj.com
 pikvm.zoelev.com
 pikzor.com
 pilagehend.website
@@ -248366,7 +248359,6 @@ pj.nurledsandust.com
 pj0730.com
 pjaqm.fitkitchen.ca
 pjatr.com
-pjbgowoswnxul.website
 pjbifjjtir.com
 pjbwsczypwze.com
 pjchntkwtjdnr.online
@@ -343661,7 +343653,6 @@ vhouorcd.com
 vhova.com
 vhpmiipdpjq.com
 vhpqxkhvjgwx.com
-vhqdzoxpepcem.store
 vhqsa.tegsport-us.com
 vhscigqpwe.com
 vhsea.smokingjackets.com
@@ -348903,7 +348894,6 @@ vlscppe.microsoft.com
 vlscykmnd.com
 vlt.me
 vltfezkmhmbz.com
-vltjkelvgvj.com
 vltjn.bucketsquad.com
 vltlk.com
 vltrkltuqe.bid
@@ -348914,7 +348904,6 @@ vlukas.ru
 vluwqsrlqy.com
 vlvippoe.com
 vlvl.online
-vlvowhlxxibn.com
 vlvrq.instababe.net
 vlwdjmvhf.com
 vlwjbqqovvugf.site
@@ -350330,7 +350319,6 @@ vwfvnfvelrvvww.com
 vwgffbknpgxe.com
 vwhrlnwk.com
 vwijf.com
-vwimfzntn.bid
 vwjsiywwgynud.online
 vwkundjxm.com
 vwkyuawm.com
@@ -362729,7 +362717,6 @@ www.quick-counter.net
 www.quick-torrent.com
 www.quickbitsdownloads.com
 www.quickbrowsersearch.com
-www.quickcreditscore.co.uk
 www.quinnwealth.com
 www.quinolaerbnj.download
 www.quizilla.com
