@@ -3,7 +3,7 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 375120
+# Entries: 375121
 #
 # Includes: ads,trackers,social-trackers,affiliate-tracking,telemetry,windows-telemetry,apple-telemetry,android-telemetry,linux-telemetry,nas-telemetry,server-telemetry,mobile-tracking,native-tracking,smart-tv,iot
 #
@@ -48548,6 +48548,7 @@ adtruism.com
 adtrustmedia.com
 adtruth.com
 adts.btrkpro.com
+adts.lgtvcommon.com
 adtsk.mobi
 adttrack.pubmatic.com
 adtual1.go2cloud.org

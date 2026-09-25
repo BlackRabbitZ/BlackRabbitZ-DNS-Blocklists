@@ -3,8 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 1028847
-# Auto-updated: 2026-09-21T18:20:44Z
+# Entries: 1028860
+# Auto-updated: 2026-09-25T08:51:55Z
 # Description: Massive adult-content and pornography domain set.
 # Sources: Block List Project Porn; StevenBlack porn-only
 # Snapshot: 2026-08
@@ -441522,6 +441522,7 @@ img.perfectxbody.com
 img.perfectxpic.com
 img.perfectxsexy.com
 img.persiankitty.com
+img.phimkk.pro
 img.porn18videos.com
 img.pornaxo.com
 img.pornbobo.com
@@ -441545,6 +441546,7 @@ img.rule34.xxx
 img.sakuraxgirl.com
 img.schoolgirlsexpics.com
 img.sexavidols.com
+img.sexbuz.com
 img.sexodi.com
 img.sexymetas.com
 img.sexyqgirl.com
@@ -441594,11 +441596,13 @@ img.xxx
 img.xxx18hot.com
 img.xxxfiles.com
 img.xxxfiles.tv
+img.xxxmeo.com
 img.xxxphim.top
 img.xxxpornhd.pro
 img.xxxthong.com
 img.xxxtophd.com
 img.xxxvideosfinder.pro
+img.xxxviet.io
 img.xxxvogue.net
 img.xziptv.com
 img.yaoiscan.com
@@ -463065,6 +463069,7 @@ javhdxfilms.com
 javhdxxx.pro
 javhdz.ac
 javhdz.baby
+javhdz.bz
 javhdz.cam
 javhdz.city
 javhdz.fun
@@ -645032,6 +645037,7 @@ phim.sexmup.pro
 phim.vl9x.net
 phim.vuasex.co
 phim.xxxhai.com
+phim.xxxmeo.com
 phim18.blog
 phim18.co
 phim18.in
@@ -645197,6 +645203,7 @@ phimkhongche.com
 phimkk.com
 phimkk.me
 phimkk.net
+phimkk.pro
 phimkk.ws
 phimkqc.com
 phimloanluan.net
@@ -734128,12 +734135,14 @@ rphang.ac
 rphang.adult
 rphang.bar
 rphang.cc
+rphang.com
 rphang.dev
 rphang.dog
 rphang.lat
 rphang.love
 rphang.luutrurp.com
 rphang.me
+rphang.now
 rphang.online
 rphang.tv
 rphang.ws
@@ -737829,6 +737838,7 @@ s.fapax.pro
 s.fapcat.com
 s.freeteenpussypic.com
 s.gaidep.blog
+s.gaigu18.blog
 s.jzzo.com
 s.liveanal.tv
 s.lolsex.eu
@@ -738076,6 +738086,7 @@ s4vpdr51.gay
 s5.cdnv365.com
 s5.cloudembed.net
 s5.dpic.me
+s5.phimkk.pro
 s5.pics.vc
 s5.trafficdeposit.com
 s5.zap3x.com
@@ -981976,6 +981987,7 @@ x4u.ru
 x4u.xyz
 x4x.net
 x4you.de
+x5.xxxviet.io
 x50.org
 x502.top
 x503.top
@@ -1006209,6 +1006221,7 @@ xxxmenhub.com
 xxxmennow.com
 xxxmenoftheworldxxx.tumblr.com
 xxxmenu.com
+xxxmeo.com
 xxxmerchant.com
 xxxmermaidbutt.tumblr.com
 xxxmesh.xyz

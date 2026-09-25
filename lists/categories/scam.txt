@@ -3,8 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 284425
-# Auto-updated: 2026-09-23T08:37:09Z
+# Entries: 284426
+# Auto-updated: 2026-09-25T08:51:38Z
 # Description: Massive scam, fraud and deceptive-platform domain set.
 # Sources: Block List Project Fraud/Scam; DurableNapkin Scam Blocklist; curated BaFin entries
 # Snapshot: 2026-08
@@ -137029,6 +137029,7 @@ store.player-qr.com
 store.polish-money-matters.blogspot.com
 store.popeurope.com
 store.porkbunrr.web.app
+store.prawdziwefilmy.pl
 store.prcrypt.top
 store.pridesocial.net
 store.primevod.pl

@@ -3,8 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 1530
-# Auto-updated: 2026-09-21T18:19:44Z
+# Entries: 1531
+# Auto-updated: 2026-09-25T08:50:36Z
 # Description: Native OS, device and application tracking endpoints.
 # Sources: NextDNS Native Tracking Protection; Perflyst PiHoleBlocklist; HaGeZi native tracking
 # Snapshot: 2026-08
@@ -81,6 +81,7 @@ adserver.bing.com
 adserver.snapads.com
 adservice.google.de
 adstore.response.gcp.eastus.trafficmanager.net
+adts.lgtvcommon.com
 adv.l7.34.sec.miui.com
 adv.sec.intl.miui.com
 adv.sec.miui.com
