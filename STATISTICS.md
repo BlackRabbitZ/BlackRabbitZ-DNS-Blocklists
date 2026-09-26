@@ -3,9 +3,9 @@
 Automatisch erzeugte Größenübersicht. Die Summen sind Dateisummen und keine globale Deduplizierung über Kategorien hinweg.
 
 - Kategorie-Dateien: **48**
-- Summe Kategorie-Einträge: **25,399,144**
+- Summe Kategorie-Einträge: **25,410,905**
 - Kombinierte Dateien: **9**
-- Summe kombinierte Einträge: **12,133,358**
+- Summe kombinierte Einträge: **12,156,686**
 
 ## Kategorien
 
@@ -30,12 +30,12 @@ Automatisch erzeugte Größenübersicht. Die Summen sind Dateisummen und keine g
 | `fake-shops.txt` | 11,533 |
 | `gambling-medium.txt` | 142,333 |
 | `gambling-mini.txt` | 93,304 |
-| `gambling.txt` | 670,936 |
+| `gambling.txt` | 678,990 |
 | `gaming-telemetry-aggressive.txt` | 62 |
 | `gaming-telemetry.txt` | 38 |
 | `iot.txt` | 437 |
 | `linux-telemetry.txt` | 65 |
-| `malware.txt` | 2,799,580 |
+| `malware.txt` | 2,803,287 |
 | `mobile-tracking.txt` | 823 |
 | `most-abused-tlds.txt` | 130 |
 | `nas-telemetry.txt` | 12 |
@@ -65,11 +65,11 @@ Automatisch erzeugte Größenübersicht. Die Summen sind Dateisummen und keine g
 | Datei | Einträge |
 |---|---:|
 | `balanced.txt` | 373,183 |
-| `family-part-01.txt` | 2,069,810 |
+| `family-part-01.txt` | 2,077,864 |
 | `light.txt` | 235,690 |
-| `security-part-01.txt` | 2,583,839 |
-| `security-part-02.txt` | 963,935 |
+| `security-part-01.txt` | 2,583,327 |
+| `security-part-02.txt` | 968,101 |
 | `strict.txt` | 375,121 |
-| `ultimate-part-01.txt` | 2,635,047 |
-| `ultimate-part-02.txt` | 2,614,191 |
-| `ultimate-part-03.txt` | 282,542 |
+| `ultimate-part-01.txt` | 2,633,706 |
+| `ultimate-part-02.txt` | 2,617,191 |
+| `ultimate-part-03.txt` | 292,503 |

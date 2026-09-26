@@ -19,12 +19,12 @@
     "fake-shops.txt": 11533,
     "gambling-medium.txt": 142333,
     "gambling-mini.txt": 93304,
-    "gambling.txt": 670936,
+    "gambling.txt": 678990,
     "gaming-telemetry-aggressive.txt": 62,
     "gaming-telemetry.txt": 38,
     "iot.txt": 437,
     "linux-telemetry.txt": 65,
-    "malware.txt": 2799580,
+    "malware.txt": 2803287,
     "mobile-tracking.txt": 823,
     "most-abused-tlds.txt": 130,
     "nas-telemetry.txt": 12,
@@ -49,20 +49,20 @@
     "url-shortener.txt": 9904,
     "windows-telemetry.txt": 460
   },
-  "category_entry_sum": 25399144,
+  "category_entry_sum": 25410905,
   "category_files": 48,
   "combined": {
     "balanced.txt": 373183,
-    "family-part-01.txt": 2069810,
+    "family-part-01.txt": 2077864,
     "light.txt": 235690,
-    "security-part-01.txt": 2583839,
-    "security-part-02.txt": 963935,
+    "security-part-01.txt": 2583327,
+    "security-part-02.txt": 968101,
     "strict.txt": 375121,
-    "ultimate-part-01.txt": 2635047,
-    "ultimate-part-02.txt": 2614191,
-    "ultimate-part-03.txt": 282542
+    "ultimate-part-01.txt": 2633706,
+    "ultimate-part-02.txt": 2617191,
+    "ultimate-part-03.txt": 292503
   },
-  "combined_entry_sum": 12133358,
+  "combined_entry_sum": 12156686,
   "combined_files": 9,
   "schema_version": 1
 }
