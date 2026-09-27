@@ -3,7 +3,7 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 375121
+# Entries: 375128
 #
 # Includes: ads,trackers,social-trackers,affiliate-tracking,telemetry,windows-telemetry,apple-telemetry,android-telemetry,linux-telemetry,nas-telemetry,server-telemetry,mobile-tracking,native-tracking,smart-tv,iot
 #
@@ -40884,6 +40884,7 @@ ads-cloud.rovio.com
 ads-codes.net
 ads-colruytgroup.adhese.com
 ads-corelio.adhese.com
+ads-cps-in.heytapmobile.com
 ads-creativesyndicator.com
 ads-ct.creative-serving.com
 ads-d.viber.com
@@ -99947,9 +99948,12 @@ cnzz.mmstat.com
 cnzz.net
 cnzz.yifenghuyu.com
 co-ad-lgsmartad-com.aws-prd.net
+co-cota.vivoglobal.com
 co-domaincfg.vivoglobal.com
 co-gmtdmp.mookie1.com
 co-merchandise.opera-api.com
+co-onrt-stsdk.vivoglobal.com
+co-ort-stsdk.vivoglobal.com
 co-pnrt-stsdk.vivoglobal.com
 co-romsp-unifyconfig.vivoglobal.com
 co-st-sl.vivoglobal.com
@@ -99957,6 +99961,7 @@ co-stsdk.vivoglobal.com
 co-timesync.vivoglobal.com
 co-vcode-api.vivoglobal.com
 co-vcode-od.vivoglobal.com
+co-vcode-or.vivoglobal.com
 co.ad.lgsmartad.com
 co.ads.justpremium.com
 co.akisinn.info
@@ -116565,6 +116570,7 @@ de-freshmilk.a.videoplaza.tv
 de-freshmilk.cdn.videoplaza.tv
 de-freshmilk.videoplaza.tv
 de-gdpr-err-up.vivoglobal.com
+de-gdpr-vcode-api.vivoglobal.com
 de-glibhippo.a.videoplaza.tv
 de-glibhippo.cdn.videoplaza.tv
 de-glibhippo.videoplaza.tv
@@ -164354,6 +164360,7 @@ in-appprt-stsdk.vivoglobal.com
 in-automate.sendinblue.com
 in-bads.adiquity.com
 in-cdn.effectivemeasure.net
+in-cfg-stsdk.vivoglobal.com
 in-cota.vivoglobal.com
 in-ctdbonrt-stsdk.vivoglobal.com
 in-ctdbort-stsdk.vivoglobal.com

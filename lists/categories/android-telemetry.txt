@@ -3,8 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 1544
-# Auto-updated: 2026-09-21T18:19:44Z
+# Entries: 1551
+# Auto-updated: 2026-09-27T09:16:24Z
 # Description: Android and Android-vendor native telemetry and tracking endpoints.
 # Sources: Perflyst PiHoleBlocklist; NextDNS Native Tracking Protection
 # Snapshot: 2026-08
@@ -75,6 +75,7 @@ ads-bdapi-my.heytapmobile.com
 ads-bdapi-ph.heytapmobile.com
 ads-bdapi-th.heytapmobile.com
 ads-bdapi-vn.heytapmobile.com
+ads-cps-in.heytapmobile.com
 ads-dra.platform.hihonorcloud.com
 ads-drcn.platform.hihonorcloud.com
 ads-dre.platform.hihonorcloud.com
@@ -434,7 +435,10 @@ cname-in-apport-stsdk.vivoglobal.com
 cname-in-bom01-nginxpool03.vivoglobal.com
 cname-in-ctdbonrt-stsdk.vivoglobal.com
 cname-sin01-stsdk09.vivoglobal.com
+co-cota.vivoglobal.com
 co-domaincfg.vivoglobal.com
+co-onrt-stsdk.vivoglobal.com
+co-ort-stsdk.vivoglobal.com
 co-pnrt-stsdk.vivoglobal.com
 co-romsp-unifyconfig.vivoglobal.com
 co-st-sl.vivoglobal.com
@@ -442,6 +446,7 @@ co-stsdk.vivoglobal.com
 co-timesync.vivoglobal.com
 co-vcode-api.vivoglobal.com
 co-vcode-od.vivoglobal.com
+co-vcode-or.vivoglobal.com
 comc4l7.pandora.xiaomi.com
 conf-in-dc.heytapdl.com
 conf-in-dc.heytapmobile.com
@@ -534,6 +539,7 @@ dcc-awareness-cn.heytapmobi.com
 dcintl.push.heytapmobi.com
 ddf.di.atlas.samsung.com
 de-gdpr-err-up.vivoglobal.com
+de-gdpr-vcode-api.vivoglobal.com
 de.pandora.xiaomi.com
 dev-apigw.samsungdmroute.com
 dev.appboy.com
@@ -794,6 +800,7 @@ in-apponrt-stsdk.vivoglobal.com
 in-apport-stsdk.vivoglobal.com
 in-apppnrt-stsdk.vivoglobal.com
 in-appprt-stsdk.vivoglobal.com
+in-cfg-stsdk.vivoglobal.com
 in-cota.vivoglobal.com
 in-ctdbonrt-stsdk.vivoglobal.com
 in-ctdbort-stsdk.vivoglobal.com
