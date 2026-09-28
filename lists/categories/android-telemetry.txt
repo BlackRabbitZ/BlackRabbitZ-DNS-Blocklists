@@ -3,8 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 1551
-# Auto-updated: 2026-09-27T09:16:24Z
+# Entries: 1556
+# Auto-updated: 2026-09-28T09:48:40Z
 # Description: Android and Android-vendor native telemetry and tracking endpoints.
 # Sources: Perflyst PiHoleBlocklist; NextDNS Native Tracking Protection
 # Snapshot: 2026-08
@@ -272,6 +272,7 @@ bldr.mkt.samsung.com
 bossadmin.pandora.xiaomi.com
 box.pandora.xiaomi.com
 bpu.samsungelectronics.com
+br-cota.vivoglobal.com
 br-p.vivoglobal.com
 browser-api-br.heytapmobile.com
 browser-api-fr.heytapmobile.com
@@ -716,6 +717,10 @@ gui-server-sg.allawnos.com
 gui-server-us.allawnos.com
 guif-eu.coloros.com
 guif.coloros.com
+h4g3z1-native-huawei.web.app
+h4g3z1-native-oppo-realme.web.app
+h4g3z1-native-vivo.web.app
+h4g3z1-native-xiaomi.web.app
 h4g3z1-native.huawei.web.app
 h4g3z1-native.oppo-realme.web.app
 h4g3z1-native.samsung.web.app

@@ -3,8 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 284426
-# Auto-updated: 2026-09-27T09:17:11Z
+# Entries: 284429
+# Auto-updated: 2026-09-28T09:49:37Z
 # Description: Massive scam, fraud and deceptive-platform domain set.
 # Sources: Block List Project Fraud/Scam; DurableNapkin Scam Blocklist; curated BaFin entries
 # Snapshot: 2026-08
@@ -12801,6 +12801,7 @@ allegrolokalnie.pl-s.shop
 allegrolokalnie.pl-u.shop
 allegrolokalnie.pl-u1gyf.sbs
 allegrolokalnie.pl-ws010101012.shop
+allegrolokalnie.pl-wsed.shop
 allegrolokalnie.pl-x.xyz
 allegrolokalnie.pl018986702306.cfd
 allegrolokalnie.pl1-32142.cfd
@@ -82915,6 +82916,7 @@ kmsinn.com
 kmspi.co
 kmspico-official.org
 kmspico.io
+kmspico.ws
 kmspicoofficial.com
 kmspicowindows10.com
 kmssupport.com
@@ -136869,6 +136871,7 @@ store.india.travisa.com
 store.indianetouristvisacoin.wordpress.com
 store.indianvisaonline.org
 store.indiavisa.org
+store.infinityto.com
 store.infosystemsllc.com
 store.instant-e-app-for-campaign.github.io
 store.iphone.quiztionnaire.biz

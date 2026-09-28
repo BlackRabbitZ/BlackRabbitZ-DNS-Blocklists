@@ -3,8 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 11533
-# Auto-updated: 2026-09-27T09:17:12Z
+# Entries: 11535
+# Auto-updated: 2026-09-28T09:49:37Z
 # Description: Aggressive deceptive-store and fake-shop candidates derived from fraud/scam intelligence.
 # Sources: Block List Project Fraud/Scam (retail subset); DurableNapkin (retail subset); Verbraucherzentrale curated entries
 # Snapshot: 2026-08
@@ -875,6 +875,7 @@ allegrolokalnie.pl-prywatnie30120.shop
 allegrolokalnie.pl-s.shop
 allegrolokalnie.pl-u.shop
 allegrolokalnie.pl-ws010101012.shop
+allegrolokalnie.pl-wsed.shop
 allegrolokalnie.prywante842012887j.shop
 allegrolokalnie.prywatna-oferta5915.shop
 allegrolokalnie.prywatne-ogloszenia2993939393.shop
@@ -4760,6 +4761,7 @@ store.india.travisa.com
 store.indianetouristvisacoin.wordpress.com
 store.indianvisaonline.org
 store.indiavisa.org
+store.infinityto.com
 store.infosystemsllc.com
 store.instant-e-app-for-campaign.github.io
 store.iphone.quiztionnaire.biz

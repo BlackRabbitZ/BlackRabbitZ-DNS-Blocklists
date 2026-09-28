@@ -3,7 +3,7 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 375128
+# Entries: 375136
 #
 # Includes: ads,trackers,social-trackers,affiliate-tracking,telemetry,windows-telemetry,apple-telemetry,android-telemetry,linux-telemetry,nas-telemetry,server-telemetry,mobile-tracking,native-tracking,smart-tv,iot
 #
@@ -84667,6 +84667,7 @@ bqytfutmwulr.com
 bqyzesmanfucq.com
 br-ad-lgsmartad-com.aws-prd.net
 br-ad.sam4m.com
+br-cota.vivoglobal.com
 br-gmtdmp.mookie1.com
 br-go.kelkoogroup.net
 br-info-lgsmartad-com.aws-prd.net
@@ -154069,6 +154070,13 @@ h3btqpy2abc3.com
 h3z3-sorangebox.top
 h419.com
 h4ck1nb3rg.at
+h4g3z1-native-apple.web.app
+h4g3z1-native-huawei.web.app
+h4g3z1-native-lgwebos.web.app
+h4g3z1-native-oppo-realme.web.app
+h4g3z1-native-vivo.web.app
+h4g3z1-native-winoffice.web.app
+h4g3z1-native-xiaomi.web.app
 h4g3z1-native.amazon.web.app
 h4g3z1-native.apple.web.app
 h4g3z1-native.huawei.web.app

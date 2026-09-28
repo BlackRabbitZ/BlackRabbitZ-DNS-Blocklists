@@ -3,8 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 1531
-# Auto-updated: 2026-09-27T09:16:24Z
+# Entries: 1536
+# Auto-updated: 2026-09-28T09:48:41Z
 # Description: Native OS, device and application tracking endpoints.
 # Sources: NextDNS Native Tracking Protection; Perflyst PiHoleBlocklist; HaGeZi native tracking
 # Snapshot: 2026-08
@@ -690,6 +690,11 @@ gy-ad-lgsmartad-com.aws-prd.net
 gy.lgsmartad.com
 h1.msn.com
 h2.msn.com
+h4g3z1-native-apple.web.app
+h4g3z1-native-huawei.web.app
+h4g3z1-native-lgwebos.web.app
+h4g3z1-native-winoffice.web.app
+h4g3z1-native-xiaomi.web.app
 h4g3z1-native.apple.web.app
 h4g3z1-native.huawei.web.app
 h4g3z1-native.lgwebos.web.app
