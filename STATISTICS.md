@@ -3,9 +3,9 @@
 Automatisch erzeugte Größenübersicht. Die Summen sind Dateisummen und keine globale Deduplizierung über Kategorien hinweg.
 
 - Kategorie-Dateien: **48**
-- Summe Kategorie-Einträge: **25,424,202**
+- Summe Kategorie-Einträge: **25,436,050**
 - Kombinierte Dateien: **9**
-- Summe kombinierte Einträge: **12,183,219**
+- Summe kombinierte Einträge: **12,206,844**
 
 ## Kategorien
 
@@ -14,9 +14,9 @@ Automatisch erzeugte Größenübersicht. Die Summen sind Dateisummen und keine g
 | `ads.txt` | 235,690 |
 | `adult.txt` | 1,028,860 |
 | `affiliate-tracking.txt` | 643 |
-| `android-telemetry.txt` | 1,551 |
+| `android-telemetry.txt` | 1,556 |
 | `anti-piracy.txt` | 39,740 |
-| `apple-telemetry.txt` | 137 |
+| `apple-telemetry.txt` | 138 |
 | `badware-hoster.txt` | 1,258 |
 | `consent-cmp.txt` | 44 |
 | `cryptomining.txt` | 6,119 |
@@ -27,29 +27,29 @@ Automatisch erzeugte Größenübersicht. Die Summen sind Dateisummen und keine g
 | `dns-bypass-full.txt` | 16,965 |
 | `doh-only.txt` | 3,384 |
 | `dynamic-dns.txt` | 1,524 |
-| `fake-shops.txt` | 11,533 |
+| `fake-shops.txt` | 11,535 |
 | `gambling-medium.txt` | 142,333 |
 | `gambling-mini.txt` | 93,304 |
-| `gambling.txt` | 689,818 |
+| `gambling.txt` | 698,479 |
 | `gaming-telemetry-aggressive.txt` | 62 |
 | `gaming-telemetry.txt` | 38 |
 | `iot.txt` | 437 |
 | `linux-telemetry.txt` | 65 |
-| `malware.txt` | 2,805,641 |
+| `malware.txt` | 2,808,802 |
 | `mobile-tracking.txt` | 823 |
 | `most-abused-tlds.txt` | 130 |
 | `nas-telemetry.txt` | 12 |
-| `native-tracking.txt` | 1,531 |
+| `native-tracking.txt` | 1,536 |
 | `nrd-01-07.txt` | 2,474,652 |
 | `nrd-08-14.txt` | 2,628,520 |
 | `nrd-15-21.txt` | 2,428,285 |
 | `nrd-22-28.txt` | 2,922,533 |
 | `nrd-29-35.txt` | 2,298,638 |
-| `phishing.txt` | 572,788 |
+| `phishing.txt` | 572,796 |
 | `safesearch-unsupported.txt` | 206 |
-| `scam.txt` | 284,426 |
+| `scam.txt` | 284,429 |
 | `server-telemetry.txt` | 10 |
-| `smart-tv.txt` | 719 |
+| `smart-tv.txt` | 720 |
 | `social-networks.txt` | 898 |
 | `social-trackers.txt` | 99 |
 | `telemetry.txt` | 29,324 |
@@ -58,18 +58,18 @@ Automatisch erzeugte Größenübersicht. Die Summen sind Dateisummen und keine g
 | `threat-intelligence-mini.txt` | 290,017 |
 | `trackers.txt` | 143,967 |
 | `url-shortener.txt` | 9,904 |
-| `windows-telemetry.txt` | 460 |
+| `windows-telemetry.txt` | 461 |
 
 ## Kombinierte Listen
 
 | Datei | Einträge |
 |---|---:|
 | `balanced.txt` | 373,183 |
-| `family-part-01.txt` | 2,088,692 |
+| `family-part-01.txt` | 2,097,352 |
 | `light.txt` | 235,690 |
-| `security-part-01.txt` | 2,583,270 |
-| `security-part-02.txt` | 970,600 |
-| `strict.txt` | 375,128 |
-| `ultimate-part-01.txt` | 2,633,437 |
-| `ultimate-part-02.txt` | 2,620,037 |
-| `ultimate-part-03.txt` | 303,182 |
+| `security-part-01.txt` | 2,583,485 |
+| `security-part-02.txt` | 973,543 |
+| `strict.txt` | 375,136 |
+| `ultimate-part-01.txt` | 2,633,769 |
+| `ultimate-part-02.txt` | 2,623,215 |
+| `ultimate-part-03.txt` | 311,471 |
