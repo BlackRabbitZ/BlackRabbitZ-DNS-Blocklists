@@ -3,9 +3,9 @@
 Automatisch erzeugte Größenübersicht. Die Summen sind Dateisummen und keine globale Deduplizierung über Kategorien hinweg.
 
 - Kategorie-Dateien: **48**
-- Summe Kategorie-Einträge: **25,436,050**
+- Summe Kategorie-Einträge: **25,442,108**
 - Kombinierte Dateien: **9**
-- Summe kombinierte Einträge: **12,206,844**
+- Summe kombinierte Einträge: **12,218,945**
 
 ## Kategorien
 
@@ -30,12 +30,12 @@ Automatisch erzeugte Größenübersicht. Die Summen sind Dateisummen und keine g
 | `fake-shops.txt` | 11,535 |
 | `gambling-medium.txt` | 142,333 |
 | `gambling-mini.txt` | 93,304 |
-| `gambling.txt` | 698,479 |
+| `gambling.txt` | 703,500 |
 | `gaming-telemetry-aggressive.txt` | 62 |
 | `gaming-telemetry.txt` | 38 |
 | `iot.txt` | 437 |
 | `linux-telemetry.txt` | 65 |
-| `malware.txt` | 2,808,802 |
+| `malware.txt` | 2,809,833 |
 | `mobile-tracking.txt` | 823 |
 | `most-abused-tlds.txt` | 130 |
 | `nas-telemetry.txt` | 12 |
@@ -45,9 +45,9 @@ Automatisch erzeugte Größenübersicht. Die Summen sind Dateisummen und keine g
 | `nrd-15-21.txt` | 2,428,285 |
 | `nrd-22-28.txt` | 2,922,533 |
 | `nrd-29-35.txt` | 2,298,638 |
-| `phishing.txt` | 572,796 |
+| `phishing.txt` | 572,801 |
 | `safesearch-unsupported.txt` | 206 |
-| `scam.txt` | 284,429 |
+| `scam.txt` | 284,430 |
 | `server-telemetry.txt` | 10 |
 | `smart-tv.txt` | 720 |
 | `social-networks.txt` | 898 |
@@ -65,11 +65,11 @@ Automatisch erzeugte Größenübersicht. Die Summen sind Dateisummen und keine g
 | Datei | Einträge |
 |---|---:|
 | `balanced.txt` | 373,183 |
-| `family-part-01.txt` | 2,097,352 |
+| `family-part-01.txt` | 2,102,372 |
 | `light.txt` | 235,690 |
-| `security-part-01.txt` | 2,583,485 |
-| `security-part-02.txt` | 973,543 |
+| `security-part-01.txt` | 2,583,488 |
+| `security-part-02.txt` | 974,574 |
 | `strict.txt` | 375,136 |
-| `ultimate-part-01.txt` | 2,633,769 |
-| `ultimate-part-02.txt` | 2,623,215 |
-| `ultimate-part-03.txt` | 311,471 |
+| `ultimate-part-01.txt` | 2,633,912 |
+| `ultimate-part-02.txt` | 2,626,614 |
+| `ultimate-part-03.txt` | 313,976 |
