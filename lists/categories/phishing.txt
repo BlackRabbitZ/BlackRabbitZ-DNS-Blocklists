@@ -3,8 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 572796
-# Auto-updated: 2026-09-28T09:49:32Z
+# Entries: 572801
+# Auto-updated: 2026-09-29T09:51:36Z
 # Description: Massive active and curated phishing-domain set.
 # Sources: Block List Project Phishing; Phishing.Database ACTIVE
 # Snapshot: 2026-08
@@ -281651,6 +281651,7 @@ innovatory-islands.000webhostapp.com
 innovazione.pe
 innoventa.fi
 innoversant.com
+innoverseprime.com
 innovestin.pages.dev
 innovirinstitute.com
 innovixxa.vercel.app
@@ -306412,6 +306413,7 @@ kobiety.podpisz-petycje.eu
 kobika.tripod.com
 kobiofclientsupport.pqzredservice.com
 kobleconnect.com.au
+koboldcpp.com
 koboltdesign.com
 kobqxgevtgbugcoe-dot-millinium.ey.r.appspot.com
 kobrobafrecre-9556.vercel.app
@@ -435994,6 +435996,7 @@ redirectinn.byethost32.com
 redirection-actif.ath.cx
 redirection-assistance.surge.sh
 redirection-auth.netsons.org
+redirection-claim.innoverseprime.com
 redirection-secureca.duckdns.org
 redirection-vers-connexion-securisee.duckdns.org
 redirection.aloepuro.com
@@ -477108,6 +477111,7 @@ tron-block.info
 tron-coin.org
 tron-event.network
 tron-five.vercel.app
+tron-foundation.com
 tron-gift.blogspot.com
 tron-gifts.blogspot.com
 tron-mainnet.network
@@ -477118,6 +477122,7 @@ tron-qr-code-generator.com
 tron-qr-code-generator.to
 tron-scan.info
 tron.gg
+tron.redirection-claim.innoverseprime.com
 tronblackfriday.blogspot.com
 trondheimsregionen.no
 trondiscount.com

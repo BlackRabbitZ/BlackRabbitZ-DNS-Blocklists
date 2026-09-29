@@ -3,8 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 284429
-# Auto-updated: 2026-09-28T09:49:37Z
+# Entries: 284430
+# Auto-updated: 2026-09-29T09:51:41Z
 # Description: Massive scam, fraud and deceptive-platform domain set.
 # Sources: Block List Project Fraud/Scam; DurableNapkin Scam Blocklist; curated BaFin entries
 # Snapshot: 2026-08
@@ -220978,6 +220978,7 @@ www.kmsinn.com
 www.kmspi.co
 www.kmspico-official.org
 www.kmspico.io
+www.kmspico.ws
 www.kmspicoofficial.com
 www.kmspicowindows10.com
 www.kmssupport.com
