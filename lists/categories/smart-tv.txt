@@ -4,7 +4,7 @@
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
 # Entries: 720
-# Auto-updated: 2026-09-29T09:50:44Z
+# Auto-updated: 2026-09-30T09:43:55Z
 # Description: Smart-TV advertising, ACR, diagnostics and telemetry endpoints.
 # Sources: Block List Project; Perflyst PiHoleBlocklist; HaGeZi LG webOS
 # Snapshot: 2026-08

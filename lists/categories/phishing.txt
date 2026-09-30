@@ -3,8 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 572801
-# Auto-updated: 2026-09-29T09:51:36Z
+# Entries: 572811
+# Auto-updated: 2026-09-30T09:45:05Z
 # Description: Massive active and curated phishing-domain set.
 # Sources: Block List Project Phishing; Phishing.Database ACTIVE
 # Snapshot: 2026-08
@@ -106038,6 +106038,7 @@ awss-amazon.com
 awsuaxcjuypofjfxhchordgqek-dot-project2-297402.rj.r.appspot.com
 awswispasauth0-serverauthi7474.web.app
 awterciduk.com
+awthestatueon.org
 awtiaoecz.zaquetitx.maxgrowth.ru
 awtochehly.ru
 awtqoancsfpvjtywgcwxyjakpb-dot-gloff849483.uk.r.appspot.com
@@ -146384,6 +146385,7 @@ callcentreknrp.org
 callcomcast.com
 called-runoff.000webhostapp.com
 called-zips.000webhostapp.com
+calledmetheapp.org
 callepaqueippei-9392.vercel.app
 callgardner.com
 callhotsy.com
@@ -176275,6 +176277,7 @@ d2delivery.cc
 d2df994e416264f6da0f16b26a1623625fdee8f686ae03ed3.pages.dev
 d2dredelivery.shop
 d2f2af5e.hsduecinfj.com.cn
+d2f9q8zryik75d.cloudfront.net
 d2feqkqpgr2583.monitorminor.com.tr
 d2ftveoo10umxj.cloudfront.net
 d2hhs22hsuer.el.r.appspot.com
@@ -182802,6 +182805,7 @@ designgroupabd.com
 designguide.icu
 designh.co.kr
 designhead.org
+designhubapp.com
 designidioms.com
 designingtx.com
 designlogic.ca
@@ -204082,6 +204086,7 @@ enabledlondon.com
 enabler-rgw.pages.dev
 enactive-saddles.000webhostapp.com
 enaeoielcv.duckdns.org
+enaightdecipie.com
 enak-tante.duckdns.org
 enakenakbersama222.000webhostapp.com
 enakgoyangmamamuda.000webhostapp.com
@@ -241208,6 +241213,7 @@ gh7construtora.com.br
 gh9wepszo.appspot.com
 ghabdxffxvjjvuzm-dot-millinium.ey.r.appspot.com
 ghabogados.com
+ghabovethec.info
 ghadaaawimdaismaaiyaghada.blogspot.com
 ghaddargcc.com
 ghadeergroup.com
@@ -474534,6 +474540,7 @@ tngsxr.site
 tnidytpjzx.duckdns.org
 tnij.at
 tnimmigration.com
+tnizationservantas.org
 tnk.t2025.info
 tnk12.com
 tnk13.com
@@ -478997,6 +479004,7 @@ uk605.directrouter.com
 uk6u-casefb945908.vercel.app
 ukabir.github.io
 ukadultshop.com
+ukankingwithea.com
 ukautistic.org
 ukayhub.com
 ukblizzard.com
@@ -485292,6 +485300,7 @@ vivalavidaonline-com-br.umbler.net
 vivalia.cl
 vivamoda.by
 vivamusica.sk
+vivantis-ro.sbs
 vivantis.1day-sk.shop
 vivantis.cosibellapl-co.com
 vivantis.cosmetica-sale.com
@@ -488708,6 +488717,7 @@ werdopas.com
 werdyal.com.br
 were-solo-stake-condos.trycloudflare.com
 weready.org
+werefilledwit.org
 weregreats.com
 weremmrry.ga
 werengmania.com

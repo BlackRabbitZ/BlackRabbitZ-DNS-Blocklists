@@ -3,8 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 284430
-# Auto-updated: 2026-09-29T09:51:41Z
+# Entries: 284439
+# Auto-updated: 2026-09-30T09:45:11Z
 # Description: Massive scam, fraud and deceptive-platform domain set.
 # Sources: Block List Project Fraud/Scam; DurableNapkin Scam Blocklist; curated BaFin entries
 # Snapshot: 2026-08
@@ -2435,6 +2435,7 @@
 553-health.com-cst.net
 554-fitness.com-oo4.net
 5555-error1-code90a1.com
+555sq.com.cn
 556h.rn6cca.casa
 556store.com
 558-diet.com-oo4.net
@@ -27987,6 +27988,7 @@ cash2.de
 cash2paypal.com
 cash2pool.us
 cash4diabeticsupplies.com
+casha.xyz
 cashadvanceonlinexl.com
 cashadvancespor.com
 cashandel.shop
@@ -136645,6 +136647,7 @@ store.365analytics.xyz
 store.3ab48a20-acaa-49ab-95cc-3eb16f1cda78-00-1a0l3yf6hw9aq.sisko.replit.dev
 store.3ae52b08mbt3oxw4zh32q5-z5m.hop.clickbank.net
 store.47n78xprrvp1.top
+store.555sq.com.cn
 store.adminicesm.life
 store.aeotec.com
 store.affordableforyouusa5.godaddysites.com
@@ -136726,6 +136729,7 @@ store.celebtoysshop.com
 store.cheat-on.com
 store.check-update-today.me
 store.chesssorrydescend.com
+store.chipcy.com
 store.cibtvisas.com
 store.ckkebt.shop
 store.clubatleticodemadrid.com
@@ -136770,6 +136774,7 @@ store.deluxdoll.com
 store.desilvaimports.com
 store.desiupload.in
 store.dieserbenni.ru
+store.discounthoneywell.com
 store.diytsi.shop
 store.doh-gov.ph
 store.dolomiteoutlet.com
@@ -136900,6 +136905,7 @@ store.legabitid.com
 store.lesliespracklen.sa.com
 store.letteringift.com
 store.lifewonderland.com
+store.lisabuddy.com
 store.load.365analytics.xyz
 store.look-like-star.myshopify.com
 store.loveinsoul.co.uk
@@ -170504,6 +170510,7 @@ www.5493834.shop
 www.553-health.com-cst.net
 www.554-fitness.com-oo4.net
 www.5555-error1-code90a1.com
+www.555sq.com.cn
 www.556h.rn6cca.casa
 www.558-diet.com-oo4.net
 www.55ftyesy.vercel.app
@@ -187305,6 +187312,7 @@ www.cash-pro.ru
 www.cash1-binary.com
 www.cash2paypal.com
 www.cash4diabeticsupplies.com
+www.casha.xyz
 www.cashadvanceonlinexl.com
 www.cashadvancespor.com
 www.cashbackcoop.co
@@ -198085,6 +198093,7 @@ www.discountc.digital
 www.discountdoorhardware.com
 www.discounthedges.com
 www.discounthermeshandbags.net
+www.discounthoneywell.com
 www.discountjimmychooss.com
 www.discountlinksoflondon.top
 www.discountlvbagsukoutlet.com

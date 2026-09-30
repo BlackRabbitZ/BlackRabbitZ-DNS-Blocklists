@@ -3,8 +3,8 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 1556
-# Auto-updated: 2026-09-28T09:48:40Z
+# Entries: 1557
+# Auto-updated: 2026-09-30T09:43:54Z
 # Description: Android and Android-vendor native telemetry and tracking endpoints.
 # Sources: Perflyst PiHoleBlocklist; NextDNS Native Tracking Protection
 # Snapshot: 2026-08
@@ -195,6 +195,7 @@ api.sms.intl.miui.com
 api.uca.cloud.unity3d.com
 api.xmpush.global.xiaomi.com
 api.xmpush.xiaomi.com
+apisnd.heytapmobi.com
 apkrep.ff.avast.sec.miui.com
 app-analytics.snapchat.com
 app-measurement.com
