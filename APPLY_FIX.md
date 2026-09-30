@@ -1,51 +1,17 @@
-# BlackRabbitZ Domain Classifier Fix v2.0
+# Anwenden
 
-Dieser Fix erweitert das bestehende `BlackRabbitZ-DNS-Blocklists`-Repository **ohne Tier-System**. Die vorhandenen öffentlichen Kategorien und Raw-URLs bleiben bestehen.
+ZIP in den Root des aktuellen Repositories entpacken und die enthaltenen Dateien übernehmen.
 
-## Was sich ändert
+Danach im Repository-Root:
 
-1. `sources/upstream/` bleibt der unveränderte Last-Good-Cache der Fremdquellen.
-2. `scripts/classify-upstreams.py` bewertet jede Privacy-/Device-Domain einzeln.
-3. Privacy-Domains erhalten genau **eine kanonische Kategorie**.
-4. Security-/Family-Kategorien behalten ihre eigene Semantik und werden nicht zwangsweise dedupliziert.
-5. Unsichere oder funktionale/critical Kandidaten landen in `review/classifier-quarantine.tsv`.
-6. `metadata/domain-classification.csv` dokumentiert Entscheidung, Confidence und Ursprung.
-7. `sources/classified/` ist die neue Build-Zwischenstufe.
-8. `build-categories.py` erzeugt die bisherigen `lists/categories/*.txt` aus `sources/manual/ + sources/classified/`.
+Windows PowerShell:
+```powershell
+.\APPLY_FIX.ps1
+```
 
-## Einbau
-
-ZIP in den Root des Repositories entpacken. Danach lokal:
-
+Linux/macOS:
 ```bash
-python3 tests/test_classifier.py
-python3 scripts/classify-upstreams.py
-python3 scripts/validate-classifier.py
-python3 scripts/build-categories.py
-python3 scripts/validate-repository.py
-python3 scripts/audit-manual-classification.py
+./APPLY_FIX.sh
 ```
 
-**Wichtig:** `audit-manual-classification.py` verändert deine manuellen Listen nicht. Es erzeugt nur einen Review-Bericht.
-
-## Daily Workflow
-
-Im bestehenden `daily-upstream-update.yml` müssen nach `update-upstreams.py` diese Schritte vor dem Build ergänzt werden:
-
-```yaml
-- name: Classify upstream domains
-  run: python3 ./scripts/classify-upstreams.py
-
-- name: Validate classifier output
-  run: python3 ./scripts/validate-classifier.py
-```
-
-Beim Kategorien-Build wird `build-categories.py` verwendet:
-
-```bash
-python3 ./scripts/build-categories.py
-```
-
-`build-categories-classified.py` bleibt als Kompatibilitäts-Wrapper enthalten, damit ältere Workflow-Stände nicht abbrechen.
-
-Der zusätzliche `classifier-validation.yml` prüft den Classifier außerdem bei Push/PR.
+Der Patch verändert `scripts/update-upstreams.py` gezielt in der aktuell vorhandenen Repo-Version, statt eine ältere komplette Datei darüberzukopieren.

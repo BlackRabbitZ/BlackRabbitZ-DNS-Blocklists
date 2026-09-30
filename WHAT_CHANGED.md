@@ -1,27 +1,22 @@
-# Was wurde verbessert?
+# BlackRabbitZ DNS Blocklists – Classifier Pipeline Fix v2.0.3
 
-- Kein Tier-Modell: bestehende BRZ-Kategorien bleiben unverändert.
-- Fremdquelle ist nur noch **Evidenz**, nicht automatisch das endgültige Ziel.
-- Hersteller-/Plattformhinweise für Microsoft/Windows, Apple, Android-Hersteller, Smart-TV, IoT, NAS und Gaming.
-- Funktionshinweise für Telemetrie, Social Tracking, Mobile SDK Tracking, Affiliate, CMP und Ads.
-- Critical/functional Endpoints werden vor der Privacy-Klassifikation abgefangen.
-- Confidence + Margin verhindern unsichere automatische Zuordnung.
-- Eine Privacy-Domain bekommt nur eine kanonische Kategorie.
-- Security/Family bleiben unabhängig und dürfen sich fachlich überschneiden.
-- Re-Klassifizierung ist deterministisch: bessere Regeln verschieben Domains beim nächsten Build automatisch.
-- Vollständige Nachvollziehbarkeit über `metadata/domain-classification.csv`.
-- Quarantäne über `review/classifier-quarantine.tsv`.
-- Manueller Altbestand wird separat auditiert und nicht still verändert.
+Ziel: Fremdlisten werden **nicht** direkt in öffentliche Kategorien übernommen.
 
+Fester Ablauf:
 
-## v2.0.1 Hotfix
-- `classifier-validation.yml` ruft nun den vorhandenen kanonischen Builder `scripts/build-categories.py` auf.
-- `scripts/build-categories-classified.py` wurde als Kompatibilitäts-Wrapper ergänzt.
-- Workflow-/Script-Verweise wurden gegengeprüft.
+1. `scripts/update-upstreams.py` lädt/aktualisiert nur `sources/upstream/` (Raw-/Last-Good-Caches).
+2. `scripts/classify-upstreams.py` bewertet die Domains und schreibt `sources/classified/<deine-kategorie>/...`.
+3. `scripts/validate-classifier.py` prüft die Klassifizierung.
+4. `scripts/build-categories.py` baut `lists/categories/*.txt` ausschließlich aus `sources/manual/` + `sources/classified/`.
+5. Profile/Metadaten werden danach aktualisiert.
 
+## Behobener Pipeline-Fehler
 
-## v2.0.2
-- Fixes CI validation failing on first-run untracked classifier diagnostics (`metadata/`, `review/`, `sources/classified/`).
-- Validation now fails on changed **tracked** generated files, not merely on new diagnostic files.
-- Makes `metadata/classifier-state.json` deterministic by replacing the wall-clock `generated_at` value with an input SHA-256 fingerprint.
-- Prevents a clean checkout from becoming dirty on every classifier run solely because time passed.
+Der bisherige `update-upstreams.py` startete am Ende selbst `build-categories.py`. Damit wurde vor dem Classifier gebaut. Dieser Aufruf wird durch `scripts/patch-classified-pipeline.py` entfernt.
+
+## Schutz gegen Regression
+
+`tests/test_pipeline_contract.py` bricht CI ab, wenn:
+- der Updater wieder öffentliche Listen baut,
+- der Builder wieder direkt aus `sources/upstream/` liest,
+- die Workflow-Reihenfolge nicht `Updater -> Classifier -> Validate -> Builder` ist.

@@ -24,6 +24,8 @@ jobs:
           ref: main
       - name: Validate upstream configuration
         run: python3 ./scripts/update-upstreams.py --check-config
+      - name: Validate classified pipeline contract
+        run: python3 ./tests/test_pipeline_contract.py
       - name: Refresh per-source raw caches
         run: python3 ./scripts/update-upstreams.py
       - name: Check newly cached domains for confirmed NXDOMAIN
