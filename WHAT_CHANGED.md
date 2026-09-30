@@ -18,3 +18,10 @@
 - `classifier-validation.yml` ruft nun den vorhandenen kanonischen Builder `scripts/build-categories.py` auf.
 - `scripts/build-categories-classified.py` wurde als Kompatibilitäts-Wrapper ergänzt.
 - Workflow-/Script-Verweise wurden gegengeprüft.
+
+
+## v2.0.2
+- Fixes CI validation failing on first-run untracked classifier diagnostics (`metadata/`, `review/`, `sources/classified/`).
+- Validation now fails on changed **tracked** generated files, not merely on new diagnostic files.
+- Makes `metadata/classifier-state.json` deterministic by replacing the wall-clock `generated_at` value with an input SHA-256 fingerprint.
+- Prevents a clean checkout from becoming dirty on every classifier run solely because time passed.

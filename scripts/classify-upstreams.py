@@ -2,7 +2,6 @@
 from __future__ import annotations
 import csv, hashlib, json, os, re, shutil, tempfile
 from collections import defaultdict
-from datetime import datetime, timezone
 from pathlib import Path
 from classifier import Evidence, classify, load_rules
 
@@ -97,7 +96,21 @@ def main()->int:
         with (REVIEW/'classifier-quarantine.tsv').open('w',encoding='utf-8',newline='') as f:
             f.write('domain\tstatus\tconfidence\treason\torigin_categories\tvendor\tfunction\n')
             for r in qrows: f.write('\t'.join(map(str,r))+'\n')
-        state={'generated_at':datetime.now(timezone.utc).isoformat(),'classified_domains':sum(counts.values()),'quarantined':len(qrows),'categories':dict(sorted(counts.items()))}
+        # Keep classifier state deterministic. A wall-clock timestamp here made every
+        # validation run dirty even when the inputs had not changed.
+        fingerprint = hashlib.sha256()
+        for src_path in sorted(UPSTREAM.glob('*/*.txt')):
+            fingerprint.update(str(src_path.relative_to(ROOT)).encode('utf-8'))
+            fingerprint.update(b'\0')
+            fingerprint.update(src_path.read_bytes())
+            fingerprint.update(b'\0')
+        for cfg_path in (CONFIG, ROOT/'config'/'classifier-rules.json'):
+            if cfg_path.exists():
+                fingerprint.update(str(cfg_path.relative_to(ROOT)).encode('utf-8'))
+                fingerprint.update(b'\0')
+                fingerprint.update(cfg_path.read_bytes())
+                fingerprint.update(b'\0')
+        state={'classifier_version':2,'input_fingerprint_sha256':fingerprint.hexdigest(),'classified_domains':sum(counts.values()),'quarantined':len(qrows),'categories':dict(sorted(counts.items()))}
         (META/'classifier-state.json').write_text(json.dumps(state,indent=2,sort_keys=True)+'\n',encoding='utf-8')
         print(f"Classifier OK: {sum(counts.values()):,} classified/passthrough entries, {len(qrows):,} quarantine rows.")
         for cat,n in sorted(counts.items()): print(f"  {cat:24s} {n:>9,}")

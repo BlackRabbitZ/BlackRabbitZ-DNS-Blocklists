@@ -23,5 +23,12 @@ jobs:
         run: python3 scripts/build-categories.py
       - name: Repository validation
         run: python3 scripts/validate-repository.py
-      - name: Ensure generated output is committed
-        run: git diff --exit-code
+      - name: Ensure tracked generated output is synchronized
+        shell: bash
+        run: |
+          git diff --exit-code
+          untracked="$(git ls-files --others --exclude-standard metadata review sources/classified 2>/dev/null || true)"
+          if [[ -n "$untracked" ]]; then
+            echo "Notice: new classifier diagnostics/intermediates were generated:"
+            printf '%s\n' "$untracked"
+          fi
