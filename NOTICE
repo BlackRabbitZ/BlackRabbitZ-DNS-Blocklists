@@ -1,15 +1,8 @@
 BlackRabbitZ DNS Blocklists
 Copyright (C) 2026 BlackRabbitZ
 
-Deutsch:
-Lizenziert ausschließlich unter GNU GPL Version 3 (GPL-3.0-only).
-Originalquelle: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
-Siehe LICENSE und ATTRIBUTION.md.
-
-English:
 Licensed under GNU GPL version 3 only (GPL-3.0-only).
-Original source: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
-See LICENSE and ATTRIBUTION_EN.md.
+Original source:
+https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 
-Third-party notice / Drittanbieterhinweis:
-Portions of extended list data are derived from HaGeZi DNS Blocklists (GPL-3.0), modified and reorganized by BlackRabbitZ on 2026-08-12. See THIRD_PARTY.md / THIRD_PARTY_EN.md.
+See LICENSE and ATTRIBUTION.md.

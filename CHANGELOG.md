@@ -1,117 +1,61 @@
-# Änderungsverlauf
+# Changelog
 
-**🌐 Sprache / Language:** 🇩🇪 **Deutsch** · [🇬🇧 English](CHANGELOG_EN.md)
+## Workflow-Safety-Fix – 2026-09-28
 
-## 3.3.3 — 2026-08-12
+- rein additiven Upstream-Importer durch per-source Replace-Caches ersetzt
+- manuelle und automatische Datenquellen getrennt (`sources/manual` / `sources/upstream`)
+- Critical-Service-Protection für Update, Auth, Push und Firmware ergänzt
+- unsichere funktionale Kandidaten werden in `review/quarantine` abgelegt
+- breite Tracker-/Telemetry-Listen von spezialisierten Device-/Mobile-Listen getrennt
+- `firebase` sowie weitere zu breite automatische Mobile-/Telemetry-Keywords entschärft
+- tägliche Fremdquellen-Updates erzeugen nun einen Review-Pull-Request statt direkt auf `main` zu pushen
+- deterministischen Category-Builder und Repository-Validator ergänzt
+- Balanced-Profil enthält Affiliate-Tracking nicht mehr standardmäßig
 
-- Überlappende HaGeZi-Quellen werden jetzt **in bestehende BlackRabbitZ-Funktionslisten gemischt**, statt parallele Listen zu erzeugen.
-- Native Tracker werden auf vorhandene Apple-, Windows-, Android-, Smart-TV-, IoT- und Mobile-Tracking-Listen verteilt; die bisherigen `native-tracker-*`-Ausgaben werden nach erfolgreicher Migration entfernt.
-- Fake/Internet-Betrug wird in `scam.txt`, Pop-Up-Werbung in `ads.txt`, NSFW in `adult.txt` und Gambling Full in `gambling.txt` integriert.
-- Mehrfachvarianten wie Threat Intelligence, NRD/DGA und DNS-Bypass erscheinen in der README kompakt als **eine Tabellenzeile mit ausklappbaren Varianten**.
-- Der Profil-Build löscht alte 5-MiB-Parts jetzt ausdrücklich vor dem Neuaufbau; die Validierung lehnt bei mehrteiligen Profilen verbliebene deutlich zu kleine Legacy-Parts ab. Zielgröße bleibt **50 MiB pro Part**.
-
-## 3.3.2 — 2026-08-12
-
-- Erweiterte Listen werden in der README **nach Funktion mit den bestehenden BlackRabbitZ-Listen zusammengeführt**, statt in eigenen HaGeZi-/Speziallisten-Blöcken zu erscheinen.
-- Pop-Up-Werbung ist bei Werbung & Tracking, Native Tracker bei Telemetrie & Geräte, Threat-/NRD-/DynDNS-/Hoster-/TLD-Listen bei Sicherheit und SafeSearch/Anti-Piracy/Gambling/Social/NSFW bei Familienlisten einsortiert.
-- Veröffentlichte Dateinamen verwenden neutrale BlackRabbitZ-Funktionsnamen; die HaGeZi-Herkunft bleibt in Datei-Headern und Drittanbieter-Dokumentation erhalten.
-- Große Profil- und erweiterte Listen verwenden maximal **50 MiB pro Part**.
-- Lizenz-/Attributionshinweise für HaGeZi-abgeleitete, veränderte Daten wurden mit Änderungsdatum ergänzt.
-
-## 3.3.0 — 2026-08-12
-
-- Größenlimit für gesplittete Profile und Speziallisten von 5 MiB auf **50 MiB pro Part** erhöht, damit Security, Family, Ultimate und große Zusatzlisten deutlich weniger Einzeldateien benötigen.
-- HaGeZi-Themen **7–22** als optionale, reproduzierbare Speziallisten in die passenden README-Kategorien einsortiert; Punkte **23–24** als Empfehlungen und Online-DNS-Hinweise ergänzt.
-- Neue Kategorie **DNS-, Web- & Bypass-Schutz** für DoH/VPN/TOR/Proxy-Bypass, URL-Kürzer und DNS-Rebind-Schutz ergänzt.
-- Kurze Erklärung zum Nutzen von DNS-Blocklisten vor dem Inhaltsverzeichnis ergänzt.
-- Inhaltsverzeichnis erweitert und jeden Eintrag mit einer kurzen Beschreibung versehen.
-- README-Automatisierung auf kategorisierte Speziallisten-Blöcke umgestellt.
-
-## 3.2.0 - 2026-08-12
-
-- HaGeZi-Themen **7–22** aus dem archivierten Repository-Stand als optionale BlackRabbitZ-Speziallisten integriert.
-- Eigener Archiv-Builder `scripts/update-special-lists.py` mit Normalisierung, Allowlist-Anwendung, Duplikatentfernung, Plausibilitätsgrenzen und automatischer 5-MiB-Aufteilung ergänzt.
-- TIF Full/Medium/Mini, NRD/DGA-Zeitfenster, DNS-Bypass, SafeSearch, DynDNS, Badware-Hoster, URL-Shortener, TLD-Regeln, Anti-Piracy, Glücksspiel-Varianten, Social-Network-Blocking, NSFW und Native-Tracker-Varianten ergänzt.
-- Punkt **17 DNS-Rebind-Schutz** Pi-hole-gerecht als Resolver-/dnsmasq-Dokumentation umgesetzt, da die archivierte HaGeZi-Liste AdGuard-spezifisch war.
-- HaGeZi-Punkte **23 Empfehlungen** und **24 Online-DNS-Dienste** als BlackRabbitZ-Dokumentationsbereiche ergänzt; beide sind keine Blocklisten.
-- Inhaltsverzeichnis erweitert und zu jedem Verweis eine kurze Funktionsbeschreibung ergänzt.
-- Speziallisten-Metadaten, Raw-/Part-Links und deutsche/englische README-Bereiche werden automatisch synchronisiert.
-- Archivquellen und Lizenz-/Attributionshinweise in der Drittquellen-Dokumentation erweitert.
-
-## 3.1.0 - 2026-08-12
-
-- Deutsche README als Standard eingeführt und eine separate englische `README_EN.md` ergänzt.
-- Sprachumschalter am Anfang beider README-Dateien ergänzt.
-- Inhaltsverzeichnis mit stabilen Abschnittsankern hinzugefügt.
-- **Optionale Schutzmodule** und **Große Profil-Teile** direkt unter dem **Schutzvergleich** einsortiert.
-- `scripts/update-readme.py` auf zweisprachige README-Synchronisierung erweitert.
-- `config/readme-i18n.json` als zentrale Sprachkonfiguration für automatisch erzeugte README-Bereiche ergänzt.
-- Deutsche und englische Versionen der wichtigsten Wartungsdokumentation ergänzt.
-- GitHub-Issue-Formulare zweisprachig beschriftet.
-
-## 3.0.0 - 2026-08-12
-
-- Die nur für Ultimate vorhandene Split-Logik wurde durch einen generischen, von `config/profiles.json` gesteuerten Profil-Publisher ersetzt.
-- Deterministische 5-MiB-`*-part-NN.txt`-Ausgaben für Security, Family und Ultimate ergänzt.
-- Ultimate-Parts von `ultimate-N.txt` auf nullgefüllte `ultimate-part-NN.txt`-Dateinamen umgestellt.
-- Die zuvor einzelnen Security- und Family-Dateien in größenbegrenzte Parts aufgeteilt.
-- Affiliate Tracking aus Balanced entfernt und in Strict/Ultimate belassen, um vermeidbare Referral-/Link-Fehlfunktionen im empfohlenen Profil zu reduzieren.
-- Consent/CMP aus Ultimate entfernt und als explizite optionale Kategorie belassen, weil DNS-basiertes CMP-Blocking ein erhöhtes Website-Fehlfunktionsrisiko besitzt.
-- Security und Family in der README als optionale Schutzmodule statt als fortlaufende Datenschutzstufen positioniert.
-- `metadata/build.json` mit maschinenlesbaren Profil-/Kategorie-Zahlen, Part-Informationen, Größen und SHA-256-Hashes ergänzt.
-- Erzeugung von `metadata/SHA256SUMS` hinzugefügt.
-- Validierung der erzeugten Profile auf globale Sortierung, Duplikate, Part-Größenlimits und Metadatenkonsistenz ergänzt.
-- `.gitattributes`-Regeln für generierte kombinierte Profile und Metadaten hinzugefügt.
-- Strukturierte GitHub-Issue-Formulare für False Positives, Domain-Vorschläge und neue Upstream-Quellen ergänzt.
-- Dokumentation zu Beiträgen und automatischen Updates erweitert.
-
-### Migrationshinweis
-
-Der erste v3-Neuaufbau entfernt die bisherigen erzeugten URLs `lists/combined/security.txt`, `lists/combined/family.txt` und `lists/combined/ultimate-N.txt`. Bestehende Abonnements müssen durch **alle** neuen `*-part-NN.txt`-Raw-URLs ersetzt werden, die in der README angezeigt werden.
 
 ## 2.1.1 - 2026-08-12
 
-- Die einzelne große `lists/combined/ultimate.txt` wurde durch automatisch erzeugte `ultimate-N.txt`-Parts ersetzt.
-- `scripts/split-ultimate.py` mit einem Ziel-Limit von 40 MiB pro Ultimate-Part ergänzt.
-- Automatische README-Erzeugung für Ultimate-Part-Anzahl, Größen sowie View-/Raw-Links ergänzt.
-- Der Blocklist-Workflow wurde erweitert, sodass Änderungen an Split-Generator-Skripten einen Neuaufbau auslösen.
-- Alte/verwaiste Ultimate-Part-Dateien werden vor jeder Neuerzeugung automatisch entfernt.
+- Replaced the single large `lists/combined/ultimate.txt` with automatically generated `ultimate-N.txt` parts.
+- Added `scripts/split-ultimate.py` with a 40 MiB target ceiling per Ultimate part.
+- Added automatic README generation for Ultimate part counts, sizes, View links and Raw links.
+- Updated the blocklist workflow so changes to the split-generator scripts trigger a rebuild.
+- Old/stale Ultimate part files are removed automatically before every regeneration.
 
 ## 2.1.0 - 2026-08-12
 
-- Täglichen Upstream-Refresh per GitHub Actions hinzugefügt.
-- `scripts/update-upstreams.py` für additive automatische Domain-Importe ergänzt.
-- `scripts/upstream-sources.json` mit quellenbezogenen Upstreams und Sicherheitsgrenzen hinzugefügt.
-- Download-Wiederholungen, Mindestgrößenprüfung, Domain-Normalisierung, Deduplizierung und Growth Guards ergänzt.
-- `config/allowlist.txt` für kritische Ausschlüsse bei automatischen Imports hinzugefügt.
-- `docs/AUTOMATIC_UPDATES.md` mit Wartungs- und Fail-Safe-Dokumentation ergänzt.
-- Workflow-Concurrency vereinheitlicht und Bash-Ausführung unabhängig von ausführbaren Dateirechten gehalten.
+- Added a daily upstream-refresh GitHub Actions workflow.
+- Added `scripts/update-upstreams.py` for additive automatic domain imports.
+- Added `scripts/upstream-sources.json` with per-category upstream sources and safety thresholds.
+- Added download retries, source minimum-size validation, domain normalization, deduplication and growth guards.
+- Added `config/allowlist.txt` for critical automatic-import exclusions.
+- Added `docs/AUTOMATIC_UPDATES.md` with maintenance and fail-safe documentation.
+- Unified workflow concurrency and kept Bash invocation independent of executable file permissions.
 
 ## 2.0.2 - 2026-08-11
 
-- Beschreibungen zur Family-Lists-Tabelle in der README ergänzt.
-- Malware-, Phishing-, Scam- und Fake-Shops-Sicherheitskategorien mit kuratierten, extern verifizierten Indikatoren befüllt.
-- Quellenhinweise zu Sicherheits-Kategoriedateien und `THIRD_PARTY.md` ergänzt.
-- Security- und Ultimate-Profile neu gebaut und alle Eintragszahlen synchronisiert.
+- Added descriptions to the Family Lists table in the README.
+- Populated Malware, Phishing, Scam and Fake Shops security categories with curated, externally verified indicators.
+- Added source notes to security category files and THIRD_PARTY.md.
+- Rebuilt Security and Ultimate combined profiles and synchronized all entry counts.
 
 ## 2.0.1 - 2026-08-11
 
-- Die umfangreichere README-Darstellung im Stil von v1.3 wiederhergestellt.
-- Zentriertes Projekt-Branding und stärkere visuelle Hierarchie ergänzt.
-- Schutzvergleichsmatrix und gruppierte Kategorien wiederhergestellt.
-- Alle statischen v2.0.0-Listen und Domainzahlen unverändert beibehalten.
+- Restored the richer v1.3-style README presentation.
+- Added centered project branding and stronger visual hierarchy.
+- Restored protection comparison matrix and grouped category sections.
+- Kept all v2.0.0 static lists and domain counts unchanged.
 
 ## 2.0.0 - 2026-08-11
 
-- Große Erweiterung der statisch kuratierten Datenschutz-/Werbe-/Telemetrielisten.
-- 128 Werbe-Endpunkte ergänzt.
-- 136 Tracking-/Analyse-Endpunkte ergänzt.
-- Eigene Kategorien für Social-, Mobile-, Native-App-, Affiliate- und CMP-Tracking hinzugefügt.
-- Windows-, Apple-, Android-, Smart-TV- und IoT-Telemetrie erweitert.
-- Kombinierte Profile als direkte statische Dateien aktualisiert.
-- Das Repository blieb script- und Python-frei.
-- Security-Threat-Kategorien blieben bewusst konservativ und importierten keine Live-Feeds von Drittanbietern.
+- Major expansion of static curated privacy/ad/telemetry lists.
+- Added 128 advertising endpoints.
+- Added 136 tracking/analytics endpoints.
+- Added dedicated social, mobile, native-app, affiliate and CMP categories.
+- Expanded Windows, Apple, Android, Smart-TV and IoT telemetry categories.
+- Combined profiles refreshed as direct static files.
+- Repository remains script-free and Python-free.
+- Security threat categories remain intentionally conservative rather than importing third-party live feeds.
 
 ## 1.3.0 - 2026-08-11
 
-- README und Darstellung der statischen Listen neu gestaltet.
+- Redesigned README and static list presentation.

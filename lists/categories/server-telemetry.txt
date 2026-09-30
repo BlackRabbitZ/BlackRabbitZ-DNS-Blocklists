@@ -8,6 +8,7 @@
 # Sources: Red Hat documentation; Dell/HPE documented service endpoints; Dell SupportAssist documented endpoint
 # Snapshot: 2026-08
 #
+
 api.access.redhat.com
 cert-api.access.redhat.com
 cert.console.redhat.com

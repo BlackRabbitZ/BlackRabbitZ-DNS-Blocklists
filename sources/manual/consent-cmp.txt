@@ -1,0 +1,49 @@
+# BlackRabbitZ DNS Blocklists - manual baseline
+# Category: consent-cmp
+# This file is the manually retained source-of-truth after the one-time cleanup.
+# Automatic upstream data is stored separately under sources/upstream/.
+
+analytics.consensus.enterprises
+analytics.cookiefirst.dev
+cmp.osano.com
+consent-manager.com
+consentmanager.net
+cookiebot.com
+cookiebot.eu
+cookielaw.org
+cookies-data.onetrust.io
+d.sourcepoint.bigtop40.com
+d.sourcepoint.capitalfm.com
+d.sourcepoint.capitalxtra.com
+d.sourcepoint.classicfm.com
+d.sourcepoint.globalplayer.com
+d.sourcepoint.heart.co.uk
+d.sourcepoint.lbc.co.uk
+d.sourcepoint.radiox.co.uk
+d.sourcepoint.smoothradio.com
+didomi.io
+go.consensusfax.com
+load.analytics.cookiebot.dev
+mobile-data.onetrust.io
+osano.com
+privacy-center.org
+privacy-mgmt.com
+privacy-mgmt.fupa.net
+quantcast.com
+quantcast.de
+quantcast.mgr.consensu.org
+quantcast.net
+sourcepoint.com
+sourcepoint.gutekueche.de
+sourcepoint.vice.com
+srepdata.wauwatosanow.com
+stape.academicosanonimos.com.br
+stats.papeldeparededosanos70.com
+trustarc.com
+trustarc.mgr.consensu.org
+usercentrics.ch
+usercentrics.co.uk
+usercentrics.com
+usercentrics.de
+usercentrics.eu
+usercentrics.io

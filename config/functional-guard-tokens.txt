@@ -1,0 +1,24 @@
+# Conservative tokens used only for automatic privacy/device upstream imports.
+# A match sends the candidate to review/quarantine instead of auto-blocking it.
+windowsupdate
+softwareupdate
+firmware
+fota
+update.
+.updates.
+.updater.
+oauth
+auth.
+login.
+signin.
+ocsp
+certificate
+connectivitycheck
+captive
+push.
+.push
+mtalk
+defender
+download.
+activation
+license.

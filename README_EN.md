@@ -1,14 +1,15 @@
 <div align="center">
 
 # 🐇 BlackRabbitZ DNS Blocklists
+
 ### Privacy • Security • Ads • Trackers • Telemetry
 
 [![License: GPL-3.0-only](https://img.shields.io/badge/License-GPL--3.0--only-blue.svg)](LICENSE)
-![Pi-hole](https://img.shields.io/badge/Pi--hole-Compatible-brightgreen)
+![Pi-hole compatible](https://img.shields.io/badge/Pi--hole-Compatible-brightgreen)
 ![Static Lists](https://img.shields.io/badge/Lists-Static-success)
 ![Maintainer](https://img.shields.io/badge/Maintainer-BlackRabbitZ-black)
-![End Users](https://img.shields.io/badge/End%20Users-No%20Python-success)
-[![Update blocklists](https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/actions/workflows/update-lists.yml/badge.svg)](https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/actions/workflows/update-lists.yml)
+![End users](https://img.shields.io/badge/End%20users-No%20Python-success)
+[![Validate blocklists](https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/actions/workflows/update-lists.yml/badge.svg)](https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/actions/workflows/update-lists.yml)
 
 **Static, transparent DNS blocklists for Pi-hole and compatible DNS filtering solutions.**
 
@@ -20,45 +21,47 @@
 
 </div>
 
-<a id="why-dns-blocklists"></a>
-## 🛡️ Why use DNS blocklists?
+---
 
-DNS blocklists stop unwanted connections during name resolution. This allows **ads, trackers, telemetry and known malicious domains to be filtered centrally for the whole network** without installing extra software on every device.
+<a id="why-dns-blocklists"></a>
+## 🛡️ Why DNS blocklists?
+
+DNS blocklists stop unwanted connections during name resolution. This allows **ads, trackers, telemetry and known malicious domains to be filtered centrally for the entire network** without installing additional software on every device.
+
+This corrected repository version deliberately separates **manually curated domains**, **automatically retrieved upstream data**, and **uncertain candidates**. External feeds are no longer appended forever to the public lists. Every feed has its own cache; successful refreshes replace that cache, while failed refreshes retain the last known-good state.
 
 ---
 
 <a id="contents"></a>
-## 📑 Table of Contents
+## 📑 Table of contents
 
-- [Why DNS blocklists?](#why-dns-blocklists) — why network-wide DNS blocking is useful
-- [Quick Start](#quick-start) — recommended default list and fast Pi-hole setup
-- [Privacy Profiles](#protection-profiles) — Light, Balanced, Strict and Ultimate protection levels
-- [Protection Comparison](#protection-comparison) — profile features and breakage risk
-  - [Optional Protection Modules](#optional-protection-modules) — Security and Family as targeted add-ons
-  - [Large Profile Parts](#large-profile-parts) — automatically generated Raw parts; up to 50 MiB per file going forward
-- [Ads & Tracking](#ads-tracking) — ads, trackers, affiliate tracking and pop-up ads
-- [Telemetry & Devices](#telemetry-devices) — OS, device, Smart-TV, IoT and native-tracker lists
-- [Gaming Privacy](#gaming-privacy) — gaming telemetry and optional RegEx rules
-- [Security Lists](#security-lists) — malware, phishing, scam, fake, threat intelligence, NRD/DGA, DynDNS, hoster and TLD protection
-- [DNS, Web & Bypass Protection](#dns-web-protection) — DoH/VPN/TOR/proxy bypass, URL shorteners and DNS rebind protection
-- [Family Lists](#family-lists) — Adult/NSFW, gambling, SafeSearch, anti-piracy and social-network blocking
-- [Recommendations](#recommendations) — sensible profile and add-on combinations
-- [Online DNS Services](#online-dns-services) — guidance for external DNS providers and mobile use
-- [Upstream Sources & Build Transparency](#upstream-sources) — sources, archive snapshots, metadata and checksums
-- [Repository Structure](#repository-structure) — folders, configs, scripts and generated lists
-- [Automatic List Updates](#automatic-updates) — daily feeds and the extended-list builder
-- [Extending Lists](#extending-lists) — add categories, profiles and extended lists
-- [False Positives](#false-positives) — report false blocks and use the allowlist
-- [License & Attribution](#license-attribution) — GPL-3.0, third-party sources and attribution
+- [Why DNS blocklists?](#why-dns-blocklists)
+- [Quick start](#quick-start)
+- [Privacy profiles](#protection-profiles)
+- [Protection comparison](#protection-comparison)
+- [Optional protection modules](#optional-protection-modules)
+- [Ultimate parts](#ultimate-parts)
+- [Ads & tracking](#ads-tracking)
+- [Telemetry & devices](#telemetry-devices)
+- [Security lists](#security-lists)
+- [Family lists](#family-lists)
+- [Recommendations](#recommendations)
+- [Online DNS services](#online-dns-services)
+- [Upstream sources & build transparency](#upstream-sources)
+- [Repository structure](#repository-structure)
+- [Automatic list updates](#automatic-updates)
+- [Extending the lists](#extending-lists)
+- [False positives](#false-positives)
+- [License & attribution](#license-attribution)
 
 ---
 
 <a id="quick-start"></a>
-## ⚡ Quick Start
+## ⚡ Quick start
 
 ### ⭐ Recommended: Balanced
 
-For most users, **Balanced** is the best starting point. It blocks advertising, general trackers and social tracking while deliberately leaving affiliate/referral infrastructure out of the default profile to reduce avoidable breakage.
+For most users, **Balanced** is the best starting point. It combines ad blocking with general tracker protection without forcing device- and operating-system-specific telemetry lists into the default setup.
 
 ```text
 https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/balanced.txt
@@ -72,486 +75,355 @@ https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/
 4. Save.
 5. Update Gravity.
 
+> Test new or aggressive lists in a separate Pi-hole group first.
+
 ---
 
 <a id="protection-profiles"></a>
-# 🚀 Privacy Protection Profiles
+# 🚀 Protection profiles
 
-These are the main protection levels. Start with **Balanced** and move to **Strict** or **Ultimate** only when you intentionally want more aggressive privacy filtering.
+The combined profiles are designed for different use cases. **Blocking more does not automatically mean better protection** – device, telemetry and cloud endpoints may have functional dependencies.
 
-<!-- MAIN_PROFILES_START -->
 | Profile | Protection | Entries | Recommended for | View | Raw |
 |---|:---:|---:|---|:---:|:---:|
-| 🟢 **Light** | Low | **235,690** | Basic ad blocking | [View](lists/combined/light.txt) | **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/light.txt)** |
-| 🔵 **Balanced ⭐** | Medium | **373,183** | Most users | [View](lists/combined/balanced.txt) | **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/balanced.txt)** |
-| 🟠 **Strict** | High | **375,137** | Privacy-focused setups | [View](lists/combined/strict.txt) | **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/strict.txt)** |
-| 🔴 **Ultimate** | Maximum | **5,579,584** | Aggressive filtering | [Show Parts](#ultimate-parts) | **[Raw Parts](#ultimate-parts)** |
-<!-- MAIN_PROFILES_END -->
+| 🟢 **Light** | Low | **234036** | Basic ad blocking | [View](lists/combined/light.txt) | **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/light.txt)** |
+| 🔵 **Balanced ⭐** | Medium | **342195** | Most users | [View](lists/combined/balanced.txt) | **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/balanced.txt)** |
+| 🟠 **Strict** | High | **371736** | Privacy-focused setups | [View](lists/combined/strict.txt) | **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/strict.txt)** |
+| 🛡️ **Security** | Security | **3408844** | Security-focused filtering | [View](lists/combined/security.txt) | **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/security.txt)** |
+| 👨‍👩‍👧 **Family** | Family | **1758872** | Family networks | [View](lists/combined/family.txt) | **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/family.txt)** |
+| 🔴 **Ultimate** | Maximum | **5,119,302** | Aggressive filtering | [Show parts](#ultimate-parts) | **[Raw parts](#ultimate-parts)** |
 
-> **Balanced** is recommended for most installations.
-> **Strict** adds affiliate tracking, telemetry, device telemetry and native/app tracking.
-> **Ultimate** is intentionally aggressive and can affect telemetry-dependent features, Smart-TV functions, app analytics, gaming telemetry and cloud-backed services. **Consent/CMP remains an optional standalone category instead of being forced into Ultimate.**
+> **Balanced** is recommended for most installations. **Strict** adds general and device-specific telemetry plus native/app tracking. **Security** and **Family** are focused add-on profiles. **Ultimate** is intentionally aggressive and should not be deployed to critical networks without testing.
 
 ---
 
 <a id="protection-comparison"></a>
-# 🎚️ Protection Comparison
+# 🎚️ Protection comparison
 
-<!-- COMPARISON_START -->
 | Feature | Light | Balanced ⭐ | Strict | Security | Family | Ultimate |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|
 | Advertising | ✅ | ✅ | ✅ | — | ✅ | ✅ |
-| General Trackers | — | ✅ | ✅ | — | ✅ | ✅ |
-| Social Tracking | — | ✅ | ✅ | — | ✅ | ✅ |
-| Affiliate Tracking | — | — | ✅ | — | — | ✅ |
-| General Telemetry | — | — | ✅ | — | — | ✅ |
-| Gaming Telemetry | — | — | — | — | — | ✅ |
-| Windows Telemetry | — | — | ✅ | — | — | ✅ |
-| Apple Telemetry | — | — | ✅ | — | — | ✅ |
-| Android Telemetry | — | — | ✅ | — | — | ✅ |
-| Linux Telemetry | — | — | ✅ | — | — | ✅ |
-| NAS Telemetry | — | — | ✅ | — | — | ✅ |
-| Server Telemetry | — | — | ✅ | — | — | ✅ |
-| Mobile/App Tracking | — | — | ✅ | — | — | ✅ |
-| Smart-TV / IoT | — | — | ✅ | — | — | ✅ |
+| General trackers | — | ✅ | ✅ | — | ✅ | ✅ |
+| Social tracking | — | ✅ | ✅ | — | ✅ | ✅ |
+| Affiliate tracking | — | — | ✅ | — | — | ✅ |
+| General telemetry | — | — | ✅ | — | — | ✅ |
+| Windows telemetry | — | — | ✅ | — | — | ✅ |
+| Apple telemetry | — | — | ✅ | — | — | ✅ |
+| Android telemetry | — | — | ✅ | — | — | ✅ |
+| Linux/NAS/server telemetry | — | — | ✅ | — | — | ✅ |
+| Mobile/app tracking | — | — | ✅ | — | — | ✅ |
+| Smart TV / IoT | — | — | ✅ | — | — | ✅ |
 | Cryptomining | — | — | — | ✅ | — | ✅ |
-| Malware / Phishing / Scam / Fake Shops | — | — | — | ✅ | — | ✅ |
-| Consent / CMP | — | — | — | — | — | — |
-| Adult | — | — | — | — | ✅ | ✅ |
+| Malware / phishing / scam / fake shops | — | — | — | ✅ | — | ✅ |
+| Adult content | — | — | — | — | ✅ | ✅ |
 | Gambling | — | — | — | — | ✅ | ✅ |
-| Breakage Risk | 🟢 Low | 🔵 Low–Medium | 🟠 Higher | 🟡 Medium | 🟠 Higher | 🔴 Highest |
-<!-- COMPARISON_END -->
+| Breakage risk | 🟢 Low | 🔵 Low–Medium | 🟠 Higher | 🟡 Medium | 🟠 Higher | 🔴 Very high |
 
 <a id="optional-protection-modules"></a>
-## 🧩 Optional Protection Modules
+## 🧩 Optional protection modules
 
-These profiles solve a different problem than the privacy tiers above. They are best treated as **add-ons**, not as “stronger versions” of Balanced or Strict.
+**Security** and **Family** are not simply stronger versions of Balanced or Strict; they are focused add-on profiles:
 
-<!-- ADDON_PROFILES_START -->
-| Profile | Protection | Entries | Recommended for | View | Raw |
-|---|:---:|---:|---|:---:|:---:|
-| 🛡️ **Security** | Security | **3,559,600** | Security-focused filtering | [Show Parts](#security-parts) | **[Raw Parts](#security-parts)** |
-| 👨‍👩‍👧 **Family** | Family | **2,105,966** | Family networks | [Show Parts](#family-parts) | **[Raw Parts](#family-parts)** |
-<!-- ADDON_PROFILES_END -->
+- **Security** combines malware, phishing, scam, fake-shop and cryptomining protection.
+- **Family** adds adult-content and gambling filters to ad/tracker protection.
+- **Consent/CMP** remains a separate category because DNS-level blocking of consent infrastructure can break websites.
 
-- **Security** focuses on malware, phishing, scams, fake shops and cryptomining. It can be combined with Balanced or Strict.
-- **Family** adds advertising/tracking protection plus adult and gambling filtering.
-- **Gaming Privacy**, **Consent/CMP** and other category lists remain separately selectable below so users can add only what they actually want.
-
-<a id="large-profile-parts"></a>
-## 📦 Large Profile Parts
-
-Large combined profiles are generated as deterministic, size-bounded files. Add **every part** of a split profile for complete coverage. Parts use zero-padded names such as `security-part-01.txt` and now target a maximum of **50 MiB per file**. On the first build after this upgrade, the previous smaller parts are automatically merged and regenerated.
-
-Upgrading from the previous `security.txt` / `family.txt` / `ultimate-N.txt` layout? See [`docs/MIGRATION_V3_EN.md`](docs/MIGRATION_V3_EN.md).
-
-<!-- SPLIT_PROFILES_START -->
-<a id="security-parts"></a>
-<details>
-<summary><strong>🛡️ Security: Show Parts (2 files)</strong></summary>
-
-**Total: 3,559,600 unique domains.** Add all parts to Pi-hole or your DNS blocker for complete profile coverage.
-
-| Security Part | Security Part |
-|---|---|
-| **Part 01**  <br>**2,583,511** entries · 50.0 MiB  <br>[View](lists/combined/security-part-01.txt) · **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/security-part-01.txt)** | **Part 02**  <br>**976,089** entries · 19.4 MiB  <br>[View](lists/combined/security-part-02.txt) · **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/security-part-02.txt)** |
-
-</details>
-
-<a id="family-parts"></a>
-<details>
-<summary><strong>👨‍👩‍👧 Family: Show Parts (1 files)</strong></summary>
-
-**Total: 2,105,966 unique domains.** Add all parts to Pi-hole or your DNS blocker for complete profile coverage.
-
-| Family Part | Family Part |
-|---|---|
-| **Part 01**  <br>**2,105,966** entries · 38.2 MiB  <br>[View](lists/combined/family-part-01.txt) · **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/family-part-01.txt)** |  |
-
-</details>
+---
 
 <a id="ultimate-parts"></a>
-<details>
-<summary><strong>🔴 Ultimate: Show Parts (3 files)</strong></summary>
+## 📦 Ultimate parts
 
-**Total: 5,579,584 unique domains.** Add all parts to Pi-hole or your DNS blocker for complete profile coverage.
+Ultimate is large and is therefore split automatically into multiple files. Add **every part** for complete Ultimate coverage.
 
-| Ultimate Part | Ultimate Part |
-|---|---|
-| **Part 01**  <br>**2,633,552** entries · 50.0 MiB  <br>[View](lists/combined/ultimate-part-01.txt) · **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/ultimate-part-01.txt)** | **Part 02**  <br>**2,627,648** entries · 50.0 MiB  <br>[View](lists/combined/ultimate-part-02.txt) · **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/ultimate-part-02.txt)** |
-| **Part 03**  <br>**318,384** entries · 6.2 MiB  <br>[View](lists/combined/ultimate-part-03.txt) · **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/ultimate-part-03.txt)** |  |
-
-</details>
-<!-- SPLIT_PROFILES_END -->
-
-
+<!-- ULTIMATE_PARTS_START -->
+| Part | Entries | Size | View | Raw |
+|---:|---:|---:|:---:|:---:|
+| **1** | **2,090,381** | 40.0 MiB | [View](lists/combined/ultimate-1.txt) | **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/ultimate-1.txt)** |
+| **2** | **2,125,750** | 40.0 MiB | [View](lists/combined/ultimate-2.txt) | **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/ultimate-2.txt)** |
+| **3** | **903,171** | 17.9 MiB | [View](lists/combined/ultimate-3.txt) | **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/combined/ultimate-3.txt)** |
+<!-- ULTIMATE_PARTS_END -->
 
 ---
 
 <a id="ads-tracking"></a>
-# 📢 Ads & Tracking
+# 📢 Ads & tracking
 
-<!-- ADS_TRACKING_TABLE_START -->
 | List | Entries | Description | View | Raw |
 |---|---:|---|:---:|:---:|
-| 📣 **Ads** | 235,690 | Large advertising, ad-delivery and integrated pop-up-ad domain set | [View](lists/categories/ads.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/ads.txt) |
-| 👁️ **Trackers** | 143,967 | Large analytics and tracking infrastructure set | [View](lists/categories/trackers.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/trackers.txt) |
-| 👥 **Social Trackers** | 99 | Social-network tracking and analytics endpoints | [View](lists/categories/social-trackers.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/social-trackers.txt) |
-| 📲 **Mobile Tracking** | 823 | Mobile attribution, SDK analytics, app tracking and integrated TikTok native trackers | [View](lists/categories/mobile-tracking.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/mobile-tracking.txt) |
-| 🧩 **Native/App Tracking** | 1,536 | Native OS/device and application tracking | [View](lists/categories/native-tracking.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/native-tracking.txt) |
-| 🔗 **Affiliate Tracking** | 643 | Affiliate, click, referral and conversion tracking; included from Strict upward | [View](lists/categories/affiliate-tracking.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/affiliate-tracking.txt) |
-| 🍪 **Consent / CMP** | 44 | Optional consent-management/CMP blocking with elevated website-breakage risk | [View](lists/categories/consent-cmp.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/consent-cmp.txt) |
-<!-- ADS_TRACKING_TABLE_END -->
+| 📣 **Ads** | 234036 | Advertising, ad-delivery and ad infrastructure | [View](lists/categories/ads.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/ads.txt) |
+| 👁️ **Trackers** | 113609 | General analytics and tracking infrastructure | [View](lists/categories/trackers.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/trackers.txt) |
+| 👥 **Social trackers** | 99 | Social-network tracking and analytics endpoints | [View](lists/categories/social-trackers.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/social-trackers.txt) |
+| 📲 **Mobile tracking** | 201 | Mobile attribution, SDK analytics and app tracking | [View](lists/categories/mobile-tracking.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/mobile-tracking.txt) |
+| 🧩 **Native/app tracking** | 628 | Operating-system, device and application tracking | [View](lists/categories/native-tracking.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/native-tracking.txt) |
+| 🔗 **Affiliate tracking** | 643 | Affiliate, click, referral and conversion tracking | [View](lists/categories/affiliate-tracking.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/affiliate-tracking.txt) |
+| 🍪 **Consent / CMP** | 44 | Consent-management/CMP infrastructure; higher breakage risk | [View](lists/categories/consent-cmp.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/consent-cmp.txt) |
 
-> **Consent/CMP is deliberately not included in any combined protection profile.** DNS-level consent blocking can interfere with page loading, consent state and site functionality.
+> **Consent/CMP is intentionally not included in the normal privacy profiles.** These domains can be directly involved in page loading and consent-state handling.
 
 ---
 
 <a id="telemetry-devices"></a>
-# 📡 Telemetry & Devices
-
-<!-- TELEMETRY_TABLE_START -->
-| List | Entries | Description | View | Raw |
-|---|---:|---|:---:|:---:|
-| 📊 **General Telemetry** | 29,324 | Broad product/app analytics, diagnostics and telemetry | [View](lists/categories/telemetry.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/telemetry.txt) |
-| 🪟 **Windows Telemetry** | 461 | Windows/Office diagnostics, telemetry and integrated Microsoft native trackers | [View](lists/categories/windows-telemetry.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/windows-telemetry.txt) |
-| 🍎 **Apple Telemetry** | 138 | Apple telemetry, metrics, diagnostics and integrated native trackers | [View](lists/categories/apple-telemetry.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/apple-telemetry.txt) |
-| 🤖 **Android Telemetry** | 1,557 | Android/vendor telemetry including Huawei, Samsung, Vivo, OPPO/Realme and Xiaomi | [View](lists/categories/android-telemetry.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/android-telemetry.txt) |
-| 🐧 **Linux Telemetry** | 65 | Linux distribution telemetry, diagnostics and usage reporting | [View](lists/categories/linux-telemetry.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/linux-telemetry.txt) |
-| 💾 **NAS Telemetry** | 12 | NAS telemetry and usage reporting (Synology, TrueNAS and others) | [View](lists/categories/nas-telemetry.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/nas-telemetry.txt) |
-| 🖥️ **Server Telemetry** | 10 | Server, Red Hat Insights and management telemetry | [View](lists/categories/server-telemetry.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/server-telemetry.txt) |
-| 📺 **Smart TV** | 720 | Smart-TV ads, ACR, diagnostics, telemetry and integrated LG webOS/Roku trackers | [View](lists/categories/smart-tv.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/smart-tv.txt) |
-| 🏠 **IoT** | 437 | Telemetry/tracking endpoints for IoT, connected and Amazon devices/services | [View](lists/categories/iot.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/iot.txt) |
-<!-- TELEMETRY_TABLE_END -->
-
-> Device-specific lists and native trackers can disable recommendations, diagnostics, usage reporting, ACR, ads or other cloud-backed features.
-
----
-
-<a id="gaming-privacy"></a>
-# 🎮 Gaming Privacy
+# 📡 Telemetry & devices
 
 | List | Entries | Description | View | Raw |
 |---|---:|---|:---:|:---:|
-| 🎮 **Gaming Telemetry** | 38 | Recommended game, launcher, analytics and crash-reporting endpoints with lower breakage risk | [View](lists/categories/gaming-telemetry.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/gaming-telemetry.txt) |
-| ⚠️ **Gaming Telemetry – Aggressive** | 62 | Optional additional endpoints with increased launcher, login and gameplay breakage risk | [View](lists/categories/gaming-telemetry-aggressive.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/gaming-telemetry-aggressive.txt) |
-| 🧩 **Gaming RegEx Rules** | 5 | Dynamic Pi-hole deny patterns; import individually, not as a normal Adlist | [View](lists/regex/gaming-telemetry-regex.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/regex/gaming-telemetry-regex.txt) |
+| 📊 **General telemetry** | 29169 | Product/app analytics, diagnostics and telemetry | [View](lists/categories/telemetry.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/telemetry.txt) |
+| 🪟 **Windows telemetry** | 51 | Windows/Microsoft diagnostics and telemetry | [View](lists/categories/windows-telemetry.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/windows-telemetry.txt) |
+| 🍎 **Apple telemetry** | 119 | Apple metrics, diagnostics and telemetry | [View](lists/categories/apple-telemetry.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/apple-telemetry.txt) |
+| 🤖 **Android telemetry** | 135 | Android/vendor telemetry and native tracking | [View](lists/categories/android-telemetry.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/android-telemetry.txt) |
+| 🐧 **Linux telemetry** | 3 | Linux telemetry and usage reporting | [View](lists/categories/linux-telemetry.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/linux-telemetry.txt) |
+| 💾 **NAS telemetry** | 12 | NAS telemetry and usage reporting | [View](lists/categories/nas-telemetry.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/nas-telemetry.txt) |
+| 🖥️ **Server telemetry** | 10 | Server and management telemetry | [View](lists/categories/server-telemetry.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/server-telemetry.txt) |
+| 📺 **Smart TV** | 556 | Smart-TV advertising, ACR, diagnostics and telemetry | [View](lists/categories/smart-tv.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/smart-tv.txt) |
+| 🏠 **IoT** | 85 | IoT and connected-device telemetry/tracking | [View](lists/categories/iot.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/iot.txt) |
 
-> Start with **Gaming Telemetry**. The aggressive list and RegEx rules can interfere with Battle.net, Epic, Rockstar, Riot, EA and individual games. Test them in a separate Pi-hole group first.
+> Device-specific lists can interfere with recommendations, diagnostics, usage reporting, ACR, ads or other cloud features. The corrected upstream pipeline therefore protects known update, login, push, certificate and firmware endpoints from automatic privacy/device imports.
 
 ---
 
 <a id="security-lists"></a>
-# 🛡️ Security Lists
+# 🛡️ Security lists
 
-<!-- SECURITY_TABLE_START -->
 | List | Entries | Description | View | Raw |
 |---|---:|---|:---:|:---:|
-| 🦠 **Malware** | 2,811,362 | Massive malware, ransomware and active malware-host set | [View](lists/categories/malware.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/malware.txt) |
-| 🎣 **Phishing** | 572,811 | Massive active and curated phishing-domain set | [View](lists/categories/phishing.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/phishing.txt) |
-| 💰 **Scam & Internet Fraud** | 284,439 | Scam, fraud, fake-offer, trap and deceptive-platform domains | [View](lists/categories/scam.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/scam.txt) |
-| 🛒 **Fake Shops** | 11,540 | Aggressive fake-shop/deceptive-store candidate set | [View](lists/categories/fake-shops.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/fake-shops.txt) |
-| ⛏️ **Cryptomining** | 6,119 | Browser/remote mining infrastructure (generic exchanges excluded) | [View](lists/categories/cryptomining.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/cryptomining.txt) |
-| <a id="list-threat-intelligence"></a>🔐 **Threat Intelligence Feeds** | 4 variants | Additional malware, phishing, scam, spam, cryptojacking and C2 indicators in multiple sizes. | [Variants](#list-threat-intelligence-variants) | — |
-| <a id="list-nrd-dga"></a>🆕 **Newly Registered Domains / NRD & DGA** | 8 variants | Time-window lists for newly registered domains and high-entropy DGA domains; very large and especially aggressive. | [Variants](#list-nrd-dga-variants) | — |
-| <a id="list-dynamic-dns"></a>🔏 **Dynamic DNS** | 1,524 | Blocks known dynamic-DNS services that can be abused in phishing or malware campaigns. | [View](lists/categories/dynamic-dns.txt) | **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/dynamic-dns.txt)** |
-| <a id="list-badware-hoster"></a>💻 **Badware Hoster** | 1,258 | Blocks hosting-provider root domains repeatedly abused for malicious content; high false-positive risk. | [View](lists/categories/badware-hoster.txt) | **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/badware-hoster.txt)** |
-| <a id="list-most-abused-tlds"></a>🔮 **Most Abused TLDs** | 147 | Aggressive rules blocking entire frequently abused top-level domains; archived in Pi-hole-compatible Adblock format. | [View](lists/categories/most-abused-tlds.txt) | **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/most-abused-tlds.txt)** |
+| 🦠 **Malware** | 2656445 | Malware, ransomware and active malware hosts | [View](lists/categories/malware.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/malware.txt) |
+| 🎣 **Phishing** | 577783 | Active and curated phishing domains | [View](lists/categories/phishing.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/phishing.txt) |
+| 💰 **Scam / fraud** | 265330 | Scam, fraud and deceptive-platform domains | [View](lists/categories/scam.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/scam.txt) |
+| 🛒 **Fake shops** | 10964 | Potential fake shops and deceptive stores | [View](lists/categories/fake-shops.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/fake-shops.txt) |
+| ⛏️ **Cryptomining** | 6121 | Browser/remote mining infrastructure | [View](lists/categories/cryptomining.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/cryptomining.txt) |
 
-<a id="list-threat-intelligence-variants"></a>
-<details>
-<summary><strong>🔐 Threat Intelligence Feeds: Show variants</strong></summary>
-
-| Variant | Entries | View | Raw |
-|---|---:|:---:|:---:|
-| **Full** | 1,742,431 | [View](lists/categories/threat-intelligence-full.txt) | **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/threat-intelligence-full.txt)** |
-| **Medium** | 388,495 | [View](lists/categories/threat-intelligence-medium.txt) | **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/threat-intelligence-medium.txt)** |
-| **Mini** | 290,017 | [View](lists/categories/threat-intelligence-mini.txt) | **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/threat-intelligence-mini.txt)** |
-| **IPv4** | 55,692 | [View](lists/ips/threat-intelligence-ipv4.txt) | **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/ips/threat-intelligence-ipv4.txt)** |
-
-</details>
-<a id="list-nrd-dga-variants"></a>
-<details>
-<summary><strong>🆕 Newly Registered Domains / NRD & DGA: Show variants</strong></summary>
-
-| Variant | Entries | View | Raw |
-|---|---:|:---:|:---:|
-| **NRD days 1–7** | 2,474,652 | [View](lists/categories/nrd-01-07.txt) | **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/nrd-01-07.txt)** |
-| **NRD days 8–14** | 2,628,520 | [View](lists/categories/nrd-08-14.txt) | **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/nrd-08-14.txt)** |
-| **NRD days 15–21** | 2,428,285 | [View](lists/categories/nrd-15-21.txt) | **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/nrd-15-21.txt)** |
-| **NRD days 22–28** | 2,922,533 | [View](lists/categories/nrd-22-28.txt) | **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/nrd-22-28.txt)** |
-| **NRD days 29–35** | 2,298,638 | [View](lists/categories/nrd-29-35.txt) | **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/nrd-29-35.txt)** |
-| **DGA 7 days** | 539,683 | [View](lists/categories/dga-7.txt) | **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/dga-7.txt)** |
-| **DGA 14 days** | 1,125,502 | [View](lists/categories/dga-14.txt) | **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/dga-14.txt)** |
-| **DGA 30 days** | 2,461,156 | [View](#dga-30-parts) | **[Parts](#dga-30-parts)** |
-
-<a id="dga-30-parts"></a>
-<details>
-<summary><strong>DGA 30 days: 2 show parts</strong></summary>
-
-| Part | Part |
-|---|---|
-| **Part 01**  <br>**2,220,726** entries · 50.0 MiB  <br>[View](lists/categories/dga-30-part-01.txt) · **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/dga-30-part-01.txt)** | 2,220,583 |
-
-</details>
-
-</details>
-<!-- SECURITY_TABLE_END -->
-
-> Security and threat-intelligence lists can be very large and aggressive. **NRD/DGA, badware-hoster and TLD rules** carry particularly high false-positive risk and should be enabled deliberately.
-
----
-
-<a id="dns-web-protection"></a>
-# 🌐 DNS, Web & Bypass Protection
-
-These optional modules target **DNS bypass, DNS rebinding and obfuscated redirects**. They are not part of the normal privacy profiles and should be enabled deliberately.
-
-<!-- SPECIAL_NETWORK_START -->
-| List | Entries | Description | View | Raw |
-|---|---:|---|:---:|:---:|
-| <a id="list-dns-bypass"></a>📤 **DoH/VPN/TOR/Proxy Bypass** | 3 variants | Blocks known encrypted-DNS, VPN, TOR and proxy endpoints that can bypass local DNS filtering. | [Variants](#list-dns-bypass-variants) | — |
-| <a id="list-url-shortener"></a>📲 **URL Shortener** | 9,904 | Blocks known link/URL shorteners; intentionally marked very aggressive for normal home networks. | [View](lists/categories/url-shortener.txt) | **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/url-shortener.txt)** |
-| <a id="list-dns-rebind-protection"></a>🛡️ **DNS Rebind Protection** | — | Pi-hole/dnsmasq configuration against DNS rebinding; not a normal static domain Adlist. | [Documentation](docs/DNS_REBIND_PROTECTION_EN.md) | — |
-
-<a id="list-dns-bypass-variants"></a>
-<details>
-<summary><strong>📤 DoH/VPN/TOR/Proxy Bypass: Show variants</strong></summary>
-
-| Variant | Entries | View | Raw |
-|---|---:|:---:|:---:|
-| **Full** | 16,965 | [View](lists/categories/dns-bypass-full.txt) | **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/dns-bypass-full.txt)** |
-| **DoH only** | 3,384 | [View](lists/categories/doh-only.txt) | **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/doh-only.txt)** |
-| **DoH IPv4** | 1,395 | [View](lists/ips/doh-ipv4.txt) | **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/ips/doh-ipv4.txt)** |
-
-</details>
-<!-- SPECIAL_NETWORK_END -->
+> Security lists use different classification rules than privacy/device lists. Functional-looking tokens such as `login` or `update` do not automatically allow a security indicator because malicious domains can contain those words too.
 
 ---
 
 <a id="family-lists"></a>
-# 👨‍👩‍👧 Family Lists
+# 👨‍👩‍👧 Family lists
 
-<!-- FAMILY_TABLE_START -->
 | List | Entries | Description | View | Raw |
 |---|---:|---|:---:|:---:|
-| 🔞 **Adult / NSFW** | 1,028,860 | Massive adult/NSFW-content and pornography domain set | [View](lists/categories/adult.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/adult.txt) |
-| 🎰 **Gambling** | 707,095 | Massive betting, casino and gambling domain set · [optional variants](#list-gambling-variants) | [View](lists/categories/gambling.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/gambling.txt) |
-| <a id="list-safesearch-unsupported"></a>🔍 **SafeSearch Unsupported** | 206 | Blocks search engines that do not support SafeSearch. | [View](lists/categories/safesearch-unsupported.txt) | **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/safesearch-unsupported.txt)** |
-| <a id="list-anti-piracy"></a>💀 **Anti Piracy** | 39,740 | Blocks domains and services mainly used for unauthorized distribution of copyrighted content. | [View](lists/categories/anti-piracy.txt) | **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/anti-piracy.txt)** |
-| <a id="list-social-networks"></a>💬 **Social Networks** | 898 | Blocks access to traditional social networks; messaging and streaming are not automatically treated the same way. | [View](lists/categories/social-networks.txt) | **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/social-networks.txt)** |
-
-<a id="list-gambling-variants"></a>
-<details>
-<summary><strong>🎰 Gambling: Show variants</strong></summary>
-
-| Variant | Entries | View | Raw |
-|---|---:|:---:|:---:|
-| **Medium** | 142,333 | [View](lists/categories/gambling-medium.txt) | **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/gambling-medium.txt)** |
-| **Mini** | 93,304 | [View](lists/categories/gambling-mini.txt) | **[Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/gambling-mini.txt)** |
-
-</details>
-<!-- FAMILY_TABLE_END -->
-
-> Family and content filters deliberately remain optional so Adult/NSFW, gambling, SafeSearch, social networks and anti-piracy can be combined to match your network.
+| 🔞 **Adult / NSFW** | 999120 | Adult-content and pornography domains | [View](lists/categories/adult.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/adult.txt) |
+| 🎰 **Gambling** | 420536 | Betting, casino and gambling domains | [View](lists/categories/gambling.txt) | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/categories/gambling.txt) |
 
 ---
 
 <a id="recommendations"></a>
-# 💡 Recommendations
-
-BlackRabbitZ separates **privacy profiles**, **protection modules** and **aggressive extended lists** so every feature does not have to be forced into one giant all-in-one profile.
+# ✅ Recommendations
 
 | Goal | Recommendation |
 |---|---|
-| Reduce ads/tracking with minimal breakage | **Balanced ⭐** |
-| More privacy and telemetry blocking | **Strict** |
-| Additional threat protection | **Balanced or Strict + Security** |
-| Family network | **Family** plus selected SafeSearch/social/bypass modules as needed |
-| Maximum integrated blocking | **Ultimate**, only if you can troubleshoot false positives yourself |
-| Additional threat intelligence | start with **TIF Mini/Medium**; use Full only with sufficient resources |
-| NRD/DGA, badware hosters, URL shorteners, TLD blocking | only for deliberately aggressive or particularly sensitive environments |
+| Basic ad blocking | **Light** |
+| Everyday/home network | **Balanced** |
+| More privacy | **Strict** – test first |
+| Malware/phishing protection | **Balanced + Security** |
+| Family network | **Balanced + Family** |
+| Maximum filtering | **Ultimate** – only after testing and with your own allowlist |
 
-DNS blocking can catch a great deal of advertising, tracking and known malicious infrastructure, but it **cannot replace browser-side content filtering**. A good content blocker is still useful for page elements.
+**Recommended approach:** start with Balanced, observe the query log, then add only the categories you actually need. This reduces breakage compared with enabling everything at once.
 
 ---
 
 <a id="online-dns-services"></a>
-# 🏬 Online DNS Services
+# 🌍 Online DNS services and mobile use
 
-BlackRabbitZ primarily targets **self-managed DNS filters** such as Pi-hole. The published plain-domain lists can also be used by other products when the service supports custom blocklists.
+The files in this repository are normal domain lists primarily intended for **Pi-hole** and comparable self-managed DNS filters. Many hosted DNS providers either do not support custom lists or apply their own format and size limits.
 
-| Use case | Recommendation |
-|---|---|
-| Home network / full control | Pi-hole or a comparable self-hosted DNS filter |
-| Mobile away from home | reach your own DNS via VPN/tunnel or use an external DNS service that accepts custom lists |
-| IPv4 extended lists | use only in products/firewalls that explicitly support IP/network lists |
-| DNS rebind protection | use the resolver's built-in rebind feature; see the [documentation](docs/DNS_REBIND_PROTECTION_EN.md) |
-
-> Support for custom lists at external DNS providers can change. BlackRabbitZ therefore does not claim permanently valid provider availability here and instead publishes portable Raw lists.
+For mobile devices outside your home network, consider a VPN/DNS tunnel back to your own Pi-hole or a service that supports custom blocklists. Pi-hole regex rules and local group assignments are not automatically portable to external DNS services.
 
 ---
 
 <a id="upstream-sources"></a>
-# 🌐 Upstream Sources & Build Transparency
+# 🌐 Upstream sources & build transparency
 
-The large category lists merge and deduplicate selected upstream DNS/threat-intelligence datasets. Source and license details are documented in [`THIRD_PARTY_EN.md`](THIRD_PARTY_EN.md).
+The corrected repository deliberately separates the data flow into multiple layers:
 
-- Category files are published as plain domains, one domain per line.
-- `.github/workflows/daily-upstream-update.yml` checks configured upstream feeds every day and additively imports newly published domains.
-- `scripts/update-upstreams.py` validates, normalizes, deduplicates and safety-checks upstream data before category files are changed.
-- `config/profiles.json` is the single source of truth for profile composition, display metadata and split behavior.
-- `scripts/update-lists.sh` rebuilds all combined profiles, metadata, checksums and README values after category changes.
-- Upstream URLs and per-source safety thresholds remain in [`scripts/upstream-sources.json`](scripts/upstream-sources.json).
-- [`metadata/build.json`](metadata/build.json) contains machine-readable counts, part files, sizes and SHA-256 hashes.
-- [`metadata/SHA256SUMS`](metadata/SHA256SUMS) provides checksums for all published category and combined list files.
+```text
+Manually curated domains
+sources/manual/
+        │
+        ├──────────────┐
+        │              │
+External feeds         │
+sources/upstream/      │
+one cache per feed     │
+        │              │
+        └──────┬───────┘
+               ▼
+      scripts/build-categories.py
+               │
+               ▼
+      lists/categories/
+               │
+               ▼
+      scripts/update-lists.sh
+               │
+               ▼
+      lists/combined/
+```
 
-See [`docs/AUTOMATIC_UPDATES_EN.md`](docs/AUTOMATIC_UPDATES_EN.md) for the complete update and fail-safe behavior.
+### What changed from the old additive importer
+
+- **No endless additive accumulation:** a successful feed refresh replaces only that feed's cache.
+- **Last known-good state on outages:** a temporary upstream failure cannot empty a category.
+- **Manual data stays separate:** `sources/manual/` is independent from automated upstream data.
+- **Critical-service protection:** `config/critical-services.txt` protects known update, authentication, push, certificate and firmware infrastructure in privacy/device categories.
+- **Quarantine:** functional-looking or uncertain candidates can be written to `review/quarantine/` instead of being published automatically.
+- **Allowlist:** `config/allowlist.txt` is an explicit exclusion for published lists.
+- **NXDOMAIN checks:** newly cached domains can be checked in batches for confirmed NXDOMAIN before publication.
+- **Plausibility guards:** unexpectedly small, large or rapidly changing feeds are not accepted blindly.
+- **Review instead of direct push:** the daily upstream refresh creates or updates a Pull Request.
+
+Source and license information is documented in [`THIRD_PARTY.md`](THIRD_PARTY.md), attribution in [`ATTRIBUTION.md`](ATTRIBUTION.md). Workflow details are in [`docs/AUTOMATIC_UPDATES.md`](docs/AUTOMATIC_UPDATES.md) and [`MIGRATION_WORKFLOW_FIX.md`](MIGRATION_WORKFLOW_FIX.md).
 
 ---
 
 <a id="repository-structure"></a>
-# 📂 Repository Structure
+# 📂 Repository structure
 
 ```text
 BlackRabbitZ-DNS-Blocklists/
-│
 ├── .github/
 │   ├── ISSUE_TEMPLATE/
-│   │   ├── false-positive.yml
-│   │   ├── domain-request.yml
-│   │   └── upstream-source.yml
+│   │   └── false-positive.yml
 │   └── workflows/
 │       ├── update-lists.yml
 │       └── daily-upstream-update.yml
 ├── config/
 │   ├── allowlist.txt
-│   ├── profiles.json
-│   └── readme-i18n.json
+│   ├── critical-services.txt
+│   └── functional-guard-tokens.txt
 ├── docs/
-│   ├── AUTOMATIC_UPDATES.md
-│   ├── AUTOMATIC_UPDATES_EN.md
-│   ├── MIGRATION_V3.md
-│   └── MIGRATION_V3_EN.md
+│   └── AUTOMATIC_UPDATES.md
 ├── metadata/
-│   ├── build.json
-│   └── SHA256SUMS
+│   └── cleanup-report.json
+├── review/
+│   └── quarantine/
 ├── scripts/
-│   ├── update-lists.sh
-│   ├── publish-profile.py
-│   ├── generate-metadata.py
-│   ├── update-readme.py
-│   ├── validate-generated.py
+│   ├── automation/new_domain_check.py
+│   ├── build-categories.py
+│   ├── reclassify-existing.py
 │   ├── update-upstreams.py
-│   └── upstream-sources.json
+│   ├── upstream-sources.json
+│   ├── validate-repository.py
+│   ├── split-ultimate.py
+│   ├── update-ultimate-readme.py
+│   └── update-lists.sh
+├── sources/
+│   ├── manual/
+│   └── upstream/
+├── lists/
+│   ├── categories/
+│   └── combined/
 ├── README.md
 ├── README_EN.md
-├── CHANGELOG.md
-├── CHANGELOG_EN.md
-├── CONTRIBUTING.md
-├── CONTRIBUTING_EN.md
-├── SECURITY.md
-├── SECURITY_EN.md
+├── MIGRATION_WORKFLOW_FIX.md
 ├── LICENSE
 ├── NOTICE
 ├── ATTRIBUTION.md
-├── ATTRIBUTION_EN.md
-├── THIRD_PARTY.md
-├── THIRD_PARTY_EN.md
-│
-└── lists/
-    ├── combined/
-    │   ├── light.txt
-    │   ├── balanced.txt
-    │   ├── strict.txt
-    │   ├── security-part-01.txt
-    │   ├── family-part-01.txt
-    │   ├── ultimate-part-01.txt
-    │   └── ... additional numbered parts
-    │
-    ├── regex/
-    │   └── gaming-telemetry-regex.txt
-    │
-    └── categories/
-        └── ... individual category lists
+└── THIRD_PARTY.md
 ```
 
-Every published blocklist remains a normal **static text file** and can be consumed directly by Pi-hole or compatible DNS filters. Repository maintenance uses **Python, Bash and GitHub Actions**; end users still need no Python runtime.
+All published blocklists remain normal static text files. Python/Bash/GitHub Actions are required only for repository maintenance, not for Pi-hole end users.
 
 ---
 
 <a id="automatic-updates"></a>
-# 🔄 Automatic List Updates
+# 🔄 Automatic list updates
 
-Two GitHub Actions keep the repository current:
+The repository uses two separate workflows:
 
-1. **Daily upstream refresh** runs every day at `03:17 UTC`. It downloads the configured public feeds, normalizes their domains and **adds newly published entries** to the matching category files.
-2. **Update blocklists** runs after category, profile-config or build-script changes and keeps generated files synchronized.
+### 1. `daily-upstream-update.yml`
 
-The build pipeline:
+Runs on schedule at **03:17 UTC** or manually. It:
+
+1. validates the upstream configuration,
+2. refreshes the individual feed caches,
+3. performs an NXDOMAIN check on newly cached domains when practical,
+4. rebuilds categories and combined profiles,
+5. validates the repository,
+6. creates or updates the `automation/upstream-refresh` branch,
+7. opens or updates a **review Pull Request**.
+
+Third-party changes therefore **no longer get pushed directly to `main` without review**.
+
+### 2. `update-lists.yml`
+
+This workflow has **read-only repository permission** and verifies integrity. It rebuilds all generated files locally and fails if committed generated files do not match their sources.
+
+### Safety principle
 
 ```text
-Upstreams / category edits
-        ↓
-Normalize + validate + allowlist
-        ↓
-Category files
-        ↓
-Profile config
-        ↓
-Merge + deduplicate + sort
-        ↓
-Split large profiles (max. 50 MiB parts)
-        ↓
-Validate ordering / uniqueness / part sizes
-        ↓
-Generate build.json + SHA256SUMS
-        ↓
-Synchronize README files
+Upstream → cache → guard rules → build → validation → Pull Request → human review → merge
 ```
-
-Automatic upstream imports remain **additive**: the updater can extend the lists automatically, but it does not silently delete existing BlackRabbitZ entries. Specialized gaming/Linux/NAS/server telemetry lists can remain manually curated when no sufficiently trustworthy general-purpose upstream exists.
 
 ---
 
 <a id="extending-lists"></a>
-# ➕ Extending the Lists
+# ➕ Extending the lists
 
-To add domains to an existing category, edit the corresponding file under:
+Manual domains are **no longer maintained directly in `lists/categories/`**. Those files are generated outputs.
 
-```text
-lists/categories/
-```
-
-Add one domain per line. After a category change, the GitHub Action recalculates entry counts and rebuilds every affected combined profile automatically.
-
-To change which categories belong to a profile, edit:
+For an existing category, edit for example:
 
 ```text
-config/profiles.json
+sources/manual/ads.txt
 ```
 
-Do **not** manually edit generated combined profile parts, `metadata/build.json` or `metadata/SHA256SUMS`.
+One domain per line:
+
+```text
+ads.example.net
+tracker.example.net
+```
+
+Then rebuild and validate locally:
+
+```bash
+python3 ./scripts/build-categories.py
+bash ./scripts/update-lists.sh
+python3 ./scripts/validate-repository.py
+```
+
+### New upstream source
+
+New external feeds are configured in `scripts/upstream-sources.json`. Add only sources whose purpose, format, license and breakage risk are understood.
+
+### New category
+
+1. Create `sources/manual/<category>.txt`.
+2. Include the category in the build.
+3. Add mapping in `upstream-sources.json` if automated feeds are desired.
+4. Add the category to `scripts/update-lists.sh` if it belongs in a combined profile.
+5. Add links to README/README_EN.
+6. Run the validator.
 
 ---
 
 <a id="false-positives"></a>
-# ⚠️ False Positives
+# ⚠️ False positives
 
-Blocking more domains does not automatically mean better protection.
+Blocking more domains does not automatically mean better security or privacy.
 
-If a list breaks a website, application or device, use the **False positive** issue template and include the affected domain, list/profile, application/device, what stops working and reproduction steps.
+If a list breaks a website, app or device, please include:
 
-The goal is a useful blocklist, not the largest possible number.
+- affected domain,
+- affected list/profile,
+- application/device/operating system,
+- what stops working,
+- whether disabling the list restores the feature,
+- reproducible steps.
+
+Permanent explicit exclusions belong in `config/allowlist.txt`. Known functional infrastructure that should be specially protected during automatic privacy/device imports belongs in `config/critical-services.txt`.
+
+The goal is a **useful and understandable blocklist**, not the largest possible number of domains.
 
 ---
 
 <a id="license-attribution"></a>
-# 📜 License & Attribution
+# 📜 License & attribution
 
 This repository is licensed under **GNU GPL v3 (`GPL-3.0-only`)**.
 
-**Copyright © 2026 BlackRabbitZ**
+Copyright © 2026 BlackRabbitZ
 
 Original repository:
 
@@ -559,12 +431,14 @@ Original repository:
 https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 ```
 
-See:
+See also:
 
 - [`LICENSE`](LICENSE)
 - [`NOTICE`](NOTICE)
-- [`ATTRIBUTION_EN.md`](ATTRIBUTION_EN.md)
-- [`THIRD_PARTY_EN.md`](THIRD_PARTY_EN.md)
+- [`ATTRIBUTION.md`](ATTRIBUTION.md)
+- [`THIRD_PARTY.md`](THIRD_PARTY.md)
+- [`SECURITY.md`](SECURITY.md)
+- [`CONTRIBUTING.md`](CONTRIBUTING.md)
 
 ---
 

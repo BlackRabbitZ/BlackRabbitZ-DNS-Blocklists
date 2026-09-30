@@ -1,19 +1,28 @@
 #!/usr/bin/env python3
-"""Add newly published upstream domains to BlackRabbitZ category lists.
+"""Safe upstream refresh for BlackRabbitZ DNS Blocklists.
 
-The importer is intentionally additive: it never removes an existing BlackRabbitZ
-entry. Upstream data is normalized to DNS names, deduplicated, checked against a
-small safety allowlist and guarded against implausibly large one-run growth.
+Key differences from the legacy importer:
+- upstream data is stored per source and REPLACED after a successful refresh;
+- manually curated domains live separately in sources/manual/;
+- failed upstreams keep their last known-good source cache;
+- privacy/device categories use critical-service and functional-endpoint guards;
+- filtered sources support positive and negative rules;
+- rejected/ambiguous candidates are written to review/quarantine/;
+- lists/categories/*.txt are deterministic generated unions of manual + caches.
+
+This prevents the old "once imported, forever present" behavior while keeping
+manual BlackRabbitZ entries intact.
 """
-
 from __future__ import annotations
 
 import argparse
+import hashlib
 import ipaddress
 import json
 import re
 import sys
 import time
+import subprocess
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -24,21 +33,20 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 CONFIG_PATH = ROOT / "scripts" / "upstream-sources.json"
 ALLOWLIST_PATH = ROOT / "config" / "allowlist.txt"
+CRITICAL_PATH = ROOT / "config" / "critical-services.txt"
+FUNCTIONAL_TOKENS_PATH = ROOT / "config" / "functional-guard-tokens.txt"
 CATEGORY_DIR = ROOT / "lists" / "categories"
+MANUAL_DIR = ROOT / "sources" / "manual"
+UPSTREAM_DIR = ROOT / "sources" / "upstream"
+QUARANTINE_DIR = ROOT / "review" / "quarantine"
+REPORT_PATH = ROOT / "metadata" / "upstream-update.json"
 
 DOMAIN_RE = re.compile(
     r"^(?=.{1,253}$)(?:[a-z0-9](?:[a-z0-9_-]{0,61}[a-z0-9])?\.)+"
     r"[a-z0-9](?:[a-z0-9_-]{0,61}[a-z0-9])?$",
     re.IGNORECASE,
 )
-
-SKIP_NAMES = {
-    "localhost",
-    "localhost.localdomain",
-    "broadcasthost",
-    "ip6-localhost",
-    "ip6-loopback",
-}
+SKIP_NAMES = {"localhost", "localhost.localdomain", "broadcasthost", "ip6-localhost", "ip6-loopback"}
 
 
 def normalize_domain(value: str) -> str | None:
@@ -65,13 +73,9 @@ def extract_domain(line: str) -> str | None:
     raw = line.strip()
     if not raw or raw.startswith(("#", "!", "@@")):
         return None
-
-    # Adblock/AdGuard domain rule: ||example.org^
     match = re.match(r"^\|\|([^/^$|]+)\^", raw)
     if match:
         return normalize_domain(match.group(1))
-
-    # Hosts file: 0.0.0.0 example.org
     parts = raw.split()
     if len(parts) >= 2:
         try:
@@ -79,78 +83,67 @@ def extract_domain(line: str) -> str | None:
             return normalize_domain(parts[1])
         except ValueError:
             pass
-
-    # Full URL feeds.
     if raw.startswith(("http://", "https://")):
         try:
             return normalize_domain(urllib.parse.urlsplit(raw).hostname or "")
         except ValueError:
             return None
-
-    # dnsmasq/AdGuard Home variants.
     match = re.match(r"^(?:address|server)=/([^/]+)/", raw)
     if match:
         return normalize_domain(match.group(1))
-
-    # RPZ-ish "domain CNAME ." / plain-domain files / inline comments.
     if " #" in raw:
         raw = raw.split(" #", 1)[0].strip()
     if "\t#" in raw:
         raw = raw.split("\t#", 1)[0].strip()
     if raw.startswith("*."):
         raw = raw[2:]
-
     first = raw.split()[0] if raw.split() else ""
     return normalize_domain(first)
 
 
 def parse_domains(text: str) -> set[str]:
-    result: set[str] = set()
-    for line in text.splitlines():
-        domain = extract_domain(line)
-        if domain:
-            result.add(domain)
-    return result
+    return {d for line in text.splitlines() if (d := extract_domain(line))}
 
 
-def load_existing(path: Path) -> set[str]:
-    result: set[str] = set()
-    with path.open("r", encoding="utf-8", errors="ignore") as handle:
-        for line in handle:
-            domain = extract_domain(line)
-            if domain:
-                result.add(domain)
-    return result
-
-
-def load_allowlist(path: Path) -> set[str]:
+def load_domains(path: Path) -> set[str]:
     if not path.exists():
         return set()
-    return load_existing(path)
+    return parse_domains(path.read_text(encoding="utf-8", errors="ignore"))
 
 
-def is_allowlisted(domain: str, allowlist: set[str]) -> bool:
-    return any(domain == item or domain.endswith("." + item) for item in allowlist)
+def load_rules(path: Path) -> set[str]:
+    return load_domains(path)
+
+
+def load_tokens(path: Path) -> list[str]:
+    if not path.exists():
+        return []
+    return [line.strip().lower() for line in path.read_text(encoding="utf-8", errors="ignore").splitlines() if line.strip() and not line.lstrip().startswith("#")]
+
+
+def suffix_match(domain: str, roots: set[str] | list[str]) -> bool:
+    return any(domain == root or domain.endswith("." + root) for root in roots)
+
+
+def source_slug(source: dict) -> str:
+    name = re.sub(r"[^a-z0-9]+", "-", str(source.get("name", "source")).lower()).strip("-")[:56] or "source"
+    digest = hashlib.sha256(str(source.get("url", "")).encode()).hexdigest()[:8]
+    return f"{name}-{digest}"
 
 
 def fetch_text(url: str, timeout: int, retries: int, max_bytes: int) -> str:
     last_error: Exception | None = None
     for attempt in range(1, retries + 1):
-        request = urllib.request.Request(
-            url,
-            headers={
-                "User-Agent": "BlackRabbitZ-DNS-Blocklists-Updater/1.0",
-                "Accept": "text/plain,*/*;q=0.8",
-                "Accept-Encoding": "identity",
-            },
-        )
+        request = urllib.request.Request(url, headers={
+            "User-Agent": "BlackRabbitZ-DNS-Blocklists-Updater/2.0",
+            "Accept": "text/plain,*/*;q=0.8",
+            "Accept-Encoding": "identity",
+        })
         try:
             with urllib.request.urlopen(request, timeout=timeout) as response:
                 content_length = response.headers.get("Content-Length")
                 if content_length and int(content_length) > max_bytes:
-                    raise RuntimeError(
-                        f"source reports {content_length} bytes, above limit {max_bytes}"
-                    )
+                    raise RuntimeError(f"source reports {content_length} bytes, above limit {max_bytes}")
                 data = response.read(max_bytes + 1)
                 if len(data) > max_bytes:
                     raise RuntimeError(f"download exceeded {max_bytes} bytes")
@@ -162,82 +155,117 @@ def fetch_text(url: str, timeout: int, retries: int, max_bytes: int) -> str:
     raise RuntimeError(f"download failed after {retries} attempts: {last_error}")
 
 
-def leading_header_lines(path: Path) -> list[str]:
-    header: list[str] = []
-    with path.open("r", encoding="utf-8", errors="ignore") as handle:
-        for line in handle:
-            stripped = line.strip()
-            if stripped == "" or stripped.startswith("#"):
-                header.append(line.rstrip("\n\r"))
-                continue
-            break
-    return header
+def choose_candidates(domains: set[str], source: dict) -> set[str]:
+    trust = str(source.get("trust", "filtered" if source.get("include_keywords") else "direct"))
+    include_keywords = [str(x).lower() for x in source.get("include_keywords", [])]
+    include_suffixes = [str(x).lower().lstrip(".") for x in source.get("include_suffixes", [])]
+    exclude_keywords = [str(x).lower() for x in source.get("exclude_keywords", [])]
+    exclude_suffixes = [str(x).lower().lstrip(".") for x in source.get("exclude_suffixes", [])]
+    min_matches = max(1, int(source.get("min_keyword_matches", 1)))
+
+    chosen: set[str] = set()
+    for domain in domains:
+        if suffix_match(domain, exclude_suffixes) or any(token in domain for token in exclude_keywords):
+            continue
+        if trust == "direct" and not include_keywords and not include_suffixes:
+            chosen.add(domain)
+            continue
+        suffix_ok = suffix_match(domain, include_suffixes) if include_suffixes else False
+        matches = sum(1 for token in include_keywords if token in domain)
+        if suffix_ok or matches >= min_matches:
+            chosen.add(domain)
+    return chosen
 
 
-def rewrite_category(path: Path, domains: set[str]) -> None:
-    header = leading_header_lines(path)
-    timestamp = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
-
-    # Keep project metadata, but replace a previous auto-update marker.
-    header = [line for line in header if not line.startswith("# Auto-updated:")]
-    insert_at = len(header)
-    for index, line in enumerate(header):
-        if line.startswith("# Entries:"):
-            insert_at = index + 1
-            break
-    header.insert(insert_at, f"# Auto-updated: {timestamp}")
-
-    with path.open("w", encoding="utf-8", newline="\n") as handle:
-        for line in header:
-            handle.write(line + "\n")
-        if not header or header[-1].strip() != "":
-            handle.write("\n")
-        for domain in sorted(domains):
-            handle.write(domain + "\n")
+def functional_guard(domain: str, tokens: list[str]) -> str | None:
+    low = domain.lower()
+    for token in tokens:
+        if token in low:
+            return token
+    return None
 
 
-def filtered(domains: set[str], source: dict) -> set[str]:
-    keywords = [str(item).lower() for item in source.get("include_keywords", [])]
-    if not keywords:
-        return domains
-    return {domain for domain in domains if any(keyword in domain for keyword in keywords)}
+def write_domain_file(path: Path, domains: set[str], header_lines: list[str] | None = None) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    lines: list[str] = []
+    if header_lines:
+        lines.extend(header_lines)
+        while lines and lines[-1] == "":
+            lines.pop()
+        lines.append("")
+    lines.extend(sorted(domains))
+    path.write_text("\n".join(lines) + "\n", encoding="utf-8", newline="\n")
 
 
 def load_config() -> dict:
-    with CONFIG_PATH.open("r", encoding="utf-8") as handle:
-        return json.load(handle)
+    return json.loads(CONFIG_PATH.read_text(encoding="utf-8"))
 
 
 def validate_config(config: dict) -> list[str]:
     errors: list[str] = []
-    if config.get("version") != 1:
-        errors.append("unsupported config version")
-    if config.get("mode") != "additive":
-        errors.append("only additive mode is supported")
+    if config.get("version") != 2:
+        errors.append("unsupported config version; expected 2")
+    if config.get("mode") != "replace-source-cache":
+        errors.append("mode must be replace-source-cache")
     categories = config.get("categories")
     if not isinstance(categories, dict) or not categories:
         errors.append("no categories configured")
         return errors
-
     for category, settings in categories.items():
-        path = CATEGORY_DIR / f"{category}.txt"
-        if not path.exists():
-            errors.append(f"category file does not exist: {path.relative_to(ROOT)}")
+        manual = MANUAL_DIR / f"{category}.txt"
+        category_path = CATEGORY_DIR / f"{category}.txt"
+        if not manual.exists():
+            errors.append(f"missing manual source: {manual.relative_to(ROOT)}")
+        if not category_path.exists():
+            errors.append(f"category file does not exist: {category_path.relative_to(ROOT)}")
         sources = settings.get("sources", [])
         if not sources:
             errors.append(f"{category}: no sources configured")
+        seen: set[str] = set()
         for source in sources:
             url = source.get("url", "")
             if not isinstance(url, str) or not url.startswith("https://"):
                 errors.append(f"{category}: source URL must use https: {url!r}")
             if int(source.get("min_entries", 0)) < 1:
                 errors.append(f"{category}: min_entries must be >= 1 for {source.get('name')}")
+            slug = source_slug(source)
+            if slug in seen:
+                errors.append(f"{category}: duplicate source id: {slug}")
+            seen.add(slug)
     return errors
+
+
+def filter_safety(category: str, candidates: set[str], source: dict, protected: set[str], tokens: list[str]) -> tuple[set[str], list[tuple[str, str]]]:
+    accepted: set[str] = set()
+    rejected: list[tuple[str, str]] = []
+    guard = bool(source.get("functional_guard", False))
+    for domain in candidates:
+        if suffix_match(domain, protected):
+            rejected.append((domain, "critical-or-allowlisted"))
+            continue
+        if guard:
+            token = functional_guard(domain, tokens)
+            if token:
+                rejected.append((domain, f"functional-token:{token}"))
+                continue
+        accepted.add(domain)
+    return accepted, rejected
+
+
+def cache_header(category: str, source: dict, accepted: set[str]) -> list[str]:
+    return [
+        "# BlackRabbitZ DNS Blocklists - upstream source cache",
+        f"# Category: {category}",
+        f"# Source: {source.get('name')}",
+        f"# URL: {source.get('url')}",
+        f"# Entries: {len(accepted)}",
+        "# This file is replaced after a successful source refresh; it is not additive.",
+    ]
 
 
 def main() -> int:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--dry-run", action="store_true", help="download and report, do not write")
+    parser.add_argument("--dry-run", action="store_true", help="download/report but do not write caches/categories")
     parser.add_argument("--check-config", action="store_true", help="validate configuration and exit")
     args = parser.parse_args()
 
@@ -248,112 +276,109 @@ def main() -> int:
             print(f"CONFIG ERROR: {error}", file=sys.stderr)
         return 2
     if args.check_config:
-        print(f"Configuration OK: {len(config['categories'])} auto-updated categories.")
+        print(f"Configuration OK: {len(config['categories'])} categories, replace-source-cache mode.")
         return 0
 
     defaults = config.get("defaults", {})
     timeout = int(defaults.get("timeout_seconds", 90))
     retries = int(defaults.get("retries", 3))
     max_bytes = int(defaults.get("max_download_bytes", 157286400))
-    default_ratio = float(defaults.get("max_growth_ratio", 0.35))
-    default_absolute = int(defaults.get("max_growth_absolute", 500000))
-    minimum_allowance = int(defaults.get("minimum_growth_allowance", 1000))
-    allowlist = load_allowlist(ALLOWLIST_PATH)
+    max_growth_ratio = float(defaults.get("max_source_growth_ratio", 1.0))
+    max_shrink_ratio = float(defaults.get("max_source_shrink_ratio", 0.70))
+    min_growth_allowance = int(defaults.get("minimum_growth_allowance", 1000))
+    max_growth_absolute = int(defaults.get("max_growth_absolute", 500000))
 
-    all_sources = [
-        source
-        for settings in config["categories"].values()
-        for source in settings.get("sources", [])
-    ]
-    usage = Counter(source["url"] for source in all_sources)
+    allowlist = load_rules(ALLOWLIST_PATH)
+    critical = load_rules(CRITICAL_PATH)
+    functional_tokens = load_tokens(FUNCTIONAL_TOKENS_PATH)
+    all_sources = [s for settings in config["categories"].values() for s in settings.get("sources", [])]
+    usage = Counter(s["url"] for s in all_sources)
     domain_cache: dict[str, set[str]] = {}
     error_cache: dict[str, str] = {}
-
-    changed_categories = 0
-    total_added = 0
-    source_failures = 0
-    guarded_categories = 0
+    report: dict = {"generated_at": datetime.now(timezone.utc).isoformat(), "categories": {}}
+    failures = guards = updates = quarantined_count = 0
 
     for category, settings in config["categories"].items():
-        path = CATEGORY_DIR / f"{category}.txt"
-        existing = load_existing(path)
-        candidates: set[str] = set()
-        successful_sources = 0
-
-        print(f"\n[{category}] existing={len(existing):,}")
+        print(f"\n[{category}]")
+        category_report = {"sources": [], "quarantine": 0}
+        quarantine_rows: list[tuple[str, str, str]] = []
         for source in settings["sources"]:
-            name = source["name"]
-            url = source["url"]
-            min_entries = int(source["min_entries"])
-
+            name, url = source["name"], source["url"]
+            slug = source_slug(source)
+            cache_path = UPSTREAM_DIR / category / f"{slug}.txt"
+            old_cache = load_domains(cache_path)
             try:
                 if url in error_cache:
                     raise RuntimeError(error_cache[url])
                 if url in domain_cache:
-                    domains = domain_cache[url]
+                    parsed = domain_cache[url]
                 else:
-                    text = fetch_text(url, timeout, retries, max_bytes)
-                    domains = parse_domains(text)
-                    if len(domains) < min_entries:
-                        raise RuntimeError(
-                            f"parsed only {len(domains):,} domains; expected at least {min_entries:,}"
-                        )
+                    parsed = parse_domains(fetch_text(url, timeout, retries, max_bytes))
+                    if len(parsed) < int(source["min_entries"]):
+                        raise RuntimeError(f"parsed only {len(parsed):,} domains; expected at least {int(source['min_entries']):,}")
                     if usage[url] > 1:
-                        domain_cache[url] = domains
-                selected = filtered(domains, source)
-                candidates.update(selected)
-                successful_sources += 1
-                print(
-                    f"  OK   {name}: parsed={len(domains):,}, selected={len(selected):,}"
-                )
-            except Exception as exc:  # fail-safe: preserve last good category
-                source_failures += 1
-                error_cache[url] = str(exc)
+                        domain_cache[url] = parsed
+                selected = choose_candidates(parsed, source)
+                category_protected = allowlist | (critical if settings.get("protect_critical", False) else set())
+                accepted, rejected = filter_safety(category, selected, source, category_protected, functional_tokens)
+                for domain, reason in rejected:
+                    quarantine_rows.append((domain, name, reason))
+
+                if old_cache:
+                    growth = max(0, len(accepted - old_cache))
+                    shrink = len(old_cache - accepted)
+                    allowed_growth = max(min_growth_allowance, min(int(len(old_cache) * float(source.get("max_source_growth_ratio", max_growth_ratio))), int(source.get("max_growth_absolute", max_growth_absolute))))
+                    allowed_shrink = max(50, int(len(old_cache) * float(source.get("max_source_shrink_ratio", max_shrink_ratio))))
+                    if growth > allowed_growth:
+                        guards += 1
+                        raise RuntimeError(f"growth guard: +{growth:,} exceeds allowance {allowed_growth:,}; last good cache kept")
+                    if shrink > allowed_shrink:
+                        guards += 1
+                        raise RuntimeError(f"shrink guard: -{shrink:,} exceeds allowance {allowed_shrink:,}; last good cache kept")
+
+                if not args.dry_run:
+                    write_domain_file(cache_path, accepted, cache_header(category, source, accepted))
+                if accepted != old_cache:
+                    updates += 1
+                print(f"  OK   {name}: parsed={len(parsed):,}, selected={len(selected):,}, accepted={len(accepted):,}, quarantined={len(rejected):,}")
+                category_report["sources"].append({"name": name, "status": "ok", "parsed": len(parsed), "selected": len(selected), "accepted": len(accepted), "quarantined": len(rejected)})
+            except Exception as exc:
+                failures += 1
+                if url not in domain_cache:
+                    error_cache[url] = str(exc)
                 print(f"  WARN {name}: {exc}", file=sys.stderr)
+                category_report["sources"].append({"name": name, "status": "kept-last-good", "error": str(exc), "cached": len(old_cache)})
 
-        if successful_sources == 0:
-            print("  KEEP no upstream source succeeded; category left unchanged")
-            continue
-
-        imported = {domain for domain in candidates if not is_allowlisted(domain, allowlist)}
-        new_domains = imported - existing
-        if not new_domains:
-            print("  SAME no new domains")
-            continue
-
-        ratio = float(settings.get("max_growth_ratio", default_ratio))
-        absolute = int(settings.get("max_growth_absolute", default_absolute))
-        proportional = int(len(existing) * ratio)
-        allowed_growth = max(minimum_allowance, min(absolute, proportional or minimum_allowance))
-
-        if len(new_domains) > allowed_growth:
-            guarded_categories += 1
-            print(
-                f"  GUARD refusing +{len(new_domains):,} domains; one-run allowance is "
-                f"{allowed_growth:,}. Review upstreams/config manually.",
-                file=sys.stderr,
-            )
-            continue
-
-        merged = existing | new_domains
-        print(f"  ADD  +{len(new_domains):,} => {len(merged):,}")
+        category_report["quarantine"] = len(quarantine_rows)
+        quarantined_count += len(quarantine_rows)
+        report["categories"][category] = category_report
         if not args.dry_run:
-            rewrite_category(path, merged)
-        changed_categories += 1
-        total_added += len(new_domains)
+            qpath = QUARANTINE_DIR / f"{category}.tsv"
+            if quarantine_rows:
+                qpath.parent.mkdir(parents=True, exist_ok=True)
+                lines = ["domain\tsource\treason"] + ["\t".join(row) for row in sorted(set(quarantine_rows))]
+                qpath.write_text("\n".join(lines) + "\n", encoding="utf-8")
+            elif qpath.exists():
+                qpath.unlink()
 
-    print("\n=== upstream update summary ===")
-    print(f"changed categories : {changed_categories}")
-    print(f"new domains        : {total_added:,}")
-    print(f"source warnings    : {source_failures}")
-    print(f"growth guards      : {guarded_categories}")
+    if not args.dry_run:
+        subprocess.run([sys.executable, str(ROOT / "scripts" / "build-categories.py")], check=True)
+
+    report["summary"] = {"source_cache_updates": updates, "source_failures": failures, "guards": guards, "quarantined": quarantined_count, "dry_run": args.dry_run}
+    if not args.dry_run:
+        REPORT_PATH.parent.mkdir(parents=True, exist_ok=True)
+        REPORT_PATH.write_text(json.dumps(report, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+
+    print("\n=== upstream refresh summary ===")
+    print(f"source cache updates : {updates}")
+    print(f"source failures      : {failures}")
+    print(f"guards triggered     : {guards}")
+    print(f"quarantined          : {quarantined_count}")
     if args.dry_run:
-        print("dry-run             : no files written")
-
-    # A growth guard is treated as a failed update so Actions will not commit a
-    # partial run. Individual unavailable sources are warnings; categories with
-    # other successful sources can still update safely.
-    return 3 if guarded_categories else 0
+        print("dry-run              : no files written")
+    # Source download failures are tolerated because last-good caches are kept.
+    # Guard failures are non-zero so an implausible source mutation cannot be proposed automatically.
+    return 3 if guards else 0
 
 
 if __name__ == "__main__":

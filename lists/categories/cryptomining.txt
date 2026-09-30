@@ -3,8 +3,7 @@
 # Author: BlackRabbitZ
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only for project-original material; third-party notices: THIRD_PARTY.md
-# Entries: 6119
-# Auto-updated: 2026-09-30T09:43:55Z
+# Entries: 6121
 # Description: Browser and remote cryptomining infrastructure; excludes generic exchanges/crypto sites.
 # Sources: AnudeepND CoinMiner; NoCoin
 # Snapshot: 2026-08
@@ -4921,6 +4920,7 @@ vlrzhoueyoxw.com
 vltrkltuqe.bid
 vltvhssjbliy.com
 vlufledr.bid
+vlvowhlxxibn.com
 vlxgszdgmnay.com
 vmbkadalzr.bid
 vmebrrdrtmiaan.bid
@@ -5002,6 +5002,7 @@ vvwhmcopcn.bid
 vvziqyahhmq.bid
 vwbvandbj.bid
 vwgffbknpgxe.com
+vwimfzntn.bid
 vwpowhxrpdlmtq.bid
 vwsjyfsz.bid
 vwugfpktabed.com

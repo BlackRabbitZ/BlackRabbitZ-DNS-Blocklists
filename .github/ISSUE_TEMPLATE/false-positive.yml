@@ -1,70 +1,36 @@
-name: Falschmeldung / False positive
-description: Melde eine Domain, die nicht blockiert werden sollte / Report a domain that should not be blocked
+name: False Positive / Fehlklassifizierung
+description: Eine Domain wird in einer falschen Liste blockiert oder verursacht Funktionsprobleme.
+title: "[False Positive] "
 labels: ["false-positive"]
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Danke für die Meldung einer möglichen Fehlblockierung. Bitte gib genügend Informationen an, damit das Problem reproduziert werden kann.
-        Thanks for reporting a possible false positive. Please provide enough detail to reproduce the breakage.
-
   - type: input
     id: domain
     attributes:
-      label: Betroffene Domain / Affected domain
+      label: Domain
       placeholder: example.com
     validations:
       required: true
-
   - type: input
     id: list
     attributes:
-      label: BlackRabbitZ-Liste oder Profil / BlackRabbitZ list or profile
-      placeholder: balanced, strict, security-part-01, telemetry, gaming-telemetry...
+      label: Betroffene Liste
+      placeholder: trackers / android-telemetry / smart-tv
     validations:
       required: true
-
-  - type: input
-    id: service
-    attributes:
-      label: Website, App, Spiel oder Gerät / Website, app, game or device
-      placeholder: Dienst oder Produkt / Service or product
-    validations:
-      required: true
-
   - type: textarea
     id: impact
     attributes:
-      label: Was funktioniert durch die Blockierung nicht? / What breaks when the domain is blocked?
-      placeholder: Beschreibe das genaue Verhalten / Describe the exact behavior
+      label: Was funktioniert nicht?
     validations:
       required: true
-
   - type: textarea
-    id: reproduce
+    id: environment
     attributes:
-      label: Reproduktionsschritte / Reproduction steps
-      placeholder: |
-        1. Liste aktivieren / Enable the list
-        2. Öffnen / Open ...
-        3. Verhalten beobachten / Observe ...
-    validations:
-      required: true
-
+      label: Gerät / Betriebssystem / Anwendung
   - type: dropdown
-    id: resolver
+    id: disabled_test
     attributes:
-      label: DNS-Blocker / DNS blocker
-      options:
-        - Pi-hole
-        - AdGuard Home
-        - Technitium
-        - Andere / Other
+      label: Funktioniert es wieder, wenn die Liste deaktiviert wird?
+      options: ["Ja", "Nein", "Nicht getestet"]
     validations:
       required: true
-
-  - type: textarea
-    id: evidence
-    attributes:
-      label: Optionale Nachweise / Optional evidence
-      description: Pi-hole-Query-Log, Browser-Konsole/Netzwerkbeobachtungen oder andere nicht sensible Nachweise. / Pi-hole query-log details, browser console/network observations or other non-sensitive evidence.

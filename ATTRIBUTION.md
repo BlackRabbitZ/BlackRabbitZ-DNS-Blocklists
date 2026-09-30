@@ -1,15 +1,10 @@
-# Namensnennung
-
-**🌐 Sprache / Language:** 🇩🇪 **Deutsch** · [🇬🇧 English](ATTRIBUTION_EN.md)
+# Attribution
 
 Copyright (C) 2026 BlackRabbitZ.
 
-Originalautor: BlackRabbitZ
+Original author: **BlackRabbitZ**
 
-Kanonisches Repository: `https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists`
+Canonical repository:
+`https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists`
 
-Bei der Weiterverbreitung dieses Projekts oder einer veränderten Version müssen die geltenden Copyright- und Lizenzhinweise erhalten bleiben und BlackRabbitZ als Originalautor des ursprünglichen Projekts genannt werden. Veränderte Versionen dürfen nicht den Eindruck erwecken, dass BlackRabbitZ Änderungen anderer Personen verfasst oder unterstützt hat.
-
-## Drittquellen
-
-Teile der erweiterten DNS-/IP-Listen sind aus **HaGeZi DNS Blocklists** (GPL-3.0) abgeleitet und wurden am **12. August 2026** von BlackRabbitZ normalisiert, dedupliziert, funktional neu einsortiert und teilweise in 50-MiB-Parts aufgeteilt. Details und weitere Upstream-Lizenzen stehen in [THIRD_PARTY.md](THIRD_PARTY.md).
+When redistributing this project or a modified version, preserve the applicable copyright and license notices and identify BlackRabbitZ as the original author of the original project. Modified versions must not imply that BlackRabbitZ authored or endorsed modifications made by others.

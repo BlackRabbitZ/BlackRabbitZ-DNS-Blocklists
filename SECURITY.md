@@ -1,5 +1,3 @@
-# Sicherheitsrichtlinie
+# Security Policy
 
-**🌐 Sprache / Language:** 🇩🇪 **Deutsch** · [🇬🇧 English](SECURITY_EN.md)
-
-Veröffentliche in Issues keine API-Schlüssel, privaten DNS-Logs, Zugangsdaten, personenbezogenen Identifikatoren oder nicht öffentlichen Infrastrukturdetails.
+Do not post API keys, private DNS logs, credentials, personal identifiers or non-public infrastructure details in issues.

@@ -1,0 +1,8 @@
+# BlackRabbitZ DNS Blocklists - manual baseline
+# Category: linux-telemetry
+# This file is the manually retained source-of-truth after the one-time cleanup.
+# Automatic upstream data is stored separately under sources/upstream/.
+
+metrics.ubuntu.com
+popcon.debian.org
+popcon.ubuntu.com

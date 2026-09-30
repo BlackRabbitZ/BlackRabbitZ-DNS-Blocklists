@@ -8,6 +8,7 @@
 # Sources: NextDNS click-tracking-domains; Block List Project (derived affiliate subset)
 # Snapshot: 2026-08
 #
+
 1stphorm.postaffiliatepro.com
 360conversionanalytics.com
 7eer.net

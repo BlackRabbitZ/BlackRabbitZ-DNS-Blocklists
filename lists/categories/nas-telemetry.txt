@@ -8,6 +8,7 @@
 # Sources: Synology/TrueNAS documented service endpoints; QNAP documented analytics/AMIZcloud endpoints
 # Snapshot: 2026-08
 #
+
 analytics.api.myqnapcloud.com
 analytics.myqnapcloud.io
 api.insight.synology.com
