@@ -1,0 +1,14 @@
+diff --git a/scripts/update-upstreams.py b/scripts/update-upstreams.py
+index 7ba3ec3..84eb0f1 100644
+--- a/scripts/update-upstreams.py
++++ b/scripts/update-upstreams.py
+@@ -333,9 +333,6 @@
+                 qpath.write_text("\n".join(lines) + "\n", encoding="utf-8")
+             elif qpath.exists():
+                 qpath.unlink()
+-    if not args.dry_run:
+-        subprocess.run([sys.executable, str(ROOT / "scripts" / "build-categories.py")], check=True)
+-
+     report["summary"] = {"source_cache_updates": updates, "source_failures": failures, "guards": guards, "quarantined": quarantined_count, "dry_run": args.dry_run}
+     if not args.dry_run:
+         REPORT_PATH.parent.mkdir(parents=True, exist_ok=True)
