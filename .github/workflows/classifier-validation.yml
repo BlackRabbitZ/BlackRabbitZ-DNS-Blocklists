@@ -1,0 +1,27 @@
+name: Classifier validation
+on:
+  pull_request:
+  push:
+    branches: [ main ]
+permissions:
+  contents: read
+jobs:
+  classifier:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - name: Unit tests
+        run: python3 tests/test_classifier.py
+      - name: Reclassify cached upstreams
+        run: python3 scripts/classify-upstreams.py
+      - name: Validate classifier output
+        run: python3 scripts/validate-classifier.py
+      - name: Build public category lists
+        run: python3 scripts/build-categories-classified.py
+      - name: Repository validation
+        run: python3 scripts/validate-repository.py
+      - name: Ensure generated output is committed
+        run: git diff --exit-code

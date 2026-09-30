@@ -1,0 +1,74 @@
+{
+  "version": 1,
+  "privacy_categories": [
+    "ads", "trackers", "telemetry", "social-trackers", "mobile-tracking",
+    "affiliate-tracking", "consent-cmp", "windows-telemetry", "apple-telemetry",
+    "android-telemetry", "linux-telemetry", "nas-telemetry", "server-telemetry",
+    "native-tracking", "smart-tv", "iot", "gaming-telemetry"
+  ],
+  "specific_categories": [
+    "windows-telemetry", "apple-telemetry", "android-telemetry", "linux-telemetry",
+    "nas-telemetry", "server-telemetry", "smart-tv", "iot", "gaming-telemetry"
+  ],
+  "category_priority": [
+    "windows-telemetry", "apple-telemetry", "android-telemetry", "linux-telemetry",
+    "nas-telemetry", "server-telemetry", "smart-tv", "iot", "gaming-telemetry",
+    "social-trackers", "mobile-tracking", "affiliate-tracking", "consent-cmp",
+    "telemetry", "ads", "trackers", "native-tracking"
+  ],
+  "confidence": {
+    "auto_accept": 75,
+    "review": 55,
+    "minimum_margin": 10
+  },
+  "source_category_weights": {
+    "ads": 55,
+    "trackers": 55,
+    "telemetry": 55,
+    "social-trackers": 65,
+    "mobile-tracking": 65,
+    "affiliate-tracking": 65,
+    "consent-cmp": 65,
+    "windows-telemetry": 70,
+    "apple-telemetry": 70,
+    "android-telemetry": 70,
+    "linux-telemetry": 70,
+    "nas-telemetry": 70,
+    "server-telemetry": 70,
+    "native-tracking": 45,
+    "smart-tv": 70,
+    "iot": 70,
+    "gaming-telemetry": 70
+  },
+  "source_name_hints": {
+    "windows-telemetry": ["windows", "winoffice", "office native"],
+    "apple-telemetry": ["apple", "macos", "ios native"],
+    "android-telemetry": ["android", "huawei", "xiaomi", "oppo", "realme", "vivo", "samsung mobile"],
+    "smart-tv": ["smart tv", "smarttv", "webos", "fire tv", "firetv", "roku", "tizen tv"],
+    "iot": ["alexa", "sonos", "smartthings", "iot"],
+    "gaming-telemetry": ["gaming", "playstation", "xbox", "steam", "riot", "epic games", "battle.net", "rockstar"]
+  },
+  "domain_hints": {
+    "windows-telemetry": ["microsoft.com", "microsoft.net", "windows.com", "windows.net", "msftncsi.com", "office.com", "office.net"],
+    "apple-telemetry": ["apple.com", "apple-dns.net", "icloud.com", "icloud-content.com"],
+    "android-telemetry": ["googleapis.com", "google.com", "gstatic.com", "android.com", "xiaomi.com", "mi.com", "huawei.com", "hicloud.com", "oppo.com", "realme.com", "vivo.com"],
+    "smart-tv": ["samsungtv.com", "samsungcloudsolution.com", "lge.com", "lgsmartad.com", "webos.com", "roku.com", "hisense.com", "tcl.com"],
+    "iot": ["amazonalexa.com", "alexa.amazon.com", "sonos.com", "smartthings.com", "tuya.com", "shelly.cloud"],
+    "nas-telemetry": ["synology.com", "qnap.com", "asustor.com", "terramaster.com"],
+    "gaming-telemetry": ["steampowered.com", "steamstatic.com", "xboxlive.com", "playstation.net", "riotgames.com", "epicgames.com", "battle.net", "rockstargames.com"]
+  },
+  "function_hints": {
+    "telemetry": ["telemetry", "analytics", "metric", "measurement", "diagnostic", "diagnostics", "crash", "sentry", "bugsnag", "newrelic", "datadog", "appcenter", "hockeyapp", "eventlog"],
+    "social-trackers": ["facebook", "instagram", "tiktok", "snapchat", "pinterest", "linkedin", "twitter", "threads", "reddit"],
+    "mobile-tracking": ["appsflyer", "adjust", "kochava", "singular", "flurry", "crashlytics", "appmetrica", "umeng", "vungle", "adcolony", "inmobi", "tapjoy", "applovin", "unity3d", "gameanalytics", "ironsource", "supersonicads", "fyber", "mopub", "branch.io", "branch.app"],
+    "affiliate-tracking": ["affiliate", "affiliat", "conversion", "impactradius", "awin", "commission", "partnerize", "tradedoubler", "linksynergy", "shareasale", "skimlinks", "referral", "postback", "clickbank", "partnerstack"],
+    "consent-cmp": ["onetrust", "cookiebot", "didomi", "quantcast", "consentmanager", "usercentrics", "trustarc", "sourcepoint", "cookieyes", "iubenda", "complianz", "cookiefirst", "termly", "osano", "consensu"],
+    "ads": ["ads.", ".ads.", "adserver", "doubleclick", "adservice", "advert", "adtech", "adnxs", "googlesyndication"]
+  },
+  "critical_tokens": [
+    "update", "updates", "windowsupdate", "firmware", "download", "downloads",
+    "login", "signin", "sign-in", "auth", "oauth", "account", "accounts",
+    "push", "fcm", "notification", "certificate", "cert", "ocsp", "crl",
+    "defender", "securityupdate", "appstore", "playstore"
+  ]
+}
