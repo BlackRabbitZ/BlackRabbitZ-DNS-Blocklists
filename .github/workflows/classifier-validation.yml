@@ -20,7 +20,7 @@ jobs:
       - name: Validate classifier output
         run: python3 scripts/validate-classifier.py
       - name: Build public category lists
-        run: python3 scripts/build-categories-classified.py
+        run: python3 scripts/build-categories.py
       - name: Repository validation
         run: python3 scripts/validate-repository.py
       - name: Ensure generated output is committed

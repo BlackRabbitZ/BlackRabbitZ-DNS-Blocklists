@@ -12,3 +12,9 @@
 - Vollständige Nachvollziehbarkeit über `metadata/domain-classification.csv`.
 - Quarantäne über `review/classifier-quarantine.tsv`.
 - Manueller Altbestand wird separat auditiert und nicht still verändert.
+
+
+## v2.0.1 Hotfix
+- `classifier-validation.yml` ruft nun den vorhandenen kanonischen Builder `scripts/build-categories.py` auf.
+- `scripts/build-categories-classified.py` wurde als Kompatibilitäts-Wrapper ergänzt.
+- Workflow-/Script-Verweise wurden gegengeprüft.
