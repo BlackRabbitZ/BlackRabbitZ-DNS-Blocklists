@@ -1,12 +1,28 @@
 #!/usr/bin/env bash
 set -euo pipefail
-for p in scripts/upstream-sources.json scripts/update-upstreams.py sources/manual sources/upstream lists/categories; do [[ -e "$p" ]] || { echo "Nicht im Repository-Root oder Pfad fehlt: $p" >&2; exit 2; }; done
-python3 ./scripts/patch-classified-pipeline.py
-python3 ./tests/test_pipeline_contract.py
-python3 ./tests/test_classifier.py
-python3 ./scripts/classify-upstreams.py
-python3 ./scripts/validate-classifier.py
-python3 ./scripts/build-categories.py
-python3 ./scripts/validate-repository.py
-echo 'Pipeline korrigiert: Fremdlisten -> raw cache -> classifier -> vorhandene Kategorien.'
-echo 'Danach git status und git diff prüfen.'
+
+test -d .git || { echo "Bitte im ROOT deines Git-Repositories ausführen."; exit 1; }
+test -f scripts/update-upstreams.py
+test -f tests/test_pipeline_contract.py
+
+needle='subprocess.run([sys.executable, str(ROOT / "scripts" / "build-categories.py")], check=True)'
+
+if grep -Fq "$needle" scripts/update-upstreams.py; then
+  git apply --check ./FIX.patch
+  git apply ./FIX.patch
+fi
+
+if grep -Fq "$needle" scripts/update-upstreams.py; then
+  echo "VERIFIKATION FEHLGESCHLAGEN"
+  exit 1
+fi
+
+python3 tests/test_pipeline_contract.py
+
+echo
+echo "FIX OK - Pipeline contract OK"
+echo
+echo "Jetzt committen und pushen:"
+echo "git add scripts/update-upstreams.py"
+echo 'git commit -m "Fix upstream classifier pipeline order"'
+echo "git push"

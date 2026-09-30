@@ -1,5 +1,4 @@
 diff --git a/scripts/update-upstreams.py b/scripts/update-upstreams.py
-index 7ba3ec3..84eb0f1 100644
 --- a/scripts/update-upstreams.py
 +++ b/scripts/update-upstreams.py
 @@ -333,9 +333,6 @@

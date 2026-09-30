@@ -1,42 +1,55 @@
 $ErrorActionPreference = "Stop"
 
 if (-not (Test-Path ".git")) {
-    throw "Bitte im ROOT des Git-Repositories ausführen."
-}
-if (-not (Test-Path "scripts\update-upstreams.py")) {
-    throw "scripts\update-upstreams.py fehlt."
-}
-if (-not (Test-Path "tests\test_pipeline_contract.py")) {
-    throw "tests\test_pipeline_contract.py fehlt."
+    throw "Bitte im ROOT deines Git-Repositories ausführen."
 }
 
-Write-Host "1/3 Patch gegen den aktuellen Repo-Stand prüfen..." -ForegroundColor Cyan
-git apply --check ".\FIX.patch"
-if ($LASTEXITCODE -ne 0) {
-    throw "Der Patch passt nicht exakt. Es wurde NICHTS verändert."
+$target = "scripts\update-upstreams.py"
+$test = "tests\test_pipeline_contract.py"
+
+if (-not (Test-Path $target)) { throw "$target fehlt." }
+if (-not (Test-Path $test)) { throw "$test fehlt." }
+
+Write-Host "1/4 Prüfe aktuellen Fehlerblock..." -ForegroundColor Cyan
+$before = Get-Content $target -Raw -Encoding UTF8
+$needle = 'subprocess.run([sys.executable, str(ROOT / "scripts" / "build-categories.py")], check=True)'
+
+if (-not $before.Contains($needle)) {
+    Write-Host "Der fehlerhafte Aufruf ist bereits nicht mehr vorhanden." -ForegroundColor Yellow
+} else {
+    Write-Host "2/4 Prüfe Patch gegen deinen Repo-Stand..." -ForegroundColor Cyan
+    git apply --check ".\FIX.patch"
+    if ($LASTEXITCODE -ne 0) {
+        throw "Patch passt nicht exakt. Es wurde NICHTS verändert."
+    }
+
+    Write-Host "3/4 Wende Patch an..." -ForegroundColor Cyan
+    git apply ".\FIX.patch"
+    if ($LASTEXITCODE -ne 0) {
+        throw "Patch konnte nicht angewendet werden."
+    }
 }
 
-Write-Host "2/3 Patch anwenden..." -ForegroundColor Cyan
-git apply ".\FIX.patch"
-if ($LASTEXITCODE -ne 0) {
-    throw "git apply ist fehlgeschlagen."
+$after = Get-Content $target -Raw -Encoding UTF8
+if ($after.Contains($needle)) {
+    throw "VERIFIKATION FEHLGESCHLAGEN: der vorzeitige Builder-Aufruf ist noch vorhanden."
 }
 
-$content = Get-Content "scripts\update-upstreams.py" -Raw -Encoding UTF8
-if (($content -match 'subprocess\.run') -and ($content -match 'build-categories\.py')) {
-    throw "Verifikation fehlgeschlagen: vorzeitiger Builder-Aufruf ist noch vorhanden."
-}
-
-Write-Host "3/3 Exakten Pipeline-Contract ausführen..." -ForegroundColor Cyan
+Write-Host "4/4 Starte exakt den Pipeline-Test aus GitHub Actions..." -ForegroundColor Cyan
 python tests/test_pipeline_contract.py
 if ($LASTEXITCODE -ne 0) {
-    throw "Pipeline-Contract ist weiterhin fehlgeschlagen."
+    throw "Pipeline-Test ist weiterhin fehlgeschlagen."
 }
 
 Write-Host ""
-Write-Host "OK: Pipeline contract OK" -ForegroundColor Green
+Write-Host "=========================================" -ForegroundColor Green
+Write-Host "  FIX OK - Pipeline contract OK" -ForegroundColor Green
+Write-Host "=========================================" -ForegroundColor Green
 Write-Host ""
-Write-Host "Jetzt committen und pushen:"
-Write-Host "  git add scripts/update-upstreams.py"
-Write-Host '  git commit -m "Fix upstream classifier pipeline"'
-Write-Host "  git push"
+Write-Host "WICHTIG: Jetzt MUSS die geänderte Datei zu GitHub gepusht werden:"
+Write-Host ""
+Write-Host "git add scripts/update-upstreams.py"
+Write-Host 'git commit -m "Fix upstream classifier pipeline order"'
+Write-Host "git push"
+Write-Host ""
+Write-Host "Danach erst GitHub Actions erneut starten."
