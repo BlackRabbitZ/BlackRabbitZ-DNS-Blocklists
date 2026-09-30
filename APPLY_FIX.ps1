@@ -1,61 +1,67 @@
 $ErrorActionPreference = "Stop"
 
-$repo = (Get-Location).Path
-$target = Join-Path $repo "scripts\update-upstreams.py"
-$test = Join-Path $repo "tests\test_pipeline_contract.py"
+$target = Join-Path (Get-Location) "scripts\update-upstreams.py"
 
-if (-not (Test-Path $target)) {
-    throw "Nicht im Repository-Root ausgeführt: scripts\update-upstreams.py wurde nicht gefunden."
+if (-not (Test-Path -LiteralPath $target)) {
+    throw "Falscher Ordner: scripts\update-upstreams.py wurde nicht gefunden. Fuehre diese Datei im ROOT des Repositories aus."
 }
 
 $content = Get-Content -LiteralPath $target -Raw -Encoding UTF8
-$original = $content
 
-# Entferne den veralteten, vorzeitigen Public-List-Build.
-$pattern = '(?ms)^\s*if not args\.dry_run:\s*\r?\n\s*subprocess\.run\(\[sys\.executable,\s*str\(ROOT / "scripts" / "build-categories\.py"\)\],\s*check=True\)\s*\r?\n'
-$content = [regex]::Replace($content, $pattern, '')
+$oldBlockCRLF = "    if not args.dry_run:`r`n        subprocess.run([sys.executable, str(ROOT / `"scripts`" / `"build-categories.py`")], check=True)`r`n`r`n"
+$oldBlockLF   = "    if not args.dry_run:`n        subprocess.run([sys.executable, str(ROOT / `"scripts`" / `"build-categories.py`")], check=True)`n`n"
 
-if ($content -eq $original) {
-    if ($content -match 'subprocess\.run' -and $content -match 'build-categories\.py') {
-        throw "Der alte Builder-Aufruf wurde gefunden, aber das erwartete Muster passt nicht. Datei wurde NICHT verändert."
-    } else {
+$found = $false
+
+if ($content.Contains($oldBlockCRLF)) {
+    $content = $content.Replace($oldBlockCRLF, "")
+    $found = $true
+}
+elseif ($content.Contains($oldBlockLF)) {
+    $content = $content.Replace($oldBlockLF, "")
+    $found = $true
+}
+else {
+    $line = '        subprocess.run([sys.executable, str(ROOT / "scripts" / "build-categories.py")], check=True)'
+    if ($content.Contains($line)) {
+        $content = $content.Replace("    if not args.dry_run:`r`n$line`r`n", "")
+        $content = $content.Replace("    if not args.dry_run:`n$line`n", "")
+        $found = $true
+    }
+}
+
+if (-not $found) {
+    if (($content -notmatch 'build-categories\.py') -or ($content -notmatch 'subprocess\.run')) {
         Write-Host "Der vorzeitige Builder-Aufruf ist bereits entfernt." -ForegroundColor Yellow
     }
-} else {
+    else {
+        throw "Der bekannte Builder-Aufruf wurde gefunden, konnte aber nicht sicher automatisch entfernt werden. Es wurde NICHTS gespeichert."
+    }
+}
+else {
     Copy-Item -LiteralPath $target -Destination "$target.bak" -Force
-    Set-Content -LiteralPath $target -Value $content -Encoding UTF8 -NoNewline
-    Write-Host "Fix angewendet: vorzeitiger build-categories.py-Aufruf entfernt." -ForegroundColor Green
+
+    $tmp = $content -replace '(?m)^import subprocess\r?\n', ''
+    Set-Content -LiteralPath $target -Value $tmp -Encoding UTF8 -NoNewline
+    Write-Host "update-upstreams.py wurde korrigiert." -ForegroundColor Green
     Write-Host "Backup: scripts\update-upstreams.py.bak"
 }
 
-# Optional: unbenutzten subprocess-Import entfernen, wenn kein subprocess mehr genutzt wird.
-$content2 = Get-Content -LiteralPath $target -Raw -Encoding UTF8
-if ($content2 -notmatch 'subprocess\.') {
-    $content2 = [regex]::Replace($content2, '(?m)^import subprocess\r?\n', '')
-    Set-Content -LiteralPath $target -Value $content2 -Encoding UTF8 -NoNewline
-}
-
-# Harte Kontrolle.
-$check = Get-Content -LiteralPath $target -Raw -Encoding UTF8
-if ($check -match 'subprocess\.run' -and $check -match 'build-categories\.py') {
-    throw "Fix fehlgeschlagen: update-upstreams.py ruft build-categories.py weiterhin direkt auf."
+$verify = Get-Content -LiteralPath $target -Raw -Encoding UTF8
+if (($verify -match 'subprocess\.run') -and ($verify -match 'build-categories\.py')) {
+    throw "VERIFIKATION FEHLGESCHLAGEN: Der vorzeitige Builder-Aufruf ist weiterhin vorhanden."
 }
 
 Write-Host ""
-Write-Host "Erwartete Pipeline:" -ForegroundColor Cyan
-Write-Host "  update-upstreams.py -> classify-upstreams.py -> validate-classifier.py -> build-categories.py"
-Write-Host ""
-
-if (Test-Path $test) {
-    Write-Host "Führe Pipeline-Vertragstest aus..." -ForegroundColor Cyan
-    python tests/test_pipeline_contract.py
-    if ($LASTEXITCODE -ne 0) {
-        throw "Pipeline-Vertragstest ist fehlgeschlagen."
-    }
+Write-Host "Pruefe Pipeline-Contract..." -ForegroundColor Cyan
+python tests/test_pipeline_contract.py
+if ($LASTEXITCODE -ne 0) {
+    throw "Pipeline-Contract ist weiterhin fehlgeschlagen."
 }
 
 Write-Host ""
-Write-Host "HOTFIX OK." -ForegroundColor Green
-Write-Host "Jetzt prüfen:"
-Write-Host "  git diff -- scripts/update-upstreams.py"
-Write-Host "  git status"
+Write-Host "OK: Pipeline-Contract bestanden." -ForegroundColor Green
+Write-Host "Jetzt committen/pushen:"
+Write-Host "  git add scripts/update-upstreams.py"
+Write-Host "  git commit -m `"Fix classified upstream pipeline`""
+Write-Host "  git push"
