@@ -1,0 +1,17 @@
+{
+  "schema_version": 2,
+  "single_file_outputs": true,
+  "split_by_file_size": false,
+  "levels": [
+    "light",
+    "normal",
+    "pro",
+    "pro-plus",
+    "ultimate"
+  ],
+  "levels_are_cumulative": true,
+  "full_list_semantics": "vollständiger, eindeutig zuordenbarer Bestand eines Herstellers/Dienstes; nicht automatisch empfohlen",
+  "ultimate_semantics": "vollständiger Datenbestand des jeweiligen Bereichs",
+  "upstream_policy": "statischer Snapshot; keine automatische Synchronisation fremder Repositories",
+  "source_model": "BlackRabbitZ statischer Datenbestand plus darin dokumentierte Drittquellen; HaGeZi-Taxonomie/Native-Tracker-Prinzip als Referenz"
+}

@@ -1,0 +1,52 @@
+# BlackRabbitZ DNS Blocklists
+# Title: Gaming Ultimate
+# Description: Ultimate-Stufe für Gaming; kumulativ, Ultimate enthält den vollständigen Bereichsdatenbestand.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: BlackRabbitZ Ads/Tracking/Telemetry-Daten; gezielte Dienstzuordnung
+# Risk: hoch
+# Entries: 40
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+# Generated: ja
+#
+a.ad.playstation.net
+ads.blizzard.com
+analytics.developer.riotgames.com
+avty.xboxlive.com
+beacons.xboxlive.com
+c.xbox.com
+cert.telemetry.ros.rockstargames.com
+click.ccg.nintendo.com
+click.em.blizzard.com
+click.engage.xbox.com
+cmt.us.playstation.com
+crash.steampowered.com
+cs.prd.msys.playstation.net
+data.xboxlive.com
+datarouter-prod.ak.epicgames.com
+datarouter.ol.epicgames.com
+discovery.olv.nintendo.net
+etsource.epicgames.com
+expbl2ro.xbox.com
+fast.nintendoofamericainc.demdex.net
+geo.battle.net
+mercury.dl.playstation.net
+metric-public-service-prod.ol.epicgames.com
+metrics.ol.epicgames.com
+metrics.us.playstation.com
+nintendoofamericainc.demdex.net
+nsx-e.np.dl.playstation.net
+o.xbox.com
+pdr.eve.sonyentertainmentnetwork.com
+prod-locator-cloud.rockstargames.com
+prod.telemetry.ros.rockstargames.com
+smetrics.aem.playstation.com
+smetrics.nintendo.com
+statsproxy-public-service-live.ol.epicgames.com
+telemetry-in.battle.net
+telemetry-web.api.playstation.com
+telemetry.api.playstation.com
+telemetry.battle.net
+tracking.epicgames.com
+userstats.xboxlive.com

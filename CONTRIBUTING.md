@@ -1,5 +1,5 @@
-# Contributing
+# Mitwirken
 
-Please submit domains with a clear category and independent rationale. Do not bulk-copy third-party maintained blocklists into this repository.
+Bitte Issues/PRs mit **Domain**, **betroffener Liste**, **Begründung** und – wenn möglich – reproduzierbarem DNS-/Netzwerkbeleg einreichen. Domains werden nicht nur wegen eines Markennamens pauschal blockiert.
 
-For false positives, report the affected domain and what breaks when it is blocked.
+Für False Positives bitte zusätzlich angeben, welche Funktion ausfällt und in welcher Schutzstufe das Problem auftritt.

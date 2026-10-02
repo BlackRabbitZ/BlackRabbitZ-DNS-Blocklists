@@ -1,0 +1,22 @@
+# BlackRabbitZ DNS Blocklists
+# Title: PlayStation Full
+# Description: Explizit PlayStation zuordenbare Ads-/Tracking-/Telemetrie-Endpunkte.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; siehe THIRD_PARTY.md fuer Drittquellen
+# Sources: BlackRabbitZ Ads/Tracking/Telemetry-Daten
+# Risk: mittel-hoch
+# Entries: 10
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+# Generated: ja
+#
+a.ad.playstation.net
+cmt.us.playstation.com
+cs.prd.msys.playstation.net
+mercury.dl.playstation.net
+metrics.us.playstation.com
+nsx-e.np.dl.playstation.net
+pdr.eve.sonyentertainmentnetwork.com
+smetrics.aem.playstation.com
+telemetry-web.api.playstation.com
+telemetry.api.playstation.com

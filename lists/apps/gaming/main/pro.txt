@@ -1,0 +1,33 @@
+# BlackRabbitZ DNS Blocklists
+# Title: Gaming Pro
+# Description: Pro-Stufe für Gaming; kumulativ, Ultimate enthält den vollständigen Bereichsdatenbestand.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: BlackRabbitZ Ads/Tracking/Telemetry-Daten; gezielte Dienstzuordnung
+# Risk: niedrig-mittel
+# Entries: 21
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+# Generated: ja
+#
+a.ad.playstation.net
+ads.blizzard.com
+analytics.developer.riotgames.com
+beacons.xboxlive.com
+cert.telemetry.ros.rockstargames.com
+cmt.us.playstation.com
+crash.steampowered.com
+cs.prd.msys.playstation.net
+fast.nintendoofamericainc.demdex.net
+metrics.ol.epicgames.com
+metrics.us.playstation.com
+nintendoofamericainc.demdex.net
+prod.telemetry.ros.rockstargames.com
+smetrics.aem.playstation.com
+smetrics.nintendo.com
+telemetry-in.battle.net
+telemetry-web.api.playstation.com
+telemetry.api.playstation.com
+telemetry.battle.net
+tracking.epicgames.com
+userstats.xboxlive.com

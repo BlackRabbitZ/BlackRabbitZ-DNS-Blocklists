@@ -1,0 +1,13 @@
+# BlackRabbitZ DNS Blocklists
+# Title: Riot Games Full
+# Description: Explizit Riot Games zuordenbare Ads-/Tracking-/Telemetrie-Endpunkte.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; siehe THIRD_PARTY.md fuer Drittquellen
+# Sources: BlackRabbitZ Ads/Tracking/Telemetry-Daten
+# Risk: mittel-hoch
+# Entries: 1
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+# Generated: ja
+#
+analytics.developer.riotgames.com

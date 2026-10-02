@@ -1,0 +1,13 @@
+# BlackRabbitZ DNS Blocklists
+# Title: Gaming Light
+# Description: Light-Stufe für Gaming; kumulativ, Ultimate enthält den vollständigen Bereichsdatenbestand.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: BlackRabbitZ Ads/Tracking/Telemetry-Daten; gezielte Dienstzuordnung
+# Risk: minimal
+# Entries: 1
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+# Generated: ja
+#
+ads.blizzard.com

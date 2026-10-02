@@ -1,3 +1,3 @@
 # Security Policy
 
-Do not post API keys, private DNS logs, credentials, personal identifiers or non-public infrastructure details in issues.
+Sicherheitsprobleme in Skripten oder Workflows bitte nicht mit Testdaten aus fremden Produktionssystemen belegen. Für Fehlklassifizierungen/False Positives normale Issues verwenden.

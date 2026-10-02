@@ -1,0 +1,20 @@
+# BlackRabbitZ DNS Blocklists
+# Title: Xbox Full
+# Description: Explizit Xbox zuordenbare Ads-/Tracking-/Telemetrie-Endpunkte.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; siehe THIRD_PARTY.md fuer Drittquellen
+# Sources: BlackRabbitZ Ads/Tracking/Telemetry-Daten
+# Risk: mittel-hoch
+# Entries: 8
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+# Generated: ja
+#
+avty.xboxlive.com
+beacons.xboxlive.com
+c.xbox.com
+click.engage.xbox.com
+data.xboxlive.com
+expbl2ro.xbox.com
+o.xbox.com
+userstats.xboxlive.com

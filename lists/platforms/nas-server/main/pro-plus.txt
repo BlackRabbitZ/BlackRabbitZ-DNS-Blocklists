@@ -1,0 +1,34 @@
+# BlackRabbitZ DNS Blocklists
+# Title: NAS & Server Pro++
+# Description: Pro++-Stufe für NAS & Server; kumulativ, Ultimate enthält den vollständigen Bereichsdatenbestand.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: BlackRabbitZ dokumentierte NAS-/Server-Endpunkte
+# Risk: mittel
+# Entries: 22
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+# Generated: ja
+#
+analytics.api.myqnapcloud.com
+analytics.myqnapcloud.io
+api.access.redhat.com
+api.insight.synology.com
+cert-api.access.redhat.com
+cert.console.redhat.com
+connect.cloud.redhat.com
+device.cloud.hpe.com
+esrs3-core.emc.com
+esrs3-coredr.emc.com
+infogw.api.openshift.com
+infosight.hpe.com
+midway.ext.hpe.com
+qcenter-events-device.api.myqnapcloud.cn
+qcenter-events-device.api.myqnapcloud.com
+qcenter-metrics-device.api.myqnapcloud.cn
+qcenter-metrics-device.api.myqnapcloud.com
+sentry.ixsystems.com
+subscribe.insight.synology.com
+supapi.synology.com
+telemetry.sys.truenas.net
+usage.truenas.com

@@ -1,0 +1,31 @@
+# BlackRabbitZ DNS Blocklists
+# Title: Amazon Fire TV Full
+# Description: Vollstaendige im Smart-TV-Datenbestand erkannte Amazon Fire TV-Eintraege.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; siehe THIRD_PARTY.md fuer Drittquellen
+# Sources: BlackRabbitZ Smart-TV Bestand; HaGeZi-basierte Native/TV-Anteile
+# Risk: hoch
+# Entries: 19
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+# Generated: ja
+#
+aax-eu.amazon-adsystem.com
+amazonadsi-a.akamaihd.net
+aviary.amazon.com
+coordinator-production-28516768.us-east-1.elb.amazonaws.com
+device-messaging-na.amazon.com
+device-metrics-us-2.amazon.com
+device-metrics-us.amazon.com
+devicemessaging.us-east-1.amazon.com
+fls-eu.amazon.com
+fls-na.amazon.com
+mads-eu.amazon.com
+mas-ext.amazon.com
+mas-sdk.amazon.com
+mobileanalytics.us-east-1.amazonaws.com
+notify.firetv.bugsnag.appstore.a2z.com
+syncplusconfig.s3.amazonaws.com
+unagi-na.amazon.com
+vd.contents.prod.eu.s3.amazonaws.com
+vd.emp.prd.s3.amazonaws.com

@@ -1,0 +1,23 @@
+# BlackRabbitZ DNS Blocklists
+# Title: Hisense / VIDAA Full
+# Description: Vollstaendige im Smart-TV-Datenbestand erkannte Hisense / VIDAA-Eintraege.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; siehe THIRD_PARTY.md fuer Drittquellen
+# Sources: BlackRabbitZ Smart-TV Bestand; HaGeZi-basierte Native/TV-Anteile
+# Risk: hoch
+# Entries: 11
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+# Generated: ja
+#
+api-gps-em.hismarttv.com
+api-gps-na.hismarttv.com
+api-launcher-em.hismarttv.com
+api-launcher-na.hismarttv.com
+auth-em.hismarttv.com
+auth-launcher-em.hismarttv.com
+auth-launcher-na.hismarttv.com
+auth-na.hismarttv.com
+msg-em.hismarttv.com
+msg-na.hismarttv.com
+unified-ter-na.hismarttv.com

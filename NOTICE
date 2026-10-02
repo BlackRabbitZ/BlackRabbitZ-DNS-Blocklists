@@ -1,8 +1,9 @@
-BlackRabbitZ DNS Blocklists
-Copyright (C) 2026 BlackRabbitZ
+BlackRabbitZ DNS Blocklists vNext
 
-Licensed under GNU GPL version 3 only (GPL-3.0-only).
-Original source:
-https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+Copyright (c) 2026 BlackRabbitZ.
+Lizenz: GNU GPL-3.0-only.
 
-See LICENSE and ATTRIBUTION.md.
+Dieser vNext-Entwurf reorganisiert die statischen BlackRabbitZ-Daten in ein
+Light/Normal/Pro/Pro++/Ultimate-Modell und uebernimmt die Hersteller-/Native-Tracker-
+Logik als Konzept aus HaGeZi. Drittquellen und deren Herkunft sind in THIRD_PARTY.md
+dokumentiert.

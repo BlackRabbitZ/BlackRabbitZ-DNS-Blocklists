@@ -1,0 +1,17 @@
+# BlackRabbitZ DNS Blocklists
+# Title: Gaming Normal
+# Description: Normal-Stufe für Gaming; kumulativ, Ultimate enthält den vollständigen Bereichsdatenbestand.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: BlackRabbitZ Ads/Tracking/Telemetry-Daten; gezielte Dienstzuordnung
+# Risk: niedrig
+# Entries: 5
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+# Generated: ja
+#
+ads.blizzard.com
+analytics.developer.riotgames.com
+fast.nintendoofamericainc.demdex.net
+nintendoofamericainc.demdex.net
+tracking.epicgames.com

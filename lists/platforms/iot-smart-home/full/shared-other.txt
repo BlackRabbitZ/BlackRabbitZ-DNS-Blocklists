@@ -1,0 +1,32 @@
+# BlackRabbitZ DNS Blocklists
+# Title: iot-smart-home Shared / Other Full
+# Description: Gemeinsame oder keinem einzelnen Hersteller sicher zuordenbare Endpunkte des Bereichs.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: BlackRabbitZ IoT-Datenbestand
+# Risk: hoch
+# Entries: 20
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+# Generated: ja
+#
+api.mixpanel.com
+api.segment.io
+api2.amplitude.com
+app-measurement.com
+bam.nr-data.net
+browser-intake-datadoghq.com
+config.ioam.de
+d3p8zr0ffa9t17.cloudfront.net
+de.ioam.de
+events.launchdarkly.com
+firebasecrashlytics.googleapis.com
+logs.roku.com
+logs1409.xiti.com
+metrics.icloud.com
+o0.ingest.sentry.io
+reports.crashlytics.com
+secure-eu.imrworldwide.com
+sentry.io
+settings.crashlytics.com
+tracksrv.zdf.de

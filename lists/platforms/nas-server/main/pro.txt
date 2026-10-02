@@ -1,0 +1,17 @@
+# BlackRabbitZ DNS Blocklists
+# Title: NAS & Server Pro
+# Description: Pro-Stufe für NAS & Server; kumulativ, Ultimate enthält den vollständigen Bereichsdatenbestand.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: BlackRabbitZ dokumentierte NAS-/Server-Endpunkte
+# Risk: niedrig-mittel
+# Entries: 5
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+# Generated: ja
+#
+api.insight.synology.com
+sentry.ixsystems.com
+subscribe.insight.synology.com
+supapi.synology.com
+telemetry.sys.truenas.net

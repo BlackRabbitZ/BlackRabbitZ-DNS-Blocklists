@@ -1,0 +1,16 @@
+# BlackRabbitZ DNS Blocklists
+# Title: Samsung Mobile Full
+# Description: Vollstaendige im Mobile-Datenbestand erkannte Samsung Mobile-Eintraege.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; siehe THIRD_PARTY.md fuer Drittquellen
+# Sources: BlackRabbitZ Native/Mobile/OS-Daten; HaGeZi-basierte Native-Tracker-Anteile
+# Risk: hoch
+# Entries: 4
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+# Generated: ja
+#
+analytics.samsungknox.com
+bigdata.ssp.samsung.com
+insights.samsung.com
+nmetrics.samsung.com

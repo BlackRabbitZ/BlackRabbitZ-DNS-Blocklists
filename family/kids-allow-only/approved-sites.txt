@@ -1,0 +1,13 @@
+# BlackRabbitZ Kids Allow-Only - Starter Allowlist
+# Diese Liste ist absichtlich klein und muss von Erziehungsberechtigten angepasst werden.
+# Domains: eine Domain pro Zeile.
+fragfinn.de
+www.fragfinn.de
+seitenstark.de
+www.seitenstark.de
+blinde-kuh.de
+www.blinde-kuh.de
+kika.de
+www.kika.de
+wdrmaus.de
+www.wdrmaus.de

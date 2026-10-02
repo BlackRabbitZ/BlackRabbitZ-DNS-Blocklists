@@ -1,0 +1,25 @@
+# BlackRabbitZ DNS Blocklists
+# Title: Roku Full
+# Description: Vollstaendige im Smart-TV-Datenbestand erkannte Roku-Eintraege.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; siehe THIRD_PARTY.md fuer Drittquellen
+# Sources: BlackRabbitZ Smart-TV Bestand; HaGeZi-basierte Native/TV-Anteile
+# Risk: hoch
+# Entries: 13
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+# Generated: ja
+#
+ads.roku.com
+amarillo.sb.roku.com
+amoeba.web.roku.com
+bif.sr.roku.com
+cloudservices.roku.com
+cooper.logs.roku.com
+customer-feedbacks.web.roku.com
+logs.roku.com
+p.ads.roku.com
+roku.com
+scribe.logs.roku.com
+traces.sr.roku.com
+track.sr.roku.com
