@@ -1,13 +1,60 @@
 # BlackRabbitZ Kids Allow-Only - Starter Allowlist
-# Diese Liste ist absichtlich klein und muss von Erziehungsberechtigten angepasst werden.
-# Domains: eine Domain pro Zeile.
+#
+# Zweck:
+#   Starter-Allowlist fuer eine eigene Pi-hole-Kindergruppe.
+#   Standardmaessig wird mit block-all.regex alles blockiert.
+#   Nur die hier aufgefuehrten Domains werden bewusst freigegeben.
+#
+# WICHTIG:
+#   Webseiten koennen weitere CDN-, Login-, API- oder Medien-Domains benoetigen.
+#   Diese muessen nach Pruefung gezielt ergaenzt werden.
+#   Nicht ungeprueft auf das gesamte Heimnetz anwenden.
+#
+# Format: eine Domain pro Zeile
+
+# --- Suche / Kinderportale ---
 fragfinn.de
 www.fragfinn.de
-seitenstark.de
-www.seitenstark.de
 blinde-kuh.de
 www.blinde-kuh.de
+seitenstark.de
+www.seitenstark.de
+internet-abc.de
+www.internet-abc.de
+
+# --- Medien / Wissen ---
 kika.de
 www.kika.de
+kikaninchen.de
+www.kikaninchen.de
 wdrmaus.de
 www.wdrmaus.de
+kindernetz.de
+www.kindernetz.de
+kinderfilmwelt.de
+www.kinderfilmwelt.de
+duda.news
+www.duda.news
+hanisauland.de
+www.hanisauland.de
+kinderzeitmaschine.de
+www.kinderzeitmaschine.de
+
+# --- Lernen / MINT / Umwelt ---
+coollama.de
+www.coollama.de
+legakids.net
+www.legakids.net
+meine-forscherwelt.de
+www.meine-forscherwelt.de
+klassewasser.de
+www.klassewasser.de
+abenteuer-regenwald.de
+www.abenteuer-regenwald.de
+naturdetektive.bfn.de
+
+# --- Audio / Medienbildung ---
+ohrka.de
+www.ohrka.de
+auditorix.de
+www.auditorix.de

@@ -234,20 +234,185 @@ Die Family-Hauptlisten kombinieren Inhaltsfilter in abgestuften Stufen. Sie sind
 <a id="kids-allow-only"></a>
 ## 🧒 Kids Allow-Only
 
-`Kids Allow-Only` ist **keine normale Blockliste**. Das Konzept ist für eine eigene Pi-hole-Gruppe gedacht:
+`Kids Allow-Only` ist **keine normale Blockliste**, sondern ein striktes Allow-Only-Modell für eine eigene Pi-hole-Gruppe. Für die zugewiesenen Kindergeräte wird standardmäßig **jede Domain blockiert**. Anschließend werden nur bewusst freigegebene Kinder-, Lern- und Medienangebote wieder erlaubt.
 
-1. Kindergeräte in eine eigene Pi-hole-Gruppe legen.
-2. Mit `family/kids-allow-only/block-all.regex` standardmäßig alle Domains blockieren.
-3. Nur bewusst geprüfte Domains aus `approved-sites.txt` erlauben.
-4. Benötigte Login-/CDN-Domains pro Seite gezielt ergänzen.
+> **Wichtig:** Dieses Modell sollte nur für eine eigene Kindergruppe verwendet werden. Nicht ungeprüft auf das gesamte Heimnetz anwenden.
+
+### ✅ Starter-Allowlist
+
+Die folgende Auswahl ist als **Startpunkt** gedacht. Eltern bzw. Administratoren sollten die Einträge selbst prüfen und je nach Alter, Nutzung und gewünschtem Umfang anpassen.
+
+| Angebot | Kategorie | Beschreibung | Hauptdomain |
+|---|---|---|---|
+| **fragFINN** | Suche | Kindersuchmaschine und geprüfter Surfraum | `fragfinn.de` |
+| **Blinde Kuh** | Suche | Suchmaschine für Kinder | `blinde-kuh.de` |
+| **Seitenstark** | Kinderportal | Netzwerk und Sammlung von Kinderseiten | `seitenstark.de` |
+| **Internet-ABC** | Lernen / Medienkompetenz | Internet, Sicherheit und Medienbildung | `internet-abc.de` |
+| **KiKA** | Medien | Kinderfernsehen und Mediathek | `kika.de` |
+| **Kikaninchen** | Kinder / Medien | Angebote für jüngere Kinder | `kikaninchen.de` |
+| **WDR Maus** | Wissen | Inhalte rund um die Sendung mit der Maus | `wdrmaus.de` |
+| **Kindernetz** | Medien / Wissen | SWR-Angebote für Kinder | `kindernetz.de` |
+| **Kinderfilmwelt** | Medien | Informationen und Empfehlungen zu Kinderfilmen | `kinderfilmwelt.de` |
+| **Duda News** | Nachrichten | Nachrichten und Wissen für Kinder | `duda.news` |
+| **HanisauLand** | Politik / Wissen | Politik und Gesellschaft kindgerecht erklärt | `hanisauland.de` |
+| **Kinderzeitmaschine** | Geschichte | Geschichte und historische Themen für Kinder | `kinderzeitmaschine.de` |
+| **Coollama** | Lernen | Lern- und Wissensinhalte für Kinder | `coollama.de` |
+| **LegaKids** | Lernen | Lesen, Schreiben und Rechtschreibung | `legakids.net` |
+| **Meine Forscherwelt** | MINT | Forschen und Naturwissenschaften | `meine-forscherwelt.de` |
+| **Klassewasser** | Umwelt / Wissen | Wasser, Umwelt und Bildung | `klassewasser.de` |
+| **Abenteuer Regenwald** | Umwelt | Regenwald-, Natur- und Umweltthemen | `abenteuer-regenwald.de` |
+| **Naturdetektive** | Natur | Natur- und Artenschutz für Kinder | `naturdetektive.bfn.de` |
+| **Ohrka** | Audio | Hörspiele und Hörangebote für Kinder | `ohrka.de` |
+| **Auditorix** | Audio / Medienbildung | Hören, Hörspiel und Medienkompetenz | `auditorix.de` |
+
+Die zugehörige Repo-Datei enthält zusätzlich übliche `www.`-Varianten, soweit sinnvoll:
+
+**➡️ [approved-sites.txt](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/family/kids-allow-only/approved-sites.txt)**
+
+### 📁 Dateien für Kids Allow-Only
 
 | Datei | Zweck |
 |---|---|
-| `approved-sites.txt` | kleine Starter-Allowlist für Kinder-/Lernangebote |
-| `block-all.regex` | Regex `.*` zum Blockieren aller übrigen Domains |
-| `README.md` | Einrichtungshinweise |
+| [`approved-sites.txt`](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/family/kids-allow-only/approved-sites.txt) | Starter-Allowlist mit freigegebenen Kinder-/Lernangeboten |
+| [`block-all.regex`](family/kids-allow-only/block-all.regex) | Regex `.*` – blockiert standardmäßig alle übrigen Domains |
+| [`README.md`](family/kids-allow-only/README.md) | Kurzbeschreibung direkt im Kids-Allow-Only-Ordner |
 
-> Nicht ungeprüft auf das gesamte Heimnetz anwenden.
+### 🧭 Funktionsprinzip
+
+```text
+Kindergerät
+    ↓
+Pi-hole-Gruppe "Kids"
+    ↓
+block-all.regex = .*
+    ↓
+standardmäßig wird jede Domain blockiert
+    ↓
+approved-sites.txt hebt ausgewählte Domains wieder auf
+    ↓
+benötigte CDN-/Login-/Medien-Domains gezielt ergänzen
+```
+
+Pi-hole wertet Allowlist-Einträge mit höherer Priorität als Denylist- und Regex-Denylist-Einträge aus. Dadurch können bewusst freigegebene Domains trotz der globalen `.*`-Regel für die Kindergruppe erreichbar bleiben.
+
+### 🛠️ Einrichtung in Pi-hole
+
+#### 1. Eigene Gruppe für Kindergeräte anlegen
+
+Erstelle in Pi-hole eine eigene Gruppe, z. B.:
+
+```text
+Kids
+```
+
+oder:
+
+```text
+Kinderschutz
+```
+
+Die Gruppe sollte ausschließlich für Geräte gedacht sein, auf denen das Allow-Only-Prinzip gelten soll.
+
+#### 2. Kindergeräte der Gruppe zuweisen
+
+Füge die betreffenden Geräte als Clients hinzu und ordne sie der Gruppe `Kids` zu.
+
+Für einen **strikten Allow-Only-Modus** sollte das Kindergerät nicht zusätzlich die normale `Default`-Gruppe verwenden. Andernfalls können Listen oder Freigaben aus anderen Gruppen zusätzlich wirken.
+
+Beispiele für geeignete Client-Zuordnungen:
+
+```text
+192.168.178.50   → Kids
+192.168.178.51   → Kids
+Kinder-Tablet    → Kids
+Kinder-PC        → Kids
+```
+
+#### 3. Alles standardmäßig blockieren
+
+Füge als **Regex-Denylist** die Regel aus `block-all.regex` hinzu:
+
+```regex
+.*
+```
+
+Weise diese Regel **nur der Gruppe `Kids`** zu.
+
+> `.*` trifft praktisch auf jede normale Domain zu. Eine falsche Gruppenzuweisung kann deshalb das gesamte Browsing eines Geräts blockieren.
+
+#### 4. Starter-Allowlist einbinden
+
+Für Pi-hole v6 kann die Raw-Datei als externe Allowlist verwendet werden:
+
+```text
+https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/family/kids-allow-only/approved-sites.txt
+```
+
+Die Allowlist ebenfalls **nur der Gruppe `Kids`** zuweisen.
+
+Alternativ können die gewünschten Domains einzeln als exakte Allowlist-Einträge eingetragen werden.
+
+#### 5. Listen aktualisieren
+
+Nach Änderungen die Pi-hole-Listen neu laden bzw. Gravity aktualisieren.
+
+CLI:
+
+```bash
+pihole updateGravity
+```
+
+#### 6. Webseiten testen
+
+Jetzt mit einem Kindergerät eine freigegebene Seite öffnen.
+
+Falls die Hauptseite erreichbar ist, aber beispielsweise Bilder, Videos, Login oder andere Funktionen fehlen, im **Pi-hole Query Log** nach blockierten Abhängigkeiten suchen.
+
+Typische zusätzliche Abhängigkeiten können sein:
+
+```text
+CDN-Domains
+Bild-/Video-Hosts
+Login-Domains
+API-Endpunkte
+Schriftarten-/Asset-Domains
+Mediathek-/Streaming-Endpunkte
+```
+
+Nur die tatsächlich benötigten Domains gezielt freigeben. Nicht einfach komplette Fremd-CDNs oder große Plattformen pauschal erlauben.
+
+#### 7. Neue Seiten kontrolliert ergänzen
+
+Wenn eine weitere Kinderseite erlaubt werden soll:
+
+1. Hauptdomain prüfen.
+2. Hauptdomain zur Allowlist hinzufügen.
+3. Seite auf einem Testgerät öffnen.
+4. Im Query Log fehlende technische Domains identifizieren.
+5. Nur notwendige Abhängigkeiten ergänzen.
+6. Funktion erneut testen.
+
+### ⚠️ Wichtige Grenzen
+
+- Eine erlaubte Domain bedeutet nicht automatisch, dass **jeder Inhalt** dieser Website kindgerecht ist.
+- DNS-Filter können keine einzelnen Unterseiten oder Inhalte innerhalb einer bereits erlaubten Domain unterscheiden.
+- Websites ändern regelmäßig CDNs, APIs und technische Abhängigkeiten.
+- Die Starter-Allowlist ist deshalb **kein statischer Jugendschutz-Ersatz**, sondern eine technisch restriktive Grundlage, die gepflegt und getestet werden muss.
+- Für Mobilgeräte sollte zusätzlich verhindert werden, dass Apps oder Browser einen eigenen DNS-/DoH-Dienst verwenden und damit Pi-hole umgehen.
+
+### 🔎 Kontrolle und Fehlersuche
+
+Wenn eine erlaubte Website nicht funktioniert:
+
+```text
+1. Pi-hole Query Log öffnen
+2. nach dem Kindergerät filtern
+3. blockierte Domains während des Seitenaufrufs beobachten
+4. Domain und Zweck prüfen
+5. nur wenn notwendig gezielt erlauben
+```
+
+So bleibt das Allow-Only-Prinzip erhalten, ohne durch großflächige Ausnahmen wieder aufgeweicht zu werden.
 
 <p align="right"><a href="#kinderschutz-navigation">⬆️ Family-Inhaltsverzeichnis</a></p>
 
