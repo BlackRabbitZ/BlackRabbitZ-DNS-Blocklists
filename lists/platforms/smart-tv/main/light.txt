@@ -1,14 +1,15 @@
 # BlackRabbitZ DNS Blocklists
 # Title: Smart TV Light
-# Description: Light-Stufe für Smart TV; kumulativ, Ultimate enthält den vollständigen Bereichsdatenbestand.
+# Description: Light-Stufe für Smart TV; kumulativ.
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
-# Sources: BlackRabbitZ: Block List Project; Perflyst; HaGeZi LG webOS
-# Risk: minimal
+# Sources: BlackRabbitZ Smart-TV-Katalog
+# Risk: Minimal
+# Data status: befüllt
+# Data method: generated-tier
 # Entries: 346
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
-# Generated: ja
 #
 aax-eu.amazon-adsystem.com
 ad.71i.de

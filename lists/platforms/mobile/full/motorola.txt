@@ -1,0 +1,44 @@
+# BlackRabbitZ DNS Blocklists
+# Title: Motorola
+# Description: Motorola Tracking-/Telemetrie-Endpunkte
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: Aus vorhandenen BlackRabbitZ-/dokumentierten HaGeZi-Domains konservativ abgeleitet
+# Risk: variabel
+# Data status: abgeleitet
+# Data method: derived-keyword
+# Entries: 31
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+campaignresources.motorolasolutions.com
+click.lenovo.com
+clk.lenovo.com.cn
+fast.lenovo.demdex.net
+fdc.lenovo.com
+fsr.lenovomm.com
+lds.lenovomm.com
+lenovo-chile.pxf.io
+lenovo-co.evyy.net
+lenovo-techsupport.com
+lenovo.112.2o7.net
+lenovo.7eer.net
+lenovo.demdex.net
+lenovo.evergage.com
+lenovo.evyy.net
+lenovo.inq.com
+lenovo.net.7eer.net
+lenovo.tt.omtrdc.net
+lenovoappssystemupdateprod.112.2o7.net
+lenovode.widget.criteo.com
+lenovosimpletapdev.112.2o7.net
+lenovotw.7eer.net
+lenovous.btttag.com
+msg.csw.lenovo.com
+o.lenovo.com
+osfsr.lenovomm.com
+s.lenovo.com
+t.lenovo.com
+tag.lenovo.com
+vantage.csw.lenovo.com
+www.lenovo-techsupport.com

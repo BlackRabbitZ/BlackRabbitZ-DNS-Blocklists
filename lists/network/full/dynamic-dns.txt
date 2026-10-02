@@ -1,0 +1,14 @@
+# BlackRabbitZ DNS Blocklists
+# Title: Dynamic DNS
+# Description: Dynamic-DNS-Domains aus dem vorhandenen Security-Datenbestand
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: BlackRabbitZ Security-Katalog
+# Risk: hoch
+# Data status: abgeleitet
+# Data method: derived-keyword
+# Entries: 0
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+# Noch keine belastbaren Domains im aktuellen statischen Quellstand.

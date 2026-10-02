@@ -1,0 +1,14 @@
+# BlackRabbitZ DNS Blocklists
+# Title: Payment
+# Description: Payment-Ausnahmen
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: BlackRabbitZ manuell
+# Risk: niedrig
+# Data status: vorbereitet
+# Data method: manual
+# Entries: 0
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+# Noch keine belastbaren Domains im aktuellen statischen Quellstand.

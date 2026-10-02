@@ -1,0 +1,14 @@
+# BlackRabbitZ DNS Blocklists
+# Title: Unraid
+# Description: Unraid Telemetrie-/Tracking-Endpunkte
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: Aus vorhandenen BlackRabbitZ-/dokumentierten HaGeZi-Domains konservativ abgeleitet
+# Risk: variabel
+# Data status: abgeleitet
+# Data method: derived-keyword
+# Entries: 0
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+# Noch keine belastbaren Domains im aktuellen statischen Quellstand.

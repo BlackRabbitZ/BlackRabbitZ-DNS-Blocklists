@@ -1,0 +1,14 @@
+# BlackRabbitZ DNS Blocklists
+# Title: Weapons
+# Description: Weapons: Kategorie vollständig vorbereitet; für eine belastbare Trennung fehlt im aktuellen Snapshot eine dedizierte Quelle.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: BRZ 100-Kategorien-Sollkatalog
+# Risk: variabel
+# Data status: vorbereitet
+# Data method: prepared
+# Entries: 0
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+# Noch keine belastbaren Domains im aktuellen statischen Quellstand.

@@ -1,0 +1,38 @@
+# BlackRabbitZ DNS Blocklists
+# Title: YouTube
+# Description: YouTube Ads/Tracking/Telemetry
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: Aus vorhandenen BlackRabbitZ-/dokumentierten HaGeZi-Domains konservativ abgeleitet
+# Risk: variabel
+# Data status: abgeleitet
+# Data method: derived-keyword
+# Entries: 25
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+0youtube.com
+100youtube.com
+ads.youtube.com
+c.googlevideo.com
+cache.googlevideo.com
+cache1.googlevideo.com
+catchyoutube.toptools100.com
+ehg-youtube.hitbox.com
+eligibility-panelresearch.googlevideo.com
+mediayoutube.com
+metrics.cbc.youtube.mercedes-benz.com
+mp3-youtube.download
+music.catchyoutube.toptools100.com
+nonxt1.c.youtube.com
+policy.catchyoutube.toptools100.com
+s.youtube.com
+s.youtubeeducation.com
+s2.youtube.com
+ssl-youtube.2cnt.net
+wavyoutube.com
+youtube.112.2o7.net
+youtube.2cnt.net
+youtube2top.com
+youtubesys.com
+ytimgg.com

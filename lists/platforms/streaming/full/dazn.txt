@@ -1,0 +1,16 @@
+# BlackRabbitZ DNS Blocklists
+# Title: DAZN
+# Description: DAZN Tracking/Telemetry
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: Aus vorhandenen BlackRabbitZ-/dokumentierten HaGeZi-Domains konservativ abgeleitet
+# Risk: variabel
+# Data status: abgeleitet
+# Data method: derived-keyword
+# Entries: 3
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+commercial.daznservices.com
+data-597aebc8e1.daznservices.com
+geolocation.daznservices.com

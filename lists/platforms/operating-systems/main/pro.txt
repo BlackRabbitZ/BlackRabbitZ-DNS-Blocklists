@@ -1,14 +1,15 @@
 # BlackRabbitZ DNS Blocklists
 # Title: Betriebssysteme Pro
-# Description: Pro-Stufe für Betriebssysteme; kumulativ, Ultimate enthält den vollständigen Bereichsdatenbestand.
+# Description: Pro-Stufe für Betriebssysteme; kumulativ.
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
-# Sources: BlackRabbitZ OS-Telemetrie; dokumentierte HaGeZi-/NextDNS-Anteile
-# Risk: niedrig-mittel
+# Sources: BlackRabbitZ OS-Katalog
+# Risk: Niedrig–Mittel
+# Data status: befüllt
+# Data method: generated-tier
 # Entries: 104
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
-# Generated: ja
 #
 1681.engine.mobileapptracking.com
 ad.doubleclick.net

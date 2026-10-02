@@ -1,0 +1,37 @@
+# BlackRabbitZ DNS Blocklists
+# Title: Netflix
+# Description: Netflix Tracking/Telemetry
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: Aus vorhandenen BlackRabbitZ-/dokumentierten HaGeZi-Domains konservativ abgeleitet
+# Risk: variabel
+# Data status: abgeleitet
+# Data method: derived-keyword
+# Entries: 24
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+123netflix.pro
+ads.netflix.com
+ads.test.netflix.com
+ads.us-east-1.prodaa.netflix.com
+ads.us-west-2.prodaa.netflix.com
+adtech.nflximg.net
+ae.nflximg.net
+beacon.eu-west-1.prodaa.netflix.com
+beacon.geo.netflix.com
+beacon.netflix.com
+beacon.us-east-1.prodaa.netflix.com
+beacon.us-west-2.prodaa.netflix.com
+beaconimages.netflix.net
+cmpv2.best-of-netflix.com
+customerevents.netflix.com
+ichnaea.netflix.com
+inflx.io
+inflxio.s3-us-west-1.amazonaws.com
+logs.netflix.com
+netflix.avdhoothadke.com
+netflixalternative.net
+news.newonnetflix.info
+nmtracking.netflix.com
+presentationtracking.netflix.com

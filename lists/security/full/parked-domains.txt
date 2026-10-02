@@ -1,0 +1,14 @@
+# BlackRabbitZ DNS Blocklists
+# Title: Parked Domains
+# Description: Parked Domains: Kategorie vollständig vorbereitet; der aktuelle statische Quellstand enthält keine belastbare per-Domain-Klassifizierung für diese Spezialklasse.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: PDF-Sollkatalog; BlackRabbitZ statischer Snapshot
+# Risk: hoch
+# Data status: vorbereitet
+# Data method: prepared
+# Entries: 0
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+# Noch keine belastbaren Domains im aktuellen statischen Quellstand.

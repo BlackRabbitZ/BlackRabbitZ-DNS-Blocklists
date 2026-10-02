@@ -1,0 +1,89 @@
+# BlackRabbitZ DNS Blocklists
+# Title: Software & Hardware Telemetrie Pro++
+# Description: Pro++-Stufe für Software & Hardware Telemetrie; kumulativ.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: BlackRabbitZ statischer Datenbestand
+# Risk: Mittel
+# Data status: befüllt
+# Data method: generated-tier
+# Entries: 76
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+acds-events.adobe.io
+adobe-analytics-dc.amlc.eu
+adobe-analytics-dc.amlc.nl
+adobe-analytics-dc.belastingdienst.nl
+adobe-analytics-dc.fiod.nl
+adobe-analytics.vionicshoes.com
+adobe-metrics.nsbank.com
+adobe-metrics.vectrabank.com
+adobe-metrics.zionsbank.com
+adobe-metrics.zipmortgagefinancing.com
+adobeanalytics-secure.girlscouts.org
+adobeanalytics.actalentservices.com
+adobeanalytics.aerotek.com
+adobeanalytics.allegis-partners.com
+adobeanalytics.allegisglobalsolutions.com
+adobeanalytics.allegisgroup.com
+adobeanalytics.astoncarter.com
+adobeanalytics.bws.com.au
+adobeanalytics.danmurphys.com.au
+adobeanalytics.easi.com
+adobeanalytics.geico.com
+adobeanalytics.gettinghired.com
+adobeanalytics.mlaglobal.com
+adobeanalytics.populusgroup.com
+adobeanalytics.serveone.co.kr
+adobeanalytics.teksystems.com
+adobeanalytics.vice.com
+adobemetrics.cluballiance.aaa.com
+adobemetrics.okta.com
+adobemetrics.yellohvillage.co.uk
+adobemetrics.yellohvillage.com
+adobemetrics.yellohvillage.de
+adobemetrics.yellohvillage.es
+adobemetrics.yellohvillage.fr
+adobemetrics.yellohvillage.it
+adobemetrics.yellohvillage.nl
+adobestats.io
+analytics.autodesk.com
+analytics.kriskintel.com
+analytics.ravenintel.com
+bespoke-analytics.razerapi.com
+events.gfe.nvidia.com
+hz-telemetry-next.adobe.io
+hz-telemetry.adobe.io
+metrics-dev.adobeprimetime.com
+metrics-stage.adobeprimetime.com
+metrics.adobe.almanacrealty.com
+metrics.adobe.nb.com
+metrics.adobe.nbprivateequitypartners.com
+metrics.adobe.nbprivatewealth.com
+metricsadobe.hollandandbarrett.be
+metricsadobe.hollandandbarrett.com
+metricsadobe.hollandandbarrett.ie
+metricsadobe.hollandandbarrett.nl
+prd-appstats.nvidia.com
+s-adobeanalytics.vice.com
+sadobeanalytics.medline.com
+sadobemetrics.dr.dk
+sadobemetrics.la-z-boy.com
+sanalytics.adobe.tp.gskpro.com
+smetrics.autodesk.com
+smetrics.autodesk.com.cn
+smetrics.nvidia.com
+smetricsadobe.hollandandbarrett.com
+smetricsadobe.hollandandbarrett.ie
+smetricsadobe.hollandandbarrett.nl
+sstats.adobe.com
+stats.adobe.com
+stats.iridiumintel.com
+telemetry.gfe.nvidia.com
+telemetry.intel.com
+telemetry.nvidia.com
+webanalytics.logitech.com
+webanalytics.logitech.com.cn
+webanalytics.logitechg.com
+webanalytics.logitechg.com.cn

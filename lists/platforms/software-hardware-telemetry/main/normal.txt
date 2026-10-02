@@ -1,0 +1,41 @@
+# BlackRabbitZ DNS Blocklists
+# Title: Software & Hardware Telemetrie Normal
+# Description: Normal-Stufe für Software & Hardware Telemetrie; kumulativ.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: BlackRabbitZ statischer Datenbestand
+# Risk: Niedrig
+# Data status: befüllt
+# Data method: generated-tier
+# Entries: 28
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+adobe-analytics-dc.amlc.eu
+adobe-analytics-dc.amlc.nl
+adobe-analytics-dc.belastingdienst.nl
+adobe-analytics-dc.fiod.nl
+adobe-analytics.vionicshoes.com
+adobeanalytics-secure.girlscouts.org
+adobeanalytics.aerotek.com
+adobeanalytics.allegis-partners.com
+adobeanalytics.allegisglobalsolutions.com
+adobeanalytics.allegisgroup.com
+adobeanalytics.astoncarter.com
+adobeanalytics.bws.com.au
+adobeanalytics.danmurphys.com.au
+adobeanalytics.easi.com
+adobeanalytics.geico.com
+adobeanalytics.gettinghired.com
+adobeanalytics.mlaglobal.com
+adobeanalytics.populusgroup.com
+adobeanalytics.serveone.co.kr
+adobeanalytics.teksystems.com
+adobeanalytics.vice.com
+analytics.autodesk.com
+analytics.kriskintel.com
+analytics.ravenintel.com
+bespoke-analytics.razerapi.com
+s-adobeanalytics.vice.com
+sadobeanalytics.medline.com
+sanalytics.adobe.tp.gskpro.com

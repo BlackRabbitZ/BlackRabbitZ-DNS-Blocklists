@@ -1,0 +1,62 @@
+# BlackRabbitZ DNS Blocklists
+# Title: Valve / Steam
+# Description: Valve / Steam-bezogene Ads-/Tracking-/Telemetrie-Endpunkte
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: Aus vorhandenem statischem BlackRabbitZ-/HaGeZi-dokumentiertem Datenbestand konservativ abgeleitet
+# Risk: variabel
+# Data status: abgeleitet
+# Data method: derived-keyword
+# Entries: 49
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+adfdsaf.ow.truesteamachievements.com
+ahmip.mysteamate.com
+amz.steamprices.com
+analytics.dielisteamberg.de
+analytics.steamforvietnam.org
+api.datasteam.io
+cdn.steambets.net
+cklld.pacersteamstore.com
+cmp.steamrailway.co.uk
+crash.steampowered.com
+d-sportsteamclothing.t.domdex.com
+data.sk.kingsteamstore.com
+datasteam.io
+domainsteam.de
+enheartsteamed.com
+fleasteamprominent.com
+gtm.theguedesteam.com
+images.steamray.com
+irresponsiblevalve.com
+load.server.steampunk-boutique.com
+load.stape.facesteam.com.br
+load.tgbc.remotesalesteams.de
+mailer241.steamerrecallsettlement.com
+mailer242.steamerrecallsettlement.com
+mailer243.steamerrecallsettlement.com
+matomo.steamcardexchange.net
+piwik.dasteam.de
+reliancevalve.com
+server.steamgreen.dk
+sidesteamroll.com
+smart.steamlogistics.com
+smtp.steamboatsprings.bluehornet.com
+spurioussteam.com
+stats.steamvps.com
+stats.successteam.io
+steam-telemetry.homefront-game.com
+steam.zssjsq.com
+steamabundanceslope.com
+steamac.com
+steamcoast.com
+steamcommunitylog.chez.com
+steamsecretary.com
+steamtraffic.com
+steamymeet0725.click
+thequickbooksteam.intuit.ca
+ueleu.pacersteamstore.com
+valveman.cn
+www.steamtraffic.com
+yd.valveguaruan.com

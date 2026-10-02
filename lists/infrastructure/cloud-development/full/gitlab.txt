@@ -1,0 +1,20 @@
+# BlackRabbitZ DNS Blocklists
+# Title: GitLab
+# Description: GitLab Telemetrie/Analytics
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: Aus vorhandenen BlackRabbitZ-/dokumentierten HaGeZi-Domains konservativ abgeleitet
+# Risk: variabel
+# Data status: abgeleitet
+# Data method: derived-keyword
+# Entries: 7
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+airbrake-gitlab.airbrake.io
+gitlab.ad-stir.com
+gitlab.affise.com
+gitlab.build.ligatus.com
+gitlab.mgid.com
+ledger-wallet.gitlab.io
+trx.gitlab.net

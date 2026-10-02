@@ -1,0 +1,1877 @@
+[
+  {
+    "path": "allowlists/authentication.txt",
+    "bytes": 512,
+    "entries": 0
+  },
+  {
+    "path": "allowlists/cdn.txt",
+    "bytes": 488,
+    "entries": 0
+  },
+  {
+    "path": "allowlists/essential.txt",
+    "bytes": 500,
+    "entries": 0
+  },
+  {
+    "path": "allowlists/false-positives.txt",
+    "bytes": 524,
+    "entries": 0
+  },
+  {
+    "path": "allowlists/payment.txt",
+    "bytes": 496,
+    "entries": 0
+  },
+  {
+    "path": "config/allowlist.txt",
+    "bytes": 57,
+    "entries": 0
+  },
+  {
+    "path": "family/content/adult.txt",
+    "bytes": 19323285,
+    "entries": 998924
+  },
+  {
+    "path": "family/content/dating.txt",
+    "bytes": 616,
+    "entries": 0
+  },
+  {
+    "path": "family/content/drugs.txt",
+    "bytes": 614,
+    "entries": 0
+  },
+  {
+    "path": "family/content/gambling.txt",
+    "bytes": 7059670,
+    "entries": 420536
+  },
+  {
+    "path": "family/content/misinformation.txt",
+    "bytes": 652,
+    "entries": 0
+  },
+  {
+    "path": "family/content/piracy.txt",
+    "bytes": 616,
+    "entries": 0
+  },
+  {
+    "path": "family/content/sexual-content.txt",
+    "bytes": 650,
+    "entries": 0
+  },
+  {
+    "path": "family/content/torrents.txt",
+    "bytes": 618,
+    "entries": 0
+  },
+  {
+    "path": "family/content/violence-gore.txt",
+    "bytes": 634,
+    "entries": 0
+  },
+  {
+    "path": "family/content/weapons.txt",
+    "bytes": 618,
+    "entries": 0
+  },
+  {
+    "path": "family/kids-allow-only/approved-sites.txt",
+    "bytes": 1163,
+    "entries": 39
+  },
+  {
+    "path": "family/kids-allow-only/kids-de.txt",
+    "bytes": 1163,
+    "entries": 39
+  },
+  {
+    "path": "family/kids-allow-only/kids-education-de.txt",
+    "bytes": 839,
+    "entries": 17
+  },
+  {
+    "path": "family/kids-allow-only/kids-games-de.txt",
+    "bytes": 556,
+    "entries": 0
+  },
+  {
+    "path": "family/kids-allow-only/kids-media-de.txt",
+    "bytes": 735,
+    "entries": 16
+  },
+  {
+    "path": "family/kids-allow-only/kids-runtime-de.txt",
+    "bytes": 591,
+    "entries": 0
+  },
+  {
+    "path": "family/main/light.txt",
+    "bytes": 19323264,
+    "entries": 998924
+  },
+  {
+    "path": "family/main/normal.txt",
+    "bytes": 26377617,
+    "entries": 1419159
+  },
+  {
+    "path": "family/main/pro-plus.txt",
+    "bytes": 33782029,
+    "entries": 1769650
+  },
+  {
+    "path": "family/main/pro.txt",
+    "bytes": 26627249,
+    "entries": 1430117
+  },
+  {
+    "path": "family/main/ultimate.txt",
+    "bytes": 48858360,
+    "entries": 2346905
+  },
+  {
+    "path": "lists/apps/gaming/full/anti-cheat-telemetry.txt",
+    "bytes": 575,
+    "entries": 1
+  },
+  {
+    "path": "lists/apps/gaming/full/battle-net.txt",
+    "bytes": 604,
+    "entries": 5
+  },
+  {
+    "path": "lists/apps/gaming/full/ea-origin.txt",
+    "bytes": 6152,
+    "entries": 298
+  },
+  {
+    "path": "lists/apps/gaming/full/epic-games.txt",
+    "bytes": 707,
+    "entries": 7
+  },
+  {
+    "path": "lists/apps/gaming/full/game-analytics.txt",
+    "bytes": 1173,
+    "entries": 25
+  },
+  {
+    "path": "lists/apps/gaming/full/mobile-games.txt",
+    "bytes": 621,
+    "entries": 3
+  },
+  {
+    "path": "lists/apps/gaming/full/nintendo.txt",
+    "bytes": 620,
+    "entries": 5
+  },
+  {
+    "path": "lists/apps/gaming/full/playstation.txt",
+    "bytes": 770,
+    "entries": 10
+  },
+  {
+    "path": "lists/apps/gaming/full/riot-games.txt",
+    "bytes": 517,
+    "entries": 1
+  },
+  {
+    "path": "lists/apps/gaming/full/rockstar.txt",
+    "bytes": 602,
+    "entries": 3
+  },
+  {
+    "path": "lists/apps/gaming/full/steam.txt",
+    "bytes": 496,
+    "entries": 1
+  },
+  {
+    "path": "lists/apps/gaming/full/ubisoft.txt",
+    "bytes": 698,
+    "entries": 6
+  },
+  {
+    "path": "lists/apps/gaming/full/xbox.txt",
+    "bytes": 613,
+    "entries": 8
+  },
+  {
+    "path": "lists/apps/gaming/main/light.txt",
+    "bytes": 953,
+    "entries": 23
+  },
+  {
+    "path": "lists/apps/gaming/main/normal.txt",
+    "bytes": 2112,
+    "entries": 68
+  },
+  {
+    "path": "lists/apps/gaming/main/pro-plus.txt",
+    "bytes": 7987,
+    "entries": 372
+  },
+  {
+    "path": "lists/apps/gaming/main/pro.txt",
+    "bytes": 3287,
+    "entries": 116
+  },
+  {
+    "path": "lists/apps/gaming/main/ultimate.txt",
+    "bytes": 8018,
+    "entries": 373
+  },
+  {
+    "path": "lists/apps/social-media/full/discord.txt",
+    "bytes": 722,
+    "entries": 9
+  },
+  {
+    "path": "lists/apps/social-media/full/facebook-meta.txt",
+    "bytes": 2429,
+    "entries": 82
+  },
+  {
+    "path": "lists/apps/social-media/full/instagram.txt",
+    "bytes": 792,
+    "entries": 12
+  },
+  {
+    "path": "lists/apps/social-media/full/linkedin.txt",
+    "bytes": 1011,
+    "entries": 23
+  },
+  {
+    "path": "lists/apps/social-media/full/pinterest.txt",
+    "bytes": 766,
+    "entries": 12
+  },
+  {
+    "path": "lists/apps/social-media/full/reddit.txt",
+    "bytes": 1014,
+    "entries": 25
+  },
+  {
+    "path": "lists/apps/social-media/full/snapchat.txt",
+    "bytes": 742,
+    "entries": 11
+  },
+  {
+    "path": "lists/apps/social-media/full/telegram.txt",
+    "bytes": 5794,
+    "entries": 246
+  },
+  {
+    "path": "lists/apps/social-media/full/threads.txt",
+    "bytes": 750,
+    "entries": 10
+  },
+  {
+    "path": "lists/apps/social-media/full/tiktok.txt",
+    "bytes": 1952,
+    "entries": 61
+  },
+  {
+    "path": "lists/apps/social-media/full/whatsapp.txt",
+    "bytes": 1002,
+    "entries": 20
+  },
+  {
+    "path": "lists/apps/social-media/full/x-twitter.txt",
+    "bytes": 525007,
+    "entries": 21121
+  },
+  {
+    "path": "lists/apps/social-media/main/light.txt",
+    "bytes": 28372,
+    "entries": 1097
+  },
+  {
+    "path": "lists/apps/social-media/main/normal.txt",
+    "bytes": 45664,
+    "entries": 1789
+  },
+  {
+    "path": "lists/apps/social-media/main/pro-plus.txt",
+    "bytes": 531732,
+    "entries": 21441
+  },
+  {
+    "path": "lists/apps/social-media/main/pro.txt",
+    "bytes": 77314,
+    "entries": 3145
+  },
+  {
+    "path": "lists/apps/social-media/main/ultimate.txt",
+    "bytes": 535471,
+    "entries": 21588
+  },
+  {
+    "path": "lists/automation/full/aggressive-crawlers.txt",
+    "bytes": 645,
+    "entries": 0
+  },
+  {
+    "path": "lists/automation/full/ai-crawlers.txt",
+    "bytes": 629,
+    "entries": 0
+  },
+  {
+    "path": "lists/automation/full/ai-scrapers.txt",
+    "bytes": 620,
+    "entries": 3
+  },
+  {
+    "path": "lists/automation/full/ai-telemetry.txt",
+    "bytes": 1429,
+    "entries": 36
+  },
+  {
+    "path": "lists/automation/full/ai-tracking.txt",
+    "bytes": 1540,
+    "entries": 43
+  },
+  {
+    "path": "lists/automation/full/llm-crawlers.txt",
+    "bytes": 4993,
+    "entries": 188
+  },
+  {
+    "path": "lists/automation/full/malicious-bots.txt",
+    "bytes": 620,
+    "entries": 1
+  },
+  {
+    "path": "lists/automation/full/seo-bots.txt",
+    "bytes": 623,
+    "entries": 0
+  },
+  {
+    "path": "lists/automation/full/training-bots.txt",
+    "bytes": 639,
+    "entries": 0
+  },
+  {
+    "path": "lists/automation/full/web-crawlers.txt",
+    "bytes": 1845,
+    "entries": 62
+  },
+  {
+    "path": "lists/automation/main/light.txt",
+    "bytes": 838,
+    "entries": 13
+  },
+  {
+    "path": "lists/automation/main/normal.txt",
+    "bytes": 1220,
+    "entries": 28
+  },
+  {
+    "path": "lists/automation/main/pro-plus.txt",
+    "bytes": 1760,
+    "entries": 49
+  },
+  {
+    "path": "lists/automation/main/pro.txt",
+    "bytes": 1398,
+    "entries": 33
+  },
+  {
+    "path": "lists/automation/main/ultimate.txt",
+    "bytes": 7386,
+    "entries": 300
+  },
+  {
+    "path": "lists/ecosystems/full/amazon.txt",
+    "bytes": 27505,
+    "entries": 775
+  },
+  {
+    "path": "lists/ecosystems/full/apple.txt",
+    "bytes": 9602,
+    "entries": 333
+  },
+  {
+    "path": "lists/ecosystems/full/google.txt",
+    "bytes": 530814,
+    "entries": 13584
+  },
+  {
+    "path": "lists/ecosystems/full/microsoft.txt",
+    "bytes": 21902,
+    "entries": 769
+  },
+  {
+    "path": "lists/ecosystems/main/light.txt",
+    "bytes": 472618,
+    "entries": 11912
+  },
+  {
+    "path": "lists/ecosystems/main/normal.txt",
+    "bytes": 478598,
+    "entries": 12074
+  },
+  {
+    "path": "lists/ecosystems/main/pro-plus.txt",
+    "bytes": 586491,
+    "entries": 15407
+  },
+  {
+    "path": "lists/ecosystems/main/pro.txt",
+    "bytes": 487522,
+    "entries": 12354
+  },
+  {
+    "path": "lists/ecosystems/main/ultimate.txt",
+    "bytes": 588089,
+    "entries": 15459
+  },
+  {
+    "path": "lists/infrastructure/cloud-development/full/aws.txt",
+    "bytes": 22437,
+    "entries": 570
+  },
+  {
+    "path": "lists/infrastructure/cloud-development/full/azure.txt",
+    "bytes": 8719,
+    "entries": 214
+  },
+  {
+    "path": "lists/infrastructure/cloud-development/full/cicd.txt",
+    "bytes": 698,
+    "entries": 8
+  },
+  {
+    "path": "lists/infrastructure/cloud-development/full/cloud-storage.txt",
+    "bytes": 12328,
+    "entries": 563
+  },
+  {
+    "path": "lists/infrastructure/cloud-development/full/cloudflare.txt",
+    "bytes": 1880,
+    "entries": 42
+  },
+  {
+    "path": "lists/infrastructure/cloud-development/full/github.txt",
+    "bytes": 1040,
+    "entries": 24
+  },
+  {
+    "path": "lists/infrastructure/cloud-development/full/gitlab.txt",
+    "bytes": 652,
+    "entries": 7
+  },
+  {
+    "path": "lists/infrastructure/cloud-development/full/google-cloud.txt",
+    "bytes": 2147,
+    "entries": 49
+  },
+  {
+    "path": "lists/infrastructure/cloud-development/full/jetbrains.txt",
+    "bytes": 552,
+    "entries": 2
+  },
+  {
+    "path": "lists/infrastructure/cloud-development/full/oracle-cloud.txt",
+    "bytes": 766,
+    "entries": 8
+  },
+  {
+    "path": "lists/infrastructure/cloud-development/full/visual-studio.txt",
+    "bytes": 604,
+    "entries": 3
+  },
+  {
+    "path": "lists/infrastructure/cloud-development/full/vscode.txt",
+    "bytes": 611,
+    "entries": 4
+  },
+  {
+    "path": "lists/infrastructure/cloud-development/main/light.txt",
+    "bytes": 2804,
+    "entries": 65
+  },
+  {
+    "path": "lists/infrastructure/cloud-development/main/normal.txt",
+    "bytes": 6922,
+    "entries": 165
+  },
+  {
+    "path": "lists/infrastructure/cloud-development/main/pro-plus.txt",
+    "bytes": 46534,
+    "entries": 1486
+  },
+  {
+    "path": "lists/infrastructure/cloud-development/main/pro.txt",
+    "bytes": 11516,
+    "entries": 301
+  },
+  {
+    "path": "lists/infrastructure/cloud-development/main/ultimate.txt",
+    "bytes": 46665,
+    "entries": 1491
+  },
+  {
+    "path": "lists/manufacturers/adobe.txt",
+    "bytes": 10276,
+    "entries": 354
+  },
+  {
+    "path": "lists/manufacturers/amazon.txt",
+    "bytes": 27273,
+    "entries": 768
+  },
+  {
+    "path": "lists/manufacturers/amd.txt",
+    "bytes": 605,
+    "entries": 5
+  },
+  {
+    "path": "lists/manufacturers/apple.txt",
+    "bytes": 9532,
+    "entries": 330
+  },
+  {
+    "path": "lists/manufacturers/autodesk.txt",
+    "bytes": 956,
+    "entries": 15
+  },
+  {
+    "path": "lists/manufacturers/ea.txt",
+    "bytes": 6150,
+    "entries": 298
+  },
+  {
+    "path": "lists/manufacturers/epic.txt",
+    "bytes": 798,
+    "entries": 8
+  },
+  {
+    "path": "lists/manufacturers/google.txt",
+    "bytes": 549133,
+    "entries": 14475
+  },
+  {
+    "path": "lists/manufacturers/huawei.txt",
+    "bytes": 2755,
+    "entries": 58
+  },
+  {
+    "path": "lists/manufacturers/lg.txt",
+    "bytes": 14098,
+    "entries": 601
+  },
+  {
+    "path": "lists/manufacturers/logitech.txt",
+    "bytes": 918,
+    "entries": 15
+  },
+  {
+    "path": "lists/manufacturers/meta.txt",
+    "bytes": 3155,
+    "entries": 111
+  },
+  {
+    "path": "lists/manufacturers/microsoft.txt",
+    "bytes": 21468,
+    "entries": 754
+  },
+  {
+    "path": "lists/manufacturers/nintendo.txt",
+    "bytes": 821,
+    "entries": 10
+  },
+  {
+    "path": "lists/manufacturers/nvidia.txt",
+    "bytes": 941,
+    "entries": 17
+  },
+  {
+    "path": "lists/manufacturers/philips.txt",
+    "bytes": 3343,
+    "entries": 73
+  },
+  {
+    "path": "lists/manufacturers/razer.txt",
+    "bytes": 723,
+    "entries": 8
+  },
+  {
+    "path": "lists/manufacturers/samsung.txt",
+    "bytes": 9128,
+    "entries": 307
+  },
+  {
+    "path": "lists/manufacturers/sony.txt",
+    "bytes": 3679,
+    "entries": 143
+  },
+  {
+    "path": "lists/manufacturers/ubisoft.txt",
+    "bytes": 714,
+    "entries": 6
+  },
+  {
+    "path": "lists/manufacturers/valve-steam.txt",
+    "bytes": 1725,
+    "entries": 49
+  },
+  {
+    "path": "lists/manufacturers/xiaomi.txt",
+    "bytes": 15355,
+    "entries": 582
+  },
+  {
+    "path": "lists/network/full/adblock-bypass.txt",
+    "bytes": 610,
+    "entries": 0
+  },
+  {
+    "path": "lists/network/full/dns-attacks.txt",
+    "bytes": 624,
+    "entries": 0
+  },
+  {
+    "path": "lists/network/full/dns-bypass.txt",
+    "bytes": 602,
+    "entries": 0
+  },
+  {
+    "path": "lists/network/full/doh.txt",
+    "bytes": 591,
+    "entries": 3
+  },
+  {
+    "path": "lists/network/full/dot.txt",
+    "bytes": 2313,
+    "entries": 99
+  },
+  {
+    "path": "lists/network/full/dynamic-dns.txt",
+    "bytes": 558,
+    "entries": 0
+  },
+  {
+    "path": "lists/network/full/private-dns.txt",
+    "bytes": 604,
+    "entries": 0
+  },
+  {
+    "path": "lists/network/full/proxy.txt",
+    "bytes": 4156,
+    "entries": 142
+  },
+  {
+    "path": "lists/network/full/tor.txt",
+    "bytes": 588,
+    "entries": 0
+  },
+  {
+    "path": "lists/network/full/url-shorteners.txt",
+    "bytes": 590,
+    "entries": 3
+  },
+  {
+    "path": "lists/network/full/vpn.txt",
+    "bytes": 1723,
+    "entries": 63
+  },
+  {
+    "path": "lists/network/main/light.txt",
+    "bytes": 1302,
+    "entries": 31
+  },
+  {
+    "path": "lists/network/main/normal.txt",
+    "bytes": 1726,
+    "entries": 49
+  },
+  {
+    "path": "lists/network/main/pro-plus.txt",
+    "bytes": 7194,
+    "entries": 309
+  },
+  {
+    "path": "lists/network/main/pro.txt",
+    "bytes": 2068,
+    "entries": 64
+  },
+  {
+    "path": "lists/network/main/ultimate.txt",
+    "bytes": 7198,
+    "entries": 309
+  },
+  {
+    "path": "lists/platforms/automotive/full/audi.txt",
+    "bytes": 11723,
+    "entries": 491
+  },
+  {
+    "path": "lists/platforms/automotive/full/bmw.txt",
+    "bytes": 1721,
+    "entries": 53
+  },
+  {
+    "path": "lists/platforms/automotive/full/ford.txt",
+    "bytes": 1209,
+    "entries": 31
+  },
+  {
+    "path": "lists/platforms/automotive/full/mercedes.txt",
+    "bytes": 1537,
+    "entries": 33
+  },
+  {
+    "path": "lists/platforms/automotive/full/tesla.txt",
+    "bytes": 838,
+    "entries": 12
+  },
+  {
+    "path": "lists/platforms/automotive/full/vw.txt",
+    "bytes": 1677,
+    "entries": 45
+  },
+  {
+    "path": "lists/platforms/automotive/main/light.txt",
+    "bytes": 1576,
+    "entries": 42
+  },
+  {
+    "path": "lists/platforms/automotive/main/normal.txt",
+    "bytes": 3263,
+    "entries": 105
+  },
+  {
+    "path": "lists/platforms/automotive/main/pro-plus.txt",
+    "bytes": 16065,
+    "entries": 663
+  },
+  {
+    "path": "lists/platforms/automotive/main/pro.txt",
+    "bytes": 5440,
+    "entries": 188
+  },
+  {
+    "path": "lists/platforms/automotive/main/ultimate.txt",
+    "bytes": 16122,
+    "entries": 665
+  },
+  {
+    "path": "lists/platforms/iot-smart-home/_base/all-known.txt",
+    "bytes": 2629,
+    "entries": 85
+  },
+  {
+    "path": "lists/platforms/iot-smart-home/full/amazon-alexa.txt",
+    "bytes": 824,
+    "entries": 13
+  },
+  {
+    "path": "lists/platforms/iot-smart-home/full/huawei.txt",
+    "bytes": 1503,
+    "entries": 37
+  },
+  {
+    "path": "lists/platforms/iot-smart-home/full/samsung-smartthings.txt",
+    "bytes": 586,
+    "entries": 4
+  },
+  {
+    "path": "lists/platforms/iot-smart-home/full/shared-other.txt",
+    "bytes": 901,
+    "entries": 20
+  },
+  {
+    "path": "lists/platforms/iot-smart-home/full/sonos.txt",
+    "bytes": 513,
+    "entries": 2
+  },
+  {
+    "path": "lists/platforms/iot-smart-home/full/xiaomi.txt",
+    "bytes": 693,
+    "entries": 9
+  },
+  {
+    "path": "lists/platforms/iot-smart-home/main/light.txt",
+    "bytes": 582,
+    "entries": 2
+  },
+  {
+    "path": "lists/platforms/iot-smart-home/main/normal.txt",
+    "bytes": 825,
+    "entries": 13
+  },
+  {
+    "path": "lists/platforms/iot-smart-home/main/pro-plus.txt",
+    "bytes": 2572,
+    "entries": 82
+  },
+  {
+    "path": "lists/platforms/iot-smart-home/main/pro.txt",
+    "bytes": 1211,
+    "entries": 29
+  },
+  {
+    "path": "lists/platforms/iot-smart-home/main/ultimate.txt",
+    "bytes": 2683,
+    "entries": 85
+  },
+  {
+    "path": "lists/platforms/mobile/_base/all-known.txt",
+    "bytes": 18528,
+    "entries": 751
+  },
+  {
+    "path": "lists/platforms/mobile/full/apple-ios.txt",
+    "bytes": 3767,
+    "entries": 121
+  },
+  {
+    "path": "lists/platforms/mobile/full/google-android.txt",
+    "bytes": 1050,
+    "entries": 18
+  },
+  {
+    "path": "lists/platforms/mobile/full/google-pixel.txt",
+    "bytes": 598,
+    "entries": 0
+  },
+  {
+    "path": "lists/platforms/mobile/full/huawei.txt",
+    "bytes": 1567,
+    "entries": 38
+  },
+  {
+    "path": "lists/platforms/mobile/full/motorola.txt",
+    "bytes": 1153,
+    "entries": 31
+  },
+  {
+    "path": "lists/platforms/mobile/full/oneplus.txt",
+    "bytes": 670,
+    "entries": 8
+  },
+  {
+    "path": "lists/platforms/mobile/full/oppo-realme.txt",
+    "bytes": 4592,
+    "entries": 161
+  },
+  {
+    "path": "lists/platforms/mobile/full/samsung.txt",
+    "bytes": 609,
+    "entries": 4
+  },
+  {
+    "path": "lists/platforms/mobile/full/shared-other.txt",
+    "bytes": 14009,
+    "entries": 582
+  },
+  {
+    "path": "lists/platforms/mobile/full/vivo.txt",
+    "bytes": 1893,
+    "entries": 53
+  },
+  {
+    "path": "lists/platforms/mobile/full/xiaomi.txt",
+    "bytes": 730,
+    "entries": 9
+  },
+  {
+    "path": "lists/platforms/mobile/main/light.txt",
+    "bytes": 10131,
+    "entries": 391
+  },
+  {
+    "path": "lists/platforms/mobile/main/normal.txt",
+    "bytes": 11538,
+    "entries": 445
+  },
+  {
+    "path": "lists/platforms/mobile/main/pro-plus.txt",
+    "bytes": 24432,
+    "entries": 993
+  },
+  {
+    "path": "lists/platforms/mobile/main/pro.txt",
+    "bytes": 13627,
+    "entries": 531
+  },
+  {
+    "path": "lists/platforms/mobile/main/ultimate.txt",
+    "bytes": 24760,
+    "entries": 1004
+  },
+  {
+    "path": "lists/platforms/nas-server/_base/nas.txt",
+    "bytes": 842,
+    "entries": 12
+  },
+  {
+    "path": "lists/platforms/nas-server/_base/server.txt",
+    "bytes": 735,
+    "entries": 10
+  },
+  {
+    "path": "lists/platforms/nas-server/full/docker.txt",
+    "bytes": 935,
+    "entries": 16
+  },
+  {
+    "path": "lists/platforms/nas-server/full/hpe-dell.txt",
+    "bytes": 585,
+    "entries": 5
+  },
+  {
+    "path": "lists/platforms/nas-server/full/kubernetes.txt",
+    "bytes": 1382,
+    "entries": 25
+  },
+  {
+    "path": "lists/platforms/nas-server/full/qnap.txt",
+    "bytes": 698,
+    "entries": 6
+  },
+  {
+    "path": "lists/platforms/nas-server/full/redhat-openshift.txt",
+    "bytes": 628,
+    "entries": 5
+  },
+  {
+    "path": "lists/platforms/nas-server/full/synology.txt",
+    "bytes": 559,
+    "entries": 3
+  },
+  {
+    "path": "lists/platforms/nas-server/full/truenas.txt",
+    "bytes": 546,
+    "entries": 3
+  },
+  {
+    "path": "lists/platforms/nas-server/full/unraid.txt",
+    "bytes": 586,
+    "entries": 0
+  },
+  {
+    "path": "lists/platforms/nas-server/main/light.txt",
+    "bytes": 506,
+    "entries": 1
+  },
+  {
+    "path": "lists/platforms/nas-server/main/normal.txt",
+    "bytes": 616,
+    "entries": 3
+  },
+  {
+    "path": "lists/platforms/nas-server/main/pro-plus.txt",
+    "bytes": 2337,
+    "entries": 63
+  },
+  {
+    "path": "lists/platforms/nas-server/main/pro.txt",
+    "bytes": 814,
+    "entries": 11
+  },
+  {
+    "path": "lists/platforms/nas-server/main/ultimate.txt",
+    "bytes": 2341,
+    "entries": 63
+  },
+  {
+    "path": "lists/platforms/network-devices/full/asus.txt",
+    "bytes": 1117,
+    "entries": 29
+  },
+  {
+    "path": "lists/platforms/network-devices/full/avm-fritzbox.txt",
+    "bytes": 527,
+    "entries": 1
+  },
+  {
+    "path": "lists/platforms/network-devices/full/cisco.txt",
+    "bytes": 1264,
+    "entries": 29
+  },
+  {
+    "path": "lists/platforms/network-devices/full/huawei.txt",
+    "bytes": 1464,
+    "entries": 18
+  },
+  {
+    "path": "lists/platforms/network-devices/full/mikrotik.txt",
+    "bytes": 570,
+    "entries": 0
+  },
+  {
+    "path": "lists/platforms/network-devices/full/netgear.txt",
+    "bytes": 587,
+    "entries": 4
+  },
+  {
+    "path": "lists/platforms/network-devices/full/tp-link.txt",
+    "bytes": 568,
+    "entries": 0
+  },
+  {
+    "path": "lists/platforms/network-devices/full/ubiquiti.txt",
+    "bytes": 6838,
+    "entries": 301
+  },
+  {
+    "path": "lists/platforms/network-devices/full/zyxel.txt",
+    "bytes": 515,
+    "entries": 1
+  },
+  {
+    "path": "lists/platforms/network-devices/main/light.txt",
+    "bytes": 781,
+    "entries": 11
+  },
+  {
+    "path": "lists/platforms/network-devices/main/normal.txt",
+    "bytes": 1761,
+    "entries": 49
+  },
+  {
+    "path": "lists/platforms/network-devices/main/pro-plus.txt",
+    "bytes": 9067,
+    "entries": 375
+  },
+  {
+    "path": "lists/platforms/network-devices/main/pro.txt",
+    "bytes": 2358,
+    "entries": 75
+  },
+  {
+    "path": "lists/platforms/network-devices/main/ultimate.txt",
+    "bytes": 9271,
+    "entries": 383
+  },
+  {
+    "path": "lists/platforms/operating-systems/full/android.txt",
+    "bytes": 3586,
+    "entries": 135
+  },
+  {
+    "path": "lists/platforms/operating-systems/full/apple.txt",
+    "bytes": 3716,
+    "entries": 119
+  },
+  {
+    "path": "lists/platforms/operating-systems/full/chromeos.txt",
+    "bytes": 547,
+    "entries": 1
+  },
+  {
+    "path": "lists/platforms/operating-systems/full/ios.txt",
+    "bytes": 2981,
+    "entries": 92
+  },
+  {
+    "path": "lists/platforms/operating-systems/full/linux.txt",
+    "bytes": 492,
+    "entries": 3
+  },
+  {
+    "path": "lists/platforms/operating-systems/full/macos.txt",
+    "bytes": 2953,
+    "entries": 91
+  },
+  {
+    "path": "lists/platforms/operating-systems/full/windows.txt",
+    "bytes": 1816,
+    "entries": 51
+  },
+  {
+    "path": "lists/platforms/operating-systems/main/light.txt",
+    "bytes": 954,
+    "entries": 20
+  },
+  {
+    "path": "lists/platforms/operating-systems/main/normal.txt",
+    "bytes": 1767,
+    "entries": 48
+  },
+  {
+    "path": "lists/platforms/operating-systems/main/pro-plus.txt",
+    "bytes": 8131,
+    "entries": 302
+  },
+  {
+    "path": "lists/platforms/operating-systems/main/pro.txt",
+    "bytes": 3175,
+    "entries": 104
+  },
+  {
+    "path": "lists/platforms/operating-systems/main/ultimate.txt",
+    "bytes": 8301,
+    "entries": 308
+  },
+  {
+    "path": "lists/platforms/providers/full/1und1.txt",
+    "bytes": 646,
+    "entries": 7
+  },
+  {
+    "path": "lists/platforms/providers/full/deutsche-glasfaser.txt",
+    "bytes": 589,
+    "entries": 0
+  },
+  {
+    "path": "lists/platforms/providers/full/o2.txt",
+    "bytes": 1019,
+    "entries": 18
+  },
+  {
+    "path": "lists/platforms/providers/full/telekom.txt",
+    "bytes": 2036,
+    "entries": 61
+  },
+  {
+    "path": "lists/platforms/providers/full/unitymedia.txt",
+    "bytes": 617,
+    "entries": 4
+  },
+  {
+    "path": "lists/platforms/providers/full/vodafone.txt",
+    "bytes": 2391,
+    "entries": 81
+  },
+  {
+    "path": "lists/platforms/providers/main/light.txt",
+    "bytes": 586,
+    "entries": 5
+  },
+  {
+    "path": "lists/platforms/providers/main/normal.txt",
+    "bytes": 1526,
+    "entries": 39
+  },
+  {
+    "path": "lists/platforms/providers/main/pro-plus.txt",
+    "bytes": 4624,
+    "entries": 171
+  },
+  {
+    "path": "lists/platforms/providers/main/pro.txt",
+    "bytes": 2348,
+    "entries": 72
+  },
+  {
+    "path": "lists/platforms/providers/main/ultimate.txt",
+    "bytes": 4628,
+    "entries": 171
+  },
+  {
+    "path": "lists/platforms/smart-tv/_base/all-known.txt",
+    "bytes": 13937,
+    "entries": 556
+  },
+  {
+    "path": "lists/platforms/smart-tv/full/amazon-fire-tv.txt",
+    "bytes": 1057,
+    "entries": 19
+  },
+  {
+    "path": "lists/platforms/smart-tv/full/google-android-tv.txt",
+    "bytes": 590,
+    "entries": 2
+  },
+  {
+    "path": "lists/platforms/smart-tv/full/google-tv.txt",
+    "bytes": 597,
+    "entries": 0
+  },
+  {
+    "path": "lists/platforms/smart-tv/full/hisense-vidaa.txt",
+    "bytes": 798,
+    "entries": 11
+  },
+  {
+    "path": "lists/platforms/smart-tv/full/lg-webos.txt",
+    "bytes": 9111,
+    "entries": 355
+  },
+  {
+    "path": "lists/platforms/smart-tv/full/panasonic.txt",
+    "bytes": 908,
+    "entries": 15
+  },
+  {
+    "path": "lists/platforms/smart-tv/full/philips.txt",
+    "bytes": 3342,
+    "entries": 73
+  },
+  {
+    "path": "lists/platforms/smart-tv/full/roku.txt",
+    "bytes": 731,
+    "entries": 13
+  },
+  {
+    "path": "lists/platforms/smart-tv/full/samsung.txt",
+    "bytes": 1833,
+    "entries": 50
+  },
+  {
+    "path": "lists/platforms/smart-tv/full/shared-other.txt",
+    "bytes": 2790,
+    "entries": 102
+  },
+  {
+    "path": "lists/platforms/smart-tv/full/sony-bravia.txt",
+    "bytes": 619,
+    "entries": 4
+  },
+  {
+    "path": "lists/platforms/smart-tv/full/tcl.txt",
+    "bytes": 540,
+    "entries": 2
+  },
+  {
+    "path": "lists/platforms/smart-tv/main/light.txt",
+    "bytes": 8849,
+    "entries": 346
+  },
+  {
+    "path": "lists/platforms/smart-tv/main/normal.txt",
+    "bytes": 9287,
+    "entries": 362
+  },
+  {
+    "path": "lists/platforms/smart-tv/main/pro-plus.txt",
+    "bytes": 16810,
+    "entries": 636
+  },
+  {
+    "path": "lists/platforms/smart-tv/main/pro.txt",
+    "bytes": 12492,
+    "entries": 454
+  },
+  {
+    "path": "lists/platforms/smart-tv/main/ultimate.txt",
+    "bytes": 17122,
+    "entries": 646
+  },
+  {
+    "path": "lists/platforms/software-hardware-telemetry/full/adobe.txt",
+    "bytes": 2272,
+    "entries": 60
+  },
+  {
+    "path": "lists/platforms/software-hardware-telemetry/full/amd.txt",
+    "bytes": 560,
+    "entries": 0
+  },
+  {
+    "path": "lists/platforms/software-hardware-telemetry/full/autodesk.txt",
+    "bytes": 571,
+    "entries": 3
+  },
+  {
+    "path": "lists/platforms/software-hardware-telemetry/full/corsair.txt",
+    "bytes": 568,
+    "entries": 0
+  },
+  {
+    "path": "lists/platforms/software-hardware-telemetry/full/intel.txt",
+    "bytes": 588,
+    "entries": 4
+  },
+  {
+    "path": "lists/platforms/software-hardware-telemetry/full/logitech.txt",
+    "bytes": 613,
+    "entries": 4
+  },
+  {
+    "path": "lists/platforms/software-hardware-telemetry/full/nvidia.txt",
+    "bytes": 609,
+    "entries": 5
+  },
+  {
+    "path": "lists/platforms/software-hardware-telemetry/full/razer.txt",
+    "bytes": 526,
+    "entries": 1
+  },
+  {
+    "path": "lists/platforms/software-hardware-telemetry/main/light.txt",
+    "bytes": 591,
+    "entries": 0
+  },
+  {
+    "path": "lists/platforms/software-hardware-telemetry/main/normal.txt",
+    "bytes": 1352,
+    "entries": 28
+  },
+  {
+    "path": "lists/platforms/software-hardware-telemetry/main/pro-plus.txt",
+    "bytes": 2690,
+    "entries": 76
+  },
+  {
+    "path": "lists/platforms/software-hardware-telemetry/main/pro.txt",
+    "bytes": 2617,
+    "entries": 73
+  },
+  {
+    "path": "lists/platforms/software-hardware-telemetry/main/ultimate.txt",
+    "bytes": 2717,
+    "entries": 77
+  },
+  {
+    "path": "lists/platforms/streaming/full/apple-tv.txt",
+    "bytes": 589,
+    "entries": 0
+  },
+  {
+    "path": "lists/platforms/streaming/full/dazn.txt",
+    "bytes": 591,
+    "entries": 3
+  },
+  {
+    "path": "lists/platforms/streaming/full/disney-plus.txt",
+    "bytes": 656,
+    "entries": 6
+  },
+  {
+    "path": "lists/platforms/streaming/full/emby.txt",
+    "bytes": 532,
+    "entries": 2
+  },
+  {
+    "path": "lists/platforms/streaming/full/jellyfin.txt",
+    "bytes": 528,
+    "entries": 1
+  },
+  {
+    "path": "lists/platforms/streaming/full/netflix.txt",
+    "bytes": 1096,
+    "entries": 24
+  },
+  {
+    "path": "lists/platforms/streaming/full/paramount.txt",
+    "bytes": 725,
+    "entries": 9
+  },
+  {
+    "path": "lists/platforms/streaming/full/plex.txt",
+    "bytes": 550,
+    "entries": 3
+  },
+  {
+    "path": "lists/platforms/streaming/full/prime-video.txt",
+    "bytes": 574,
+    "entries": 2
+  },
+  {
+    "path": "lists/platforms/streaming/full/spotify.txt",
+    "bytes": 4910,
+    "entries": 185
+  },
+  {
+    "path": "lists/platforms/streaming/full/twitch.txt",
+    "bytes": 921,
+    "entries": 22
+  },
+  {
+    "path": "lists/platforms/streaming/full/youtube.txt",
+    "bytes": 1048,
+    "entries": 25
+  },
+  {
+    "path": "lists/platforms/streaming/main/light.txt",
+    "bytes": 715,
+    "entries": 12
+  },
+  {
+    "path": "lists/platforms/streaming/main/normal.txt",
+    "bytes": 1011,
+    "entries": 24
+  },
+  {
+    "path": "lists/platforms/streaming/main/pro-plus.txt",
+    "bytes": 6968,
+    "entries": 280
+  },
+  {
+    "path": "lists/platforms/streaming/main/pro.txt",
+    "bytes": 1547,
+    "entries": 45
+  },
+  {
+    "path": "lists/platforms/streaming/main/ultimate.txt",
+    "bytes": 7013,
+    "entries": 282
+  },
+  {
+    "path": "lists/platforms/voice-assistants/full/alexa.txt",
+    "bytes": 2581,
+    "entries": 82
+  },
+  {
+    "path": "lists/platforms/voice-assistants/full/cortana.txt",
+    "bytes": 567,
+    "entries": 0
+  },
+  {
+    "path": "lists/platforms/voice-assistants/full/google-assistant.txt",
+    "bytes": 592,
+    "entries": 0
+  },
+  {
+    "path": "lists/platforms/voice-assistants/full/siri.txt",
+    "bytes": 1074,
+    "entries": 27
+  },
+  {
+    "path": "lists/platforms/voice-assistants/main/light.txt",
+    "bytes": 678,
+    "entries": 7
+  },
+  {
+    "path": "lists/platforms/voice-assistants/main/normal.txt",
+    "bytes": 896,
+    "entries": 16
+  },
+  {
+    "path": "lists/platforms/voice-assistants/main/pro-plus.txt",
+    "bytes": 3087,
+    "entries": 107
+  },
+  {
+    "path": "lists/platforms/voice-assistants/main/pro.txt",
+    "bytes": 1434,
+    "entries": 38
+  },
+  {
+    "path": "lists/platforms/voice-assistants/main/ultimate.txt",
+    "bytes": 3139,
+    "entries": 109
+  },
+  {
+    "path": "lists/privacy/full/ads.txt",
+    "bytes": 4943822,
+    "entries": 234003
+  },
+  {
+    "path": "lists/privacy/full/affiliate-tracking.txt",
+    "bytes": 14214,
+    "entries": 643
+  },
+  {
+    "path": "lists/privacy/full/aggressive-privacy.txt",
+    "bytes": 18807,
+    "entries": 652
+  },
+  {
+    "path": "lists/privacy/full/analytics.txt",
+    "bytes": 858326,
+    "entries": 35879
+  },
+  {
+    "path": "lists/privacy/full/captcha-antibot.txt",
+    "bytes": 13198,
+    "entries": 379
+  },
+  {
+    "path": "lists/privacy/full/cdn-tracking.txt",
+    "bytes": 1039,
+    "entries": 20
+  },
+  {
+    "path": "lists/privacy/full/chat-support.txt",
+    "bytes": 1946,
+    "entries": 64
+  },
+  {
+    "path": "lists/privacy/full/consent-cmp.txt",
+    "bytes": 1379,
+    "entries": 44
+  },
+  {
+    "path": "lists/privacy/full/crash-reporting.txt",
+    "bytes": 2589,
+    "entries": 91
+  },
+  {
+    "path": "lists/privacy/full/crm.txt",
+    "bytes": 3038,
+    "entries": 121
+  },
+  {
+    "path": "lists/privacy/full/ecommerce.txt",
+    "bytes": 1684,
+    "entries": 44
+  },
+  {
+    "path": "lists/privacy/full/external-fonts.txt",
+    "bytes": 602,
+    "entries": 3
+  },
+  {
+    "path": "lists/privacy/full/fingerprinting.txt",
+    "bytes": 929,
+    "entries": 14
+  },
+  {
+    "path": "lists/privacy/full/marketing.txt",
+    "bytes": 53827,
+    "entries": 2060
+  },
+  {
+    "path": "lists/privacy/full/mobile-tracking.txt",
+    "bytes": 4501,
+    "entries": 201
+  },
+  {
+    "path": "lists/privacy/full/native-tracking.txt",
+    "bytes": 15980,
+    "entries": 628
+  },
+  {
+    "path": "lists/privacy/full/newsletter-tracking.txt",
+    "bytes": 5109,
+    "entries": 166
+  },
+  {
+    "path": "lists/privacy/full/payment-tracking.txt",
+    "bytes": 593,
+    "entries": 0
+  },
+  {
+    "path": "lists/privacy/full/push-notifications.txt",
+    "bytes": 2317,
+    "entries": 74
+  },
+  {
+    "path": "lists/privacy/full/recommendations.txt",
+    "bytes": 8467,
+    "entries": 362
+  },
+  {
+    "path": "lists/privacy/full/search-tracking.txt",
+    "bytes": 547,
+    "entries": 1
+  },
+  {
+    "path": "lists/privacy/full/seo-tracking.txt",
+    "bytes": 578,
+    "entries": 0
+  },
+  {
+    "path": "lists/privacy/full/session-replay.txt",
+    "bytes": 4845,
+    "entries": 212
+  },
+  {
+    "path": "lists/privacy/full/social-tracking.txt",
+    "bytes": 2739,
+    "entries": 99
+  },
+  {
+    "path": "lists/privacy/full/telemetry.txt",
+    "bytes": 691503,
+    "entries": 29163
+  },
+  {
+    "path": "lists/privacy/full/trackers.txt",
+    "bytes": 2347025,
+    "entries": 113606
+  },
+  {
+    "path": "lists/privacy/full/tracking-pixels.txt",
+    "bytes": 23995,
+    "entries": 927
+  },
+  {
+    "path": "lists/privacy/full/tracking-redirects.txt",
+    "bytes": 8848,
+    "entries": 377
+  },
+  {
+    "path": "lists/privacy/main/light.txt",
+    "bytes": 921045,
+    "entries": 32531
+  },
+  {
+    "path": "lists/privacy/main/normal.txt",
+    "bytes": 1550023,
+    "entries": 57836
+  },
+  {
+    "path": "lists/privacy/main/pro-plus.txt",
+    "bytes": 7796901,
+    "entries": 367445
+  },
+  {
+    "path": "lists/privacy/main/pro.txt",
+    "bytes": 2199226,
+    "entries": 86936
+  },
+  {
+    "path": "lists/privacy/main/ultimate.txt",
+    "bytes": 7895714,
+    "entries": 371530
+  },
+  {
+    "path": "lists/regional/cn.txt",
+    "bytes": 547,
+    "entries": 0
+  },
+  {
+    "path": "lists/regional/de.txt",
+    "bytes": 554,
+    "entries": 0
+  },
+  {
+    "path": "lists/regional/es.txt",
+    "bytes": 547,
+    "entries": 0
+  },
+  {
+    "path": "lists/regional/eu.txt",
+    "bytes": 544,
+    "entries": 0
+  },
+  {
+    "path": "lists/regional/fr.txt",
+    "bytes": 548,
+    "entries": 0
+  },
+  {
+    "path": "lists/regional/it.txt",
+    "bytes": 547,
+    "entries": 0
+  },
+  {
+    "path": "lists/regional/jp.txt",
+    "bytes": 547,
+    "entries": 0
+  },
+  {
+    "path": "lists/regional/kr.txt",
+    "bytes": 547,
+    "entries": 0
+  },
+  {
+    "path": "lists/regional/ru.txt",
+    "bytes": 548,
+    "entries": 0
+  },
+  {
+    "path": "lists/regional/uk.txt",
+    "bytes": 544,
+    "entries": 0
+  },
+  {
+    "path": "lists/regional/us.txt",
+    "bytes": 550,
+    "entries": 0
+  },
+  {
+    "path": "lists/security/full/abuse.txt",
+    "bytes": 660,
+    "entries": 0
+  },
+  {
+    "path": "lists/security/full/brand-impersonation.txt",
+    "bytes": 688,
+    "entries": 0
+  },
+  {
+    "path": "lists/security/full/command-control.txt",
+    "bytes": 684,
+    "entries": 0
+  },
+  {
+    "path": "lists/security/full/cryptocurrency.txt",
+    "bytes": 678,
+    "entries": 0
+  },
+  {
+    "path": "lists/security/full/cryptomining.txt",
+    "bytes": 103314,
+    "entries": 6121
+  },
+  {
+    "path": "lists/security/full/data-exfiltration.txt",
+    "bytes": 684,
+    "entries": 0
+  },
+  {
+    "path": "lists/security/full/ddos.txt",
+    "bytes": 688,
+    "entries": 0
+  },
+  {
+    "path": "lists/security/full/disposable-email.txt",
+    "bytes": 682,
+    "entries": 0
+  },
+  {
+    "path": "lists/security/full/dns-security.txt",
+    "bytes": 674,
+    "entries": 0
+  },
+  {
+    "path": "lists/security/full/dynamic-dns.txt",
+    "bytes": 672,
+    "entries": 0
+  },
+  {
+    "path": "lists/security/full/expired-domains.txt",
+    "bytes": 680,
+    "entries": 0
+  },
+  {
+    "path": "lists/security/full/exploits.txt",
+    "bytes": 712,
+    "entries": 0
+  },
+  {
+    "path": "lists/security/full/fake-shops.txt",
+    "bytes": 250184,
+    "entries": 10960
+  },
+  {
+    "path": "lists/security/full/fake-software.txt",
+    "bytes": 676,
+    "entries": 0
+  },
+  {
+    "path": "lists/security/full/malicious-extensions.txt",
+    "bytes": 706,
+    "entries": 0
+  },
+  {
+    "path": "lists/security/full/malicious-redirects.txt",
+    "bytes": 688,
+    "entries": 0
+  },
+  {
+    "path": "lists/security/full/malvertising.txt",
+    "bytes": 674,
+    "entries": 0
+  },
+  {
+    "path": "lists/security/full/malware.txt",
+    "bytes": 50909143,
+    "entries": 2656377
+  },
+  {
+    "path": "lists/security/full/newly-registered-domains.txt",
+    "bytes": 710,
+    "entries": 0
+  },
+  {
+    "path": "lists/security/full/nft.txt",
+    "bytes": 656,
+    "entries": 0
+  },
+  {
+    "path": "lists/security/full/parked-domains.txt",
+    "bytes": 678,
+    "entries": 0
+  },
+  {
+    "path": "lists/security/full/phishing.txt",
+    "bytes": 15074794,
+    "entries": 577332
+  },
+  {
+    "path": "lists/security/full/pup-pua.txt",
+    "bytes": 668,
+    "entries": 0
+  },
+  {
+    "path": "lists/security/full/ransomware.txt",
+    "bytes": 670,
+    "entries": 0
+  },
+  {
+    "path": "lists/security/full/remote-access.txt",
+    "bytes": 676,
+    "entries": 0
+  },
+  {
+    "path": "lists/security/full/scam.txt",
+    "bytes": 5817312,
+    "entries": 265246
+  },
+  {
+    "path": "lists/security/full/scanners.txt",
+    "bytes": 694,
+    "entries": 0
+  },
+  {
+    "path": "lists/security/full/spam.txt",
+    "bytes": 658,
+    "entries": 0
+  },
+  {
+    "path": "lists/security/full/surveillance.txt",
+    "bytes": 694,
+    "entries": 0
+  },
+  {
+    "path": "lists/security/full/suspicious-tlds.txt",
+    "bytes": 680,
+    "entries": 0
+  },
+  {
+    "path": "lists/security/full/typosquatting.txt",
+    "bytes": 676,
+    "entries": 0
+  },
+  {
+    "path": "lists/security/main/light.txt",
+    "bytes": 250130,
+    "entries": 10960
+  },
+  {
+    "path": "lists/security/main/normal.txt",
+    "bytes": 352993,
+    "entries": 17081
+  },
+  {
+    "path": "lists/security/main/pro-plus.txt",
+    "bytes": 20928183,
+    "entries": 844669
+  },
+  {
+    "path": "lists/security/main/pro.txt",
+    "bytes": 15427300,
+    "entries": 594410
+  },
+  {
+    "path": "lists/security/main/ultimate.txt",
+    "bytes": 69769996,
+    "entries": 3408241
+  },
+  {
+    "path": "profiles/light.txt",
+    "bytes": 4943835,
+    "entries": 234003
+  },
+  {
+    "path": "profiles/normal.txt",
+    "bytes": 7199083,
+    "entries": 342216
+  },
+  {
+    "path": "profiles/pro-plus.txt",
+    "bytes": 8168912,
+    "entries": 383624
+  },
+  {
+    "path": "profiles/pro.txt",
+    "bytes": 7895414,
+    "entries": 371516
+  },
+  {
+    "path": "profiles/ultimate.txt",
+    "bytes": 102647561,
+    "entries": 5118461
+  }
+]

@@ -1,34 +1,76 @@
 # BlackRabbitZ DNS Blocklists
 # Title: NAS & Server Ultimate
-# Description: Ultimate-Stufe für NAS & Server; kumulativ, Ultimate enthält den vollständigen Bereichsdatenbestand.
+# Description: Ultimate-Stufe für NAS & Server; kumulativ.
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
-# Sources: BlackRabbitZ dokumentierte NAS-/Server-Endpunkte
-# Risk: hoch
-# Entries: 22
+# Sources: BlackRabbitZ NAS-/Server-Katalog
+# Risk: Hoch
+# Data status: befüllt
+# Data method: generated-tier
+# Entries: 63
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
-# Generated: ja
 #
+adserver.k8s.getakite.surf
+analytics-ingestion-v3.main-production-custom.production.k8s.tubi.io
 analytics.api.myqnapcloud.com
+analytics.k8s.djpmedia.cloud
 analytics.myqnapcloud.io
 api.access.redhat.com
 api.insight.synology.com
 cert-api.access.redhat.com
 cert.console.redhat.com
 connect.cloud.redhat.com
+csp-violations.k8s.prod.blend.com
 device.cloud.hpe.com
+docker-registry.amobee.com
+docker-registry.repo.amobee.com
+docker.repo.amobee.com
+docker.smartlook.com
+docker.vidible.tv
+dockers.pxf.io
+dockerverse.com
+dy2xcjk8s1dbz.cloudfront.net
+email.docker.com
 esrs3-core.emc.com
 esrs3-coredr.emc.com
+fabric8-docker-registry.default.console.ws.adacts.com
+gql-graphql-gateway.prod.k8s.onepeloton.com
 infogw.api.openshift.com
 infosight.hpe.com
+k8s-matomo-matomoin-1abe0536fc-1571093737.us-east-1.elb.amazonaws.com
+k8s-stage1-use1.int.vidible.tv
+k8s.prod.vidible.tv
+k8s.stage.vidible.tv
+k8s.unity.amobee.com
+k8s.vidible.tv
+matomo-k8s.ramsalt.com
+matomo.az.prod.k8s.soliver.com
+matomo.docker1.standpunkt-hosting.de
+metrics.dockers-site.com
+metrics.us.dockers.com
 midway.ext.hpe.com
+pageinfo-k8s.motorsport.com
+pixel.k8s.prod.blend.com
+plausible.docker-box.richardwillis.info
+plausible.k8stage.myafsa.com
+pux-api.k8s-a1.veinteractive.com
+pux-api.k8s-e1.veinteractive.com
+pux-api.k8s-u2.veinteractive.com
 qcenter-events-device.api.myqnapcloud.cn
 qcenter-events-device.api.myqnapcloud.com
 qcenter-metrics-device.api.myqnapcloud.cn
 qcenter-metrics-device.api.myqnapcloud.com
 sentry.ixsystems.com
+sessions-bugsnag.docker.com
+stats.docker-e9.ijs.si
 subscribe.insight.synology.com
 supapi.synology.com
+systemintegrationsapi.k8s-e1.veinteractive.com
 telemetry.sys.truenas.net
+travel-data-matomo-pro.k8s.travel-data-prod.aws.idealo.cloud
+undockerinize.com
 usage.truenas.com
+veadsimages.k8s-e1.veinteractive.com
+veadstracking.k8s-e1.veinteractive.com
+vg-k8s-setting.rayjump.com

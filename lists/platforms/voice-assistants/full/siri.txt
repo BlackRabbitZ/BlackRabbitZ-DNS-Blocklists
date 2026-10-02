@@ -1,0 +1,40 @@
+# BlackRabbitZ DNS Blocklists
+# Title: Siri
+# Description: Siri Analytics/Telemetry
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: Aus vorhandenen BlackRabbitZ-/dokumentierten HaGeZi-Domains konservativ abgeleitet
+# Risk: variabel
+# Data status: abgeleitet
+# Data method: derived-keyword
+# Entries: 27
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+ad.sirian.dumedia.ru
+analytics.osirius.de
+anon.sirius.speedera.net
+capig.siriusmarketing.com.br
+download.sirius.speedera.net
+fetasirid.shop
+get.siriuscom.com
+matomo.esirion.de
+matomo.sirius.org.ru
+metrics-target.siriusxm.com
+metrics.siriusxm.ca
+osiristrading.112.2o7.net
+piwik.siriusonline.de
+piwik.siriustec.eu
+push.silversiri.com
+siri.hboin.com
+sirian.dumedia.ru
+sirinbet.com
+sirius-expedition.com
+sirius.adx1.com
+sirius.iad-03.braze.com
+siriusxm.pxf.io
+smetrics.siriusxm.ca
+smetrics.siriusxm.com
+sst.siriusoutdoorgroup.com
+stats.siriusag.com
+www.sirius-expedition.com

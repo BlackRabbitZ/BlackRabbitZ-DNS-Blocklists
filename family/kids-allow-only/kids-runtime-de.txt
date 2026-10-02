@@ -1,0 +1,14 @@
+# BlackRabbitZ DNS Blocklists
+# Title: Kids Runtime DE
+# Description: Zusätzliche technische Hosts; ausschließlich nach Query-Log-Prüfung ergänzen.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: BRZ Kinderschutz-Handbuch 30.09.2026
+# Risk: mittel
+# Data status: vorbereitet
+# Data method: manual-runtime
+# Entries: 0
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+# Noch keine belastbaren Domains im aktuellen statischen Quellstand.

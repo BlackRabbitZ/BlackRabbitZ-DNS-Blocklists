@@ -1,12 +1,16 @@
 # BlackRabbitZ DNS Blocklists
 # Title: NAS & Server Normal
-# Description: Normal-Stufe für NAS & Server; kumulativ, Ultimate enthält den vollständigen Bereichsdatenbestand.
+# Description: Normal-Stufe für NAS & Server; kumulativ.
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
-# Sources: BlackRabbitZ dokumentierte NAS-/Server-Endpunkte
-# Risk: niedrig
-# Entries: 0
+# Sources: BlackRabbitZ NAS-/Server-Katalog
+# Risk: Niedrig
+# Data status: befüllt
+# Data method: generated-tier
+# Entries: 3
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
-# Generated: ja
 #
+adserver.k8s.getakite.surf
+analytics-ingestion-v3.main-production-custom.production.k8s.tubi.io
+veadstracking.k8s-e1.veinteractive.com

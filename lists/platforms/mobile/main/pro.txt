@@ -1,26 +1,41 @@
 # BlackRabbitZ DNS Blocklists
-# Title: Mobile Pro
-# Description: Pro-Stufe für Mobile; kumulativ, Ultimate enthält den vollständigen Bereichsdatenbestand.
+# Title: Smartphones & Mobile Pro
+# Description: Pro-Stufe für Smartphones & Mobile; kumulativ.
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
-# Sources: BlackRabbitZ; HaGeZi-basierte Native-Tracker-Anteile
-# Risk: niedrig-mittel
-# Entries: 470
+# Sources: BlackRabbitZ Mobile-Katalog
+# Risk: Niedrig–Mittel
+# Data status: befüllt
+# Data method: generated-tier
+# Entries: 531
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
-# Generated: ja
 #
 1681.engine.mobileapptracking.com
 ad.doubleclick.net
 ad.lgsmartad.com
+ad.realmedia.co.kr
 adlog.flurry.com
+adlog.vivo.com.cn
 ads-game-configuration-master.ads.prd.ie.internal.unity3d.com
+ads-marketing-vivofs.vivo.com.cn
 ads.api.vungle.com
+ads.heytapmobi.com
+ads.heytapmobile.com
 ads.lgtvcommon.com
 ads.mopub.com
+ads.oppomobile.com
+ads.realmedia.com
+ads.realmedia.com.br
 ads.twitter.com
 adserver.snapads.com
+adsstatic.vivo.com.cn
 advertising.apple.com
+adx-id.ads.oppomobile.com
+adx-in.ads.heytapmobi.com
+adx-in.ads.oppomobile.com
+adx.ads.oppomobile.com
+adxlog.vivo.com.cn
 ae-ad-lgsmartad-com.aws-prd.net
 ae.lgsmartad.com
 af-ad-lgsmartad-com.aws-prd.net
@@ -38,6 +53,9 @@ an.lgsmartad.com
 analytics-events.apple.com
 analytics.apple.com
 analytics.google.com
+analytics.istodayoppositeday.com
+analytics.oneplus.cn
+analytics.oppomobile.com
 analytics.portalinmobiliario.com
 analytics.samsungknox.com
 analytics.unity3d.com
@@ -59,6 +77,7 @@ appmetrica.yandex.ru
 ar-ad-lgsmartad-com.aws-prd.net
 ar.lgsmartad.com
 ase.adserver.snapads.com
+asia-ex-adlog.vivoglobal.com
 at-ad-lgsmartad-com.aws-prd.net
 at.lgsmartad.com
 au-ad-lgsmartad-com.aws-prd.net
@@ -68,11 +87,17 @@ aw-ad-lgsmartad-com.aws-prd.net
 aw.lgsmartad.com
 az-ad-lgsmartad-com.aws-prd.net
 az.lgsmartad.com
+b1.ads.oppomobile.com
 ba-ad-lgsmartad-com.aws-prd.net
 ba.lgsmartad.com
 bb-ad-lgsmartad-com.aws-prd.net
 bb.lgsmartad.com
 bd-ad-lgsmartad-com.aws-prd.net
+bdapi-ads.realmemobile.com
+bdapi-id.ads.oppomobile.com
+bdapi-in-ads.realmemobile.com
+bdapi-in.ads.oppomobile.com
+bdapi.ads.oppomobile.com
 be-ad-lgsmartad-com.aws-prd.net
 be.lgsmartad.com
 beacon.shazam.com
@@ -84,6 +109,7 @@ bh-ad-lgsmartad-com.aws-prd.net
 bh.lgsmartad.com
 bj-ad-lgsmartad-com.aws-prd.net
 bj.lgsmartad.com
+bjdata.ads.oppomobile.com
 bn-ad-lgsmartad-com.aws-prd.net
 bo-ad-lgsmartad-com.aws-prd.net
 bo.lgsmartad.com
@@ -109,9 +135,12 @@ ch-ad-lgsmartad-com.aws-prd.net
 ch.lgsmartad.com
 ci-ad-lgsmartad-com.aws-prd.net
 ci.lgsmartad.com
+ck.ads.oppomobile.com
 cl-ad-lgsmartad-com.aws-prd.net
+cl-data-in.ads.heytapmobi.com
 cl.lgsmartad.com
 cm-ad-lgsmartad-com.aws-prd.net
+cm.ads.oppomobile.com
 cm.lgsmartad.com
 cn-ad-lgsmartad-com.aws-prd.net
 cn.lgsmartad.com
@@ -136,11 +165,21 @@ cv.lgsmartad.com
 cy-ad-lgsmartad-com.aws-prd.net
 cz-ad-lgsmartad-com.aws-prd.net
 cz.lgsmartad.com
+data-cl-f.ads.oppomobile.com
+data-cl-id.ads.oppomobile.com
+data-cl-in.ads.oppomobile.com
+data-f.ads.oppomobile.com
+data-id.ads.oppomobile.com
+data-in-ads.realmemobile.com
+data-in.ads.oppomobile.com
+data-sg.ads.oppomobile.com
+data.ads.oppomobile.com
 data.mistat.india.xiaomi.com
 data.mistat.intl.xiaomi.com
 data.mistat.rus.xiaomi.com
 data.mistat.xiaomi.com
 databeacon.apple.com
+dataf.ads.oppomobile.com
 de-ad-lgsmartad-com.aws-prd.net
 de.lgsmartad.com
 device-metrics-us-2.amazon.com
@@ -177,6 +216,7 @@ et.lgsmartad.com
 euc.adserver.snapads.com
 euw.adserver.snapads.com
 events.ads.vungle.com
+fast.lenovo.demdex.net
 feedback.search.microsoft.com
 feedback.windows.com
 feedbackws.apple.com
@@ -194,6 +234,7 @@ flirfvysba2opz0zmzqs5iuiad.apple.com
 fr-ad-lgsmartad-com.aws-prd.net
 fr.lgsmartad.com
 freegameanalytics.com
+g1.ads.oppomobile.com
 ga-ad-lgsmartad-com.aws-prd.net
 ga.lgsmartad.com
 gameanalytics.com
@@ -241,6 +282,8 @@ il-ad-lgsmartad-com.aws-prd.net
 il.lgsmartad.com
 in-ad-lgsmartad-com.aws-prd.net
 in.lgsmartad.com
+iot-eu-logser.realme.com
+iot-logser.realme.com
 iq-ad-lgsmartad-com.aws-prd.net
 iq.lgsmartad.com
 ir-ad-lgsmartad-com.aws-prd.net
@@ -271,10 +314,17 @@ kz.lgsmartad.com
 lb-ad-lgsmartad-com.aws-prd.net
 lb.lgsmartad.com
 lc.lgsmartad.com
+lenovo.112.2o7.net
+lenovo.demdex.net
+lenovo.tt.omtrdc.net
+lenovosimpletapdev.112.2o7.net
 lgads.tv
 li-ad-lgsmartad-com.aws-prd.net
 lk-ad-lgsmartad-com.aws-prd.net
 lk.lgsmartad.com
+load.gtm.oppostiboutique.com
+load.rise.premiosaovivo.com
+load.wxpdlopz.shoppo.se
 log.musical.ly
 logs.ironsrc.com
 logs.locarta.co
@@ -342,6 +392,7 @@ o0.ingest.sentry.io
 om-ad-lgsmartad-com.aws-prd.net
 om.lgsmartad.com
 operate-sdk-telemetry.unity3d.com
+opportunity-tracking.com
 pa-ad-lgsmartad-com.aws-prd.net
 pa.lgsmartad.com
 pe-ad-lgsmartad-com.aws-prd.net
@@ -401,16 +452,25 @@ sk.lgsmartad.com
 sl-ad-lgsmartad-com.aws-prd.net
 sl.lgsmartad.com
 smoot-feedback.v.aaplimg.com
+sms-in.ads.oppomobile.com
+sms.ads.oppomobile.com
 sn-ad-lgsmartad-com.aws-prd.net
 sn.lgsmartad.com
 sr-ad-lgsmartad-com.aws-prd.net
 sr.lgsmartad.com
 ssl.google-analytics.com
+stat.browser.oppomobile.com
+stat.dc.oppomobile.com
+stat.kuljetusnuopponen.com
+statf.dc.oppomobile.com
+static.realmediadigital.com
 stats.appsflyer.com
 stats.gc.apple.com
+stats.opportunity.de
 stats.singular.de
 stats.singularities.org
 stats.singularminds.eu
+stg-data-in.ads.heytapmobi.com
 stocks-analytics-events.apple.com
 stocks-analytics-events.news.apple-dns.net
 supersonicads.com
@@ -450,6 +510,7 @@ tz-ad-lgsmartad-com.aws-prd.net
 tz.lgsmartad.com
 ua-ad-lgsmartad-com.aws-prd.net
 ua.lgsmartad.com
+uapi.ads.oppomobile.com
 ug-ad-lgsmartad-com.aws-prd.net
 ug.lgsmartad.com
 unityads.unity3d.com
@@ -472,6 +533,7 @@ weather-analytics-events.apple.com
 weather-analytics-events.news.apple-dns.net
 webview.unityads.unity3d.com
 ws.tapjoyads.com
+www.opportunity-tracking.com
 ye-ad-lgsmartad-com.aws-prd.net
 ye.lgsmartad.com
 z.moatads.com

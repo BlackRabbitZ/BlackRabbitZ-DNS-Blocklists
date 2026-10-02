@@ -1,0 +1,58 @@
+# BlackRabbitZ DNS Blocklists
+# Title: Streaming Pro
+# Description: Pro-Stufe für Streaming; kumulativ.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: BlackRabbitZ statischer Datenbestand
+# Risk: Niedrig–Mittel
+# Data status: befüllt
+# Data method: generated-tier
+# Entries: 45
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+ad.twitchguru.com
+adeventtracker.spotify.com
+adeventtrackermonitoring.spotify.com
+ads.netflix.com
+ads.spotify.com
+ads.test.netflix.com
+ads.twitch.tv
+ads.us-east-1.prodaa.netflix.com
+ads.us-west-2.prodaa.netflix.com
+ads.youtube.com
+analytics.disneyplus.com
+analytics.plex.tv
+analytics.spotify.com
+analytics.xyscdn.com
+beacon.eu-west-1.prodaa.netflix.com
+beacon.geo.netflix.com
+beacon.netflix.com
+beacon.us-east-1.prodaa.netflix.com
+beacon.us-west-2.prodaa.netflix.com
+beaconimages.netflix.net
+client-event-reporter.twitch.tv
+crashdump.spotify.com
+log.spotify.com
+logs.netflix.com
+metrics.cbc.youtube.mercedes-benz.com
+metrics.plex.tv
+mp3ad.scdn.co
+nmtracking.netflix.com
+pixel-static.spotify.com
+presentationtracking.netflix.com
+sanalytics.disneyplus.com
+simpleanalyticscdn.com
+smetrics-stg.help.disneyplus.com
+smetrics.help.disneyplus.com
+spotify.backtrace.io
+spotify.demdex.net
+spotify.sp.backtrace.io
+statanalyticscdn.com
+static.huntresscdn.com
+tmscdn.coremetrics.com
+tv-static.scdn.co
+twitchads.tv
+twitchadvertising.tv
+www.ad.twitchguru.com
+youtube.112.2o7.net

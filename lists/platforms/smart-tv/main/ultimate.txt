@@ -1,14 +1,15 @@
 # BlackRabbitZ DNS Blocklists
 # Title: Smart TV Ultimate
-# Description: Ultimate-Stufe für Smart TV; kumulativ, Ultimate enthält den vollständigen Bereichsdatenbestand.
+# Description: Ultimate-Stufe für Smart TV; kumulativ.
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
-# Sources: BlackRabbitZ: Block List Project; Perflyst; HaGeZi LG webOS
-# Risk: hoch
-# Entries: 556
+# Sources: BlackRabbitZ Smart-TV-Katalog
+# Risk: Hoch
+# Data status: befüllt
+# Data method: generated-tier
+# Entries: 646
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
-# Generated: ja
 #
 2mdn.net
 7345023508.fxm9485766783.com
@@ -163,6 +164,7 @@ d37ju0xanoz6gh.cloudfront.net
 d3mjsomixevyw7.cloudfront.net
 d3p8zr0ffa9t17.cloudfront.net
 data.arqiva.tv
+data.info.philips-hue.com
 database01p.anixe.net
 de-ad-lgsmartad-com.aws-prd.net
 de.ioam.de
@@ -189,6 +191,7 @@ ee-ad-lgsmartad-com.aws-prd.net
 ee.lgsmartad.com
 eg-ad-lgsmartad-com.aws-prd.net
 eg.lgsmartad.com
+ehg-philipsvheusen.hitbox.com
 eic-ngfts.lge.com
 eic-ngfts.lge.com.edgekey.net
 eic-qt2-ngfts.lge.com
@@ -202,6 +205,8 @@ eu-auth2.samsungosp.com
 events.cid.samba.tv
 events.samsungads.com
 facemap.foldlife.net
+fast.panasonicglobal.demdex.net
+fast.philipslighting.demdex.net
 fi-ad-lgsmartad-com.aws-prd.net
 fi.lgsmartad.com
 fj-ad-lgsmartad-com.aws-prd.net
@@ -228,6 +233,7 @@ gld.samsungosp.com
 gm-ad-lgsmartad-com.aws-prd.net
 gm.lgsmartad.com
 gn.lgsmartad.com
+goitcl.com
 googleads.g.doubleclick.net
 gp-ad-lgsmartad-com.aws-prd.net
 gp.lgsmartad.com
@@ -238,6 +244,7 @@ gr-ad-lgsmartad-com.aws-prd.net
 gr.lgsmartad.com
 gt-ad-lgsmartad-com.aws-prd.net
 gt.lgsmartad.com
+gw-analytics.panasonic.com
 gy-ad-lgsmartad-com.aws-prd.net
 gy.lgsmartad.com
 h4g3z1-native.lgwebos.web.app
@@ -263,6 +270,7 @@ ibs.lgappstv.com
 ichnaea.netflix.com
 id-ad-lgsmartad-com.aws-prd.net
 id.lgsmartad.com
+idrfvtcl.com
 ie-ad-lgsmartad-com.aws-prd.net
 ie.lgsmartad.com
 il-ad-lgsmartad-com.aws-prd.net
@@ -334,6 +342,7 @@ ly.lgsmartad.com
 ma-ad-lgsmartad-com.aws-prd.net
 ma.lgsmartad.com
 mads-eu.amazon.com
+mailing.philips.com
 managed.xmpp.foxtel.com.au
 mas-ext.amazon.com
 mas-sdk.amazon.com
@@ -341,6 +350,10 @@ mcp.tvinteractive.tv
 md-ad-lgsmartad-com.aws-prd.net
 me-ad-lgsmartad-com.aws-prd.net
 me.lgsmartad.com
+metrics-cns.panasonic.com
+metrics.marketing.lighting.philips.kz
+metrics.panasonic.biz
+metrics.panasonic.jp
 mf.lgsmartad.com
 mg-ad-lgsmartad-com.aws-prd.net
 mitv.tracking.intl.miui.com
@@ -401,12 +414,20 @@ p-hbbtv.superrtl.de
 p.ads.roku.com
 pa-ad-lgsmartad-com.aws-prd.net
 pa.lgsmartad.com
+panasonic-beacons.xumo.com
+panasonic-jp.b.appier.net
+panasonic.inq.com
 pavv.co.kr
 pe-ad-lgsmartad-com.aws-prd.net
 pe.lgsmartad.com
 pg-ad-lgsmartad-com.aws-prd.net
 ph-ad-lgsmartad-com.aws-prd.net
 ph.lgsmartad.com
+philips-beacons.xumo.com
+philips.112.2o7.net
+philipselectronicsne.tt.omtrdc.net
+philipslighting.d3.sc.omtrdc.net
+philipstreehouse.info
 pipeaota.com
 pk-ad-lgsmartad-com.aws-prd.net
 pk.lgsmartad.com
@@ -468,10 +489,13 @@ sd.lgsmartad.com
 sdkconfig.ad.intl.xiaomi.com
 se-ad-lgsmartad-com.aws-prd.net
 se.lgsmartad.com
+sec-analytics.panasonic.co.uk
+sec-analytics.panasonic.de
 secure-eu.imrworldwide.com
 settings.crashlytics.com
 sg-ad-lgsmartad-com.aws-prd.net
 sg.lgsmartad.com
+sgw-analytics.panasonic.com
 si-ad-lgsmartad-com.aws-prd.net
 si.lgsmartad.com
 sk-ad-lgsmartad-com.aws-prd.net
@@ -481,6 +505,71 @@ sl.lgsmartad.com
 smartclip.com
 smartclip.net
 smartshare.lgtvsdp.com
+smetrics-cns.panasonic.com
+smetrics.marketing.lighting.philips.at
+smetrics.marketing.lighting.philips.be
+smetrics.marketing.lighting.philips.bg
+smetrics.marketing.lighting.philips.ca
+smetrics.marketing.lighting.philips.ch
+smetrics.marketing.lighting.philips.cl
+smetrics.marketing.lighting.philips.co.id
+smetrics.marketing.lighting.philips.co.il
+smetrics.marketing.lighting.philips.co.in
+smetrics.marketing.lighting.philips.co.jp
+smetrics.marketing.lighting.philips.co.kr
+smetrics.marketing.lighting.philips.co.nz
+smetrics.marketing.lighting.philips.co.th
+smetrics.marketing.lighting.philips.co.uk
+smetrics.marketing.lighting.philips.co.za
+smetrics.marketing.lighting.philips.com.ar
+smetrics.marketing.lighting.philips.com.au
+smetrics.marketing.lighting.philips.com.br
+smetrics.marketing.lighting.philips.com.cn
+smetrics.marketing.lighting.philips.com.co
+smetrics.marketing.lighting.philips.com.gh
+smetrics.marketing.lighting.philips.com.hk
+smetrics.marketing.lighting.philips.com.mx
+smetrics.marketing.lighting.philips.com.my
+smetrics.marketing.lighting.philips.com.pe
+smetrics.marketing.lighting.philips.com.ph
+smetrics.marketing.lighting.philips.com.pk
+smetrics.marketing.lighting.philips.com.sg
+smetrics.marketing.lighting.philips.com.tr
+smetrics.marketing.lighting.philips.com.tw
+smetrics.marketing.lighting.philips.com.vn
+smetrics.marketing.lighting.philips.cz
+smetrics.marketing.lighting.philips.de
+smetrics.marketing.lighting.philips.dk
+smetrics.marketing.lighting.philips.ee
+smetrics.marketing.lighting.philips.es
+smetrics.marketing.lighting.philips.fi
+smetrics.marketing.lighting.philips.fr
+smetrics.marketing.lighting.philips.gr
+smetrics.marketing.lighting.philips.hr
+smetrics.marketing.lighting.philips.hu
+smetrics.marketing.lighting.philips.it
+smetrics.marketing.lighting.philips.kz
+smetrics.marketing.lighting.philips.lk
+smetrics.marketing.lighting.philips.lt
+smetrics.marketing.lighting.philips.lv
+smetrics.marketing.lighting.philips.ma
+smetrics.marketing.lighting.philips.ng
+smetrics.marketing.lighting.philips.nl
+smetrics.marketing.lighting.philips.no
+smetrics.marketing.lighting.philips.pl
+smetrics.marketing.lighting.philips.pt
+smetrics.marketing.lighting.philips.ro
+smetrics.marketing.lighting.philips.rs
+smetrics.marketing.lighting.philips.sa
+smetrics.marketing.lighting.philips.se
+smetrics.marketing.lighting.philips.si
+smetrics.marketing.lighting.philips.sk
+smetrics.marketing.lighting.philips.ua
+smetrics.marketing.philips-hue.com
+smetrics.panasonic.biz
+smetrics.panasonic.jp
+smetrics.panasonic.net
+smtp.philipsburg.bluehornet.com
 sn-ad-lgsmartad-com.aws-prd.net
 sn.lgsmartad.com
 sonybivstatic-a.akamaihd.net
@@ -497,6 +586,7 @@ syncplusconfig.s3.amazonaws.com
 sz-ad-lgsmartad-com.aws-prd.net
 targeted-config-test.samsungacr.com
 tc.lgsmartad.com
+textmessagephilipstraits.com
 tg-ad-lgsmartad-com.aws-prd.net
 tg.lgsmartad.com
 th-ad-lgsmartad-com.aws-prd.net
@@ -557,6 +647,7 @@ vn-ad-lgsmartad-com.aws-prd.net
 vn.lgsmartad.com
 vu-ad-lgsmartad-com.aws-prd.net
 wiseconfig.lgtvcommon.com
+www.mailing.philips.com
 xml.opera.com
 ye-ad-lgsmartad-com.aws-prd.net
 ye.lgsmartad.com

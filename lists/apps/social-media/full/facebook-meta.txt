@@ -1,0 +1,95 @@
+# BlackRabbitZ DNS Blocklists
+# Title: Facebook / Meta
+# Description: Facebook-/Meta-Tracking-Endpunkte
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: Aus vorhandenen BlackRabbitZ-/dokumentierten HaGeZi-Domains konservativ abgeleitet
+# Risk: variabel
+# Data status: abgeleitet
+# Data method: derived-keyword
+# Entries: 82
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+2o.facebook-info.co
+9j.facebook-info.co
+a-graph.facebook.com
+admeta.com
+ads.ak.facebook.com.edgesuite.net
+ads.facebook.com
+ads.findfacebookwoman.com
+an.facebook.com
+analytics.facebook.com
+badge.facebook.com
+ci.facebook-info.co
+clutchpoints-facebook.4taps.me
+connect.facebook.com
+connect.facebook.net
+creative.ak.facebook.com
+edge-star-shv-01-bom1.facebook.com
+external-lga3-1.xx.fbcdn.netpixel.everesttech.net
+external-lhr0-1.xx.fbcdn.net
+external-lhr1-1.xx.fbcdn.net
+external-lhr10-1.xx.fbcdn.net
+external-lhr2-1.xx.fbcdn.net
+external-lhr4-1.xx.fbcdn.net
+external-lhr5-1.xx.fbcdn.net
+external-lhr6-1.xx.fbcdn.net
+external-lhr7-1.xx.fbcdn.net
+external-lhr8-1.xx.fbcdn.net
+external-lhr9-1.xx.fbcdn.net
+f4.facebook-info.co
+facebook-info.co
+facebook-proxy.hi5.com
+facebook-repto1040s2.ahlamountada.com
+facebook.adformdsp.net
+facebook.cm
+facebook.co1.qualtrics.com
+facebook.magnetic.com
+facebook.metro-shine.com
+facebook.norskdun.no
+facebook.promo.tubemogul.com
+facebookcoverx.com
+facebookcrawl.co.cc
+facebooker.top
+facebookgatewaytrackdm.worshipproductions.org
+facebookinc.122.2o7.net
+facebookloginsignin.com
+facebookofsex.com
+facebooktbtoolbar.ourtoolbar.com
+facebookunblocking.com
+fbcdn.xyz
+fbcdn2.com
+fbcdnxy.net
+graph.facebook.com
+m-facebookk.com.vn
+mahimeta.com
+metarouter.io
+mqtt-mini.facebook.com
+nj.facebook-info.co
+notificationbyfacebook.firebaseapp.com
+notificationbyfacebook.web.app
+openprofilemeta.com
+piwik.user-meta.com
+pixel.facebook.com
+pumeta.com
+scontent-lhr3-1.xx.fbcdn.net
+sonar-iad.xx.fbcdn.net
+sst.facebookads-master.com
+static.fbcdn.xyz
+staticxx.facebook.com
+stats.qameta.com
+unblockfacebook.co.uk
+vww-facebook.com.vn
+www-facebooks.com.vn
+www.diometa.com
+www.facebook-info.co
+www.facebook.cm
+www.facebook.realtorarcf.com
+www.facebookcrawl.co.cc
+www.facebookloginsignin.com
+www.facebookunblocking.com
+www.unblockfacebook.co.uk
+www.xmobliefacebook.com
+wwwfacebook.com
+xmobliefacebook.com

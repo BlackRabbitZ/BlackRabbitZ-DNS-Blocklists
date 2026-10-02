@@ -1,14 +1,15 @@
 # BlackRabbitZ DNS Blocklists
 # Title: Smart TV Normal
-# Description: Normal-Stufe für Smart TV; kumulativ, Ultimate enthält den vollständigen Bereichsdatenbestand.
+# Description: Normal-Stufe für Smart TV; kumulativ.
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
-# Sources: BlackRabbitZ: Block List Project; Perflyst; HaGeZi LG webOS
-# Risk: niedrig
-# Entries: 353
+# Sources: BlackRabbitZ Smart-TV-Katalog
+# Risk: Niedrig
+# Data status: befüllt
+# Data method: generated-tier
+# Entries: 362
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
-# Generated: ja
 #
 aax-eu.amazon-adsystem.com
 ad.71i.de
@@ -121,6 +122,8 @@ es.lgsmartad.com
 et-ad-lgsmartad-com.aws-prd.net
 et.lgsmartad.com
 events.samsungads.com
+fast.panasonicglobal.demdex.net
+fast.philipslighting.demdex.net
 fi-ad-lgsmartad-com.aws-prd.net
 fi.lgsmartad.com
 fj-ad-lgsmartad-com.aws-prd.net
@@ -148,6 +151,7 @@ gr-ad-lgsmartad-com.aws-prd.net
 gr.lgsmartad.com
 gt-ad-lgsmartad-com.aws-prd.net
 gt.lgsmartad.com
+gw-analytics.panasonic.com
 gy-ad-lgsmartad-com.aws-prd.net
 gy.lgsmartad.com
 hbbtv-track.redbutton.de
@@ -267,6 +271,9 @@ pe.lgsmartad.com
 pg-ad-lgsmartad-com.aws-prd.net
 ph-ad-lgsmartad-com.aws-prd.net
 ph.lgsmartad.com
+philips.112.2o7.net
+philipselectronicsne.tt.omtrdc.net
+philipslighting.d3.sc.omtrdc.net
 pk-ad-lgsmartad-com.aws-prd.net
 pk.lgsmartad.com
 pl-ad-lgsmartad-com.aws-prd.net
@@ -298,8 +305,11 @@ sd.lgsmartad.com
 sdkconfig.ad.intl.xiaomi.com
 se-ad-lgsmartad-com.aws-prd.net
 se.lgsmartad.com
+sec-analytics.panasonic.co.uk
+sec-analytics.panasonic.de
 sg-ad-lgsmartad-com.aws-prd.net
 sg.lgsmartad.com
+sgw-analytics.panasonic.com
 si-ad-lgsmartad-com.aws-prd.net
 si.lgsmartad.com
 sk-ad-lgsmartad-com.aws-prd.net

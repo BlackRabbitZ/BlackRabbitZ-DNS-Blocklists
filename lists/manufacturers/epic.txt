@@ -1,0 +1,21 @@
+# BlackRabbitZ DNS Blocklists
+# Title: Epic Games
+# Description: Epic Games-bezogene Ads-/Tracking-/Telemetrie-Endpunkte
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: Aus vorhandenem statischem BlackRabbitZ-/HaGeZi-dokumentiertem Datenbestand konservativ abgeleitet
+# Risk: variabel
+# Data status: abgeleitet
+# Data method: derived-keyword
+# Entries: 8
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+datarouter-prod.ak.epicgames.com
+datarouter.ol.epicgames.com
+etsource.epicgames.com
+link.epicgames.com
+metric-public-service-prod.ol.epicgames.com
+metrics.ol.epicgames.com
+statsproxy-public-service-live.ol.epicgames.com
+tracking.epicgames.com

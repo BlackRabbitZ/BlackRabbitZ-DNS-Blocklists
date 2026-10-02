@@ -1,0 +1,24 @@
+# BlackRabbitZ DNS Blocklists
+# Title: Snapchat
+# Description: Snapchat Tracking
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: Aus vorhandenen BlackRabbitZ-/dokumentierten HaGeZi-Domains konservativ abgeleitet
+# Risk: variabel
+# Data status: abgeleitet
+# Data method: derived-keyword
+# Entries: 11
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+ads.snapchat.com
+adsapi.snapchat.com
+analytics.snapchat.com
+api.snapkit.com
+app-analytics-v2.snapchat.com
+app-analytics.snapchat.com
+intg.snapchat.com
+rtam-collector.snapchat.com
+server-analytics.snapchat.com
+tr.snapchat.com
+tr6.snapchat.com

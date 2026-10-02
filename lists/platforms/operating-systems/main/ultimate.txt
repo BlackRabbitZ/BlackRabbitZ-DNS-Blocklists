@@ -1,14 +1,15 @@
 # BlackRabbitZ DNS Blocklists
 # Title: Betriebssysteme Ultimate
-# Description: Ultimate-Stufe für Betriebssysteme; kumulativ, Ultimate enthält den vollständigen Bereichsdatenbestand.
+# Description: Ultimate-Stufe für Betriebssysteme; kumulativ.
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
-# Sources: BlackRabbitZ OS-Telemetrie; dokumentierte HaGeZi-/NextDNS-Anteile
-# Risk: hoch
-# Entries: 307
+# Sources: BlackRabbitZ OS-Katalog
+# Risk: Hoch
+# Data status: befüllt
+# Data method: generated-tier
+# Entries: 308
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
-# Generated: ja
 #
 1681.engine.mobileapptracking.com
 a-graph.facebook.com
@@ -61,6 +62,7 @@ cdn-xp-ingest-ab.v.aaplimg.com
 cdn-xp-ingest.edge.apple
 cf.iadsdk.apple.com
 choice.microsoft.com
+chromebookaccessories.com
 config.ioam.de
 connect.tapjoy.com
 corp.sts.microsoft.com

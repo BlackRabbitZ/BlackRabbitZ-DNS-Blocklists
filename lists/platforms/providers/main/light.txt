@@ -1,0 +1,18 @@
+# BlackRabbitZ DNS Blocklists
+# Title: ISP / Provider Light
+# Description: Light-Stufe für ISP / Provider; kumulativ.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: BlackRabbitZ statischer Datenbestand
+# Risk: Minimal
+# Data status: befüllt
+# Data method: generated-tier
+# Entries: 5
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+a.ads.t-online.de
+ads.t-online.de
+ads.vorsicht-online.de
+adserver.ht-online.es
+adserver.telekom.de

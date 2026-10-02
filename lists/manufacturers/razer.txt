@@ -1,0 +1,21 @@
+# BlackRabbitZ DNS Blocklists
+# Title: Razer
+# Description: Razer-bezogene Ads-/Tracking-/Telemetrie-Endpunkte
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: Aus vorhandenem statischem BlackRabbitZ-/HaGeZi-dokumentiertem Datenbestand konservativ abgeleitet
+# Risk: variabel
+# Data status: abgeleitet
+# Data method: derived-keyword
+# Entries: 8
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+analytic.wolkengrazer.com
+api.cinturazero.com.br
+bespoke-analytics.razerapi.com
+brazeratarheel.com
+data-615a2eced5.grazer.at
+pixel.olaprazer.com.br
+prodsgrazers.com
+razersmp.org

@@ -1,17 +1,81 @@
 # BlackRabbitZ DNS Blocklists
 # Title: Gaming Normal
-# Description: Normal-Stufe für Gaming; kumulativ, Ultimate enthält den vollständigen Bereichsdatenbestand.
+# Description: Normal-Stufe für Gaming; kumulativ.
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
-# Sources: BlackRabbitZ Ads/Tracking/Telemetry-Daten; gezielte Dienstzuordnung
-# Risk: niedrig
-# Entries: 5
+# Sources: BlackRabbitZ Gaming-Katalog
+# Risk: Niedrig
+# Data status: befüllt
+# Data method: generated-tier
+# Entries: 68
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
-# Generated: ja
 #
+ad.ciokorea.com
+ad.mylinea.com
+ad.snappea.com
+ad.xrea.com
 ads.blizzard.com
+ads.contralinea.com.mx
+ads.miciudadenlinea.com.ar
+ads.pdbarea.com
+ads.rohea.com
+adserver.mylinea.com
+adserver1.lujanenlinea.com.ar
+advert.bayarea.com
+analytics.akalea.com
 analytics.developer.riotgames.com
+analytics.fcmlabemea.com
+analytics.luceleaftea.com
+analytics.nordea.com
+analytics.pressarea.com
+analytics.savamea.com
+analytics.snappea.com
+analytics.swgoodidea.com
+api-eu.gameanalytics.com
+api-us.gameanalytics.com
+api.ad.snappea.com
+api.gameanalytics.com
+apk.ad.snappea.com
+apps.ad.snappea.com
+callback.ad.snappea.com
+cdn.gameanalytics.com
+cn.gameanalytics.com
+config.ad.snappea.com
+easy.gameanalytics.com
+electronicarts.112.2o7.net
 fast.nintendoofamericainc.demdex.net
+fast.ubisoftca.demdex.net
+fast.ubisoftinternational.demdex.net
+freegameanalytics.com
+gameanalytics.com
+go-export.gameanalytics.com
+go.gameanalytics.com
+load.dados.dracarolinacorrea.com.br
+load.events.drogariascampea.com.br
+load.sst.aacea.com
+load.sst.caedrea.com
+marketing.squareonemea.com
+maven.gameanalytics.com
 nintendoofamericainc.demdex.net
+ops-query-0.gameanalytics.com
+ops-query-1.gameanalytics.com
+ops-query-2.gameanalytics.com
+ops-query-3.gameanalytics.com
+public.gameanalytics.com
+query-0.gameanalytics.com
+query-1.gameanalytics.com
+query-2.gameanalytics.com
+query-3.gameanalytics.com
+ru.gameanalytics.com
+rubick.gameanalytics.com
+sanalytics.cartoonnetworkkorea.com
+sandbox-api.gameanalytics.com
+track.tastyarea.com
+tracker.diamantea.com
 tracking.epicgames.com
+tracking.tiojaggerytea.com
+ubisoftca.demdex.net
+ubisoftinternational.demdex.net
+v16-ad.byteoversea.com
+www.gameanalytics.com

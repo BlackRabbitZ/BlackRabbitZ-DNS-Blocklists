@@ -1,14 +1,15 @@
 # BlackRabbitZ DNS Blocklists
-# Title: Privacy Ultimate
-# Description: Pro++ plus alle bekannten Geraete-/OS-/IoT-/NAS-/Server-Telemetrie-Daten.
+# Title: Privacy & Tracking Ultimate
+# Description: Ultimate-Stufe für Privacy & Tracking; kumulativ.
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
-# License: GPL-3.0-only; siehe THIRD_PARTY.md fuer Drittquellen
-# Sources: BlackRabbitZ Privacy/Device-Kategorien; HaGeZi-basierte Native-Anteile
-# Risk: hoch
-# Entries: 371722
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: BlackRabbitZ Privacy-Katalog
+# Risk: Hoch
+# Data status: befüllt
+# Data method: generated-tier
+# Entries: 371530
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
-# Generated: ja
 #
 0--0.info
 0--4.com
@@ -12953,8 +12954,6 @@
 734-tgd-820.mktoresp.com
 734235127041830.wt-eu02.net
 734297997850272.wt-eu02.net
-7345023508.fxm9485766783.com
-7345023508.fxmconnect.com
 7347.bapi.adsafeprotected.com
 734776845.keywordblocks.com
 734map.net
@@ -16337,7 +16336,6 @@ a1.huiqituan.com
 a1.kdobson.net
 a1.nexmit.com
 a1.nyt.com
-a1.resources.foxtel.com.au
 a1.smi2.ru
 a1.suntimes.com
 a1.vdna-assets.com
@@ -20735,7 +20733,6 @@ abt.nl.bauhaus
 abt.s3.yandex.net
 abtasty.com
 abtaurosa.club
-abtauthprd.samsungcloudsolution.com
 abtest-coin.xenderapi.com
 abtest-ld-v2.s3.eu-north-1.amazonaws.com
 abtest-proxy.insmind.com
@@ -21368,9 +21365,7 @@ acr-in-prd.samsungcloud.tv
 acr-kr-prd.samsungcloud.tv
 acr-mx-prd.samsungcloud.tv
 acr-nz-prd.samsungcloud.tv
-acr-us-prd.samsungcloud.tv
 acr.roku.com
-acr0.samsungcloudsolution.com
 acr10.alphonso.tv
 acr11.alphonso.tv
 acr12.alphonso.tv
@@ -21685,7 +21680,6 @@ activity.sanmin.com.tw
 activity.serving-sys.com
 activity.tuifish.com
 activity.umeng.com
-activity.windows.com
 activity.wshareit.com
 activity.yesware.com.herokudns.com
 activitycommence.com
@@ -43895,7 +43889,6 @@ ads.sportsseoul.com
 ads.sportsvideo.org
 ads.spotic.net
 ads.spotify.com
-ads.spotx.tv
 ads.sprintrade.com
 ads.sptimes.com
 ads.spymac.net
@@ -53516,7 +53509,6 @@ amarceusan.com
 amare.softwaregarden.com
 amargir.net
 amarh.coniferkingdom.com
-amarillo.sb.roku.com
 amaritzer.com
 amarktflow.com
 amarres.amarres-de-amor-efectivos-magia-poderosa.com
@@ -53530,7 +53522,6 @@ amateurcouplewebcam.com
 amateurdevils.com
 amateurpayouts.com
 amatrck.com
-amauthprd.samsungcloudsolution.com
 amauzaqp.com
 amavalet.com
 amaze.hamptonroads.myactivechild.com
@@ -53565,7 +53556,6 @@ amazon.poxo.com
 amazon.vrvm.com
 amazon1.qualtrics.com
 amazon8898.com
-amazonadsi-a.akamaihd.net
 amazonadvertising.com
 amazoncustomerservice.d2.sc.omtrdc.net
 amazonde1.qualtrics.com
@@ -53840,7 +53830,6 @@ amobee.net
 amobee.org
 amobi.vn
 amoddishor.com
-amoeba.web.roku.com
 amoffers.go2cloud.org
 amoffers.hasoffers.com
 amolio.fubo.tv
@@ -66923,7 +66912,6 @@ androidprotection.online
 androidquery.appspot.com
 androidsdk.ads.mp.mydas.mobi
 androidsk.ads.mp.mydas.mobi
-androidtvchannels-pa.googleapis.com
 androidtvwatsonfe-pa.googleapis.com
 androidupdate.info
 andromeda.iad-01.braze.com
@@ -68067,15 +68055,12 @@ api-gce.petametrics.com
 api-gdpr.voodoo-tech.io
 api-gi.getui.com
 api-gmg-ksat-prod.cdn.arcpublishing.com
-api-gps-em.hismarttv.com
-api-gps-na.hismarttv.com
 api-gps.hismarttv.com
 api-grpc.lightstep.com
 api-gui.cxense.com
 api-h.outgrow.co
 api-headless.solostove.workers.dev
 api-hotmart-tracking-manager.hotmart.com
-api-hub.samsungyosemite.com
 api-idp.buffalowildwings.com
 api-interest.unbounce.com
 api-internal.getdrip.com
@@ -68084,8 +68069,6 @@ api-js.mixpanel.com
 api-kampane.dovera.sk
 api-keks.com
 api-lambda.aimtell.com
-api-launcher-em.hismarttv.com
-api-launcher-na.hismarttv.com
 api-lax1.touchcommerce.com
 api-lb.vungle.com
 api-lb3-vip0.eu.adsymptotic.com
@@ -68103,7 +68086,6 @@ api-matomo.centre-europeen-formation.fr
 api-meta.mercelsantos.com.br
 api-metadsp.onetag.com
 api-metrics.flurry.com
-api-mf1.meta.ndmdhs.com
 api-mktdev.solarwinds.com
 api-mktg.bash.com
 api-mktg.prettylittlething.com
@@ -68191,7 +68173,6 @@ api.academiasolis.com.br
 api.accelerator.intl.miui.com
 api.accengage.com
 api.accengage.net
-api.access.redhat.com
 api.account.preview.n.xiaomi.net
 api.achavedoemagrecimento.com.br
 api.actionbutton.co
@@ -68566,7 +68547,6 @@ api.chien-heureux.fr
 api.chillyc.env.sandbox53.localytics.com
 api.chris.env.sandbox53.localytics.com
 api.churrascocaseiro.com
-api.cid.samba.tv
 api.cinturazero.com.br
 api.circularhub.com
 api.citygridmedia.com
@@ -68681,7 +68661,6 @@ api.dilealotrovador.com.br
 api.diorahbelleza.com
 api.directus.libertycdn.com
 api.disposition.site
-api.distribution.hulu.com
 api.divinamente.app
 api.dizhensubao.igexin.com
 api.dizzyorb.com
@@ -68973,7 +68952,6 @@ api.innomdc.com
 api.innoxuss.com
 api.input.intl.miui.com
 api.inrix.com
-api.insight.synology.com
 api.insmobi.com
 api.instabug.com
 api.instalatorhbogo.siroccomobile.com
@@ -69244,7 +69222,6 @@ api.moodlr.co
 api.mp.nbcuni.com
 api.mp.uc.cn
 api.mparticle.onxmaps.com
-api.msn.com
 api.muc.intl.miui.com
 api.mundomontanha.com.br
 api.muneris.io
@@ -69626,7 +69603,6 @@ api.test.v-mate.mobi
 api.testrequest.info
 api.theadex.com
 api.theprivacypractitioner.com
-api.thetake.com
 api.thetamovement.com.br
 api.thetrafficstat.net
 api.tiledesk.com
@@ -72733,7 +72709,6 @@ assets-v2.yieldify.com
 assets-v3.chartboost.com
 assets.abbi.io
 assets.acceptance.sharethrough.com
-assets.activity.windows.com
 assets.adbrain.com
 assets.adobedtm.com
 assets.adspruce.com
@@ -72803,7 +72778,6 @@ assets.mediavine.com
 assets.micpn.com
 assets.minutemediacdn.com
 assets.moat.com
-assets.msn.com
 assets.narvar.com
 assets.nationalgeographic.com
 assets.netizen.co
@@ -74104,10 +74078,6 @@ autenticadas.com
 auth--sso-trust.webflow.io
 auth-canary.flurry.com
 auth-development.treasuredata.com
-auth-em.hismarttv.com
-auth-launcher-em.hismarttv.com
-auth-launcher-na.hismarttv.com
-auth-na.hismarttv.com
 auth-service.adtelligent.com
 auth-stage.btrll.com
 auth-staging.actonsoftware.com
@@ -75295,7 +75265,6 @@ az1.qualtrics.com
 az361816.vo.msecnd.net
 az413505.vo.msecnd.net
 az416426.vo.msecnd.net
-az43064.vo.msecnd.net
 az512334.vo.msecnd.net
 az598575.vo.msecnd.net
 az667904.vo.msecnd.net
@@ -75674,7 +75643,6 @@ b001.recharge.com
 b00abea511.6a70838881.com
 b00m.site
 b014381c95cb.com
-b02.black.ndmdhs.com
 b02byun5xc3s.com
 b059.com
 b062.securityinfowatch.com
@@ -78796,7 +78764,6 @@ bdbc7dce8e.com
 bdbidder.adsame.com
 bdblpy.top
 bdc.evergage.com
-bdcore-apr-lb.bda.ndmdhs.com
 bdcuudklnavrn.net
 bdd549304d.com
 bddatabot.xyz
@@ -84407,8 +84374,6 @@ braverymob.fusetracking.com
 braveryriftraining.com
 bravespace.pro
 bravespeaks.com
-bravia-cfgdst-ore-pro.bda.ndmdhs.com
-bravia.dl.playstation.net
 braviration.ru
 bravo-dog.com
 bravo-lea.com
@@ -84918,10 +84883,8 @@ browser.cloud.ucweb.com
 browser.cloud.wx.ucdns.uc.cn
 browser.events.data.microsoft.com
 browser.events.data.msn.cn
-browser.events.data.msn.com
 browser.events.data.trafficmanager.net
 browser.miui.com
-browser.pipe.aria.microsoft.com
 browser.scloud.letv.com
 browser.sentry-cdn.com
 browser9182.web.fc2.com
@@ -89102,7 +89065,6 @@ call-chieftain.com
 call-tracking.by
 call-tracking.co.uk
 call.kdlocksmithnyc.com
-call.me.sel.sony.com
 call.snigelweb.com
 callahan.agency
 callalelel.info
@@ -92226,7 +92188,6 @@ cdn.hanaprop.com
 cdn.hashflare.eu
 cdn.hasmobi.net
 cdn.hauleddes.com
-cdn.hbbtv.smartclip.net
 cdn.hdat.xyz
 cdn.heapanalytics.com
 cdn.hentaifapland.com
@@ -92535,8 +92496,6 @@ cdn.sagent.io
 cdn.sail-horizon.com
 cdn.sailfish.media
 cdn.sailthru.com
-cdn.samsungcloudsolution.com
-cdn.samsungcloudsolution.net
 cdn.scarabresearch.com
 cdn.scootloor.com
 cdn.sdkconfig.site
@@ -93665,12 +93624,9 @@ cerineas.com
 cermetsutch.com
 ceros.com
 cerotop.com
-cert-api.access.redhat.com
 cert-gib.ru
 cert-test-alias.algolia.com
-cert-test.sandbox.google.com
 cert-webanalytics.lexisnexis.com
-cert.console.redhat.com
 cert.telemetry.ros.rockstargames.com
 certaininstall.com
 certainlyillness.com
@@ -97678,7 +97634,6 @@ cloud-video.unrulymedia.com
 cloud-wp.org
 cloud.a-leaders.com
 cloud.appcelerator.com
-cloud.arqiva.tv
 cloud.bistrobox.pl
 cloud.brandskyddsforeningen.se
 cloud.bygma.se
@@ -97804,7 +97759,6 @@ cloudservice14.kingsoft-office-service.com
 cloudservice17.kingsoft-office-service.com
 cloudservice23.kingsoft-office-service.com
 cloudservice24.kingsoft-office-service.com
-cloudservices.roku.com
 cloudset.xyz
 cloudshielders.com
 cloudshot.cc
@@ -101568,7 +101522,6 @@ connect.bdoalliance.com
 connect.bolt.com
 connect.bounceexchange.com
 connect.chase.com
-connect.cloud.redhat.com
 connect.cognex.com
 connect.darden.virginia.edu
 connect.dcblox.com
@@ -101685,7 +101638,6 @@ connectreadoasis.com
 connects.ch
 connectstats.mckesson.com
 connecttoday.eu
-connecttv.pelmorex.com
 connectupfluence.com
 connectwithremesh.com
 connectwithupfluence.com
@@ -103132,8 +103084,6 @@ contrivancematchingwednesday.com
 contrivancepalette.com
 contrivedsubsist.com
 control-test-ec.adaptv.advertising.com
-control-zoo-dai-default.tvinteractive.tv
-control-zoo-dtsstage.tvinteractive.tv
 control.123banners.com
 control.adap.tv
 control.ads.bbm.com
@@ -103150,13 +103100,11 @@ control.scloud.lfengmobile.com
 control.smbeat.jp
 control.teragence.net
 control.trafficfabrik.com
-control.tvinteractive.tv
 control.vendere.asgoodasnew.it
 control.vendre.asgoodasnew.fr
 control.wirkaufens.at
 control.wirkaufens.de
 control2.justpremium.com
-control2.tvinteractive.tv
 controlaffliction.com
 controlcenter.brealtime.com
 controlcenter.superstats.com
@@ -103602,7 +103550,6 @@ coordinatedglass.pro
 coordinatediningroom.com
 coordinatedtouch.pro
 coordinateinvulnerable.com
-coordinator-production-28516768.us-east-1.elb.amazonaws.com
 coordinator.cm.bloomberg.com
 coordino.com
 coorechucegroo.com
@@ -108254,7 +108201,6 @@ customdomains.buysellads.com
 customds.serving-sys.com
 customer-2263.mi-msg.com
 customer-2468.mi-msg.com
-customer-feedbacks.web.roku.com
 customer-folder-eu.dynamicyield.com
 customer-folder.dynamicyield.com
 customer-pages.leanplum.com
@@ -108274,7 +108220,6 @@ customer.surfline.com
 customerablative.com
 customerconversio.com
 customerdiscoverytrack.com
-customerevents.netflix.com
 customerexperience.co1.qualtrics.com
 customergauge.com
 customerinsight.co.kr
@@ -109578,7 +109523,6 @@ d172q3toj7w1md.cloudfront.net
 d173vqb05g6hza.cloudfront.net
 d174f84q5mcorf.cloudfront.net
 d175757719.com
-d179kwmlpc4o47.cloudfront.net
 d17f2fxw547952.cloudfront.net
 d17gy131liry44.cloudfront.net
 d17m68fovwmgxj.cloudfront.net
@@ -109671,7 +109615,6 @@ d1ivexoxmp59q7.cloudfront.net
 d1je72vo6cxqo9.cloudfront.net
 d1jikhx1ssl81z.cloudfront.net
 d1jl096lp4cce0.cloudfront.net
-d1jwpcr0q4pcq0.cloudfront.net
 d1k0glcmk0b5rb.cloudfront.net
 d1k29rhvz38kg5.cloudfront.net
 d1k3dpebxhgqjc.cloudfront.net
@@ -109717,7 +109660,6 @@ d1obh3sfse4zfc.cloudfront.net
 d1objmgly5nbnw.cloudfront.net
 d1oesr9v7fk227.cloudfront.net
 d1otoma47x30pg.cloudfront.net
-d1oxlq5h9kq8q5.cloudfront.net
 d1p7elpjrt6qav.cloudfront.net
 d1pcttwib15k25.cloudfront.net
 d1pdpbxj733bb1.cloudfront.net
@@ -110029,7 +109971,6 @@ d2tcg4i9q4js4a.cloudfront.net
 d2tgev5wuprbqq.cloudfront.net
 d2tgfbvjf3q6hn.cloudfront.net
 d2tnimpzlb191i.cloudfront.net
-d2tnx644ijgq6i.cloudfront.net
 d2tuygj4en2za2.cloudfront.net
 d2ty8gaf6rmowa.cloudfront.net
 d2u9nuq84jlbj2.cloudfront.net
@@ -110144,7 +110085,6 @@ d37dzu39aqhuxu.cloudfront.net
 d37gvrvc0wt4s1.cloudfront.net
 d37h3y471q0lt2.cloudfront.net
 d37j8pfxu2iogi.cloudfront.net
-d37ju0xanoz6gh.cloudfront.net
 d37kzqe5knnh6t.cloudfront.net
 d37l98t2r94go6.cloudfront.net
 d37oebn0w9ir6a.cloudfront.net
@@ -110268,7 +110208,6 @@ d3m6sept6cnil5.cloudfront.net
 d3m79ugzs2d8im.cloudfront.net
 d3m83gvgzupli.cloudfront.net
 d3mj0pkbugdjcn.cloudfront.net
-d3mjsomixevyw7.cloudfront.net
 d3mr7y154d2qg5.cloudfront.net
 d3mskfhorhi2fb.cloudfront.net
 d3mvnvhjmkxpjz.cloudfront.net
@@ -110289,7 +110228,6 @@ d3owq2fdwtdp2j.cloudfront.net
 d3oxtn1x3b8d7i.cloudfront.net
 d3p.de17a.com
 d3p2b5qewrnsyv.cloudfront.net
-d3p8zr0ffa9t17.cloudfront.net
 d3p9ql8flgemg7.cloudfront.net
 d3pe8wzpurrzss.cloudfront.net
 d3phbp7p78bdk9.cloudfront.net
@@ -112631,7 +112569,6 @@ data.aquilis.tech
 data.archiver-app.sageflo.com
 data.arctik.eu
 data.areavip.realmadrid.es
-data.arqiva.tv
 data.askdermocosmeticos.com.br
 data.asp.coca-cola.com
 data.assainissement-direct.fr
@@ -114453,7 +114390,6 @@ dataapi.ktplay.com
 databank.actonsoftware.com
 database.adx1.com
 database.revmob.com
-database01p.anixe.net
 databasesfarsightedmexican.com
 databasesgoingsenior.com
 databasesgossipy.com
@@ -117642,13 +117578,10 @@ device-analytics.rollout.io
 device-api.asnapieu.com
 device-api.urbanairship.com
 device-detect.browsiprod.com
-device-messaging-na.amazon.com
 device-metrics-us-2.amazon.com
 device-metrics-us.amazon.com
 device-profile.jeniusbank.com
-device-provisioning.googleapis.com
 device.4seeresults.com
-device.cloud.hpe.com
 device.insert.io
 device.invoice2go.com
 device.marketingcloudapis.com
@@ -117667,7 +117600,6 @@ deviceid.trueleadid.com
 deviceidshare.twitch.tv
 devicelog.samsungcloudsolution.net
 devicemag.com
-devicemessaging.us-east-1.amazon.com
 devicemonarchversus.com
 deviceproclamationrivet.com
 deviceprotect.eu
@@ -118152,7 +118084,6 @@ diagnostics-lp.inmobi.com
 diagnostics.apple.com
 diagnostics.apple.com.akadns.net
 diagnostics.office.com
-diagnostics.support.apple.com
 diagnostics.support.microsoft.com
 diagnostics.support.services.microsoft.com
 diagnostics.windows.cloud.microsoft
@@ -120015,7 +119946,6 @@ dmc1acwvwny3.cloudfront.net
 dmc2.sheetz.com
 dmclick.cn
 dmcontactmanagement.122.2o7.net
-dmd.metaservices.microsoft.com
 dmd53.com
 dmdadwkf.icu
 dmdamedia.hu
@@ -121841,7 +121771,6 @@ drrt.h18.ru
 drs2.veinteractive.com
 drs24.com
 drsbf.hannaandersson.com
-drscdn.500px.org
 drsemkuhpg.com
 drshanespeaks.com
 drsmediaexchange.com
@@ -123763,7 +123692,6 @@ e2.extreme-dm.com.prx.proxywebsite.co.uk
 e2.hazeldenbettyford.org
 e2.molbuk.ua
 e2.mouseflow.com
-e2.resources.foxtel.com.au
 e2.spoutable.com
 e2.static.hoptopboy.com
 e2.video-ak.cdn.spotify.com
@@ -124884,7 +124812,6 @@ ecrzm.cusocuts.com
 ecs.demdex.net
 ecs.mantisadnetwork.com
 ecs.mb.moatads.com
-ecs.nel.measure.office.net
 ecs.walgreens.com
 ecs1.engageya.com
 ecsanalytics.com
@@ -125037,7 +124964,6 @@ edge.1073edge.com
 edge.915thebeat.com
 edge.931freshradio.ca
 edge.963bigfm.com
-edge.activity.windows.com
 edge.addthis.com
 edge.adobedc.net
 edge.adultswim.ca
@@ -128909,7 +128835,6 @@ errorrespan.com
 errors.aerosus.de
 errors.client.optimizely.com
 errors.ea.com
-errors.hbbtv.smartclip.net
 errors.imrworldwide.com
 errors.inmoment.com
 errors.perfectgonzo.com
@@ -129211,8 +129136,6 @@ esrimarketing.d1.sc.omtrdc.net
 esrogsrisky.shop
 esrogssannop.shop
 esrpxyahzna.bid
-esrs3-core.emc.com
-esrs3-coredr.emc.com
 esrzqibdfpah-xeb.com
 essads.com
 essay.one
@@ -129937,7 +129860,6 @@ eu-adstatic.sam4m.com
 eu-analytics.sam4m.com
 eu-api.swrve.com
 eu-ast.adiquity.com
-eu-auth2.samsungosp.com
 eu-bl-server.alphonso.tv
 eu-cdn.kgm-motors.co.uk
 eu-cdn.youngle.tech
@@ -134173,7 +134095,6 @@ fcwpxsmiyy.com
 fcwuye.com
 fcxbs.com
 fd-tm.upgrade.com
-fd.api.iris.microsoft.com
 fd.bawag.at
 fd.bingads.microsoft.com
 fd.borskanawha.top
@@ -134536,14 +134457,12 @@ feedback.weareindy.com
 feedback.webengage.com
 feedback.windows.com
 feedback.ziggeo.com
-feedbackassistant.apple.com
 feedbackcensus.com
 feedbackchoice.com
 feedbackify.com
 feedbackmart.com
 feedbackrapt.com
 feedbackresearch.com
-feedbackws.apple.com
 feedbackws.fe.apple-dns.cn
 feedbackws.fe.apple-dns.net
 feedbackws.fe2.apple-dns.net
@@ -135721,10 +135640,8 @@ firearmnutrition.com
 fireballbristleproper.com
 firebase-settings.crashlytics.com
 firebasecrashlytics.googleapis.com
-firebaseinappmessaging.googleapis.com
 firebaselogging-pa.googleapis.com
 firebaselogging.googleapis.com
-firebaseperf.googleapis.com
 firecash.org
 firecatfilms.com
 fireclick.com
@@ -136450,7 +136367,6 @@ flimsythought.com
 flinchham.com
 flinchundoneunequal.com
 flingforyou.com
-flingo.tv
 flintdepreciate.com
 flintpavilion.com
 flintproducebarbarian.com
@@ -137920,7 +137836,6 @@ foxsimpsons.112.2o7.net
 foxsnews.net
 foxsports.hb.omtrdc.net
 foxsports.us.intellitxt.com
-foxtel-prod-events.digitalsmiths.net
 foxtrot10.rtb.appier.net
 foxtrot11.rtb.appier.net
 foxtrot12.rtb.appier.net
@@ -140177,7 +140092,6 @@ funcel.mobi
 funchill.com
 funcionapage.com
 functional-business.com
-functional.events.data.microsoft.com
 functionalclam.com
 functionalcrown.com
 functionalfeather.com
@@ -141452,7 +141366,6 @@ game.allgames4you.mobi
 game.gamingnonstop.net
 game.idoing3d.com
 game.immomo.com
-game.internetat.tv
 game.keysforgames.shop
 game.open.uc.cn
 game.vulcan-casino.com
@@ -141574,7 +141487,6 @@ gameslivefor.com
 gamesloadde.widget.criteo.com
 gamesluck.com
 gamespipe.com
-gamespromotion.samsungcloudsolution.com
 gamesradar.us.intellitxt.com
 gamesrevenu24.com
 gamesrevenue.com
@@ -144634,8 +144546,6 @@ glcdzojthfbaw.site
 glcgytymbp.bid
 glclk.about.com
 glcpzwihisagw.bid
-gld.push.samsungosp.com
-gld.samsungosp.com
 glddhbxmzctdb.online
 gldkj.bysamiiryan.com
 gldrdr.com
@@ -147595,7 +147505,6 @@ gplinks.in
 gplpl.dcshoes.com
 gplqpxhsunghmx.bid
 gpltrrdffobf.com
-gpm.samsungqbe.com
 gpmdata.ru
 gpmdeals4u.com
 gpmznplrczobob.com
@@ -153723,11 +153632,8 @@ hbatterysaver2017.u.xoxknct.com
 hbb.afl.rakuten.co.jp
 hbb.concentra.be
 hbbgrhzqezz.com
-hbbtv-1.eurosport.com
-hbbtv-extern-fe01.sim-technik.de
 hbbtv-track.prosieben.de
 hbbtv-track.prosiebensat1puls4.com
-hbbtv-track.redbutton.de
 hbbtv-track.wt-eu02.net
 hbbtv.3sat.de
 hbbtv.kabeleins.de
@@ -153737,8 +153643,6 @@ hbbtv.rtl2.de
 hbbtv.sat1.de
 hbbtv.sixx.de
 hbbtv.superrtl.de
-hbbtv01p.anixe.net
-hbbtvapp.sonnenklar.tv
 hbbwlhxfnbpq.com
 hbbxkbjhiiue.bid
 hbc.co1.qualtrics.com
@@ -156476,7 +156380,6 @@ hooru.regence.com
 hooshoam.net
 hoot.pics
 hootpreceding.com
-hoover.sxp.smartclip.net
 hooverangus.com
 hoovers.7eer.net
 hoovers.us.intellitxt.com
@@ -159268,7 +159171,6 @@ ibilisk.iad-01.braze.com
 ibillboard.com
 ibis.fitanalytics.com
 ibis.iad-03.braze.com
-ibis.lgappstv.com
 ibishic.ru
 ibizne.ru
 ibjbookpublishing.com
@@ -159308,7 +159210,6 @@ ibroad7.com
 ibrtbyb7zchdr45xstnyowuhjrlpz1505349342.nuid.imrworldwide.com
 ibryte.com
 ibs.indiatimes.com
-ibs.lgappstv.com
 ibspcojofkbyy.com
 ibsxnvottfiou.space
 ibsys.com
@@ -162057,7 +161958,6 @@ img-origin.trafficshop.com
 img-origin.vidible.tv
 img-peco.ucweb.com
 img-perli.com
-img-resize-cdn-prod.samsungnyc.com
 img-sj2.mediaplex.com
 img-sjc.wip.mediaplex.com
 img-sparkasse-koelnbonn.wt-eu02.net
@@ -164312,14 +164212,12 @@ infographic-world.actonsoftware.com
 infographicjourna.com
 infogrids.com
 infoguardru.info
-infogw.api.openshift.com
 infohimatalk77.net
 infoinvest.takuto-investment.com
 infoip.io
 infoisinfo01.webtrekk.net
 infoisinfo01.wt-eu02.net
 infokz.com
-infolink.pavv.co.kr
 infolinks.com
 infoltd-uncategorized.t.domdex.com
 infomart.ca.112.2o7.net
@@ -164408,7 +164306,6 @@ infoscreen.de
 infosecedu.org
 infoservice.paratherm.com
 infoservicetech.com
-infosight.hpe.com
 infosniper.net
 infospace-search.t.domdex.com
 infospace.com
@@ -177125,7 +177022,6 @@ legacydocs.fyber.com
 legacyjoin.com
 legacylabs.go2cloud.org
 legacyminerals.net
-legacyportal.nettvservices.com
 legacywatson.trafficmanager.net
 legal-language.pro
 legal-weight.pro
@@ -177655,7 +177551,6 @@ lga2-d.applovin.com
 lga2-rtbprod.applovin.com
 lga2stage-rtb.applovin.com
 lgaafmqfwrdm.com
-lgad.cjpowercast.com
 lgad.cjpowercast.com.edgesuite.net
 lgadamericas.tt.omtrdc.net
 lgads.tv
@@ -177707,8 +177602,6 @@ lgtdkpfnor.com
 lgthvsytzwtc.com
 lgtiaqukf.com
 lgtnwgfqkyyf.com
-lgtvcommon.com
-lgtvonline.lge.com
 lgvowkkifkdzk.online
 lgvoz.saalt.com
 lgxtao.aheads.co.kr
@@ -184269,8 +184162,6 @@ loft-analytics.gtmcapital.com.br
 loftychord.com
 loftyleads.com
 log-01.ec2.us.east.liverail.com
-log-1.samsungacr.com
-log-2.samsungacr.com
 log-3.samsungacr.com
 log-720ad60f.afirme.com
 log-96951fce.comerica.com
@@ -184456,7 +184347,6 @@ log.incredibar-search.com
 log.indianauto.com
 log.infonet.vn
 log.intellimize.co
-log.internetat.tv
 log.invodo.com
 log.ioam.de
 log.isnssdk.com
@@ -185174,7 +185064,6 @@ logs1285.xiti.com
 logs13.xiti.com
 logs1400.xiti.com
 logs1403.xiti.com
-logs1409.xiti.com
 logs177.xiti.com
 logs2.appsflyer.com
 logs2.jobs.com
@@ -189458,7 +189347,6 @@ manage-v5.smartadserver.com
 manage-v53.smartadserver.com
 manage.carbonads.com
 manage.com
-manage.devcenter.microsoft.com
 manage.engage.centerwellpharmacy.com
 manage.ensighten.com
 manage.igexin.com
@@ -189472,7 +189360,6 @@ manage001.adtech.fr
 manage001.adtech.us
 manageadv.cblogs.eu
 managed-reports.thumbvista.com
-managed.xmpp.foxtel.com.au
 managedpush.com
 management-api.agkn.com
 management.exoclick.com
@@ -196197,7 +196084,6 @@ mcount.easebar.com
 mcount.ru
 mcoxwaajhri.com
 mcp-video.mediavine.com
-mcp.tvinteractive.tv
 mcp8f.voluumtrk.com
 mcpaz.voluumtrk.com
 mcppsh.com
@@ -202120,7 +202006,6 @@ midstsquonset.com
 midsummertuesdaydistress.com
 midtc.com
 midvalleyadagency.com
-midway.ext.hpe.com
 midwayjfpvbvwuy.download
 midwifefrightendish.com
 midwifemoist.com
@@ -217079,9 +216964,7 @@ msfpa.solawoodflowers.com
 msft.demdex.net
 msftmaintenancepage.marketo.com
 msg-2.me
-msg-em.hismarttv.com
 msg-intl.qy.net
-msg-na.hismarttv.com
 msg.71.am
 msg.api.9apps.com
 msg.cocamobile.com
@@ -219750,7 +219633,6 @@ musicflashcard.com
 musicgo.s.xoxknct.com
 musicianfinnish.com
 musiciansfriend.btttag.com
-musicid.samsungcloudsolution.com
 musicinsuggest.music.uodoo.com
 musicmatch.com
 musicmembersarea.com
@@ -220909,7 +220791,6 @@ myhitbox.com
 myhk.veinteractive.com
 myhome.usg.com
 myhomeloans.org
-myhomescreen.tv
 myhometownads.com
 myhoneyladys.org
 myhot-parks.org
@@ -222336,7 +222217,6 @@ nbbljlzbbpck.com
 nbbtcqoejxhgd.online
 nbbvpxfxnamb.com
 nbc-analytics-drwcpccxdq-as.a.run.app
-nbc-jite.nbcuni.com
 nbc.interpolls.com
 nbc.switchadhub.com
 nbcdebris2021.com
@@ -223237,7 +223117,6 @@ nettno.nuggad.net
 nettokom-lp.information.nettokom.de
 nettown.com
 nettracx.com
-nettv.corio.com
 netund.com
 netupdater.info
 netvigie.com
@@ -224255,7 +224134,6 @@ ngf.co1.qualtrics.com
 ngffn.online
 ngfruitiesmatc.info
 ngfsciiu.com
-ngfts.lge.com
 nggbpptthpm.com
 nggli.sweethoneyclothing.com
 nginx-00.actnx.com
@@ -225712,14 +225590,11 @@ nothingviewcontend.com
 nothycantyo.com
 notice-tmo.notice.assurancewireless.com
 notice.game.xiaomi.com
-notice.samsungcloudsolution.com
 notice1-09.com
 notice1-11.com
 notice1-12.com
 noticeboard.netmarble.com
-noticecdn.samsungcloudsolution.com
 noticeclockdroop.com
-noticefile.samsungcloudsolution.com
 noticias.life
 noticiasftpsrv.com
 notif-push.9gag.com
@@ -226467,7 +226342,6 @@ ns106.ehostpros.com
 ns11.clickability.com
 ns11.dnsmadeeasy.com
 ns11.omtrdc.net
-ns11.whois.co.kr
 ns115.aj2640.bid
 ns12.clickability.com
 ns12.dnsmadeeasy.com
@@ -229344,7 +229218,6 @@ ocelot.sonicumonitoring.com
 ocelot.studio
 ocenf.revolution-nutrition.com
 oceuwezutqfcbx.com
-ocfconnect-shard-eu02-euwest1.samsungiotcloud.com
 ocfgz.ta3swim.com
 ocfsmefzzarkmo.com
 ocgra.shop.bucks.com
@@ -229489,7 +229362,6 @@ ocvoqvalko.com
 ocvrulo.digital
 ocvzw98.alphonso.tv
 ocworkbench.us.intellitxt.com
-ocws.officeapps.live.com
 ocwutmrfbsrwy.store
 ocx.umeng.com
 ocxxx.com
@@ -229525,7 +229397,6 @@ odbcacher.outbrain.com
 odbierz-bony.ovp.pl
 odbsmbtdcjuzp.site
 odc.1und1.de
-odc.officeapps.live.com
 odc.starwave.com
 odc.weather.com
 odc.wunderground.com
@@ -229672,7 +229543,6 @@ oem.twimg.com
 oembed.brightcove.com
 oemeomlbkba.com
 oempafnyfiexpe.com
-oempprd.samsungcloudsolution.com
 oempprd.samsungcloudsolution.net
 oemutbhpmcvfpnv.com
 oenlk.findyourlovee.com
@@ -234024,7 +233894,6 @@ openap.tv
 openapi-smsp.getui.com
 openapi.brightcove.com
 openapi.cymera.com
-openapi.samsung.com
 openapi.vip.ptqy.gitv.tv
 openapi.youbit.co.kr
 openbid-europe.pubmatic.com
@@ -235194,11 +235063,8 @@ osamara.com
 osanmeijvqh.com
 osano.com
 osarmapa.net
-osb-apps-v2.samsungqbe.com
 osb-eusvc.samsungqbe.com
 osb-krsvc.samsungqbe.com
-osb-v2.samsungqbe.com
-osb.samsungqbe.com
 osbarter.in
 osbblnlmwzcr.com
 osbbynqv.com
@@ -236686,7 +236552,6 @@ p-comme-performance.com
 p-digital-server.com
 p-eu.adsymptotic.com
 p-geo.movetv.com
-p-hbbtv.superrtl.de
 p-i.net
 p-jkeg5r.project.space
 p-jp-cci-dps.cinarra.com
@@ -238986,7 +238851,6 @@ pavinchecke.shop
 pavlov-prod.healthline.com
 pavonefood.com
 pavonefoodandbev.com
-pavv.co.kr
 pavymoieter.com
 pawamedia.com
 pawcon.com
@@ -248201,7 +248065,6 @@ platform.aerserv.com
 platform.amobee.com
 platform.bidgear.com
 platform.blismedia.com
-platform.cid.samba.tv
 platform.cloud-iq.com.au
 platform.communicatorcorp.com
 platform.cparoll.com
@@ -250781,8 +250644,6 @@ popclck.net
 popclck.org
 popclick.net
 popcollage.s.xoxknct.com
-popcon.debian.org
-popcon.ubuntu.com
 popcorn.chartboost.com
 popcorncornopolis.ojrq.net
 popcornfood.com
@@ -251849,7 +251710,6 @@ prd.jwpltx.com
 prd.sca.samsung.com
 prd1.personalization.centech.glulive.com
 prd1.revid.centech.glulive.com
-prderrordumphsm.samsungcloudsolution.com
 prderrordumpssm.samsungcloudsolution.net
 prdmjutk.com
 prdmtm.ereinsure.com
@@ -252023,7 +251883,6 @@ preferencenail.com
 preferences-mgr.truste.com
 preferences.ads.roku.com
 preferences.advicecomms.aware.com.au
-preferences.cid.samba.tv
 preferences.com
 preferences.crwdcntrl.net
 preferences.email.gobrightline.com
@@ -252090,7 +251949,6 @@ premium-members.com
 premium-offers.com
 premium-offers.space
 premium-rx.com
-premium-videos.telly.com
 premium.2ch.net
 premium.analys.cloud
 premium.criteo.com
@@ -253865,7 +253723,6 @@ prov-geo.alphonso.tv
 prov-lb.alphonso.tv
 prov-lg.alphonso.tv
 prov.alphonso.tv
-prov.samsungcloudsolution.com
 prov4.alphonso.tv
 prov5.alphonso.tv
 provalist.info
@@ -256803,8 +256660,6 @@ qcdn.adx1.com
 qcduuw89.alphonso.tv
 qceartfa.com
 qceixjlqe.com
-qcenter-events-device.api.myqnapcloud.cn
-qcenter-events-device.api.myqnapcloud.com
 qcenter-metrics-device.api.myqnapcloud.cn
 qcenter-metrics-device.api.myqnapcloud.com
 qcexplnqbrral.com
@@ -261064,7 +260919,6 @@ rdwfotuyp.bid
 rdwmcr.com
 rdwmct.com
 rdwsjnifcemg.com
-rdx2.lgtvsdp.com
 rdxwaydglehog.com
 rdyipjcfgurypl.com
 rdzjxlizigryv.online
@@ -261722,8 +261576,6 @@ redbull01.webtrekk.net
 redbullmediahouse.hb.omtrdc.net
 redbullmediahouse.sc.omtrdc.net
 redbutton-adproxy-lb-prod.redbutton.de
-redbutton-lb-prod.redbutton.de
-redbutton.sim-technik.de
 redcable.pro
 redcapsunlime.com
 redcarpetshows.com
@@ -264572,7 +264424,6 @@ rirpgdsj.icu
 rirteelraibsou.net
 rirvzj.icu
 ris-gateway.supersonicads.com
-ris.api.iris.microsoft.com
 ris.fiksu.com
 risadoe.xyz
 risale.ru
@@ -265433,7 +265284,6 @@ rokt.com
 roktb.adx1.com
 roktinternal.com
 roku-beacons.xumo.com
-roku.com
 roku.prod.vidible.tv
 roku.stage.vidible.tv
 roku.vidible.tv
@@ -267871,7 +267721,6 @@ rwulzuaqsafn.com
 rwwa.demdex.net
 rwwaadminadobeanalytics.sc.omtrdc.net
 rwwmbymaezkla.top
-rwww.samsungotn.net
 rwxivmfldvo.com
 rwxpkychnthdx.space
 rwxzeoqfj.com
@@ -270776,9 +270625,6 @@ samsungcard.sc.omtrdc.net
 samsungchina.tt.omtrdc.net
 samsungcis.demdex.net
 samsungcis.tt.omtrdc.net
-samsungcloudsolution.com
-samsungcloudsolution.net
-samsungelectronics.com
 samsungelectronicsamericainc.demdex.net
 samsungeu.demdex.net
 samsungeucdm.demdex.net
@@ -270803,7 +270649,6 @@ samsungmalaysia.api.useinsider.com
 samsungmena.tt.omtrdc.net
 samsungmsc.d1.sc.omtrdc.net
 samsungnorthamerica.sc.omtrdc.net
-samsungotn.net
 samsungott.sora.yoyi.com.cn
 samsungpakistan.api.useinsider.com
 samsungph.api.useinsider.com
@@ -270812,7 +270657,6 @@ samsungpositioning.com.cn
 samsungqbe.com
 samsungr.com
 samsungrm.com
-samsungrm.net
 samsungrs.com
 samsungrum.beusable.net
 samsungsamcol.api.useinsider.com
@@ -271317,7 +271161,6 @@ sas.com
 sas.decisionnews.com
 sas.rea.global
 sas.reactjsjob.com
-sas.samsungcloudsolution.com
 sas15k01.com
 sas2017.ereality.org
 sas2trk.com
@@ -271805,7 +271648,6 @@ sc50trk.com
 sc5pr.voluumtrk.com
 sc65trk.com
 sc6cxtrk.com
-sca.samsung.com
 sca1.listrakbi.com
 scabrinagura.com
 scad.co1.qualtrics.com
@@ -272017,7 +271859,6 @@ schedule-interview.com
 schedule-job-application.com
 schedule.aimtell.com
 schedulegoeshydrogen.com
-scheduler.hbbtv.smartclip.net
 schedulerationally.com
 scheller.qualtrics.com
 schema-creator.org
@@ -272482,7 +272323,6 @@ scryptpool.com
 scs.arcteryx.com
 scs.lacapitale.com
 scs.lifenet-seimei.co.jp
-scs.samsungqbe.com
 scs.webtrends.com
 scsej.beboe.com
 scsklzqwme.com
@@ -274623,7 +274463,6 @@ self-service.uberads.com
 self-test.sabnzbd.org
 self.adsame.com
 self.com.102.112.2o7.net
-self.events.data.microsoft.com
 selfadvertiser.com
 selfassured-towel.pro
 selfcampaign.com
@@ -278276,7 +278115,6 @@ settings-win-ppe.data.microsoft.com
 settings-win.data.microsoft.com
 settings.brightcove.com
 settings.crashlytics.com
-settings.data.microsoft.com
 settings.luckyorange.net
 settings.outbrain.com
 settings.picsart.com
@@ -284710,7 +284548,6 @@ smartracker.net
 smartredirect.de
 smartresponse-media.com
 smartsellingfasterscaling.com
-smartshare.lgtvsdp.com
 smartshare.tv
 smartsign.evergage.com
 smartstalk.com
@@ -292743,7 +292580,6 @@ sony.pxf.io
 sony.qualtrics.com
 sony.tcliveus.com
 sonybank.d1.sc.omtrdc.net
-sonybivstatic-a.akamaihd.net
 sonychina.112.2o7.net
 sonycomputerentertai.tt.omtrdc.net
 sonycorporate.112.2o7.net
@@ -303623,7 +303459,6 @@ start.adrecover.com
 start.badults.se
 start.branch.io
 start.corp.exoclick.com
-start.digitaltext.rtl.de
 start.ecornell.cornell.edu
 start.ef.com
 start.fotostrana.ru
@@ -316215,7 +316050,6 @@ subs.mp.ucweb.com
 subs.prod.vidible.tv
 subs.vidible.tv
 subscribe.hearstmags.com
-subscribe.insight.synology.com
 subscribe.test.novonordiskajotest.com
 subscribedefinitionhosiery.com
 subscriber.smallbusinessstartup.com
@@ -316614,7 +316448,6 @@ sup.adfox.ru
 sup.singular.net
 sup.srvtax.com
 supamaker.dev
-supapi.synology.com
 supapush.net
 suparewards.com
 supcareer-com.eulerian.net
@@ -318139,7 +317972,6 @@ synchroscript.ui.adswizz.com
 syncingbridge.com
 syncomsmatzoth.shop
 synconnector.com
-syncplusconfig.s3.amazonaws.com
 syncrasy.io
 syncstatus.naiadsystems.com
 synctrack.io
@@ -321013,7 +320845,6 @@ targetcircle.fr
 targetcircle.nl
 targetclick.com
 targetctracker.com
-targeted-config-test.samsungacr.com
 targetedinfo.com
 targetednotifications-tm.trafficmanager.net
 targetedtopic.com
@@ -321872,7 +321703,6 @@ teamrubicon.ong
 teams-events-data.trafficmanager.net
 teams-live.com
 teams.adx1.com
-teams.events.data.microsoft.com
 teams.nel.measure.office.net.cardano.com
 teams.optimizely.com
 teams.yovu.ca
@@ -322396,7 +322226,6 @@ telemetry.stytch.com
 telemetry.svc.halowaypoint.com
 telemetry.svc.transifex.net
 telemetry.swe.quicinc.com
-telemetry.sys.truenas.net
 telemetry.threatdown.com
 telemetry.timescale.com
 telemetry.tradingview.com
@@ -324744,7 +324573,6 @@ time.co1.qualtrics.com
 time.hls.ak.o.brightcove.com.edgesuite.net
 time.metimespain.com
 time.pd.ak.o.brightcove.com
-time.samsungcloudsolution.com
 time.uds.ak.o.brightcove.com
 time.video.ptqy.gitv.tv
 timeanddate-d.openx.net
@@ -327904,7 +327732,6 @@ traces-us-east-1.dev.sr.roku.com
 traces-us-west-2.dev.sr.roku.com
 traces.ai
 traces.dev.sr.roku.com
-traces.sr.roku.com
 tracesjigsaw.com
 traceslocallynotable.com
 tracesrepulsemomentary.com
@@ -329421,7 +329248,6 @@ track.spots.im
 track.spray.dhakabazarbd.com
 track.sprinklecontent.com
 track.sqrtt.pro
-track.sr.roku.com
 track.srchbid.com
 track.srv.vietnamnet.vn
 track.stadtnavi.de
@@ -330923,7 +330749,6 @@ tracking.levelup.telekom.com
 tracking.lever.co
 tracking.leverture.com
 tracking.lg.com
-tracking.lgappstv.com
 tracking.lifbi.de
 tracking.lifescript.com
 tracking.lightbridgeacademy.com
@@ -334509,7 +334334,6 @@ tv-api.blivenyc.com
 tv-best.net
 tv-now.us.intellitxt.com
 tv-rightcelebrity.us.intellitxt.com
-tv-static.scdn.co
 tv.ads.spotx.tv
 tv.app.migc.xiaomi.com
 tv.broilquiet.digital
@@ -334571,7 +334395,6 @@ tvguide.112.2o7.net
 tvguru-lp.olympuswaymarketing.com
 tvhyilwkn.com
 tvighjqdabj.com
-tvinteractive.tv
 tviqzqsrdvofl.website
 tvisioninsights.co.jp
 tvisioninsights.com
@@ -334590,7 +334413,6 @@ tvlistings3.zap2it.com
 tvlistings4.zap2it.com
 tvlubtrxcold.com
 tvmds.tvpassport.com
-tvmeta-dynamic.tvinteractive.tv
 tvmovie.de.intellitxt.com
 tvmtracker.com
 tvn.adocean.pl
@@ -334629,7 +334451,6 @@ tvseriesfinale.us.intellitxt.com
 tvshowapi.apk.v-mate.mobi
 tvshowslist.com
 tvshowsnow.tvmax.hop.clickbank.net
-tvsideviewandroidv2-cfgdst-ore-pro.bda.ndmdhs.com
 tvsmiles.g2afse.com
 tvspielfilm.cleverpush.com
 tvspix.com
@@ -336483,7 +336304,6 @@ uim.adfarm1.adition.com
 uim.adition.com
 uim.image.adition.com
 uim.tifbs.net
-uimetadata.samsungiotcloud.com
 uimrmuoztkoia.com
 uimserv.net
 uinbjfve.com
@@ -337673,7 +337493,6 @@ unif-id.ssp.inmobi.com
 unif.hedgy-haagplanten.nl
 unifi-report.ubnt.com
 unifi.corp.exoclick.com
-unified-ter-na.hismarttv.com
 unified.adsafeprotected.com
 unifiedbidding.ad.smaato.net
 unifieddataconnect.click
@@ -338903,7 +338722,6 @@ us-ads.openx.net
 us-ads2.openx.net
 us-adstatic.sam4m.com
 us-aliexpress.com
-us-api.samsungyosemite.com
 us-ast.adiquity.com
 us-ax.lemnisk.co
 us-beet.videoplaza.tv
@@ -339088,13 +338906,11 @@ us.gn.com
 us.heisenberg.inmobi.com
 us.homeprv.lgtvcommon.com
 us.i1.yimg.com
-us.ibs.lgappstv.com
 us.info.lgsmartad.com
 us.inmobi.koneomobiledsp.com
 us.js.yimg.com
 us.labs.teads.tv
 us.lgsmartad.com
-us.lgtvsdp.com
 us.linkury.com
 us.lrd.yahoo.com
 us.metrics.adswizz.com
@@ -339112,7 +338928,6 @@ us.pixel.newscgp.com
 us.pxf.io
 us.qualtrics.com
 us.rdl.lgtvcommon.com
-us.rdx2.lgtvsdp.com
 us.recommend.lgtvcommon.com
 us.rmcontent.advertising.com
 us.rmevent.advertising.com
@@ -339248,7 +339063,6 @@ usage.osmap.uk
 usage.osmap.us
 usage.osmappa.it
 usage.trackjs.com
-usage.truenas.com
 usage.weba-sonnenschirme.de
 usageanalytics.coveo.com
 usageanalyticsdev.coveo.com
@@ -340455,7 +340269,6 @@ v1.sellbuy.click
 v1.your-notification.tools
 v10-win.vortex.data.trafficmanager.net
 v10.cnzz.com
-v10.events.data.microsoft.com
 v10.vortex-win.data.microsoft.com
 v10.xmlsearch.miva.com
 v10c.events.data.microsoft.com
@@ -341515,8 +341328,6 @@ vcyxvhxysl.com
 vczprcezg.com
 vczxiiea.icu
 vd-vbox-242.top
-vd.contents.prod.eu.s3.amazonaws.com
-vd.emp.prd.s3.amazonaws.com
 vd.hedgybateman.com
 vd.saharicseethes.shop
 vd.spotad.co
@@ -350152,7 +349963,6 @@ wats.everesttech.net
 wats.gogoinflight.com
 watson.alpha.telemetry.microsoft.com
 watson.df.telemetry.microsoft.com
-watson.events.data.microsoft.com
 watson.live.com
 watson.microsoft.com
 watson.officeint.microsoft.com
@@ -362306,7 +362116,6 @@ www.teilsidhobehqy.download
 www.tekka.it
 www.tekzie.com
 www.telecommand.telemetry.microsoft.com.nsatc.net
-www.telecommandsvc.microsoft.com
 www.telemetry.appex.bing.net
 www.telemetrydeck.com
 www.temperersgelvhakyk.download

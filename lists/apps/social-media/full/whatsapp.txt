@@ -1,0 +1,33 @@
+# BlackRabbitZ DNS Blocklists
+# Title: WhatsApp
+# Description: WhatsApp-/Meta-Tracking
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: Aus vorhandenen BlackRabbitZ-/dokumentierten HaGeZi-Domains konservativ abgeleitet
+# Risk: variabel
+# Data status: abgeleitet
+# Data method: derived-keyword
+# Entries: 20
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+abmeldung.information.whatsappsim.de
+analytics.whatsapp.com
+crashlogs.whatsapp.net
+data.hinweis.whatsappsim.de
+data.information.whatsappsim.de
+data.testing.whatsappsim.de
+data.umfrage.whatsappsim.de
+downloads-whatsapp.com
+gtm.lucibellagrupowhatsapp.cabe.shop
+smetrics.whatsappsim.de
+tracking.whatsappbgr.com
+tracking.whatsapplp.com
+whatsapp-32w.pages.dev
+whatsapp-chat.xyz
+whatsappmessages.info
+whatsapps.com
+whatsappsohbetet.com
+whatsappsohbetim.net
+www.downloads-whatsapp.com
+www.whatsapps.com
