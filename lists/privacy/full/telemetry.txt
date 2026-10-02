@@ -5,7 +5,7 @@
 # License: GPL-3.0-only; siehe THIRD_PARTY.md fuer Drittquellen
 # Sources: BlackRabbitZ statischer Datenbestand
 # Risk: mittel
-# Entries: 29163
+# Entries: 29166
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -12847,6 +12847,7 @@ events.redditmedia.com
 events.robertsonelectric.com
 events.shareably.net
 events.squarespace.com
+events.telemetry.data.nvidia.com
 events.textme-app.com
 events.thangs.com
 events.tubecup.org
@@ -28501,6 +28502,7 @@ telemetry.goodlifefitness.com
 telemetry.hoerbuchfabrik.de
 telemetry.horizonfitness.ca
 telemetry.horizonfitness.com
+telemetry.individual.githubcopilot.com
 telemetry.intel.com
 telemetry.jivo.ru
 telemetry.jivosite.com
@@ -28808,6 +28810,7 @@ uxanalytics.ama.gov.pt
 uxmetrics.unipolsai.it
 v-collector.dp.aws.charter.com
 v-stats.vividus.agency
+v10.events.data.microsoft.com
 v10c.events.data.microsoft.com
 v2.analytics.dreher-media.de
 valencia-beacons.xumo.com

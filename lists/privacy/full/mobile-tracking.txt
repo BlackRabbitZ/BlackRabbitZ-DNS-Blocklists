@@ -5,7 +5,7 @@
 # License: GPL-3.0-only; siehe THIRD_PARTY.md fuer Drittquellen
 # Sources: BlackRabbitZ statischer Datenbestand
 # Risk: niedrig-mittel
-# Entries: 201
+# Entries: 205
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -34,6 +34,7 @@ alog.umeng.com
 alog.umengcloud.com
 alogs.umengcloud.com
 amplitude.com
+analytics.adjust.com
 analytics.portalinmobiliario.com
 analytics.unity3d.com
 analytics.virginmobile.mx
@@ -47,6 +48,7 @@ api.segment.io
 api.uca.cloud.unity3d.com
 api2.amplitude.com
 api2.branch.io
+api3.branch.io
 app-analytics.snapchat.com
 app-measurement.com
 app.adjust.com
@@ -68,6 +70,7 @@ ase.adserver.snapads.com
 auction.unityads.unity3d.com
 branch.io
 braze.com
+c6thn4.launches.appsflyersdk.com
 cdn.branch.io
 cdp.cloud.unity3d.com
 chartboost.com
@@ -132,6 +135,7 @@ inmobicdn.net
 inmobipso.com
 inner-active.mobi
 ironsrc.com
+jinidm.register.appsflyersdk.com
 kochava.com
 leanplum.com
 live.chartboost.com

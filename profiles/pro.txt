@@ -5,7 +5,7 @@
 # License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
 # Sources: BlackRabbitZ Privacy/Platform/App Pro; dokumentierte HaGeZi-Anteile
 # Risk: niedrig-mittel
-# Entries: 371516
+# Entries: 371530
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 # Generated: ja
@@ -55241,6 +55241,7 @@ analytics.adi-na.fr
 analytics.adi.so
 analytics.adidas.com.cn
 analytics.adjmpw.com
+analytics.adjust.com
 analytics.adk.de
 analytics.adknstage.com
 analytics.adlnetworks.com
@@ -69814,6 +69815,7 @@ api2.zocdoc.com
 api211.thefilter.com
 api28.thetrafficstat.net
 api28.webovernet.com
+api3.branch.io
 api3.ksapisrv.com
 api3.siftscience.com
 api3.testrequest.info
@@ -70362,7 +70364,6 @@ app.lfstmedia.com
 app.lijit.com
 app.link
 app.lofeen.com
-app.lovoo.com
 app.magnetic.com
 app.manage.ensighten.com
 app.market.xiaomi.com
@@ -88594,6 +88595,7 @@ c6530e.r.axf8.net
 c66ab37744.86d0868ed3.com
 c683207.ssl.cf2.rackcdn.com
 c6orlterk.com
+c6thn4.launches.appsflyersdk.com
 c6vb.com
 c7.amazingcounters.com
 c7.la4.download.9appsinstall.com
@@ -130405,6 +130407,7 @@ eventdbservice-ah.vertamedia.com
 eventdbservice-sh.vertamedia.com
 eventer-player.bqstreamer.com
 eventexistence.com
+eventfnt-eu.dsp-api.moloco.com
 eventfulpitcher.com
 eventgateway.soundcloud.com
 eventgeniustracksdk.optimove.net
@@ -130627,6 +130630,7 @@ events.superads.cn
 events.tabmo.io
 events.taboola.com
 events.tapjoy.com
+events.telemetry.data.nvidia.com
 events.textme-app.com
 events.thangs.com
 events.tremorhub.com
@@ -169203,6 +169207,7 @@ jingleshoncho.com
 jinglespaciousevolution.com
 jingsang.com
 jinguanjixie.com
+jinidm.register.appsflyersdk.com
 jiniqgj4.alphonso.tv
 jinjaadvertising.d1.sc.omtrdc.net
 jinjiacai.com.cn
@@ -184942,6 +184947,7 @@ logs-partners.coupang.com
 logs.51cto.com
 logs.81plug.com
 logs.adroll.com
+logs.ads.vungle.com
 logs.af-south-1.amazonaws.com
 logs.algolia.com
 logs.algolia.net
@@ -185722,7 +185728,6 @@ lovingspeakclasped.com
 lovn.ru
 lovnlite.com
 lovnxkrszlsb.com
-lovoo.com
 lovooapi.adninja.de
 lovvisad.com
 lovvznyhujf.com
@@ -225580,6 +225585,7 @@ nothingpetwring.com
 nothingunit.com
 nothingviewcontend.com
 nothycantyo.com
+noti-eu.adsmoloco.com
 notice-tmo.notice.assurancewireless.com
 notice.game.xiaomi.com
 notice1-09.com
@@ -252776,6 +252782,7 @@ prod-m-node-1212.nexage.com
 prod-m-node-2111.ssp.advertising.com
 prod-m-node-2112.nexage.com
 prod-m-node-3111.ssp.advertising.com
+prod-mediate-events.applovin.com
 prod-ms.applovin.com
 prod-native.actionbutton.co
 prod-news-notification-events.v.aaplimg.com
@@ -262038,6 +262045,7 @@ reginaanalytics.co.za
 region.ksapisrv.com
 region.z.nomobileads.com
 region1.analytics.google.com
+region1.app-analytics-services.com
 region1.google-analytics.com
 region13.co1.qualtrics.com
 regionads.ru
@@ -272701,6 +272709,7 @@ sdk3.ibm.xtify.com
 sdk4push.com
 sdk6.ibm.xtify.com
 sdk8.ibm.xtify.com
+sdkapi.dsp-api.moloco.com
 sdkapi.kookong.com
 sdkapi.netmera.com
 sdkapi.webeyemob.com
@@ -272719,6 +272728,7 @@ sdkconfig.ad.xiaomi.com
 sdkconfig.vrvm.com
 sdkdata.appia.com
 sdkeu.ssp.taxssp.com
+sdkeventfnt-eu.dsp-api.moloco.com
 sdkevents.zapr.in
 sdkfjxjertertry.com
 sdkgw.us1.twilio.com
@@ -272737,6 +272747,7 @@ sdkm.w.inmobi.cn
 sdkm.w.inmobi.com
 sdkm.w.vip.ams1.inmobi.com
 sdkmetrics.mercadopago.com.br
+sdkopmetrics-eu.dsp-api.moloco.com
 sdks.stats-locations.com
 sdkstat.ggsafe.com
 sdkstatic.onemt.co
@@ -315636,6 +315647,7 @@ struq.quantserve.com
 strwh.com
 stryde.com
 sts.advertising.microsoft.com
+sts.applovin.com
 sts.atlassolutions.com
 sts.batmobi.net
 sts.blr.com
@@ -322158,6 +322170,7 @@ telemetry.goodlifefitness.com
 telemetry.hoerbuchfabrik.de
 telemetry.horizonfitness.ca
 telemetry.horizonfitness.com
+telemetry.individual.githubcopilot.com
 telemetry.intel.com
 telemetry.jivo.ru
 telemetry.jivosite.com
@@ -340254,6 +340267,7 @@ v1.sellbuy.click
 v1.your-notification.tools
 v10-win.vortex.data.trafficmanager.net
 v10.cnzz.com
+v10.events.data.microsoft.com
 v10.vortex-win.data.microsoft.com
 v10.xmlsearch.miva.com
 v10c.events.data.microsoft.com
@@ -349910,6 +349924,7 @@ waterboa.midu.dev
 waterboa.nighttrain.co
 watercreativestudio.com
 waterfall-manager.voodoo-tech.io
+waterfall.inner-active.mobi
 waterfrontmedia.112.2o7.net
 waterhole.io
 waterindia.in
@@ -359802,7 +359817,6 @@ www.lostartofbeingadame.com
 www.lostwebtracker.com
 www.lotame.com
 www.lottoforever.com
-www.lovoo.com
 www.lowes-pianos-and-organs.com
 www.lowndestdhlpcpo.download
 www.loxtk.com

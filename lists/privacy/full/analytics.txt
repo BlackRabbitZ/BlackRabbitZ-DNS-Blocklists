@@ -7,7 +7,7 @@
 # Risk: variabel
 # Data status: abgeleitet
 # Data method: derived-keyword
-# Entries: 35879
+# Entries: 35886
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -1235,6 +1235,7 @@ analytics.adi-na.fr
 analytics.adi.so
 analytics.adidas.com.cn
 analytics.adjmpw.com
+analytics.adjust.com
 analytics.adk.de
 analytics.adknstage.com
 analytics.adlnetworks.com
@@ -12841,6 +12842,7 @@ api.videometrics.ted.com
 api2.amplitude.com
 api2.mixpanel.com
 api2.segment.io
+api3.branch.io
 apicdn.zoomanalytics.co
 apicil.d1.sc.omtrdc.net
 apim.analyticsecurity.com
@@ -13247,6 +13249,7 @@ britishskybroadcasti.tt.omtrdc.net
 britishtelecom.112.2o7.net
 brookdale.demdex.net
 brookstone.com.102.122.2o7.net
+browser-intake-datadoghq.com
 brp.tt.omtrdc.net
 bruceclay.112.2o7.net
 brunswickcorporation.tt.omtrdc.net
@@ -13290,6 +13293,7 @@ c.richmetrics.com
 c3metrics.com
 c3metrics.medifast1.com
 c4analytics.apidude.com
+c6thn4.launches.appsflyersdk.com
 ca.ssl.d1.sc.omtrdc.net
 ca1.metrics.backtrace.io
 caanalytics.com
@@ -13445,6 +13449,7 @@ cdn2-analytics.ladmedia.fr
 cdn3-analytics.ladmedia.fr
 cdnanalytics.xyz
 cdnmetric.com
+cdp.cloud.unity3d.com
 cdw.tt.omtrdc.net
 cebwa.d2.sc.omtrdc.net
 celcomaxiata.demdex.net
@@ -15686,6 +15691,7 @@ jetbluepkgcs.112.2o7.net
 jijsonline.112.2o7.net
 jijsonline.122.2o7.net
 jiktnv.122.2o7.net
+jinidm.register.appsflyersdk.com
 jinjaadvertising.d1.sc.omtrdc.net
 jitmj4.122.2o7.net
 jiwire.112.2o7.net
@@ -29621,6 +29627,7 @@ ref.amplitude.com
 regartoptique1458.analytics-ev.fr
 reginaanalytics.co.za
 region1.analytics.google.com
+region1.app-analytics-services.com
 region1.google-analytics.com
 regioncheck.amplitude.com
 regionconfig.amplitude.com

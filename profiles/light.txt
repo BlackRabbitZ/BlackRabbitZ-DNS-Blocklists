@@ -5,7 +5,7 @@
 # License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
 # Sources: BlackRabbitZ Privacy Light
 # Risk: minimal
-# Entries: 234003
+# Entries: 234010
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 # Generated: ja
@@ -52591,7 +52591,6 @@ app.leadfeeder.com
 app.leadlander.com
 app.lfstmedia.com
 app.lijit.com
-app.lovoo.com
 app.magnetic.com
 app.manage.ensighten.com
 app.market.xiaomi.com
@@ -96743,6 +96742,7 @@ eventcollectorws-prod-1.us-east-1.elasticbeanstalk.com
 eventdbservice-ah.vertamedia.com
 eventdbservice-sh.vertamedia.com
 eventexistence.com
+eventfnt-eu.dsp-api.moloco.com
 eventfulpitcher.com
 eventgateway.soundcloud.com
 eventgeniustracksdk.optimove.net
@@ -96780,6 +96780,7 @@ events.adcolony.com
 events.addapptr.com
 events.adform.com
 events.adjust.com
+events.ads.vungle.com
 events.adwidecenter.com
 events.adzmedia.com
 events.aerserv.com
@@ -133840,6 +133841,7 @@ logs-api.shoprunner.com
 logs.51cto.com
 logs.81plug.com
 logs.adroll.com
+logs.ads.vungle.com
 logs.algolia.com
 logs.algolia.net
 logs.amap.com
@@ -134461,7 +134463,6 @@ lovingspeakclasped.com
 lovn.ru
 lovnlite.com
 lovnxkrszlsb.com
-lovoo.com
 lovooapi.adninja.de
 lovvisad.com
 lovvznyhujf.com
@@ -148737,6 +148738,7 @@ nothingnightingalejuly.com
 nothingpetwring.com
 nothingviewcontend.com
 nothycantyo.com
+noti-eu.adsmoloco.com
 notice.game.xiaomi.com
 noticeboard.netmarble.com
 noticeclockdroop.com
@@ -163709,6 +163711,7 @@ prod-m-node-1212.nexage.com
 prod-m-node-2111.ssp.advertising.com
 prod-m-node-2112.nexage.com
 prod-m-node-3111.ssp.advertising.com
+prod-mediate-events.applovin.com
 prod-ms.applovin.com
 prod-native.actionbutton.co
 prod-sb-appanalytics-us1.servicebus.windows.net
@@ -178411,6 +178414,7 @@ sdk3.ibm.xtify.com
 sdk4push.com
 sdk6.ibm.xtify.com
 sdk8.ibm.xtify.com
+sdkapi.dsp-api.moloco.com
 sdkapi.kookong.com
 sdkapi.netmera.com
 sdkapi.webeyemob.com
@@ -178427,6 +178431,7 @@ sdkconfig.ad.xiaomi.com
 sdkconfig.vrvm.com
 sdkdata.appia.com
 sdkeu.ssp.taxssp.com
+sdkeventfnt-eu.dsp-api.moloco.com
 sdkevents.zapr.in
 sdkfjxjertertry.com
 sdkgw.us1.twilio.com
@@ -178444,6 +178449,7 @@ sdkm.w.inmobi.cn
 sdkm.w.inmobi.com
 sdkm.w.vip.ams1.inmobi.com
 sdkmetrics.mercadopago.com.br
+sdkopmetrics-eu.dsp-api.moloco.com
 sdks.stats-locations.com
 sdkstat.ggsafe.com
 sdkstatic.onemt.co
@@ -190145,6 +190151,7 @@ struq.com
 struq.quantserve.com
 strwh.com
 stryde.com
+sts.applovin.com
 sts.atlassolutions.com
 sts.batmobi.net
 sts.eccmp.com
@@ -215122,6 +215129,7 @@ wateranik.com
 waterballet.net
 watercreativestudio.com
 waterfall-manager.voodoo-tech.io
+waterfall.inner-active.mobi
 waterfrontmedia.112.2o7.net
 waterhole.io
 waterindia.in
@@ -223630,7 +223638,6 @@ www.lostartofbeingadame.com
 www.lostwebtracker.com
 www.lotame.com
 www.lottoforever.com
-www.lovoo.com
 www.lowes-pianos-and-organs.com
 www.lowndestdhlpcpo.download
 www.loxtk.com

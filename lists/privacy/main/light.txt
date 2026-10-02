@@ -7,7 +7,7 @@
 # Risk: Minimal
 # Data status: befüllt
 # Data method: generated-tier
-# Entries: 32531
+# Entries: 32546
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -20256,6 +20256,7 @@ cdn-creatives-akamai-prd.unityads.unity3d.com
 cdn-creatives-highwinds-prd.unityads.unity3d.com
 cdn-creatives-prd.unityads.unity3d.com
 cdn-d.amazon-adsystem.com
+cdn-f.adsmoloco.com
 cdn-highwinds.unityads.unity3d.com
 cdn-prod-europe-spoz1-inmobi.spotad.co
 cdn-prod-useast-spop1-fyber.spotad.co
@@ -20330,6 +20331,7 @@ cdn1.anymad.com
 cdn1.crispadvertising.com
 cdn1.smartadserver.com
 cdn2.crispadvertising.com
+cdn2.inner-active.mobi
 cdn2.smartadserver.com
 cdn2.spotad.co
 cdn2.teads.tv
@@ -20770,6 +20772,7 @@ cz.info.lgsmartad.com
 cz.lgsmartad.com
 d-cache.microad.jp
 d.abnad.net
+d.applovin.com
 d.forwardmarketing.nl
 d.la1-c2-iad.salesforceliveagent.com
 d.marketing.nurx.com
@@ -21486,6 +21489,7 @@ evcustom-ad.xyz
 evenads.com
 event-adserver.adikteev.com
 event.cmp.advertising.com
+eventfnt-eu.dsp-api.moloco.com
 events.ads.vungle.com
 events.appnext.com
 events.samsungads.com
@@ -27020,6 +27024,7 @@ localads.maps.me
 locsensads.com
 lodef.api.naiadsystems.com
 loftyleads.com
+logs.ads.vungle.com
 lokalavisendk.nuggad.net
 lolaleads.com
 loljuduad.bid
@@ -28219,6 +28224,7 @@ mr.lgsmartad.com
 mrgrekeroad.com
 ms-ads.presage.io
 ms.lgsmartad.com
+ms4.applovin.com
 msads.net
 msnad.nuggad.net
 mspaceads.com
@@ -28507,6 +28513,7 @@ notads.111javguru.xyz
 notads.111supjavcom.xyz
 notads.11javguru.xyz
 notads.1gi3rir.xyz
+noti-eu.adsmoloco.com
 notification.popads.net
 notification.smartadserver.com
 notify.nuviad.com
@@ -29386,6 +29393,7 @@ prod-m-node-1111.ssp.advertising.com
 prod-m-node-1211.ssp.advertising.com
 prod-m-node-2111.ssp.advertising.com
 prod-m-node-3111.ssp.advertising.com
+prod-mediate-events.applovin.com
 prod-useast-spop1-google.spotad.co
 prod-useast-spop1-mopub.spotad.co
 prod-useast-spop1-omax-1.spotad.co
@@ -29864,6 +29872,7 @@ rsc-ads.vidaahub.com
 rsense-ad.realclick.co.kr
 rss.buysellads.com
 rssad.jp
+rt.applovin.com
 rtb-ads.avazu.net
 rtb-ba-ad-us-east.tubemogul.com
 rtb-ca.openx.net
@@ -30044,11 +30053,14 @@ sdk.consoliads.com
 sdk.imoads.com
 sdk.justad.mobi
 sdk.mobnativeads.com
+sdkapi.dsp-api.moloco.com
 sdkconfig.ad.eu.xiaomi.com
 sdkconfig.ad.india.xiaomi.com
 sdkconfig.ad.intl.xiaomi.com
 sdkconfig.ad.rus.xiaomi.com
 sdkconfig.ad.xiaomi.com
+sdkeventfnt-eu.dsp-api.moloco.com
+sdkopmetrics-eu.dsp-api.moloco.com
 sdkw.tapad.com
 se-ad-lgsmartad-com.aws-prd.net
 se-leeads.a.videoplaza.tv
@@ -30692,6 +30704,7 @@ stringads.com
 stroer-d.openx.net
 stroer-mb-d.openx.net
 sts.advertising.microsoft.com
+sts.applovin.com
 studads.com
 studio-alfa.teads.tv
 studio-beta.teads.tv
@@ -31592,6 +31605,7 @@ wap.advertising.com
 warnerbros-d.openx.net
 washingtonpost-d.openx.net
 wat.ad.daum.net
+waterfall.inner-active.mobi
 watsonadvertising.ibm.com
 wattpad-d.openx.net
 wayfairssp-d.openx.net
@@ -31751,6 +31765,7 @@ wtads.webtrekk.net
 wtag.adaptv.advertising.com
 wtg-ads.com
 wuxiaworld-d.openx.net
+wv.inner-active.mobi
 ww.teads.tv
 ww1-aufemininsecure-eqx.smartadserver.com
 ww1.smartadserver.com

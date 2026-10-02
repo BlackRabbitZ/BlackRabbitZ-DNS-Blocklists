@@ -7,7 +7,7 @@
 # Risk: Niedrig–Mittel
 # Data status: befüllt
 # Data method: generated-tier
-# Entries: 86936
+# Entries: 86962
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -22602,6 +22602,7 @@ analytics.adi-na.fr
 analytics.adi.so
 analytics.adidas.com.cn
 analytics.adjmpw.com
+analytics.adjust.com
 analytics.adk.de
 analytics.adknstage.com
 analytics.adlnetworks.com
@@ -34153,6 +34154,7 @@ api2.mixpanel.com
 api2.restartad.com
 api2.segment.io
 api28.thetrafficstat.net
+api3.branch.io
 api31.thetrafficstat.net
 apiad.propellerads.com
 apiads.gg.pl
@@ -34178,6 +34180,7 @@ apoxy.offerstrack.net
 app-analytics-de.huami.com
 app-analytics-in.huami.com
 app-analytics-ru.huami.com
+app-analytics-services.com
 app-analytics-sg.huami.com
 app-analytics-us.huami.com
 app-analytics-v2.snapchat.com
@@ -36201,6 +36204,7 @@ brown.co1.qualtrics.com
 brownricemarketing.com
 browser-http-intake.logs.datadoghq.com
 browser-http-intake.logs.datadoghq.eu
+browser-intake-datadoghq.com
 browser-statistik.de
 browser-tools.openx.net
 browser.sentry-cdn.com
@@ -36477,6 +36481,7 @@ c5.gostats.ru
 c5.gostats.vn
 c5.statcounter.com
 c6.statcounter.com
+c6thn4.launches.appsflyersdk.com
 c7.statcounter.com
 c8.statcounter.com
 c9.statcounter.com
@@ -36817,6 +36822,7 @@ cdn-creatives-highwinds-prd.unityads.unity3d.com
 cdn-creatives-prd.unityads.unity3d.com
 cdn-d.amazon-adsystem.com
 cdn-eu-vid1.statserv.net
+cdn-f.adsmoloco.com
 cdn-highwinds.unityads.unity3d.com
 cdn-img1.statserv.net
 cdn-log.vertamedia.com
@@ -36949,6 +36955,7 @@ cdn1.telemetryverification.net
 cdn1.zoomanalytics.co
 cdn2-analytics.ladmedia.fr
 cdn2.crispadvertising.com
+cdn2.inner-active.mobi
 cdn2.smartadserver.com
 cdn2.spotad.co
 cdn2.teads.tv
@@ -36982,6 +36989,7 @@ cdnstatic.optimonk.com
 cdnstatic2.optimonk.com
 cdnstats-a.akamaihd.net
 cdnthreads.com
+cdp.cloud.unity3d.com
 cdpbeacon.lgtvcommon.com
 cdpbeacon2.lgtvcommon.com
 cdslog.contextweb.com
@@ -38379,6 +38387,7 @@ d-track.send.microad.jp
 d-track.send.microadinc.com
 d.abnad.net
 d.adlooxtracking.com
+d.applovin.com
 d.businessinsider.com
 d.cordial-tracking.tarot.com
 d.forwardmarketing.nl
@@ -40542,6 +40551,7 @@ event-tracking.samsung.com
 event.cmp.advertising.com
 eventbeacon.ca
 eventbrite.122.2o7.net
+eventfnt-eu.dsp-api.moloco.com
 eventgeniustracksdk.optimove.net
 eventlog.adx1.com
 eventlog.inspsearch.com
@@ -40562,6 +40572,7 @@ events.mics-notrack.com
 events.pi-stats.com
 events.samsungads.com
 events.superads.cn
+events.telemetry.data.nvidia.com
 events.ub-analytics.com
 events.webflowmetrics.com
 eventtracker.com
@@ -44344,6 +44355,7 @@ jijsonline.112.2o7.net
 jijsonline.122.2o7.net
 jiktnv.122.2o7.net
 jimdo-stats.com
+jinidm.register.appsflyersdk.com
 jinjaadvertising.d1.sc.omtrdc.net
 jinkads.com
 jinkads.de
@@ -50181,6 +50193,7 @@ logs-partners.coupang.com
 logs.51cto.com
 logs.81plug.com
 logs.adroll.com
+logs.ads.vungle.com
 logs.af-south-1.amazonaws.com
 logs.algolia.com
 logs.algolia.net
@@ -55609,6 +55622,7 @@ mrptrack-e.rubiconproject.com
 mrtrack.dada.net
 ms-ads.presage.io
 ms.lgsmartad.com
+ms4.applovin.com
 msads.net
 msc.eu.qualtrics.com
 mscdirect.tt.omtrdc.net
@@ -56461,6 +56475,7 @@ notads.11javguru.xyz
 notads.1gi3rir.xyz
 notes-analytics-events.apple.com
 notes-analytics-events.news.apple-dns.net
+noti-eu.adsmoloco.com
 notification.popads.net
 notification.smartadserver.com
 notifstation.com
@@ -58328,6 +58343,7 @@ prod-m-node-1111.ssp.advertising.com
 prod-m-node-1211.ssp.advertising.com
 prod-m-node-2111.ssp.advertising.com
 prod-m-node-3111.ssp.advertising.com
+prod-mediate-events.applovin.com
 prod-static.dejobs.org
 prod-telemetry.paradox-interactive.com
 prod-ue1-metrics.hingeprod.net
@@ -59078,6 +59094,7 @@ regartoptique1458.analytics-ev.fr
 reginaanalytics.co.za
 region.z.nomobileads.com
 region1.analytics.google.com
+region1.app-analytics-services.com
 region1.google-analytics.com
 region13.co1.qualtrics.com
 regionads.ru
@@ -59677,6 +59694,7 @@ rsmrttracking.com
 rss.buysellads.com
 rssad.jp
 rt.analytics.anvato.net
+rt.applovin.com
 rtb-ads.avazu.net
 rtb-ba-ad-us-east.tubemogul.com
 rtb-ca.openx.net
@@ -60560,16 +60578,19 @@ sdk.mobnativeads.com
 sdk.stat.foreign.nearme.com.cn
 sdk.stats-locations.com
 sdk.tracksummer.com
+sdkapi.dsp-api.moloco.com
 sdkconf.msstatic.com
 sdkconfig.ad.eu.xiaomi.com
 sdkconfig.ad.india.xiaomi.com
 sdkconfig.ad.intl.xiaomi.com
 sdkconfig.ad.rus.xiaomi.com
 sdkconfig.ad.xiaomi.com
+sdkeventfnt-eu.dsp-api.moloco.com
 sdklog.menaapp.net
 sdklogger.zeropark.com
 sdklogs.avocarrot.com
 sdkmetrics.mercadopago.com.br
+sdkopmetrics-eu.dsp-api.moloco.com
 sdks.stats-locations.com
 sdkstat.ggsafe.com
 sdkstatic.onemt.co
@@ -77406,6 +77427,7 @@ stroer-d.openx.net
 stroer-mb-d.openx.net
 strongautomotivetracking.com
 sts.advertising.microsoft.com
+sts.applovin.com
 sts.livrariadopsicologo.com.br
 ststat.net
 stthomasir.qualtrics.com
@@ -77992,6 +78014,7 @@ telemetry.goodlifefitness.com
 telemetry.hoerbuchfabrik.de
 telemetry.horizonfitness.ca
 telemetry.horizonfitness.com
+telemetry.individual.githubcopilot.com
 telemetry.intel.com
 telemetry.jivo.ru
 telemetry.jivosite.com
@@ -83995,6 +84018,7 @@ v.amazon-adsystem.com
 v.effectivemeasure.net
 v.movad.de
 v1.nedstatbasic.net
+v10.events.data.microsoft.com
 v16-ad.byteoversea.com
 v1ad.adlegend.com
 v1adserver.com
@@ -84589,6 +84613,7 @@ washjeff.co1.qualtrics.com
 wat.ad.daum.net
 watchepisodes4.com.hypestat.com
 watchfinderuk.tt.omtrdc.net
+waterfall.inner-active.mobi
 waterfrontmedia.112.2o7.net
 waterlogged-boy.com
 waterlogged-stress.pro
@@ -85375,6 +85400,7 @@ wup-stats.bbvanetcash.pe
 wur.az1.qualtrics.com
 wur.qualtrics.com
 wuxiaworld-d.openx.net
+wv.inner-active.mobi
 wvu.qualtrics.com
 wvuhre.qualtrics.com
 ww.teads.tv
