@@ -1,0 +1,36 @@
+# BlackRabbitZ DNS Blocklists
+# Title: Badware Hoster Full
+# Description: Hochriskante Liste von Hosting-/Site-Builder-Root-Domains mit hoher Malware-Konzentration im BRZ-Datensatz. Kann legitime Sites blockieren.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; siehe THIRD_PARTY.md fuer Drittquellen
+# Sources: BRZ Malware Full – Konzentrationsanalyse
+# Risk: sehr hoch
+# Entries: 24
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+# Data method: Aus BRZ Malware nach wiederkehrenden Hosting-Root-Domains abgeleitet; manuell risikobereinigt
+#
+000webhostapp.com
+beget.tech
+cprapid.com
+dweb.link
+firebaseapp.com
+framer.app
+freewebhostmost.com
+gitbook.io
+glitch.me
+godaddysites.com
+icp0.io
+netlify.app
+on-fleek.app
+pages.dev
+replit.dev
+square.site
+temporary.site
+vercel.app
+web.app
+webcindario.com
+webflow.io
+weebly.com
+weeblysite.com
+wixstudio.com

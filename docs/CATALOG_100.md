@@ -35,7 +35,7 @@ Die 100 Kategorien aus dem BRZ Pi-hole DNS-Listen & Kinderschutz-Handbuch (30.09
 | 29 | DNS / Netzwerkangriffe | `lists/network/full/dns-attacks.txt` | 0 | `derived-keyword` |
 | 30 | Proxy / VPN / Tor | `lists/network/main/ultimate.txt` | 309 | `generated-tier` |
 | 31 | Tracking Redirects | `lists/privacy/full/tracking-redirects.txt` | 377 | `derived-keyword` |
-| 32 | URL Shortener | `lists/network/full/url-shorteners.txt` | 3 | `derived-keyword` |
+| 32 | URL Shortener | `lists/network/full/url-shorteners.txt` | 255 | `source-misp-cc0` |
 | 33 | Push Notifications | `lists/privacy/full/push-notifications.txt` | 74 | `derived-keyword` |
 | 34 | Cookies / Consent | `lists/privacy/full/consent-cmp.txt` | 44 | `source` |
 | 35 | Fingerprinting | `lists/privacy/full/fingerprinting.txt` | 14 | `derived-keyword` |
@@ -75,9 +75,9 @@ Die 100 Kategorien aus dem BRZ Pi-hole DNS-Listen & Kinderschutz-Handbuch (30.09
 | 69 | Fonts / externe Ressourcen | `lists/privacy/full/external-fonts.txt` | 3 | `derived-keyword` |
 | 70 | DoH / DoT / DNS-Umgehung | `lists/network/main/ultimate.txt` | 309 | `generated-tier` |
 | 71 | Bypass-Dienste | `lists/network/main/ultimate.txt` | 309 | `generated-tier` |
-| 72 | Dynamic DNS | `lists/network/full/dynamic-dns.txt` | 0 | `derived-keyword` |
+| 72 | Dynamic DNS | `lists/network/full/dynamic-dns.txt` | 74 | `curated-provider-roots` |
 | 73 | Newly Registered Domains | `lists/security/full/newly-registered-domains.txt` | 0 | `prepared` |
-| 74 | Suspicious TLDs | `lists/security/full/suspicious-tlds.txt` | 0 | `prepared` |
+| 74 | Suspicious TLDs | `policies/adblock/most-abused-tlds.adblock` | 130 | `source-hagezi-gpl3-adblock` |
 | 75 | Disposable Email | `lists/security/full/disposable-email.txt` | 0 | `prepared` |
 | 76 | Parked Domains | `lists/security/full/parked-domains.txt` | 0 | `prepared` |
 | 77 | Expired Domains | `lists/security/full/expired-domains.txt` | 0 | `prepared` |

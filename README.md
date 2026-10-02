@@ -60,6 +60,7 @@
 - [🧩 Software & Hardware Telemetrie](#software-hardware)
 - [🛡️ Security & Threat Intelligence](#security)
 - [🔐 DNS, Netzwerk & Umgehung](#network)
+- [🧰 Speziallisten](#speziallisten)
 - [🤖 KI, Bots & Crawler](#automation)
 - [🌍 Regionale Listen](#regional)
 - [🏭 Herstellerlisten](#manufacturers)
@@ -284,6 +285,7 @@ Die Basis-Allowlist enthält unter anderem fragFINN, Blinde Kuh, Seitenstark, In
 | Liste | Einträge | Status | Full-Liste |
 |---|---:|:---:|---|
 | **Ads** | **234.003** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/ads.txt) |
+| **Pop-Up Ads** | **517** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/pop-up-ads.txt) |
 | **Affiliate Tracking** | **643** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/affiliate-tracking.txt) |
 | **Aggressive Privacy** | **652** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/aggressive-privacy.txt) |
 | **Analytics** | **35.879** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/analytics.txt) |
@@ -786,9 +788,10 @@ Die Basis-Allowlist enthält unter anderem fragFINN, Blinde Kuh, Seitenstark, In
 | **Ddos** | **0** | 🟡 | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/ddos.txt) |
 | **Disposable Email** | **0** | 🟡 | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/disposable-email.txt) |
 | **Dns Security** | **0** | 🟡 | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/dns-security.txt) |
-| **Dynamic Dns** | **0** | 🟡 | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/dynamic-dns.txt) |
+| **Dynamic Dns** | **74** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/dynamic-dns.txt) |
 | **Expired Domains** | **0** | 🟡 | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/expired-domains.txt) |
 | **Exploits** | **0** | 🟡 | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/exploits.txt) |
+| **Badware Hosters** | **24** | ✅⚠️ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/badware-hosters.txt) |
 | **Fake Shops** | **10.960** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/fake-shops.txt) |
 | **Fake Software** | **0** | 🟡 | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/fake-software.txt) |
 | **Malicious Extensions** | **0** | 🟡 | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/malicious-extensions.txt) |
@@ -834,12 +837,55 @@ Die Basis-Allowlist enthält unter anderem fragFINN, Blinde Kuh, Seitenstark, In
 | **Dns Bypass** | **0** | 🟡 | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/network/full/dns-bypass.txt) |
 | **Doh** | **3** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/network/full/doh.txt) |
 | **Dot** | **99** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/network/full/dot.txt) |
-| **Dynamic Dns** | **0** | 🟡 | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/network/full/dynamic-dns.txt) |
+| **Dynamic Dns** | **74** | ✅⚠️ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/network/full/dynamic-dns.txt) |
 | **Private Dns** | **0** | 🟡 | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/network/full/private-dns.txt) |
 | **Proxy** | **142** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/network/full/proxy.txt) |
 | **Tor** | **0** | 🟡 | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/network/full/tor.txt) |
-| **Url Shorteners** | **3** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/network/full/url-shorteners.txt) |
+| **Url Shorteners** | **255** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/network/full/url-shorteners.txt) |
 | **Vpn** | **63** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/network/full/vpn.txt) |
+| **SafeSearch not supported** | **205** | ✅⚠️ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/network/full/safesearch-not-supported.txt) |
+
+<p align="right"><a href="#blocklisten-navigation">⬆️ Blocklisten-Inhaltsverzeichnis</a></p>
+
+---
+<a id="speziallisten"></a>
+## 🧰 Speziallisten
+
+Diese Listen sind **optionale Zusatzmodule** und ersetzen nicht die normalen Light/Normal/Pro/Pro++/Ultimate-Profile. Besonders aggressive Speziallisten zuerst in einer Testgruppe pruefen.
+
+> **⚠️ Hinweis:** `Dynamic DNS`, `Badware Hoster`, `Most Abused TLDs`, `SafeSearch not supported` und Bypass-Listen koennen legitime Dienste deutlich einschraenken. `Most Abused TLDs` ist absichtlich **Adblock-Syntax** und keine normale Plain-Domain-Liste.
+
+| Spezialliste | Zweck | Eintraege | Liste |
+|---|---|---:|---|
+| **Fake / Scam / Trap Sites** | Scam + Fake Shops + Fake Software als eine Liste | **265.256** | [Liste](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/special/fake.txt) |
+| **Pop-Up Ads** | Pop-up-/Pop-under-Werbenetze aus BRZ Ads | **517** | [Liste](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/pop-up-ads.txt) |
+| **Threat Intelligence Mini** | kompakte BRZ-TI-Stufe | **594.410** | [Mini](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/threat-intelligence/mini.txt) |
+| **Threat Intelligence Medium** | mittlere BRZ-TI-Stufe | **844.669** | [Medium](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/threat-intelligence/medium.txt) |
+| **Threat Intelligence Full** | kompletter BRZ-Security-Ultimate-Datenbestand als Standalone-Liste | **3.408.241** | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/threat-intelligence/full.txt) |
+| **Dynamic DNS** | bekannte DynDNS-Provider; sehr aggressiv | **74** | [Liste](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/network/full/dynamic-dns.txt) |
+| **Badware Hoster** | riskante Hosting-/Site-Builder-Roots mit hoher Malware-Konzentration | **24** | [Liste](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/badware-hosters.txt) |
+| **Most Abused TLDs** | ganze riskante TLDs/Suffixe; Adblock-Format | **130** | [Adblock](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/policies/adblock/most-abused-tlds.adblock) |
+| **DNS Rebind Protection** | Resolver-Policy statt normaler Domainliste | – | [dnsmasq Policy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/policies/dnsmasq/rebind.conf) |
+| **DoH/VPN/Tor/Proxy Bypass** | kombinierte lokale Umgehungsliste | **306** | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/network/special/doh-vpn-tor-proxy-bypass.txt) |
+| **Encrypted DNS Only** | DoH + DoT + Private DNS | **102** | [Liste](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/network/special/encrypted-dns-only.txt) |
+| **SafeSearch not supported** | Suchmaschinen ohne SafeSearch-Unterstuetzung | **205** | [Liste](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/network/full/safesearch-not-supported.txt) |
+| **URL Shortener** | bekannte Kurzlink-Dienste | **255** | [Liste](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/network/full/url-shorteners.txt) |
+| **Anti Piracy** | Piracy/Illegal-Streaming | aktueller BRZ-Stand / optionaler Upstream | [Liste](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/family/content/piracy.txt) |
+| **Gambling Full** | kompletter BRZ-Gambling-Datensatz | **420.536** | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/family/content/gambling.txt) |
+| **Social Networks** | Social-Network-Sammelliste | **21.588** | [Liste](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/apps/social-media/special/social-networks.txt) |
+| **NSFW** | Adult/NSFW-Spezialliste | **998.924** | [Liste](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/family/content/nsfw.txt) |
+| **Native Tracker** | integrierte Tracker von OS, Apps und Geraeten | **628** | [Liste](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/native-tracking.txt) |
+
+### Manuell aktualisierbare Live-Varianten
+
+Fuer sehr grosse oder schnell wechselnde Listen (z. B. **NRD/DGA, TIF-IP-Adressen, DoH-IP-Adressen, Anti-Piracy, Gambling Medium/Mini**) liegt bewusst **kein automatischer GitHub-Workflow** bei. Die Quellen sind in `config/special-upstreams.json` hinterlegt und koennen bei Bedarf manuell aktualisiert werden:
+
+```bash
+python3 scripts/update-special-lists.py --list
+python3 scripts/update-special-lists.py hagezi_anti_piracy hagezi_gambling_medium hagezi_gambling_mini
+```
+
+Der Updater schreibt nur die explizit ausgewaehlten Dateien. Details: [`docs/SPECIAL_LISTS.md`](docs/SPECIAL_LISTS.md).
 
 <p align="right"><a href="#blocklisten-navigation">⬆️ Blocklisten-Inhaltsverzeichnis</a></p>
 

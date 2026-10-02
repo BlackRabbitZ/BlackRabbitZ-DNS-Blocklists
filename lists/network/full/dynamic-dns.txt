@@ -1,14 +1,86 @@
 # BlackRabbitZ DNS Blocklists
-# Title: Dynamic DNS
-# Description: Dynamic-DNS-Domains aus dem vorhandenen Security-Datenbestand
+# Title: Dynamic DNS Full
+# Description: Aggressive Sperrliste fuer bekannte Dynamic-DNS-Provider-Domains. Kann legitime Selfhosted-Dienste blockieren.
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
-# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
-# Sources: BlackRabbitZ Security-Katalog
+# License: GPL-3.0-only; siehe THIRD_PARTY.md fuer Drittquellen
+# Sources: BRZ curated Dynamic DNS providers; orientiert an bekannten DynDNS-Diensten
 # Risk: hoch
-# Data status: abgeleitet
-# Data method: derived-keyword
-# Entries: 0
+# Entries: 74
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
+# Data method: Manuell kuratierte Provider-Root-Liste
 #
-# Noch keine belastbaren Domains im aktuellen statischen Quellstand.
+afraid.org
+bounceme.net
+changeip.biz
+changeip.com
+changeip.net
+changeip.org
+changeip.us
+ddns.info
+ddns.me
+ddns.mobi
+ddns.name
+ddns.net
+ddns.org
+ddns.us
+ddnsfree.com
+ddnss.de
+ddnss.eu
+ddnss.org
+dlinkddns.com
+dns2go.com
+dnsalias.com
+dnsalias.net
+dnsalias.org
+dnsdojo.com
+dnsdojo.net
+dnsdojo.org
+dnsdynamic.org
+dnsexit.com
+dtdns.com
+dtdns.net
+dtdns.org
+duckdns.org
+dyn.com
+dynalias.com
+dynalias.net
+dynalias.org
+dyndns.biz
+dyndns.com
+dyndns.info
+dyndns.org
+dyndns.tv
+dyndns.ws
+dynu.com
+dynu.net
+dynv6.com
+dynv6.net
+dynvpn.de
+freedynamicdns.net
+myddns.me
+myftp.biz
+myftp.org
+myvnc.com
+no-ip.biz
+no-ip.com
+no-ip.info
+no-ip.net
+no-ip.org
+noip.com
+noip.me
+serveblog.net
+servecounterstrike.com
+serveftp.com
+servegame.com
+servehalflife.com
+servehttp.com
+serveirc.com
+servemp3.com
+servepics.com
+servequake.com
+sytes.net
+webhop.biz
+webhop.info
+webhop.net
+webhop.org
