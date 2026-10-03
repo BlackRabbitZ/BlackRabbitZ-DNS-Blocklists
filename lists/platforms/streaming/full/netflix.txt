@@ -34,5 +34,5 @@ netflix.avdhoothadke.com
 netflixalternative.net
 news.newonnetflix.info
 nmtracking.netflix.com
-presentationtracking.netflix.com
 nrdp.logs.netflix.com
+presentationtracking.netflix.com

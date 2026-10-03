@@ -7,7 +7,7 @@
 # Risk: Hoch
 # Data status: befüllt
 # Data method: generated-tier
-# Entries: 646
+# Entries: 648
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -327,6 +327,7 @@ log-1.samsungacr.com
 log-2.samsungacr.com
 log-config.samsungacr.com
 log.internetat.tv
+logger.prd.hdplus.dev
 logs.roku.com
 logs1409.xiti.com
 lr.lgsmartad.com
@@ -609,6 +610,7 @@ tt.lgsmartad.com
 tv-static.scdn.co
 tvinteractive.tv
 tvmeta-dynamic.tvinteractive.tv
+tvp-ads-log.samsungads.com
 tvsideviewandroidv2-cfgdst-ore-pro.bda.ndmdhs.com
 tvx.adgrx.com
 tw-ad-lgsmartad-com.aws-prd.net

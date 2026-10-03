@@ -325,6 +325,9 @@
 79423.analytics.edgekey.net
 79423.analytics.edgesuite.net
 7analytics.no
+7ba3f64df98de730df38846b54ecfbdf7f61f80f.cws.conviva.com
+7ba3f64df98de730df38846b54ecfbdf7f61f80f.ipv4.cws.conviva.com
+7ba3f64df98de730df38846b54ecfbdf7f61f80f.ipv6.cws.conviva.com
 7net.d1.sc.omtrdc.net
 7netshopping.d1.sc.omtrdc.net
 7segments.com
@@ -1236,6 +1239,7 @@ analytics.adi.so
 analytics.adidas.com.cn
 analytics.adjmpw.com
 analytics.adjust.com
+analytics.adjust.net.in
 analytics.adk.de
 analytics.adknstage.com
 analytics.adlnetworks.com
@@ -13827,6 +13831,8 @@ cvq-matomo.angers.fr
 cwnetworkmparticle.112.2o7.net
 cwonder.d1.sc.omtrdc.net
 cwportal.112.2o7.net
+cws-usc1.conviva.com
+cws.conviva.com
 cxanalytics.sonata-software.com
 cxociocom.112.2o7.net
 cxocomdev.112.2o7.net
@@ -14315,6 +14321,7 @@ events-analytics.apple.com
 events-analytics.hotstar.com
 events-integration.ub-analytics.com
 events.amplitude.com
+events.statsigapi.net
 events.ub-analytics.com
 events.webflowmetrics.com
 evepdaggiesports.112.2o7.net
@@ -15600,6 +15607,9 @@ ipcyachtingworldprod.122.2o7.net
 ipdeutschland.122.2o7.net
 iportal.coremetrics.com
 iproanalytics.com
+ipv4-gcp.cws.conviva.com
+ipv4.cws.conviva.com
+ipv6.cws.conviva.com
 iqdigital.demdex.net
 iqdigitalmediamarketinggmbh.sc.omtrdc.net
 iqmetrics.11freunde.de
@@ -30165,6 +30175,7 @@ saxounionleader.112.2o7.net
 saxowatertowndailytimes.122.2o7.net
 saxowenworld.122.2o7.net
 saxowesterncommunications.122.2o7.net
+sb.scorecardresearch.com
 sbisec.d1.sc.omtrdc.net
 sbisecuritiescoltd.tt.omtrdc.net
 sbsaustralia.d1.sc.omtrdc.net
@@ -35117,6 +35128,7 @@ tpr-ss-analytics-eu.katespade.com
 tpr-ss-analytics-na.katespade.com
 tpr-ss-analytics-us.coachoutlet.com
 tpranalytics.services
+tps.doubleverify.com
 tr-metrics.loomia.com
 tracfonewireless.tt.omtrdc.net
 track-matomo-9438954.noracloud.fr
@@ -35897,15 +35909,3 @@ zogbyanalytics.com
 zogmedia.d1.sc.omtrdc.net
 zoomanalytics.co
 zumba.d1.sc.omtrdc.net
-7ba3f64df98de730df38846b54ecfbdf7f61f80f.cws.conviva.com
-7ba3f64df98de730df38846b54ecfbdf7f61f80f.ipv4.cws.conviva.com
-7ba3f64df98de730df38846b54ecfbdf7f61f80f.ipv6.cws.conviva.com
-analytics.adjust.net.in
-cws-usc1.conviva.com
-cws.conviva.com
-events.statsigapi.net
-ipv4-gcp.cws.conviva.com
-ipv4.cws.conviva.com
-ipv6.cws.conviva.com
-sb.scorecardresearch.com
-tps.doubleverify.com

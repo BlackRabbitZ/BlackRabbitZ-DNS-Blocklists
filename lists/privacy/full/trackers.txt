@@ -12612,6 +12612,7 @@ collector-hpn.ghostery.net
 collector-hpn.privacy.ghostery.net
 collector-main.trafficmanager.net
 collector-v2.spinxgames.com
+collector.xhamster.com
 collector1.afreecatv.com
 collectorapi.com
 collecty.prod-eks.pepper.com
@@ -107623,6 +107624,7 @@ tracking.reptibites.com
 tracking.resume.se
 tracking.retailrocket.net
 tracking.revoicer.com
+tracking.rewise.ai
 tracking.robincussol.com
 tracking.rocketleague.com
 tracking.rogers.com
@@ -112199,6 +112201,7 @@ www.eulerian.net
 www.eum-appdynamics.com
 www.gold.smbusinessbiz.com
 www.google-analytics.com
+www.googletagmanager.com
 www.gothaer01.webtrekk.net
 www.groupcreative365.com
 www.guillaumeplayground.net
@@ -113615,6 +113618,3 @@ zzuml.nordicware.com
 zzword.com
 zzz.capraprod.com
 zzzfba.thecolvinco.com
-collector.xhamster.com
-tracking.rewise.ai
-www.googletagmanager.com

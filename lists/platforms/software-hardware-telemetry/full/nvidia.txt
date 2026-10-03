@@ -12,9 +12,9 @@
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
 events.gfe.nvidia.com
+events.telemetry.data.nvidia.com
+lightstep.kaizen.nvidia.com
 prd-appstats.nvidia.com
 smetrics.nvidia.com
 telemetry.gfe.nvidia.com
 telemetry.nvidia.com
-events.telemetry.data.nvidia.com
-lightstep.kaizen.nvidia.com

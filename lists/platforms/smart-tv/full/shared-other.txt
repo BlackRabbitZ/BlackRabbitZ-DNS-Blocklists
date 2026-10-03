@@ -73,6 +73,7 @@ lgad.cjpowercast.com
 lgad.cjpowercast.com.edgesuite.net
 lgads.tv
 log.internetat.tv
+logger.prd.hdplus.dev
 logs1409.xiti.com
 managed.xmpp.foxtel.com.au
 mcp.tvinteractive.tv
@@ -112,4 +113,3 @@ tvx.adgrx.com
 vindicosuite.com
 xml.opera.com
 yumenetworks.com
-logger.prd.hdplus.dev

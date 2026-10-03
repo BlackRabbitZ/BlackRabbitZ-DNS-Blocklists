@@ -1,14 +1,15 @@
 # BlackRabbitZ DNS Blocklists
 # Title: Google Assistant
-# Description: Google-Assistant-/Voice-Endpunkte
+# Description: Google Assistant-/Speech-Service-Endpunkte; Blockierung kann Sprachfunktionen deaktivieren.
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
-# Sources: Aus vorhandenen BlackRabbitZ-/dokumentierten HaGeZi-Domains konservativ abgeleitet
-# Risk: variabel
-# Data status: abgeleitet
-# Data method: derived-keyword
-# Entries: 0
+# Sources: BRZ corpus + curated Google service endpoints
+# Risk: hoch
+# Data method: curated-static
+# Entries: 3
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
-# Noch keine belastbaren Domains im aktuellen statischen Quellstand.
+assistant.google.com
+embeddedassistant.googleapis.com
+speech.googleapis.com

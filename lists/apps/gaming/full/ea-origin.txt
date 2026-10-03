@@ -125,6 +125,7 @@ flix-area.com
 fordedcostaea.com
 forthea.com
 foxea.com.cn
+freeform-river.data.ea.com
 geoip.tnt-ea.com
 grapeshot-emea.com
 graph.snappea.com
@@ -224,6 +225,7 @@ secure.peep1alea.com
 secure.refl3alea.com
 secure.yami8alea.com
 secureae-edge.ikea.com
+segmentation-service.data.ea.com
 selfishsea.com
 server.rafaelacorrea.com
 servserv.generals.ea.com
@@ -309,5 +311,3 @@ ye.bhpzoaea.com
 youthful-area.com
 zegea.com
 zv.ombersnoumea.com
-freeform-river.data.ea.com
-segmentation-service.data.ea.com

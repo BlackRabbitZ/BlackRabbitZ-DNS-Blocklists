@@ -7,7 +7,7 @@
 # Risk: Hoch
 # Data status: befüllt
 # Data method: generated-tier
-# Entries: 371544
+# Entries: 371597
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -13298,6 +13298,9 @@
 7b935.v.fwmrm.net
 7b9de.v.fwmrm.net
 7b9df.v.fwmrm.net
+7ba3f64df98de730df38846b54ecfbdf7f61f80f.cws.conviva.com
+7ba3f64df98de730df38846b54ecfbdf7f61f80f.ipv4.cws.conviva.com
+7ba3f64df98de730df38846b54ecfbdf7f61f80f.ipv6.cws.conviva.com
 7ba3fa4259.com
 7bb.cc
 7bchhgh.de
@@ -49969,6 +49972,7 @@ aeenkvdmwnwpl.com
 aeesy.com
 aeezeynmam.bid
 aef42.gmf.fr
+aefd.nelreports.net
 aeffe3nhrua5hua.com
 aefonline.actonsoftware.com
 aefqdgklyu.com
@@ -50088,6 +50092,7 @@ aeru.tv
 aeru365.jp
 aervas.offerstrack.net
 aerydesorbs.top
+aes.eu-south.ono.axp.amazon-adsystem.com
 aes.kargo.com
 aesirx.io
 aeskgcinerpyxqk.net
@@ -55242,6 +55247,7 @@ analytics.adi.so
 analytics.adidas.com.cn
 analytics.adjmpw.com
 analytics.adjust.com
+analytics.adjust.net.in
 analytics.adk.de
 analytics.adknstage.com
 analytics.adlnetworks.com
@@ -55346,6 +55352,7 @@ analytics.agu.org
 analytics.ah-oh.com
 analytics.ahmedalharthi.net
 analytics.ahoyserver.de
+analytics.ahrefs.com
 analytics.ahrendt-informatik.de
 analytics.ahswarranty.com
 analytics.aiacs.net
@@ -63924,6 +63931,7 @@ analytics.sem-track.com
 analytics.semantiweb.com
 analytics.semanux.com
 analytics.sembience.com
+analytics.semrush.com
 analytics.semware.fr
 analytics.sen.go.kr
 analytics.send-ev.de
@@ -78950,6 +78958,7 @@ beacon.affil.walmart.com
 beacon.aimtell.com
 beacon.archonia.com
 beacon.asda.com
+beacon.bidder.taboola.com
 beacon.bnl.lu
 beacon.carfax.com
 beacon.cdn.qq.com
@@ -92437,6 +92446,7 @@ cdn.popmyads.com
 cdn.pozvonim.com
 cdn.pranmcpkx.com
 cdn.pricespider.com
+cdn.privacy-mgmt.com
 cdn.program3.com
 cdn.promo.pimproll.com
 cdn.promotionengine.com
@@ -96401,6 +96411,7 @@ click.grandonmedia.com
 click.green-red.com
 click.greenbaydecking.com
 click.hay3s.com
+click.hello.klarna.com
 click.hm.baidu.com
 click.holidayinnclubemail.com
 click.holland-billing.com
@@ -98428,6 +98439,7 @@ cmp.hintaopas.fi
 cmp.impress.co.jp
 cmp.inews.co.uk
 cmp.infoworld.com
+cmp.inmobi.com
 cmp.jameda.de
 cmp.jeger.no
 cmp.klart.se
@@ -100403,6 +100415,7 @@ collector.shorte.st
 collector.showxh.life
 collector.sift.co.uk
 collector.skullcandy.com
+collector.snowplow.supercell.com
 collector.snplow.net
 collector.solarwinds.com
 collector.sspinc.io
@@ -100446,6 +100459,7 @@ collector.vhx.tv
 collector.viaxh.xyz
 collector.viddsee.com
 collector.viki.io
+collector.voodoo-adn.com
 collector.wannaknow.link
 collector.wassenaar.org
 collector.woxh.world
@@ -101357,12 +101371,14 @@ config-ltvp.vip.uh1.inmobi.com
 config-overlay-ads-staging.alphonso.tv
 config-overlay-ads.alphonso.tv
 config-security.com
+config-server-gke-gw2.ssp.inmobi.com
 config-server.api.qgraph.io
 config-stg.ironbeast.io
 config.88-f.net
 config.a-mo.net
 config.ad-brix.com
 config.ad.snappea.com
+config.ads.vungle.com
 config.adview.cn
 config.analytics.anvato.net
 config.appjolt.com
@@ -108523,6 +108539,7 @@ cws-lgi.conviva.com
 cws-sjc2.conviva.com
 cws-us-east.conviva.com
 cws-us-west-2.conviva.com
+cws-usc1.conviva.com
 cws-usw2.conviva.com
 cws.conviva.com
 cws.psccint.com
@@ -119248,6 +119265,7 @@ display.adsender.us
 display.apester.com
 display.auditude.com
 display.bfmio.com
+display.bidder.taboola.com
 display.cdnbucket.com
 display.digitalriver.com
 display.edarling.de
@@ -124968,6 +124986,7 @@ edge.931freshradio.ca
 edge.963bigfm.com
 edge.addthis.com
 edge.adobedc.net
+edge.ads.twitch.tv
 edge.adultswim.ca
 edge.afco.com
 edge.afcodirect.com
@@ -129257,6 +129276,7 @@ et-code.ru
 et-eus.w.inmobi.com
 et-integration.dynamicyield.com
 et-jeanstory-com.eulerian.net
+et-l.w.inmobi.com
 et.ad.lgsmartad.com
 et.agenagromia.top
 et.akademie-handel.de
@@ -130637,6 +130657,7 @@ events.sk.ht
 events.snacktv.de
 events.squarespace.com
 events.startappservice.com
+events.statsigapi.net
 events.steelhousemedia.com
 events.streamrail.net
 events.superads.cn
@@ -141761,6 +141782,7 @@ gateway.restartad.com
 gateway.speedera.net
 gateway.supersonicads.com
 gateway.ttpsdk.info
+gateway.unityads.unity3d.com
 gateway.yieldify-production.com
 gateway.yvonthelabel.com
 gateway1.ashleyshaw.ca
@@ -154301,6 +154323,7 @@ hello.noyo.com
 hello.nutter.com
 hello.optidatajoy.com
 hello.parcsathemes.fr
+hello.production.eu1.click-tracking.klarna.net
 hello.rent.com.au
 hello.sexer.com
 hello.siteimprove.com
@@ -157567,6 +157590,7 @@ httftlckaxj.com
 httjs.davidscookies.com
 httn.adx1.com
 http-f-darwin.hulustream.com
+http-intake.logs.datadoghq.com
 http.intuit.speedera.net
 http.ll.trailers.bz.contentdef.com
 http.movies.bb.contentdef.com
@@ -158484,6 +158508,7 @@ i-games.biz
 i-hacked.us.intellitxt.com
 i-i.lt
 i-iba.co.uk
+i-l-ssp-inmobicdnnet-gcp-cdn.ssp.inmobi.com
 i-l.ligatus.com
 i-localbusiness.com
 i-lookup.com
@@ -160022,6 +160047,8 @@ idsync.reson8.com
 idsync.rlcdn.com
 idsync.segment.com
 idszrbmjvkdodt.com
+idt-0973bl-murc9tcv.loc-de-de.chk-webapp.res-ok.dur-0.v1.dc-telemetry.net
+idt-55omq9-mus4fq5y.loc-de-de.chk-webapp.res-ok.dur-0.v1.dc-telemetry.net
 idt.id-news.net
 idtargeting.com
 idtvo.ezrider.nl
@@ -166532,8 +166559,10 @@ ipu4.forkcdn.com
 ipublishmedia.com
 ipurl.ru
 ipv4-count.gmx.net
+ipv4-gcp.cws.conviva.com
 ipv4.adrta.com
 ipv4.antradar.com
+ipv4.cws.conviva.com
 ipv4.kiki.zalo.ai
 ipv4.tipsport.cz
 ipv4.webshare.io
@@ -166542,6 +166571,7 @@ ipv4main.antibot.cloud
 ipv4now.com
 ipv6-count.gmx.net
 ipv6.adrta.com
+ipv6.cws.conviva.com
 ipv6.run
 ipv6.xiaoxitech.com
 ipv6monitoring.eu
@@ -175176,6 +175206,9 @@ kylbshaqo.bid
 kylhwlfq.com
 kylqpeevrkgh.com
 kymdan.info
+kymhci.cdn-settings.appsflyersdk.com
+kymhci.launches.appsflyersdk.com
+kymhci.skadsdk.appsflyersdk.com
 kymirasite.pro
 kymrrdwrecqvmu.com
 kymsf.com
@@ -227629,6 +227662,7 @@ o1.m.getdrip.com
 o1.notification.popads.net
 o1.qnsr.com
 o1.sendgrid.tynt.com
+o10564.ingest.sentry.io
 o11.mktg.actonsoftware.com
 o11cr.voluumtrk.com
 o12.mktg.actonsoftware.com
@@ -227649,6 +227683,7 @@ o2.eyereturn.com
 o2.hit.gemius.pl
 o2.mouseflow.com
 o2.postmaster.m.getadmiral.com
+o22381.ingest.sentry.io
 o25t69h1of.kameleoon.eu
 o2adpl.hit.gemius.pl
 o2c7dks4.de
@@ -227659,6 +227694,9 @@ o2onbusiness.de
 o2onlinede.widget.criteo.com
 o3.campaigns2.kissmetrics.com
 o313o.com
+o315582.ingest.sentry.io
+o315582.ingest.us.sentry.io
+o33249.ingest.us.sentry.io
 o333o.com
 o365diagtelemetry.trafficmanager.net
 o365weve.com
@@ -227681,6 +227719,7 @@ o546.ada.org
 o626b32etkg6.com
 o63.em3424.moengage.com
 o63.go.teads.tv
+o64374.ingest.sentry.io
 o64x.voluumtrk.com
 o6ca9.rdtk.io
 o6ca9.rdtk.ioo6ca9.rdtk.io
@@ -227691,6 +227730,7 @@ o7.news-subscribe.com
 o777i.com
 o7anwntrk.com
 o7i9jl.of5h8n.link
+o825645.ingest.us.sentry.io
 o861134.ingest.sentry.io
 o8b6n7mbsjadpj4sat71gygbqrvar1507539981.nuid.imrworldwide.com
 o8q80l1z.top
@@ -252844,6 +252884,7 @@ prod.eu-central-1.int.vidible.tv
 prod.fraud.adjoe.zone
 prod.geo.gluops.com
 prod.geoservice.gluops.com
+prod.ingestion-edge.prod.dataservices.mozgcp.net
 prod.justpremium.com
 prod.leanplum.com
 prod.log.shortbread.aws.dev
@@ -272611,6 +272652,7 @@ sdk.fitle.com
 sdk.follow-apps.com
 sdk.fra-01.braze.eu
 sdk.fra-01.braze.eu.cdn.cloudflare.net
+sdk.fra-02.braze.eu
 sdk.g.uc.cn
 sdk.gplayspace.com
 sdk.gpowers.net
@@ -274811,6 +274853,7 @@ seo.tawajood.com
 seo4india.com
 seoab.io
 seoaelrfdy.com
+seobility.net
 seobloger.ru
 seoclarity.evergage.com
 seogift.ru
@@ -282650,6 +282693,7 @@ similarlyperjury.com
 similarnatural.pro
 similarpresence.com
 similarsabine.com
+similarweb.com
 similezfzycz.download
 simility.com
 simmeringsuitableunwoven.com
@@ -282963,6 +283007,7 @@ sisfulylydevelope.com
 sisrgcvomn.com
 sistacked.com
 sisters.truyen24h.info
+sistrix.com
 sisu.ai
 sisu3.voluumtrk.com
 sisudata.com
@@ -297988,6 +298033,8 @@ ssp-lb-do-eu3.taxssp.com
 ssp-notify.propellerads.com
 ssp-prod-eastus-nonmutt.trafficmanager.net
 ssp-prod-telemerty-eastus-appgwv2.inmobi.com
+ssp-prod-traffic-mgr-es-beacon-eastus.trafficmanager.net
+ssp-prod-traffic-mgr-es-lp-beacon-eastus.trafficmanager.net
 ssp-px.content-ad.net
 ssp-r.phunware.com
 ssp-service.adtelligent.com
@@ -300768,6 +300815,7 @@ stage-analytics.linksys-apps.com
 stage-assets.applovin.com
 stage-bid.applovin.com
 stage-img.applovin.com
+stage-mediate-events.applovin.com
 stage-ms.applovin.com
 stage-pdn.applovin.com
 stage-tracking.kyte-tec.com
@@ -316643,6 +316691,7 @@ supplier.clickyab.com
 supplieradvisor.ciamlogin.com
 suppliercompliance.co1.qualtrics.com
 suppliesfloored.com
+supply-inmobicdn-gcp-cdn.ssp.inmobi.com
 supply.colossusssp.com
 supply.hornylust.com
 supply.inmobicdn.net
@@ -331047,6 +331096,7 @@ tracking.retailrocket.net
 tracking.retargeting.biz
 tracking.revimedia.com
 tracking.revoicer.com
+tracking.rewise.ai
 tracking.robincussol.com
 tracking.rocketleague.com
 tracking.rodimobi.com
@@ -361622,6 +361672,7 @@ www.sendori.com
 www.sengreensbaxsovax.download
 www.senseiproducts.com
 www.seo-portal.ro
+www.seobility.net
 www.seoholding.com
 www.seonetwizard.com
 www.seotoolscentral.com
@@ -361702,6 +361753,7 @@ www.silkspan.com
 www.silveragesoftware.com
 www.silvercash.com
 www.silverpush.com
+www.similarweb.com
 www.similezfzycz.download
 www.simonsearch.com
 www.simpailoppvw.download
@@ -361716,6 +361768,7 @@ www.sionicmedia.com
 www.siovv.voluumtrk.com
 www.sip.touchcommerce.com
 www.sirius-expedition.com
+www.sistrix.com
 www.site-id.nl
 www.siteauikozph.download
 www.sitecounter.be

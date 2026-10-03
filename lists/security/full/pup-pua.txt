@@ -1,14 +1,45 @@
 # BlackRabbitZ DNS Blocklists
-# Title: PUP / PUA
-# Description: PUP / PUA: Kategorie vollständig vorbereitet; der aktuelle statische Quellstand enthält keine belastbare per-Domain-Klassifizierung für diese Spezialklasse.
+# Title: Pup Pua
+# Description: Konservativ aus bereits blockierten BRZ-Threat-Domains anhand starker Kategorie-Signale abgeleitet.
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
-# Sources: PDF-Sollkatalog; BlackRabbitZ statischer Snapshot
+# Sources: Derived from BRZ phishing/scam/fake-shops
 # Risk: hoch
-# Data status: vorbereitet
-# Data method: prepared
-# Entries: 0
+# Data method: derived-keyword
+# Entries: 33
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
-# Noch keine belastbaren Domains im aktuellen statischen Quellstand.
+1-vinstaller.com
+appleinstallers.com
+avastinstaller.com
+bundler.stream
+bundlerelao.pages.dev
+commentdesinstallerunmalwares.com
+fireflameinstallers.co.za
+firefoxtoolbar.com
+hvordanduafinstallerermalware.org
+installerlm.tk
+macosuninstaller.com
+packagesinstallerverifieer.pages.dev
+perfectuninstaller.com
+perfectuninstaller.net
+privinstaller.tk
+revouninstaller.pro
+utileinstaller.tk
+vinstaller.com
+window-installer.co.uk
+www.adobeflashinstaller.com
+www.appleinstallers.com
+www.avastinstaller.com
+www.commentdesinstallerunmalwares.com
+www.finaluninstaller.com
+www.firefoxtoolbar.com
+www.hvordanduafinstallerermalware.org
+www.macosuninstaller.com
+www.perfectuninstaller.com
+www.perfectuninstaller.net
+www.utileinstaller.tk
+www.wiihomebrewinstaller.com
+www.window-installer.co.uk
+www.windowsinstallersupport.com

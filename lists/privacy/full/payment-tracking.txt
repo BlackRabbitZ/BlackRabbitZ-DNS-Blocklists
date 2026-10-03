@@ -15,7 +15,9 @@ adstripe.net
 adsx.greystripe.com
 checkoutanalytics-live-us.adyen.com
 checkoutanalytics-live.adyen.com
+click.hello.klarna.com
 client-analytics.braintreegateway.com
+hello.production.eu1.click-tracking.klarna.net
 metrics.soundstripe.com
 origin-analytics-sand.sandbox.braintree-api.com
 rs-stripe.freedombeacon.com
@@ -25,5 +27,3 @@ smetrics.corpayone.dk
 stats.paypal-metrics.com
 tracker.affirm.com
 tracking.sezzle.com
-click.hello.klarna.com
-hello.production.eu1.click-tracking.klarna.net

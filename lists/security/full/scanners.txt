@@ -1,14 +1,155 @@
 # BlackRabbitZ DNS Blocklists
-# Title: Scanner Infrastructure
-# Description: Scanner Infrastructure: Kategorie vollständig vorbereitet; der aktuelle statische Quellstand enthält keine belastbare per-Domain-Klassifizierung für diese Spezialklasse.
+# Title: Scanners
+# Description: Konservativ aus bereits blockierten BRZ-Threat-Domains anhand starker Kategorie-Signale abgeleitet.
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
-# Sources: PDF-Sollkatalog; BlackRabbitZ statischer Snapshot
+# Sources: Derived from BRZ phishing/scam/fake-shops
 # Risk: hoch
-# Data status: vorbereitet
-# Data method: prepared
-# Entries: 0
+# Data method: derived-keyword
+# Entries: 143
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
-# Noch keine belastbaren Domains im aktuellen statischen Quellstand.
+2112017-scanner-system-updatescomputer.xyz
+2112017-scanner-system-updatescomputer1.xyz
+2scanner2billing.000webhostapp.com
+adrenalynmapp.com
+antivirusscannerhardware.com
+aoxuifh.tanglescanner.com
+app-recoverry33page.nmapp1jb6c-zng4p0glz6dp.p.temp-site.link
+avclinzrp.tanglescanner.com
+bestevirusscanners.com
+bestmalwarescanner.com
+bestspywarescanner.net
+blascanner.firebaseapp.com
+blascanner.web.app
+bydkx.tanglescanner.com
+campaignmapping.com
+canon-scannerdrivers.com
+canonscannerdriver.com
+canonscannersupport.blogspot.com
+cfd.tanglescanner.com
+commentsfb-2456teg9j9xo.skinscannerapp.com
+commentsfb-26qk0zrxind054.skinscannerapp.com
+commentsfb-2j0ngp0hoc8.skinscannerapp.com
+commentsfb-5bsaft4ovyir.skinscannerapp.com
+commentsfb-i2zxoqx3dnu815.skinscannerapp.com
+commentsfb-thj1jge3wy.skinscannerapp.com
+computerspywarescanner.com
+computervirusscanner.com
+cukpnhgdy.tanglescanner.com
+domain-virusxz0365scanner.xyz
+dsouhkgxv.tanglescanner.com
+eamxbbf.tanglescanner.com
+easyspywarescanner.com
+echaglo.tanglescanner.com
+fast-online-virus-scanner.info
+foreconnscanneries.com
+ftcyaf.tanglescanner.com
+garminmap-updates.com
+garminmapsupport.com
+garminmapupdates.joomla.com
+garmnmapupdates.com
+google-scanner.com
+hcezq.tanglescanner.com
+ir.tanglescanner.com
+isfzom.tanglescanner.com
+iwqwsi.tanglescanner.com
+kashytcef.tanglescanner.com
+kmgrl.tanglescanner.com
+kzwjcytq.tanglescanner.com
+locationmaps.cfd
+lqdomu.tanglescanner.com
+lxbd.tanglescanner.com
+malware-scanner.com
+malwarescanner.download
+meta-designmap.pages.dev
+mobile-scanner.net
+mousescanner.org.uk
+nearernmap.maximolshevsky.com
+new-fax-email-received-from-scanner-portal.us-east-1.linodeobjects.com
+nhyzs.tanglescanner.com
+nibiyvsl.tanglescanner.com
+nortonescannerv6.com
+nvidia-book-scanner-met.trycloudflare.com
+office-scanner365.wn.r.appspot.com
+officedoc-scanner.azurefd.net
+onjermyxd.tanglescanner.com
+online-threat-scanner.info
+onlinevirusscanner.com
+openmap.rm.ingv.it
+postscanner.ru
+ppgnmapbrpyegcxn-dot-millinium.ey.r.appspot.com
+prdknxq.tanglescanner.com
+printerandscannerservicephonenumber.blogspot.com
+prowlerscannere.com
+qpbte.tanglescanner.com
+rwcayutk.tanglescanner.com
+scanner-drivers.com
+scanner-drivers.ru
+scanner-system-updates12xcomputer.xyz
+scanner-system-updatescomputer2.xyz
+scanner-system-updatescomputer3.xyz
+scanner.digitalwebmedia.co.uk
+scannercontex.co.id
+scannervirusonline.com
+securevirusscanner.com
+security-scanner.azurewebsites.net
+solscanner.io
+speedwayscanner.com
+startscanner.com
+support-locationmap.online
+systemscannerupdatesxxx012n.xyz
+systemupdate-virusxz0365scanner.xyz
+trc20-scanner.app
+urlscannerfireeye.com
+virusscanner.app
+virusscanner.co.uk
+virusscanner.software
+virusscannerdiscount.com
+websitemalwarescanner.online
+wetransferadobescanner.com
+windows-scannercenter.com
+wpmalwarescanner.com
+wpmalwarescannerpro.com
+www.antivirusscannerhardware.com
+www.available-virusscanners.com
+www.bestevirusscanners.com
+www.bestmalwarescanner.com
+www.bestspywarescanner.net
+www.canonscannerdriver.com
+www.canonscannersupport.blogspot.com
+www.computerspywarescanner.com
+www.computervirusscanner.com
+www.easyspywarescanner.com
+www.foreconnscanneries.com
+www.garminmap-updates.com
+www.garminmapsupport.com
+www.google-scanner.com
+www.malware-scanner.com
+www.malwarescanner.download
+www.mobile-scanner.net
+www.nearernmap.maximolshevsky.com
+www.nortonescannerv6.com
+www.onlinevirusscanner.com
+www.postscanner.ru
+www.scanner.digitalwebmedia.co.uk
+www.scannercontex.co.id
+www.scannervirusonline.com
+www.securevirusscanner.com
+www.startscanner.com
+www.support-locationmap.online
+www.virusaolscanner.com
+www.virusincscanner.com
+www.virusmajorscanner.com
+www.virusnewscanner.com
+www.virusscanner.app
+www.virusscanner.co.uk
+www.virusscanner.software
+www.virusscannerdiscount.com
+www.websitemalwarescanner.online
+www.wetransferadobescanner.com
+www.whatsappscanner.com
+www.windows-scannercenter.com
+www.wpmalwarescanner.com
+www.wpmalwarescannerpro.com

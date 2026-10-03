@@ -7,7 +7,7 @@
 # Risk: Hoch
 # Data status: befüllt
 # Data method: generated-tier
-# Entries: 308
+# Entries: 311
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -108,6 +108,7 @@ ecs.nel.measure.office.net
 edge.activity.windows.com
 engine.fyber.com
 engine.mobileapptracking.com
+eu-mobile.events.data.microsoft.com
 euc.adserver.snapads.com
 euw.adserver.snapads.com
 events.appsflyer.com
@@ -205,6 +206,7 @@ metrics4.data.hicloud.com
 metrics5.data.hicloud.com
 metrics5.dt.dbankcloud.ru
 metrics6.dt.hicloud.com
+mobile.events.data.microsoft.com
 mobileapptracking.com
 mqtt-mini.facebook.com
 msc-dct-prod.msc.apple.com
@@ -298,6 +300,7 @@ uop.umeng.com
 usc.adserver.snapads.com
 utraffic.engine.adglare.net
 v10.events.data.microsoft.com
+v20.events.data.microsoft.com
 vortex-sandbox.data.microsoft.com
 vortex-win.data.microsoft.com
 vortex.data.microsoft.com

@@ -1,14 +1,30 @@
 # BlackRabbitZ DNS Blocklists
 # Title: Apple TV
-# Description: Apple-TV-/tvOS-nahe Tracking-Endpunkte
+# Description: Apple Analytics-/Advertising-Endpunkte mit Relevanz für Apple-TV/Ökosystem.
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
-# Sources: Aus vorhandenen BlackRabbitZ-/dokumentierten HaGeZi-Domains konservativ abgeleitet
-# Risk: variabel
-# Data status: abgeleitet
-# Data method: derived-keyword
-# Entries: 0
+# Sources: Derived from BRZ Apple manufacturer list
+# Risk: mittel
+# Data method: curated-static
+# Entries: 18
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
-# Noch keine belastbaren Domains im aktuellen statischen Quellstand.
+advertising.apple.com
+analytics.apple.com
+analytics.appleboys.us
+analytics.applemooz.net
+api-adservices.apple.com
+ca.iadsdk.apple.com
+cf.iadsdk.apple.com
+events-analytics.apple.com
+iadsdk.apple.com
+iadsdk.apple.com.akadns.net
+iadsdk.apple.com.edgekey.net
+metrics.apple.com
+news.iadsdk.apple.com
+securemetrics.apple.com
+securemetrics.apple.com.cn
+supportmetrics.apple.com
+tr.iadsdk.apple.com
+ut.iadsdk.apple.com

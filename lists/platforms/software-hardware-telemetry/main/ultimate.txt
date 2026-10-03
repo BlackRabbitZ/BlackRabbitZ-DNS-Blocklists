@@ -7,10 +7,11 @@
 # Risk: Hoch
 # Data status: befüllt
 # Data method: generated-tier
-# Entries: 77
+# Entries: 84
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
+a.amd.com
 acds-events.adobe.io
 adobe-analytics-dc.amlc.eu
 adobe-analytics-dc.amlc.nl
@@ -54,18 +55,24 @@ analytics.kriskintel.com
 analytics.ravenintel.com
 bespoke-analytics.razerapi.com
 events.gfe.nvidia.com
+events.telemetry.data.nvidia.com
+explore.amd.com
 hz-telemetry-next.adobe.io
 hz-telemetry.adobe.io
+kqzamd.com
+lightstep.kaizen.nvidia.com
 metrics-dev.adobeprimetime.com
 metrics-stage.adobeprimetime.com
 metrics.adobe.almanacrealty.com
 metrics.adobe.nb.com
 metrics.adobe.nbprivateequitypartners.com
 metrics.adobe.nbprivatewealth.com
+metrics.amd.com
 metricsadobe.hollandandbarrett.be
 metricsadobe.hollandandbarrett.com
 metricsadobe.hollandandbarrett.ie
 metricsadobe.hollandandbarrett.nl
+pbnamd.com
 prd-appstats.nvidia.com
 s-adobeanalytics.vice.com
 sadobeanalytics.medline.com

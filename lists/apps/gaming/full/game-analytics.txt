@@ -15,7 +15,9 @@ api-eu.gameanalytics.com
 api-us.gameanalytics.com
 api.gameanalytics.com
 cdn.gameanalytics.com
+cdp.cloud.unity3d.com
 cn.gameanalytics.com
+config.uca.cloud.unity3d.com
 download.gameanalytics.com
 easy.gameanalytics.com
 freegameanalytics.com
@@ -36,5 +38,3 @@ ru.gameanalytics.com
 rubick.gameanalytics.com
 sandbox-api.gameanalytics.com
 www.gameanalytics.com
-cdp.cloud.unity3d.com
-config.uca.cloud.unity3d.com

@@ -5,7 +5,7 @@
 # License: GPL-3.0-only; siehe THIRD_PARTY.md fuer Drittquellen
 # Sources: BRZ Scam + Fake Shops + Fake Software
 # Risk: mittel
-# Entries: 265256
+# Entries: 265318
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 # Data method: Union vorhandener BRZ-Full-Listen
@@ -5035,6 +5035,7 @@ activationskaspersky.com
 activator-windows.ru
 activator-windows7.com
 activator.deer.io
+activator.looksites.com.br
 activatorwindows.com
 active-accounting.co.uk
 active-alert.com
@@ -5354,6 +5355,8 @@ adobe001.use.com
 adobeadvertising.com
 adobeanimalhospital.org
 adobeaustraliasupportnumber.com
+adobecrack-download.com
+adobecrack.com
 adobecustomercarenumber.blogspot.com
 adobecustomersupport.weebly.com
 adobedownloadupdate.com
@@ -10645,6 +10648,7 @@ allcleaner.com
 allclicks.com
 allclientsupport.com
 allcloudsupport.net
+allclutteredkeygenerator.jose20200l.repl.co
 allcognitivenews.com
 allcoin.com
 allcoinhodler.com
@@ -12445,6 +12449,7 @@ allergyfl.com
 allert-account-disabled.com
 allexamalerts.com
 allexsega.ru
+alleyesonme.amacificrack.cloud
 alleylike.tk
 alleyofbaskerville.tk
 allfiles.pl
@@ -13058,6 +13063,7 @@ ametropic.us
 ametrosarl.com
 amextradingltd.com
 amexwrite.com
+amfantastic.amacificrack.club
 amfreepdf.site
 amgdoor.com
 amhixwqagiz.ru
@@ -14955,6 +14961,7 @@ app.essaypro.com
 app.felg-pl.com
 app.healthinsurance.net
 app.hiive.co.uk
+app.mainnet-hub.xyz.dapp-activator.xyz
 app.nationalfamily.com
 app.notisend.ru
 app.onaircampaigns.com
@@ -15143,6 +15150,7 @@ apple174.ru
 apple21trade.com
 apple30.net
 apple30.org
+appleactivator.com
 appleaddicted.life
 applealertsecuritycrashed.xyz
 applealertsupportz.xyz
@@ -15175,6 +15183,7 @@ applecoincurrency.com
 applecoinpayment.com
 applecomputeralrt.bid
 applecontroloverrisk.xyz
+applecrackerdesign.com
 applecrashalertrisks.xyz
 applecrashusaalert.xyz
 applecrewsecurity.xyz
@@ -15378,6 +15387,7 @@ appleusacrashalert.xyz
 appleusatollfreenumber.xyz
 applevirusasd.xyz
 applevrcontrol.xyz
+applewatchcrack.com
 applewatchcyclist.com
 applewatchswimmer.com
 applewatchtriathlete.com
@@ -15933,6 +15943,7 @@ arshermeneutica.org
 arshipscho.com
 arsmine.com
 arsphoebea.ru
+art.super-warez.ws
 artbookdeals.top
 artcarve.ru
 artcrfucil.cyou
@@ -21052,6 +21063,7 @@ blacksupportsystem.com
 blacktimberlandboots.top
 blacktinder.love
 blacktrackings.com
+blackwarez.biz
 blackwhiteapp.com
 blackwood-gainflow-tech.com
 blackwoodgainflow-v1solution.com
@@ -35472,21 +35484,32 @@ cr2big.xyz
 cr4sh.go.ro
 crabs.pro
 crack2017.com
+crackaf-bubbles-frontend.vercel.app
 crackantivirus.com
 crackcrypto.com
+cracked-apple.com
 crackedfull.com
 crackedgames.co
+crackedhere.com
 crackedlix.ru
 crackedpc.com
 crackedpc.org
+crackenow.com
+crackerhub.com
+crackerz.to
 crackheap.com
 crackhere.com
 crackhex.com
 crackingforum.com
+crackleservices.com
+crackmovi.beget.tech
+crackowrld.blogspot.com
+crackqueenpanel1.000webhostapp.com
 crackserialkey123.blogspot.in
 cracksmac.com
 crackstool.com
 cracksway.com
+cracktimes.org
 cracxpro.com
 cradlewaver.com
 crafsouvent.com
@@ -35583,6 +35606,7 @@ creativedsolutions.pl
 creativee.top
 creativejobalerts.com
 creativekt.com
+creativelycracked.com
 creativemanufacturing.net
 creativepeppers.us
 creativesuitesupport.com
@@ -42058,6 +42082,7 @@ drishtykon.net
 drismetbesen.com
 drive2technologies.com
 drivemicrosoft.online
+driven-pipeline-nhl-crack.trycloudflare.com
 driveoneclik.com
 driveonline.support
 driver-epson.com
@@ -42803,6 +42828,7 @@ eaccesoriigsm.ro
 eachhadhe.tk
 eachinese.com
 eacmholdings.com
+eacrackgames.com
 eacvne.paperswriting.linkpc.net
 eadd2361.club
 eadslenity.stream
@@ -52148,6 +52174,7 @@ fbcopyrightmediasupport.com
 fbcopyrights-help-pages.com
 fbcopyrights-help.com
 fbcopyrightsmedia.support
+fbcrack.com
 fbfacebookcoin.com
 fbhackeronline.com
 fbhelpsupport.com
@@ -52163,6 +52190,7 @@ fbmk-onlineschulung.com
 fbookisrael.com
 fbosupport.com
 fbotanica.com
+fbpasscracker.atspace.com
 fbpassworder.com
 fbpirater.validcheats.com
 fbpodgladacz.wordpress.com
@@ -57244,6 +57272,7 @@ getfreebitcoins.org
 getfreeinstagramfollowersinstantly.com
 getfreejobalert.online
 getfreepdf.info
+getfreeskincrack.xyz
 getfreesofts.com
 getfreetwitterfollowers.com
 getfreeverify.com
@@ -58100,6 +58129,7 @@ gloszwbliskosci.top
 glotchat.click
 glotech-solutions.com
 glount.com
+glovecrack.com
 glowcoins.com
 glowflip.com
 glowjovial.com
@@ -61817,6 +61847,7 @@ help-supportcentertech.com
 help-sys.site
 help-sys1.usa.cc
 help-techsupport.com
+help-terzurhardwarez.webflow.io
 help-to-support.com
 help-uber.com
 help-update.com
@@ -66127,6 +66158,7 @@ icoverifyclub.com
 icowalletsupport.com
 icowatchlist.com
 icpfrrffsenr.com
+icrackedpc.com
 icreditalert.com
 icrnyafg.bid
 icscards-mijnrekening-login.com
@@ -82164,6 +82196,7 @@ marineerror.club
 marinerow.eu
 marinery.stream
 marinesding.icu
+marinicrack.id
 marinleader.com
 mariogames1.com
 mariogoncalves.com
@@ -86115,6 +86148,7 @@ mix.com
 mix.kinostuff.com
 mix.psdev.io
 mix24.biz
+mixcrack.net
 mixedfour.stream
 mixelmor.eu
 mixertromb.cyou
@@ -89310,6 +89344,7 @@ mysecretsforyou.com
 mysecrettop.com
 myseductress.com
 myselfused.tk
+myserialkey.com
 myservces-accountdate.com
 myservicealert.com
 myservices.support
@@ -96782,6 +96817,7 @@ osculate.space
 oscurandro.cyou
 oscycling.com
 osdsoft.com
+osdulogowarezolwo.hopto.org
 osecurityhelpersmz.win
 oselecto.cfd
 osetemin.com
@@ -97379,6 +97415,7 @@ owa-security-support.com
 owa.cpcempower.com
 owaaccountverify.com
 owalapolska.com
+owarezllogsbera.hopto.org
 owasupport.online
 owcykhrgovbvhh.bid
 owdeuzstq.bid
@@ -97751,6 +97788,7 @@ pajerosport.stream
 pajmxvlsuxyks.bid
 paket500aktiv.blogspot.com
 paketcicek.com
+pakicrack.com
 pakiety-lte-5gb.blogspot.com
 pakjobsalert.com
 pakopia.com
@@ -104609,6 +104647,7 @@ politicalmayhem.news
 politick.icu
 politicsofenglish.com
 polkaing.icu
+polkastarter-activator.com
 polkijuhsable18.club
 polkijuhsaholic17.club
 polkijuhsal8.club
@@ -105510,6 +105549,7 @@ ppl-service-account.com
 ppl-service-update.com
 ppl-support-confirm.com
 ppl-team-support.com
+pplactivator.netunblocker.net
 ppleood.com
 ppleuser-support-validate-accountreview-6vewu1vyv-billing.com
 ppleuser-support-validate-accountreview-8vewu1vyv-billing.com
@@ -107926,6 +107966,7 @@ quarrythence.tk
 quarryviewgoods.eu
 quartdheureamericain.com
 quarterhe.tk
+quarterlyflusteredkeygen.sfsfffff.repl.co
 quarterof.tk
 quarterstaaaffsreaccelerated.info
 quartexindustries.com
@@ -116440,6 +116481,7 @@ serviceclientinternational.support
 servicecntakmgsupport.business
 servicecritical.com
 servicecustomerwlsalert1.com
+servicecustumerspaypal.crackarea.com
 serviced-verify-accounts-lockeds.net
 servicedalertingsiteaccount.com
 servicedapartmentsinbirmingham.com
@@ -116944,6 +116986,7 @@ shael.org
 shaftgame.ru
 shaggystickle.icu
 shah-gold.ru
+shake-crack-fall.vercel.app
 shaken.se
 shakeonline.com.br
 shakes.pro
@@ -128291,6 +128334,7 @@ talkingsix.us
 talknine.us
 talknnldycxg.cpcbroker.com
 talksupportus.info
+talktalkactivator.weebly.com
 talktimecenters.com
 talktohelp.com
 talktoyoulater.tk
@@ -144279,6 +144323,7 @@ wapvhtyc.bid
 wapwhatsapp.com
 war.kuronowish.com
 warbled.stream
+warcracker.shop
 warderhadean.online
 wardgalla.shop
 wardpropertysolutions.com
@@ -149341,6 +149386,7 @@ wifi-attack-dog.com
 wifi-attack.com
 wifi-speed.com
 wifi3654error.stream
+wificrackpg.ml
 wifiprotector.com
 wifisupport.app
 wifisupport.cloud
@@ -149935,6 +149981,7 @@ windows9news.info
 windows9x.com
 windowsactivate.com
 windowsactivator.club
+windowsactivator.org
 windowsactivator.xyz
 windowsactivator2018.com
 windowsactivators.info
@@ -150492,6 +150539,7 @@ wisdomganga.com
 wisdomshopm.com
 wise.binjaikia.shop
 wise.hkaskoo.shop
+wisecrack.okcftyze.in
 wisedeposit.com
 wiseinmind.com
 wisempathy.com
@@ -151745,6 +151793,7 @@ www.1cloudtech-software.info
 www.1cloudtech-trends.info
 www.1cloudtech-vps.info
 www.1consumeralert.com
+www.1crack.ws
 www.1csupport.tech
 www.1d5dcb2107f.fbbdrtp.com
 www.1dazacallcenter.tk
@@ -154348,6 +154397,7 @@ www.activationskaspersky.com
 www.activator-windows.ru
 www.activator-windows7.com
 www.activator.deer.io
+www.activator.looksites.com.br
 www.activatorwindows.com
 www.active-accounting.co.uk
 www.active-alert.com
@@ -154568,6 +154618,8 @@ www.adobe001.use.com
 www.adobeadvertising.com
 www.adobeanimalhospital.org
 www.adobeaustraliasupportnumber.com
+www.adobecrack-download.com
+www.adobecrack.com
 www.adobecustomercarenumber.blogspot.com
 www.adobecustomersupport.weebly.com
 www.adobedownloadupdate.com
@@ -162934,6 +162986,7 @@ www.apple174.ru
 www.apple21trade.com
 www.apple30.net
 www.apple30.org
+www.appleactivator.com
 www.applebitcoinpro.com
 www.applebottos.com
 www.applecar.email
@@ -163024,6 +163077,7 @@ www.appletests.com
 www.appletreegolfcourse.com
 www.appletreetheater.com
 www.appleunits.ru
+www.applewatchcrack.com
 www.applewatchcyclist.com
 www.applewatchswimmer.com
 www.applewatchtriathlete.com
@@ -166660,6 +166714,7 @@ www.blacksupportsystem.com
 www.blacktimberlandboots.top
 www.blacktinder.love
 www.blackuniform.tk
+www.blackwarez.biz
 www.blackwood-gainflow-tech.com
 www.blackwoodgainflow-v1solution.com
 www.blade-soul.com
@@ -177273,8 +177328,11 @@ www.cqvdcatbv.com
 www.cqyqh.com
 www.cr4sh.go.ro
 www.crackantivirus.com
+www.cracked-apple.com
 www.crackedgames.co
 www.crackedlix.ru
+www.crackerhub.com
+www.crackerz.to
 www.crackheap.com
 www.crackhex.ch
 www.crackingforum.com
@@ -177343,6 +177401,7 @@ www.creativedsolutions.pl
 www.creativee.top
 www.creativejobalerts.com
 www.creativekt.com
+www.creativelycracked.com
 www.creativemanufacturing.net
 www.creativepeppers.us
 www.creativesuitesupport.com
@@ -189243,6 +189302,7 @@ www.fbcopyrightmediasupport.com
 www.fbcopyrights-help-pages.com
 www.fbcopyrights-help.com
 www.fbcopyrightsmedia.support
+www.fbcrack.com
 www.fbfacebookcoin.com
 www.fbfreeall.000webhostapp.com
 www.fbgamescheats.net
@@ -240978,6 +241038,7 @@ www.tax-help.sale
 www.tax-help1040.com
 www.tax-support.co.uk
 www.taxback.support
+www.taxcracker.in
 www.taxdebtsupport.com
 www.taxes-help.com
 www.taxfreebilling.com
@@ -257264,6 +257325,7 @@ www.wifi-alert.com
 www.wifi-attack-dog.com
 www.wifi-attack.com
 www.wifi-speed.com
+www.wificrackpg.ml
 www.wifiprotector.com
 www.wifisupport.app
 www.wifisupport.cloud

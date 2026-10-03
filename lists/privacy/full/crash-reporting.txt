@@ -51,6 +51,13 @@ notify.bugsnag.appstore.a2z.com
 notify.bugsnag.com
 notify.firetv.bugsnag.appstore.a2z.com
 o0.ingest.sentry.io
+o10564.ingest.sentry.io
+o22381.ingest.sentry.io
+o315582.ingest.sentry.io
+o315582.ingest.us.sentry.io
+o33249.ingest.us.sentry.io
+o64374.ingest.sentry.io
+o825645.ingest.us.sentry.io
 o861134.ingest.sentry.io
 on-prem-testing.bugsnag.com
 openamp-error-reporting.appspot.com
@@ -102,10 +109,3 @@ update.crashlytics.com
 updates.bugsnag.com
 upload.bugsnag.com
 www.bugsnag.com
-o10564.ingest.sentry.io
-o22381.ingest.sentry.io
-o315582.ingest.sentry.io
-o315582.ingest.us.sentry.io
-o33249.ingest.us.sentry.io
-o64374.ingest.sentry.io
-o825645.ingest.us.sentry.io

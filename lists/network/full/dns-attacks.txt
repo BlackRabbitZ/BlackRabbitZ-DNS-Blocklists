@@ -1,14 +1,21 @@
 # BlackRabbitZ DNS Blocklists
-# Title: DNS-/Netzwerkangriffe
-# Description: DNS-/Netzwerkangriffe-Endpunkte aus dem vorhandenen Datenbestand
+# Title: DNS Attacks / Rebinding Helpers
+# Description: Bekannte wildcard/rebinding helper domains. Sehr aggressiv; kann legitime Entwicklungsumgebungen beeinträchtigen.
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
-# Sources: Aus vorhandenen BlackRabbitZ-/dokumentierten HaGeZi-Domains konservativ abgeleitet
-# Risk: hoch
-# Data status: abgeleitet
-# Data method: derived-keyword
-# Entries: 0
+# Sources: BRZ curated security policy seed
+# Risk: sehr hoch
+# Data method: curated-policy-seed
+# Entries: 9
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
-# Noch keine belastbaren Domains im aktuellen statischen Quellstand.
+localtest.me
+lock.cmpxchg8b.com
+lvh.me
+nip.io
+rbndr.us
+rebind.it
+rebind.network
+sslip.io
+vcap.me

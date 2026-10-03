@@ -37,6 +37,7 @@
 7analytics.no
 7thmananalytics.com
 95nedowamy-metrics.bancobmg.com.br
+a.nel.cloudflare.com
 a.one44analytics.com
 a.smetrics.sovereign.com
 a1webstats.com
@@ -192,6 +193,7 @@ adsmeasurement.com
 advanced-web-analytics.com
 advertisinganalyticsllc.com
 adwstats.com
+aefd.nelreports.net
 aem-collector.daumkakao.io
 aem-kakao-collector.onkakao.net
 affanalytics.com
@@ -11900,6 +11902,7 @@ axonik527.analytics-ev.fr
 b2banalytics.samsungknox.com
 badadzoriginalstats.com
 badoostats.com
+bam.nr-data.net
 baremetrics.com
 baremetrics.io
 barutianalytics.com
@@ -12001,6 +12004,7 @@ briefish-analytics.pyropyro.dev
 brightmetrics.com
 brilliantcollector.com
 browser-intake-ap1-datadoghq.com
+browser-intake-datadoghq.com
 browser-intake-datadoghq.eu
 browser-intake-us3-datadoghq.com
 browser-intake-us5-datadoghq.com
@@ -12382,6 +12386,7 @@ collector.seexh1.com
 collector.seranking.com
 collector.showxh.life
 collector.skullcandy.com
+collector.snowplow.supercell.com
 collector.solarwinds.com
 collector.sst.lamp24.se
 collector.sst.lampade.it
@@ -12417,6 +12422,7 @@ collector.vhx.tv
 collector.viaxh.xyz
 collector.viddsee.com
 collector.viki.io
+collector.voodoo-adn.com
 collector.wannaknow.link
 collector.wassenaar.org
 collector.woxh.world
@@ -12535,6 +12541,7 @@ crashdump.spotify.com
 crasheye.cn
 crashlogs.mobilegame.woniu.com
 crashlogs.woniu.com
+crashlyticsreports-pa.googleapis.com
 crashreport.dolphin-browser.com
 crashreport.netmarble.com
 crashreport.wolcengame.com
@@ -12611,6 +12618,7 @@ dc.applicationinsights.azure.cn
 dc.applicationinsights.azure.com
 dc.applicationinsights.azure.us
 dc.applicationinsights.microsoft.com
+dc.services.visualstudio.com
 dcp-analytics.com
 de.coremetrics.com
 dealeranalytics.com
@@ -13028,6 +13036,7 @@ hs-analytics.net
 hs-website-interactive-analytics.net
 hsanalytics-cdn.com
 hsanalytics-cdn.net
+http-intake.logs.datadoghq.com
 hub.analytics.trafficmanager.net
 hubmetrics.samsclub.com
 hubspotanalytics.com
@@ -13044,6 +13053,8 @@ ic3.events.data.microsoft.com
 icentrixanalytics.com
 ida-analytics.de
 ideata-analytics.com
+idt-0973bl-murc9tcv.loc-de-de.chk-webapp.res-ok.dur-0.v1.dc-telemetry.net
+idt-55omq9-mus4fq5y.loc-de-de.chk-webapp.res-ok.dur-0.v1.dc-telemetry.net
 iianalytics.com
 image.masterstats.com
 imganalytics.com
@@ -14666,6 +14677,7 @@ metrics.ibercaja.es
 metrics.ibfd.org
 metrics.ibv-mx.bnpparibas.com
 metrics.icemakerdirect.com
+metrics.icloud.com
 metrics.idealisalvas.hu
 metrics.iderma.lt
 metrics.iex.ec
@@ -16507,6 +16519,7 @@ prod-eh-v1-analytics.servicebus.windows.net
 prod-eventhub-analytics.servicebus.windows.net
 prod-telemetry.paradox-interactive.com
 prod-ue1-metrics.hingeprod.net
+prod.ingestion-edge.prod.dataservices.mozgcp.net
 prod.telemetry.ros.rockstargames.com
 production-jobactivity-analytics.servicebus.windows.net
 production-useast-1-rapport-events.s3.amazonaws.com
@@ -21136,6 +21149,8 @@ sslstats.postescanada-canadapost.ca
 sslstats.postescanada.ca
 sslstats.ssl.postescanada-canadapost.ca
 sslstats.worldagentdirect.com
+ssp-prod-traffic-mgr-es-beacon-eastus.trafficmanager.net
+ssp-prod-traffic-mgr-es-lp-beacon-eastus.trafficmanager.net
 sst.bassevents.be
 sst.crashbaggage.com
 sst.redsentry.com
@@ -29175,18 +29190,3 @@ zohoinsights.com
 zoomanalytics.co
 zpstats.mischwald.ch
 ztevents.zaloapp.com
-a.nel.cloudflare.com
-aefd.nelreports.net
-bam.nr-data.net
-browser-intake-datadoghq.com
-collector.snowplow.supercell.com
-collector.voodoo-adn.com
-crashlyticsreports-pa.googleapis.com
-dc.services.visualstudio.com
-http-intake.logs.datadoghq.com
-idt-0973bl-murc9tcv.loc-de-de.chk-webapp.res-ok.dur-0.v1.dc-telemetry.net
-idt-55omq9-mus4fq5y.loc-de-de.chk-webapp.res-ok.dur-0.v1.dc-telemetry.net
-metrics.icloud.com
-prod.ingestion-edge.prod.dataservices.mozgcp.net
-ssp-prod-traffic-mgr-es-beacon-eastus.trafficmanager.net
-ssp-prod-traffic-mgr-es-lp-beacon-eastus.trafficmanager.net

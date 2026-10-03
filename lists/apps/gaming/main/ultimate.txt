@@ -7,7 +7,7 @@
 # Risk: Hoch
 # Data status: befüllt
 # Data method: generated-tier
-# Entries: 373
+# Entries: 378
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -101,6 +101,7 @@ cdn.gameanalytics.com
 cdn.mobidea.com
 cdnaws.mobidea.com
 cdnpublic.mobidea.com
+cdp.cloud.unity3d.com
 ce69817852420b7fea.com
 cert.telemetry.ros.rockstargames.com
 click.ccg.nintendo.com
@@ -113,6 +114,7 @@ cn.gameanalytics.com
 cogivea.com
 config.ad.snappea.com
 config.mobilegamestats.com
+config.uca.cloud.unity3d.com
 conversionsea.com
 crash.steampowered.com
 crashlogs.mobilegame.woniu.com
@@ -158,6 +160,7 @@ flix-area.com
 fordedcostaea.com
 forthea.com
 foxea.com.cn
+freeform-river.data.ea.com
 freegameanalytics.com
 gameanalytics.com
 geo.battle.net
@@ -286,6 +289,7 @@ secure.peep1alea.com
 secure.refl3alea.com
 secure.yami8alea.com
 secureae-edge.ikea.com
+segmentation-service.data.ea.com
 selfishsea.com
 server.rafaelacorrea.com
 servserv.generals.ea.com
@@ -334,6 +338,7 @@ telemetry-in.battle.net
 telemetry-web.api.playstation.com
 telemetry.api.playstation.com
 telemetry.battle.net
+telemetry.sgp.pvp.net
 themangotea.com
 tidy-idea.com
 tk.chaussea.com

@@ -57,7 +57,7 @@ sca.samsung.com
 scs.samsungqbe.com
 targeted-config-test.samsungacr.com
 time.samsungcloudsolution.com
+tvp-ads-log.samsungads.com
 uimetadata.samsungiotcloud.com
 us-api.samsungyosemite.com
 vdterms.samsungcloudsolution.com
-tvp-ads-log.samsungads.com

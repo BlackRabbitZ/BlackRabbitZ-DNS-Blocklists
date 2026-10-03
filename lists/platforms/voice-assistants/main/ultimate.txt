@@ -7,7 +7,7 @@
 # Risk: Hoch
 # Data status: befüllt
 # Data method: generated-tier
-# Entries: 109
+# Entries: 112
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -33,6 +33,7 @@ analytics.osirius.de
 analytics.stephenalexander.us
 anon.sirius.speedera.net
 api.alexandramonfredinho.com.br
+assistant.google.com
 atrk.alexametrics.com
 banners.alexanderwatson.com.au
 bugsnag-session.monitor.core.app.alexa.a2z.com
@@ -49,6 +50,7 @@ data.alexa.com
 data.fans.alexalbon.com
 download.alexa.com
 download.sirius.speedera.net
+embeddedassistant.googleapis.com
 fast.alexani.demdex.net
 fetasirid.shop
 get.siriuscom.com
@@ -99,6 +101,7 @@ smetrics.siriusxm.ca
 smetrics.siriusxm.com
 smtp.alexandria.bluehornet.com
 smtp.alexandroupolis.bluehornet.com
+speech.googleapis.com
 sst.alexander-veyron.de
 sst.siriusoutdoorgroup.com
 stape.alexandrecamilo.com

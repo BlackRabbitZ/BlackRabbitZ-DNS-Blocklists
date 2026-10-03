@@ -5,7 +5,7 @@
 # License: GPL-3.0-only; siehe THIRD_PARTY.md fuer Drittquellen
 # Sources: BRZ Network Full-Listen
 # Risk: hoch
-# Entries: 306
+# Entries: 312
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 # Data method: Union vorhandener BRZ Network-Full-Listen
@@ -70,15 +70,18 @@ best-vpn-app.com
 bestsmartvpn.com
 beststreamvpn.com
 blackdot.co.zm
+bridges.torproject.org
 bulletproxy.ch
 cdn.pardot.com
 cdn.vidsdot.com
 check.privadovpn.com
+check.torproject.org
 chmproxy.bid
 cleanproxy.com
 click-haproxy.supersonicads.com
 coinhive-proxy.party
 coinhiveproxy.com
+collector.torproject.org
 compiwik.sdot.me
 connecthedot.com
 corpvpn.coremetrics.com
@@ -87,6 +90,7 @@ custvpn.wcohus.teradatadmc.com
 dataproxy.heapanalytics.com
 daydot.agency
 demotesperidot.shop
+dist.torproject.org
 dit-dit-dot.com
 dot.a.mobimagic.com
 dot.discovery.org
@@ -157,6 +161,7 @@ matomo-vpn.sinngold-projects.com
 matomo.dotdot.my
 metrics-gen2.openvpn.net
 metrics.greendot.com
+metrics.torproject.org
 mgdot.snagtights.com
 minero-proxy-01.now.sh
 minero-proxy-02.now.sh
@@ -230,6 +235,7 @@ smartdigitalvpn.com
 smetrics.greendot.com
 smetrics.yourdot.com
 smetrics.yourdot.net
+snowflake.torproject.org
 spproxy.autobytel.com
 ss.sugardoh.co
 ssl-vpn.cutterbuck.com

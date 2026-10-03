@@ -31,18 +31,18 @@
   },
   {
     "path": "family/content/adult.txt",
-    "bytes": 19323285,
+    "bytes": 19323322,
     "entries": 998924
   },
   {
     "path": "family/content/dating.txt",
-    "bytes": 616,
-    "entries": 0
+    "bytes": 1224,
+    "entries": 40
   },
   {
     "path": "family/content/drugs.txt",
-    "bytes": 614,
-    "entries": 0
+    "bytes": 1415,
+    "entries": 55
   },
   {
     "path": "family/content/gambling.txt",
@@ -55,29 +55,34 @@
     "entries": 0
   },
   {
+    "path": "family/content/nsfw.txt",
+    "bytes": 19323355,
+    "entries": 998924
+  },
+  {
     "path": "family/content/piracy.txt",
-    "bytes": 616,
-    "entries": 0
+    "bytes": 1450,
+    "entries": 58
   },
   {
     "path": "family/content/sexual-content.txt",
-    "bytes": 650,
-    "entries": 0
+    "bytes": 19323459,
+    "entries": 998924
   },
   {
     "path": "family/content/torrents.txt",
-    "bytes": 618,
-    "entries": 0
+    "bytes": 1130,
+    "entries": 44
   },
   {
     "path": "family/content/violence-gore.txt",
-    "bytes": 634,
-    "entries": 0
+    "bytes": 1437,
+    "entries": 53
   },
   {
     "path": "family/content/weapons.txt",
-    "bytes": 618,
-    "entries": 0
+    "bytes": 2085,
+    "entries": 89
   },
   {
     "path": "family/kids-allow-only/approved-sites.txt",
@@ -131,8 +136,8 @@
   },
   {
     "path": "family/main/ultimate.txt",
-    "bytes": 48858360,
-    "entries": 2346905
+    "bytes": 48862985,
+    "entries": 2347190
   },
   {
     "path": "lists/apps/gaming/full/anti-cheat-telemetry.txt",
@@ -141,23 +146,23 @@
   },
   {
     "path": "lists/apps/gaming/full/battle-net.txt",
-    "bytes": 604,
+    "bytes": 641,
     "entries": 5
   },
   {
     "path": "lists/apps/gaming/full/ea-origin.txt",
-    "bytes": 6152,
-    "entries": 298
+    "bytes": 6249,
+    "entries": 300
   },
   {
     "path": "lists/apps/gaming/full/epic-games.txt",
-    "bytes": 707,
+    "bytes": 744,
     "entries": 7
   },
   {
     "path": "lists/apps/gaming/full/game-analytics.txt",
-    "bytes": 1173,
-    "entries": 25
+    "bytes": 1261,
+    "entries": 27
   },
   {
     "path": "lists/apps/gaming/full/mobile-games.txt",
@@ -176,8 +181,8 @@
   },
   {
     "path": "lists/apps/gaming/full/riot-games.txt",
-    "bytes": 517,
-    "entries": 1
+    "bytes": 576,
+    "entries": 2
   },
   {
     "path": "lists/apps/gaming/full/rockstar.txt",
@@ -221,8 +226,8 @@
   },
   {
     "path": "lists/apps/gaming/main/ultimate.txt",
-    "bytes": 8018,
-    "entries": 373
+    "bytes": 8151,
+    "entries": 378
   },
   {
     "path": "lists/apps/social-media/full/discord.txt",
@@ -307,6 +312,11 @@
   {
     "path": "lists/apps/social-media/main/ultimate.txt",
     "bytes": 535471,
+    "entries": 21588
+  },
+  {
+    "path": "lists/apps/social-media/special/social-networks.txt",
+    "bytes": 535487,
     "entries": 21588
   },
   {
@@ -626,18 +636,18 @@
   },
   {
     "path": "lists/network/full/adblock-bypass.txt",
-    "bytes": 610,
-    "entries": 0
+    "bytes": 2269,
+    "entries": 88
   },
   {
     "path": "lists/network/full/dns-attacks.txt",
-    "bytes": 624,
-    "entries": 0
+    "bytes": 645,
+    "entries": 9
   },
   {
     "path": "lists/network/full/dns-bypass.txt",
-    "bytes": 602,
-    "entries": 0
+    "bytes": 7233,
+    "entries": 312
   },
   {
     "path": "lists/network/full/doh.txt",
@@ -651,13 +661,13 @@
   },
   {
     "path": "lists/network/full/dynamic-dns.txt",
-    "bytes": 558,
-    "entries": 0
+    "bytes": 1446,
+    "entries": 74
   },
   {
     "path": "lists/network/full/private-dns.txt",
-    "bytes": 604,
-    "entries": 0
+    "bytes": 2263,
+    "entries": 102
   },
   {
     "path": "lists/network/full/proxy.txt",
@@ -665,14 +675,19 @@
     "entries": 142
   },
   {
+    "path": "lists/network/full/safesearch-not-supported.txt",
+    "bytes": 3954,
+    "entries": 205
+  },
+  {
     "path": "lists/network/full/tor.txt",
-    "bytes": 588,
-    "entries": 0
+    "bytes": 656,
+    "entries": 7
   },
   {
     "path": "lists/network/full/url-shorteners.txt",
-    "bytes": 590,
-    "entries": 3
+    "bytes": 2789,
+    "entries": 255
   },
   {
     "path": "lists/network/full/vpn.txt",
@@ -701,8 +716,18 @@
   },
   {
     "path": "lists/network/main/ultimate.txt",
-    "bytes": 7198,
-    "entries": 309
+    "bytes": 15680,
+    "entries": 945
+  },
+  {
+    "path": "lists/network/special/doh-vpn-tor-proxy-bypass.txt",
+    "bytes": 7330,
+    "entries": 312
+  },
+  {
+    "path": "lists/network/special/encrypted-dns-only.txt",
+    "bytes": 2335,
+    "entries": 102
   },
   {
     "path": "lists/platforms/automotive/full/audi.txt",
@@ -836,8 +861,8 @@
   },
   {
     "path": "lists/platforms/mobile/full/google-pixel.txt",
-    "bytes": 598,
-    "entries": 0
+    "bytes": 1012,
+    "entries": 18
   },
   {
     "path": "lists/platforms/mobile/full/huawei.txt",
@@ -951,8 +976,8 @@
   },
   {
     "path": "lists/platforms/nas-server/full/unraid.txt",
-    "bytes": 586,
-    "entries": 0
+    "bytes": 597,
+    "entries": 2
   },
   {
     "path": "lists/platforms/nas-server/main/light.txt",
@@ -976,8 +1001,8 @@
   },
   {
     "path": "lists/platforms/nas-server/main/ultimate.txt",
-    "bytes": 2341,
-    "entries": 63
+    "bytes": 2373,
+    "entries": 65
   },
   {
     "path": "lists/platforms/network-devices/full/asus.txt",
@@ -1001,8 +1026,8 @@
   },
   {
     "path": "lists/platforms/network-devices/full/mikrotik.txt",
-    "bytes": 570,
-    "entries": 0
+    "bytes": 569,
+    "entries": 1
   },
   {
     "path": "lists/platforms/network-devices/full/netgear.txt",
@@ -1011,8 +1036,8 @@
   },
   {
     "path": "lists/platforms/network-devices/full/tp-link.txt",
-    "bytes": 568,
-    "entries": 0
+    "bytes": 1154,
+    "entries": 17
   },
   {
     "path": "lists/platforms/network-devices/full/ubiquiti.txt",
@@ -1046,8 +1071,8 @@
   },
   {
     "path": "lists/platforms/network-devices/main/ultimate.txt",
-    "bytes": 9271,
-    "entries": 383
+    "bytes": 9862,
+    "entries": 401
   },
   {
     "path": "lists/platforms/operating-systems/full/android.txt",
@@ -1081,8 +1106,8 @@
   },
   {
     "path": "lists/platforms/operating-systems/full/windows.txt",
-    "bytes": 1816,
-    "entries": 51
+    "bytes": 1952,
+    "entries": 54
   },
   {
     "path": "lists/platforms/operating-systems/main/light.txt",
@@ -1106,8 +1131,8 @@
   },
   {
     "path": "lists/platforms/operating-systems/main/ultimate.txt",
-    "bytes": 8301,
-    "entries": 308
+    "bytes": 8400,
+    "entries": 311
   },
   {
     "path": "lists/platforms/providers/full/1und1.txt",
@@ -1181,8 +1206,8 @@
   },
   {
     "path": "lists/platforms/smart-tv/full/google-tv.txt",
-    "bytes": 597,
-    "entries": 0
+    "bytes": 533,
+    "entries": 2
   },
   {
     "path": "lists/platforms/smart-tv/full/hisense-vidaa.txt",
@@ -1211,13 +1236,13 @@
   },
   {
     "path": "lists/platforms/smart-tv/full/samsung.txt",
-    "bytes": 1833,
-    "entries": 50
+    "bytes": 1897,
+    "entries": 51
   },
   {
     "path": "lists/platforms/smart-tv/full/shared-other.txt",
-    "bytes": 2790,
-    "entries": 102
+    "bytes": 2849,
+    "entries": 103
   },
   {
     "path": "lists/platforms/smart-tv/full/sony-bravia.txt",
@@ -1251,8 +1276,8 @@
   },
   {
     "path": "lists/platforms/smart-tv/main/ultimate.txt",
-    "bytes": 17122,
-    "entries": 646
+    "bytes": 17171,
+    "entries": 648
   },
   {
     "path": "lists/platforms/software-hardware-telemetry/full/adobe.txt",
@@ -1261,8 +1286,8 @@
   },
   {
     "path": "lists/platforms/software-hardware-telemetry/full/amd.txt",
-    "bytes": 560,
-    "entries": 0
+    "bytes": 578,
+    "entries": 5
   },
   {
     "path": "lists/platforms/software-hardware-telemetry/full/autodesk.txt",
@@ -1286,8 +1311,8 @@
   },
   {
     "path": "lists/platforms/software-hardware-telemetry/full/nvidia.txt",
-    "bytes": 609,
-    "entries": 5
+    "bytes": 707,
+    "entries": 7
   },
   {
     "path": "lists/platforms/software-hardware-telemetry/full/razer.txt",
@@ -1316,13 +1341,13 @@
   },
   {
     "path": "lists/platforms/software-hardware-telemetry/main/ultimate.txt",
-    "bytes": 2717,
-    "entries": 77
+    "bytes": 2842,
+    "entries": 84
   },
   {
     "path": "lists/platforms/streaming/full/apple-tv.txt",
-    "bytes": 589,
-    "entries": 0
+    "bytes": 900,
+    "entries": 18
   },
   {
     "path": "lists/platforms/streaming/full/dazn.txt",
@@ -1346,8 +1371,8 @@
   },
   {
     "path": "lists/platforms/streaming/full/netflix.txt",
-    "bytes": 1096,
-    "entries": 24
+    "bytes": 1155,
+    "entries": 25
   },
   {
     "path": "lists/platforms/streaming/full/paramount.txt",
@@ -1401,8 +1426,8 @@
   },
   {
     "path": "lists/platforms/streaming/main/ultimate.txt",
-    "bytes": 7013,
-    "entries": 282
+    "bytes": 7446,
+    "entries": 301
   },
   {
     "path": "lists/platforms/voice-assistants/full/alexa.txt",
@@ -1416,8 +1441,8 @@
   },
   {
     "path": "lists/platforms/voice-assistants/full/google-assistant.txt",
-    "bytes": 592,
-    "entries": 0
+    "bytes": 589,
+    "entries": 3
   },
   {
     "path": "lists/platforms/voice-assistants/full/siri.txt",
@@ -1446,13 +1471,13 @@
   },
   {
     "path": "lists/platforms/voice-assistants/main/ultimate.txt",
-    "bytes": 3139,
-    "entries": 109
+    "bytes": 3215,
+    "entries": 112
   },
   {
     "path": "lists/privacy/full/ads.txt",
-    "bytes": 4943822,
-    "entries": 234003
+    "bytes": 4944287,
+    "entries": 234017
   },
   {
     "path": "lists/privacy/full/affiliate-tracking.txt",
@@ -1466,8 +1491,8 @@
   },
   {
     "path": "lists/privacy/full/analytics.txt",
-    "bytes": 858326,
-    "entries": 35879
+    "bytes": 858928,
+    "entries": 35898
   },
   {
     "path": "lists/privacy/full/captcha-antibot.txt",
@@ -1486,13 +1511,13 @@
   },
   {
     "path": "lists/privacy/full/consent-cmp.txt",
-    "bytes": 1379,
-    "entries": 44
+    "bytes": 1437,
+    "entries": 45
   },
   {
     "path": "lists/privacy/full/crash-reporting.txt",
-    "bytes": 2589,
-    "entries": 91
+    "bytes": 2806,
+    "entries": 98
   },
   {
     "path": "lists/privacy/full/crm.txt",
@@ -1521,8 +1546,8 @@
   },
   {
     "path": "lists/privacy/full/mobile-tracking.txt",
-    "bytes": 4501,
-    "entries": 201
+    "bytes": 5395,
+    "entries": 235
   },
   {
     "path": "lists/privacy/full/native-tracking.txt",
@@ -1536,8 +1561,13 @@
   },
   {
     "path": "lists/privacy/full/payment-tracking.txt",
-    "bytes": 593,
-    "entries": 0
+    "bytes": 1012,
+    "entries": 17
+  },
+  {
+    "path": "lists/privacy/full/pop-up-ads.txt",
+    "bytes": 11154,
+    "entries": 517
   },
   {
     "path": "lists/privacy/full/push-notifications.txt",
@@ -1556,8 +1586,8 @@
   },
   {
     "path": "lists/privacy/full/seo-tracking.txt",
-    "bytes": 578,
-    "entries": 0
+    "bytes": 2597,
+    "entries": 115
   },
   {
     "path": "lists/privacy/full/session-replay.txt",
@@ -1571,13 +1601,13 @@
   },
   {
     "path": "lists/privacy/full/telemetry.txt",
-    "bytes": 691503,
-    "entries": 29163
+    "bytes": 692216,
+    "entries": 29181
   },
   {
     "path": "lists/privacy/full/trackers.txt",
-    "bytes": 2347025,
-    "entries": 113606
+    "bytes": 2347129,
+    "entries": 113609
   },
   {
     "path": "lists/privacy/full/tracking-pixels.txt",
@@ -1591,103 +1621,108 @@
   },
   {
     "path": "lists/privacy/main/light.txt",
-    "bytes": 921045,
-    "entries": 32531
+    "bytes": 921403,
+    "entries": 32546
   },
   {
     "path": "lists/privacy/main/normal.txt",
-    "bytes": 1550023,
-    "entries": 57836
+    "bytes": 1550596,
+    "entries": 57859
   },
   {
     "path": "lists/privacy/main/pro-plus.txt",
-    "bytes": 7796901,
-    "entries": 367445
+    "bytes": 7797348,
+    "entries": 367459
   },
   {
     "path": "lists/privacy/main/pro.txt",
-    "bytes": 2199226,
-    "entries": 86936
+    "bytes": 2199901,
+    "entries": 86962
   },
   {
     "path": "lists/privacy/main/ultimate.txt",
-    "bytes": 7895714,
-    "entries": 371530
+    "bytes": 7897800,
+    "entries": 371597
   },
   {
     "path": "lists/regional/cn.txt",
-    "bytes": 547,
-    "entries": 0
+    "bytes": 112995,
+    "entries": 5896
   },
   {
     "path": "lists/regional/de.txt",
-    "bytes": 554,
-    "entries": 0
+    "bytes": 76812,
+    "entries": 3304
   },
   {
     "path": "lists/regional/es.txt",
-    "bytes": 547,
-    "entries": 0
+    "bytes": 35130,
+    "entries": 1698
   },
   {
     "path": "lists/regional/eu.txt",
-    "bytes": 544,
-    "entries": 0
+    "bytes": 654529,
+    "entries": 31996
   },
   {
     "path": "lists/regional/fr.txt",
-    "bytes": 548,
-    "entries": 0
+    "bytes": 44822,
+    "entries": 2123
   },
   {
     "path": "lists/regional/it.txt",
-    "bytes": 547,
-    "entries": 0
+    "bytes": 50088,
+    "entries": 2307
   },
   {
     "path": "lists/regional/jp.txt",
-    "bytes": 547,
-    "entries": 0
+    "bytes": 13518,
+    "entries": 625
   },
   {
     "path": "lists/regional/kr.txt",
-    "bytes": 547,
-    "entries": 0
+    "bytes": 9629,
+    "entries": 479
   },
   {
     "path": "lists/regional/ru.txt",
-    "bytes": 548,
-    "entries": 0
+    "bytes": 307376,
+    "entries": 15374
   },
   {
     "path": "lists/regional/uk.txt",
-    "bytes": 544,
-    "entries": 0
+    "bytes": 180681,
+    "entries": 7416
   },
   {
     "path": "lists/regional/us.txt",
-    "bytes": 550,
-    "entries": 0
+    "bytes": 102585,
+    "entries": 6302
   },
   {
     "path": "lists/security/full/abuse.txt",
-    "bytes": 660,
-    "entries": 0
+    "bytes": 2784614,
+    "entries": 116920
+  },
+  {
+    "path": "lists/security/full/badware-hosters.txt",
+    "bytes": 954,
+    "entries": 24
   },
   {
     "path": "lists/security/full/brand-impersonation.txt",
-    "bytes": 688,
-    "entries": 0
+    "bytes": 1593310,
+    "entries": 53975
   },
   {
     "path": "lists/security/full/command-control.txt",
-    "bytes": 684,
-    "entries": 0
+    "bytes": 2027,
+    "entries": 53
   },
   {
     "path": "lists/security/full/cryptocurrency.txt",
-    "bytes": 678,
-    "entries": 0
+    "bytes": 1348,
+    "entries": 63
   },
   {
     "path": "lists/security/full/cryptomining.txt",
@@ -1701,23 +1736,23 @@
   },
   {
     "path": "lists/security/full/ddos.txt",
-    "bytes": 688,
-    "entries": 0
+    "bytes": 810,
+    "entries": 15
   },
   {
     "path": "lists/security/full/disposable-email.txt",
-    "bytes": 682,
-    "entries": 0
+    "bytes": 929,
+    "entries": 30
   },
   {
     "path": "lists/security/full/dns-security.txt",
-    "bytes": 674,
-    "entries": 0
+    "bytes": 8119,
+    "entries": 386
   },
   {
     "path": "lists/security/full/dynamic-dns.txt",
-    "bytes": 672,
-    "entries": 0
+    "bytes": 1337,
+    "entries": 74
   },
   {
     "path": "lists/security/full/expired-domains.txt",
@@ -1726,8 +1761,8 @@
   },
   {
     "path": "lists/security/full/exploits.txt",
-    "bytes": 712,
-    "entries": 0
+    "bytes": 1342,
+    "entries": 38
   },
   {
     "path": "lists/security/full/fake-shops.txt",
@@ -1736,8 +1771,8 @@
   },
   {
     "path": "lists/security/full/fake-software.txt",
-    "bytes": 676,
-    "entries": 0
+    "bytes": 5663,
+    "entries": 229
   },
   {
     "path": "lists/security/full/malicious-extensions.txt",
@@ -1746,13 +1781,13 @@
   },
   {
     "path": "lists/security/full/malicious-redirects.txt",
-    "bytes": 688,
-    "entries": 0
+    "bytes": 2667,
+    "entries": 83
   },
   {
     "path": "lists/security/full/malvertising.txt",
-    "bytes": 674,
-    "entries": 0
+    "bytes": 939225,
+    "entries": 51883
   },
   {
     "path": "lists/security/full/malware.txt",
@@ -1766,13 +1801,13 @@
   },
   {
     "path": "lists/security/full/nft.txt",
-    "bytes": 656,
-    "entries": 0
+    "bytes": 77907,
+    "entries": 1758
   },
   {
     "path": "lists/security/full/parked-domains.txt",
-    "bytes": 678,
-    "entries": 0
+    "bytes": 960,
+    "entries": 25
   },
   {
     "path": "lists/security/full/phishing.txt",
@@ -1781,18 +1816,18 @@
   },
   {
     "path": "lists/security/full/pup-pua.txt",
-    "bytes": 668,
-    "entries": 0
+    "bytes": 1316,
+    "entries": 33
   },
   {
     "path": "lists/security/full/ransomware.txt",
-    "bytes": 670,
-    "entries": 0
+    "bytes": 2039,
+    "entries": 53
   },
   {
     "path": "lists/security/full/remote-access.txt",
-    "bytes": 676,
-    "entries": 0
+    "bytes": 865,
+    "entries": 23
   },
   {
     "path": "lists/security/full/scam.txt",
@@ -1801,13 +1836,13 @@
   },
   {
     "path": "lists/security/full/scanners.txt",
-    "bytes": 694,
-    "entries": 0
+    "bytes": 4438,
+    "entries": 143
   },
   {
     "path": "lists/security/full/spam.txt",
-    "bytes": 658,
-    "entries": 0
+    "bytes": 954,
+    "entries": 32
   },
   {
     "path": "lists/security/full/surveillance.txt",
@@ -1816,13 +1851,13 @@
   },
   {
     "path": "lists/security/full/suspicious-tlds.txt",
-    "bytes": 680,
-    "entries": 0
+    "bytes": 142739,
+    "entries": 6490
   },
   {
     "path": "lists/security/full/typosquatting.txt",
-    "bytes": 676,
-    "entries": 0
+    "bytes": 1593305,
+    "entries": 53975
   },
   {
     "path": "lists/security/main/light.txt",
@@ -1846,32 +1881,52 @@
   },
   {
     "path": "lists/security/main/ultimate.txt",
-    "bytes": 69769996,
-    "entries": 3408241
+    "bytes": 69777250,
+    "entries": 3408596
+  },
+  {
+    "path": "lists/security/special/fake.txt",
+    "bytes": 5818939,
+    "entries": 265318
+  },
+  {
+    "path": "lists/security/threat-intelligence/full.txt",
+    "bytes": 69777337,
+    "entries": 3408596
+  },
+  {
+    "path": "lists/security/threat-intelligence/medium.txt",
+    "bytes": 20928248,
+    "entries": 844669
+  },
+  {
+    "path": "lists/security/threat-intelligence/mini.txt",
+    "bytes": 15427356,
+    "entries": 594410
   },
   {
     "path": "profiles/light.txt",
-    "bytes": 4943835,
-    "entries": 234003
+    "bytes": 4944065,
+    "entries": 234010
   },
   {
     "path": "profiles/normal.txt",
-    "bytes": 7199083,
-    "entries": 342216
+    "bytes": 7199484,
+    "entries": 342229
   },
   {
     "path": "profiles/pro-plus.txt",
-    "bytes": 8168912,
-    "entries": 383624
+    "bytes": 8169329,
+    "entries": 383637
   },
   {
     "path": "profiles/pro.txt",
-    "bytes": 7895414,
-    "entries": 371516
+    "bytes": 7895861,
+    "entries": 371530
   },
   {
     "path": "profiles/ultimate.txt",
-    "bytes": 102647561,
-    "entries": 5118461
+    "bytes": 102660907,
+    "entries": 5119284
   }
 ]

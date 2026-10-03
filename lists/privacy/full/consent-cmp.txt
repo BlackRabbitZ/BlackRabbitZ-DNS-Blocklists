@@ -11,6 +11,7 @@
 #
 analytics.consensus.enterprises
 analytics.cookiefirst.dev
+cdn.privacy-mgmt.com
 cmp.osano.com
 consent-manager.com
 consentmanager.net
@@ -53,4 +54,3 @@ usercentrics.com
 usercentrics.de
 usercentrics.eu
 usercentrics.io
-cdn.privacy-mgmt.com

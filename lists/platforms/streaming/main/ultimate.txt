@@ -7,7 +7,7 @@
 # Risk: Hoch
 # Data status: befüllt
 # Data method: generated-tier
-# Entries: 282
+# Entries: 301
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -58,15 +58,20 @@ ads.us-west-2.prodaa.netflix.com
 ads.youtube.com
 adssea.byspotify.com
 adtech.nflximg.net
+advertising.apple.com
 advscdn.com
 ae.nflximg.net
 ahscdn.com
 ajscdn.com
 ak-ns.sascdn.com
+analytics.apple.com
+analytics.appleboys.us
+analytics.applemooz.net
 analytics.disneyplus.com
 analytics.plex.tv
 analytics.spotify.com
 analytics.xyscdn.com
+api-adservices.apple.com
 assets.spotify.com
 audio-ak-spotify-com.akamaized.net
 audio-akp-spotify-com.akamaized.net
@@ -101,6 +106,7 @@ c6.video-ak.cdn.spotify.com
 c7.video-ak.cdn.spotify.com
 c8.video-ak.cdn.spotify.com
 c9.video-ak.cdn.spotify.com
+ca.iadsdk.apple.com
 cache.addthiscdn.com
 cache.googlevideo.com
 cache1.googlevideo.com
@@ -112,6 +118,7 @@ cdnus.filefactscdn.com
 cdnweb.aoscdn.com
 ced.sascdn.com
 celeritascdn.com
+cf.iadsdk.apple.com
 client-event-reporter.twitch.tv
 cmpv2.best-of-netflix.com
 cohorts.spotify.com.cn
@@ -147,6 +154,7 @@ ec-ns.sascdn.com
 ehg-youtube.hitbox.com
 eligibility-panelresearch.googlevideo.com
 em.disneyplus.com
+events-analytics.apple.com
 evnt.byspotify.com
 exp.spotify.com
 exp.wg.spotify.com
@@ -179,6 +187,9 @@ heads-fa.scdn.co
 heads-fab.spotify.com
 heads4-ak.spotify.com.edgesuite.net
 heads4-akp.spotify.com.edgesuite.net
+iadsdk.apple.com
+iadsdk.apple.com.akadns.net
+iadsdk.apple.com.edgekey.net
 ichnaea.netflix.com
 imagesmx.cdscdn.com
 img.byspotify.com
@@ -192,6 +203,7 @@ logs.netflix.com
 mcwp.spotify.com.cn
 mediayoutube.com
 merch-img.scdn.co
+metrics.apple.com
 metrics.cbc.youtube.mercedes-benz.com
 metrics.plex.tv
 mobileconfig.sascdn.com
@@ -202,9 +214,11 @@ music.catchyoutube.toptools100.com
 my.plexapp.com
 netflix.avdhoothadke.com
 netflixalternative.net
+news.iadsdk.apple.com
 news.newonnetflix.info
 nmtracking.netflix.com
 nonxt1.c.youtube.com
+nrdp.logs.netflix.com
 open.spotify.com
 os.filefactscdn.com
 outwitch.com
@@ -235,6 +249,8 @@ sascdn.com
 sc.paramount.com
 sc.paramountchannel.es
 sc.paramountnetwork.com
+securemetrics.apple.com
+securemetrics.apple.com.cn
 seedadscdn.com
 sharebar.addthiscdn.com
 shopgamescdn.com
@@ -258,10 +274,12 @@ ssl-youtube.2cnt.net
 statanalyticscdn.com
 static.huntresscdn.com
 sto3.spotify.com
+supportmetrics.apple.com
 surveys.spotify.com
 t.dtscdn.com
 thiscdn.com
 tmscdn.coremetrics.com
+tr.iadsdk.apple.com
 tv-static.scdn.co
 twitchads.tv
 twitchadvertising.tv
@@ -272,6 +290,7 @@ u.scdn.co
 ujscdn.com
 unibotscdn.com
 upgrade.spotify.com
+ut.iadsdk.apple.com
 video-fa-b.cdn.spotify.com
 video-fa-bbr.scdn.co
 video-fa.cdn.spotify.com

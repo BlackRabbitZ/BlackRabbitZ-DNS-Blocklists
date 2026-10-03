@@ -7,7 +7,7 @@
 # Risk: Hoch
 # Data status: befüllt
 # Data method: generated-tier
-# Entries: 383
+# Entries: 401
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -69,6 +69,9 @@ app.greengurad.sec.miui.com
 app.miui.com
 applicationunifier.com
 appunification.net
+aps1-cloud-backup-api.i.tplinkcloud.com
+aps1-cloud-backup-api.i.tplinknbu.com
+aps1-relay-dcipc.i.tplinknbu.com
 asus.adsame.com
 asus.router.com
 asus01.webtrekk.net
@@ -140,6 +143,11 @@ engagemetrics.cisco.com
 esurveyapi.asus.com
 etl.xlmc.sec.miui.com
 etrk.asus.com
+euw1-cloud-backup-api.i.tplinkcloud.com
+euw1-cloud-backup-api.i.tplinknbu.com
+euw1-relay-dcipc.i.tplinknbu.com
+euw1-vms-ai.i.tplinkcloud.com
+euw1-vms-ai.i.tplinknbu.com
 events.miui.com
 exebasusion.org
 fakecell.sys.miui.com
@@ -245,6 +253,12 @@ mopiwhoisqui.com
 mp.huangye.miui.com
 mqs-log.miui.com
 mydomsui.com
+n-deventry-sur.tplinkcloud.com
+n-device-entry-sur.tplinkcloud.com
+n-device-sur.tplinkcloud.com
+n-devs-sur.tplinkcloud.com
+n-relay-ipc.tplinkcloud.com.cn
+n-sur-api.tplinkcloud.com
 native.feedback.miui.com
 nav.browser.miui.com
 nav.sec.miui.com
@@ -376,6 +390,10 @@ unifini.de
 unifisecurity.at
 unlitui.com
 update.avlyun.sec.miui.com
+upgrade.mikrotik.com
+use1-cloud-backup-api.i.tplinkcloud.com
+use1-cloud-backup-api.i.tplinknbu.com
+use1-relay-dcipc.i.tplinknbu.com
 veroui.com
 vote.getui.com
 web.vip.miui.com

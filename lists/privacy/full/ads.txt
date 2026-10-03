@@ -46135,6 +46135,7 @@ aeru.tv
 aeru365.jp
 aervas.offerstrack.net
 aerydesorbs.top
+aes.eu-south.ono.axp.amazon-adsystem.com
 aes.kargo.com
 aeskgcinerpyxqk.net
 aeslinaydu.onthe.io
@@ -59722,6 +59723,7 @@ beacon.9165619.com
 beacon.affil.walmart.com
 beacon.aimtell.com
 beacon.archonia.com
+beacon.bidder.taboola.com
 beacon.carfax.com
 beacon.clickequations.net
 beacon.clickequations.net.edgekey.net
@@ -77411,6 +77413,7 @@ config.88-f.net
 config.a-mo.net
 config.ad-brix.com
 config.ad.snappea.com
+config.ads.vungle.com
 config.adview.cn
 config.analytics.anvato.net
 config.appjolt.com
@@ -88434,6 +88437,7 @@ display.adsender.us
 display.apester.com
 display.auditude.com
 display.bfmio.com
+display.bidder.taboola.com
 display.cdnbucket.com
 display.digitalriver.com
 display.edarling.de
@@ -92955,6 +92959,7 @@ edge-usw2.demdex.net
 edge-va6.demdex.net
 edge-west.customer.io
 edge.addthis.com
+edge.ads.twitch.tv
 edge.analytics.brightedge.com
 edge.aperture.displaymarketplace.com
 edge.ayboll.com
@@ -105850,6 +105855,7 @@ gateway.restartad.com
 gateway.speedera.net
 gateway.supersonicads.com
 gateway.ttpsdk.info
+gateway.unityads.unity3d.com
 gateway.yieldify-production.com
 gatewaymedia-d.openx.net
 gateways.s3.amazonaws.com
@@ -187464,6 +187470,7 @@ stage-ad.ad-stir.com
 stage-assets.applovin.com
 stage-bid.applovin.com
 stage-img.applovin.com
+stage-mediate-events.applovin.com
 stage-ms.applovin.com
 stage-pdn.applovin.com
 stage-vid.applovin.com
@@ -234019,10 +234026,3 @@ zzzmjfixezere.site
 zzzmyl.com
 zzznews.ru
 zzzzfzgzbz.com
-aes.eu-south.ono.axp.amazon-adsystem.com
-beacon.bidder.taboola.com
-config.ads.vungle.com
-display.bidder.taboola.com
-edge.ads.twitch.tv
-gateway.unityads.unity3d.com
-stage-mediate-events.applovin.com
