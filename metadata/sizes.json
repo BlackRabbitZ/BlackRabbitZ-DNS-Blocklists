@@ -1,33 +1,33 @@
 [
   {
     "path": "allowlists/authentication.txt",
-    "bytes": 512,
-    "entries": 0
+    "bytes": 616,
+    "entries": 7
   },
   {
     "path": "allowlists/cdn.txt",
-    "bytes": 488,
-    "entries": 0
+    "bytes": 566,
+    "entries": 6
   },
   {
     "path": "allowlists/essential.txt",
-    "bytes": 500,
-    "entries": 0
+    "bytes": 629,
+    "entries": 7
   },
   {
     "path": "allowlists/false-positives.txt",
-    "bytes": 524,
-    "entries": 0
+    "bytes": 608,
+    "entries": 5
   },
   {
     "path": "allowlists/payment.txt",
-    "bytes": 496,
-    "entries": 0
+    "bytes": 613,
+    "entries": 9
   },
   {
     "path": "config/allowlist.txt",
-    "bytes": 57,
-    "entries": 0
+    "bytes": 265,
+    "entries": 4
   },
   {
     "path": "family/content/adult.txt",
@@ -101,8 +101,8 @@
   },
   {
     "path": "family/kids-allow-only/kids-games-de.txt",
-    "bytes": 556,
-    "entries": 0
+    "bytes": 784,
+    "entries": 18
   },
   {
     "path": "family/kids-allow-only/kids-media-de.txt",
@@ -111,8 +111,8 @@
   },
   {
     "path": "family/kids-allow-only/kids-runtime-de.txt",
-    "bytes": 591,
-    "entries": 0
+    "bytes": 727,
+    "entries": 9
   },
   {
     "path": "family/main/light.txt",
@@ -321,13 +321,13 @@
   },
   {
     "path": "lists/automation/full/aggressive-crawlers.txt",
-    "bytes": 645,
-    "entries": 0
+    "bytes": 821,
+    "entries": 15
   },
   {
     "path": "lists/automation/full/ai-crawlers.txt",
-    "bytes": 629,
-    "entries": 0
+    "bytes": 744,
+    "entries": 10
   },
   {
     "path": "lists/automation/full/ai-scrapers.txt",
@@ -356,13 +356,13 @@
   },
   {
     "path": "lists/automation/full/seo-bots.txt",
-    "bytes": 623,
-    "entries": 0
+    "bytes": 683,
+    "entries": 5
   },
   {
     "path": "lists/automation/full/training-bots.txt",
-    "bytes": 639,
-    "entries": 0
+    "bytes": 714,
+    "entries": 6
   },
   {
     "path": "lists/automation/full/web-crawlers.txt",
@@ -393,6 +393,2066 @@
     "path": "lists/automation/main/ultimate.txt",
     "bytes": 7386,
     "entries": 300
+  },
+  {
+    "path": "lists/device-control/automotive/audi/isolate.txt",
+    "bytes": 11756,
+    "entries": 491
+  },
+  {
+    "path": "lists/device-control/automotive/audi/privacy.txt",
+    "bytes": 11750,
+    "entries": 491
+  },
+  {
+    "path": "lists/device-control/automotive/audi/restrict.txt",
+    "bytes": 11739,
+    "entries": 491
+  },
+  {
+    "path": "lists/device-control/automotive/audi/updates.txt",
+    "bytes": 600,
+    "entries": 4
+  },
+  {
+    "path": "lists/device-control/automotive/bmw/isolate.txt",
+    "bytes": 1739,
+    "entries": 53
+  },
+  {
+    "path": "lists/device-control/automotive/bmw/privacy.txt",
+    "bytes": 1733,
+    "entries": 53
+  },
+  {
+    "path": "lists/device-control/automotive/bmw/restrict.txt",
+    "bytes": 1722,
+    "entries": 53
+  },
+  {
+    "path": "lists/device-control/automotive/bmw/updates.txt",
+    "bytes": 520,
+    "entries": 0
+  },
+  {
+    "path": "lists/device-control/automotive/ford/isolate.txt",
+    "bytes": 1244,
+    "entries": 31
+  },
+  {
+    "path": "lists/device-control/automotive/ford/privacy.txt",
+    "bytes": 1238,
+    "entries": 31
+  },
+  {
+    "path": "lists/device-control/automotive/ford/restrict.txt",
+    "bytes": 1227,
+    "entries": 31
+  },
+  {
+    "path": "lists/device-control/automotive/ford/updates.txt",
+    "bytes": 522,
+    "entries": 0
+  },
+  {
+    "path": "lists/device-control/automotive/mercedes/isolate.txt",
+    "bytes": 1564,
+    "entries": 33
+  },
+  {
+    "path": "lists/device-control/automotive/mercedes/privacy.txt",
+    "bytes": 1558,
+    "entries": 33
+  },
+  {
+    "path": "lists/device-control/automotive/mercedes/restrict.txt",
+    "bytes": 1547,
+    "entries": 33
+  },
+  {
+    "path": "lists/device-control/automotive/mercedes/updates.txt",
+    "bytes": 530,
+    "entries": 0
+  },
+  {
+    "path": "lists/device-control/automotive/tesla/isolate.txt",
+    "bytes": 863,
+    "entries": 12
+  },
+  {
+    "path": "lists/device-control/automotive/tesla/privacy.txt",
+    "bytes": 857,
+    "entries": 12
+  },
+  {
+    "path": "lists/device-control/automotive/tesla/restrict.txt",
+    "bytes": 846,
+    "entries": 12
+  },
+  {
+    "path": "lists/device-control/automotive/tesla/updates.txt",
+    "bytes": 524,
+    "entries": 0
+  },
+  {
+    "path": "lists/device-control/automotive/vw/isolate.txt",
+    "bytes": 1695,
+    "entries": 45
+  },
+  {
+    "path": "lists/device-control/automotive/vw/privacy.txt",
+    "bytes": 1689,
+    "entries": 45
+  },
+  {
+    "path": "lists/device-control/automotive/vw/restrict.txt",
+    "bytes": 1678,
+    "entries": 45
+  },
+  {
+    "path": "lists/device-control/automotive/vw/updates.txt",
+    "bytes": 518,
+    "entries": 0
+  },
+  {
+    "path": "lists/device-control/ecosystems/amazon/isolate.txt",
+    "bytes": 27512,
+    "entries": 775
+  },
+  {
+    "path": "lists/device-control/ecosystems/amazon/privacy.txt",
+    "bytes": 27506,
+    "entries": 775
+  },
+  {
+    "path": "lists/device-control/ecosystems/amazon/restrict.txt",
+    "bytes": 27495,
+    "entries": 775
+  },
+  {
+    "path": "lists/device-control/ecosystems/amazon/updates.txt",
+    "bytes": 645,
+    "entries": 4
+  },
+  {
+    "path": "lists/device-control/ecosystems/apple/isolate.txt",
+    "bytes": 9684,
+    "entries": 338
+  },
+  {
+    "path": "lists/device-control/ecosystems/apple/privacy.txt",
+    "bytes": 9593,
+    "entries": 333
+  },
+  {
+    "path": "lists/device-control/ecosystems/apple/restrict.txt",
+    "bytes": 9582,
+    "entries": 333
+  },
+  {
+    "path": "lists/device-control/ecosystems/apple/updates.txt",
+    "bytes": 647,
+    "entries": 7
+  },
+  {
+    "path": "lists/device-control/ecosystems/google/isolate.txt",
+    "bytes": 549242,
+    "entries": 14480
+  },
+  {
+    "path": "lists/device-control/ecosystems/google/privacy.txt",
+    "bytes": 530823,
+    "entries": 13584
+  },
+  {
+    "path": "lists/device-control/ecosystems/google/restrict.txt",
+    "bytes": 537355,
+    "entries": 13872
+  },
+  {
+    "path": "lists/device-control/ecosystems/google/updates.txt",
+    "bytes": 846,
+    "entries": 11
+  },
+  {
+    "path": "lists/device-control/ecosystems/microsoft/isolate.txt",
+    "bytes": 22081,
+    "entries": 777
+  },
+  {
+    "path": "lists/device-control/ecosystems/microsoft/privacy.txt",
+    "bytes": 21897,
+    "entries": 769
+  },
+  {
+    "path": "lists/device-control/ecosystems/microsoft/restrict.txt",
+    "bytes": 21886,
+    "entries": 769
+  },
+  {
+    "path": "lists/device-control/ecosystems/microsoft/updates.txt",
+    "bytes": 1077,
+    "entries": 21
+  },
+  {
+    "path": "lists/device-control/iot-smart-home/amazon-alexa/isolate.txt",
+    "bytes": 27394,
+    "entries": 771
+  },
+  {
+    "path": "lists/device-control/iot-smart-home/amazon-alexa/privacy.txt",
+    "bytes": 899,
+    "entries": 13
+  },
+  {
+    "path": "lists/device-control/iot-smart-home/amazon-alexa/restrict.txt",
+    "bytes": 9679,
+    "entries": 259
+  },
+  {
+    "path": "lists/device-control/iot-smart-home/amazon-alexa/updates.txt",
+    "bytes": 671,
+    "entries": 4
+  },
+  {
+    "path": "lists/device-control/iot-smart-home/huawei/isolate.txt",
+    "bytes": 3238,
+    "entries": 75
+  },
+  {
+    "path": "lists/device-control/iot-smart-home/huawei/privacy.txt",
+    "bytes": 1582,
+    "entries": 37
+  },
+  {
+    "path": "lists/device-control/iot-smart-home/huawei/restrict.txt",
+    "bytes": 3147,
+    "entries": 72
+  },
+  {
+    "path": "lists/device-control/iot-smart-home/huawei/updates.txt",
+    "bytes": 530,
+    "entries": 0
+  },
+  {
+    "path": "lists/device-control/iot-smart-home/samsung-smartthings/isolate.txt",
+    "bytes": 9154,
+    "entries": 307
+  },
+  {
+    "path": "lists/device-control/iot-smart-home/samsung-smartthings/privacy.txt",
+    "bytes": 661,
+    "entries": 4
+  },
+  {
+    "path": "lists/device-control/iot-smart-home/samsung-smartthings/restrict.txt",
+    "bytes": 2583,
+    "entries": 74
+  },
+  {
+    "path": "lists/device-control/iot-smart-home/samsung-smartthings/updates.txt",
+    "bytes": 583,
+    "entries": 1
+  },
+  {
+    "path": "lists/device-control/iot-smart-home/shared-other/isolate.txt",
+    "bytes": 966,
+    "entries": 20
+  },
+  {
+    "path": "lists/device-control/iot-smart-home/shared-other/privacy.txt",
+    "bytes": 960,
+    "entries": 20
+  },
+  {
+    "path": "lists/device-control/iot-smart-home/shared-other/restrict.txt",
+    "bytes": 949,
+    "entries": 20
+  },
+  {
+    "path": "lists/device-control/iot-smart-home/shared-other/updates.txt",
+    "bytes": 542,
+    "entries": 0
+  },
+  {
+    "path": "lists/device-control/iot-smart-home/sonos/isolate.txt",
+    "bytes": 598,
+    "entries": 2
+  },
+  {
+    "path": "lists/device-control/iot-smart-home/sonos/privacy.txt",
+    "bytes": 592,
+    "entries": 2
+  },
+  {
+    "path": "lists/device-control/iot-smart-home/sonos/restrict.txt",
+    "bytes": 581,
+    "entries": 2
+  },
+  {
+    "path": "lists/device-control/iot-smart-home/sonos/updates.txt",
+    "bytes": 528,
+    "entries": 0
+  },
+  {
+    "path": "lists/device-control/iot-smart-home/xiaomi/isolate.txt",
+    "bytes": 15357,
+    "entries": 582
+  },
+  {
+    "path": "lists/device-control/iot-smart-home/xiaomi/privacy.txt",
+    "bytes": 758,
+    "entries": 9
+  },
+  {
+    "path": "lists/device-control/iot-smart-home/xiaomi/restrict.txt",
+    "bytes": 3195,
+    "entries": 94
+  },
+  {
+    "path": "lists/device-control/iot-smart-home/xiaomi/updates.txt",
+    "bytes": 740,
+    "entries": 7
+  },
+  {
+    "path": "lists/device-control/manufacturers/adobe/isolate.txt",
+    "bytes": 10210,
+    "entries": 354
+  },
+  {
+    "path": "lists/device-control/manufacturers/adobe/privacy.txt",
+    "bytes": 2483,
+    "entries": 69
+  },
+  {
+    "path": "lists/device-control/manufacturers/adobe/restrict.txt",
+    "bytes": 3189,
+    "entries": 91
+  },
+  {
+    "path": "lists/device-control/manufacturers/adobe/updates.txt",
+    "bytes": 484,
+    "entries": 0
+  },
+  {
+    "path": "lists/device-control/manufacturers/amazon/isolate.txt",
+    "bytes": 27207,
+    "entries": 768
+  },
+  {
+    "path": "lists/device-control/manufacturers/amazon/privacy.txt",
+    "bytes": 10419,
+    "entries": 268
+  },
+  {
+    "path": "lists/device-control/manufacturers/amazon/restrict.txt",
+    "bytes": 11215,
+    "entries": 288
+  },
+  {
+    "path": "lists/device-control/manufacturers/amazon/updates.txt",
+    "bytes": 615,
+    "entries": 4
+  },
+  {
+    "path": "lists/device-control/manufacturers/amd/isolate.txt",
+    "bytes": 539,
+    "entries": 5
+  },
+  {
+    "path": "lists/device-control/manufacturers/amd/privacy.txt",
+    "bytes": 497,
+    "entries": 1
+  },
+  {
+    "path": "lists/device-control/manufacturers/amd/restrict.txt",
+    "bytes": 491,
+    "entries": 1
+  },
+  {
+    "path": "lists/device-control/manufacturers/amd/updates.txt",
+    "bytes": 480,
+    "entries": 0
+  },
+  {
+    "path": "lists/device-control/manufacturers/apple/isolate.txt",
+    "bytes": 9551,
+    "entries": 335
+  },
+  {
+    "path": "lists/device-control/manufacturers/apple/privacy.txt",
+    "bytes": 2755,
+    "entries": 80
+  },
+  {
+    "path": "lists/device-control/manufacturers/apple/restrict.txt",
+    "bytes": 5454,
+    "entries": 159
+  },
+  {
+    "path": "lists/device-control/manufacturers/apple/updates.txt",
+    "bytes": 617,
+    "entries": 7
+  },
+  {
+    "path": "lists/device-control/manufacturers/autodesk/isolate.txt",
+    "bytes": 890,
+    "entries": 15
+  },
+  {
+    "path": "lists/device-control/manufacturers/autodesk/privacy.txt",
+    "bytes": 561,
+    "entries": 3
+  },
+  {
+    "path": "lists/device-control/manufacturers/autodesk/restrict.txt",
+    "bytes": 613,
+    "entries": 5
+  },
+  {
+    "path": "lists/device-control/manufacturers/autodesk/updates.txt",
+    "bytes": 490,
+    "entries": 0
+  },
+  {
+    "path": "lists/device-control/manufacturers/ea/isolate.txt",
+    "bytes": 6084,
+    "entries": 298
+  },
+  {
+    "path": "lists/device-control/manufacturers/ea/privacy.txt",
+    "bytes": 1326,
+    "entries": 36
+  },
+  {
+    "path": "lists/device-control/manufacturers/ea/restrict.txt",
+    "bytes": 1427,
+    "entries": 40
+  },
+  {
+    "path": "lists/device-control/manufacturers/ea/updates.txt",
+    "bytes": 478,
+    "entries": 0
+  },
+  {
+    "path": "lists/device-control/manufacturers/epic/isolate.txt",
+    "bytes": 720,
+    "entries": 8
+  },
+  {
+    "path": "lists/device-control/manufacturers/epic/privacy.txt",
+    "bytes": 623,
+    "entries": 4
+  },
+  {
+    "path": "lists/device-control/manufacturers/epic/restrict.txt",
+    "bytes": 617,
+    "entries": 4
+  },
+  {
+    "path": "lists/device-control/manufacturers/epic/updates.txt",
+    "bytes": 482,
+    "entries": 0
+  },
+  {
+    "path": "lists/device-control/manufacturers/google/isolate.txt",
+    "bytes": 549122,
+    "entries": 14478
+  },
+  {
+    "path": "lists/device-control/manufacturers/google/privacy.txt",
+    "bytes": 8523,
+    "entries": 343
+  },
+  {
+    "path": "lists/device-control/manufacturers/google/restrict.txt",
+    "bytes": 9319,
+    "entries": 365
+  },
+  {
+    "path": "lists/device-control/manufacturers/google/updates.txt",
+    "bytes": 816,
+    "entries": 11
+  },
+  {
+    "path": "lists/device-control/manufacturers/huawei/isolate.txt",
+    "bytes": 2689,
+    "entries": 58
+  },
+  {
+    "path": "lists/device-control/manufacturers/huawei/privacy.txt",
+    "bytes": 1183,
+    "entries": 21
+  },
+  {
+    "path": "lists/device-control/manufacturers/huawei/restrict.txt",
+    "bytes": 2615,
+    "entries": 55
+  },
+  {
+    "path": "lists/device-control/manufacturers/huawei/updates.txt",
+    "bytes": 486,
+    "entries": 0
+  },
+  {
+    "path": "lists/device-control/manufacturers/lg/isolate.txt",
+    "bytes": 14032,
+    "entries": 601
+  },
+  {
+    "path": "lists/device-control/manufacturers/lg/privacy.txt",
+    "bytes": 566,
+    "entries": 4
+  },
+  {
+    "path": "lists/device-control/manufacturers/lg/restrict.txt",
+    "bytes": 560,
+    "entries": 4
+  },
+  {
+    "path": "lists/device-control/manufacturers/lg/updates.txt",
+    "bytes": 478,
+    "entries": 0
+  },
+  {
+    "path": "lists/device-control/manufacturers/logitech/isolate.txt",
+    "bytes": 852,
+    "entries": 15
+  },
+  {
+    "path": "lists/device-control/manufacturers/logitech/privacy.txt",
+    "bytes": 603,
+    "entries": 4
+  },
+  {
+    "path": "lists/device-control/manufacturers/logitech/restrict.txt",
+    "bytes": 597,
+    "entries": 4
+  },
+  {
+    "path": "lists/device-control/manufacturers/logitech/updates.txt",
+    "bytes": 490,
+    "entries": 0
+  },
+  {
+    "path": "lists/device-control/manufacturers/meta/isolate.txt",
+    "bytes": 3089,
+    "entries": 111
+  },
+  {
+    "path": "lists/device-control/manufacturers/meta/privacy.txt",
+    "bytes": 1261,
+    "entries": 31
+  },
+  {
+    "path": "lists/device-control/manufacturers/meta/restrict.txt",
+    "bytes": 1336,
+    "entries": 34
+  },
+  {
+    "path": "lists/device-control/manufacturers/meta/updates.txt",
+    "bytes": 529,
+    "entries": 2
+  },
+  {
+    "path": "lists/device-control/manufacturers/microsoft/isolate.txt",
+    "bytes": 21580,
+    "entries": 762
+  },
+  {
+    "path": "lists/device-control/manufacturers/microsoft/privacy.txt",
+    "bytes": 8412,
+    "entries": 262
+  },
+  {
+    "path": "lists/device-control/manufacturers/microsoft/restrict.txt",
+    "bytes": 9678,
+    "entries": 300
+  },
+  {
+    "path": "lists/device-control/manufacturers/microsoft/updates.txt",
+    "bytes": 1047,
+    "entries": 21
+  },
+  {
+    "path": "lists/device-control/manufacturers/nintendo/isolate.txt",
+    "bytes": 755,
+    "entries": 10
+  },
+  {
+    "path": "lists/device-control/manufacturers/nintendo/privacy.txt",
+    "bytes": 542,
+    "entries": 2
+  },
+  {
+    "path": "lists/device-control/manufacturers/nintendo/restrict.txt",
+    "bytes": 536,
+    "entries": 2
+  },
+  {
+    "path": "lists/device-control/manufacturers/nintendo/updates.txt",
+    "bytes": 490,
+    "entries": 0
+  },
+  {
+    "path": "lists/device-control/manufacturers/nvidia/isolate.txt",
+    "bytes": 875,
+    "entries": 17
+  },
+  {
+    "path": "lists/device-control/manufacturers/nvidia/privacy.txt",
+    "bytes": 599,
+    "entries": 5
+  },
+  {
+    "path": "lists/device-control/manufacturers/nvidia/restrict.txt",
+    "bytes": 593,
+    "entries": 5
+  },
+  {
+    "path": "lists/device-control/manufacturers/nvidia/updates.txt",
+    "bytes": 486,
+    "entries": 0
+  },
+  {
+    "path": "lists/device-control/manufacturers/philips/isolate.txt",
+    "bytes": 3277,
+    "entries": 73
+  },
+  {
+    "path": "lists/device-control/manufacturers/philips/privacy.txt",
+    "bytes": 2955,
+    "entries": 61
+  },
+  {
+    "path": "lists/device-control/manufacturers/philips/restrict.txt",
+    "bytes": 2949,
+    "entries": 61
+  },
+  {
+    "path": "lists/device-control/manufacturers/philips/updates.txt",
+    "bytes": 488,
+    "entries": 0
+  },
+  {
+    "path": "lists/device-control/manufacturers/razer/isolate.txt",
+    "bytes": 657,
+    "entries": 8
+  },
+  {
+    "path": "lists/device-control/manufacturers/razer/privacy.txt",
+    "bytes": 539,
+    "entries": 2
+  },
+  {
+    "path": "lists/device-control/manufacturers/razer/restrict.txt",
+    "bytes": 533,
+    "entries": 2
+  },
+  {
+    "path": "lists/device-control/manufacturers/razer/updates.txt",
+    "bytes": 484,
+    "entries": 0
+  },
+  {
+    "path": "lists/device-control/manufacturers/samsung/isolate.txt",
+    "bytes": 9062,
+    "entries": 307
+  },
+  {
+    "path": "lists/device-control/manufacturers/samsung/privacy.txt",
+    "bytes": 1953,
+    "entries": 53
+  },
+  {
+    "path": "lists/device-control/manufacturers/samsung/restrict.txt",
+    "bytes": 2799,
+    "entries": 83
+  },
+  {
+    "path": "lists/device-control/manufacturers/samsung/updates.txt",
+    "bytes": 515,
+    "entries": 1
+  },
+  {
+    "path": "lists/device-control/manufacturers/sony/isolate.txt",
+    "bytes": 3613,
+    "entries": 143
+  },
+  {
+    "path": "lists/device-control/manufacturers/sony/privacy.txt",
+    "bytes": 2201,
+    "entries": 88
+  },
+  {
+    "path": "lists/device-control/manufacturers/sony/restrict.txt",
+    "bytes": 2195,
+    "entries": 88
+  },
+  {
+    "path": "lists/device-control/manufacturers/sony/updates.txt",
+    "bytes": 482,
+    "entries": 0
+  },
+  {
+    "path": "lists/device-control/manufacturers/ubisoft/isolate.txt",
+    "bytes": 648,
+    "entries": 6
+  },
+  {
+    "path": "lists/device-control/manufacturers/ubisoft/privacy.txt",
+    "bytes": 695,
+    "entries": 6
+  },
+  {
+    "path": "lists/device-control/manufacturers/ubisoft/restrict.txt",
+    "bytes": 697,
+    "entries": 6
+  },
+  {
+    "path": "lists/device-control/manufacturers/ubisoft/updates.txt",
+    "bytes": 488,
+    "entries": 0
+  },
+  {
+    "path": "lists/device-control/manufacturers/valve-steam/isolate.txt",
+    "bytes": 1655,
+    "entries": 49
+  },
+  {
+    "path": "lists/device-control/manufacturers/valve-steam/privacy.txt",
+    "bytes": 653,
+    "entries": 6
+  },
+  {
+    "path": "lists/device-control/manufacturers/valve-steam/restrict.txt",
+    "bytes": 726,
+    "entries": 9
+  },
+  {
+    "path": "lists/device-control/manufacturers/valve-steam/updates.txt",
+    "bytes": 496,
+    "entries": 0
+  },
+  {
+    "path": "lists/device-control/manufacturers/xiaomi/isolate.txt",
+    "bytes": 15289,
+    "entries": 582
+  },
+  {
+    "path": "lists/device-control/manufacturers/xiaomi/privacy.txt",
+    "bytes": 1413,
+    "entries": 36
+  },
+  {
+    "path": "lists/device-control/manufacturers/xiaomi/restrict.txt",
+    "bytes": 3601,
+    "entries": 110
+  },
+  {
+    "path": "lists/device-control/manufacturers/xiaomi/updates.txt",
+    "bytes": 696,
+    "entries": 7
+  },
+  {
+    "path": "lists/device-control/mobile/apple-ios/isolate.txt",
+    "bytes": 9698,
+    "entries": 338
+  },
+  {
+    "path": "lists/device-control/mobile/apple-ios/privacy.txt",
+    "bytes": 3797,
+    "entries": 121
+  },
+  {
+    "path": "lists/device-control/mobile/apple-ios/restrict.txt",
+    "bytes": 6827,
+    "entries": 210
+  },
+  {
+    "path": "lists/device-control/mobile/apple-ios/updates.txt",
+    "bytes": 661,
+    "entries": 7
+  },
+  {
+    "path": "lists/device-control/mobile/google-android/isolate.txt",
+    "bytes": 549437,
+    "entries": 14488
+  },
+  {
+    "path": "lists/device-control/mobile/google-android/privacy.txt",
+    "bytes": 1080,
+    "entries": 18
+  },
+  {
+    "path": "lists/device-control/mobile/google-android/restrict.txt",
+    "bytes": 9708,
+    "entries": 377
+  },
+  {
+    "path": "lists/device-control/mobile/google-android/updates.txt",
+    "bytes": 868,
+    "entries": 11
+  },
+  {
+    "path": "lists/device-control/mobile/google-pixel/isolate.txt",
+    "bytes": 549433,
+    "entries": 14488
+  },
+  {
+    "path": "lists/device-control/mobile/google-pixel/privacy.txt",
+    "bytes": 1076,
+    "entries": 18
+  },
+  {
+    "path": "lists/device-control/mobile/google-pixel/restrict.txt",
+    "bytes": 9704,
+    "entries": 377
+  },
+  {
+    "path": "lists/device-control/mobile/google-pixel/updates.txt",
+    "bytes": 864,
+    "entries": 11
+  },
+  {
+    "path": "lists/device-control/mobile/huawei/isolate.txt",
+    "bytes": 3230,
+    "entries": 75
+  },
+  {
+    "path": "lists/device-control/mobile/huawei/privacy.txt",
+    "bytes": 1601,
+    "entries": 38
+  },
+  {
+    "path": "lists/device-control/mobile/huawei/restrict.txt",
+    "bytes": 3139,
+    "entries": 72
+  },
+  {
+    "path": "lists/device-control/mobile/huawei/updates.txt",
+    "bytes": 522,
+    "entries": 0
+  },
+  {
+    "path": "lists/device-control/mobile/motorola/isolate.txt",
+    "bytes": 1177,
+    "entries": 31
+  },
+  {
+    "path": "lists/device-control/mobile/motorola/privacy.txt",
+    "bytes": 1171,
+    "entries": 31
+  },
+  {
+    "path": "lists/device-control/mobile/motorola/restrict.txt",
+    "bytes": 1160,
+    "entries": 31
+  },
+  {
+    "path": "lists/device-control/mobile/motorola/updates.txt",
+    "bytes": 562,
+    "entries": 1
+  },
+  {
+    "path": "lists/device-control/mobile/oneplus/isolate.txt",
+    "bytes": 694,
+    "entries": 8
+  },
+  {
+    "path": "lists/device-control/mobile/oneplus/privacy.txt",
+    "bytes": 688,
+    "entries": 8
+  },
+  {
+    "path": "lists/device-control/mobile/oneplus/restrict.txt",
+    "bytes": 677,
+    "entries": 8
+  },
+  {
+    "path": "lists/device-control/mobile/oneplus/updates.txt",
+    "bytes": 524,
+    "entries": 0
+  },
+  {
+    "path": "lists/device-control/mobile/oppo-realme/isolate.txt",
+    "bytes": 4612,
+    "entries": 161
+  },
+  {
+    "path": "lists/device-control/mobile/oppo-realme/privacy.txt",
+    "bytes": 4606,
+    "entries": 161
+  },
+  {
+    "path": "lists/device-control/mobile/oppo-realme/restrict.txt",
+    "bytes": 4595,
+    "entries": 161
+  },
+  {
+    "path": "lists/device-control/mobile/oppo-realme/updates.txt",
+    "bytes": 532,
+    "entries": 0
+  },
+  {
+    "path": "lists/device-control/mobile/samsung/isolate.txt",
+    "bytes": 9122,
+    "entries": 307
+  },
+  {
+    "path": "lists/device-control/mobile/samsung/privacy.txt",
+    "bytes": 629,
+    "entries": 4
+  },
+  {
+    "path": "lists/device-control/mobile/samsung/restrict.txt",
+    "bytes": 2551,
+    "entries": 74
+  },
+  {
+    "path": "lists/device-control/mobile/samsung/updates.txt",
+    "bytes": 551,
+    "entries": 1
+  },
+  {
+    "path": "lists/device-control/mobile/shared-other/isolate.txt",
+    "bytes": 14029,
+    "entries": 582
+  },
+  {
+    "path": "lists/device-control/mobile/shared-other/privacy.txt",
+    "bytes": 14023,
+    "entries": 582
+  },
+  {
+    "path": "lists/device-control/mobile/shared-other/restrict.txt",
+    "bytes": 14012,
+    "entries": 582
+  },
+  {
+    "path": "lists/device-control/mobile/shared-other/updates.txt",
+    "bytes": 534,
+    "entries": 0
+  },
+  {
+    "path": "lists/device-control/mobile/vivo/isolate.txt",
+    "bytes": 1917,
+    "entries": 53
+  },
+  {
+    "path": "lists/device-control/mobile/vivo/privacy.txt",
+    "bytes": 1911,
+    "entries": 53
+  },
+  {
+    "path": "lists/device-control/mobile/vivo/restrict.txt",
+    "bytes": 1900,
+    "entries": 53
+  },
+  {
+    "path": "lists/device-control/mobile/vivo/updates.txt",
+    "bytes": 518,
+    "entries": 0
+  },
+  {
+    "path": "lists/device-control/mobile/xiaomi/isolate.txt",
+    "bytes": 15349,
+    "entries": 582
+  },
+  {
+    "path": "lists/device-control/mobile/xiaomi/privacy.txt",
+    "bytes": 750,
+    "entries": 9
+  },
+  {
+    "path": "lists/device-control/mobile/xiaomi/restrict.txt",
+    "bytes": 3187,
+    "entries": 94
+  },
+  {
+    "path": "lists/device-control/mobile/xiaomi/updates.txt",
+    "bytes": 732,
+    "entries": 7
+  },
+  {
+    "path": "lists/device-control/nas-server/docker/isolate.txt",
+    "bytes": 963,
+    "entries": 16
+  },
+  {
+    "path": "lists/device-control/nas-server/docker/privacy.txt",
+    "bytes": 957,
+    "entries": 16
+  },
+  {
+    "path": "lists/device-control/nas-server/docker/restrict.txt",
+    "bytes": 946,
+    "entries": 16
+  },
+  {
+    "path": "lists/device-control/nas-server/docker/updates.txt",
+    "bytes": 526,
+    "entries": 0
+  },
+  {
+    "path": "lists/device-control/nas-server/hpe-dell/isolate.txt",
+    "bytes": 647,
+    "entries": 5
+  },
+  {
+    "path": "lists/device-control/nas-server/hpe-dell/privacy.txt",
+    "bytes": 641,
+    "entries": 5
+  },
+  {
+    "path": "lists/device-control/nas-server/hpe-dell/restrict.txt",
+    "bytes": 630,
+    "entries": 5
+  },
+  {
+    "path": "lists/device-control/nas-server/hpe-dell/updates.txt",
+    "bytes": 530,
+    "entries": 0
+  },
+  {
+    "path": "lists/device-control/nas-server/kubernetes/isolate.txt",
+    "bytes": 1410,
+    "entries": 25
+  },
+  {
+    "path": "lists/device-control/nas-server/kubernetes/privacy.txt",
+    "bytes": 1404,
+    "entries": 25
+  },
+  {
+    "path": "lists/device-control/nas-server/kubernetes/restrict.txt",
+    "bytes": 1393,
+    "entries": 25
+  },
+  {
+    "path": "lists/device-control/nas-server/kubernetes/updates.txt",
+    "bytes": 534,
+    "entries": 0
+  },
+  {
+    "path": "lists/device-control/nas-server/qnap/isolate.txt",
+    "bytes": 764,
+    "entries": 6
+  },
+  {
+    "path": "lists/device-control/nas-server/qnap/privacy.txt",
+    "bytes": 758,
+    "entries": 6
+  },
+  {
+    "path": "lists/device-control/nas-server/qnap/restrict.txt",
+    "bytes": 747,
+    "entries": 6
+  },
+  {
+    "path": "lists/device-control/nas-server/qnap/updates.txt",
+    "bytes": 522,
+    "entries": 0
+  },
+  {
+    "path": "lists/device-control/nas-server/redhat-openshift/isolate.txt",
+    "bytes": 688,
+    "entries": 5
+  },
+  {
+    "path": "lists/device-control/nas-server/redhat-openshift/privacy.txt",
+    "bytes": 682,
+    "entries": 5
+  },
+  {
+    "path": "lists/device-control/nas-server/redhat-openshift/restrict.txt",
+    "bytes": 671,
+    "entries": 5
+  },
+  {
+    "path": "lists/device-control/nas-server/redhat-openshift/updates.txt",
+    "bytes": 546,
+    "entries": 0
+  },
+  {
+    "path": "lists/device-control/nas-server/synology/isolate.txt",
+    "bytes": 625,
+    "entries": 3
+  },
+  {
+    "path": "lists/device-control/nas-server/synology/privacy.txt",
+    "bytes": 619,
+    "entries": 3
+  },
+  {
+    "path": "lists/device-control/nas-server/synology/restrict.txt",
+    "bytes": 608,
+    "entries": 3
+  },
+  {
+    "path": "lists/device-control/nas-server/synology/updates.txt",
+    "bytes": 530,
+    "entries": 0
+  },
+  {
+    "path": "lists/device-control/nas-server/truenas/isolate.txt",
+    "bytes": 612,
+    "entries": 3
+  },
+  {
+    "path": "lists/device-control/nas-server/truenas/privacy.txt",
+    "bytes": 606,
+    "entries": 3
+  },
+  {
+    "path": "lists/device-control/nas-server/truenas/restrict.txt",
+    "bytes": 595,
+    "entries": 3
+  },
+  {
+    "path": "lists/device-control/nas-server/truenas/updates.txt",
+    "bytes": 528,
+    "entries": 0
+  },
+  {
+    "path": "lists/device-control/nas-server/unraid/isolate.txt",
+    "bytes": 577,
+    "entries": 2
+  },
+  {
+    "path": "lists/device-control/nas-server/unraid/privacy.txt",
+    "bytes": 571,
+    "entries": 2
+  },
+  {
+    "path": "lists/device-control/nas-server/unraid/restrict.txt",
+    "bytes": 560,
+    "entries": 2
+  },
+  {
+    "path": "lists/device-control/nas-server/unraid/updates.txt",
+    "bytes": 526,
+    "entries": 0
+  },
+  {
+    "path": "lists/device-control/network-devices/asus/isolate.txt",
+    "bytes": 1154,
+    "entries": 29
+  },
+  {
+    "path": "lists/device-control/network-devices/asus/privacy.txt",
+    "bytes": 1148,
+    "entries": 29
+  },
+  {
+    "path": "lists/device-control/network-devices/asus/restrict.txt",
+    "bytes": 1137,
+    "entries": 29
+  },
+  {
+    "path": "lists/device-control/network-devices/asus/updates.txt",
+    "bytes": 527,
+    "entries": 0
+  },
+  {
+    "path": "lists/device-control/network-devices/avm-fritzbox/isolate.txt",
+    "bytes": 575,
+    "entries": 1
+  },
+  {
+    "path": "lists/device-control/network-devices/avm-fritzbox/privacy.txt",
+    "bytes": 569,
+    "entries": 1
+  },
+  {
+    "path": "lists/device-control/network-devices/avm-fritzbox/restrict.txt",
+    "bytes": 558,
+    "entries": 1
+  },
+  {
+    "path": "lists/device-control/network-devices/avm-fritzbox/updates.txt",
+    "bytes": 543,
+    "entries": 0
+  },
+  {
+    "path": "lists/device-control/network-devices/cisco/isolate.txt",
+    "bytes": 1301,
+    "entries": 29
+  },
+  {
+    "path": "lists/device-control/network-devices/cisco/privacy.txt",
+    "bytes": 1295,
+    "entries": 29
+  },
+  {
+    "path": "lists/device-control/network-devices/cisco/restrict.txt",
+    "bytes": 1284,
+    "entries": 29
+  },
+  {
+    "path": "lists/device-control/network-devices/cisco/updates.txt",
+    "bytes": 529,
+    "entries": 0
+  },
+  {
+    "path": "lists/device-control/network-devices/huawei/isolate.txt",
+    "bytes": 2758,
+    "entries": 58
+  },
+  {
+    "path": "lists/device-control/network-devices/huawei/privacy.txt",
+    "bytes": 1495,
+    "entries": 18
+  },
+  {
+    "path": "lists/device-control/network-devices/huawei/restrict.txt",
+    "bytes": 2741,
+    "entries": 58
+  },
+  {
+    "path": "lists/device-control/network-devices/huawei/updates.txt",
+    "bytes": 531,
+    "entries": 0
+  },
+  {
+    "path": "lists/device-control/network-devices/mikrotik/isolate.txt",
+    "bytes": 575,
+    "entries": 1
+  },
+  {
+    "path": "lists/device-control/network-devices/mikrotik/privacy.txt",
+    "bytes": 569,
+    "entries": 1
+  },
+  {
+    "path": "lists/device-control/network-devices/mikrotik/restrict.txt",
+    "bytes": 558,
+    "entries": 1
+  },
+  {
+    "path": "lists/device-control/network-devices/mikrotik/updates.txt",
+    "bytes": 553,
+    "entries": 1
+  },
+  {
+    "path": "lists/device-control/network-devices/netgear/isolate.txt",
+    "bytes": 640,
+    "entries": 4
+  },
+  {
+    "path": "lists/device-control/network-devices/netgear/privacy.txt",
+    "bytes": 634,
+    "entries": 4
+  },
+  {
+    "path": "lists/device-control/network-devices/netgear/restrict.txt",
+    "bytes": 623,
+    "entries": 4
+  },
+  {
+    "path": "lists/device-control/network-devices/netgear/updates.txt",
+    "bytes": 533,
+    "entries": 0
+  },
+  {
+    "path": "lists/device-control/network-devices/tp-link/isolate.txt",
+    "bytes": 1123,
+    "entries": 17
+  },
+  {
+    "path": "lists/device-control/network-devices/tp-link/privacy.txt",
+    "bytes": 1117,
+    "entries": 17
+  },
+  {
+    "path": "lists/device-control/network-devices/tp-link/restrict.txt",
+    "bytes": 1106,
+    "entries": 17
+  },
+  {
+    "path": "lists/device-control/network-devices/tp-link/updates.txt",
+    "bytes": 533,
+    "entries": 0
+  },
+  {
+    "path": "lists/device-control/network-devices/ubiquiti/isolate.txt",
+    "bytes": 6885,
+    "entries": 301
+  },
+  {
+    "path": "lists/device-control/network-devices/ubiquiti/privacy.txt",
+    "bytes": 6879,
+    "entries": 301
+  },
+  {
+    "path": "lists/device-control/network-devices/ubiquiti/restrict.txt",
+    "bytes": 6868,
+    "entries": 301
+  },
+  {
+    "path": "lists/device-control/network-devices/ubiquiti/updates.txt",
+    "bytes": 589,
+    "entries": 2
+  },
+  {
+    "path": "lists/device-control/network-devices/zyxel/isolate.txt",
+    "bytes": 568,
+    "entries": 1
+  },
+  {
+    "path": "lists/device-control/network-devices/zyxel/privacy.txt",
+    "bytes": 562,
+    "entries": 1
+  },
+  {
+    "path": "lists/device-control/network-devices/zyxel/restrict.txt",
+    "bytes": 551,
+    "entries": 1
+  },
+  {
+    "path": "lists/device-control/network-devices/zyxel/updates.txt",
+    "bytes": 529,
+    "entries": 0
+  },
+  {
+    "path": "lists/device-control/operating-systems/android/isolate.txt",
+    "bytes": 551930,
+    "entries": 14598
+  },
+  {
+    "path": "lists/device-control/operating-systems/android/privacy.txt",
+    "bytes": 3673,
+    "entries": 135
+  },
+  {
+    "path": "lists/device-control/operating-systems/android/restrict.txt",
+    "bytes": 12166,
+    "entries": 488
+  },
+  {
+    "path": "lists/device-control/operating-systems/android/updates.txt",
+    "bytes": 865,
+    "entries": 11
+  },
+  {
+    "path": "lists/device-control/operating-systems/apple/isolate.txt",
+    "bytes": 10297,
+    "entries": 358
+  },
+  {
+    "path": "lists/device-control/operating-systems/apple/privacy.txt",
+    "bytes": 3793,
+    "entries": 119
+  },
+  {
+    "path": "lists/device-control/operating-systems/apple/restrict.txt",
+    "bytes": 7426,
+    "entries": 230
+  },
+  {
+    "path": "lists/device-control/operating-systems/apple/updates.txt",
+    "bytes": 664,
+    "entries": 7
+  },
+  {
+    "path": "lists/device-control/operating-systems/chromeos/isolate.txt",
+    "bytes": 549223,
+    "entries": 14479
+  },
+  {
+    "path": "lists/device-control/operating-systems/chromeos/privacy.txt",
+    "bytes": 576,
+    "entries": 1
+  },
+  {
+    "path": "lists/device-control/operating-systems/chromeos/restrict.txt",
+    "bytes": 9311,
+    "entries": 363
+  },
+  {
+    "path": "lists/device-control/operating-systems/chromeos/updates.txt",
+    "bytes": 867,
+    "entries": 11
+  },
+  {
+    "path": "lists/device-control/operating-systems/ios/isolate.txt",
+    "bytes": 9729,
+    "entries": 339
+  },
+  {
+    "path": "lists/device-control/operating-systems/ios/privacy.txt",
+    "bytes": 3047,
+    "entries": 92
+  },
+  {
+    "path": "lists/device-control/operating-systems/ios/restrict.txt",
+    "bytes": 6858,
+    "entries": 211
+  },
+  {
+    "path": "lists/device-control/operating-systems/ios/updates.txt",
+    "bytes": 660,
+    "entries": 7
+  },
+  {
+    "path": "lists/device-control/operating-systems/linux/isolate.txt",
+    "bytes": 605,
+    "entries": 3
+  },
+  {
+    "path": "lists/device-control/operating-systems/linux/privacy.txt",
+    "bytes": 599,
+    "entries": 3
+  },
+  {
+    "path": "lists/device-control/operating-systems/linux/restrict.txt",
+    "bytes": 588,
+    "entries": 3
+  },
+  {
+    "path": "lists/device-control/operating-systems/linux/updates.txt",
+    "bytes": 531,
+    "entries": 0
+  },
+  {
+    "path": "lists/device-control/operating-systems/macos/isolate.txt",
+    "bytes": 9701,
+    "entries": 338
+  },
+  {
+    "path": "lists/device-control/operating-systems/macos/privacy.txt",
+    "bytes": 3019,
+    "entries": 91
+  },
+  {
+    "path": "lists/device-control/operating-systems/macos/restrict.txt",
+    "bytes": 6830,
+    "entries": 210
+  },
+  {
+    "path": "lists/device-control/operating-systems/macos/updates.txt",
+    "bytes": 664,
+    "entries": 7
+  },
+  {
+    "path": "lists/device-control/operating-systems/windows/isolate.txt",
+    "bytes": 22460,
+    "entries": 793
+  },
+  {
+    "path": "lists/device-control/operating-systems/windows/privacy.txt",
+    "bytes": 2034,
+    "entries": 54
+  },
+  {
+    "path": "lists/device-control/operating-systems/windows/restrict.txt",
+    "bytes": 8767,
+    "entries": 278
+  },
+  {
+    "path": "lists/device-control/operating-systems/windows/updates.txt",
+    "bytes": 1090,
+    "entries": 21
+  },
+  {
+    "path": "lists/device-control/providers/1und1/isolate.txt",
+    "bytes": 686,
+    "entries": 7
+  },
+  {
+    "path": "lists/device-control/providers/1und1/privacy.txt",
+    "bytes": 680,
+    "entries": 7
+  },
+  {
+    "path": "lists/device-control/providers/1und1/restrict.txt",
+    "bytes": 669,
+    "entries": 7
+  },
+  {
+    "path": "lists/device-control/providers/1und1/updates.txt",
+    "bytes": 523,
+    "entries": 0
+  },
+  {
+    "path": "lists/device-control/providers/deutsche-glasfaser/isolate.txt",
+    "bytes": 728,
+    "entries": 6
+  },
+  {
+    "path": "lists/device-control/providers/deutsche-glasfaser/privacy.txt",
+    "bytes": 722,
+    "entries": 6
+  },
+  {
+    "path": "lists/device-control/providers/deutsche-glasfaser/restrict.txt",
+    "bytes": 711,
+    "entries": 6
+  },
+  {
+    "path": "lists/device-control/providers/deutsche-glasfaser/updates.txt",
+    "bytes": 549,
+    "entries": 0
+  },
+  {
+    "path": "lists/device-control/providers/o2/isolate.txt",
+    "bytes": 1040,
+    "entries": 18
+  },
+  {
+    "path": "lists/device-control/providers/o2/privacy.txt",
+    "bytes": 1034,
+    "entries": 18
+  },
+  {
+    "path": "lists/device-control/providers/o2/restrict.txt",
+    "bytes": 1023,
+    "entries": 18
+  },
+  {
+    "path": "lists/device-control/providers/o2/updates.txt",
+    "bytes": 517,
+    "entries": 0
+  },
+  {
+    "path": "lists/device-control/providers/telekom/isolate.txt",
+    "bytes": 2067,
+    "entries": 61
+  },
+  {
+    "path": "lists/device-control/providers/telekom/privacy.txt",
+    "bytes": 2061,
+    "entries": 61
+  },
+  {
+    "path": "lists/device-control/providers/telekom/restrict.txt",
+    "bytes": 2050,
+    "entries": 61
+  },
+  {
+    "path": "lists/device-control/providers/telekom/updates.txt",
+    "bytes": 527,
+    "entries": 0
+  },
+  {
+    "path": "lists/device-control/providers/unitymedia/isolate.txt",
+    "bytes": 648,
+    "entries": 4
+  },
+  {
+    "path": "lists/device-control/providers/unitymedia/privacy.txt",
+    "bytes": 642,
+    "entries": 4
+  },
+  {
+    "path": "lists/device-control/providers/unitymedia/restrict.txt",
+    "bytes": 631,
+    "entries": 4
+  },
+  {
+    "path": "lists/device-control/providers/unitymedia/updates.txt",
+    "bytes": 533,
+    "entries": 0
+  },
+  {
+    "path": "lists/device-control/providers/vodafone/isolate.txt",
+    "bytes": 2422,
+    "entries": 81
+  },
+  {
+    "path": "lists/device-control/providers/vodafone/privacy.txt",
+    "bytes": 2416,
+    "entries": 81
+  },
+  {
+    "path": "lists/device-control/providers/vodafone/restrict.txt",
+    "bytes": 2405,
+    "entries": 81
+  },
+  {
+    "path": "lists/device-control/providers/vodafone/updates.txt",
+    "bytes": 599,
+    "entries": 3
+  },
+  {
+    "path": "lists/device-control/smart-tv/amazon-fire-tv/isolate.txt",
+    "bytes": 27575,
+    "entries": 776
+  },
+  {
+    "path": "lists/device-control/smart-tv/amazon-fire-tv/privacy.txt",
+    "bytes": 1102,
+    "entries": 19
+  },
+  {
+    "path": "lists/device-control/smart-tv/amazon-fire-tv/restrict.txt",
+    "bytes": 9882,
+    "entries": 265
+  },
+  {
+    "path": "lists/device-control/smart-tv/amazon-fire-tv/updates.txt",
+    "bytes": 669,
+    "entries": 4
+  },
+  {
+    "path": "lists/device-control/smart-tv/google-android-tv/isolate.txt",
+    "bytes": 549242,
+    "entries": 14479
+  },
+  {
+    "path": "lists/device-control/smart-tv/google-android-tv/privacy.txt",
+    "bytes": 631,
+    "entries": 2
+  },
+  {
+    "path": "lists/device-control/smart-tv/google-android-tv/restrict.txt",
+    "bytes": 9366,
+    "entries": 364
+  },
+  {
+    "path": "lists/device-control/smart-tv/google-android-tv/updates.txt",
+    "bytes": 876,
+    "entries": 11
+  },
+  {
+    "path": "lists/device-control/smart-tv/google-tv/isolate.txt",
+    "bytes": 549226,
+    "entries": 14479
+  },
+  {
+    "path": "lists/device-control/smart-tv/google-tv/privacy.txt",
+    "bytes": 615,
+    "entries": 2
+  },
+  {
+    "path": "lists/device-control/smart-tv/google-tv/restrict.txt",
+    "bytes": 9350,
+    "entries": 364
+  },
+  {
+    "path": "lists/device-control/smart-tv/google-tv/updates.txt",
+    "bytes": 860,
+    "entries": 11
+  },
+  {
+    "path": "lists/device-control/smart-tv/hisense-vidaa/isolate.txt",
+    "bytes": 845,
+    "entries": 11
+  },
+  {
+    "path": "lists/device-control/smart-tv/hisense-vidaa/privacy.txt",
+    "bytes": 839,
+    "entries": 11
+  },
+  {
+    "path": "lists/device-control/smart-tv/hisense-vidaa/restrict.txt",
+    "bytes": 828,
+    "entries": 11
+  },
+  {
+    "path": "lists/device-control/smart-tv/hisense-vidaa/updates.txt",
+    "bytes": 538,
+    "entries": 0
+  },
+  {
+    "path": "lists/device-control/smart-tv/lg-webos/isolate.txt",
+    "bytes": 14485,
+    "entries": 620
+  },
+  {
+    "path": "lists/device-control/smart-tv/lg-webos/privacy.txt",
+    "bytes": 9152,
+    "entries": 355
+  },
+  {
+    "path": "lists/device-control/smart-tv/lg-webos/restrict.txt",
+    "bytes": 9212,
+    "entries": 358
+  },
+  {
+    "path": "lists/device-control/smart-tv/lg-webos/updates.txt",
+    "bytes": 528,
+    "entries": 0
+  },
+  {
+    "path": "lists/device-control/smart-tv/panasonic/isolate.txt",
+    "bytes": 929,
+    "entries": 15
+  },
+  {
+    "path": "lists/device-control/smart-tv/panasonic/privacy.txt",
+    "bytes": 923,
+    "entries": 15
+  },
+  {
+    "path": "lists/device-control/smart-tv/panasonic/restrict.txt",
+    "bytes": 912,
+    "entries": 15
+  },
+  {
+    "path": "lists/device-control/smart-tv/panasonic/updates.txt",
+    "bytes": 530,
+    "entries": 0
+  },
+  {
+    "path": "lists/device-control/smart-tv/philips/isolate.txt",
+    "bytes": 3339,
+    "entries": 73
+  },
+  {
+    "path": "lists/device-control/smart-tv/philips/privacy.txt",
+    "bytes": 3333,
+    "entries": 73
+  },
+  {
+    "path": "lists/device-control/smart-tv/philips/restrict.txt",
+    "bytes": 3322,
+    "entries": 73
+  },
+  {
+    "path": "lists/device-control/smart-tv/philips/updates.txt",
+    "bytes": 526,
+    "entries": 0
+  },
+  {
+    "path": "lists/device-control/smart-tv/roku/isolate.txt",
+    "bytes": 782,
+    "entries": 13
+  },
+  {
+    "path": "lists/device-control/smart-tv/roku/privacy.txt",
+    "bytes": 776,
+    "entries": 13
+  },
+  {
+    "path": "lists/device-control/smart-tv/roku/restrict.txt",
+    "bytes": 765,
+    "entries": 13
+  },
+  {
+    "path": "lists/device-control/smart-tv/roku/updates.txt",
+    "bytes": 520,
+    "entries": 0
+  },
+  {
+    "path": "lists/device-control/smart-tv/samsung/isolate.txt",
+    "bytes": 10229,
+    "entries": 347
+  },
+  {
+    "path": "lists/device-control/smart-tv/samsung/privacy.txt",
+    "bytes": 1889,
+    "entries": 51
+  },
+  {
+    "path": "lists/device-control/smart-tv/samsung/restrict.txt",
+    "bytes": 3693,
+    "entries": 116
+  },
+  {
+    "path": "lists/device-control/smart-tv/samsung/updates.txt",
+    "bytes": 553,
+    "entries": 1
+  },
+  {
+    "path": "lists/device-control/smart-tv/shared-other/isolate.txt",
+    "bytes": 2839,
+    "entries": 103
+  },
+  {
+    "path": "lists/device-control/smart-tv/shared-other/privacy.txt",
+    "bytes": 2833,
+    "entries": 103
+  },
+  {
+    "path": "lists/device-control/smart-tv/shared-other/restrict.txt",
+    "bytes": 2822,
+    "entries": 103
+  },
+  {
+    "path": "lists/device-control/smart-tv/shared-other/updates.txt",
+    "bytes": 546,
+    "entries": 1
+  },
+  {
+    "path": "lists/device-control/smart-tv/sony-bravia/isolate.txt",
+    "bytes": 3802,
+    "entries": 147
+  },
+  {
+    "path": "lists/device-control/smart-tv/sony-bravia/privacy.txt",
+    "bytes": 660,
+    "entries": 4
+  },
+  {
+    "path": "lists/device-control/smart-tv/sony-bravia/restrict.txt",
+    "bytes": 2349,
+    "entries": 91
+  },
+  {
+    "path": "lists/device-control/smart-tv/sony-bravia/updates.txt",
+    "bytes": 534,
+    "entries": 0
+  },
+  {
+    "path": "lists/device-control/smart-tv/tcl/isolate.txt",
+    "bytes": 561,
+    "entries": 2
+  },
+  {
+    "path": "lists/device-control/smart-tv/tcl/privacy.txt",
+    "bytes": 555,
+    "entries": 2
+  },
+  {
+    "path": "lists/device-control/smart-tv/tcl/restrict.txt",
+    "bytes": 544,
+    "entries": 2
+  },
+  {
+    "path": "lists/device-control/smart-tv/tcl/updates.txt",
+    "bytes": 518,
+    "entries": 0
+  },
+  {
+    "path": "lists/device-control/software-hardware/adobe/isolate.txt",
+    "bytes": 10291,
+    "entries": 354
+  },
+  {
+    "path": "lists/device-control/software-hardware/adobe/privacy.txt",
+    "bytes": 2331,
+    "entries": 60
+  },
+  {
+    "path": "lists/device-control/software-hardware/adobe/restrict.txt",
+    "bytes": 3139,
+    "entries": 86
+  },
+  {
+    "path": "lists/device-control/software-hardware/adobe/updates.txt",
+    "bytes": 541,
+    "entries": 0
+  },
+  {
+    "path": "lists/device-control/software-hardware/amd/isolate.txt",
+    "bytes": 620,
+    "entries": 5
+  },
+  {
+    "path": "lists/device-control/software-hardware/amd/privacy.txt",
+    "bytes": 614,
+    "entries": 5
+  },
+  {
+    "path": "lists/device-control/software-hardware/amd/restrict.txt",
+    "bytes": 603,
+    "entries": 5
+  },
+  {
+    "path": "lists/device-control/software-hardware/amd/updates.txt",
+    "bytes": 537,
+    "entries": 0
+  },
+  {
+    "path": "lists/device-control/software-hardware/autodesk/isolate.txt",
+    "bytes": 971,
+    "entries": 15
+  },
+  {
+    "path": "lists/device-control/software-hardware/autodesk/privacy.txt",
+    "bytes": 630,
+    "entries": 3
+  },
+  {
+    "path": "lists/device-control/software-hardware/autodesk/restrict.txt",
+    "bytes": 677,
+    "entries": 5
+  },
+  {
+    "path": "lists/device-control/software-hardware/autodesk/updates.txt",
+    "bytes": 547,
+    "entries": 0
+  },
+  {
+    "path": "lists/device-control/software-hardware/corsair/isolate.txt",
+    "bytes": 596,
+    "entries": 2
+  },
+  {
+    "path": "lists/device-control/software-hardware/corsair/privacy.txt",
+    "bytes": 590,
+    "entries": 2
+  },
+  {
+    "path": "lists/device-control/software-hardware/corsair/restrict.txt",
+    "bytes": 579,
+    "entries": 2
+  },
+  {
+    "path": "lists/device-control/software-hardware/corsair/updates.txt",
+    "bytes": 545,
+    "entries": 0
+  },
+  {
+    "path": "lists/device-control/software-hardware/intel/isolate.txt",
+    "bytes": 653,
+    "entries": 4
+  },
+  {
+    "path": "lists/device-control/software-hardware/intel/privacy.txt",
+    "bytes": 647,
+    "entries": 4
+  },
+  {
+    "path": "lists/device-control/software-hardware/intel/restrict.txt",
+    "bytes": 636,
+    "entries": 4
+  },
+  {
+    "path": "lists/device-control/software-hardware/intel/updates.txt",
+    "bytes": 541,
+    "entries": 0
+  },
+  {
+    "path": "lists/device-control/software-hardware/logitech/isolate.txt",
+    "bytes": 933,
+    "entries": 15
+  },
+  {
+    "path": "lists/device-control/software-hardware/logitech/privacy.txt",
+    "bytes": 672,
+    "entries": 4
+  },
+  {
+    "path": "lists/device-control/software-hardware/logitech/restrict.txt",
+    "bytes": 661,
+    "entries": 4
+  },
+  {
+    "path": "lists/device-control/software-hardware/logitech/updates.txt",
+    "bytes": 547,
+    "entries": 0
+  },
+  {
+    "path": "lists/device-control/software-hardware/nvidia/isolate.txt",
+    "bytes": 989,
+    "entries": 18
+  },
+  {
+    "path": "lists/device-control/software-hardware/nvidia/privacy.txt",
+    "bytes": 729,
+    "entries": 7
+  },
+  {
+    "path": "lists/device-control/software-hardware/nvidia/restrict.txt",
+    "bytes": 718,
+    "entries": 7
+  },
+  {
+    "path": "lists/device-control/software-hardware/nvidia/updates.txt",
+    "bytes": 543,
+    "entries": 0
+  },
+  {
+    "path": "lists/device-control/software-hardware/razer/isolate.txt",
+    "bytes": 738,
+    "entries": 8
+  },
+  {
+    "path": "lists/device-control/software-hardware/razer/privacy.txt",
+    "bytes": 585,
+    "entries": 1
+  },
+  {
+    "path": "lists/device-control/software-hardware/razer/restrict.txt",
+    "bytes": 574,
+    "entries": 1
+  },
+  {
+    "path": "lists/device-control/software-hardware/razer/updates.txt",
+    "bytes": 541,
+    "entries": 0
+  },
+  {
+    "path": "lists/device-control/voice-assistants/alexa/isolate.txt",
+    "bytes": 27275,
+    "entries": 768
+  },
+  {
+    "path": "lists/device-control/voice-assistants/alexa/privacy.txt",
+    "bytes": 2614,
+    "entries": 82
+  },
+  {
+    "path": "lists/device-control/voice-assistants/alexa/restrict.txt",
+    "bytes": 10982,
+    "entries": 311
+  },
+  {
+    "path": "lists/device-control/voice-assistants/alexa/updates.txt",
+    "bytes": 659,
+    "entries": 4
+  },
+  {
+    "path": "lists/device-control/voice-assistants/cortana/isolate.txt",
+    "bytes": 21893,
+    "entries": 774
+  },
+  {
+    "path": "lists/device-control/voice-assistants/cortana/privacy.txt",
+    "bytes": 806,
+    "entries": 13
+  },
+  {
+    "path": "lists/device-control/voice-assistants/cortana/restrict.txt",
+    "bytes": 7773,
+    "entries": 245
+  },
+  {
+    "path": "lists/device-control/voice-assistants/cortana/updates.txt",
+    "bytes": 1089,
+    "entries": 21
+  },
+  {
+    "path": "lists/device-control/voice-assistants/google-assistant/isolate.txt",
+    "bytes": 549288,
+    "entries": 14481
+  },
+  {
+    "path": "lists/device-control/voice-assistants/google-assistant/privacy.txt",
+    "bytes": 641,
+    "entries": 3
+  },
+  {
+    "path": "lists/device-control/voice-assistants/google-assistant/restrict.txt",
+    "bytes": 9376,
+    "entries": 365
+  },
+  {
+    "path": "lists/device-control/voice-assistants/google-assistant/updates.txt",
+    "bytes": 882,
+    "entries": 11
+  },
+  {
+    "path": "lists/device-control/voice-assistants/siri/isolate.txt",
+    "bytes": 10190,
+    "entries": 362
+  },
+  {
+    "path": "lists/device-control/voice-assistants/siri/privacy.txt",
+    "bytes": 1113,
+    "entries": 27
+  },
+  {
+    "path": "lists/device-control/voice-assistants/siri/restrict.txt",
+    "bytes": 6049,
+    "entries": 185
+  },
+  {
+    "path": "lists/device-control/voice-assistants/siri/updates.txt",
+    "bytes": 690,
+    "entries": 8
   },
   {
     "path": "lists/ecosystems/full/amazon.txt",
@@ -1141,8 +3201,8 @@
   },
   {
     "path": "lists/platforms/providers/full/deutsche-glasfaser.txt",
-    "bytes": 589,
-    "entries": 0
+    "bytes": 731,
+    "entries": 6
   },
   {
     "path": "lists/platforms/providers/full/o2.txt",
@@ -1297,7 +3357,7 @@
   {
     "path": "lists/platforms/software-hardware-telemetry/full/corsair.txt",
     "bytes": 568,
-    "entries": 0
+    "entries": 2
   },
   {
     "path": "lists/platforms/software-hardware-telemetry/full/intel.txt",
@@ -1321,28 +3381,28 @@
   },
   {
     "path": "lists/platforms/software-hardware-telemetry/main/light.txt",
-    "bytes": 591,
-    "entries": 0
+    "bytes": 2724,
+    "entries": 75
   },
   {
     "path": "lists/platforms/software-hardware-telemetry/main/normal.txt",
-    "bytes": 1352,
-    "entries": 28
+    "bytes": 2687,
+    "entries": 75
   },
   {
     "path": "lists/platforms/software-hardware-telemetry/main/pro-plus.txt",
-    "bytes": 2690,
-    "entries": 76
+    "bytes": 2778,
+    "entries": 80
   },
   {
     "path": "lists/platforms/software-hardware-telemetry/main/pro.txt",
-    "bytes": 2617,
-    "entries": 73
+    "bytes": 2784,
+    "entries": 80
   },
   {
     "path": "lists/platforms/software-hardware-telemetry/main/ultimate.txt",
-    "bytes": 2842,
-    "entries": 84
+    "bytes": 2858,
+    "entries": 85
   },
   {
     "path": "lists/platforms/streaming/full/apple-tv.txt",
@@ -1436,8 +3496,8 @@
   },
   {
     "path": "lists/platforms/voice-assistants/full/cortana.txt",
-    "bytes": 567,
-    "entries": 0
+    "bytes": 810,
+    "entries": 13
   },
   {
     "path": "lists/platforms/voice-assistants/full/google-assistant.txt",
@@ -1731,8 +3791,8 @@
   },
   {
     "path": "lists/security/full/data-exfiltration.txt",
-    "bytes": 684,
-    "entries": 0
+    "bytes": 819,
+    "entries": 13
   },
   {
     "path": "lists/security/full/ddos.txt",
@@ -1796,8 +3856,8 @@
   },
   {
     "path": "lists/security/full/newly-registered-domains.txt",
-    "bytes": 710,
-    "entries": 0
+    "bytes": 634748,
+    "entries": 15000
   },
   {
     "path": "lists/security/full/nft.txt",
@@ -1846,8 +3906,8 @@
   },
   {
     "path": "lists/security/full/surveillance.txt",
-    "bytes": 694,
-    "entries": 0
+    "bytes": 973,
+    "entries": 16
   },
   {
     "path": "lists/security/full/suspicious-tlds.txt",
@@ -1903,6 +3963,486 @@
     "path": "lists/security/threat-intelligence/mini.txt",
     "bytes": 15427356,
     "entries": 594410
+  },
+  {
+    "path": "lists/service-blocking/cloud-development/aws/block-all.txt",
+    "bytes": 22428,
+    "entries": 570
+  },
+  {
+    "path": "lists/service-blocking/cloud-development/aws/privacy.txt",
+    "bytes": 22417,
+    "entries": 570
+  },
+  {
+    "path": "lists/service-blocking/cloud-development/azure/block-all.txt",
+    "bytes": 8754,
+    "entries": 214
+  },
+  {
+    "path": "lists/service-blocking/cloud-development/azure/privacy.txt",
+    "bytes": 8745,
+    "entries": 214
+  },
+  {
+    "path": "lists/service-blocking/cloud-development/cicd/block-all.txt",
+    "bytes": 730,
+    "entries": 8
+  },
+  {
+    "path": "lists/service-blocking/cloud-development/cicd/privacy.txt",
+    "bytes": 720,
+    "entries": 8
+  },
+  {
+    "path": "lists/service-blocking/cloud-development/cloud-storage/block-all.txt",
+    "bytes": 12315,
+    "entries": 563
+  },
+  {
+    "path": "lists/service-blocking/cloud-development/cloud-storage/privacy.txt",
+    "bytes": 12314,
+    "entries": 563
+  },
+  {
+    "path": "lists/service-blocking/cloud-development/cloudflare/block-all.txt",
+    "bytes": 1910,
+    "entries": 42
+  },
+  {
+    "path": "lists/service-blocking/cloud-development/cloudflare/privacy.txt",
+    "bytes": 1906,
+    "entries": 42
+  },
+  {
+    "path": "lists/service-blocking/cloud-development/github/block-all.txt",
+    "bytes": 1072,
+    "entries": 24
+  },
+  {
+    "path": "lists/service-blocking/cloud-development/github/privacy.txt",
+    "bytes": 1064,
+    "entries": 24
+  },
+  {
+    "path": "lists/service-blocking/cloud-development/gitlab/block-all.txt",
+    "bytes": 684,
+    "entries": 7
+  },
+  {
+    "path": "lists/service-blocking/cloud-development/gitlab/privacy.txt",
+    "bytes": 676,
+    "entries": 7
+  },
+  {
+    "path": "lists/service-blocking/cloud-development/google-cloud/block-all.txt",
+    "bytes": 2175,
+    "entries": 49
+  },
+  {
+    "path": "lists/service-blocking/cloud-development/google-cloud/privacy.txt",
+    "bytes": 2173,
+    "entries": 49
+  },
+  {
+    "path": "lists/service-blocking/cloud-development/jetbrains/block-all.txt",
+    "bytes": 591,
+    "entries": 2
+  },
+  {
+    "path": "lists/service-blocking/cloud-development/jetbrains/privacy.txt",
+    "bytes": 586,
+    "entries": 2
+  },
+  {
+    "path": "lists/service-blocking/cloud-development/oracle-cloud/block-all.txt",
+    "bytes": 794,
+    "entries": 8
+  },
+  {
+    "path": "lists/service-blocking/cloud-development/oracle-cloud/privacy.txt",
+    "bytes": 792,
+    "entries": 8
+  },
+  {
+    "path": "lists/service-blocking/cloud-development/visual-studio/block-all.txt",
+    "bytes": 639,
+    "entries": 3
+  },
+  {
+    "path": "lists/service-blocking/cloud-development/visual-studio/privacy.txt",
+    "bytes": 638,
+    "entries": 3
+  },
+  {
+    "path": "lists/service-blocking/cloud-development/vscode/block-all.txt",
+    "bytes": 651,
+    "entries": 4
+  },
+  {
+    "path": "lists/service-blocking/cloud-development/vscode/privacy.txt",
+    "bytes": 643,
+    "entries": 4
+  },
+  {
+    "path": "lists/service-blocking/gaming/anti-cheat-telemetry/privacy.txt",
+    "bytes": 554,
+    "entries": 1
+  },
+  {
+    "path": "lists/service-blocking/gaming/battle-net/block-all.txt",
+    "bytes": 679,
+    "entries": 8
+  },
+  {
+    "path": "lists/service-blocking/gaming/battle-net/privacy.txt",
+    "bytes": 617,
+    "entries": 5
+  },
+  {
+    "path": "lists/service-blocking/gaming/ea-origin/block-all.txt",
+    "bytes": 6244,
+    "entries": 303
+  },
+  {
+    "path": "lists/service-blocking/gaming/ea-origin/privacy.txt",
+    "bytes": 6187,
+    "entries": 300
+  },
+  {
+    "path": "lists/service-blocking/gaming/epic-games/block-all.txt",
+    "bytes": 831,
+    "entries": 11
+  },
+  {
+    "path": "lists/service-blocking/gaming/epic-games/privacy.txt",
+    "bytes": 742,
+    "entries": 7
+  },
+  {
+    "path": "lists/service-blocking/gaming/game-analytics/privacy.txt",
+    "bytes": 1203,
+    "entries": 27
+  },
+  {
+    "path": "lists/service-blocking/gaming/mobile-games/block-all.txt",
+    "bytes": 623,
+    "entries": 3
+  },
+  {
+    "path": "lists/service-blocking/gaming/mobile-games/privacy.txt",
+    "bytes": 600,
+    "entries": 3
+  },
+  {
+    "path": "lists/service-blocking/gaming/nintendo/block-all.txt",
+    "bytes": 857,
+    "entries": 13
+  },
+  {
+    "path": "lists/service-blocking/gaming/nintendo/privacy.txt",
+    "bytes": 655,
+    "entries": 5
+  },
+  {
+    "path": "lists/service-blocking/gaming/playstation/block-all.txt",
+    "bytes": 890,
+    "entries": 13
+  },
+  {
+    "path": "lists/service-blocking/gaming/playstation/privacy.txt",
+    "bytes": 805,
+    "entries": 10
+  },
+  {
+    "path": "lists/service-blocking/gaming/riot-games/block-all.txt",
+    "bytes": 646,
+    "entries": 5
+  },
+  {
+    "path": "lists/service-blocking/gaming/riot-games/privacy.txt",
+    "bytes": 574,
+    "entries": 2
+  },
+  {
+    "path": "lists/service-blocking/gaming/rockstar/block-all.txt",
+    "bytes": 699,
+    "entries": 5
+  },
+  {
+    "path": "lists/service-blocking/gaming/rockstar/privacy.txt",
+    "bytes": 625,
+    "entries": 3
+  },
+  {
+    "path": "lists/service-blocking/gaming/steam/block-all.txt",
+    "bytes": 1794,
+    "entries": 54
+  },
+  {
+    "path": "lists/service-blocking/gaming/steam/privacy.txt",
+    "bytes": 531,
+    "entries": 1
+  },
+  {
+    "path": "lists/service-blocking/gaming/ubisoft/block-all.txt",
+    "bytes": 736,
+    "entries": 8
+  },
+  {
+    "path": "lists/service-blocking/gaming/ubisoft/privacy.txt",
+    "bytes": 677,
+    "entries": 6
+  },
+  {
+    "path": "lists/service-blocking/gaming/xbox/block-all.txt",
+    "bytes": 719,
+    "entries": 11
+  },
+  {
+    "path": "lists/service-blocking/gaming/xbox/privacy.txt",
+    "bytes": 648,
+    "entries": 8
+  },
+  {
+    "path": "lists/service-blocking/social-media/discord/block-all.txt",
+    "bytes": 877,
+    "entries": 17
+  },
+  {
+    "path": "lists/service-blocking/social-media/discord/privacy.txt",
+    "bytes": 733,
+    "entries": 9
+  },
+  {
+    "path": "lists/service-blocking/social-media/facebook-meta/block-all.txt",
+    "bytes": 3735,
+    "entries": 138
+  },
+  {
+    "path": "lists/service-blocking/social-media/facebook-meta/privacy.txt",
+    "bytes": 2437,
+    "entries": 82
+  },
+  {
+    "path": "lists/service-blocking/social-media/instagram/block-all.txt",
+    "bytes": 898,
+    "entries": 16
+  },
+  {
+    "path": "lists/service-blocking/social-media/instagram/privacy.txt",
+    "bytes": 813,
+    "entries": 12
+  },
+  {
+    "path": "lists/service-blocking/social-media/linkedin/block-all.txt",
+    "bytes": 1110,
+    "entries": 27
+  },
+  {
+    "path": "lists/service-blocking/social-media/linkedin/privacy.txt",
+    "bytes": 1032,
+    "entries": 23
+  },
+  {
+    "path": "lists/service-blocking/social-media/pinterest/block-all.txt",
+    "bytes": 868,
+    "entries": 16
+  },
+  {
+    "path": "lists/service-blocking/social-media/pinterest/privacy.txt",
+    "bytes": 787,
+    "entries": 12
+  },
+  {
+    "path": "lists/service-blocking/social-media/reddit/block-all.txt",
+    "bytes": 1149,
+    "entries": 31
+  },
+  {
+    "path": "lists/service-blocking/social-media/reddit/privacy.txt",
+    "bytes": 1035,
+    "entries": 25
+  },
+  {
+    "path": "lists/service-blocking/social-media/snapchat/block-all.txt",
+    "bytes": 847,
+    "entries": 15
+  },
+  {
+    "path": "lists/service-blocking/social-media/snapchat/privacy.txt",
+    "bytes": 763,
+    "entries": 11
+  },
+  {
+    "path": "lists/service-blocking/social-media/telegram/block-all.txt",
+    "bytes": 5890,
+    "entries": 251
+  },
+  {
+    "path": "lists/service-blocking/social-media/telegram/privacy.txt",
+    "bytes": 5805,
+    "entries": 246
+  },
+  {
+    "path": "lists/service-blocking/social-media/threads/block-all.txt",
+    "bytes": 821,
+    "entries": 12
+  },
+  {
+    "path": "lists/service-blocking/social-media/threads/privacy.txt",
+    "bytes": 771,
+    "entries": 10
+  },
+  {
+    "path": "lists/service-blocking/social-media/tiktok/block-all.txt",
+    "bytes": 2061,
+    "entries": 67
+  },
+  {
+    "path": "lists/service-blocking/social-media/tiktok/privacy.txt",
+    "bytes": 1958,
+    "entries": 61
+  },
+  {
+    "path": "lists/service-blocking/social-media/whatsapp/block-all.txt",
+    "bytes": 1104,
+    "entries": 25
+  },
+  {
+    "path": "lists/service-blocking/social-media/whatsapp/privacy.txt",
+    "bytes": 1017,
+    "entries": 20
+  },
+  {
+    "path": "lists/service-blocking/social-media/x-twitter/block-all.txt",
+    "bytes": 525134,
+    "entries": 21128
+  },
+  {
+    "path": "lists/service-blocking/social-media/x-twitter/privacy.txt",
+    "bytes": 525025,
+    "entries": 21121
+  },
+  {
+    "path": "lists/service-blocking/streaming/apple-tv/block-all.txt",
+    "bytes": 953,
+    "entries": 18
+  },
+  {
+    "path": "lists/service-blocking/streaming/apple-tv/privacy.txt",
+    "bytes": 934,
+    "entries": 18
+  },
+  {
+    "path": "lists/service-blocking/streaming/dazn/block-all.txt",
+    "bytes": 649,
+    "entries": 5
+  },
+  {
+    "path": "lists/service-blocking/streaming/dazn/privacy.txt",
+    "bytes": 604,
+    "entries": 3
+  },
+  {
+    "path": "lists/service-blocking/streaming/disney-plus/block-all.txt",
+    "bytes": 751,
+    "entries": 10
+  },
+  {
+    "path": "lists/service-blocking/streaming/disney-plus/privacy.txt",
+    "bytes": 677,
+    "entries": 6
+  },
+  {
+    "path": "lists/service-blocking/streaming/emby/block-all.txt",
+    "bytes": 587,
+    "entries": 4
+  },
+  {
+    "path": "lists/service-blocking/streaming/emby/privacy.txt",
+    "bytes": 545,
+    "entries": 2
+  },
+  {
+    "path": "lists/service-blocking/streaming/jellyfin/block-all.txt",
+    "bytes": 591,
+    "entries": 3
+  },
+  {
+    "path": "lists/service-blocking/streaming/jellyfin/privacy.txt",
+    "bytes": 541,
+    "entries": 1
+  },
+  {
+    "path": "lists/service-blocking/streaming/netflix/block-all.txt",
+    "bytes": 1244,
+    "entries": 32
+  },
+  {
+    "path": "lists/service-blocking/streaming/netflix/privacy.txt",
+    "bytes": 1131,
+    "entries": 25
+  },
+  {
+    "path": "lists/service-blocking/streaming/paramount/block-all.txt",
+    "bytes": 813,
+    "entries": 13
+  },
+  {
+    "path": "lists/service-blocking/streaming/paramount/privacy.txt",
+    "bytes": 737,
+    "entries": 9
+  },
+  {
+    "path": "lists/service-blocking/streaming/plex/block-all.txt",
+    "bytes": 630,
+    "entries": 7
+  },
+  {
+    "path": "lists/service-blocking/streaming/plex/privacy.txt",
+    "bytes": 563,
+    "entries": 3
+  },
+  {
+    "path": "lists/service-blocking/streaming/prime-video/block-all.txt",
+    "bytes": 660,
+    "entries": 6
+  },
+  {
+    "path": "lists/service-blocking/streaming/prime-video/privacy.txt",
+    "bytes": 576,
+    "entries": 2
+  },
+  {
+    "path": "lists/service-blocking/streaming/spotify/block-all.txt",
+    "bytes": 5014,
+    "entries": 190
+  },
+  {
+    "path": "lists/service-blocking/streaming/spotify/privacy.txt",
+    "bytes": 4919,
+    "entries": 185
+  },
+  {
+    "path": "lists/service-blocking/streaming/twitch/block-all.txt",
+    "bytes": 1037,
+    "entries": 29
+  },
+  {
+    "path": "lists/service-blocking/streaming/twitch/privacy.txt",
+    "bytes": 930,
+    "entries": 22
+  },
+  {
+    "path": "lists/service-blocking/streaming/youtube/block-all.txt",
+    "bytes": 1175,
+    "entries": 32
+  },
+  {
+    "path": "lists/service-blocking/streaming/youtube/privacy.txt",
+    "bytes": 1057,
+    "entries": 25
   },
   {
     "path": "profiles/light.txt",

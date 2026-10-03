@@ -7,10 +7,11 @@
 # Risk: Niedrig–Mittel
 # Data status: befüllt
 # Data method: generated-tier
-# Entries: 73
+# Entries: 80
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
+acds-events.adobe.io
 adobe-analytics-dc.amlc.eu
 adobe-analytics-dc.amlc.nl
 adobe-analytics-dc.belastingdienst.nl
@@ -21,6 +22,7 @@ adobe-metrics.vectrabank.com
 adobe-metrics.zionsbank.com
 adobe-metrics.zipmortgagefinancing.com
 adobeanalytics-secure.girlscouts.org
+adobeanalytics.actalentservices.com
 adobeanalytics.aerotek.com
 adobeanalytics.allegis-partners.com
 adobeanalytics.allegisglobalsolutions.com
@@ -36,6 +38,7 @@ adobeanalytics.populusgroup.com
 adobeanalytics.serveone.co.kr
 adobeanalytics.teksystems.com
 adobeanalytics.vice.com
+adobemetrics.auth0.com
 adobemetrics.cluballiance.aaa.com
 adobemetrics.okta.com
 adobemetrics.yellohvillage.co.uk
@@ -50,6 +53,8 @@ analytics.autodesk.com
 analytics.kriskintel.com
 analytics.ravenintel.com
 bespoke-analytics.razerapi.com
+events.gfe.nvidia.com
+events.telemetry.data.nvidia.com
 hz-telemetry-next.adobe.io
 hz-telemetry.adobe.io
 metrics-dev.adobeprimetime.com
@@ -58,6 +63,7 @@ metrics.adobe.almanacrealty.com
 metrics.adobe.nb.com
 metrics.adobe.nbprivateequitypartners.com
 metrics.adobe.nbprivatewealth.com
+metrics.amd.com
 metricsadobe.hollandandbarrett.be
 metricsadobe.hollandandbarrett.com
 metricsadobe.hollandandbarrett.ie
@@ -77,6 +83,7 @@ smetricsadobe.hollandandbarrett.nl
 sstats.adobe.com
 stats.adobe.com
 stats.iridiumintel.com
+tag.corsair.com
 telemetry.gfe.nvidia.com
 telemetry.intel.com
 telemetry.nvidia.com

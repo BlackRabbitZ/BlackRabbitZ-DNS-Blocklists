@@ -665,10 +665,10 @@ Hier werden **nur Hintergrund- und Datenschutz-Endpunkte** geblockt. Webseiten, 
 | Profil | Schutz | Risiko | Einträge | Liste |
 |---|---|:---:|---:|---|
 | 🟩 **Light** | zurückhaltend | Minimal | **75** | [Light](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/software-hardware-telemetry/main/light.txt) |
-| 🟦 **Normal** | ausgewogen | Niedrig | **28** | [Normal](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/software-hardware-telemetry/main/normal.txt) |
-| 🟨 **Pro** | Datenschutz | Niedrig–Mittel | **73** | [Pro](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/software-hardware-telemetry/main/pro.txt) |
-| 🟧 **Pro++** | aggressiv | Mittel | **76** | [Pro++](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/software-hardware-telemetry/main/pro-plus.txt) |
-| 🟥 **Ultimate** | maximal | Hoch | **84** | [Ultimate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/software-hardware-telemetry/main/ultimate.txt) |
+| 🟦 **Normal** | ausgewogen | Niedrig | **75** | [Normal](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/software-hardware-telemetry/main/normal.txt) |
+| 🟨 **Pro** | Datenschutz | Niedrig–Mittel | **80** | [Pro](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/software-hardware-telemetry/main/pro.txt) |
+| 🟧 **Pro++** | aggressiv | Mittel | **80** | [Pro++](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/software-hardware-telemetry/main/pro-plus.txt) |
+| 🟥 **Ultimate** | maximal | Hoch | **85** | [Ultimate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/software-hardware-telemetry/main/ultimate.txt) |
 
 <details>
 <summary><strong>📂 Hersteller-Wirkungslisten anzeigen</strong></summary>

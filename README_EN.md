@@ -665,10 +665,10 @@ Only **background and privacy endpoints** are blocked here. Websites, apps and d
 | Profile | Protection | Risk | Entries | List |
 |---|---|:---:|---:|---|
 | 🟩 **Light** | conservative | Minimal | **75** | [Light](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/software-hardware-telemetry/main/light.txt) |
-| 🟦 **Normal** | balanced | Low | **28** | [Normal](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/software-hardware-telemetry/main/normal.txt) |
-| 🟨 **Pro** | privacy | Low–Medium | **73** | [Pro](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/software-hardware-telemetry/main/pro.txt) |
-| 🟧 **Pro++** | aggressive | Medium | **76** | [Pro++](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/software-hardware-telemetry/main/pro-plus.txt) |
-| 🟥 **Ultimate** | maximum | High | **84** | [Ultimate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/software-hardware-telemetry/main/ultimate.txt) |
+| 🟦 **Normal** | balanced | Low | **75** | [Normal](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/software-hardware-telemetry/main/normal.txt) |
+| 🟨 **Pro** | privacy | Low–Medium | **80** | [Pro](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/software-hardware-telemetry/main/pro.txt) |
+| 🟧 **Pro++** | aggressive | Medium | **80** | [Pro++](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/software-hardware-telemetry/main/pro-plus.txt) |
+| 🟥 **Ultimate** | maximum | High | **85** | [Ultimate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/software-hardware-telemetry/main/ultimate.txt) |
 
 <details>
 <summary><strong>📂 Show vendor behavior lists</strong></summary>

@@ -7,7 +7,7 @@
 # Risk: Hoch
 # Data status: befüllt
 # Data method: generated-tier
-# Entries: 84
+# Entries: 85
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -88,6 +88,7 @@ smetricsadobe.hollandandbarrett.nl
 sstats.adobe.com
 stats.adobe.com
 stats.iridiumintel.com
+tag.corsair.com
 telemetry.gfe.nvidia.com
 telemetry.intel.com
 telemetry.nvidia.com
