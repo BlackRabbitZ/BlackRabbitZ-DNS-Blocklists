@@ -215,13 +215,13 @@ DNS-Blocking filtert Domains, keine einzelnen URL-Pfade. Fehlende Quellklassen w
 | Liste | Einträge | Status | Link |
 |---|---:|:---:|---|
 | **Adult** | **998.924** | ✅ | [Liste](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/family/content/adult.txt) |
-| **Dating** | **0** | 🟡 | [Liste](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/family/content/dating.txt) |
-| **Drugs** | **0** | 🟡 | [Liste](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/family/content/drugs.txt) |
+| **Dating** | **40** | ✅ | [Liste](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/family/content/dating.txt) |
+| **Drugs** | **55** | ✅ | [Liste](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/family/content/drugs.txt) |
 | **Gambling** | **420.536** | ✅ | [Liste](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/family/content/gambling.txt) |
 | **Misinformation** | **0** | 🟡 | [Liste](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/family/content/misinformation.txt) |
-| **Piracy** | **0** | 🟡 | [Liste](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/family/content/piracy.txt) |
+| **Piracy** | **58** | ✅ | [Liste](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/family/content/piracy.txt) |
 | **Sexual Content** | **0** | 🟡 | [Liste](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/family/content/sexual-content.txt) |
-| **Torrents** | **0** | 🟡 | [Liste](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/family/content/torrents.txt) |
+| **Torrents** | **44** | ✅ | [Liste](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/family/content/torrents.txt) |
 | **Violence Gore** | **0** | 🟡 | [Liste](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/family/content/violence-gore.txt) |
 | **Weapons** | **0** | 🟡 | [Liste](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/family/content/weapons.txt) |
 
@@ -288,33 +288,33 @@ Die Basis-Allowlist enthält unter anderem fragFINN, Blinde Kuh, Seitenstark, In
 
 | Liste | Einträge | Status | Full-Liste |
 |---|---:|:---:|---|
-| **Ads (Werbung)** | **234.010** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/ads.txt) |
+| **Ads (Werbung)** | **234.017** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/ads.txt) |
 | **Pop-Up Ads** | **517** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/pop-up-ads.txt) |
 | **Affiliate Tracking** | **643** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/affiliate-tracking.txt) |
 | **Aggressive Privacy** | **652** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/aggressive-privacy.txt) |
-| **Analytics** | **35.886** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/analytics.txt) |
+| **Analytics** | **35.898** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/analytics.txt) |
 | **Captcha Antibot** | **379** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/captcha-antibot.txt) |
 | **Cdn Tracking** | **20** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/cdn-tracking.txt) |
 | **Chat Support** | **64** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/chat-support.txt) |
-| **Consent Cmp** | **44** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/consent-cmp.txt) |
-| **Crash Reporting** | **91** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/crash-reporting.txt) |
+| **Consent Cmp** | **45** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/consent-cmp.txt) |
+| **Crash Reporting** | **98** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/crash-reporting.txt) |
 | **Crm** | **121** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/crm.txt) |
 | **Ecommerce** | **44** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/ecommerce.txt) |
 | **External Fonts** | **3** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/external-fonts.txt) |
 | **Fingerprinting** | **14** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/fingerprinting.txt) |
 | **Marketing** | **2.060** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/marketing.txt) |
-| **Mobile Tracking** | **205** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/mobile-tracking.txt) |
+| **Mobile Tracking** | **235** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/mobile-tracking.txt) |
 | **Native Tracking** | **628** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/native-tracking.txt) |
 | **Newsletter Tracking** | **166** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/newsletter-tracking.txt) |
-| **Payment Tracking** | **0** | 🟡 | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/payment-tracking.txt) |
+| **Payment Tracking** | **17** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/payment-tracking.txt) |
 | **Push Notifications** | **74** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/push-notifications.txt) |
 | **Recommendations** | **362** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/recommendations.txt) |
 | **Search Tracking** | **1** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/search-tracking.txt) |
 | **Seo Tracking** | **0** | 🟡 | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/seo-tracking.txt) |
 | **Session Replay** | **212** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/session-replay.txt) |
 | **Social Tracking** | **99** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/social-tracking.txt) |
-| **Telemetry** | **29.166** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/telemetry.txt) |
-| **Trackers** | **113.606** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/trackers.txt) |
+| **Telemetry** | **29.181** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/telemetry.txt) |
+| **Trackers** | **113.609** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/trackers.txt) |
 | **Tracking Pixels** | **927** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/tracking-pixels.txt) |
 | **Tracking Redirects** | **377** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/tracking-redirects.txt) |
 
@@ -346,8 +346,8 @@ Die Basis-Allowlist enthält unter anderem fragFINN, Blinde Kuh, Seitenstark, In
 | **Panasonic** | **15** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/smart-tv/full/panasonic.txt) |
 | **Philips** | **73** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/smart-tv/full/philips.txt) |
 | **Roku** | **13** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/smart-tv/full/roku.txt) |
-| **Samsung** | **50** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/smart-tv/full/samsung.txt) |
-| **Shared Other** | **102** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/smart-tv/full/shared-other.txt) |
+| **Samsung** | **51** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/smart-tv/full/samsung.txt) |
+| **Shared Other** | **103** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/smart-tv/full/shared-other.txt) |
 | **Sony Bravia** | **4** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/smart-tv/full/sony-bravia.txt) |
 | **Tcl** | **2** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/smart-tv/full/tcl.txt) |
 
@@ -409,7 +409,7 @@ Die Basis-Allowlist enthält unter anderem fragFINN, Blinde Kuh, Seitenstark, In
 | **Ios** | **92** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/operating-systems/full/ios.txt) |
 | **Linux** | **3** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/operating-systems/full/linux.txt) |
 | **Macos** | **91** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/operating-systems/full/macos.txt) |
-| **Windows** | **51** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/operating-systems/full/windows.txt) |
+| **Windows** | **54** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/operating-systems/full/windows.txt) |
 
 <p align="right"><a href="#blocklisten-navigation">⬆️ Blocklisten-Inhaltsverzeichnis</a></p>
 
@@ -436,7 +436,7 @@ Die Basis-Allowlist enthält unter anderem fragFINN, Blinde Kuh, Seitenstark, In
 | **Disney Plus** | **6** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/streaming/full/disney-plus.txt) |
 | **Emby** | **2** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/streaming/full/emby.txt) |
 | **Jellyfin** | **1** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/streaming/full/jellyfin.txt) |
-| **Netflix** | **24** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/streaming/full/netflix.txt) |
+| **Netflix** | **25** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/streaming/full/netflix.txt) |
 | **Paramount** | **9** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/streaming/full/paramount.txt) |
 | **Plex** | **3** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/streaming/full/plex.txt) |
 | **Prime Video** | **2** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/streaming/full/prime-video.txt) |
@@ -466,13 +466,13 @@ Die Basis-Allowlist enthält unter anderem fragFINN, Blinde Kuh, Seitenstark, In
 |---|---:|:---:|---|
 | **Anti Cheat Telemetry** | **1** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/apps/gaming/full/anti-cheat-telemetry.txt) |
 | **Battle Net** | **5** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/apps/gaming/full/battle-net.txt) |
-| **Ea Origin** | **298** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/apps/gaming/full/ea-origin.txt) |
+| **Ea Origin** | **300** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/apps/gaming/full/ea-origin.txt) |
 | **Epic Games** | **7** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/apps/gaming/full/epic-games.txt) |
-| **Game Analytics** | **25** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/apps/gaming/full/game-analytics.txt) |
+| **Game Analytics** | **27** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/apps/gaming/full/game-analytics.txt) |
 | **Mobile Games** | **3** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/apps/gaming/full/mobile-games.txt) |
 | **Nintendo** | **5** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/apps/gaming/full/nintendo.txt) |
 | **Playstation** | **10** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/apps/gaming/full/playstation.txt) |
-| **Riot Games** | **1** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/apps/gaming/full/riot-games.txt) |
+| **Riot Games** | **2** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/apps/gaming/full/riot-games.txt) |
 | **Rockstar** | **3** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/apps/gaming/full/rockstar.txt) |
 | **Steam** | **1** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/apps/gaming/full/steam.txt) |
 | **Ubisoft** | **6** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/apps/gaming/full/ubisoft.txt) |
@@ -755,12 +755,12 @@ Die Basis-Allowlist enthält unter anderem fragFINN, Blinde Kuh, Seitenstark, In
 | Liste | Einträge | Status | Full-Liste |
 |---|---:|:---:|---|
 | **Adobe** | **60** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/software-hardware-telemetry/full/adobe.txt) |
-| **Amd** | **0** | 🟡 | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/software-hardware-telemetry/full/amd.txt) |
+| **Amd** | **5** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/software-hardware-telemetry/full/amd.txt) |
 | **Autodesk** | **3** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/software-hardware-telemetry/full/autodesk.txt) |
 | **Corsair** | **0** | 🟡 | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/software-hardware-telemetry/full/corsair.txt) |
 | **Intel** | **4** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/software-hardware-telemetry/full/intel.txt) |
 | **Logitech** | **4** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/software-hardware-telemetry/full/logitech.txt) |
-| **Nvidia** | **5** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/software-hardware-telemetry/full/nvidia.txt) |
+| **Nvidia** | **7** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/software-hardware-telemetry/full/nvidia.txt) |
 | **Razer** | **1** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/software-hardware-telemetry/full/razer.txt) |
 
 <p align="right"><a href="#blocklisten-navigation">⬆️ Blocklisten-Inhaltsverzeichnis</a></p>
@@ -783,14 +783,14 @@ Die Basis-Allowlist enthält unter anderem fragFINN, Blinde Kuh, Seitenstark, In
 
 | Liste | Einträge | Status | Full-Liste |
 |---|---:|:---:|---|
-| **Abuse** | **0** | 🟡 | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/abuse.txt) |
+| **Abuse** | **116.920** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/abuse.txt) |
 | **Brand Impersonation** | **0** | 🟡 | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/brand-impersonation.txt) |
 | **Command Control** | **0** | 🟡 | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/command-control.txt) |
 | **Cryptocurrency** | **0** | 🟡 | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/cryptocurrency.txt) |
 | **Cryptomining** | **6.121** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/cryptomining.txt) |
 | **Data Exfiltration** | **0** | 🟡 | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/data-exfiltration.txt) |
-| **Ddos** | **0** | 🟡 | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/ddos.txt) |
-| **Disposable Email** | **0** | 🟡 | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/disposable-email.txt) |
+| **Ddos** | **15** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/ddos.txt) |
+| **Disposable Email** | **30** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/disposable-email.txt) |
 | **Dns Security** | **0** | 🟡 | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/dns-security.txt) |
 | **Dynamic Dns** | **74** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/dynamic-dns.txt) |
 | **Expired Domains** | **0** | 🟡 | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/expired-domains.txt) |
@@ -799,7 +799,7 @@ Die Basis-Allowlist enthält unter anderem fragFINN, Blinde Kuh, Seitenstark, In
 | **Fake Shops** | **10.960** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/fake-shops.txt) |
 | **Fake Software** | **0** | 🟡 | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/fake-software.txt) |
 | **Malicious Extensions** | **0** | 🟡 | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/malicious-extensions.txt) |
-| **Malicious Redirects** | **0** | 🟡 | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/malicious-redirects.txt) |
+| **Malicious Redirects** | **83** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/malicious-redirects.txt) |
 | **Malvertising** | **0** | 🟡 | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/malvertising.txt) |
 | **Malware** | **2.656.377** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/malware.txt) |
 | **Newly Registered Domains** | **0** | 🟡 | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/newly-registered-domains.txt) |
@@ -807,8 +807,8 @@ Die Basis-Allowlist enthält unter anderem fragFINN, Blinde Kuh, Seitenstark, In
 | **Parked Domains** | **0** | 🟡 | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/parked-domains.txt) |
 | **Phishing** | **577.332** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/phishing.txt) |
 | **Pup Pua** | **0** | 🟡 | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/pup-pua.txt) |
-| **Ransomware** | **0** | 🟡 | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/ransomware.txt) |
-| **Remote Access** | **0** | 🟡 | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/remote-access.txt) |
+| **Ransomware** | **53** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/ransomware.txt) |
+| **Remote Access** | **23** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/remote-access.txt) |
 | **Scam** | **265.246** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/scam.txt) |
 | **Scanners** | **0** | 🟡 | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/scanners.txt) |
 | **Spam** | **0** | 🟡 | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/spam.txt) |
