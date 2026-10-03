@@ -3,11 +3,11 @@
 # Description: Netflix Tracking/Telemetry
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
-# Sources: Aus vorhandenen BlackRabbitZ-/dokumentierten HaGeZi-Domains konservativ abgeleitet
+# Sources: Aus vorhandenen BlackRabbitZ-/dokumentierten HaGeZi-Domains konservativ abgeleitet; Pi-hole Query-Log Review 2026-10-03
 # Risk: variabel
 # Data status: abgeleitet
 # Data method: derived-keyword
-# Entries: 24
+# Entries: 25
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -35,3 +35,4 @@ netflixalternative.net
 news.newonnetflix.info
 nmtracking.netflix.com
 presentationtracking.netflix.com
+nrdp.logs.netflix.com

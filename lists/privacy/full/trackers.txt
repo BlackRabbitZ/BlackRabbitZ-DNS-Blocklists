@@ -3,9 +3,9 @@
 # Description: Vollstaendige allgemeine Tracking-/Measurement-Liste.
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only; siehe THIRD_PARTY.md fuer Drittquellen
-# Sources: BlackRabbitZ: Block List Project
+# Sources: BlackRabbitZ: Block List Project; Pi-hole Query-Log Review 2026-10-03
 # Risk: niedrig-mittel
-# Entries: 113606
+# Entries: 113609
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -113615,3 +113615,6 @@ zzuml.nordicware.com
 zzword.com
 zzz.capraprod.com
 zzzfba.thecolvinco.com
+collector.xhamster.com
+tracking.rewise.ai
+www.googletagmanager.com

@@ -3,11 +3,11 @@
 # Description: Crash-, Fehler- und Diagnose-Reporting
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
-# Sources: Aus vorhandenen BlackRabbitZ-/dokumentierten HaGeZi-Domains konservativ abgeleitet
+# Sources: Aus vorhandenen BlackRabbitZ-/dokumentierten HaGeZi-Domains konservativ abgeleitet; Pi-hole Query-Log Review 2026-10-03
 # Risk: variabel
 # Data status: abgeleitet
 # Data method: derived-keyword
-# Entries: 91
+# Entries: 98
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -102,3 +102,10 @@ update.crashlytics.com
 updates.bugsnag.com
 upload.bugsnag.com
 www.bugsnag.com
+o10564.ingest.sentry.io
+o22381.ingest.sentry.io
+o315582.ingest.sentry.io
+o315582.ingest.us.sentry.io
+o33249.ingest.us.sentry.io
+o64374.ingest.sentry.io
+o825645.ingest.us.sentry.io

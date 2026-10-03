@@ -1,14 +1,35 @@
 # BlackRabbitZ DNS Blocklists
 # Title: Remote Access
-# Description: Remote Access: Kategorie vollständig vorbereitet; der aktuelle statische Quellstand enthält keine belastbare per-Domain-Klassifizierung für diese Spezialklasse.
+# Description: Bekannte Remote-Administration-/Fernzugriffs-Dienste. Optionale Policy-Liste; die Dienste werden nicht als Malware eingestuft.
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
-# Sources: PDF-Sollkatalog; BlackRabbitZ statischer Snapshot
+# Sources: BRZ curated service domains
 # Risk: hoch
-# Data status: vorbereitet
-# Data method: prepared
-# Entries: 0
+# Data method: curated-policy-services
+# Entries: 23
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
-# Noch keine belastbaren Domains im aktuellen statischen Quellstand.
+aeroadmin.com
+ammyy.com
+anydesk.com
+anydesk.de
+connectwise.com
+dwservice.com
+dwservice.net
+getscreen.me
+gotoassist.com
+gotomypc.com
+logmein.com
+logmeininc.com
+parsec.app
+remoteutilities.com
+remoteutilities.net
+rustdesk.com
+rustdesk.net
+screenconnect.com
+splashtop.com
+teamviewer.com
+teamviewer.us
+ultraviewer.net
+zohoassist.com

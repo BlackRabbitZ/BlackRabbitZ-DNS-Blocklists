@@ -1,14 +1,95 @@
 # BlackRabbitZ DNS Blocklists
 # Title: Malicious Redirects
-# Description: Malicious Redirects: Kategorie vollständig vorbereitet; der aktuelle statische Quellstand enthält keine belastbare per-Domain-Klassifizierung für diese Spezialklasse.
+# Description: Redirect-/Shortener-Endpunkte, die zugleich im BRZ-Scam-Bestand auftauchen bzw. klare Redirect-Signale tragen.
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
-# Sources: PDF-Sollkatalog; BlackRabbitZ statischer Snapshot
+# Sources: Derived from BRZ scam + url-shorteners
 # Risk: hoch
-# Data status: vorbereitet
-# Data method: prepared
-# Entries: 0
+# Data method: set-intersection
+# Entries: 83
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
-# Noch keine belastbaren Domains im aktuellen statischen Quellstand.
+12monki-redirect.com
+12monkiredirect.com
+account-redirect-co.ru
+account-redirect-m.ru
+account-redirect-no.ru
+account-redirect-p.ru
+account-redirect-pw.ru
+account-redirect-re.ru
+account-redirect-ws.ru
+captcha308.fileredirect.cfd
+casino-redirect.com
+coachingredirect.com
+ct-redirect.com
+elslotsredirector.com
+freemacupdate.next-page-redirect.com
+freewindowsupdate.next-page-redirect.com
+fstt4.redirectvoluum.com
+gk4idtf68t.new-redirect6.ru
+google-reviews-redirect.com
+googleredirectvirusnow.net
+goredirect.party
+ice-redirect.com
+in.quickredirectlink.com
+justredirect25.com
+link-redirections-reference.postercountry.com
+macrepairprogram.next-page-redirect.com
+mail-redirectc-accountc.ru
+next-page-redirect.com
+onedriveredirect.com
+redirect-account.com
+redirect-account.ru
+redirect-tumblr.club
+redirect.adsender.us
+redirect.playmobi.info
+redirect.tabraa.review
+redirected-unlock-account.com
+redirecting.pl
+redirection.pl
+redirector.me
+redirectvirus.com
+s1ayx.redirectvoluum.com
+secure1-login-redirecting.com
+spywaredirect.com
+support-mail-redirection.accountant
+supportmicrosoft.tracking-redirect.com
+tracking-redirect.com
+update.microsoft.fast-redirect-site.com
+usd.zeroredirect6.com
+vu-betredirect1.com
+windowsrepairprogram.next-page-redirect.com
+www.12monki-redirect.com
+www.12monkiredirect.com
+www.account-redirect-co.ru
+www.account-redirect-m.ru
+www.account-redirect-no.ru
+www.account-redirect-p.ru
+www.account-redirect-pw.ru
+www.account-redirect-re.ru
+www.account-redirect-ws.ru
+www.captcha308.fileredirect.cfd
+www.casino-redirect.com
+www.elslotsredirector.com
+www.fstt4.redirectvoluum.com
+www.gk4idtf68t.new-redirect6.ru
+www.google-reviews-redirect.com
+www.googleredirectvirusnow.net
+www.ice-redirect.com
+www.justredirect25.com
+www.link-redirections-reference.postercountry.com
+www.mail-redirectc-accountc.ru
+www.malwaredirect.com
+www.onedriveredirect.com
+www.redirect-account.ru
+www.redirect-tumblr.club
+www.redirecting.pl
+www.redirection.pl
+www.redirectvirus.com
+www.secure1-login-redirecting.com
+www.spywaredirect.com
+www.support-mail-redirection.accountant
+www.usd.zeroredirect6.com
+www.vu-betredirect1.com
+zg1.zeroredirect2.com

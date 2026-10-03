@@ -1,14 +1,29 @@
 # BlackRabbitZ DNS Blocklists
 # Title: Payment Tracking
-# Description: Payment-/Checkout-/Fraud-Analytics
+# Description: Tracking-/Analytics-Endpunkte rund um Zahlungsanbieter; keine pauschale Sperre von Zahlungs-Kern-APIs.
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
-# Sources: Aus vorhandenen BlackRabbitZ-/dokumentierten HaGeZi-Domains konservativ abgeleitet
-# Risk: variabel
-# Data status: abgeleitet
-# Data method: derived-keyword
-# Entries: 0
+# Sources: Derived from BRZ privacy corpus; Pi-hole Query-Log Review 2026-10-03
+# Risk: hoch
+# Data method: curated-static
+# Entries: 17
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
-# Noch keine belastbaren Domains im aktuellen statischen Quellstand.
+ads2.greystripe.com
+adstripe.net
+adsx.greystripe.com
+checkoutanalytics-live-us.adyen.com
+checkoutanalytics-live.adyen.com
+client-analytics.braintreegateway.com
+metrics.soundstripe.com
+origin-analytics-sand.sandbox.braintree-api.com
+rs-stripe.freedombeacon.com
+smetrics.corpayone.co.uk
+smetrics.corpayone.com
+smetrics.corpayone.dk
+stats.paypal-metrics.com
+tracker.affirm.com
+tracking.sezzle.com
+click.hello.klarna.com
+hello.production.eu1.click-tracking.klarna.net

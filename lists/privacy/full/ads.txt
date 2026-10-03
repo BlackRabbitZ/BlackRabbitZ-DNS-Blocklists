@@ -3,9 +3,9 @@
 # Description: Vollstaendige Werbe-/Ad-Delivery-Liste.
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only; siehe THIRD_PARTY.md fuer Drittquellen
-# Sources: BlackRabbitZ: Block List Project; AnudeepND
+# Sources: BlackRabbitZ: Block List Project; AnudeepND; Pi-hole Query-Log Review 2026-10-03
 # Risk: niedrig
-# Entries: 234010
+# Entries: 234017
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -234019,3 +234019,10 @@ zzzmjfixezere.site
 zzzmyl.com
 zzznews.ru
 zzzzfzgzbz.com
+aes.eu-south.ono.axp.amazon-adsystem.com
+beacon.bidder.taboola.com
+config.ads.vungle.com
+display.bidder.taboola.com
+edge.ads.twitch.tv
+gateway.unityads.unity3d.com
+stage-mediate-events.applovin.com

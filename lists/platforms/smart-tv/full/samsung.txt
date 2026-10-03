@@ -3,9 +3,9 @@
 # Description: Vollstaendige im Smart-TV-Datenbestand erkannte Samsung / Tizen-Eintraege.
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only; siehe THIRD_PARTY.md fuer Drittquellen
-# Sources: BlackRabbitZ Smart-TV Bestand; HaGeZi-basierte Native/TV-Anteile
+# Sources: BlackRabbitZ Smart-TV Bestand; HaGeZi-basierte Native/TV-Anteile; Pi-hole Query-Log Review 2026-10-03
 # Risk: hoch
-# Entries: 50
+# Entries: 51
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 # Generated: ja
@@ -60,3 +60,4 @@ time.samsungcloudsolution.com
 uimetadata.samsungiotcloud.com
 us-api.samsungyosemite.com
 vdterms.samsungcloudsolution.com
+tvp-ads-log.samsungads.com

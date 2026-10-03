@@ -3,9 +3,9 @@
 # Description: Windows-/Microsoft-Telemetrie und Diagnostik.
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only; siehe THIRD_PARTY.md fuer Drittquellen
-# Sources: NextDNS Native Tracking Protection
+# Sources: NextDNS Native Tracking Protection; Pi-hole Query-Log Review 2026-10-03
 # Risk: mittel
-# Entries: 51
+# Entries: 54
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -60,3 +60,6 @@ watson.live.com
 watson.microsoft.com
 watson.telemetry.microsoft.com
 www.telecommandsvc.microsoft.com
+eu-mobile.events.data.microsoft.com
+mobile.events.data.microsoft.com
+v20.events.data.microsoft.com

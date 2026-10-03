@@ -3,9 +3,9 @@
 # Description: Gemeinsame oder keinem einzelnen Hersteller sicher zuordenbare Endpunkte des Bereichs.
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
-# Sources: BlackRabbitZ Smart-TV Daten; dokumentierte HaGeZi-/Perflyst-Anteile
+# Sources: BlackRabbitZ Smart-TV Daten; dokumentierte HaGeZi-/Perflyst-Anteile; Pi-hole Query-Log Review 2026-10-03
 # Risk: hoch
-# Entries: 102
+# Entries: 103
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 # Generated: ja
@@ -112,3 +112,4 @@ tvx.adgrx.com
 vindicosuite.com
 xml.opera.com
 yumenetworks.com
+logger.prd.hdplus.dev

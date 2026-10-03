@@ -3,9 +3,9 @@
 # Description: Mobile Attribution, SDK Analytics und App Tracking.
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only; siehe THIRD_PARTY.md fuer Drittquellen
-# Sources: BlackRabbitZ statischer Datenbestand
+# Sources: BlackRabbitZ statischer Datenbestand; Pi-hole Query-Log Review 2026-10-03
 # Risk: niedrig-mittel
-# Entries: 205
+# Entries: 235
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -214,3 +214,33 @@ www.googleadservices.com
 www.leanplum.com
 www.re.masoinmobiliaria.com
 z.moatads.com
+c-eus.w.inmobi.com
+ca.iadsdk.apple.com
+cdn-lb.vungle.com
+cdn.braze.eu
+cdn2.inner-active.mobi
+cf.iadsdk.apple.com
+cmp.inmobi.com
+config-server-gke-gw2.ssp.inmobi.com
+config.inmobi.com
+et-eus.w.inmobi.com
+et-l.w.inmobi.com
+et.w.inmobi.com
+eventfnt-eu.dsp-api.moloco.com
+i-l-ssp-inmobicdnnet-gcp-cdn.ssp.inmobi.com
+kymhci.cdn-settings.appsflyersdk.com
+kymhci.launches.appsflyersdk.com
+kymhci.skadsdk.appsflyersdk.com
+noti-eu.adsmoloco.com
+sdk-events.inner-active.mobi
+sdk.fra-01.braze.eu
+sdk.fra-02.braze.eu
+sdk.iad-03.braze.com
+sdkapi.dsp-api.moloco.com
+sdkeventfnt-eu.dsp-api.moloco.com
+sdkopmetrics-eu.dsp-api.moloco.com
+supply-inmobicdn-gcp-cdn.ssp.inmobi.com
+telemetry.sdk.inmobi.com
+tr.iadsdk.apple.com
+waterfall.inner-active.mobi
+wv.inner-active.mobi

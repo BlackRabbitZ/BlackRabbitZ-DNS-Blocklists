@@ -3,11 +3,11 @@
 # Description: Web-/App-/Audience-/Usage-Analytics
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
-# Sources: Aus vorhandenen BlackRabbitZ-/dokumentierten HaGeZi-Domains konservativ abgeleitet
+# Sources: Aus vorhandenen BlackRabbitZ-/dokumentierten HaGeZi-Domains konservativ abgeleitet; Pi-hole Query-Log Review 2026-10-03
 # Risk: variabel
 # Data status: abgeleitet
 # Data method: derived-keyword
-# Entries: 35886
+# Entries: 35898
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -35897,3 +35897,15 @@ zogbyanalytics.com
 zogmedia.d1.sc.omtrdc.net
 zoomanalytics.co
 zumba.d1.sc.omtrdc.net
+7ba3f64df98de730df38846b54ecfbdf7f61f80f.cws.conviva.com
+7ba3f64df98de730df38846b54ecfbdf7f61f80f.ipv4.cws.conviva.com
+7ba3f64df98de730df38846b54ecfbdf7f61f80f.ipv6.cws.conviva.com
+analytics.adjust.net.in
+cws-usc1.conviva.com
+cws.conviva.com
+events.statsigapi.net
+ipv4-gcp.cws.conviva.com
+ipv4.cws.conviva.com
+ipv6.cws.conviva.com
+sb.scorecardresearch.com
+tps.doubleverify.com
