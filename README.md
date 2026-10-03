@@ -222,8 +222,8 @@ DNS-Blocking filtert Domains, keine einzelnen URL-Pfade. Fehlende Quellklassen w
 | **Piracy** | **58** | ✅ | [Liste](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/family/content/piracy.txt) |
 | **Sexual Content** | **998.924** | ✅ | [Liste](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/family/content/sexual-content.txt) |
 | **Torrents** | **44** | ✅ | [Liste](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/family/content/torrents.txt) |
-| **Violence Gore** | **0** | 🟡 | [Liste](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/family/content/violence-gore.txt) |
-| **Weapons** | **0** | 🟡 | [Liste](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/family/content/weapons.txt) |
+| **Violence Gore** | **53** | ✅ | [Liste](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/family/content/violence-gore.txt) |
+| **Weapons** | **89** | ✅ | [Liste](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/family/content/weapons.txt) |
 
 > `Misinformation` bleibt bewusst optional und wird nicht automatisch als objektive Security-Kategorie behandelt.
 
