@@ -1,0 +1,18 @@
+# BlackRabbitZ DNS Blocklists
+# Title: nintendo privacy
+# Description: Service tracking/analytics/telemetry; service should remain usable.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: lists/apps/gaming/full/nintendo.txt
+# Risk: medium
+# Data status: befuellt
+# Data method: derived-service-privacy
+# Entries: 5
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+click.ccg.nintendo.com
+discovery.olv.nintendo.net
+fast.nintendoofamericainc.demdex.net
+nintendoofamericainc.demdex.net
+smetrics.nintendo.com

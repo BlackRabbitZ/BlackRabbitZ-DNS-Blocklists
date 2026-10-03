@@ -3,12 +3,26 @@
 # Description: Aggressive Crawlers-Endpunkte; DNS-seitig, kein Ersatz für WAF/robots.
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
-# Sources: Aus vorhandenem statischem BlackRabbitZ-/HaGeZi-dokumentiertem Datenbestand konservativ abgeleitet
+# Sources: Aus vorhandenem statischem BlackRabbitZ-/HaGeZi-dokumentiertem Datenbestand konservativ abgeleitet; Public crawler operator domains; DNS limitation applies
 # Risk: hoch
-# Data status: abgeleitet
-# Data method: derived-keyword
-# Entries: 0
+# Data status: befuellt
+# Data method: operator-domain-curation
+# Entries: 15
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
-# Noch keine belastbaren Domains im aktuellen statischen Quellstand.
+ahrefs.com
+anthropic.com
+apple.com
+bytedance.com
+cohere.com
+commoncrawl.org
+diffbot.com
+dotnetdotcom.org
+majestic.com
+meta.com
+moz.com
+openai.com
+perplexity.ai
+semrush.com
+you.com

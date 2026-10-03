@@ -1,0 +1,19 @@
+# BlackRabbitZ DNS Blocklists
+# Title: disney-plus privacy
+# Description: Service tracking/analytics/telemetry; service should remain usable.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: lists/platforms/streaming/full/disney-plus.txt
+# Risk: medium
+# Data status: befuellt
+# Data method: derived-service-privacy
+# Entries: 6
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+analytics.disneyplus.com
+disneyplus-tv.com
+em.disneyplus.com
+sanalytics.disneyplus.com
+smetrics-stg.help.disneyplus.com
+smetrics.help.disneyplus.com

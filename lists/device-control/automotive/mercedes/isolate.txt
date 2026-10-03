@@ -1,0 +1,46 @@
+# BlackRabbitZ DNS Blocklists
+# Title: mercedes isolate
+# Description: Maximum known vendor communication; may break cloud/account/store/updates.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: lists/platforms/automotive/full/mercedes.txt + BRZ manufacturer data
+# Risk: very high
+# Data status: befuellt
+# Data method: derived-isolate
+# Entries: 33
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+analytics.daimler-bkk.com
+analytics.daimler-truck-events.com
+daimlerag.122.2o7.net
+daimlerag.d2.sc.omtrdc.net
+daimlermobilityservices.d3.sc.omtrdc.net
+daimlerversicherung.com
+fast.daimler-retargeting.demdex.net
+fast.daimlerag.demdex.net
+mercedes-forum.de.intellitxt.com
+mercedes-scene.de.intellitxt.com
+mercedesbenz.pxf.io
+metrics.cbc.youtube.mercedes-benz.com
+smetrics.mieten.mercedes-benz.de
+smetrics.rent.mercedes-benz.ch
+smetrics.rent.mercedes-benz.co.jp
+smetrics.rent.mercedes-benz.se
+tracking.c.mercedes-benz.co.in
+tracking.c.mercedes-benz.com.cn
+tracking.c.mercedes-benz.de
+tracking.m.mercedes-benz.ch
+tracking.m.mercedes-benz.co.in
+tracking.m.mercedes-benz.co.th
+tracking.m.mercedes-benz.co.za
+tracking.m.mercedes-benz.com.cn
+tracking.m.mercedes-benz.com.sg
+tracking.m.mercedes-benz.ru
+tracking.mercedes-amg-f1.com
+tracking.mercedes-benz-bus.com
+tracking.t.mercedes-benz.co.in
+tracking.t.mercedes-benz.com.cn
+tracking.t.mercedes-benz.de
+tracking.techcenter.mercedes-benz.com
+web-analytics.daimlertruck.com

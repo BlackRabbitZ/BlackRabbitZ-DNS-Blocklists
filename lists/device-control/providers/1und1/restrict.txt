@@ -1,0 +1,20 @@
+# BlackRabbitZ DNS Blocklists
+# Title: 1und1 restrict
+# Description: Privacy plus optional vendor/cloud/recommendation endpoints.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: lists/platforms/providers/full/1und1.txt + BRZ manufacturer data
+# Risk: high
+# Data status: befuellt
+# Data method: derived-restrict
+# Entries: 7
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+1und1internetag.d3.sc.omtrdc.net
+analytics.1und1.de
+dbt.dopascalls.1und1.de
+odc.1und1.de
+piwik.1u1s.de
+pixel.1und1.de
+stats.drillisch-online.de

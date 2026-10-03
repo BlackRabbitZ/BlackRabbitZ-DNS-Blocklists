@@ -1,0 +1,18 @@
+# BlackRabbitZ DNS Blocklists
+# Title: amd privacy
+# Description: Privacy/Tracking/Telemetry; core service should remain usable.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: lists/platforms/software-hardware-telemetry/full/amd.txt + BRZ manufacturer data
+# Risk: medium
+# Data status: befuellt
+# Data method: derived-existing-privacy
+# Entries: 5
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+a.amd.com
+explore.amd.com
+kqzamd.com
+metrics.amd.com
+pbnamd.com

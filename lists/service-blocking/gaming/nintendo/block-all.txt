@@ -1,0 +1,26 @@
+# BlackRabbitZ DNS Blocklists
+# Title: nintendo block all
+# Description: Functional service/API/login/CDN hosts plus privacy endpoints; service should be blocked.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: BRZ existing data + curated service roots
+# Risk: very high
+# Data status: befuellt
+# Data method: service-block-all
+# Entries: 13
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+click.ccg.nintendo.com
+discovery.olv.nintendo.net
+fast.nintendoofamericainc.demdex.net
+fs.nintendolife.com
+gonintendo.us.intellitxt.com
+nintendo-europe.com
+nintendo.com
+nintendo.com.102.112.2o7.net
+nintendo.net
+nintendoofamericainc.demdex.net
+p.nintendolesite.com
+smetrics.nintendo.com
+tracking.nintendo-europe.com

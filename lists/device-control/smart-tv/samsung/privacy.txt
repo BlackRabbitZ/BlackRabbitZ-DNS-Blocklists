@@ -1,0 +1,64 @@
+# BlackRabbitZ DNS Blocklists
+# Title: samsung privacy
+# Description: Privacy/Tracking/Telemetry; core service should remain usable.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: lists/platforms/smart-tv/full/samsung.txt + BRZ manufacturer data
+# Risk: medium
+# Data status: befuellt
+# Data method: derived-existing-privacy
+# Entries: 51
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+abtauthprd.samsungcloudsolution.com
+acr-us-prd.samsungcloud.tv
+acr0.samsungcloudsolution.com
+ads.samsung.com
+ads.samsungads.com
+amauthprd.samsungcloudsolution.com
+api-hub.samsungyosemite.com
+cdn.samsungcloudsolution.com
+cdn.samsungcloudsolution.net
+config.samsungads.com
+eu-auth2.samsungosp.com
+events.samsungads.com
+gamespromotion.samsungcloudsolution.com
+gld.push.samsungosp.com
+gld.samsungosp.com
+gpm.samsungqbe.com
+img-resize-cdn-prod.samsungnyc.com
+lcprd1.samsungcloudsolution.net
+log-1.samsungacr.com
+log-2.samsungacr.com
+log-config.samsungacr.com
+musicid.samsungcloudsolution.com
+notice.samsungcloudsolution.com
+noticecdn.samsungcloudsolution.com
+noticefile.samsungcloudsolution.com
+ocfconnect-shard-eu02-euwest1.samsungiotcloud.com
+oempprd.samsungcloudsolution.com
+openapi.samsung.com
+osb-apps-v2.samsungqbe.com
+osb-v2.samsungqbe.com
+osb.samsungqbe.com
+prderrordumphsm.samsungcloudsolution.com
+prov.samsungcloudsolution.com
+rwww.samsungotn.net
+samsungacr.com
+samsungadhub.com
+samsungads.com
+samsungcloudsolution.com
+samsungcloudsolution.net
+samsungelectronics.com
+samsungotn.net
+samsungrm.net
+sas.samsungcloudsolution.com
+sca.samsung.com
+scs.samsungqbe.com
+targeted-config-test.samsungacr.com
+time.samsungcloudsolution.com
+tvp-ads-log.samsungads.com
+uimetadata.samsungiotcloud.com
+us-api.samsungyosemite.com
+vdterms.samsungcloudsolution.com

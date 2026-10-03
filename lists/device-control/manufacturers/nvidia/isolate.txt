@@ -1,0 +1,30 @@
+# BlackRabbitZ DNS Blocklists
+# Title: nvidia isolate
+# Description: Maximum known manufacturer communication.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: lists/manufacturers/nvidia.txt
+# Risk: very high
+# Data status: befuellt
+# Data method: manufacturer-isolate
+# Entries: 17
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+a.nvidia.com
+click.nvgaming.nvidia.com
+ehg-nvidia.hitbox.com
+events.gfe.nvidia.com
+fast.nvidia.demdex.net
+geo-location-api.gx.nvidia.com
+geoip.svc.nvidia.com
+gfe.nvidia.com
+lightstep.kaizen.nvidia.com
+nvidia.demdex.net
+nvidia.partners
+prd-appstats.nvidia.com
+smetrics.nvidia.com
+stt.nvidia.com
+telemetry.gfe.nvidia.com
+telemetry.nvidia.com
+zn8jonxbval6gn2if-nvidia.siteintercept.qualtrics.com

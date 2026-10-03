@@ -1,0 +1,17 @@
+# BlackRabbitZ DNS Blocklists
+# Title: audi updates
+# Description: Separately identified update/firmware/download endpoints.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: lists/platforms/automotive/full/audi.txt + BRZ manufacturer data
+# Risk: high
+# Data status: befuellt
+# Data method: derived-updates
+# Entries: 4
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+dotaudiences.com
+homespotaudience.com
+otadunit.cdn.auditude.com
+ss.lootaudio.com

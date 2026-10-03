@@ -1,0 +1,28 @@
+# BlackRabbitZ DNS Blocklists
+# Title: panasonic restrict
+# Description: Privacy plus optional vendor/cloud/recommendation endpoints.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: lists/platforms/smart-tv/full/panasonic.txt + BRZ manufacturer data
+# Risk: high
+# Data status: befuellt
+# Data method: derived-restrict
+# Entries: 15
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+fast.panasonicglobal.demdex.net
+gw-analytics.panasonic.com
+metrics-cns.panasonic.com
+metrics.panasonic.biz
+metrics.panasonic.jp
+panasonic-beacons.xumo.com
+panasonic-jp.b.appier.net
+panasonic.inq.com
+sec-analytics.panasonic.co.uk
+sec-analytics.panasonic.de
+sgw-analytics.panasonic.com
+smetrics-cns.panasonic.com
+smetrics.panasonic.biz
+smetrics.panasonic.jp
+smetrics.panasonic.net

@@ -1,0 +1,15 @@
+# BlackRabbitZ DNS Blocklists
+# Title: sonos privacy
+# Description: Privacy/Tracking/Telemetry; core service should remain usable.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: lists/platforms/iot-smart-home/full/sonos.txt + BRZ manufacturer data
+# Risk: medium
+# Data status: befuellt
+# Data method: derived-existing-privacy
+# Entries: 2
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+msmetrics-test.ws.sonos.com
+msmetrics.ws.sonos.com

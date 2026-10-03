@@ -3,12 +3,17 @@
 # Description: Deutsche-Glasfaser-Endpunkte
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
-# Sources: Aus vorhandenen BlackRabbitZ-/dokumentierten HaGeZi-Domains konservativ abgeleitet
+# Sources: Aus vorhandenen BlackRabbitZ-/dokumentierten HaGeZi-Domains konservativ abgeleitet; Deutsche Glasfaser official public endpoints
 # Risk: variabel
-# Data status: abgeleitet
-# Data method: derived-keyword
-# Entries: 0
+# Data status: befuellt
+# Data method: official-domain-import
+# Entries: 6
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
-# Noch keine belastbaren Domains im aktuellen statischen Quellstand.
+deutsche-glasfaser.de
+deutsche-glasfaser.speedtestcustom.com
+dnsauth001.dg-w.de
+dnsauth002.dg-w.de
+kundenportal.deutsche-glasfaser.de
+www.deutsche-glasfaser.de

@@ -1,0 +1,49 @@
+# BlackRabbitZ DNS Blocklists
+# Title: ea privacy
+# Description: Manufacturer privacy/tracking/telemetry endpoints.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: lists/manufacturers/ea.txt
+# Risk: medium
+# Data status: befuellt
+# Data method: manufacturer-privacy
+# Entries: 36
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+ads.contralinea.com.mx
+ads.miciudadenlinea.com.ar
+ads.pdbarea.com
+ads.rohea.com
+adserver.mylinea.com
+adserver1.lujanenlinea.com.ar
+adsrv.ea.com
+analytics.akalea.com
+analytics.fcmlabemea.com
+analytics.luceleaftea.com
+analytics.nordea.com
+analytics.pressarea.com
+analytics.savamea.com
+analytics.snappea.com
+analytics.swgoodidea.com
+gtm.adslancorrea.com.br
+load.events.drogariascampea.com.br
+metrics.ananea.com
+metrics.ikea.com
+metrics.thermea.com
+metrics.toolbox.inter-ikea.com
+sanalytics.cartoonnetworkkorea.com
+smetrics.bhhsbayarea.com
+smetrics.polarenlinea.com
+smetrics.sony-mea.com
+smetrics.toolbox.inter-ikea.com
+stats.buzzea.com
+stats.charlesonrecreationarea.com
+stats.ecomnews.fr.ecn-01.ovea.com
+stats.forum-area.com
+stats.ixarea.com
+stats.noveaidea.com
+stats.qloudea.com
+track.tastyarea.com
+tracker.diamantea.com
+tracking.tiojaggerytea.com

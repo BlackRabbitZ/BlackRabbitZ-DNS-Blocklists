@@ -1,0 +1,34 @@
+# BlackRabbitZ DNS Blocklists
+# Title: huawei privacy
+# Description: Manufacturer privacy/tracking/telemetry endpoints.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: lists/manufacturers/huawei.txt
+# Risk: medium
+# Data status: befuellt
+# Data method: manufacturer-privacy
+# Entries: 21
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+0001-metrics1-data-hicloud-com.geac.dbankedge.cn
+ads-drru.cloud.huawei.ru
+ads.cloud.huawei.com
+events-dra-op-hicloud-com-dra.appacc-region.dbankedge.cn
+events-dra-op-hicloud-com-dra.appacc.dbankedge.cn
+events-dra-op-hicloud-com-dra.edge.dbankedge.cn
+events-dra.op.hicloud.com
+events-dre-op-hicloud-com-dre.appacc.dbankedge.cn
+events-dre.op.hicloud.com
+metrics-dra.dt.hicloud.com
+metrics-drcn.dt.hicloud.com
+metrics.data.hicloud.com
+metrics.dt.hicloud.com
+metrics1-data-hicloud-com.ge.dbankedge.cn
+metrics1-data-hicloud-com.gere.dbankedge.cn
+metrics1.data.hicloud.com
+metrics2.data.hicloud.com
+metrics3.data.hicloud.com
+metrics4.data.hicloud.com
+metrics5.data.hicloud.com
+metrics6.dt.hicloud.com

@@ -1,0 +1,22 @@
+# BlackRabbitZ DNS Blocklists
+# Title: xiaomi privacy
+# Description: Privacy/Tracking/Telemetry; core service should remain usable.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: lists/platforms/iot-smart-home/full/xiaomi.txt + BRZ manufacturer data
+# Risk: medium
+# Data status: befuellt
+# Data method: derived-existing-privacy
+# Entries: 9
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+data.mistat.india.xiaomi.com
+data.mistat.intl.xiaomi.com
+data.mistat.rus.xiaomi.com
+data.mistat.xiaomi.com
+sa.api.intl.miui.com
+tracking.india.miui.com
+tracking.intl.miui.com
+tracking.miui.com
+tracking.rus.miui.com

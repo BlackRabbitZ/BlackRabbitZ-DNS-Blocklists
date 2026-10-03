@@ -1,0 +1,17 @@
+# BlackRabbitZ DNS Blocklists
+# Title: lg restrict
+# Description: Privacy plus optional vendor/cloud services.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: lists/manufacturers/lg.txt
+# Risk: high
+# Data status: befuellt
+# Data method: manufacturer-restrict
+# Entries: 4
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+analytics.1lg.com
+analytics.team-vertriebserfolg.com
+smetrics.iilg.com
+tracking.lg.com

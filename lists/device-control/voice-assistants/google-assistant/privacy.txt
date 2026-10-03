@@ -1,0 +1,16 @@
+# BlackRabbitZ DNS Blocklists
+# Title: google-assistant privacy
+# Description: Privacy/Tracking/Telemetry; core service should remain usable.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: lists/platforms/voice-assistants/full/google-assistant.txt + BRZ manufacturer data
+# Risk: medium
+# Data status: befuellt
+# Data method: derived-existing-privacy
+# Entries: 3
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+assistant.google.com
+embeddedassistant.googleapis.com
+speech.googleapis.com

@@ -3,12 +3,18 @@
 # Description: Authentifizierungs-Domains
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
-# Sources: BlackRabbitZ manuell
+# Sources: BlackRabbitZ manuell; BRZ conservative authentication endpoints
 # Risk: niedrig
-# Data status: vorbereitet
-# Data method: manual
-# Entries: 0
+# Data status: befuellt
+# Data method: manual-curated
+# Entries: 7
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
-# Noch keine belastbaren Domains im aktuellen statischen Quellstand.
+accounts.google.com
+appleid.apple.com
+auth0.com
+idmsa.apple.com
+login.live.com
+login.microsoft.com
+login.microsoftonline.com

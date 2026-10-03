@@ -1,0 +1,17 @@
+# BlackRabbitZ DNS Blocklists
+# Title: unitymedia isolate
+# Description: Maximum known vendor communication; may break cloud/account/store/updates.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: lists/platforms/providers/full/unitymedia.txt + BRZ manufacturer data
+# Risk: very high
+# Data status: befuellt
+# Data method: derived-isolate
+# Entries: 4
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+sc.unitymedia.de
+smetrics.unitymediabusiness.de
+unitymedia.inq.com
+unitymedia.touchcommerce.com

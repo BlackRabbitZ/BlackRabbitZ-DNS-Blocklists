@@ -1,0 +1,58 @@
+# BlackRabbitZ DNS Blocklists
+# Title: vw isolate
+# Description: Maximum known vendor communication; may break cloud/account/store/updates.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: lists/platforms/automotive/full/vw.txt + BRZ manufacturer data
+# Risk: very high
+# Data status: befuellt
+# Data method: derived-isolate
+# Entries: 45
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+capig.volkswagen.dk
+cmp.myvolkswagen.be
+cmp.volkswagen.be
+connect.volkswagen.com
+dc.volkswagen.com
+dc.volkswagen.com.ar
+dc.volkswagen.com.au
+dc.volkswagen.de
+dc.volkswagen.ie
+dc.volkswagen.pl
+fleet.volkswagen.co.uk
+metric.volkswagen-nutzfahrzeuge.de
+metric.volkswagen.com
+metric.volkswagen.de
+metric.volkswagen.es
+metric.volkswagen.ie
+metric.volkswagen.pl
+smatning.volkswagen.se
+smetric.volkswagen-commercial.ru
+smetric.volkswagen-veicolicommerciali.it
+smetric.volkswagen.ch
+smetric.volkswagen.com
+smetric.volkswagen.com.au
+smetric.volkswagen.de
+smetric.volkswagen.es
+smetric.volkswagen.ie
+smetric.volkswagen.it
+smetric.volkswagen.pl
+smetric.volkswagen.ru
+smetrics.volkswagenbank.de
+smetrics.volkswagendirect.us
+smetrics.volkswagenfinancialservices.nl
+stats.volkswagen-automobile-berlin.de
+stats.volkswagen-automobile-hamburg.de
+stats.volkswagen-automobile-stuttgart.de
+stats.volkswagen-frankfurt.de
+stats.volkswagen-la-rochelle.fr
+stats.volkswagen-newsroom.com
+tam.volkswagen.com
+target.volkswagenfinancialservices.nl
+volkswagen-com-my.b.appier.net
+volkswagen.122.2o7.net
+volkswagen.adsame.com
+volkswagenag.tt.omtrdc.net
+volkswagengroupofame.tt.omtrdc.net

@@ -1,0 +1,42 @@
+# BlackRabbitZ DNS Blocklists
+# Title: cisco restrict
+# Description: Privacy plus optional vendor/cloud/recommendation endpoints.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: lists/platforms/network-devices/full/cisco.txt + BRZ manufacturer data
+# Risk: high
+# Data status: befuellt
+# Data method: derived-restrict
+# Entries: 29
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+analytics.ciscodude.net
+cisco-eagle.actonservice.com
+cisco-tags.cisco.com
+cisco.112.2o7.net
+cisco.co1.qualtrics.com
+cisco.cust.clickability.com
+cisco.sc.omtrdc.net
+ciscoengineering.co1.qualtrics.com
+ciscoesfirring.guru
+ciscojasper.hb.omtrdc.net
+ciscolearningnetwork.tt.omtrdc.net
+ciscosystemsinc.tt.omtrdc.net
+ciscowebex.112.2o7.net
+datacollect.cisco.com
+dsc.cisco.com
+ehg-cisco.hitbox.com
+engage2demand.cisco.com
+engagemetrics.cisco.com
+load.sgtm.restaurante-sanfrancisco.es
+load.sst.sanfranciscomagictheater.com
+mlbsanfrancisco.112.2o7.net
+partnersuccessmetrics.cisco.com
+reporting.cisco.com
+sanfranciscojapanesefusion.com
+smetrics.cisco.com
+smtp.sanfrancisco.bluehornet.com
+sst.sanfranciscomagictheater.com
+stape.franciscopenha.com
+target.cisco.com

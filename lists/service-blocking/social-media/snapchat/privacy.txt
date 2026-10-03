@@ -1,0 +1,24 @@
+# BlackRabbitZ DNS Blocklists
+# Title: snapchat privacy
+# Description: Service tracking/analytics/telemetry; service should remain usable.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: lists/apps/social-media/full/snapchat.txt
+# Risk: medium
+# Data status: befuellt
+# Data method: derived-service-privacy
+# Entries: 11
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+ads.snapchat.com
+adsapi.snapchat.com
+analytics.snapchat.com
+api.snapkit.com
+app-analytics-v2.snapchat.com
+app-analytics.snapchat.com
+intg.snapchat.com
+rtam-collector.snapchat.com
+server-analytics.snapchat.com
+tr.snapchat.com
+tr6.snapchat.com

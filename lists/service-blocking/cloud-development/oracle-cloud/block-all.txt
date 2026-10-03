@@ -1,0 +1,21 @@
+# BlackRabbitZ DNS Blocklists
+# Title: oracle-cloud block all
+# Description: Functional service/API/login/CDN hosts plus privacy endpoints; service should be blocked.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: BRZ existing data + curated service roots
+# Risk: very high
+# Data status: befuellt
+# Data method: service-block-all
+# Entries: 8
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+analytics.ocp.oraclecloud.com
+experiments-prod-us.occa.ocs.oraclecloud.com
+go.oracle.com
+recs.occa.us-phoenix-1.ocs.oraclecloud.com
+rps-svcs.oracle.com
+telemetry.us-ashburn-1.oci.oraclecloud.com
+tms.oracle.com
+visit-prod-us.occa.ocs.oraclecloud.com

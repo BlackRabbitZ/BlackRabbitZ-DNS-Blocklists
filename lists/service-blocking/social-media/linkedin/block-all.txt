@@ -1,0 +1,40 @@
+# BlackRabbitZ DNS Blocklists
+# Title: linkedin block all
+# Description: Functional service/API/login/CDN hosts plus privacy endpoints; service should be blocked.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: BRZ existing data + curated service roots
+# Risk: very high
+# Data status: befuellt
+# Data method: service-block-all
+# Entries: 27
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+ads.linkedin.com
+analytics.linkedin.com
+analytics.pointdrive.linkedin.com
+ap-southeast-1.dc.ads.linkedin.com
+api.linkedin.com
+atanx.alicdn.com
+d.alicdn.com
+danuoyi.alicdn.com
+dc.ads.linkedin.com
+gma.alicdn.com
+licdn.com
+linkedin-learning.pxf.io
+linkedin.cdn.qualaroo.com
+linkedin.com
+media-akam.licdn.com
+nbsdk-baichuan.alicdn.com
+platform.linkedin.com
+px.ads.linkedin.com
+retcode.alicdn.com
+rtb-trk4.linkedin.com
+snap.licdn.com
+static-src.alicdn.com
+tbip.alicdn.com
+tce.alicdn.com
+us-east-1.dc.ads.linkedin.com
+us-east-1.profile-api.ads.linkedin.com
+www.linkedin.com

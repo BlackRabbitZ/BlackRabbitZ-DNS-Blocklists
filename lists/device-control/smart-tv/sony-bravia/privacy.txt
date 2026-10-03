@@ -1,0 +1,17 @@
+# BlackRabbitZ DNS Blocklists
+# Title: sony-bravia privacy
+# Description: Privacy/Tracking/Telemetry; core service should remain usable.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: lists/platforms/smart-tv/full/sony-bravia.txt + BRZ manufacturer data
+# Risk: medium
+# Data status: befuellt
+# Data method: derived-existing-privacy
+# Entries: 4
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+bravia-cfgdst-ore-pro.bda.ndmdhs.com
+bravia.dl.playstation.net
+call.me.sel.sony.com
+sonybivstatic-a.akamaihd.net

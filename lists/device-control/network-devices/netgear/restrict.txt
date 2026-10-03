@@ -1,0 +1,17 @@
+# BlackRabbitZ DNS Blocklists
+# Title: netgear restrict
+# Description: Privacy plus optional vendor/cloud/recommendation endpoints.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: lists/platforms/network-devices/full/netgear.txt + BRZ manufacturer data
+# Risk: high
+# Data status: befuellt
+# Data method: derived-restrict
+# Entries: 4
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+netgear.122.2o7.net
+netgearrouterhelp.com
+netgeartech.support
+www.netgearrouterhelp.com

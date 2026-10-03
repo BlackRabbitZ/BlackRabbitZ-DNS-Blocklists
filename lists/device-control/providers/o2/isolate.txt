@@ -1,0 +1,31 @@
+# BlackRabbitZ DNS Blocklists
+# Title: o2 isolate
+# Description: Maximum known vendor communication; may break cloud/account/store/updates.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: lists/platforms/providers/full/o2.txt + BRZ manufacturer data
+# Risk: very high
+# Data status: befuellt
+# Data method: derived-isolate
+# Entries: 18
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+chatrouter-telefonica.inq.com
+data.information.telefonica.de
+data.telefonica.test.cjmadobe.com
+fast.telefonicauklimited.demdex.net
+lon.telefonica.bench.cedexis.com
+o2onlinede.widget.criteo.com
+portal.o2online.de
+statistik.co2online.de
+telefonica.es.intellitxt.com
+telefonica.eu.qualtrics.com
+telefonica.inq.com
+telefonicaespana.tt.omtrdc.net
+telefonicauk.d3.sc.omtrdc.net
+telefonicauklimited.demdex.net
+telefonicauklimited.tt.omtrdc.net
+tiws.telefonica.com
+track.o2online.de
+webstatistics.telefonica.de

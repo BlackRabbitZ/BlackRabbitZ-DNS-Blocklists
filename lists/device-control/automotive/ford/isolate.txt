@@ -1,0 +1,44 @@
+# BlackRabbitZ DNS Blocklists
+# Title: ford isolate
+# Description: Maximum known vendor communication; may break cloud/account/store/updates.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: lists/platforms/automotive/full/ford.txt + BRZ manufacturer data
+# Risk: very high
+# Data status: befuellt
+# Data method: derived-isolate
+# Entries: 31
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+analytics.m.email-ford.com
+analytics.s.email-ford.com
+api-cdmp.waterford.com
+api.pd01e.gcp.ford.com
+calworthingtonford.com
+dynatrace.ford.com
+go.weatherford.com
+gtm.elizakingsford.com
+gtm.jarvisford.com.au
+indigestioncrawford.com
+leetilford.com
+levisanford.com
+load.gtm.elizakingsford.com
+load.gtm.jarvisford.com.au
+load.sst.waterford.com
+metrics.ford.com
+oc.caulisefford.com
+r.mail.metrohartford.com
+relaxafford.com
+scallopafford.com
+smetrics.boundaryford.com
+smetrics.ford.com
+smetrics.mid-townford.com
+smetrics.waterlooford.com
+stats.axlcrawford.com
+stats.chriscrawford.com
+stats.tyclifford.com
+tag.waterworldmedford.com
+uemm-dynatrace.app.ford.com
+waterboa.jacobford.com
+www.calworthingtonford.com

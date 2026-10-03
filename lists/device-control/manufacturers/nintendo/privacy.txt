@@ -1,0 +1,15 @@
+# BlackRabbitZ DNS Blocklists
+# Title: nintendo privacy
+# Description: Manufacturer privacy/tracking/telemetry endpoints.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: lists/manufacturers/nintendo.txt
+# Risk: medium
+# Data status: befuellt
+# Data method: manufacturer-privacy
+# Entries: 2
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+smetrics.nintendo.com
+tracking.nintendo-europe.com

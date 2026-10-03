@@ -3,12 +3,16 @@
 # Description: Projektweite False-Positive-Ausnahmen
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
-# Sources: BlackRabbitZ manuell
+# Sources: BlackRabbitZ manuell; BRZ critical false-positive recovery seeds
 # Risk: niedrig
-# Data status: vorbereitet
-# Data method: manual
-# Entries: 0
+# Data status: befuellt
+# Data method: manual-curated
+# Entries: 5
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
-# Noch keine belastbaren Domains im aktuellen statischen Quellstand.
+accounts.google.com
+appleid.apple.com
+challenges.cloudflare.com
+js.stripe.com
+login.microsoftonline.com

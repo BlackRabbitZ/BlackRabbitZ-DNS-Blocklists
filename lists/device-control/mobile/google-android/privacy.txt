@@ -1,0 +1,31 @@
+# BlackRabbitZ DNS Blocklists
+# Title: google-android privacy
+# Description: Privacy/Tracking/Telemetry; core service should remain usable.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: lists/platforms/mobile/full/google-android.txt + BRZ manufacturer data
+# Risk: medium
+# Data status: befuellt
+# Data method: derived-existing-privacy
+# Entries: 18
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+app-measurement.com
+crashlytics.163.com
+crashlytics.com
+crashlytics.ru
+crashlyticsreports-pa.googleapis.com
+device-provisioning.googleapis.com
+e.crashlytics.com
+federatedml-pa.googleapis.com
+firebase-settings.crashlytics.com
+firebasecrashlytics.googleapis.com
+firebaseinappmessaging.googleapis.com
+firebaselogging-pa.googleapis.com
+firebaselogging.googleapis.com
+firebaseperf.googleapis.com
+hit-counter-26c68-default-rtdb.firebaseio.com
+reports.crashlytics.com
+settings.crashlytics.com
+wix-engage-visitors-prod-5.firebaseio.com

@@ -1,0 +1,18 @@
+# BlackRabbitZ DNS Blocklists
+# Title: redhat-openshift restrict
+# Description: Privacy plus optional vendor/cloud/recommendation endpoints.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: lists/platforms/nas-server/full/redhat-openshift.txt + BRZ manufacturer data
+# Risk: high
+# Data status: befuellt
+# Data method: derived-restrict
+# Entries: 5
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+api.access.redhat.com
+cert-api.access.redhat.com
+cert.console.redhat.com
+connect.cloud.redhat.com
+infogw.api.openshift.com

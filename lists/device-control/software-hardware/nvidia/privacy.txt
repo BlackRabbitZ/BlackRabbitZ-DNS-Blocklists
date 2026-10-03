@@ -1,0 +1,20 @@
+# BlackRabbitZ DNS Blocklists
+# Title: nvidia privacy
+# Description: Privacy/Tracking/Telemetry; core service should remain usable.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: lists/platforms/software-hardware-telemetry/full/nvidia.txt + BRZ manufacturer data
+# Risk: medium
+# Data status: befuellt
+# Data method: derived-existing-privacy
+# Entries: 7
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+events.gfe.nvidia.com
+events.telemetry.data.nvidia.com
+lightstep.kaizen.nvidia.com
+prd-appstats.nvidia.com
+smetrics.nvidia.com
+telemetry.gfe.nvidia.com
+telemetry.nvidia.com

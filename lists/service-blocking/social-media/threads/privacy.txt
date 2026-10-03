@@ -1,0 +1,23 @@
+# BlackRabbitZ DNS Blocklists
+# Title: threads privacy
+# Description: Service tracking/analytics/telemetry; service should remain usable.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: lists/apps/social-media/full/threads.txt
+# Risk: medium
+# Data status: befuellt
+# Data method: derived-service-privacy
+# Entries: 10
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+cdnthreads.com
+data.connectingthreads.com
+eshsm.amazethreads.com
+scontent-hkg2-1.cdnthreads.com
+scontent-lax1-3.cdnthreads.com
+scontent-nrt1-1.cdnthreads.com
+scontent-sin1-2.cdnthreads.com
+ss.castthreads.com
+static.cdnthreads.com
+tl.reveriethreads.com

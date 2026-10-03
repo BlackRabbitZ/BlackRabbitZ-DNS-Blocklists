@@ -1,0 +1,38 @@
+# BlackRabbitZ DNS Blocklists
+# Title: reddit privacy
+# Description: Service tracking/analytics/telemetry; service should remain usable.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: lists/apps/social-media/full/reddit.txt
+# Risk: medium
+# Data status: befuellt
+# Data method: derived-service-privacy
+# Entries: 25
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+ads.reddit.com
+alb.reddit.com
+analytics.reddit.com
+click.redditmail.com
+conversions-config.reddit.com
+d.reddit.com
+data.redditsave.com
+e.reddit.com
+engine.a.redditmedia.com
+error-tracking.reddit.com
+events.reddit.com
+events.redditmedia.com
+libreddit.domain.glass
+pixel-config.reddit.com
+pixel.reddit.com
+pixel.redditmedia.com
+rereddit.com
+s.onreddit.com
+sa.askredditbut.ai
+stats.redditmedia.com
+tracker.redditmedia.com
+w3-reporting-csp.reddit.com
+w3-reporting-nel.reddit.com
+w3-reporting.reddit.com
+www.alb.reddit.com

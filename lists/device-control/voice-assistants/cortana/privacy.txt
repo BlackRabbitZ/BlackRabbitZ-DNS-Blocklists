@@ -1,0 +1,26 @@
+# BlackRabbitZ DNS Blocklists
+# Title: cortana privacy
+# Description: Privacy/Tracking/Telemetry; core service should remain usable.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: lists/platforms/voice-assistants/full/cortana.txt + BRZ manufacturer data
+# Risk: medium
+# Data status: befuellt
+# Data method: derived-existing-privacy
+# Entries: 13
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+business.bing.com
+c.bing.com
+dual-s-ring.msedge.net
+edgeassetservice.azureedge.net
+fp.msedge.net
+prod-azurecdn-akamai-iris.azureedge.net
+r.bing.com
+s-ring.msedge.net
+th.bing.com
+tse1.mm.bing.net
+widgetcdn.azureedge.net
+widgetservice.azurefd.net
+www.bing.com

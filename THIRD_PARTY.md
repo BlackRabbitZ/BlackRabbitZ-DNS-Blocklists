@@ -26,3 +26,13 @@ Weitere Quellen je nach Ursprungsliste: Block List Project, AnudeepND, NextDNS N
 ### Block List Project
 - Lizenz: MIT (laut jeweiligem Listen-Header).
 - Optionale manuelle Upstreams fuer Piracy, Ransomware und Redirect/Malicious Redirects sind im Speziallisten-Updater hinterlegt.
+
+## Effect-List-Erweiterung 2026-10-03
+
+- NextDNS `services` und `native-tracking-domains` dienten als öffentlich dokumentierte Referenz für die Trennung zwischen Service-Blocking und Native-/Device-Tracking.
+- Microsoft Learn wurde für Cortana-/Live-Tile- und Windows-Update-Endpunkte herangezogen.
+- AssoEchap `stalkerware-indicators` wurde für eine konservative statische Auswahl bekannter Stalkerware-/C2-Domains verwendet.
+- NAV `cplt` diente als Referenz für typische Exfiltrationsdienste (Webhooks, Paste-/File-Sharing, Tunneling).
+- HaGeZi-Dokumentation wurde als Referenz für Privacy-Tiers, Native Tracker und Bypass-/NRD-Semantik verwendet.
+- Block List Project wurde als Referenz für Pi-hole-kompatible Kategorien und Listenpflege verwendet.
+- Es wurde **keine neue automatische Fremdlisten-Synchronisation** eingebaut; die neuen Listen sind statische Snapshots bzw. aus dem vorhandenen BRZ-Bestand abgeleitet.

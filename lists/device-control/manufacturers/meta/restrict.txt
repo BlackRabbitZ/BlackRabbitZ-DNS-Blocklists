@@ -1,0 +1,47 @@
+# BlackRabbitZ DNS Blocklists
+# Title: meta restrict
+# Description: Privacy plus optional vendor/cloud services.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: lists/manufacturers/meta.txt
+# Risk: high
+# Data status: befuellt
+# Data method: manufacturer-restrict
+# Entries: 34
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+ads.ak.facebook.com.edgesuite.net
+ads.facebook.com
+ads.findfacebookwoman.com
+analytics.facebook.com
+analytics.instagram.com
+analytics.whatsapp.com
+cdnthreads.com
+crashlogs.whatsapp.net
+data.connectingthreads.com
+downloads-whatsapp.com
+eshsm.amazethreads.com
+facebook.promo.tubemogul.com
+facebookgatewaytrackdm.worshipproductions.org
+facebookloginsignin.com
+jack-threads.ojrq.net
+marketing.threadsol.com
+photothreads.store
+pixel.facebook.com
+pkbjr.wildthreadsco.com
+s-threads.analytics.carbonite.com
+scontent-hkg2-1.cdnthreads.com
+scontent-lax1-3.cdnthreads.com
+scontent-nrt1-1.cdnthreads.com
+scontent-sin1-2.cdnthreads.com
+smetrics.whatsappsim.de
+ss.castthreads.com
+sst.facebookads-master.com
+static.cdnthreads.com
+stats.qameta.com
+tl.reveriethreads.com
+tracking.whatsappbgr.com
+tracking.whatsapplp.com
+www.downloads-whatsapp.com
+www.facebookloginsignin.com

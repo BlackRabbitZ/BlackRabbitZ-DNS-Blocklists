@@ -1,0 +1,93 @@
+# BlackRabbitZ DNS Blocklists
+# Title: apple privacy
+# Description: Manufacturer privacy/tracking/telemetry endpoints.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: lists/manufacturers/apple.txt
+# Risk: medium
+# Data status: befuellt
+# Data method: manufacturer-privacy
+# Entries: 80
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+0001-metrics1-data-hicloud-com.geac.dbankedge.cn
+ads.applelinks.com
+ads.wappler.io
+analytics-events.apple.com
+analytics.apple.com
+analytics.appleboys.us
+analytics.applemooz.net
+analytics.icloud.com
+api-adservices.apple.com
+appleads-trk.com
+bigapple.contextuads.com
+books-analytics-events.apple.com
+books-analytics-events.news.apple-dns.net
+ca.iadsdk.apple.com
+cf.iadsdk.apple.com
+data.securemetrics-apple.com
+diagnostics.apple.com
+diagnostics.apple.com.akadns.net
+drupalmetrics.ppg.apple.com
+dzc-metrics.mzstatic.com
+events-analytics.apple.com
+events-dra-op-hicloud-com-dra.appacc-region.dbankedge.cn
+events-dra-op-hicloud-com-dra.appacc.dbankedge.cn
+events-dra-op-hicloud-com-dra.edge.dbankedge.cn
+events-dra.op.hicloud.com
+events-dre-op-hicloud-com-dre.appacc.dbankedge.cn
+events-dre.op.hicloud.com
+iadsdk.apple.com
+iadsdk.apple.com.akadns.net
+iadsdk.apple.com.edgekey.net
+idiagnostics-mdn1.apple.com
+idiagnostics.apple.com
+idiagnostics.apple.com.akadns.net
+metrics-config.icloud.com
+metrics-dra.dt.hicloud.com
+metrics-drcn.dt.hicloud.com
+metrics.apple.com
+metrics.data.hicloud.com
+metrics.dt.hicloud.com
+metrics.icloud.com
+metrics.mzstatic.com
+metrics1-data-hicloud-com.ge.dbankedge.cn
+metrics1-data-hicloud-com.gere.dbankedge.cn
+metrics1.data.hicloud.com
+metrics2.data.hicloud.com
+metrics2.icloud.com
+metrics3.data.hicloud.com
+metrics4.data.hicloud.com
+metrics5.data.hicloud.com
+metrics6.dt.hicloud.com
+micloudevents.preview.n.xiaomi.com
+news-analytics-events.apple.com
+news-app-events.apple.com
+news-events.apple.com
+news-notification-events.apple.com
+news-sports-events.apple.com
+news.iadsdk.apple.com
+notes-analytics-events.apple.com
+notes-analytics-events.news.apple-dns.net
+podcasts-analytics-events.apple.com
+redirect.appleads-trk.com
+searchads.apple.com
+searchads.apple.com.edgesuite.net
+searchads.lb-apple.com.akadns.net
+securemetrics.apple.com
+securemetrics.apple.com.cn
+stats.gc.apple.com
+stats.icloud.yt
+stats.nvapple.it
+stocks-analytics-events.apple.com
+stocks-analytics-events.news.apple-dns.net
+supportmetrics.apple.com
+tr.iadsdk.apple.com
+tracking.appleadstech.com
+tracking.applegiftcards.ir
+tv-analytics-events.apple.com
+ut.iadsdk.apple.com
+weather-analytics-events.apple.com
+weather-analytics-events.news.apple-dns.net
+www.appleads.offerstrack.net

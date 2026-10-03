@@ -1,0 +1,19 @@
+# BlackRabbitZ DNS Blocklists
+# Title: qnap privacy
+# Description: Privacy/Tracking/Telemetry; core service should remain usable.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: lists/platforms/nas-server/full/qnap.txt + BRZ manufacturer data
+# Risk: medium
+# Data status: befuellt
+# Data method: derived-existing-privacy
+# Entries: 6
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+analytics.api.myqnapcloud.com
+analytics.myqnapcloud.io
+qcenter-events-device.api.myqnapcloud.cn
+qcenter-events-device.api.myqnapcloud.com
+qcenter-metrics-device.api.myqnapcloud.cn
+qcenter-metrics-device.api.myqnapcloud.com

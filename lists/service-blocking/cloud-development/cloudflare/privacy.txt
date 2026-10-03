@@ -1,0 +1,55 @@
+# BlackRabbitZ DNS Blocklists
+# Title: cloudflare privacy
+# Description: Service tracking/analytics/telemetry; service should remain usable.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: lists/infrastructure/cloud-development/full/cloudflare.txt
+# Risk: medium
+# Data status: befuellt
+# Data method: derived-service-privacy
+# Entries: 42
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+a.nel.cloudflare.com
+action.media6degrees.com.cdn.cloudflare.net
+adimages.startribune.com.cdn.cloudflare.net
+ads.randomexp.net.cdn.cloudflare.net
+ads.tapdaq.com.cdn.cloudflare.net
+adxcore.com.cdn.cloudflare.net
+biddr.brealtime.com.cdn.cloudflare.net
+bugsnag.8x8.com.cdn.cloudflare.net
+cdn.bannerflow.com.cdn.cloudflare.net
+cdn1cloudflare.xyz
+cloudflare.cdneval.adnxs.com
+cloudflare.re.getclicky.com
+cloudflare.solutions
+cloudflareinsights.com
+cloudflareresearch.com
+csp-reporting.cloudflare.com
+customer.cludo.com.cdn.cloudflare.net
+data.cloudflare.dev.cjmadobe.com
+data.em2.cloudflare.com
+dsp-adcreative.mobshark.net.cdn.cloudflare.net
+fltag.findlawresources.com.cdn.cloudflare.net
+idpix.media6degrees.com.cdn.cloudflare.net
+ids.ad.gt.cdn.cloudflare.net
+img-cloudflare-2.haizap.com
+img-cloudflare.haizap.com
+ins.elements.video.cdn.cloudflare.net
+js.brealtime.com.cdn.cloudflare.net
+map.media6degrees.com.cdn.cloudflare.net
+metrics.cloudflarebolt.com
+p.ad.gt.cdn.cloudflare.net
+pixels.ad.gt.cdn.cloudflare.net
+pub.doubleverify.com.cdn.cloudflare.net
+radar.cloudflare.com
+report-uri.cloudflare.com
+sdk.fra-01.braze.eu.cdn.cloudflare.net
+sdk.iad-01.braze.com.cdn.cloudflare.net
+seg.ad.gt.cdn.cloudflare.net
+stat1-mlycdn.bmyy520.com.cdn.cloudflare.net
+static.cloudflareinsights.com
+tr.www.cloudflare.com
+tracksp.cloudflare.com
+video.doubleverify.com.cdn.cloudflare.net

@@ -1,0 +1,19 @@
+# BlackRabbitZ DNS Blocklists
+# Title: ubisoft isolate
+# Description: Maximum known manufacturer communication.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: lists/manufacturers/ubisoft.txt
+# Risk: very high
+# Data status: befuellt
+# Data method: manufacturer-isolate
+# Entries: 6
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+ehg-ubisoft.hitbox.com
+fast.ubisoftca.demdex.net
+fast.ubisoftinternational.demdex.net
+ubisoft.ca1.qualtrics.com
+ubisoftca.demdex.net
+ubisoftinternational.demdex.net

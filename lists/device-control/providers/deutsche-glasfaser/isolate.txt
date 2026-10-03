@@ -1,0 +1,19 @@
+# BlackRabbitZ DNS Blocklists
+# Title: deutsche-glasfaser isolate
+# Description: Maximum known vendor communication; may break cloud/account/store/updates.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: lists/platforms/providers/full/deutsche-glasfaser.txt + BRZ manufacturer data
+# Risk: very high
+# Data status: befuellt
+# Data method: derived-isolate
+# Entries: 6
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+deutsche-glasfaser.de
+deutsche-glasfaser.speedtestcustom.com
+dnsauth001.dg-w.de
+dnsauth002.dg-w.de
+kundenportal.deutsche-glasfaser.de
+www.deutsche-glasfaser.de

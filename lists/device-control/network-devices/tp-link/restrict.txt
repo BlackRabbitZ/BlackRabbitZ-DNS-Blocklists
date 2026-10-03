@@ -1,0 +1,30 @@
+# BlackRabbitZ DNS Blocklists
+# Title: tp-link restrict
+# Description: Privacy plus optional vendor/cloud/recommendation endpoints.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: lists/platforms/network-devices/full/tp-link.txt + BRZ manufacturer data
+# Risk: high
+# Data status: befuellt
+# Data method: derived-restrict
+# Entries: 17
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+aps1-cloud-backup-api.i.tplinkcloud.com
+aps1-cloud-backup-api.i.tplinknbu.com
+aps1-relay-dcipc.i.tplinknbu.com
+euw1-cloud-backup-api.i.tplinkcloud.com
+euw1-cloud-backup-api.i.tplinknbu.com
+euw1-relay-dcipc.i.tplinknbu.com
+euw1-vms-ai.i.tplinkcloud.com
+euw1-vms-ai.i.tplinknbu.com
+n-deventry-sur.tplinkcloud.com
+n-device-entry-sur.tplinkcloud.com
+n-device-sur.tplinkcloud.com
+n-devs-sur.tplinkcloud.com
+n-relay-ipc.tplinkcloud.com.cn
+n-sur-api.tplinkcloud.com
+use1-cloud-backup-api.i.tplinkcloud.com
+use1-cloud-backup-api.i.tplinknbu.com
+use1-relay-dcipc.i.tplinknbu.com

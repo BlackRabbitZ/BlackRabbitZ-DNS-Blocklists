@@ -1,0 +1,25 @@
+# BlackRabbitZ DNS Blocklists
+# Title: tesla restrict
+# Description: Privacy plus optional vendor/cloud/recommendation endpoints.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: lists/platforms/automotive/full/tesla.txt + BRZ manufacturer data
+# Risk: high
+# Data status: befuellt
+# Data method: derived-restrict
+# Entries: 12
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+apigateway-logging.tesla.com
+cp.teslamag.de
+iteslawow.com
+location-services-prd.tesla.com
+matomo.teslalogger.de
+piwik.teslacds.com
+restrictassociateslang.com
+rumcollector.teslamotors.com
+server.teslahenergiasolar.com.br
+stats.teslascout.com
+tesla.tt.omtrdc.net
+znedscsenlrql0rxd-teslamotors.siteintercept.qualtrics.com

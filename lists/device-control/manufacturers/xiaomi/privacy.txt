@@ -1,0 +1,49 @@
+# BlackRabbitZ DNS Blocklists
+# Title: xiaomi privacy
+# Description: Manufacturer privacy/tracking/telemetry endpoints.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: lists/manufacturers/xiaomi.txt
+# Risk: medium
+# Data status: befuellt
+# Data method: manufacturer-privacy
+# Entries: 36
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+analytics.ff.avast.sec.miui.com
+api.ads.xiaomi.com
+default.tracking.miui.com
+events.miui.com
+extranet.c3.bigdata-l7-trackservice.nbnpzmfyom.elb.xiaomi.com
+fcanr.tracking.miui.com
+intranet.c3.bigdata-l7-trackservice.eup4xvxeqr.elb.xiaomi.com
+log.stats.miui.com
+m.track.ad.xiaomi.com
+metrics.api.xiaomi.com
+micloudevents.preview.n.xiaomi.com
+mier.stats.miui.com
+mitv.tracking.india.miui.com
+mitv.tracking.intl.miui.com
+mitv.tracking.miui.com
+mitv.tracking.rus.miui.com
+miuiboot.tracking.intl.miui.com
+miuiboot.tracking.miui.com
+om.tracking.miui.com
+pixel.ad.intl.xiaomi.com
+router.tracking.miui.com
+staging.mier.stats.miui.com
+staging.stats.miui.com
+stats.miui.com
+stats.music.xiaomi.com
+stats.xiaomi.com
+t.track.ad.xiaomi.com
+track.ad.xiaomi.com
+track.ai.xiaomi.com
+tracker-preview.ai.xiaomi.com
+tracker.ai.xiaomi.com
+tracking.eu.miui.com
+tracking.india.miui.com
+tracking.intl.miui.com
+tracking.miui.com
+tracking.rus.miui.com

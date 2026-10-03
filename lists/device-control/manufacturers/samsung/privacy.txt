@@ -1,0 +1,66 @@
+# BlackRabbitZ DNS Blocklists
+# Title: samsung privacy
+# Description: Manufacturer privacy/tracking/telemetry endpoints.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: lists/manufacturers/samsung.txt
+# Risk: medium
+# Data status: befuellt
+# Data method: manufacturer-privacy
+# Entries: 53
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+ad-server.samsungads.com
+ad-tracker.samsungads.com
+ads.samsung.com
+ads.samsungads.com
+analytics-api.samsunghealthcn.com
+analytics-dev-api.test.samsunghealth.com
+analytics-stg.samsungknox.com
+analytics.bigdata.samsung.com
+analytics.mpay.samsung.com
+analytics.samsungedo.com
+analytics.samsungknox.com
+api-analytics-qa.samsungknox.com
+api-analytics.samsungknox.com
+api-dooh.samsungads.com
+b2banalytics.samsungknox.com
+config.samsungads.com
+dsp.samsungads.com
+eumarketing.event-tracking.samsung.com
+europe.event-tracking.samsung.com
+event-tracking.samsung.com
+events.samsungads.com
+go.samsungads.com
+go2.samsungads.com
+marketing.event-tracking.samsung.com
+metric.account-samsung.com
+metrics.samsunglife.com
+nmetrics.samsung.com
+nmetrics.samsungmobile.com
+privacy-backend.samsungads.com
+rtb-config.samsungads.com
+samsung.bimtrackapp.co
+samsung.telemetry.eyeo.com
+samsungads.adsmeasurement.com
+samsungads.com
+samsungtvads.com
+samsungus.btttag.com
+shealth-analytics-api.samsunghealth.com
+shealth-analytics-stg-api.samsunghealth.com
+smetrics.samsung.com
+smetrics.samsung.com.cn
+smetrics.samsunglife.com
+stats.samsungpass.com
+tracking.americas.business.samsung.com
+tracking.apac.business.samsung.com
+tracking.europe.business.samsung.com
+tracking.mkt-email.samsungsds.com
+tracking.smartbusiness.samsung.com
+tvp-ads-log-staging.samsungads.com
+tvp-ads-log.samsungads.com
+tvp-interactive-ad.samsungads.com
+us.event-tracking.samsung.com
+www.samsungads.com
+www.samsungtvads.com

@@ -1,0 +1,17 @@
+# BlackRabbitZ DNS Blocklists
+# Title: alexa updates
+# Description: Separately identified update/firmware/download endpoints.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: lists/platforms/voice-assistants/full/alexa.txt + BRZ manufacturer data
+# Risk: high
+# Data status: befuellt
+# Data method: derived-updates
+# Entries: 4
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+download.alexa.com
+iotanalytics.eu-central-1.amazonaws.com
+iotanalytics.eu-west-1.amazonaws.com
+spyhunter-download.s3.amazonaws.com

@@ -1,0 +1,18 @@
+# BlackRabbitZ DNS Blocklists
+# Title: autodesk restrict
+# Description: Privacy plus optional vendor/cloud services.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: lists/manufacturers/autodesk.txt
+# Risk: high
+# Data status: befuellt
+# Data method: manufacturer-restrict
+# Entries: 5
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+analytics.autodesk.com
+insight.b360.autodesk.com
+personalize.ml.dhx.autodesk.com
+smetrics.autodesk.com
+smetrics.autodesk.com.cn

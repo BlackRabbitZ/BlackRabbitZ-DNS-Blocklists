@@ -1,0 +1,42 @@
+# BlackRabbitZ DNS Blocklists
+# Title: asus restrict
+# Description: Privacy plus optional vendor/cloud/recommendation endpoints.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: lists/platforms/network-devices/full/asus.txt + BRZ manufacturer data
+# Risk: high
+# Data status: befuellt
+# Data method: derived-restrict
+# Entries: 29
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+adidasusnews.com
+analytics.asus.com
+analytics.pegasus-server.de
+asus.adsame.com
+asus.router.com
+asus01.webtrekk.net
+asustechsupport247.com
+banner.lasvegasusacasino.com
+casushi.gogamepartners.com
+connect.asus.com
+csapi.asus.com
+esurveyapi.asus.com
+etrk.asus.com
+exebasusion.org
+geo.asus.com
+giftbox.asus.com
+go.pegasusinvestments.com
+iplookup.asus.com
+pegasus.unifygroup.com
+pegasusplate.com
+promo.asus.website
+sskt.basus.fr
+stape.recetasparasusalud.com
+stats.pegasus24.com
+track.grupopegasus.com.br
+track.mitpegasus.com.br
+track.pegasuscaoachery.com.br
+track.pegasusselect.com.br
+www.asustechsupport247.com

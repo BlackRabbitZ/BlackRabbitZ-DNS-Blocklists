@@ -1,0 +1,18 @@
+# BlackRabbitZ DNS Blocklists
+# Title: battle-net privacy
+# Description: Service tracking/analytics/telemetry; service should remain usable.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: lists/apps/gaming/full/battle-net.txt
+# Risk: medium
+# Data status: befuellt
+# Data method: derived-service-privacy
+# Entries: 5
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+ads.blizzard.com
+click.em.blizzard.com
+geo.battle.net
+telemetry-in.battle.net
+telemetry.battle.net

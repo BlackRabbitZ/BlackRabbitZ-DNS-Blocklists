@@ -1,0 +1,123 @@
+# BlackRabbitZ DNS Blocklists
+# Title: xiaomi restrict
+# Description: Privacy plus optional vendor/cloud services.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: lists/manufacturers/xiaomi.txt
+# Risk: high
+# Data status: befuellt
+# Data method: manufacturer-restrict
+# Entries: 110
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+analytics.ff.avast.sec.miui.com
+api.account.preview.n.xiaomi.net
+api.ads.xiaomi.com
+api.g.micloud.xiaomi.net
+api.micloud.xiaomi.net
+api.newsfeed.intl.miui.com
+api.xmpush.global.xiaomi.com
+api.xmpush.xiaomi.com
+appstore.cdn.pandora.xiaomi.com
+appstore.pandora.xiaomi.com
+assistant.pandora.xiaomi.com
+auth.be.sec.miui.com
+auth.ff.avast.sec.miui.com
+authbe.sec.intl.miui.com
+c3.api.xmpush.xiaomi.com
+callback.xmpush.xiaomi.com
+cdn-exp-sg-recommend.pt.xiaomi.com
+console.admin.xmpush.xiaomi.com
+contactapi.micloud.xiaomi.net
+default.tracking.miui.com
+emq.xmpush.xiaomi.com
+events.miui.com
+extranet.c3.bigdata-l7-trackservice.nbnpzmfyom.elb.xiaomi.com
+fcanr.tracking.miui.com
+file.xmpush.xiaomi.com
+find.api.micloud.xiaomi.net
+findapi.micloud.xiaomi.net
+fr-api.xmpush.global.xiaomi.com
+fr-register.xmpush.global.xiaomi.com
+fr.api.xmpush.global.xiaomi.com
+fr.feedback.xmpush.global.xiaomi.com
+fr.register.xmpush.global.xiaomi.com
+galleryapi.micloud.xiaomi.net
+hot.newsfeed.intl.miui.com
+i.api.xmpush.xiaomi.com
+idmb-api.xmpush.global.xiaomi.com
+idmb.api.xmpush.global.xiaomi.com
+idmb.feedback.xmpush.global.xiaomi.com
+idmb.register.xmpush.global.xiaomi.com
+in.galleryapi.micloud.xiaomi.net
+in.phonecallapi.micloud.xiaomi.net
+in.smsapi.micloud.xiaomi.net
+insight.ad.xiaomi.com
+intranet.c3.bigdata-l7-trackservice.eup4xvxeqr.elb.xiaomi.com
+invoice.netroam.mihome.xiaomi.net
+lg.api.xmpush.xiaomi.com
+log.stats.miui.com
+login.game.xiaomi.com
+m.track.ad.xiaomi.com
+metrics.api.xiaomi.com
+micardapi.micloud.xiaomi.net
+micloudevents.preview.n.xiaomi.com
+mier.stats.miui.com
+mitv.tracking.india.miui.com
+mitv.tracking.intl.miui.com
+mitv.tracking.miui.com
+mitv.tracking.rus.miui.com
+miuiboot.tracking.intl.miui.com
+miuiboot.tracking.miui.com
+mob.api.xmpush.xiaomi.com
+om.tracking.miui.com
+pdc.micloud.xiaomi.net
+phonecallapi.micloud.xiaomi.net
+pixel.ad.intl.xiaomi.com
+register.xmpush.global.xiaomi.com
+register.xmpush.xiaomi.com
+router.tracking.miui.com
+ru-api.xmpush.global.xiaomi.com
+ru-feedback.xmpush.global.xiaomi.com
+ru-register.xmpush.global.xiaomi.com
+ru.api.xmpush.global.xiaomi.com
+ru.feedback.xmpush.global.xiaomi.com
+ru.register.xmpush.global.xiaomi.com
+sandbox.xmpush.xiaomi.com
+sfsapi.micloud.xiaomi.net
+sgp-api.xmpush.global.xiaomi.com
+sgpac.account.xiaomi.com
+staging.mier.stats.miui.com
+staging.stats.miui.com
+stats.miui.com
+stats.music.xiaomi.com
+stats.xiaomi.com
+statusapi.micloud.xiaomi.net
+storeconfig.mistat.intl.xiaomi.com
+storeconfig.mistat.xiaomi.com
+t.track.ad.xiaomi.com
+test.admin.xmpush.xiaomi.com
+track.ad.xiaomi.com
+track.ai.xiaomi.com
+tracker-preview.ai.xiaomi.com
+tracker.ai.xiaomi.com
+tracking.eu.miui.com
+tracking.india.miui.com
+tracking.intl.miui.com
+tracking.miui.com
+tracking.rus.miui.com
+us.api.micloud.xiaomi.net
+us.galleryapi.micloud.xiaomi.net
+us.micardapi.micloud.xiaomi.net
+us.pdc.micloud.xiaomi.net
+us.phonecallapi.micloud.xiaomi.net
+us.sfsapi.micloud.xiaomi.net
+us.smsapi.micloud.xiaomi.net
+us.statusapi.micloud.xiaomi.net
+vip-api.xmpush.global.xiaomi.com
+vip-api.xmpush.xiaomi.com
+vip.api.xmpush.global.xiaomi.com
+vip.api.xmpush.xiaomi.com
+weather.pandora.xiaomi.com
+xmpush.xiaomi.com

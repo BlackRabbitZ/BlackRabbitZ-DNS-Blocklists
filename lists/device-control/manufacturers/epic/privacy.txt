@@ -1,0 +1,17 @@
+# BlackRabbitZ DNS Blocklists
+# Title: epic privacy
+# Description: Manufacturer privacy/tracking/telemetry endpoints.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: lists/manufacturers/epic.txt
+# Risk: medium
+# Data status: befuellt
+# Data method: manufacturer-privacy
+# Entries: 4
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+metric-public-service-prod.ol.epicgames.com
+metrics.ol.epicgames.com
+statsproxy-public-service-live.ol.epicgames.com
+tracking.epicgames.com

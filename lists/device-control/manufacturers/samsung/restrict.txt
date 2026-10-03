@@ -1,0 +1,96 @@
+# BlackRabbitZ DNS Blocklists
+# Title: samsung restrict
+# Description: Privacy plus optional vendor/cloud services.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: lists/manufacturers/samsung.txt
+# Risk: high
+# Data status: befuellt
+# Data method: manufacturer-restrict
+# Entries: 83
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+acr-au-prd.samsungcloud.tv
+acr-br-prd.samsungcloud.tv
+acr-ca-prd.samsungcloud.tv
+acr-eu-prd.samsungcloud.tv
+acr-in-prd.samsungcloud.tv
+acr-kr-prd.samsungcloud.tv
+acr-mx-prd.samsungcloud.tv
+acr-nz-prd.samsungcloud.tv
+ad-server.samsungads.com
+ad-tracker.samsungads.com
+ads.samsung.com
+ads.samsungads.com
+analytics-api.samsunghealthcn.com
+analytics-dev-api.test.samsunghealth.com
+analytics-stg.samsungknox.com
+analytics.bigdata.samsung.com
+analytics.mpay.samsung.com
+analytics.samsungedo.com
+analytics.samsungknox.com
+api-analytics-qa.samsungknox.com
+api-analytics.samsungknox.com
+api-dooh.samsungads.com
+api-promo.samsungknowledge.com
+b2banalytics.samsungknox.com
+china-gld.push.samsungosp.com.cn
+config.samsungads.com
+devicelog.samsungcloudsolution.net
+dls-account.di.atlas.samsung.com
+dqa-auth.di.atlas.samsung.com
+dsp.samsungads.com
+egs.samsungallstore.com
+eumarketing.event-tracking.samsung.com
+europe.event-tracking.samsung.com
+event-tracking.samsung.com
+events.samsungads.com
+fkp.samsungcloudsolution.com
+fkp.samsungcloudsolution.net
+go.samsungads.com
+go2.samsungads.com
+insight.samsunghealth.com
+insights.samsung.com
+invitation.samsungiotcloud.com
+lcprd1.samsungcloudsolution.net
+lcprd2.samsungcloudsolution.net
+marketing.event-tracking.samsung.com
+metric.account-samsung.com
+metrics.samsunglife.com
+nmetrics.samsung.com
+nmetrics.samsungmobile.com
+oempprd.samsungcloudsolution.net
+prderrordumpssm.samsungcloudsolution.net
+privacy-backend.samsungads.com
+push.samsungosp.com
+push.samsungosp.com.cn
+pushmessage.samsung.com
+routing.egs.samsungallstore.com
+rtb-config.samsungads.com
+samsung.bimtrackapp.co
+samsung.telemetry.eyeo.com
+samsungads.adsmeasurement.com
+samsungads.com
+samsungallstore.com
+samsungtvads.com
+samsungus.btttag.com
+shealth-analytics-api.samsunghealth.com
+shealth-analytics-stg-api.samsunghealth.com
+smetrics.samsung.com
+smetrics.samsung.com.cn
+smetrics.samsunglife.com
+stats.samsungpass.com
+tracking.americas.business.samsung.com
+tracking.apac.business.samsung.com
+tracking.europe.business.samsung.com
+tracking.mkt-email.samsungsds.com
+tracking.smartbusiness.samsung.com
+tvp-ads-log-staging.samsungads.com
+tvp-ads-log.samsungads.com
+tvp-interactive-ad.samsungads.com
+us.event-tracking.samsung.com
+vdterms.samsungcloudsolution.com
+www.samsungads.com
+www.samsungallstore.com
+www.samsungtvads.com

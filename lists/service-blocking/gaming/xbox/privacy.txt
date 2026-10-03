@@ -1,0 +1,21 @@
+# BlackRabbitZ DNS Blocklists
+# Title: xbox privacy
+# Description: Service tracking/analytics/telemetry; service should remain usable.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: lists/apps/gaming/full/xbox.txt
+# Risk: medium
+# Data status: befuellt
+# Data method: derived-service-privacy
+# Entries: 8
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+avty.xboxlive.com
+beacons.xboxlive.com
+c.xbox.com
+click.engage.xbox.com
+data.xboxlive.com
+expbl2ro.xbox.com
+o.xbox.com
+userstats.xboxlive.com
