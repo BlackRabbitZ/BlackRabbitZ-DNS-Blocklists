@@ -3,14 +3,15 @@
 # Description: Kumulative Stufe für KI/Bots/Crawler.
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
-# Sources: BlackRabbitZ Automations-Katalog
+# Sources: BlackRabbitZ Automations-Katalog; Pi-hole Query-Log Review 2026-10-03
 # Risk: Mittel
-# Data status: befüllt
+# Data status: befuellt
 # Data method: generated-tier
-# Entries: 49
+# Entries: 50
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
+ab.chatgpt.com
 ads.americanfootballmonthly.com
 ads.crawler.com
 ads.footballmedia.com

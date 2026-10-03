@@ -3,11 +3,11 @@
 # Description: Functional service/API/login/CDN hosts plus privacy endpoints; service should be blocked.
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
-# Sources: BRZ existing data + curated service roots
+# Sources: BRZ existing data + curated service roots; Pi-hole Query-Log Review 2026-10-03
 # Risk: very high
 # Data status: befuellt
 # Data method: service-block-all
-# Entries: 303
+# Entries: 304
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -216,6 +216,7 @@ report.ad.snappea.com
 reports.tools.gos.ea.com
 river-mobile.data.ea.com
 river.data.ea.com
+rl.data.ea.com
 rs1.avenuea.com
 rtlog.byteoversea.com
 saboreamediterranea.com

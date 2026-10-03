@@ -5,9 +5,9 @@
 # License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
 # Sources: Aus vorhandenen BlackRabbitZ-/dokumentierten HaGeZi-Domains konservativ abgeleitet; Pi-hole Query-Log Review 2026-10-03
 # Risk: variabel
-# Data status: abgeleitet
+# Data status: befuellt
 # Data method: derived-keyword
-# Entries: 35898
+# Entries: 35903
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -862,6 +862,7 @@ analytics-ingestion.staging-public.tubi.io
 analytics-ingress-global.bitmovin.com
 analytics-ingress.bitmovin.com
 analytics-int.giswi.com
+analytics-ios-tcp.rayjump.com
 analytics-ip.square-enix-games.com
 analytics-iq.com
 analytics-iwtg-ten.yinzcam.com
@@ -1239,6 +1240,7 @@ analytics.adi.so
 analytics.adidas.com.cn
 analytics.adjmpw.com
 analytics.adjust.com
+analytics.adjust.io
 analytics.adjust.net.in
 analytics.adk.de
 analytics.adknstage.com
@@ -11599,6 +11601,7 @@ analytics.uzzelui.com.br
 analytics.v-ict-or.be
 analytics.v.ieweg.de
 analytics.v17.dev
+analytics.v1p.ai
 analytics.v2.cloud.ahg-gruppe.de
 analytics.v2.cloud.ahg-mobile.de
 analytics.v2a.net
@@ -12842,6 +12845,7 @@ api.segment.io
 api.simpleanalytics.io
 api.smartechmetrics.com
 api.statcounter.visitor-analytics.io
+api.statsigcdn.com
 api.videometrics.ted.com
 api2.amplitude.com
 api2.mixpanel.com
@@ -35684,6 +35688,7 @@ webservice-matomo.m3connect.de
 website-analytics.de
 website-analytics.net
 website-analytics.prosigno.de
+webstatistik.bundeswehr.de
 weg.de.d1.sc.omtrdc.net
 welcome.cn.coremetrics.com
 welcome.coremetrics.com

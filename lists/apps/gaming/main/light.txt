@@ -3,11 +3,11 @@
 # Description: Light-Stufe für Gaming; kumulativ.
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
-# Sources: BlackRabbitZ Gaming-Katalog
+# Sources: BlackRabbitZ Gaming-Katalog; Pi-hole Query-Log Review 2026-10-03
 # Risk: Minimal
-# Data status: befüllt
+# Data status: befuellt
 # Data method: generated-tier
-# Entries: 23
+# Entries: 26
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -15,6 +15,7 @@ ad.ciokorea.com
 ad.mylinea.com
 ad.snappea.com
 ad.xrea.com
+ads-sdk-gateway.prd.mz.internal.unity3d.com
 ads.blizzard.com
 ads.contralinea.com.mx
 ads.miciudadenlinea.com.ar
@@ -23,10 +24,12 @@ ads.rohea.com
 adserver.mylinea.com
 adserver1.lujanenlinea.com.ar
 advert.bayarea.com
+ae.iads.unity3d.com
 api.ad.snappea.com
 apk.ad.snappea.com
 apps.ad.snappea.com
 callback.ad.snappea.com
+cdn.iads.unity3d.com
 config.ad.snappea.com
 load.dados.dracarolinacorrea.com.br
 load.events.drogariascampea.com.br

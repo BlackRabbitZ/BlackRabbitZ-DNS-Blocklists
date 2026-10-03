@@ -151,8 +151,8 @@
   },
   {
     "path": "lists/apps/gaming/full/ea-origin.txt",
-    "bytes": 6249,
-    "entries": 300
+    "bytes": 6262,
+    "entries": 301
   },
   {
     "path": "lists/apps/gaming/full/epic-games.txt",
@@ -161,13 +161,13 @@
   },
   {
     "path": "lists/apps/gaming/full/game-analytics.txt",
-    "bytes": 1261,
-    "entries": 27
+    "bytes": 1290,
+    "entries": 28
   },
   {
     "path": "lists/apps/gaming/full/mobile-games.txt",
-    "bytes": 621,
-    "entries": 3
+    "bytes": 741,
+    "entries": 6
   },
   {
     "path": "lists/apps/gaming/full/nintendo.txt",
@@ -181,8 +181,8 @@
   },
   {
     "path": "lists/apps/gaming/full/riot-games.txt",
-    "bytes": 576,
-    "entries": 2
+    "bytes": 595,
+    "entries": 3
   },
   {
     "path": "lists/apps/gaming/full/rockstar.txt",
@@ -206,28 +206,28 @@
   },
   {
     "path": "lists/apps/gaming/main/light.txt",
-    "bytes": 953,
-    "entries": 23
+    "bytes": 1075,
+    "entries": 26
   },
   {
     "path": "lists/apps/gaming/main/normal.txt",
-    "bytes": 2112,
-    "entries": 68
+    "bytes": 2329,
+    "entries": 75
   },
   {
     "path": "lists/apps/gaming/main/pro-plus.txt",
-    "bytes": 7987,
-    "entries": 372
+    "bytes": 8204,
+    "entries": 379
   },
   {
     "path": "lists/apps/gaming/main/pro.txt",
-    "bytes": 3287,
-    "entries": 116
+    "bytes": 3504,
+    "entries": 123
   },
   {
     "path": "lists/apps/gaming/main/ultimate.txt",
-    "bytes": 8151,
-    "entries": 378
+    "bytes": 8368,
+    "entries": 385
   },
   {
     "path": "lists/apps/social-media/full/discord.txt",
@@ -341,8 +341,8 @@
   },
   {
     "path": "lists/automation/full/ai-tracking.txt",
-    "bytes": 1540,
-    "entries": 43
+    "bytes": 1590,
+    "entries": 44
   },
   {
     "path": "lists/automation/full/llm-crawlers.txt",
@@ -381,8 +381,8 @@
   },
   {
     "path": "lists/automation/main/pro-plus.txt",
-    "bytes": 1760,
-    "entries": 49
+    "bytes": 1812,
+    "entries": 50
   },
   {
     "path": "lists/automation/main/pro.txt",
@@ -391,8 +391,8 @@
   },
   {
     "path": "lists/automation/main/ultimate.txt",
-    "bytes": 7386,
-    "entries": 300
+    "bytes": 7438,
+    "entries": 301
   },
   {
     "path": "lists/device-control/automotive/audi/isolate.txt",
@@ -516,18 +516,18 @@
   },
   {
     "path": "lists/device-control/ecosystems/amazon/isolate.txt",
-    "bytes": 27512,
-    "entries": 775
+    "bytes": 27616,
+    "entries": 777
   },
   {
     "path": "lists/device-control/ecosystems/amazon/privacy.txt",
-    "bytes": 27506,
-    "entries": 775
+    "bytes": 27610,
+    "entries": 777
   },
   {
     "path": "lists/device-control/ecosystems/amazon/restrict.txt",
-    "bytes": 27495,
-    "entries": 775
+    "bytes": 27599,
+    "entries": 777
   },
   {
     "path": "lists/device-control/ecosystems/amazon/updates.txt",
@@ -536,8 +536,8 @@
   },
   {
     "path": "lists/device-control/ecosystems/apple/isolate.txt",
-    "bytes": 9684,
-    "entries": 338
+    "bytes": 9757,
+    "entries": 340
   },
   {
     "path": "lists/device-control/ecosystems/apple/privacy.txt",
@@ -546,8 +546,8 @@
   },
   {
     "path": "lists/device-control/ecosystems/apple/restrict.txt",
-    "bytes": 9582,
-    "entries": 333
+    "bytes": 9655,
+    "entries": 335
   },
   {
     "path": "lists/device-control/ecosystems/apple/updates.txt",
@@ -556,8 +556,8 @@
   },
   {
     "path": "lists/device-control/ecosystems/google/isolate.txt",
-    "bytes": 549242,
-    "entries": 14480
+    "bytes": 549315,
+    "entries": 14481
   },
   {
     "path": "lists/device-control/ecosystems/google/privacy.txt",
@@ -566,8 +566,8 @@
   },
   {
     "path": "lists/device-control/ecosystems/google/restrict.txt",
-    "bytes": 537355,
-    "entries": 13872
+    "bytes": 537428,
+    "entries": 13873
   },
   {
     "path": "lists/device-control/ecosystems/google/updates.txt",
@@ -576,18 +576,18 @@
   },
   {
     "path": "lists/device-control/ecosystems/microsoft/isolate.txt",
-    "bytes": 22081,
-    "entries": 777
+    "bytes": 22176,
+    "entries": 779
   },
   {
     "path": "lists/device-control/ecosystems/microsoft/privacy.txt",
-    "bytes": 21897,
-    "entries": 769
+    "bytes": 21992,
+    "entries": 771
   },
   {
     "path": "lists/device-control/ecosystems/microsoft/restrict.txt",
-    "bytes": 21886,
-    "entries": 769
+    "bytes": 21981,
+    "entries": 771
   },
   {
     "path": "lists/device-control/ecosystems/microsoft/updates.txt",
@@ -736,18 +736,18 @@
   },
   {
     "path": "lists/device-control/manufacturers/amazon/isolate.txt",
-    "bytes": 27207,
-    "entries": 768
+    "bytes": 27311,
+    "entries": 770
   },
   {
     "path": "lists/device-control/manufacturers/amazon/privacy.txt",
-    "bytes": 10419,
-    "entries": 268
+    "bytes": 10523,
+    "entries": 270
   },
   {
     "path": "lists/device-control/manufacturers/amazon/restrict.txt",
-    "bytes": 11215,
-    "entries": 288
+    "bytes": 11319,
+    "entries": 290
   },
   {
     "path": "lists/device-control/manufacturers/amazon/updates.txt",
@@ -776,8 +776,8 @@
   },
   {
     "path": "lists/device-control/manufacturers/apple/isolate.txt",
-    "bytes": 9551,
-    "entries": 335
+    "bytes": 9624,
+    "entries": 337
   },
   {
     "path": "lists/device-control/manufacturers/apple/privacy.txt",
@@ -786,8 +786,8 @@
   },
   {
     "path": "lists/device-control/manufacturers/apple/restrict.txt",
-    "bytes": 5454,
-    "entries": 159
+    "bytes": 5527,
+    "entries": 161
   },
   {
     "path": "lists/device-control/manufacturers/apple/updates.txt",
@@ -856,8 +856,8 @@
   },
   {
     "path": "lists/device-control/manufacturers/google/isolate.txt",
-    "bytes": 549122,
-    "entries": 14478
+    "bytes": 549195,
+    "entries": 14479
   },
   {
     "path": "lists/device-control/manufacturers/google/privacy.txt",
@@ -866,8 +866,8 @@
   },
   {
     "path": "lists/device-control/manufacturers/google/restrict.txt",
-    "bytes": 9319,
-    "entries": 365
+    "bytes": 9392,
+    "entries": 366
   },
   {
     "path": "lists/device-control/manufacturers/google/updates.txt",
@@ -956,18 +956,18 @@
   },
   {
     "path": "lists/device-control/manufacturers/microsoft/isolate.txt",
-    "bytes": 21580,
-    "entries": 762
+    "bytes": 21675,
+    "entries": 764
   },
   {
     "path": "lists/device-control/manufacturers/microsoft/privacy.txt",
-    "bytes": 8412,
-    "entries": 262
+    "bytes": 8507,
+    "entries": 264
   },
   {
     "path": "lists/device-control/manufacturers/microsoft/restrict.txt",
-    "bytes": 9678,
-    "entries": 300
+    "bytes": 9773,
+    "entries": 302
   },
   {
     "path": "lists/device-control/manufacturers/microsoft/updates.txt",
@@ -996,8 +996,8 @@
   },
   {
     "path": "lists/device-control/manufacturers/nvidia/isolate.txt",
-    "bytes": 875,
-    "entries": 17
+    "bytes": 961,
+    "entries": 18
   },
   {
     "path": "lists/device-control/manufacturers/nvidia/privacy.txt",
@@ -1006,8 +1006,8 @@
   },
   {
     "path": "lists/device-control/manufacturers/nvidia/restrict.txt",
-    "bytes": 593,
-    "entries": 5
+    "bytes": 679,
+    "entries": 6
   },
   {
     "path": "lists/device-control/manufacturers/nvidia/updates.txt",
@@ -1056,8 +1056,8 @@
   },
   {
     "path": "lists/device-control/manufacturers/samsung/isolate.txt",
-    "bytes": 9062,
-    "entries": 307
+    "bytes": 9122,
+    "entries": 308
   },
   {
     "path": "lists/device-control/manufacturers/samsung/privacy.txt",
@@ -1066,8 +1066,8 @@
   },
   {
     "path": "lists/device-control/manufacturers/samsung/restrict.txt",
-    "bytes": 2799,
-    "entries": 83
+    "bytes": 2859,
+    "entries": 84
   },
   {
     "path": "lists/device-control/manufacturers/samsung/updates.txt",
@@ -1156,8 +1156,8 @@
   },
   {
     "path": "lists/device-control/mobile/apple-ios/isolate.txt",
-    "bytes": 9698,
-    "entries": 338
+    "bytes": 9771,
+    "entries": 340
   },
   {
     "path": "lists/device-control/mobile/apple-ios/privacy.txt",
@@ -1166,8 +1166,8 @@
   },
   {
     "path": "lists/device-control/mobile/apple-ios/restrict.txt",
-    "bytes": 6827,
-    "entries": 210
+    "bytes": 6900,
+    "entries": 212
   },
   {
     "path": "lists/device-control/mobile/apple-ios/updates.txt",
@@ -1296,8 +1296,8 @@
   },
   {
     "path": "lists/device-control/mobile/samsung/isolate.txt",
-    "bytes": 9122,
-    "entries": 307
+    "bytes": 9182,
+    "entries": 308
   },
   {
     "path": "lists/device-control/mobile/samsung/privacy.txt",
@@ -1306,8 +1306,8 @@
   },
   {
     "path": "lists/device-control/mobile/samsung/restrict.txt",
-    "bytes": 2551,
-    "entries": 74
+    "bytes": 2611,
+    "entries": 75
   },
   {
     "path": "lists/device-control/mobile/samsung/updates.txt",
@@ -1756,8 +1756,8 @@
   },
   {
     "path": "lists/device-control/operating-systems/chromeos/isolate.txt",
-    "bytes": 549223,
-    "entries": 14479
+    "bytes": 549296,
+    "entries": 14480
   },
   {
     "path": "lists/device-control/operating-systems/chromeos/privacy.txt",
@@ -1766,8 +1766,8 @@
   },
   {
     "path": "lists/device-control/operating-systems/chromeos/restrict.txt",
-    "bytes": 9311,
-    "entries": 363
+    "bytes": 9384,
+    "entries": 364
   },
   {
     "path": "lists/device-control/operating-systems/chromeos/updates.txt",
@@ -1776,8 +1776,8 @@
   },
   {
     "path": "lists/device-control/operating-systems/ios/isolate.txt",
-    "bytes": 9729,
-    "entries": 339
+    "bytes": 9802,
+    "entries": 341
   },
   {
     "path": "lists/device-control/operating-systems/ios/privacy.txt",
@@ -1786,8 +1786,8 @@
   },
   {
     "path": "lists/device-control/operating-systems/ios/restrict.txt",
-    "bytes": 6858,
-    "entries": 211
+    "bytes": 6931,
+    "entries": 213
   },
   {
     "path": "lists/device-control/operating-systems/ios/updates.txt",
@@ -1816,8 +1816,8 @@
   },
   {
     "path": "lists/device-control/operating-systems/macos/isolate.txt",
-    "bytes": 9701,
-    "entries": 338
+    "bytes": 9774,
+    "entries": 340
   },
   {
     "path": "lists/device-control/operating-systems/macos/privacy.txt",
@@ -1826,8 +1826,8 @@
   },
   {
     "path": "lists/device-control/operating-systems/macos/restrict.txt",
-    "bytes": 6830,
-    "entries": 210
+    "bytes": 6903,
+    "entries": 212
   },
   {
     "path": "lists/device-control/operating-systems/macos/updates.txt",
@@ -2156,18 +2156,18 @@
   },
   {
     "path": "lists/device-control/smart-tv/shared-other/isolate.txt",
-    "bytes": 2839,
-    "entries": 103
+    "bytes": 2912,
+    "entries": 104
   },
   {
     "path": "lists/device-control/smart-tv/shared-other/privacy.txt",
-    "bytes": 2833,
-    "entries": 103
+    "bytes": 2906,
+    "entries": 104
   },
   {
     "path": "lists/device-control/smart-tv/shared-other/restrict.txt",
-    "bytes": 2822,
-    "entries": 103
+    "bytes": 2895,
+    "entries": 104
   },
   {
     "path": "lists/device-control/smart-tv/shared-other/updates.txt",
@@ -2336,8 +2336,8 @@
   },
   {
     "path": "lists/device-control/software-hardware/nvidia/isolate.txt",
-    "bytes": 989,
-    "entries": 18
+    "bytes": 1075,
+    "entries": 19
   },
   {
     "path": "lists/device-control/software-hardware/nvidia/privacy.txt",
@@ -2346,8 +2346,8 @@
   },
   {
     "path": "lists/device-control/software-hardware/nvidia/restrict.txt",
-    "bytes": 718,
-    "entries": 7
+    "bytes": 804,
+    "entries": 8
   },
   {
     "path": "lists/device-control/software-hardware/nvidia/updates.txt",
@@ -2456,8 +2456,8 @@
   },
   {
     "path": "lists/ecosystems/full/amazon.txt",
-    "bytes": 27505,
-    "entries": 775
+    "bytes": 27569,
+    "entries": 776
   },
   {
     "path": "lists/ecosystems/full/apple.txt",
@@ -2471,8 +2471,8 @@
   },
   {
     "path": "lists/ecosystems/full/microsoft.txt",
-    "bytes": 21902,
-    "entries": 769
+    "bytes": 21995,
+    "entries": 771
   },
   {
     "path": "lists/ecosystems/main/light.txt",
@@ -2486,18 +2486,18 @@
   },
   {
     "path": "lists/ecosystems/main/pro-plus.txt",
-    "bytes": 586491,
-    "entries": 15407
+    "bytes": 586615,
+    "entries": 15410
   },
   {
     "path": "lists/ecosystems/main/pro.txt",
-    "bytes": 487522,
-    "entries": 12354
+    "bytes": 487646,
+    "entries": 12357
   },
   {
     "path": "lists/ecosystems/main/ultimate.txt",
-    "bytes": 588089,
-    "entries": 15459
+    "bytes": 588213,
+    "entries": 15462
   },
   {
     "path": "lists/infrastructure/cloud-development/full/aws.txt",
@@ -2706,8 +2706,8 @@
   },
   {
     "path": "lists/network/full/dns-bypass.txt",
-    "bytes": 7233,
-    "entries": 312
+    "bytes": 7306,
+    "entries": 314
   },
   {
     "path": "lists/network/full/doh.txt",
@@ -2766,23 +2766,23 @@
   },
   {
     "path": "lists/network/main/pro-plus.txt",
-    "bytes": 7194,
-    "entries": 309
+    "bytes": 7267,
+    "entries": 311
   },
   {
     "path": "lists/network/main/pro.txt",
-    "bytes": 2068,
-    "entries": 64
+    "bytes": 2141,
+    "entries": 66
   },
   {
     "path": "lists/network/main/ultimate.txt",
-    "bytes": 15680,
-    "entries": 945
+    "bytes": 15753,
+    "entries": 947
   },
   {
     "path": "lists/network/special/doh-vpn-tor-proxy-bypass.txt",
-    "bytes": 7330,
-    "entries": 312
+    "bytes": 7403,
+    "entries": 314
   },
   {
     "path": "lists/network/special/encrypted-dns-only.txt",
@@ -3301,8 +3301,8 @@
   },
   {
     "path": "lists/platforms/smart-tv/full/shared-other.txt",
-    "bytes": 2849,
-    "entries": 103
+    "bytes": 2885,
+    "entries": 104
   },
   {
     "path": "lists/platforms/smart-tv/full/sony-bravia.txt",
@@ -3326,18 +3326,18 @@
   },
   {
     "path": "lists/platforms/smart-tv/main/pro-plus.txt",
-    "bytes": 16810,
-    "entries": 636
+    "bytes": 16883,
+    "entries": 637
   },
   {
     "path": "lists/platforms/smart-tv/main/pro.txt",
-    "bytes": 12492,
-    "entries": 454
+    "bytes": 12565,
+    "entries": 455
   },
   {
     "path": "lists/platforms/smart-tv/main/ultimate.txt",
-    "bytes": 17171,
-    "entries": 648
+    "bytes": 17244,
+    "entries": 649
   },
   {
     "path": "lists/platforms/software-hardware-telemetry/full/adobe.txt",
@@ -3536,8 +3536,8 @@
   },
   {
     "path": "lists/privacy/full/ads.txt",
-    "bytes": 4944287,
-    "entries": 234017
+    "bytes": 4944347,
+    "entries": 234019
   },
   {
     "path": "lists/privacy/full/affiliate-tracking.txt",
@@ -3551,8 +3551,8 @@
   },
   {
     "path": "lists/privacy/full/analytics.txt",
-    "bytes": 858928,
-    "entries": 35898
+    "bytes": 859039,
+    "entries": 35903
   },
   {
     "path": "lists/privacy/full/captcha-antibot.txt",
@@ -3571,8 +3571,8 @@
   },
   {
     "path": "lists/privacy/full/consent-cmp.txt",
-    "bytes": 1437,
-    "entries": 45
+    "bytes": 1478,
+    "entries": 46
   },
   {
     "path": "lists/privacy/full/crash-reporting.txt",
@@ -3681,28 +3681,28 @@
   },
   {
     "path": "lists/privacy/main/light.txt",
-    "bytes": 921403,
-    "entries": 32546
+    "bytes": 921500,
+    "entries": 32548
   },
   {
     "path": "lists/privacy/main/normal.txt",
-    "bytes": 1550596,
-    "entries": 57859
+    "bytes": 1550828,
+    "entries": 57866
   },
   {
     "path": "lists/privacy/main/pro-plus.txt",
-    "bytes": 7797348,
-    "entries": 367459
+    "bytes": 7797599,
+    "entries": 367467
   },
   {
     "path": "lists/privacy/main/pro.txt",
-    "bytes": 2199901,
-    "entries": 86962
+    "bytes": 2200133,
+    "entries": 86969
   },
   {
     "path": "lists/privacy/main/ultimate.txt",
-    "bytes": 7897800,
-    "entries": 371597
+    "bytes": 7898051,
+    "entries": 371605
   },
   {
     "path": "lists/regional/cn.txt",
@@ -4101,13 +4101,13 @@
   },
   {
     "path": "lists/service-blocking/gaming/ea-origin/block-all.txt",
-    "bytes": 6244,
-    "entries": 303
+    "bytes": 6296,
+    "entries": 304
   },
   {
     "path": "lists/service-blocking/gaming/ea-origin/privacy.txt",
-    "bytes": 6187,
-    "entries": 300
+    "bytes": 6239,
+    "entries": 301
   },
   {
     "path": "lists/service-blocking/gaming/epic-games/block-all.txt",
@@ -4126,13 +4126,13 @@
   },
   {
     "path": "lists/service-blocking/gaming/mobile-games/block-all.txt",
-    "bytes": 623,
-    "entries": 3
+    "bytes": 806,
+    "entries": 8
   },
   {
     "path": "lists/service-blocking/gaming/mobile-games/privacy.txt",
-    "bytes": 600,
-    "entries": 3
+    "bytes": 783,
+    "entries": 8
   },
   {
     "path": "lists/service-blocking/gaming/nintendo/block-all.txt",
@@ -4156,13 +4156,13 @@
   },
   {
     "path": "lists/service-blocking/gaming/riot-games/block-all.txt",
-    "bytes": 646,
-    "entries": 5
+    "bytes": 702,
+    "entries": 6
   },
   {
     "path": "lists/service-blocking/gaming/riot-games/privacy.txt",
-    "bytes": 574,
-    "entries": 2
+    "bytes": 630,
+    "entries": 3
   },
   {
     "path": "lists/service-blocking/gaming/rockstar/block-all.txt",
@@ -4446,27 +4446,27 @@
   },
   {
     "path": "profiles/light.txt",
-    "bytes": 4944065,
-    "entries": 234010
+    "bytes": 4944247,
+    "entries": 234015
   },
   {
     "path": "profiles/normal.txt",
-    "bytes": 7199484,
-    "entries": 342229
+    "bytes": 7199866,
+    "entries": 342242
   },
   {
     "path": "profiles/pro-plus.txt",
-    "bytes": 8169329,
-    "entries": 383637
+    "bytes": 8169868,
+    "entries": 383656
   },
   {
     "path": "profiles/pro.txt",
-    "bytes": 7895861,
-    "entries": 371530
+    "bytes": 7896366,
+    "entries": 371547
   },
   {
     "path": "profiles/ultimate.txt",
-    "bytes": 102660907,
-    "entries": 5119284
+    "bytes": 102661446,
+    "entries": 5119303
   }
 ]

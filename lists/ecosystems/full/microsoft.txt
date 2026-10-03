@@ -3,11 +3,11 @@
 # Description: Microsoft/Bing/Office/Xbox Telemetrie-/Tracking-Endpunkte
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
-# Sources: Aus vorhandenen BlackRabbitZ-/dokumentierten HaGeZi-Domains konservativ abgeleitet
+# Sources: Aus vorhandenen BlackRabbitZ-/dokumentierten HaGeZi-Domains konservativ abgeleitet; Pi-hole Query-Log Review 2026-10-03
 # Risk: variabel
-# Data status: abgeleitet
+# Data status: befuellt
 # Data method: derived-keyword
-# Entries: 769
+# Entries: 771
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -250,6 +250,7 @@ events-sandbox.data.microsoft.com
 events.data.microsoft.com
 events.executiveoffice.co.nz
 excel-telemetry.officeapps.live.com
+exo.nel.measure.office.net
 exo.nel.measure.office.net.cardano.com
 expbl2ro.xbox.com
 fahmta.metoffice.gov.uk
@@ -341,6 +342,7 @@ logconfig.polarisoffice.com
 logging.prefixbox.com
 lovelybingo.com
 m.bingads.microsoft.com
+m365cdn.nel.measure.office.net
 m365cdn.nel.measure.office.net.cardano.com
 manage.devcenter.microsoft.com
 manhattanofficelistings.com

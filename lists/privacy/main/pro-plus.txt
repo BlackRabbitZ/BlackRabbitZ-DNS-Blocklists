@@ -3,11 +3,11 @@
 # Description: Pro++-Stufe für Privacy & Tracking; kumulativ.
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
-# Sources: BlackRabbitZ Privacy-Katalog
+# Sources: BlackRabbitZ Privacy-Katalog; Pi-hole Query-Log Review 2026-10-03
 # Risk: Mittel
-# Data status: befüllt
+# Data status: befuellt
 # Data method: generated-tier
-# Entries: 367459
+# Entries: 367467
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -54599,6 +54599,7 @@ analytics-ingestion.staging-public.tubi.io
 analytics-ingress-global.bitmovin.com
 analytics-ingress.bitmovin.com
 analytics-int.giswi.com
+analytics-ios-tcp.rayjump.com
 analytics-ip.square-enix-games.com
 analytics-iq.com
 analytics-iwtg-ten.yinzcam.com
@@ -54974,6 +54975,7 @@ analytics.adi.so
 analytics.adidas.com.cn
 analytics.adjmpw.com
 analytics.adjust.com
+analytics.adjust.io
 analytics.adk.de
 analytics.adknstage.com
 analytics.adlnetworks.com
@@ -65299,6 +65301,7 @@ analytics.uzzelui.com.br
 analytics.v-ict-or.be
 analytics.v.ieweg.de
 analytics.v17.dev
+analytics.v1p.ai
 analytics.v2.cloud.ahg-gruppe.de
 analytics.v2.cloud.ahg-mobile.de
 analytics.v2a.net
@@ -69234,6 +69237,7 @@ api.statcounter.visitor-analytics.io
 api.stathat.com
 api.stats.appa.pe
 api.statsdomain.net
+api.statsigcdn.com
 api.stg.fwmrm.net
 api.stickz.co
 api.stw.adgear.com
@@ -223625,6 +223629,7 @@ nothingunit.com
 nothingviewcontend.com
 nothycantyo.com
 noti-eu.adsmoloco.com
+noti-us.adsmoloco.com
 notice-tmo.notice.assurancewireless.com
 notice.game.xiaomi.com
 notice1-09.com
@@ -291619,6 +291624,7 @@ spywarenuker.com
 spywarespy.com
 spywords.com
 spyzvcviywdva.space
+sq-tungsten-ts-eu.amazon-adsystem.com
 sq.duessacaufle.com
 sq2trk2.com
 sq7.co.uk
@@ -348236,6 +348242,7 @@ webstatistiekenwaas.kb.nl
 webstatistik-sinalco.de
 webstatistik.bg-kooperation.de
 webstatistik.bih.de
+webstatistik.bundeswehr.de
 webstatistik.odav.de
 webstatistik.uk-koeln.de
 webstatistik.uni-giessen.de
@@ -351432,6 +351439,7 @@ wringbible.com
 wrinklebreathless.com
 wrist-phone.com
 wristseeingscald.com
+write-consent-tracking-prod.redbutton.de
 write-for-me.com
 writeabout.unbounce.com
 writefor.unbounce.com

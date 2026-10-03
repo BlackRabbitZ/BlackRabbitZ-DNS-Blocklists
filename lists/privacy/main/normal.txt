@@ -3,11 +3,11 @@
 # Description: Normal-Stufe für Privacy & Tracking; kumulativ.
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
-# Sources: BlackRabbitZ Privacy-Katalog
+# Sources: BlackRabbitZ Privacy-Katalog; Pi-hole Query-Log Review 2026-10-03
 # Risk: Niedrig
-# Data status: befüllt
+# Data status: befuellt
 # Data method: generated-tier
-# Entries: 57859
+# Entries: 57866
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -21149,6 +21149,7 @@ analytics-ingestion.staging-public.tubi.io
 analytics-ingress-global.bitmovin.com
 analytics-ingress.bitmovin.com
 analytics-int.giswi.com
+analytics-ios-tcp.rayjump.com
 analytics-ip.square-enix-games.com
 analytics-iq.com
 analytics-iwtg-ten.yinzcam.com
@@ -21510,6 +21511,7 @@ analytics.adi.so
 analytics.adidas.com.cn
 analytics.adjmpw.com
 analytics.adjust.com
+analytics.adjust.io
 analytics.adk.de
 analytics.adknstage.com
 analytics.adlnetworks.com
@@ -31444,6 +31446,7 @@ analytics.uzzelui.com.br
 analytics.v-ict-or.be
 analytics.v.ieweg.de
 analytics.v17.dev
+analytics.v1p.ai
 analytics.v2a.net
 analytics.vaccines.com
 analytics.vaccineshoppe.com
@@ -47044,6 +47047,7 @@ notads.1gi3rir.xyz
 notes-analytics-events.apple.com
 notes-analytics-events.news.apple-dns.net
 noti-eu.adsmoloco.com
+noti-us.adsmoloco.com
 notification.popads.net
 notification.smartadserver.com
 notify.nuviad.com
@@ -50635,6 +50639,7 @@ spykemediatrack.com
 spyone.imarketing.it
 spytrack.tic.ru
 spyware.homestead.com
+sq-tungsten-ts-eu.amazon-adsystem.com
 sqd.churchmediasquad.com
 sqtpgwvxxad.net
 squidad.com
@@ -56503,6 +56508,7 @@ website-analytics.de
 website-analytics.net
 website-analytics.prosigno.de
 websitepagetracker.com
+webstatistik.bundeswehr.de
 websystem24.nuggad.net
 webtools.homestead.com
 webtrack-brickstreetconnect-bau-prd.hsbc.com.hk
@@ -56689,6 +56695,7 @@ wpnipostcomjobs.112.2o7.net
 wpold.automatad.com
 wqocynupmbad.com
 wrigley.122.2o7.net
+write-consent-tracking-prod.redbutton.de
 wrtual18.offerstrack.net
 wrxads.golfwrx.com
 ws-cn.amazon-adsystem.com

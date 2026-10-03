@@ -3,11 +3,11 @@
 # Description: Pro-Stufe für Ökosysteme; kumulativ.
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
-# Sources: BlackRabbitZ statischer Datenbestand
+# Sources: BlackRabbitZ statischer Datenbestand; Pi-hole Query-Log Review 2026-10-03
 # Risk: Niedrig–Mittel
-# Data status: befüllt
+# Data status: befuellt
 # Data method: generated-tier
-# Entries: 12354
+# Entries: 12357
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -11745,6 +11745,7 @@ analyticspixel.microsoft.com
 api-stagingtwo.cgstatic.info
 api.beta.ads.microsoft.com
 api.bingads.microsoft.com
+api.mshop.bdtelemetry.amazon
 apple.tt.omtrdc.net
 appleglobal.102.112.2o7.net
 appleglobal.112.2o7.net
@@ -11869,6 +11870,7 @@ entredaagentlogcollector.s3.amazonaws.com
 epowernetworktrackerimages.s3.amazonaws.com
 events-analytics.apple.com
 excel-telemetry.officeapps.live.com
+exo.nel.measure.office.net
 exo.nel.measure.office.net.cardano.com
 fast.alexani.demdex.net
 fast.officeworks.demdex.net
@@ -11988,6 +11990,7 @@ logs.us-gov-west-1.amazonaws.com
 logs.us-west-1.amazonaws.com
 logs.us-west-2.amazonaws.com
 m.bingads.microsoft.com
+m365cdn.nel.measure.office.net
 m365cdn.nel.measure.office.net.cardano.com
 ma.googleads.g.doubleclick.net
 mads-eu.amazon-adsystem.com

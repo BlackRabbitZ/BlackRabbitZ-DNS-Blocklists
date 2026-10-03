@@ -3,11 +3,11 @@
 # Description: Privacy plus optional vendor/cloud/recommendation endpoints.
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
-# Sources: lists/platforms/mobile/full/samsung.txt + BRZ manufacturer data
+# Sources: lists/platforms/mobile/full/samsung.txt + BRZ manufacturer data; Pi-hole Query-Log Review 2026-10-03
 # Risk: high
 # Data status: befuellt
 # Data method: derived-restrict
-# Entries: 74
+# Entries: 75
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -34,6 +34,7 @@ api-analytics-qa.samsungknox.com
 api-analytics.samsungknox.com
 api-dooh.samsungads.com
 api-promo.samsungknowledge.com
+api.samsungconsent.com
 b2banalytics.samsungknox.com
 bigdata.ssp.samsung.com
 china-gld.push.samsungosp.com.cn

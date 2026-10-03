@@ -3,11 +3,11 @@
 # Description: Privacy plus optional vendor/cloud/recommendation endpoints.
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
-# Sources: lists/ecosystems/full/apple.txt + BRZ manufacturer data
+# Sources: lists/ecosystems/full/apple.txt + BRZ manufacturer data; Pi-hole Query-Log Review 2026-10-03
 # Risk: high
 # Data status: befuellt
 # Data method: derived-restrict
-# Entries: 333
+# Entries: 335
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -210,6 +210,8 @@ logservice.hicloud.com
 logservice1.hicloud.com
 luanxianapple.com
 marketing.services.apple
+mask-api.icloud.com
+mask.icloud.com
 matomo.apple-deluxe.co
 matomo.applevis.com
 matomo.cabricloud.com

@@ -3,11 +3,11 @@
 # Description: Maximum known vendor communication; may break cloud/account/store/updates.
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
-# Sources: lists/platforms/software-hardware-telemetry/full/nvidia.txt + BRZ manufacturer data
+# Sources: lists/platforms/software-hardware-telemetry/full/nvidia.txt + BRZ manufacturer data; Pi-hole Query-Log Review 2026-10-03
 # Risk: very high
 # Data status: befuellt
 # Data method: derived-isolate
-# Entries: 18
+# Entries: 19
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -20,6 +20,7 @@ fast.nvidia.demdex.net
 geo-location-api.gx.nvidia.com
 geoip.svc.nvidia.com
 gfe.nvidia.com
+gx-target-experiments-frontend-api.gx.nvidia.com
 lightstep.kaizen.nvidia.com
 nvidia.demdex.net
 nvidia.partners

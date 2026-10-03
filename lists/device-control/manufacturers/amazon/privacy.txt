@@ -3,11 +3,11 @@
 # Description: Manufacturer privacy/tracking/telemetry endpoints.
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
-# Sources: lists/manufacturers/amazon.txt
+# Sources: lists/manufacturers/amazon.txt; Pi-hole Query-Log Review 2026-10-03
 # Risk: medium
 # Data status: befuellt
 # Data method: manufacturer-privacy
-# Entries: 268
+# Entries: 270
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -85,6 +85,7 @@ analytics.app.amazonbrowserapp.com
 analytics.s3.amazonaws.com
 analytics.stephenalexander.us
 analyticsengine.s3.amazonaws.com
+api.mshop.bdtelemetry.amazon
 apse1-ssp-prod-adserv-alb-365694524.ap-southeast-1.elb.amazonaws.com
 apse2-ssp-prod-adserv-alb-82206463.ap-southeast-2.elb.amazonaws.com
 assoc-msdk-cn.amazon-adsystem.com
@@ -216,6 +217,7 @@ smetrics.smallbusiness.amazon
 snoads.s3.amazonaws.com
 spark-displayads-creatives-prod.s3.amazonaws.com
 springclick-ads.s3.amazonaws.com
+sq-tungsten-ts-eu.amazon-adsystem.com
 stats-wynkmusic-285784487.ap-south-1.elb.amazonaws.com
 stats.alexandar.me
 stats.alexander-fischer.org

@@ -3,11 +3,11 @@
 # Description: Pro++-Stufe für Ökosysteme; kumulativ.
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
-# Sources: BlackRabbitZ statischer Datenbestand
+# Sources: BlackRabbitZ statischer Datenbestand; Pi-hole Query-Log Review 2026-10-03
 # Risk: Mittel
-# Data status: befüllt
+# Data status: befuellt
 # Data method: generated-tier
-# Entries: 15407
+# Entries: 15410
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -13568,6 +13568,7 @@ api.googleadsapi.com
 api.jumpingapplecloud.com
 api.mediatailor.eu-west-1.amazonaws.com
 api.micloud.xiaomi.net
+api.mshop.bdtelemetry.amazon
 api.officedepot.io
 apicloud.ru
 app-performance.music.amazon.dev
@@ -14083,6 +14084,7 @@ events.executiveoffice.co.nz
 evs-hosted-14facd241e1c08.s3.amazonaws.com
 excel-telemetry.officeapps.live.com
 exitsplash.s3.amazonaws.com
+exo.nel.measure.office.net
 exo.nel.measure.office.net.cardano.com
 expbl2ro.xbox.com
 experiment-icloud.v.aaplimg.com
@@ -14467,6 +14469,7 @@ m.bingads.microsoft.com
 m.doubleclick.com
 m.doubleclick.net
 m3.doubleclick.net
+m365cdn.nel.measure.office.net
 m365cdn.nel.measure.office.net.cardano.com
 ma.googleads.g.doubleclick.net
 mads-eu.amazon-adsystem.com

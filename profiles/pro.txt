@@ -3,9 +3,9 @@
 # Description: Datenschutzorientiert: Normal plus Telemetrie, Native-/Device-/Gaming-Tracking.
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
-# Sources: BlackRabbitZ Privacy/Platform/App Pro; dokumentierte HaGeZi-Anteile
+# Sources: BlackRabbitZ Privacy/Platform/App Pro; dokumentierte HaGeZi-Anteile; Pi-hole Query-Log Review 2026-10-03
 # Risk: niedrig-mittel
-# Entries: 371530
+# Entries: 371547
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 # Generated: ja
@@ -40751,6 +40751,7 @@ ads-sc2-lb5.adsymptotic.com
 ads-sc2-lb9.adsymptotic.com
 ads-sc2.adsymptotic.com
 ads-script.ad-center.com
+ads-sdk-gateway.prd.mz.internal.unity3d.com
 ads-sdk.avidly.com
 ads-sdk.upltv.com
 ads-secure.videohub.tv
@@ -49905,6 +49906,7 @@ ae.eulerian.net
 ae.exquirelikest.com
 ae.goodsblock.mgid.com
 ae.gsecondscreen.com
+ae.iads.unity3d.com
 ae.info.lgsmartad.com
 ae.lgsmartad.com
 ae.nflximg.net
@@ -54865,6 +54867,7 @@ analytics-ingestion.staging-public.tubi.io
 analytics-ingress-global.bitmovin.com
 analytics-ingress.bitmovin.com
 analytics-int.giswi.com
+analytics-ios-tcp.rayjump.com
 analytics-ip.square-enix-games.com
 analytics-iq.com
 analytics-iwtg-ten.yinzcam.com
@@ -55242,6 +55245,7 @@ analytics.adi.so
 analytics.adidas.com.cn
 analytics.adjmpw.com
 analytics.adjust.com
+analytics.adjust.io
 analytics.adk.de
 analytics.adknstage.com
 analytics.adlnetworks.com
@@ -65598,6 +65602,7 @@ analytics.uzzelui.com.br
 analytics.v-ict-or.be
 analytics.v.ieweg.de
 analytics.v17.dev
+analytics.v1p.ai
 analytics.v2.cloud.ahg-gruppe.de
 analytics.v2.cloud.ahg-mobile.de
 analytics.v2a.net
@@ -69221,6 +69226,7 @@ api.moodlr.co
 api.mp.nbcuni.com
 api.mp.uc.cn
 api.mparticle.onxmaps.com
+api.mshop.bdtelemetry.amazon
 api.muc.intl.miui.com
 api.mundomontanha.com.br
 api.muneris.io
@@ -92207,6 +92213,7 @@ cdn.hoverr.me
 cdn.ht.trafficforce.com
 cdn.hunteryvely.com
 cdn.hyperpromote.com
+cdn.iads.unity3d.com
 cdn.iasrv.com
 cdn.ichlnk.com
 cdn.idtargeting.com
@@ -113877,6 +113884,7 @@ data.resources.simprogroup.com
 data.retronation.be
 data.retronationopenair.be
 data.rioinsider.riolasvegas.com
+data.riotgames.com
 data.ritzcarlton.com
 data.riversideparramatta.com.au
 data.rmcprivate.com
@@ -131374,6 +131382,7 @@ exnesstrack.net
 exnyzdboihvi.com
 exnzg.de
 exo.kiev.ua
+exo.nel.measure.office.net
 exo.nel.measure.office.net.cardano.com
 exo1.georealcdn.com
 exobafrgdf.com
@@ -153623,6 +153632,7 @@ hbatterysaver2017.u.xoxknct.com
 hbb.afl.rakuten.co.jp
 hbb.concentra.be
 hbbgrhzqezz.com
+hbbtv-event-collector.prd.g.joyn.de
 hbbtv-track.prosieben.de
 hbbtv-track.prosiebensat1puls4.com
 hbbtv-track.redbutton.de
@@ -153646,6 +153656,7 @@ hbdmwkefy8.alphonso.tv
 hbdosljhhpov.bid
 hbedvoyluzmq.com
 hbeizxecsmm.com
+hbevents-public.mz.unity3d.com
 hbevents.1rx.io
 hbfdhkdeaatch.space
 hbfnbkao.icu
@@ -187427,6 +187438,7 @@ m3.webstats.motigo.com
 m30w.net
 m32.media
 m34zz.lyfd2xzauti9d8p.bapb.gdn
+m365cdn.nel.measure.office.net
 m365cdn.nel.measure.office.net.cardano.com
 m37m.com
 m3bnqqqw.com
@@ -225586,6 +225598,7 @@ nothingunit.com
 nothingviewcontend.com
 nothycantyo.com
 noti-eu.adsmoloco.com
+noti-us.adsmoloco.com
 notice-tmo.notice.assurancewireless.com
 notice.game.xiaomi.com
 notice1-09.com
@@ -264656,6 +264669,7 @@ rkv4oiz8.eternitymodern.com
 rkvpcjiuumbk.com
 rkwpgdnlwgg.bid
 rl.abayclaik.com
+rl.data.ea.com
 rl.heise.de
 rl.quantummetric.com
 rl1l8krc.com
@@ -294223,6 +294237,7 @@ spywarenuker.com
 spywarespy.com
 spywords.com
 spyzvcviywdva.space
+sq-tungsten-ts-eu.amazon-adsystem.com
 sq.duessacaufle.com
 sq2trk2.com
 sq7.co.uk
@@ -351492,6 +351507,7 @@ webstatistiekenwaas.kb.nl
 webstatistik-sinalco.de
 webstatistik.bg-kooperation.de
 webstatistik.bih.de
+webstatistik.bundeswehr.de
 webstatistik.odav.de
 webstatistik.uk-koeln.de
 webstatistik.uni-giessen.de
@@ -354729,6 +354745,7 @@ wringbible.com
 wrinklebreathless.com
 wrist-phone.com
 wristseeingscald.com
+write-consent-tracking-prod.redbutton.de
 write-for-me.com
 writeabout.unbounce.com
 writefor.unbounce.com

@@ -3,11 +3,11 @@
 # Description: Maximum known vendor communication; may break cloud/account/store/updates.
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
-# Sources: lists/platforms/mobile/full/samsung.txt + BRZ manufacturer data
+# Sources: lists/platforms/mobile/full/samsung.txt + BRZ manufacturer data; Pi-hole Query-Log Review 2026-10-03
 # Risk: very high
 # Data status: befuellt
 # Data method: derived-isolate
-# Entries: 307
+# Entries: 308
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -39,6 +39,7 @@ api-dooh.samsungads.com
 api-promo.samsungknowledge.com
 api-samsung.swypeconnect.com
 api.runestone.samsung.com
+api.samsungconsent.com
 app.business.samsungusa.com
 apu.samsungelectronics.com
 atlas.samsung.com

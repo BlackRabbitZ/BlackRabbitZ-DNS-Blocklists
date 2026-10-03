@@ -3,11 +3,11 @@
 # Description: Pro-Stufe für Smart TV; kumulativ.
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
-# Sources: BlackRabbitZ Smart-TV-Katalog
+# Sources: BlackRabbitZ Smart-TV-Katalog; Pi-hole Query-Log Review 2026-10-03
 # Risk: Niedrig–Mittel
-# Data status: befüllt
+# Data status: befuellt
 # Data method: generated-tier
-# Entries: 454
+# Entries: 455
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -161,6 +161,7 @@ gt.lgsmartad.com
 gw-analytics.panasonic.com
 gy-ad-lgsmartad-com.aws-prd.net
 gy.lgsmartad.com
+hbbtv-event-collector.prd.g.joyn.de
 hbbtv-track.redbutton.de
 hk-ad-lgsmartad-com.aws-prd.net
 hk.lgsmartad.com

@@ -3,11 +3,11 @@
 # Description: Pro-Stufe für DNS, Netzwerk & Umgehung; kumulativ.
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
-# Sources: BlackRabbitZ Network-Katalog
+# Sources: BlackRabbitZ Network-Katalog; Pi-hole Query-Log Review 2026-10-03
 # Risk: Niedrig–Mittel
-# Data status: befüllt
+# Data status: befuellt
 # Data method: generated-tier
-# Entries: 64
+# Entries: 66
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -32,6 +32,8 @@ load.ss.sugardoh.co
 log.nordot.jp
 logging-proxy-ca-production-170512-af60esna.uc.gateway.dev
 mainstats.dynadot.com
+mask-api.icloud.com
+mask.icloud.com
 metrics-gen2.openvpn.net
 metrics.greendot.com
 proxy.softonicads.com

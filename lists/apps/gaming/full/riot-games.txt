@@ -5,10 +5,11 @@
 # License: GPL-3.0-only; siehe THIRD_PARTY.md fuer Drittquellen
 # Sources: BlackRabbitZ Ads/Tracking/Telemetry-Daten; Pi-hole Query-Log Review 2026-10-03
 # Risk: mittel-hoch
-# Entries: 2
+# Entries: 3
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 # Generated: ja
 #
 analytics.developer.riotgames.com
+data.riotgames.com
 telemetry.sgp.pvp.net

@@ -3,9 +3,9 @@
 # Description: Zurückhaltender globaler Grundschutz gegen Werbung.
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
-# Sources: BlackRabbitZ Privacy Light
+# Sources: BlackRabbitZ Privacy Light; Pi-hole Query-Log Review 2026-10-03
 # Risk: minimal
-# Entries: 234010
+# Entries: 234015
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 # Generated: ja
@@ -37061,6 +37061,7 @@ ads-sc2-lb5.adsymptotic.com
 ads-sc2-lb9.adsymptotic.com
 ads-sc2.adsymptotic.com
 ads-script.ad-center.com
+ads-sdk-gateway.prd.mz.internal.unity3d.com
 ads-sdk.avidly.com
 ads-sdk.upltv.com
 ads-secure.videohub.tv
@@ -46001,6 +46002,7 @@ ae.carnelbawrel.com
 ae.exquirelikest.com
 ae.goodsblock.mgid.com
 ae.gsecondscreen.com
+ae.iads.unity3d.com
 ae.info.lgsmartad.com
 ae.nflximg.net
 ae.pubmatic.com
@@ -70566,6 +70568,7 @@ cdn.hoverr.me
 cdn.ht.trafficforce.com
 cdn.hunteryvely.com
 cdn.hyperpromote.com
+cdn.iads.unity3d.com
 cdn.iasrv.com
 cdn.ichlnk.com
 cdn.idtargeting.com
@@ -148739,6 +148742,7 @@ nothingpetwring.com
 nothingviewcontend.com
 nothycantyo.com
 noti-eu.adsmoloco.com
+noti-us.adsmoloco.com
 notice.game.xiaomi.com
 noticeboard.netmarble.com
 noticeclockdroop.com
@@ -185936,6 +185940,7 @@ spywarenuker.com
 spywarespy.com
 spywords.com
 spyzvcviywdva.space
+sq-tungsten-ts-eu.amazon-adsystem.com
 sq.duessacaufle.com
 sq2trk2.com
 sq7.co.uk

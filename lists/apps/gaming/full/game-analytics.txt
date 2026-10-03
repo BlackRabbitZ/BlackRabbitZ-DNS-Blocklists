@@ -5,9 +5,9 @@
 # License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
 # Sources: Aus vorhandenen BlackRabbitZ-/dokumentierten HaGeZi-Domains konservativ abgeleitet; Pi-hole Query-Log Review 2026-10-03
 # Risk: variabel
-# Data status: abgeleitet
+# Data status: befuellt
 # Data method: derived-keyword
-# Entries: 27
+# Entries: 28
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -24,6 +24,7 @@ freegameanalytics.com
 gameanalytics.com
 go-export.gameanalytics.com
 go.gameanalytics.com
+hbevents-public.mz.unity3d.com
 maven.gameanalytics.com
 ops-query-0.gameanalytics.com
 ops-query-1.gameanalytics.com

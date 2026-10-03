@@ -3,11 +3,11 @@
 # Description: Maximum known manufacturer communication.
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
-# Sources: lists/manufacturers/apple.txt
+# Sources: lists/manufacturers/apple.txt; Pi-hole Query-Log Review 2026-10-03
 # Risk: very high
 # Data status: befuellt
 # Data method: manufacturer-isolate
-# Entries: 335
+# Entries: 337
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -208,6 +208,8 @@ logservice.hicloud.com
 logservice1.hicloud.com
 luanxianapple.com
 marketing.services.apple
+mask-api.icloud.com
+mask.icloud.com
 matomo.apple-deluxe.co
 matomo.applevis.com
 matomo.cabricloud.com

@@ -3,11 +3,11 @@
 # Description: Maximum known manufacturer communication.
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
-# Sources: lists/manufacturers/microsoft.txt
+# Sources: lists/manufacturers/microsoft.txt; Pi-hole Query-Log Review 2026-10-03
 # Risk: very high
 # Data status: befuellt
 # Data method: manufacturer-isolate
-# Entries: 762
+# Entries: 764
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -251,6 +251,7 @@ events-sandbox.data.microsoft.com
 events.data.microsoft.com
 events.executiveoffice.co.nz
 excel-telemetry.officeapps.live.com
+exo.nel.measure.office.net
 exo.nel.measure.office.net.cardano.com
 expbl2ro.xbox.com
 fahmta.metoffice.gov.uk
@@ -341,6 +342,7 @@ logconfig.polarisoffice.com
 logging.prefixbox.com
 lovelybingo.com
 m.bingads.microsoft.com
+m365cdn.nel.measure.office.net
 m365cdn.nel.measure.office.net.cardano.com
 manhattanofficelistings.com
 marketing.forgeplumbing.com.au

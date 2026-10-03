@@ -3,11 +3,11 @@
 # Description: Pro-Stufe für Gaming; kumulativ.
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
-# Sources: BlackRabbitZ Gaming-Katalog
+# Sources: BlackRabbitZ Gaming-Katalog; Pi-hole Query-Log Review 2026-10-03
 # Risk: Niedrig–Mittel
-# Data status: befüllt
+# Data status: befuellt
 # Data method: generated-tier
-# Entries: 116
+# Entries: 123
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -16,6 +16,7 @@ ad.ciokorea.com
 ad.mylinea.com
 ad.snappea.com
 ad.xrea.com
+ads-sdk-gateway.prd.mz.internal.unity3d.com
 ads.blizzard.com
 ads.contralinea.com.mx
 ads.miciudadenlinea.com.ar
@@ -24,6 +25,8 @@ ads.rohea.com
 adserver.mylinea.com
 adserver1.lujanenlinea.com.ar
 advert.bayarea.com
+ae.iads.unity3d.com
+analytics-ios-tcp.rayjump.com
 analytics.akalea.com
 analytics.developer.riotgames.com
 analytics.fcmlabemea.com
@@ -42,6 +45,7 @@ apps.ad.snappea.com
 beacons.xboxlive.com
 callback.ad.snappea.com
 cdn.gameanalytics.com
+cdn.iads.unity3d.com
 cert.telemetry.ros.rockstargames.com
 cmt.us.playstation.com
 cn.gameanalytics.com
@@ -50,6 +54,7 @@ config.mobilegamestats.com
 crash.steampowered.com
 crashlogs.mobilegame.woniu.com
 cs.prd.msys.playstation.net
+data.riotgames.com
 easy.gameanalytics.com
 electronicarts.112.2o7.net
 errors.ea.com
@@ -60,6 +65,7 @@ freegameanalytics.com
 gameanalytics.com
 go-export.gameanalytics.com
 go.gameanalytics.com
+hbevents-public.mz.unity3d.com
 load.dados.dracarolinacorrea.com.br
 load.events.drogariascampea.com.br
 load.sst.aacea.com
@@ -92,6 +98,7 @@ query-2.gameanalytics.com
 query-3.gameanalytics.com
 report.ad.snappea.com
 reports.tools.gos.ea.com
+rl.data.ea.com
 rtlog.byteoversea.com
 ru.gameanalytics.com
 rubick.gameanalytics.com

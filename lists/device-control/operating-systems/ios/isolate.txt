@@ -3,11 +3,11 @@
 # Description: Maximum known vendor communication; may break cloud/account/store/updates.
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
-# Sources: lists/platforms/operating-systems/full/ios.txt + BRZ manufacturer data
+# Sources: lists/platforms/operating-systems/full/ios.txt + BRZ manufacturer data; Pi-hole Query-Log Review 2026-10-03
 # Risk: very high
 # Data status: befuellt
 # Data method: derived-isolate
-# Entries: 339
+# Entries: 341
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -212,6 +212,8 @@ logservice.hicloud.com
 logservice1.hicloud.com
 luanxianapple.com
 marketing.services.apple
+mask-api.icloud.com
+mask.icloud.com
 matomo.apple-deluxe.co
 matomo.applevis.com
 matomo.cabricloud.com

@@ -3,11 +3,11 @@
 # Description: Light-Stufe für Privacy & Tracking; kumulativ.
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
-# Sources: BlackRabbitZ Privacy-Katalog
+# Sources: BlackRabbitZ Privacy-Katalog; Pi-hole Query-Log Review 2026-10-03
 # Risk: Minimal
-# Data status: befüllt
+# Data status: befuellt
 # Data method: generated-tier
-# Entries: 32546
+# Entries: 32548
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -28514,6 +28514,7 @@ notads.111supjavcom.xyz
 notads.11javguru.xyz
 notads.1gi3rir.xyz
 noti-eu.adsmoloco.com
+noti-us.adsmoloco.com
 notification.popads.net
 notification.smartadserver.com
 notify.nuviad.com
@@ -30506,6 +30507,7 @@ springclick-ads.s3.amazonaws.com
 sprout-ad.com
 spyone.imarketing.it
 spyware.homestead.com
+sq-tungsten-ts-eu.amazon-adsystem.com
 sqd.churchmediasquad.com
 sqtpgwvxxad.net
 squidad.com

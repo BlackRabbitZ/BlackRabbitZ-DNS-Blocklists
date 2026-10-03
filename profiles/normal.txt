@@ -3,9 +3,9 @@
 # Description: Ausgewogener globaler Ads-/Tracking-Schutz.
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
-# Sources: BlackRabbitZ Privacy Normal
+# Sources: BlackRabbitZ Privacy Normal; Pi-hole Query-Log Review 2026-10-03
 # Risk: niedrig
-# Entries: 342229
+# Entries: 342242
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 # Generated: ja
@@ -40579,6 +40579,7 @@ ads-sc2-lb5.adsymptotic.com
 ads-sc2-lb9.adsymptotic.com
 ads-sc2.adsymptotic.com
 ads-script.ad-center.com
+ads-sdk-gateway.prd.mz.internal.unity3d.com
 ads-sdk.avidly.com
 ads-sdk.upltv.com
 ads-secure.videohub.tv
@@ -49721,6 +49722,7 @@ ae.eulerian.net
 ae.exquirelikest.com
 ae.goodsblock.mgid.com
 ae.gsecondscreen.com
+ae.iads.unity3d.com
 ae.info.lgsmartad.com
 ae.nflximg.net
 ae.pubmatic.com
@@ -54493,6 +54495,7 @@ analytics-ingestion.production-public.tubi.io
 analytics-ingestion.staging-public.tubi.io
 analytics-ingress-global.bitmovin.com
 analytics-ingress.bitmovin.com
+analytics-ios-tcp.rayjump.com
 analytics-iwtg-ten.yinzcam.com
 analytics-league-lfp.yinzcam.com
 analytics-listener.trafficmanager.net
@@ -54538,6 +54541,7 @@ analytics.ad4screen.com
 analytics.adeevo.com
 analytics.adfreetime.com
 analytics.adjust.com
+analytics.adjust.io
 analytics.admob.com
 analytics.adnetwork.vn
 analytics.adpost.org
@@ -54938,6 +54942,7 @@ analytics.us.archive.org
 analytics.us.tiktok.com
 analytics.usdm.net
 analytics.userreport.com
+analytics.v1p.ai
 analytics.vadio.com
 analytics.valuepotion.com
 analytics.vancms.net
@@ -80236,6 +80241,7 @@ cdn.hoverr.me
 cdn.ht.trafficforce.com
 cdn.hunteryvely.com
 cdn.hyperpromote.com
+cdn.iads.unity3d.com
 cdn.iasrv.com
 cdn.ichlnk.com
 cdn.idtargeting.com
@@ -101315,6 +101321,7 @@ data.resources.simprogroup.com
 data.retronation.be
 data.retronationopenair.be
 data.rioinsider.riolasvegas.com
+data.riotgames.com
 data.ritzcarlton.com
 data.riversideparramatta.com.au
 data.rmcprivate.com
@@ -140617,6 +140624,7 @@ hbdmwkefy8.alphonso.tv
 hbdosljhhpov.bid
 hbedvoyluzmq.com
 hbeizxecsmm.com
+hbevents-public.mz.unity3d.com
 hbevents.1rx.io
 hbfdhkdeaatch.space
 hbfnbkao.icu
@@ -209156,6 +209164,7 @@ nothingunit.com
 nothingviewcontend.com
 nothycantyo.com
 noti-eu.adsmoloco.com
+noti-us.adsmoloco.com
 notice-tmo.notice.assurancewireless.com
 notice.game.xiaomi.com
 notice1-09.com
@@ -247925,6 +247934,7 @@ rkv4oiz8.eternitymodern.com
 rkvpcjiuumbk.com
 rkwpgdnlwgg.bid
 rl.abayclaik.com
+rl.data.ea.com
 rl.heise.de
 rl.quantummetric.com
 rl1l8krc.com
@@ -272973,6 +272983,7 @@ spywarenuker.com
 spywarespy.com
 spywords.com
 spyzvcviywdva.space
+sq-tungsten-ts-eu.amazon-adsystem.com
 sq.duessacaufle.com
 sq2trk2.com
 sq7.co.uk
@@ -322375,6 +322386,7 @@ webstatistiekenwaas.kb.nl
 webstatistik-sinalco.de
 webstatistik.bg-kooperation.de
 webstatistik.bih.de
+webstatistik.bundeswehr.de
 webstatistik.odav.de
 webstatistik.uk-koeln.de
 webstatistik.uni-giessen.de
@@ -325489,6 +325501,7 @@ wringbible.com
 wrinklebreathless.com
 wrist-phone.com
 wristseeingscald.com
+write-consent-tracking-prod.redbutton.de
 write-for-me.com
 writeabout.unbounce.com
 writefor.unbounce.com

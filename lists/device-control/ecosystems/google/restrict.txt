@@ -3,11 +3,11 @@
 # Description: Privacy plus optional vendor/cloud/recommendation endpoints.
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
-# Sources: lists/ecosystems/full/google.txt + BRZ manufacturer data
+# Sources: lists/ecosystems/full/google.txt + BRZ manufacturer data; Pi-hole Query-Log Review 2026-10-03
 # Risk: high
 # Data status: befuellt
 # Data method: derived-restrict
-# Entries: 13872
+# Entries: 13873
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -13761,6 +13761,7 @@ notificationbyfacebook.firebaseapp.com
 null.fls.doubleclick.net
 ogads-pa.clients6.google.com
 ogads-pa.googleapis.com
+optimizationguide-pa.googleapis.com
 p1agead2.googlesyndication.com
 pagead.l.doubleclick.net
 pagead2.googleadservices.com

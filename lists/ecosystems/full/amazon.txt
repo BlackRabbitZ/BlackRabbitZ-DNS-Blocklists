@@ -3,11 +3,11 @@
 # Description: Amazon/Alexa/Shopping/Fire-TV Tracking-Endpunkte
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
-# Sources: Aus vorhandenen BlackRabbitZ-/dokumentierten HaGeZi-Domains konservativ abgeleitet
+# Sources: Aus vorhandenen BlackRabbitZ-/dokumentierten HaGeZi-Domains konservativ abgeleitet; Pi-hole Query-Log Review 2026-10-03
 # Risk: variabel
-# Data status: abgeleitet
+# Data status: befuellt
 # Data method: derived-keyword
-# Entries: 775
+# Entries: 776
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -192,6 +192,7 @@ anon.amazon.speedera.net
 ap-southeast-1.compute.amazonaws.com
 api.alexandramonfredinho.com.br
 api.mediatailor.eu-west-1.amazonaws.com
+api.mshop.bdtelemetry.amazon
 app-performance.music.amazon.dev
 applab-sdk.amazon.com
 apple-resources.s3.amazonaws.com

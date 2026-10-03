@@ -3,11 +3,11 @@
 # Description: Manufacturer privacy/tracking/telemetry endpoints.
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
-# Sources: lists/manufacturers/microsoft.txt
+# Sources: lists/manufacturers/microsoft.txt; Pi-hole Query-Log Review 2026-10-03
 # Risk: medium
 # Data status: befuellt
 # Data method: manufacturer-privacy
-# Entries: 262
+# Entries: 264
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -110,6 +110,7 @@ events-sandbox.data.microsoft.com
 events.data.microsoft.com
 events.executiveoffice.co.nz
 excel-telemetry.officeapps.live.com
+exo.nel.measure.office.net
 fd.bingads.microsoft.com
 feedback.bingads.microsoft.com
 help.ads.microsoft.com
@@ -130,6 +131,7 @@ learninglab.about.ads.microsoft.com
 learninglab.ads.microsoft.com
 load.escolarofficebrasil.euvou.events
 m.bingads.microsoft.com
+m365cdn.nel.measure.office.net
 mediamarketplace.ads.microsoft.com
 metric.postoffice.co.uk
 metrics.binge.com.au

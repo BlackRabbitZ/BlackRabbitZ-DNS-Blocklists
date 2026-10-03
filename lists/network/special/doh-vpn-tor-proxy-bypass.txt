@@ -3,9 +3,9 @@
 # Description: Kombinierte lokale BRZ-Spezialliste gegen bekannte DNS-/VPN-/Proxy-/Tor-Umgehungsendpunkte.
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only; siehe THIRD_PARTY.md fuer Drittquellen
-# Sources: BRZ Network Full-Listen
+# Sources: BRZ Network Full-Listen; Pi-hole Query-Log Review 2026-10-03
 # Risk: hoch
-# Entries: 312
+# Entries: 314
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 # Data method: Union vorhandener BRZ Network-Full-Listen
@@ -157,6 +157,8 @@ log.nordot.jp
 logging-proxy-ca-production-170512-af60esna.uc.gateway.dev
 mainstats.dynadot.com
 mainvpn.zedo.com
+mask-api.icloud.com
+mask.icloud.com
 matomo-vpn.sinngold-projects.com
 matomo.dotdot.my
 metrics-gen2.openvpn.net

@@ -3,11 +3,11 @@
 # Description: Privacy plus optional vendor/cloud services.
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
-# Sources: lists/manufacturers/google.txt
+# Sources: lists/manufacturers/google.txt; Pi-hole Query-Log Review 2026-10-03
 # Risk: high
 # Data status: befuellt
 # Data method: manufacturer-restrict
-# Entries: 365
+# Entries: 366
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -331,6 +331,7 @@ mobilecrashreporting.googleapis.com
 myscoop-tracking.googlecode.com
 ogads-pa.clients6.google.com
 ogads-pa.googleapis.com
+optimizationguide-pa.googleapis.com
 pagead2.googleadservices.com
 partner.googleadservices.com
 peoplestackwebexperiments-pa.clients6.google.com

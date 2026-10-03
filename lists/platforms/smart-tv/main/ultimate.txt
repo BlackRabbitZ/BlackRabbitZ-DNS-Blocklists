@@ -3,11 +3,11 @@
 # Description: Ultimate-Stufe für Smart TV; kumulativ.
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
-# Sources: BlackRabbitZ Smart-TV-Katalog
+# Sources: BlackRabbitZ Smart-TV-Katalog; Pi-hole Query-Log Review 2026-10-03
 # Risk: Hoch
-# Data status: befüllt
+# Data status: befuellt
 # Data method: generated-tier
-# Entries: 648
+# Entries: 649
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -249,6 +249,7 @@ gy-ad-lgsmartad-com.aws-prd.net
 gy.lgsmartad.com
 h4g3z1-native.lgwebos.web.app
 hbbtv-1.eurosport.com
+hbbtv-event-collector.prd.g.joyn.de
 hbbtv-extern-fe01.sim-technik.de
 hbbtv-track.redbutton.de
 hbbtv01p.anixe.net

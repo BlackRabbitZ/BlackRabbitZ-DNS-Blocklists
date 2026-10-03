@@ -3,11 +3,11 @@
 # Description: Ultimate-Stufe für Gaming; kumulativ.
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
-# Sources: BlackRabbitZ Gaming-Katalog
+# Sources: BlackRabbitZ Gaming-Katalog; Pi-hole Query-Log Review 2026-10-03
 # Risk: Hoch
-# Data status: befüllt
+# Data status: befuellt
 # Data method: generated-tier
-# Entries: 378
+# Entries: 385
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -41,6 +41,7 @@ ad2.xrea.com
 ad3.xrea.com
 adbanner.mylinea.com
 adorigin.com
+ads-sdk-gateway.prd.mz.internal.unity3d.com
 ads.blizzard.com
 ads.contralinea.com.mx
 ads.miciudadenlinea.com.ar
@@ -51,9 +52,11 @@ adserver1.lujanenlinea.com.ar
 adsrv.ea.com
 advert.bayarea.com
 adyea.com
+ae.iads.unity3d.com
 afm.vantagemarketsea.com
 afm.vantagemarketssea.com
 agencyorquidea.com
+analytics-ios-tcp.rayjump.com
 analytics.akalea.com
 analytics.developer.riotgames.com
 analytics.fcmlabemea.com
@@ -98,6 +101,7 @@ callback.ad.snappea.com
 capi.emporitea.com
 catsarea.com
 cdn.gameanalytics.com
+cdn.iads.unity3d.com
 cdn.mobidea.com
 cdnaws.mobidea.com
 cdnpublic.mobidea.com
@@ -126,6 +130,7 @@ ct1.xrea.com
 curatedtea.com
 dados.dracarolinacorrea.com.br
 data-992b9a20ea.competitionline.com
+data.riotgames.com
 data.xboxlive.com
 datarouter-prod.ak.epicgames.com
 datarouter.ol.epicgames.com
@@ -174,6 +179,7 @@ gtm.adslancorrea.com.br
 gtm.chickenofthesea.com
 gtm.thalassea.com.au
 hashkorea.com
+hbevents-public.mz.unity3d.com
 heartbeat.dm.origin.com
 hplgpoicsnea.com
 icas.ikea.com
@@ -274,6 +280,7 @@ report.ad.snappea.com
 reports.tools.gos.ea.com
 river-mobile.data.ea.com
 river.data.ea.com
+rl.data.ea.com
 rs1.avenuea.com
 rtlog.byteoversea.com
 ru.gameanalytics.com

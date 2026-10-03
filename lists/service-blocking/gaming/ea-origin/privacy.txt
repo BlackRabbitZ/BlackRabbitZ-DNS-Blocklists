@@ -3,11 +3,11 @@
 # Description: Service tracking/analytics/telemetry; service should remain usable.
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
-# Sources: lists/apps/gaming/full/ea-origin.txt
+# Sources: lists/apps/gaming/full/ea-origin.txt; Pi-hole Query-Log Review 2026-10-03
 # Risk: medium
 # Data status: befuellt
 # Data method: derived-service-privacy
-# Entries: 300
+# Entries: 301
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -213,6 +213,7 @@ report.ad.snappea.com
 reports.tools.gos.ea.com
 river-mobile.data.ea.com
 river.data.ea.com
+rl.data.ea.com
 rs1.avenuea.com
 rtlog.byteoversea.com
 saboreamediterranea.com

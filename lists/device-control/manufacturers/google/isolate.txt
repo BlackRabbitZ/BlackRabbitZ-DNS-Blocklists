@@ -3,11 +3,11 @@
 # Description: Maximum known manufacturer communication.
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
 # License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
-# Sources: lists/manufacturers/google.txt
+# Sources: lists/manufacturers/google.txt; Pi-hole Query-Log Review 2026-10-03
 # Risk: very high
 # Data status: befuellt
 # Data method: manufacturer-isolate
-# Entries: 14478
+# Entries: 14479
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -14316,6 +14316,7 @@ ogads-pa.clients6.google.com
 ogads-pa.googleapis.com
 ohttp-relay-safebrowsing-android.google.fastly-edge.com
 ohttp-relay-safebrowsing-chrome.google.fastly-edge.com
+optimizationguide-pa.googleapis.com
 ota.googlezip.net
 p1agead2.googlesyndication.com
 pagead-googlehosted.l.google.com

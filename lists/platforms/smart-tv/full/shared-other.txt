@@ -5,7 +5,7 @@
 # License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
 # Sources: BlackRabbitZ Smart-TV Daten; dokumentierte HaGeZi-/Perflyst-Anteile; Pi-hole Query-Log Review 2026-10-03
 # Risk: hoch
-# Entries: 103
+# Entries: 104
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 # Generated: ja
@@ -60,6 +60,7 @@ foxtel-prod-events.digitalsmiths.net
 game.internetat.tv
 googleads.g.doubleclick.net
 hbbtv-1.eurosport.com
+hbbtv-event-collector.prd.g.joyn.de
 hbbtv-extern-fe01.sim-technik.de
 hbbtv-track.redbutton.de
 hbbtv01p.anixe.net
