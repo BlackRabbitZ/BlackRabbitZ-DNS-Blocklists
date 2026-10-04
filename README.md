@@ -443,14 +443,14 @@ Gezielte Datenschutzlisten für **Software, Treiber, PC-Komponenten und Peripher
 
 | Name | Einträge | 🛡️ Privacy | ⚠️ Restrict | 🔄 Updates blockieren |
 | --- | :---: | :---: | :---: | :---: |
-| **Adobe** | 🛡️ Privacy: 34<br>⚠️ Restrict: 38<br>🔄 Updates blockieren: 0 | [Liste](lists/device-control/software-hardware/adobe/privacy.txt) | [Liste](lists/device-control/software-hardware/adobe/restrict.txt) | [Liste](lists/device-control/software-hardware/adobe/updates.txt) |
-| **AMD** | 🛡️ Privacy: 1<br>⚠️ Restrict: 2<br>🔄 Updates blockieren: 0 | [Liste](lists/device-control/software-hardware/amd/privacy.txt) | [Liste](lists/device-control/software-hardware/amd/restrict.txt) | [Liste](lists/device-control/software-hardware/amd/updates.txt) |
-| **Autodesk** | 🛡️ Privacy: 7<br>⚠️ Restrict: 7<br>🔄 Updates blockieren: 0 | [Liste](lists/device-control/software-hardware/autodesk/privacy.txt) | [Liste](lists/device-control/software-hardware/autodesk/restrict.txt) | [Liste](lists/device-control/software-hardware/autodesk/updates.txt) |
-| **Corsair** | 🛡️ Privacy: 2<br>⚠️ Restrict: 2<br>🔄 Updates blockieren: 0 | [Liste](lists/device-control/software-hardware/corsair/privacy.txt) | [Liste](lists/device-control/software-hardware/corsair/restrict.txt) | [Liste](lists/device-control/software-hardware/corsair/updates.txt) |
-| **Intel** | 🛡️ Privacy: 3<br>⚠️ Restrict: 3<br>🔄 Updates blockieren: 0 | [Liste](lists/device-control/software-hardware/intel/privacy.txt) | [Liste](lists/device-control/software-hardware/intel/restrict.txt) | [Liste](lists/device-control/software-hardware/intel/updates.txt) |
-| **Logitech** | 🛡️ Privacy: 4<br>⚠️ Restrict: 4<br>🔄 Updates blockieren: 0 | [Liste](lists/device-control/software-hardware/logitech/privacy.txt) | [Liste](lists/device-control/software-hardware/logitech/restrict.txt) | [Liste](lists/device-control/software-hardware/logitech/updates.txt) |
-| **Nvidia** | 🛡️ Privacy: 9<br>⚠️ Restrict: 9<br>🔄 Updates blockieren: 0 | [Liste](lists/device-control/software-hardware/nvidia/privacy.txt) | [Liste](lists/device-control/software-hardware/nvidia/restrict.txt) | [Liste](lists/device-control/software-hardware/nvidia/updates.txt) |
-| **Razer** | 🛡️ Privacy: 3<br>⚠️ Restrict: 3<br>🔄 Updates blockieren: 0 | [Liste](lists/device-control/software-hardware/razer/privacy.txt) | [Liste](lists/device-control/software-hardware/razer/restrict.txt) | [Liste](lists/device-control/software-hardware/razer/updates.txt) |
+| **Adobe** | 38 | **34 Einträge**<br>[Liste](lists/device-control/software-hardware/adobe/privacy.txt) | **38 Einträge**<br>[Liste](lists/device-control/software-hardware/adobe/restrict.txt) | **0 Einträge**<br>[Liste](lists/device-control/software-hardware/adobe/updates.txt) |
+| **AMD** | 2 | **1 Einträge**<br>[Liste](lists/device-control/software-hardware/amd/privacy.txt) | **2 Einträge**<br>[Liste](lists/device-control/software-hardware/amd/restrict.txt) | **0 Einträge**<br>[Liste](lists/device-control/software-hardware/amd/updates.txt) |
+| **Autodesk** | 7 | **7 Einträge**<br>[Liste](lists/device-control/software-hardware/autodesk/privacy.txt) | **7 Einträge**<br>[Liste](lists/device-control/software-hardware/autodesk/restrict.txt) | **0 Einträge**<br>[Liste](lists/device-control/software-hardware/autodesk/updates.txt) |
+| **Corsair** | 2 | **2 Einträge**<br>[Liste](lists/device-control/software-hardware/corsair/privacy.txt) | **2 Einträge**<br>[Liste](lists/device-control/software-hardware/corsair/restrict.txt) | **0 Einträge**<br>[Liste](lists/device-control/software-hardware/corsair/updates.txt) |
+| **Intel** | 3 | **3 Einträge**<br>[Liste](lists/device-control/software-hardware/intel/privacy.txt) | **3 Einträge**<br>[Liste](lists/device-control/software-hardware/intel/restrict.txt) | **0 Einträge**<br>[Liste](lists/device-control/software-hardware/intel/updates.txt) |
+| **Logitech** | 4 | **4 Einträge**<br>[Liste](lists/device-control/software-hardware/logitech/privacy.txt) | **4 Einträge**<br>[Liste](lists/device-control/software-hardware/logitech/restrict.txt) | **0 Einträge**<br>[Liste](lists/device-control/software-hardware/logitech/updates.txt) |
+| **Nvidia** | 9 | **9 Einträge**<br>[Liste](lists/device-control/software-hardware/nvidia/privacy.txt) | **9 Einträge**<br>[Liste](lists/device-control/software-hardware/nvidia/restrict.txt) | **0 Einträge**<br>[Liste](lists/device-control/software-hardware/nvidia/updates.txt) |
+| **Razer** | 3 | **3 Einträge**<br>[Liste](lists/device-control/software-hardware/razer/privacy.txt) | **3 Einträge**<br>[Liste](lists/device-control/software-hardware/razer/restrict.txt) | **0 Einträge**<br>[Liste](lists/device-control/software-hardware/razer/updates.txt) |
 
 </details>
 
@@ -596,45 +596,45 @@ Du möchtest nicht jeden Hersteller einzeln auswählen? Dann kannst du komplette
 
 | Gerätegruppe | Einträge | 🛡️ Privacy | ⚠️ Restrict | 🔄 Updates blockieren |
 | --- | :---: | :---: | :---: | :---: |
-| 💻 **Computer / Laptop** | 🛡️ Privacy: 257<br>⚠️ Restrict: 279<br>🔄 Updates blockieren: 28 | [Liste](lists/device-control/groups/computer/privacy.txt) | [Liste](lists/device-control/groups/computer/restrict.txt) | [Liste](lists/device-control/groups/computer/updates.txt) |
-| 📺 **TV / Streaming-Geräte** | 🛡️ Privacy: 14.047<br>⚠️ Restrict: 14.061<br>🔄 Updates blockieren: 16 | [Liste](lists/device-control/groups/tv-streaming/privacy.txt) | [Liste](lists/device-control/groups/tv-streaming/restrict.txt) | [Liste](lists/device-control/groups/tv-streaming/updates.txt) |
-| 📱 **Handy / Tablet** | 🛡️ Privacy: 13.773<br>⚠️ Restrict: 13.782<br>🔄 Updates blockieren: 29 | [Liste](lists/device-control/groups/mobile-tablet/privacy.txt) | [Liste](lists/device-control/groups/mobile-tablet/restrict.txt) | [Liste](lists/device-control/groups/mobile-tablet/updates.txt) |
-| 🏠 **Smart Home / IoT** | 🛡️ Privacy: 417<br>⚠️ Restrict: 434<br>🔄 Updates blockieren: 12 | [Liste](lists/device-control/groups/smart-home-iot/privacy.txt) | [Liste](lists/device-control/groups/smart-home-iot/restrict.txt) | [Liste](lists/device-control/groups/smart-home-iot/updates.txt) |
-| 💾 **NAS / Server** | 🛡️ Privacy: 14<br>⚠️ Restrict: 17<br>🔄 Updates blockieren: 0 | [Liste](lists/device-control/groups/nas-server/privacy.txt) | [Liste](lists/device-control/groups/nas-server/restrict.txt) | [Liste](lists/device-control/groups/nas-server/updates.txt) |
-| 🌐 **Router / Netzwerkgeräte** | 🛡️ Privacy: 57<br>⚠️ Restrict: 67<br>🔄 Updates blockieren: 3 | [Liste](lists/device-control/groups/network/privacy.txt) | [Liste](lists/device-control/groups/network/restrict.txt) | [Liste](lists/device-control/groups/network/updates.txt) |
-| 🎮 **Konsole / Gaming-Geräte** | 🛡️ Privacy: 5<br>⚠️ Restrict: 6<br>🔄 Updates blockieren: 0 | [Liste](lists/device-control/groups/gaming-devices/privacy.txt) | [Liste](lists/device-control/groups/gaming-devices/restrict.txt) | [Liste](lists/device-control/groups/gaming-devices/updates.txt) |
-| 🗣️ **Sprachassistenten** | 🛡️ Privacy: 13.846<br>⚠️ Restrict: 13.882<br>🔄 Updates blockieren: 44 | [Liste](lists/device-control/groups/voice-assistants/privacy.txt) | [Liste](lists/device-control/groups/voice-assistants/restrict.txt) | [Liste](lists/device-control/groups/voice-assistants/updates.txt) |
-| 🧩 **All-in** | 🛡️ Privacy: 14.523<br>⚠️ Restrict: 14.577<br>🔄 Updates blockieren: 56 | **[Alle Privacy-Listen](lists/device-control/all-in/privacy.txt)** | **[Alle Restrict-Listen](lists/device-control/all-in/restrict.txt)** | **[Alle Update-Blocklisten](lists/device-control/all-in/updates.txt)** |
+| 💻 **Computer / Laptop** | 307 | **257 Einträge**<br>[Liste](lists/device-control/groups/computer/privacy.txt) | **279 Einträge**<br>[Liste](lists/device-control/groups/computer/restrict.txt) | **28 Einträge**<br>[Liste](lists/device-control/groups/computer/updates.txt) |
+| 📺 **TV / Streaming-Geräte** | 14.077 | **14.047 Einträge**<br>[Liste](lists/device-control/groups/tv-streaming/privacy.txt) | **14.061 Einträge**<br>[Liste](lists/device-control/groups/tv-streaming/restrict.txt) | **16 Einträge**<br>[Liste](lists/device-control/groups/tv-streaming/updates.txt) |
+| 📱 **Handy / Tablet** | 13.811 | **13.773 Einträge**<br>[Liste](lists/device-control/groups/mobile-tablet/privacy.txt) | **13.782 Einträge**<br>[Liste](lists/device-control/groups/mobile-tablet/restrict.txt) | **29 Einträge**<br>[Liste](lists/device-control/groups/mobile-tablet/updates.txt) |
+| 🏠 **Smart Home / IoT** | 446 | **417 Einträge**<br>[Liste](lists/device-control/groups/smart-home-iot/privacy.txt) | **434 Einträge**<br>[Liste](lists/device-control/groups/smart-home-iot/restrict.txt) | **12 Einträge**<br>[Liste](lists/device-control/groups/smart-home-iot/updates.txt) |
+| 💾 **NAS / Server** | 17 | **14 Einträge**<br>[Liste](lists/device-control/groups/nas-server/privacy.txt) | **17 Einträge**<br>[Liste](lists/device-control/groups/nas-server/restrict.txt) | **0 Einträge**<br>[Liste](lists/device-control/groups/nas-server/updates.txt) |
+| 🌐 **Router / Netzwerkgeräte** | 70 | **57 Einträge**<br>[Liste](lists/device-control/groups/network/privacy.txt) | **67 Einträge**<br>[Liste](lists/device-control/groups/network/restrict.txt) | **3 Einträge**<br>[Liste](lists/device-control/groups/network/updates.txt) |
+| 🎮 **Konsole / Gaming-Geräte** | 6 | **5 Einträge**<br>[Liste](lists/device-control/groups/gaming-devices/privacy.txt) | **6 Einträge**<br>[Liste](lists/device-control/groups/gaming-devices/restrict.txt) | **0 Einträge**<br>[Liste](lists/device-control/groups/gaming-devices/updates.txt) |
+| 🗣️ **Sprachassistenten** | 13.926 | **13.846 Einträge**<br>[Liste](lists/device-control/groups/voice-assistants/privacy.txt) | **13.882 Einträge**<br>[Liste](lists/device-control/groups/voice-assistants/restrict.txt) | **44 Einträge**<br>[Liste](lists/device-control/groups/voice-assistants/updates.txt) |
+| 🧩 **All-in** | 14.633 | **14.523 Einträge**<br>**[Alle Privacy-Listen](lists/device-control/all-in/privacy.txt)** | **14.577 Einträge**<br>**[Alle Restrict-Listen](lists/device-control/all-in/restrict.txt)** | **56 Einträge**<br>**[Alle Update-Blocklisten](lists/device-control/all-in/updates.txt)** |
 
 <details>
 <summary><strong>📂 Einzelne Geräte-, System- & Herstellerlisten anzeigen</strong></summary>
 
 | Name | Einträge | 🛡️ Privacy | ⚠️ Restrict | 🔄 Updates blockieren |
 | --- | :---: | :---: | :---: | :---: |
-| 🪟 **Windows** | 🛡️ Privacy: 204<br>⚠️ Restrict: 225<br>🔄 Updates blockieren: 21 | [Liste](lists/device-control/windows/privacy.txt) | [Liste](lists/device-control/windows/restrict.txt) | [Liste](lists/device-control/windows/updates.txt) |
-| 🤖 **Android** | 🛡️ Privacy: 13.440<br>⚠️ Restrict: 13.442<br>🔄 Updates blockieren: 11 | [Liste](lists/device-control/android/privacy.txt) | [Liste](lists/device-control/android/restrict.txt) | [Liste](lists/device-control/android/updates.txt) |
-| 📱 **Google / Pixel** | 🛡️ Privacy: 13.440<br>⚠️ Restrict: 13.442<br>🔄 Updates blockieren: 11 | [Liste](lists/device-control/google-pixel/privacy.txt) | [Liste](lists/device-control/google-pixel/restrict.txt) | [Liste](lists/device-control/google-pixel/updates.txt) |
-| 📱 **Samsung Mobile** | 🛡️ Privacy: 111<br>⚠️ Restrict: 112<br>🔄 Updates blockieren: 1 | [Liste](lists/device-control/samsung-mobile/privacy.txt) | [Liste](lists/device-control/samsung-mobile/restrict.txt) | [Liste](lists/device-control/samsung-mobile/updates.txt) |
-| 📱 **Huawei** | 🛡️ Privacy: 16<br>⚠️ Restrict: 16<br>🔄 Updates blockieren: 1 | [Liste](lists/device-control/huawei/privacy.txt) | [Liste](lists/device-control/huawei/restrict.txt) | [Liste](lists/device-control/huawei/updates.txt) |
-| 📱 **Xiaomi** | 🛡️ Privacy: 121<br>⚠️ Restrict: 126<br>🔄 Updates blockieren: 7 | [Liste](lists/device-control/xiaomi/privacy.txt) | [Liste](lists/device-control/xiaomi/restrict.txt) | [Liste](lists/device-control/xiaomi/updates.txt) |
-| 📱 **OPPO / Realme** | 🛡️ Privacy: 39<br>⚠️ Restrict: 39<br>🔄 Updates blockieren: 1 | [Liste](lists/device-control/oppo-realme/privacy.txt) | [Liste](lists/device-control/oppo-realme/restrict.txt) | [Liste](lists/device-control/oppo-realme/updates.txt) |
-| 📱 **Vivo** | 🛡️ Privacy: 4<br>⚠️ Restrict: 4<br>🔄 Updates blockieren: 1 | [Liste](lists/device-control/vivo/privacy.txt) | [Liste](lists/device-control/vivo/restrict.txt) | [Liste](lists/device-control/vivo/updates.txt) |
-| 🍎 **Apple / iOS / macOS** | 🛡️ Privacy: 52<br>⚠️ Restrict: 53<br>🔄 Updates blockieren: 7 | [Liste](lists/device-control/apple/privacy.txt) | [Liste](lists/device-control/apple/restrict.txt) | [Liste](lists/device-control/apple/updates.txt) |
-| 🐧 **Linux** | 🛡️ Privacy: 1<br>⚠️ Restrict: 1<br>🔄 Updates blockieren: 0 | [Liste](lists/device-control/linux/privacy.txt) | [Liste](lists/device-control/linux/restrict.txt) | [Liste](lists/device-control/linux/updates.txt) |
-| 📺 **Samsung TV** | 🛡️ Privacy: 113<br>⚠️ Restrict: 114<br>🔄 Updates blockieren: 1 | [Liste](lists/device-control/smart-tv/samsung/privacy.txt) | [Liste](lists/device-control/smart-tv/samsung/restrict.txt) | [Liste](lists/device-control/smart-tv/samsung/updates.txt) |
-| 📺 **LG webOS** | 🛡️ Privacy: 332<br>⚠️ Restrict: 332<br>🔄 Updates blockieren: 0 | [Liste](lists/device-control/smart-tv/lg/privacy.txt) | [Liste](lists/device-control/smart-tv/lg/restrict.txt) | [Liste](lists/device-control/smart-tv/lg/updates.txt) |
-| 📺 **Roku** | 🛡️ Privacy: 5<br>⚠️ Restrict: 5<br>🔄 Updates blockieren: 0 | [Liste](lists/device-control/smart-tv/roku/privacy.txt) | [Liste](lists/device-control/smart-tv/roku/restrict.txt) | [Liste](lists/device-control/smart-tv/roku/updates.txt) |
-| 🔥 **Fire TV** | 🛡️ Privacy: 159<br>⚠️ Restrict: 170<br>🔄 Updates blockieren: 4 | [Liste](lists/device-control/smart-tv/fire-tv/privacy.txt) | [Liste](lists/device-control/smart-tv/fire-tv/restrict.txt) | [Liste](lists/device-control/smart-tv/fire-tv/updates.txt) |
-| 📦 **Amazon Geräte / Alexa** | 🛡️ Privacy: 159<br>⚠️ Restrict: 170<br>🔄 Updates blockieren: 4 | [Liste](lists/device-control/amazon/privacy.txt) | [Liste](lists/device-control/amazon/restrict.txt) | [Liste](lists/device-control/amazon/updates.txt) |
-| 📺 **Android TV / Google TV** | 🛡️ Privacy: 13.438<br>⚠️ Restrict: 13.440<br>🔄 Updates blockieren: 11 | [Liste](lists/device-control/smart-tv/android-tv/privacy.txt) | [Liste](lists/device-control/smart-tv/android-tv/restrict.txt) | [Liste](lists/device-control/smart-tv/android-tv/updates.txt) |
-| 🏠 **IoT / Smart Home** | 🛡️ Privacy: 417<br>⚠️ Restrict: 434<br>🔄 Updates blockieren: 12 | [Liste](lists/device-control/iot/privacy.txt) | [Liste](lists/device-control/iot/restrict.txt) | [Liste](lists/device-control/iot/updates.txt) |
-| 💾 **NAS** | 🛡️ Privacy: 14<br>⚠️ Restrict: 17<br>🔄 Updates blockieren: 0 | [Liste](lists/device-control/nas/privacy.txt) | [Liste](lists/device-control/nas/restrict.txt) | [Liste](lists/device-control/nas/updates.txt) |
-| 🖥️ **Server** | 🛡️ Privacy: 14<br>⚠️ Restrict: 17<br>🔄 Updates blockieren: 0 | [Liste](lists/device-control/server/privacy.txt) | [Liste](lists/device-control/server/restrict.txt) | [Liste](lists/device-control/server/updates.txt) |
-| 🌐 **Router / Netzwerkgeräte** | 🛡️ Privacy: 57<br>⚠️ Restrict: 67<br>🔄 Updates blockieren: 3 | [Liste](lists/device-control/router/privacy.txt) | [Liste](lists/device-control/router/restrict.txt) | [Liste](lists/device-control/router/updates.txt) |
-| 🎮 **Xbox** | 🛡️ Privacy: 0<br>⚠️ Restrict: 0<br>🔄 Updates blockieren: 0 | [Liste](lists/device-control/gaming/xbox/privacy.txt) | [Liste](lists/device-control/gaming/xbox/restrict.txt) | [Liste](lists/device-control/gaming/xbox/updates.txt) |
-| 🎮 **PlayStation** | 🛡️ Privacy: 4<br>⚠️ Restrict: 4<br>🔄 Updates blockieren: 0 | [Liste](lists/device-control/gaming/playstation/privacy.txt) | [Liste](lists/device-control/gaming/playstation/restrict.txt) | [Liste](lists/device-control/gaming/playstation/updates.txt) |
-| 🎮 **Nintendo** | 🛡️ Privacy: 1<br>⚠️ Restrict: 2<br>🔄 Updates blockieren: 0 | [Liste](lists/device-control/gaming/nintendo/privacy.txt) | [Liste](lists/device-control/gaming/nintendo/restrict.txt) | [Liste](lists/device-control/gaming/nintendo/updates.txt) |
-| 🗣️ **Sprachassistenten** | 🛡️ Privacy: 13.846<br>⚠️ Restrict: 13.882<br>🔄 Updates blockieren: 44 | [Liste](lists/device-control/voice-assistants/privacy.txt) | [Liste](lists/device-control/voice-assistants/restrict.txt) | [Liste](lists/device-control/voice-assistants/updates.txt) |
+| 🪟 **Windows** | 246 | **204 Einträge**<br>[Liste](lists/device-control/windows/privacy.txt) | **225 Einträge**<br>[Liste](lists/device-control/windows/restrict.txt) | **21 Einträge**<br>[Liste](lists/device-control/windows/updates.txt) |
+| 🤖 **Android** | 13.453 | **13.440 Einträge**<br>[Liste](lists/device-control/android/privacy.txt) | **13.442 Einträge**<br>[Liste](lists/device-control/android/restrict.txt) | **11 Einträge**<br>[Liste](lists/device-control/android/updates.txt) |
+| 📱 **Google / Pixel** | 13.453 | **13.440 Einträge**<br>[Liste](lists/device-control/google-pixel/privacy.txt) | **13.442 Einträge**<br>[Liste](lists/device-control/google-pixel/restrict.txt) | **11 Einträge**<br>[Liste](lists/device-control/google-pixel/updates.txt) |
+| 📱 **Samsung Mobile** | 113 | **111 Einträge**<br>[Liste](lists/device-control/samsung-mobile/privacy.txt) | **112 Einträge**<br>[Liste](lists/device-control/samsung-mobile/restrict.txt) | **1 Einträge**<br>[Liste](lists/device-control/samsung-mobile/updates.txt) |
+| 📱 **Huawei** | 17 | **16 Einträge**<br>[Liste](lists/device-control/huawei/privacy.txt) | **16 Einträge**<br>[Liste](lists/device-control/huawei/restrict.txt) | **1 Einträge**<br>[Liste](lists/device-control/huawei/updates.txt) |
+| 📱 **Xiaomi** | 133 | **121 Einträge**<br>[Liste](lists/device-control/xiaomi/privacy.txt) | **126 Einträge**<br>[Liste](lists/device-control/xiaomi/restrict.txt) | **7 Einträge**<br>[Liste](lists/device-control/xiaomi/updates.txt) |
+| 📱 **OPPO / Realme** | 40 | **39 Einträge**<br>[Liste](lists/device-control/oppo-realme/privacy.txt) | **39 Einträge**<br>[Liste](lists/device-control/oppo-realme/restrict.txt) | **1 Einträge**<br>[Liste](lists/device-control/oppo-realme/updates.txt) |
+| 📱 **Vivo** | 5 | **4 Einträge**<br>[Liste](lists/device-control/vivo/privacy.txt) | **4 Einträge**<br>[Liste](lists/device-control/vivo/restrict.txt) | **1 Einträge**<br>[Liste](lists/device-control/vivo/updates.txt) |
+| 🍎 **Apple / iOS / macOS** | 60 | **52 Einträge**<br>[Liste](lists/device-control/apple/privacy.txt) | **53 Einträge**<br>[Liste](lists/device-control/apple/restrict.txt) | **7 Einträge**<br>[Liste](lists/device-control/apple/updates.txt) |
+| 🐧 **Linux** | 1 | **1 Einträge**<br>[Liste](lists/device-control/linux/privacy.txt) | **1 Einträge**<br>[Liste](lists/device-control/linux/restrict.txt) | **0 Einträge**<br>[Liste](lists/device-control/linux/updates.txt) |
+| 📺 **Samsung TV** | 115 | **113 Einträge**<br>[Liste](lists/device-control/smart-tv/samsung/privacy.txt) | **114 Einträge**<br>[Liste](lists/device-control/smart-tv/samsung/restrict.txt) | **1 Einträge**<br>[Liste](lists/device-control/smart-tv/samsung/updates.txt) |
+| 📺 **LG webOS** | 332 | **332 Einträge**<br>[Liste](lists/device-control/smart-tv/lg/privacy.txt) | **332 Einträge**<br>[Liste](lists/device-control/smart-tv/lg/restrict.txt) | **0 Einträge**<br>[Liste](lists/device-control/smart-tv/lg/updates.txt) |
+| 📺 **Roku** | 5 | **5 Einträge**<br>[Liste](lists/device-control/smart-tv/roku/privacy.txt) | **5 Einträge**<br>[Liste](lists/device-control/smart-tv/roku/restrict.txt) | **0 Einträge**<br>[Liste](lists/device-control/smart-tv/roku/updates.txt) |
+| 🔥 **Fire TV** | 174 | **159 Einträge**<br>[Liste](lists/device-control/smart-tv/fire-tv/privacy.txt) | **170 Einträge**<br>[Liste](lists/device-control/smart-tv/fire-tv/restrict.txt) | **4 Einträge**<br>[Liste](lists/device-control/smart-tv/fire-tv/updates.txt) |
+| 📦 **Amazon Geräte / Alexa** | 174 | **159 Einträge**<br>[Liste](lists/device-control/amazon/privacy.txt) | **170 Einträge**<br>[Liste](lists/device-control/amazon/restrict.txt) | **4 Einträge**<br>[Liste](lists/device-control/amazon/updates.txt) |
+| 📺 **Android TV / Google TV** | 13.451 | **13.438 Einträge**<br>[Liste](lists/device-control/smart-tv/android-tv/privacy.txt) | **13.440 Einträge**<br>[Liste](lists/device-control/smart-tv/android-tv/restrict.txt) | **11 Einträge**<br>[Liste](lists/device-control/smart-tv/android-tv/updates.txt) |
+| 🏠 **IoT / Smart Home** | 446 | **417 Einträge**<br>[Liste](lists/device-control/iot/privacy.txt) | **434 Einträge**<br>[Liste](lists/device-control/iot/restrict.txt) | **12 Einträge**<br>[Liste](lists/device-control/iot/updates.txt) |
+| 💾 **NAS** | 17 | **14 Einträge**<br>[Liste](lists/device-control/nas/privacy.txt) | **17 Einträge**<br>[Liste](lists/device-control/nas/restrict.txt) | **0 Einträge**<br>[Liste](lists/device-control/nas/updates.txt) |
+| 🖥️ **Server** | 17 | **14 Einträge**<br>[Liste](lists/device-control/server/privacy.txt) | **17 Einträge**<br>[Liste](lists/device-control/server/restrict.txt) | **0 Einträge**<br>[Liste](lists/device-control/server/updates.txt) |
+| 🌐 **Router / Netzwerkgeräte** | 70 | **57 Einträge**<br>[Liste](lists/device-control/router/privacy.txt) | **67 Einträge**<br>[Liste](lists/device-control/router/restrict.txt) | **3 Einträge**<br>[Liste](lists/device-control/router/updates.txt) |
+| 🎮 **Xbox** | 0 | **0 Einträge**<br>[Liste](lists/device-control/gaming/xbox/privacy.txt) | **0 Einträge**<br>[Liste](lists/device-control/gaming/xbox/restrict.txt) | **0 Einträge**<br>[Liste](lists/device-control/gaming/xbox/updates.txt) |
+| 🎮 **PlayStation** | 4 | **4 Einträge**<br>[Liste](lists/device-control/gaming/playstation/privacy.txt) | **4 Einträge**<br>[Liste](lists/device-control/gaming/playstation/restrict.txt) | **0 Einträge**<br>[Liste](lists/device-control/gaming/playstation/updates.txt) |
+| 🎮 **Nintendo** | 2 | **1 Einträge**<br>[Liste](lists/device-control/gaming/nintendo/privacy.txt) | **2 Einträge**<br>[Liste](lists/device-control/gaming/nintendo/restrict.txt) | **0 Einträge**<br>[Liste](lists/device-control/gaming/nintendo/updates.txt) |
+| 🗣️ **Sprachassistenten** | 13.926 | **13.846 Einträge**<br>[Liste](lists/device-control/voice-assistants/privacy.txt) | **13.882 Einträge**<br>[Liste](lists/device-control/voice-assistants/restrict.txt) | **44 Einträge**<br>[Liste](lists/device-control/voice-assistants/updates.txt) |
 
 </details>
 
@@ -656,12 +656,12 @@ Du möchtest nicht jeden Hersteller einzeln auswählen? Dann kannst du komplette
 
 | Provider | Einträge | 🛡️ Privacy | ⚠️ Restrict | 🔄 Updates blockieren |
 | --- | :---: | :---: | :---: | :---: |
-| **1&1** | 🛡️ Privacy: 2<br>⚠️ Restrict: 2<br>🔄 Updates blockieren: 0 | [Liste](lists/device-control/providers/1und1/privacy.txt) | [Liste](lists/device-control/providers/1und1/restrict.txt) | [Liste](lists/device-control/providers/1und1/updates.txt) |
-| **Deutsche Glasfaser** | 🛡️ Privacy: 6<br>⚠️ Restrict: 6<br>🔄 Updates blockieren: 0 | [Liste](lists/device-control/providers/deutsche-glasfaser/privacy.txt) | [Liste](lists/device-control/providers/deutsche-glasfaser/restrict.txt) | [Liste](lists/device-control/providers/deutsche-glasfaser/updates.txt) |
-| **O2** | 🛡️ Privacy: 3<br>⚠️ Restrict: 4<br>🔄 Updates blockieren: 0 | [Liste](lists/device-control/providers/o2/privacy.txt) | [Liste](lists/device-control/providers/o2/restrict.txt) | [Liste](lists/device-control/providers/o2/updates.txt) |
-| **Telekom** | 🛡️ Privacy: 6<br>⚠️ Restrict: 6<br>🔄 Updates blockieren: 0 | [Liste](lists/device-control/providers/telekom/privacy.txt) | [Liste](lists/device-control/providers/telekom/restrict.txt) | [Liste](lists/device-control/providers/telekom/updates.txt) |
-| **Unitymedia** | 🛡️ Privacy: 4<br>⚠️ Restrict: 4<br>🔄 Updates blockieren: 0 | [Liste](lists/device-control/providers/unitymedia/privacy.txt) | [Liste](lists/device-control/providers/unitymedia/restrict.txt) | [Liste](lists/device-control/providers/unitymedia/updates.txt) |
-| **Vodafone** | 🛡️ Privacy: 22<br>⚠️ Restrict: 22<br>🔄 Updates blockieren: 3 | [Liste](lists/device-control/providers/vodafone/privacy.txt) | [Liste](lists/device-control/providers/vodafone/restrict.txt) | [Liste](lists/device-control/providers/vodafone/updates.txt) |
+| **1&1** | 2 | **2 Einträge**<br>[Liste](lists/device-control/providers/1und1/privacy.txt) | **2 Einträge**<br>[Liste](lists/device-control/providers/1und1/restrict.txt) | **0 Einträge**<br>[Liste](lists/device-control/providers/1und1/updates.txt) |
+| **Deutsche Glasfaser** | 6 | **6 Einträge**<br>[Liste](lists/device-control/providers/deutsche-glasfaser/privacy.txt) | **6 Einträge**<br>[Liste](lists/device-control/providers/deutsche-glasfaser/restrict.txt) | **0 Einträge**<br>[Liste](lists/device-control/providers/deutsche-glasfaser/updates.txt) |
+| **O2** | 4 | **3 Einträge**<br>[Liste](lists/device-control/providers/o2/privacy.txt) | **4 Einträge**<br>[Liste](lists/device-control/providers/o2/restrict.txt) | **0 Einträge**<br>[Liste](lists/device-control/providers/o2/updates.txt) |
+| **Telekom** | 6 | **6 Einträge**<br>[Liste](lists/device-control/providers/telekom/privacy.txt) | **6 Einträge**<br>[Liste](lists/device-control/providers/telekom/restrict.txt) | **0 Einträge**<br>[Liste](lists/device-control/providers/telekom/updates.txt) |
+| **Unitymedia** | 4 | **4 Einträge**<br>[Liste](lists/device-control/providers/unitymedia/privacy.txt) | **4 Einträge**<br>[Liste](lists/device-control/providers/unitymedia/restrict.txt) | **0 Einträge**<br>[Liste](lists/device-control/providers/unitymedia/updates.txt) |
+| **Vodafone** | 25 | **22 Einträge**<br>[Liste](lists/device-control/providers/vodafone/privacy.txt) | **22 Einträge**<br>[Liste](lists/device-control/providers/vodafone/restrict.txt) | **3 Einträge**<br>[Liste](lists/device-control/providers/vodafone/updates.txt) |
 
 ### Fertige Provider-Profile
 | Profil | Einträge | Liste |
@@ -679,10 +679,10 @@ Du möchtest nicht jeden Hersteller einzeln auswählen? Dann kannst du komplette
 
 | Ökosystem | Einträge | 🛡️ Privacy | ⚠️ Restrict | 🔄 Updates blockieren |
 | --- | :---: | :---: | :---: | :---: |
-| **Amazon** | 🛡️ Privacy: 159<br>⚠️ Restrict: 170<br>🔄 Updates blockieren: 4 | [Liste](lists/device-control/ecosystems/amazon/privacy.txt) | [Liste](lists/device-control/ecosystems/amazon/restrict.txt) | [Liste](lists/device-control/ecosystems/amazon/updates.txt) |
-| **Apple** | 🛡️ Privacy: 52<br>⚠️ Restrict: 53<br>🔄 Updates blockieren: 7 | [Liste](lists/device-control/ecosystems/apple/privacy.txt) | [Liste](lists/device-control/ecosystems/apple/restrict.txt) | [Liste](lists/device-control/ecosystems/apple/updates.txt) |
-| **Google** | 🛡️ Privacy: 13.438<br>⚠️ Restrict: 13.440<br>🔄 Updates blockieren: 11 | [Liste](lists/device-control/ecosystems/google/privacy.txt) | [Liste](lists/device-control/ecosystems/google/restrict.txt) | [Liste](lists/device-control/ecosystems/google/updates.txt) |
-| **Microsoft** | 🛡️ Privacy: 202<br>⚠️ Restrict: 223<br>🔄 Updates blockieren: 21 | [Liste](lists/device-control/ecosystems/microsoft/privacy.txt) | [Liste](lists/device-control/ecosystems/microsoft/restrict.txt) | [Liste](lists/device-control/ecosystems/microsoft/updates.txt) |
+| **Amazon** | 174 | **159 Einträge**<br>[Liste](lists/device-control/ecosystems/amazon/privacy.txt) | **170 Einträge**<br>[Liste](lists/device-control/ecosystems/amazon/restrict.txt) | **4 Einträge**<br>[Liste](lists/device-control/ecosystems/amazon/updates.txt) |
+| **Apple** | 60 | **52 Einträge**<br>[Liste](lists/device-control/ecosystems/apple/privacy.txt) | **53 Einträge**<br>[Liste](lists/device-control/ecosystems/apple/restrict.txt) | **7 Einträge**<br>[Liste](lists/device-control/ecosystems/apple/updates.txt) |
+| **Google** | 13.451 | **13.438 Einträge**<br>[Liste](lists/device-control/ecosystems/google/privacy.txt) | **13.440 Einträge**<br>[Liste](lists/device-control/ecosystems/google/restrict.txt) | **11 Einträge**<br>[Liste](lists/device-control/ecosystems/google/updates.txt) |
+| **Microsoft** | 244 | **202 Einträge**<br>[Liste](lists/device-control/ecosystems/microsoft/privacy.txt) | **223 Einträge**<br>[Liste](lists/device-control/ecosystems/microsoft/restrict.txt) | **21 Einträge**<br>[Liste](lists/device-control/ecosystems/microsoft/updates.txt) |
 
 </details>
 
@@ -691,28 +691,28 @@ Du möchtest nicht jeden Hersteller einzeln auswählen? Dann kannst du komplette
 
 | Hersteller | Einträge | 🛡️ Privacy | ⚠️ Restrict | 🔄 Updates blockieren |
 | --- | :---: | :---: | :---: | :---: |
-| Adobe | 🛡️ Privacy: 34<br>⚠️ Restrict: 38<br>🔄 Updates blockieren: 0 | [Liste](lists/device-control/manufacturers/adobe/privacy.txt) | [Liste](lists/device-control/manufacturers/adobe/restrict.txt) | [Liste](lists/device-control/manufacturers/adobe/updates.txt) |
-| Amazon | 🛡️ Privacy: 159<br>⚠️ Restrict: 170<br>🔄 Updates blockieren: 4 | [Liste](lists/device-control/manufacturers/amazon/privacy.txt) | [Liste](lists/device-control/manufacturers/amazon/restrict.txt) | [Liste](lists/device-control/manufacturers/amazon/updates.txt) |
-| AMD | 🛡️ Privacy: 1<br>⚠️ Restrict: 2<br>🔄 Updates blockieren: 0 | [Liste](lists/device-control/manufacturers/amd/privacy.txt) | [Liste](lists/device-control/manufacturers/amd/restrict.txt) | [Liste](lists/device-control/manufacturers/amd/updates.txt) |
-| Apple | 🛡️ Privacy: 51<br>⚠️ Restrict: 52<br>🔄 Updates blockieren: 7 | [Liste](lists/device-control/manufacturers/apple/privacy.txt) | [Liste](lists/device-control/manufacturers/apple/restrict.txt) | [Liste](lists/device-control/manufacturers/apple/updates.txt) |
-| Autodesk | 🛡️ Privacy: 7<br>⚠️ Restrict: 7<br>🔄 Updates blockieren: 0 | [Liste](lists/device-control/manufacturers/autodesk/privacy.txt) | [Liste](lists/device-control/manufacturers/autodesk/restrict.txt) | [Liste](lists/device-control/manufacturers/autodesk/updates.txt) |
-| EA | 🛡️ Privacy: 37<br>⚠️ Restrict: 39<br>🔄 Updates blockieren: 0 | [Liste](lists/device-control/manufacturers/ea/privacy.txt) | [Liste](lists/device-control/manufacturers/ea/restrict.txt) | [Liste](lists/device-control/manufacturers/ea/updates.txt) |
-| Epic | 🛡️ Privacy: 5<br>⚠️ Restrict: 5<br>🔄 Updates blockieren: 0 | [Liste](lists/device-control/manufacturers/epic/privacy.txt) | [Liste](lists/device-control/manufacturers/epic/restrict.txt) | [Liste](lists/device-control/manufacturers/epic/updates.txt) |
-| Google | 🛡️ Privacy: 13.438<br>⚠️ Restrict: 13.440<br>🔄 Updates blockieren: 11 | [Liste](lists/device-control/manufacturers/google/privacy.txt) | [Liste](lists/device-control/manufacturers/google/restrict.txt) | [Liste](lists/device-control/manufacturers/google/updates.txt) |
-| Huawei | 🛡️ Privacy: 12<br>⚠️ Restrict: 12<br>🔄 Updates blockieren: 0 | [Liste](lists/device-control/manufacturers/huawei/privacy.txt) | [Liste](lists/device-control/manufacturers/huawei/restrict.txt) | [Liste](lists/device-control/manufacturers/huawei/updates.txt) |
-| LG | 🛡️ Privacy: 329<br>⚠️ Restrict: 329<br>🔄 Updates blockieren: 0 | [Liste](lists/device-control/manufacturers/lg/privacy.txt) | [Liste](lists/device-control/manufacturers/lg/restrict.txt) | [Liste](lists/device-control/manufacturers/lg/updates.txt) |
-| Logitech | 🛡️ Privacy: 4<br>⚠️ Restrict: 4<br>🔄 Updates blockieren: 0 | [Liste](lists/device-control/manufacturers/logitech/privacy.txt) | [Liste](lists/device-control/manufacturers/logitech/restrict.txt) | [Liste](lists/device-control/manufacturers/logitech/updates.txt) |
-| Meta | 🛡️ Privacy: 12<br>⚠️ Restrict: 13<br>🔄 Updates blockieren: 2 | [Liste](lists/device-control/manufacturers/meta/privacy.txt) | [Liste](lists/device-control/manufacturers/meta/restrict.txt) | [Liste](lists/device-control/manufacturers/meta/updates.txt) |
-| Microsoft | 🛡️ Privacy: 196<br>⚠️ Restrict: 217<br>🔄 Updates blockieren: 21 | [Liste](lists/device-control/manufacturers/microsoft/privacy.txt) | [Liste](lists/device-control/manufacturers/microsoft/restrict.txt) | [Liste](lists/device-control/manufacturers/microsoft/updates.txt) |
-| Nintendo | 🛡️ Privacy: 3<br>⚠️ Restrict: 4<br>🔄 Updates blockieren: 0 | [Liste](lists/device-control/manufacturers/nintendo/privacy.txt) | [Liste](lists/device-control/manufacturers/nintendo/restrict.txt) | [Liste](lists/device-control/manufacturers/nintendo/updates.txt) |
-| Nvidia | 🛡️ Privacy: 8<br>⚠️ Restrict: 8<br>🔄 Updates blockieren: 0 | [Liste](lists/device-control/manufacturers/nvidia/privacy.txt) | [Liste](lists/device-control/manufacturers/nvidia/restrict.txt) | [Liste](lists/device-control/manufacturers/nvidia/updates.txt) |
-| Philips | 🛡️ Privacy: 63<br>⚠️ Restrict: 63<br>🔄 Updates blockieren: 0 | [Liste](lists/device-control/manufacturers/philips/privacy.txt) | [Liste](lists/device-control/manufacturers/philips/restrict.txt) | [Liste](lists/device-control/manufacturers/philips/updates.txt) |
-| Razer | 🛡️ Privacy: 3<br>⚠️ Restrict: 3<br>🔄 Updates blockieren: 0 | [Liste](lists/device-control/manufacturers/razer/privacy.txt) | [Liste](lists/device-control/manufacturers/razer/restrict.txt) | [Liste](lists/device-control/manufacturers/razer/updates.txt) |
-| Samsung | 🛡️ Privacy: 111<br>⚠️ Restrict: 112<br>🔄 Updates blockieren: 1 | [Liste](lists/device-control/manufacturers/samsung/privacy.txt) | [Liste](lists/device-control/manufacturers/samsung/restrict.txt) | [Liste](lists/device-control/manufacturers/samsung/updates.txt) |
-| Sony | 🛡️ Privacy: 26<br>⚠️ Restrict: 26<br>🔄 Updates blockieren: 0 | [Liste](lists/device-control/manufacturers/sony/privacy.txt) | [Liste](lists/device-control/manufacturers/sony/restrict.txt) | [Liste](lists/device-control/manufacturers/sony/updates.txt) |
-| Ubisoft | 🛡️ Privacy: 6<br>⚠️ Restrict: 6<br>🔄 Updates blockieren: 0 | [Liste](lists/device-control/manufacturers/ubisoft/privacy.txt) | [Liste](lists/device-control/manufacturers/ubisoft/restrict.txt) | [Liste](lists/device-control/manufacturers/ubisoft/updates.txt) |
-| Valve / Steam | 🛡️ Privacy: 4<br>⚠️ Restrict: 4<br>🔄 Updates blockieren: 0 | [Liste](lists/device-control/manufacturers/valve-steam/privacy.txt) | [Liste](lists/device-control/manufacturers/valve-steam/restrict.txt) | [Liste](lists/device-control/manufacturers/valve-steam/updates.txt) |
-| Xiaomi | 🛡️ Privacy: 121<br>⚠️ Restrict: 126<br>🔄 Updates blockieren: 7 | [Liste](lists/device-control/manufacturers/xiaomi/privacy.txt) | [Liste](lists/device-control/manufacturers/xiaomi/restrict.txt) | [Liste](lists/device-control/manufacturers/xiaomi/updates.txt) |
+| Adobe | 38 | **34 Einträge**<br>[Liste](lists/device-control/manufacturers/adobe/privacy.txt) | **38 Einträge**<br>[Liste](lists/device-control/manufacturers/adobe/restrict.txt) | **0 Einträge**<br>[Liste](lists/device-control/manufacturers/adobe/updates.txt) |
+| Amazon | 174 | **159 Einträge**<br>[Liste](lists/device-control/manufacturers/amazon/privacy.txt) | **170 Einträge**<br>[Liste](lists/device-control/manufacturers/amazon/restrict.txt) | **4 Einträge**<br>[Liste](lists/device-control/manufacturers/amazon/updates.txt) |
+| AMD | 2 | **1 Einträge**<br>[Liste](lists/device-control/manufacturers/amd/privacy.txt) | **2 Einträge**<br>[Liste](lists/device-control/manufacturers/amd/restrict.txt) | **0 Einträge**<br>[Liste](lists/device-control/manufacturers/amd/updates.txt) |
+| Apple | 59 | **51 Einträge**<br>[Liste](lists/device-control/manufacturers/apple/privacy.txt) | **52 Einträge**<br>[Liste](lists/device-control/manufacturers/apple/restrict.txt) | **7 Einträge**<br>[Liste](lists/device-control/manufacturers/apple/updates.txt) |
+| Autodesk | 7 | **7 Einträge**<br>[Liste](lists/device-control/manufacturers/autodesk/privacy.txt) | **7 Einträge**<br>[Liste](lists/device-control/manufacturers/autodesk/restrict.txt) | **0 Einträge**<br>[Liste](lists/device-control/manufacturers/autodesk/updates.txt) |
+| EA | 39 | **37 Einträge**<br>[Liste](lists/device-control/manufacturers/ea/privacy.txt) | **39 Einträge**<br>[Liste](lists/device-control/manufacturers/ea/restrict.txt) | **0 Einträge**<br>[Liste](lists/device-control/manufacturers/ea/updates.txt) |
+| Epic | 5 | **5 Einträge**<br>[Liste](lists/device-control/manufacturers/epic/privacy.txt) | **5 Einträge**<br>[Liste](lists/device-control/manufacturers/epic/restrict.txt) | **0 Einträge**<br>[Liste](lists/device-control/manufacturers/epic/updates.txt) |
+| Google | 13.451 | **13.438 Einträge**<br>[Liste](lists/device-control/manufacturers/google/privacy.txt) | **13.440 Einträge**<br>[Liste](lists/device-control/manufacturers/google/restrict.txt) | **11 Einträge**<br>[Liste](lists/device-control/manufacturers/google/updates.txt) |
+| Huawei | 12 | **12 Einträge**<br>[Liste](lists/device-control/manufacturers/huawei/privacy.txt) | **12 Einträge**<br>[Liste](lists/device-control/manufacturers/huawei/restrict.txt) | **0 Einträge**<br>[Liste](lists/device-control/manufacturers/huawei/updates.txt) |
+| LG | 329 | **329 Einträge**<br>[Liste](lists/device-control/manufacturers/lg/privacy.txt) | **329 Einträge**<br>[Liste](lists/device-control/manufacturers/lg/restrict.txt) | **0 Einträge**<br>[Liste](lists/device-control/manufacturers/lg/updates.txt) |
+| Logitech | 4 | **4 Einträge**<br>[Liste](lists/device-control/manufacturers/logitech/privacy.txt) | **4 Einträge**<br>[Liste](lists/device-control/manufacturers/logitech/restrict.txt) | **0 Einträge**<br>[Liste](lists/device-control/manufacturers/logitech/updates.txt) |
+| Meta | 15 | **12 Einträge**<br>[Liste](lists/device-control/manufacturers/meta/privacy.txt) | **13 Einträge**<br>[Liste](lists/device-control/manufacturers/meta/restrict.txt) | **2 Einträge**<br>[Liste](lists/device-control/manufacturers/meta/updates.txt) |
+| Microsoft | 238 | **196 Einträge**<br>[Liste](lists/device-control/manufacturers/microsoft/privacy.txt) | **217 Einträge**<br>[Liste](lists/device-control/manufacturers/microsoft/restrict.txt) | **21 Einträge**<br>[Liste](lists/device-control/manufacturers/microsoft/updates.txt) |
+| Nintendo | 4 | **3 Einträge**<br>[Liste](lists/device-control/manufacturers/nintendo/privacy.txt) | **4 Einträge**<br>[Liste](lists/device-control/manufacturers/nintendo/restrict.txt) | **0 Einträge**<br>[Liste](lists/device-control/manufacturers/nintendo/updates.txt) |
+| Nvidia | 8 | **8 Einträge**<br>[Liste](lists/device-control/manufacturers/nvidia/privacy.txt) | **8 Einträge**<br>[Liste](lists/device-control/manufacturers/nvidia/restrict.txt) | **0 Einträge**<br>[Liste](lists/device-control/manufacturers/nvidia/updates.txt) |
+| Philips | 63 | **63 Einträge**<br>[Liste](lists/device-control/manufacturers/philips/privacy.txt) | **63 Einträge**<br>[Liste](lists/device-control/manufacturers/philips/restrict.txt) | **0 Einträge**<br>[Liste](lists/device-control/manufacturers/philips/updates.txt) |
+| Razer | 3 | **3 Einträge**<br>[Liste](lists/device-control/manufacturers/razer/privacy.txt) | **3 Einträge**<br>[Liste](lists/device-control/manufacturers/razer/restrict.txt) | **0 Einträge**<br>[Liste](lists/device-control/manufacturers/razer/updates.txt) |
+| Samsung | 113 | **111 Einträge**<br>[Liste](lists/device-control/manufacturers/samsung/privacy.txt) | **112 Einträge**<br>[Liste](lists/device-control/manufacturers/samsung/restrict.txt) | **1 Einträge**<br>[Liste](lists/device-control/manufacturers/samsung/updates.txt) |
+| Sony | 26 | **26 Einträge**<br>[Liste](lists/device-control/manufacturers/sony/privacy.txt) | **26 Einträge**<br>[Liste](lists/device-control/manufacturers/sony/restrict.txt) | **0 Einträge**<br>[Liste](lists/device-control/manufacturers/sony/updates.txt) |
+| Ubisoft | 6 | **6 Einträge**<br>[Liste](lists/device-control/manufacturers/ubisoft/privacy.txt) | **6 Einträge**<br>[Liste](lists/device-control/manufacturers/ubisoft/restrict.txt) | **0 Einträge**<br>[Liste](lists/device-control/manufacturers/ubisoft/updates.txt) |
+| Valve / Steam | 4 | **4 Einträge**<br>[Liste](lists/device-control/manufacturers/valve-steam/privacy.txt) | **4 Einträge**<br>[Liste](lists/device-control/manufacturers/valve-steam/restrict.txt) | **0 Einträge**<br>[Liste](lists/device-control/manufacturers/valve-steam/updates.txt) |
+| Xiaomi | 133 | **121 Einträge**<br>[Liste](lists/device-control/manufacturers/xiaomi/privacy.txt) | **126 Einträge**<br>[Liste](lists/device-control/manufacturers/xiaomi/restrict.txt) | **7 Einträge**<br>[Liste](lists/device-control/manufacturers/xiaomi/updates.txt) |
 
 </details>
 
@@ -764,10 +764,10 @@ Unterstützt werden u. a. **Amazon Alexa, Huawei, Samsung SmartThings, Sonos, Xi
 
 | Dienst | Einträge | 🛡️ Privacy | ⚠️ Restrict | 🔄 Updates blockieren |
 | --- | :---: | :---: | :---: | :---: |
-| Alexa | 🛡️ Privacy: 159<br>⚠️ Restrict: 170<br>🔄 Updates blockieren: 4 | [Liste](lists/device-control/voice-assistants/alexa/privacy.txt) | [Liste](lists/device-control/voice-assistants/alexa/restrict.txt) | [Liste](lists/device-control/voice-assistants/alexa/updates.txt) |
-| Cortana | 🛡️ Privacy: 194<br>⚠️ Restrict: 215<br>🔄 Updates blockieren: 21 | [Liste](lists/device-control/voice-assistants/cortana/privacy.txt) | [Liste](lists/device-control/voice-assistants/cortana/restrict.txt) | [Liste](lists/device-control/voice-assistants/cortana/updates.txt) |
-| Google Assistant | 🛡️ Privacy: 13.438<br>⚠️ Restrict: 13.441<br>🔄 Updates blockieren: 11 | [Liste](lists/device-control/voice-assistants/google-assistant/privacy.txt) | [Liste](lists/device-control/voice-assistants/google-assistant/restrict.txt) | [Liste](lists/device-control/voice-assistants/google-assistant/updates.txt) |
-| Siri | 🛡️ Privacy: 55<br>⚠️ Restrict: 56<br>🔄 Updates blockieren: 8 | [Liste](lists/device-control/voice-assistants/siri/privacy.txt) | [Liste](lists/device-control/voice-assistants/siri/restrict.txt) | [Liste](lists/device-control/voice-assistants/siri/updates.txt) |
+| Alexa | 174 | **159 Einträge**<br>[Liste](lists/device-control/voice-assistants/alexa/privacy.txt) | **170 Einträge**<br>[Liste](lists/device-control/voice-assistants/alexa/restrict.txt) | **4 Einträge**<br>[Liste](lists/device-control/voice-assistants/alexa/updates.txt) |
+| Cortana | 236 | **194 Einträge**<br>[Liste](lists/device-control/voice-assistants/cortana/privacy.txt) | **215 Einträge**<br>[Liste](lists/device-control/voice-assistants/cortana/restrict.txt) | **21 Einträge**<br>[Liste](lists/device-control/voice-assistants/cortana/updates.txt) |
+| Google Assistant | 13.452 | **13.438 Einträge**<br>[Liste](lists/device-control/voice-assistants/google-assistant/privacy.txt) | **13.441 Einträge**<br>[Liste](lists/device-control/voice-assistants/google-assistant/restrict.txt) | **11 Einträge**<br>[Liste](lists/device-control/voice-assistants/google-assistant/updates.txt) |
+| Siri | 64 | **55 Einträge**<br>[Liste](lists/device-control/voice-assistants/siri/privacy.txt) | **56 Einträge**<br>[Liste](lists/device-control/voice-assistants/siri/restrict.txt) | **8 Einträge**<br>[Liste](lists/device-control/voice-assistants/siri/updates.txt) |
 
 </details>
 
@@ -840,18 +840,18 @@ Privacy- und Block-All-Listen für **Cloud-Plattformen, Hosting, CI/CD und Entwi
 
 | Dienst | Einträge | 🛡️ Privacy | 🚫 Block All |
 | --- | :---: | :---: | :---: |
-| AWS | 🛡️ Privacy: 125<br>🚫 Block All: 440 | [Liste](lists/service-blocking/cloud-development/aws/privacy.txt) | [Liste](lists/service-blocking/cloud-development/aws/block-all.txt) |
-| Azure | 🛡️ Privacy: 16<br>🚫 Block All: 186 | [Liste](lists/service-blocking/cloud-development/azure/privacy.txt) | [Liste](lists/service-blocking/cloud-development/azure/block-all.txt) |
-| CI/CD | 🛡️ Privacy: 0<br>🚫 Block All: 2 | [Liste](lists/service-blocking/cloud-development/cicd/privacy.txt) | [Liste](lists/service-blocking/cloud-development/cicd/block-all.txt) |
-| Cloud Storage | 🛡️ Privacy: 4<br>🚫 Block All: 12 | [Liste](lists/service-blocking/cloud-development/cloud-storage/privacy.txt) | [Liste](lists/service-blocking/cloud-development/cloud-storage/block-all.txt) |
-| Cloudflare | 🛡️ Privacy: 8<br>🚫 Block All: 33 | [Liste](lists/service-blocking/cloud-development/cloudflare/privacy.txt) | [Liste](lists/service-blocking/cloud-development/cloudflare/block-all.txt) |
-| GitHub | 🛡️ Privacy: 3<br>🚫 Block All: 18 | [Liste](lists/service-blocking/cloud-development/github/privacy.txt) | [Liste](lists/service-blocking/cloud-development/github/block-all.txt) |
-| GitLab | 🛡️ Privacy: 1<br>🚫 Block All: 3 | [Liste](lists/service-blocking/cloud-development/gitlab/privacy.txt) | [Liste](lists/service-blocking/cloud-development/gitlab/block-all.txt) |
-| Google Cloud | 🛡️ Privacy: 2<br>🚫 Block All: 49 | [Liste](lists/service-blocking/cloud-development/google-cloud/privacy.txt) | [Liste](lists/service-blocking/cloud-development/google-cloud/block-all.txt) |
-| JetBrains | 🛡️ Privacy: 1<br>🚫 Block All: 1 | [Liste](lists/service-blocking/cloud-development/jetbrains/privacy.txt) | [Liste](lists/service-blocking/cloud-development/jetbrains/block-all.txt) |
-| Oracle Cloud | 🛡️ Privacy: 3<br>🚫 Block All: 8 | [Liste](lists/service-blocking/cloud-development/oracle-cloud/privacy.txt) | [Liste](lists/service-blocking/cloud-development/oracle-cloud/block-all.txt) |
-| Visual Studio | 🛡️ Privacy: 1<br>🚫 Block All: 2 | [Liste](lists/service-blocking/cloud-development/visual-studio/privacy.txt) | [Liste](lists/service-blocking/cloud-development/visual-studio/block-all.txt) |
-| VS Code | 🛡️ Privacy: 1<br>🚫 Block All: 2 | [Liste](lists/service-blocking/cloud-development/vs-code/privacy.txt) | [Liste](lists/service-blocking/cloud-development/vs-code/block-all.txt) |
+| AWS | 440 | **125 Einträge**<br>[Liste](lists/service-blocking/cloud-development/aws/privacy.txt) | **440 Einträge**<br>[Liste](lists/service-blocking/cloud-development/aws/block-all.txt) |
+| Azure | 186 | **16 Einträge**<br>[Liste](lists/service-blocking/cloud-development/azure/privacy.txt) | **186 Einträge**<br>[Liste](lists/service-blocking/cloud-development/azure/block-all.txt) |
+| CI/CD | 2 | **0 Einträge**<br>[Liste](lists/service-blocking/cloud-development/cicd/privacy.txt) | **2 Einträge**<br>[Liste](lists/service-blocking/cloud-development/cicd/block-all.txt) |
+| Cloud Storage | 12 | **4 Einträge**<br>[Liste](lists/service-blocking/cloud-development/cloud-storage/privacy.txt) | **12 Einträge**<br>[Liste](lists/service-blocking/cloud-development/cloud-storage/block-all.txt) |
+| Cloudflare | 33 | **8 Einträge**<br>[Liste](lists/service-blocking/cloud-development/cloudflare/privacy.txt) | **33 Einträge**<br>[Liste](lists/service-blocking/cloud-development/cloudflare/block-all.txt) |
+| GitHub | 18 | **3 Einträge**<br>[Liste](lists/service-blocking/cloud-development/github/privacy.txt) | **18 Einträge**<br>[Liste](lists/service-blocking/cloud-development/github/block-all.txt) |
+| GitLab | 3 | **1 Einträge**<br>[Liste](lists/service-blocking/cloud-development/gitlab/privacy.txt) | **3 Einträge**<br>[Liste](lists/service-blocking/cloud-development/gitlab/block-all.txt) |
+| Google Cloud | 49 | **2 Einträge**<br>[Liste](lists/service-blocking/cloud-development/google-cloud/privacy.txt) | **49 Einträge**<br>[Liste](lists/service-blocking/cloud-development/google-cloud/block-all.txt) |
+| JetBrains | 1 | **1 Einträge**<br>[Liste](lists/service-blocking/cloud-development/jetbrains/privacy.txt) | **1 Einträge**<br>[Liste](lists/service-blocking/cloud-development/jetbrains/block-all.txt) |
+| Oracle Cloud | 8 | **3 Einträge**<br>[Liste](lists/service-blocking/cloud-development/oracle-cloud/privacy.txt) | **8 Einträge**<br>[Liste](lists/service-blocking/cloud-development/oracle-cloud/block-all.txt) |
+| Visual Studio | 2 | **1 Einträge**<br>[Liste](lists/service-blocking/cloud-development/visual-studio/privacy.txt) | **2 Einträge**<br>[Liste](lists/service-blocking/cloud-development/visual-studio/block-all.txt) |
+| VS Code | 2 | **1 Einträge**<br>[Liste](lists/service-blocking/cloud-development/vs-code/privacy.txt) | **2 Einträge**<br>[Liste](lists/service-blocking/cloud-development/vs-code/block-all.txt) |
 
 </details>
 
@@ -1062,35 +1062,35 @@ Es gibt bewusst zwei Stufen:
 
 | System / Gerät | Einträge | 🟠 Local Mode – Updates erlaubt | 🔴 Full Isolation – inkl. Updates |
 | --- | :---: | :---: | :---: |
-| 🪟 **Windows** | 🟠 Local Mode – Updates erlaubt: 225<br>🔴 Full Isolation – inkl. Updates: 793 | [Liste](lists/system-blocking/windows/local-mode.txt) | [Liste](lists/system-blocking/windows/full-isolation.txt) |
-| 🍎 **macOS** | 🟠 Local Mode – Updates erlaubt: 53<br>🔴 Full Isolation – inkl. Updates: 340 | [Liste](lists/system-blocking/macos/local-mode.txt) | [Liste](lists/system-blocking/macos/full-isolation.txt) |
-| 🤖 **Android** | 🟠 Local Mode – Updates erlaubt: 13.442<br>🔴 Full Isolation – inkl. Updates: 14.488 | [Liste](lists/system-blocking/android/local-mode.txt) | [Liste](lists/system-blocking/android/full-isolation.txt) |
-| 🍏 **iOS / iPadOS** | 🟠 Local Mode – Updates erlaubt: 53<br>🔴 Full Isolation – inkl. Updates: 340 | [Liste](lists/system-blocking/ios/local-mode.txt) | [Liste](lists/system-blocking/ios/full-isolation.txt) |
-| 🐧 **Linux** | 🟠 Local Mode – Updates erlaubt: 1<br>🔴 Full Isolation – inkl. Updates: 3 | [Liste](lists/system-blocking/linux/local-mode.txt) | [Liste](lists/system-blocking/linux/full-isolation.txt) |
-| 📺 **Samsung TV** | 🟠 Local Mode – Updates erlaubt: 114<br>🔴 Full Isolation – inkl. Updates: 347 | [Liste](lists/system-blocking/samsung-tv/local-mode.txt) | [Liste](lists/system-blocking/samsung-tv/full-isolation.txt) |
-| 📺 **LG webOS** | 🟠 Local Mode – Updates erlaubt: 332<br>🔴 Full Isolation – inkl. Updates: 620 | [Liste](lists/system-blocking/lg-webos/local-mode.txt) | [Liste](lists/system-blocking/lg-webos/full-isolation.txt) |
-| 🔥 **Fire TV** | 🟠 Local Mode – Updates erlaubt: 170<br>🔴 Full Isolation – inkl. Updates: 776 | [Liste](lists/system-blocking/fire-tv/local-mode.txt) | [Liste](lists/system-blocking/fire-tv/full-isolation.txt) |
-| 📺 **Android TV / Google TV** | 🟠 Local Mode – Updates erlaubt: 13.440<br>🔴 Full Isolation – inkl. Updates: 14.479 | [Liste](lists/system-blocking/android-tv/local-mode.txt) | [Liste](lists/system-blocking/android-tv/full-isolation.txt) |
-| 💾 **Synology** | 🟠 Local Mode – Updates erlaubt: 2<br>🔴 Full Isolation – inkl. Updates: 3 | [Liste](lists/system-blocking/synology/local-mode.txt) | [Liste](lists/system-blocking/synology/full-isolation.txt) |
-| 💾 **QNAP** | 🟠 Local Mode – Updates erlaubt: 6<br>🔴 Full Isolation – inkl. Updates: 6 | [Liste](lists/system-blocking/qnap/local-mode.txt) | [Liste](lists/system-blocking/qnap/full-isolation.txt) |
-| 💾 **TrueNAS** | 🟠 Local Mode – Updates erlaubt: 1<br>🔴 Full Isolation – inkl. Updates: 3 | [Liste](lists/system-blocking/truenas/local-mode.txt) | [Liste](lists/system-blocking/truenas/full-isolation.txt) |
-| 💾 **Unraid** | 🟠 Local Mode – Updates erlaubt: 0<br>🔴 Full Isolation – inkl. Updates: 2 | [Liste](lists/system-blocking/unraid/local-mode.txt) | [Liste](lists/system-blocking/unraid/full-isolation.txt) |
-| 🌐 **Router / Netzwerkgeräte** | 🟠 Local Mode – Updates erlaubt: 67<br>🔴 Full Isolation – inkl. Updates: 441 | [Liste](lists/system-blocking/network-devices/local-mode.txt) | [Liste](lists/system-blocking/network-devices/full-isolation.txt) |
-| 🏠 **IoT / Smart Home** | 🟠 Local Mode – Updates erlaubt: 434<br>🔴 Full Isolation – inkl. Updates: 1.757 | [Liste](lists/system-blocking/iot/local-mode.txt) | [Liste](lists/system-blocking/iot/full-isolation.txt) |
-| 🗣️ **Sprachassistenten** | 🟠 Local Mode – Updates erlaubt: 13.882<br>🔴 Full Isolation – inkl. Updates: 16.383 | [Liste](lists/system-blocking/voice-assistants/local-mode.txt) | [Liste](lists/system-blocking/voice-assistants/full-isolation.txt) |
-| 🎮 **Konsolen** | 🟠 Local Mode – Updates erlaubt: 6<br>🔴 Full Isolation – inkl. Updates: 31 | [Liste](lists/system-blocking/consoles/local-mode.txt) | [Liste](lists/system-blocking/consoles/full-isolation.txt) |
+| 🪟 **Windows** | 793 | **225 Einträge**<br>[Liste](lists/system-blocking/windows/local-mode.txt) | **793 Einträge**<br>[Liste](lists/system-blocking/windows/full-isolation.txt) |
+| 🍎 **macOS** | 340 | **53 Einträge**<br>[Liste](lists/system-blocking/macos/local-mode.txt) | **340 Einträge**<br>[Liste](lists/system-blocking/macos/full-isolation.txt) |
+| 🤖 **Android** | 14.488 | **13.442 Einträge**<br>[Liste](lists/system-blocking/android/local-mode.txt) | **14.488 Einträge**<br>[Liste](lists/system-blocking/android/full-isolation.txt) |
+| 🍏 **iOS / iPadOS** | 340 | **53 Einträge**<br>[Liste](lists/system-blocking/ios/local-mode.txt) | **340 Einträge**<br>[Liste](lists/system-blocking/ios/full-isolation.txt) |
+| 🐧 **Linux** | 3 | **1 Einträge**<br>[Liste](lists/system-blocking/linux/local-mode.txt) | **3 Einträge**<br>[Liste](lists/system-blocking/linux/full-isolation.txt) |
+| 📺 **Samsung TV** | 347 | **114 Einträge**<br>[Liste](lists/system-blocking/samsung-tv/local-mode.txt) | **347 Einträge**<br>[Liste](lists/system-blocking/samsung-tv/full-isolation.txt) |
+| 📺 **LG webOS** | 620 | **332 Einträge**<br>[Liste](lists/system-blocking/lg-webos/local-mode.txt) | **620 Einträge**<br>[Liste](lists/system-blocking/lg-webos/full-isolation.txt) |
+| 🔥 **Fire TV** | 776 | **170 Einträge**<br>[Liste](lists/system-blocking/fire-tv/local-mode.txt) | **776 Einträge**<br>[Liste](lists/system-blocking/fire-tv/full-isolation.txt) |
+| 📺 **Android TV / Google TV** | 14.479 | **13.440 Einträge**<br>[Liste](lists/system-blocking/android-tv/local-mode.txt) | **14.479 Einträge**<br>[Liste](lists/system-blocking/android-tv/full-isolation.txt) |
+| 💾 **Synology** | 3 | **2 Einträge**<br>[Liste](lists/system-blocking/synology/local-mode.txt) | **3 Einträge**<br>[Liste](lists/system-blocking/synology/full-isolation.txt) |
+| 💾 **QNAP** | 6 | **6 Einträge**<br>[Liste](lists/system-blocking/qnap/local-mode.txt) | **6 Einträge**<br>[Liste](lists/system-blocking/qnap/full-isolation.txt) |
+| 💾 **TrueNAS** | 3 | **1 Einträge**<br>[Liste](lists/system-blocking/truenas/local-mode.txt) | **3 Einträge**<br>[Liste](lists/system-blocking/truenas/full-isolation.txt) |
+| 💾 **Unraid** | 2 | **0 Einträge**<br>[Liste](lists/system-blocking/unraid/local-mode.txt) | **2 Einträge**<br>[Liste](lists/system-blocking/unraid/full-isolation.txt) |
+| 🌐 **Router / Netzwerkgeräte** | 441 | **67 Einträge**<br>[Liste](lists/system-blocking/network-devices/local-mode.txt) | **441 Einträge**<br>[Liste](lists/system-blocking/network-devices/full-isolation.txt) |
+| 🏠 **IoT / Smart Home** | 1.757 | **434 Einträge**<br>[Liste](lists/system-blocking/iot/local-mode.txt) | **1.757 Einträge**<br>[Liste](lists/system-blocking/iot/full-isolation.txt) |
+| 🗣️ **Sprachassistenten** | 16.383 | **13.882 Einträge**<br>[Liste](lists/system-blocking/voice-assistants/local-mode.txt) | **16.383 Einträge**<br>[Liste](lists/system-blocking/voice-assistants/full-isolation.txt) |
+| 🎮 **Konsolen** | 31 | **6 Einträge**<br>[Liste](lists/system-blocking/consoles/local-mode.txt) | **31 Einträge**<br>[Liste](lists/system-blocking/consoles/full-isolation.txt) |
 
 ### System-Gesamtlisten
 
 | Gesamtgruppe | Einträge | 🟠 Local Mode | 🔴 Full Isolation |
 | --- | :---: | :---: | :---: |
-| 💻 **Computer / Laptop** | 🟠 Local Mode: 279<br>🔴 Full Isolation: 1.136 | [Liste](lists/system-blocking/groups/computer/local-mode.txt) | [Liste](lists/system-blocking/groups/computer/full-isolation.txt) |
-| 📱 **Handy / Tablet** | 🟠 Local Mode: 13.495<br>🔴 Full Isolation: 14.828 | [Liste](lists/system-blocking/groups/mobile/local-mode.txt) | [Liste](lists/system-blocking/groups/mobile/full-isolation.txt) |
-| 📺 **TV / Streaming-Geräte** | 🟠 Local Mode: 14.056<br>🔴 Full Isolation: 16.221 | [Liste](lists/system-blocking/groups/tv-streaming/local-mode.txt) | [Liste](lists/system-blocking/groups/tv-streaming/full-isolation.txt) |
-| 💾 **NAS / Server** | 🟠 Local Mode: 9<br>🔴 Full Isolation: 14 | [Liste](lists/system-blocking/groups/nas-server/local-mode.txt) | [Liste](lists/system-blocking/groups/nas-server/full-isolation.txt) |
-| 🏠 **Smart Home / IoT** | 🟠 Local Mode: 14.135<br>🔴 Full Isolation: 17.294 | [Liste](lists/system-blocking/groups/iot/local-mode.txt) | [Liste](lists/system-blocking/groups/iot/full-isolation.txt) |
-| 🌐 **Netzwerkgeräte** | 🟠 Local Mode: 67<br>🔴 Full Isolation: 441 | [Liste](lists/system-blocking/groups/network/local-mode.txt) | [Liste](lists/system-blocking/groups/network/full-isolation.txt) |
-| 🧩 **All Systems** | 🟠 Local Mode: 14.516<br>🔴 Full Isolation: 18.242 | **[Liste](lists/system-blocking/all-in/local-mode.txt)** | **[Liste](lists/system-blocking/all-in/full-isolation.txt)** |
+| 💻 **Computer / Laptop** | 1.136 | **279 Einträge**<br>[Liste](lists/system-blocking/groups/computer/local-mode.txt) | **1.136 Einträge**<br>[Liste](lists/system-blocking/groups/computer/full-isolation.txt) |
+| 📱 **Handy / Tablet** | 14.828 | **13.495 Einträge**<br>[Liste](lists/system-blocking/groups/mobile/local-mode.txt) | **14.828 Einträge**<br>[Liste](lists/system-blocking/groups/mobile/full-isolation.txt) |
+| 📺 **TV / Streaming-Geräte** | 16.221 | **14.056 Einträge**<br>[Liste](lists/system-blocking/groups/tv-streaming/local-mode.txt) | **16.221 Einträge**<br>[Liste](lists/system-blocking/groups/tv-streaming/full-isolation.txt) |
+| 💾 **NAS / Server** | 14 | **9 Einträge**<br>[Liste](lists/system-blocking/groups/nas-server/local-mode.txt) | **14 Einträge**<br>[Liste](lists/system-blocking/groups/nas-server/full-isolation.txt) |
+| 🏠 **Smart Home / IoT** | 17.294 | **14.135 Einträge**<br>[Liste](lists/system-blocking/groups/iot/local-mode.txt) | **17.294 Einträge**<br>[Liste](lists/system-blocking/groups/iot/full-isolation.txt) |
+| 🌐 **Netzwerkgeräte** | 441 | **67 Einträge**<br>[Liste](lists/system-blocking/groups/network/local-mode.txt) | **441 Einträge**<br>[Liste](lists/system-blocking/groups/network/full-isolation.txt) |
+| 🧩 **All Systems** | 18.242 | **14.516 Einträge**<br>**[Liste](lists/system-blocking/all-in/local-mode.txt)** | **18.242 Einträge**<br>**[Liste](lists/system-blocking/all-in/full-isolation.txt)** |
 
 <details>
 <summary><strong>ℹ️ Wann nutze ich Privacy, Restrict, Local Mode oder Full Isolation?</strong></summary>
