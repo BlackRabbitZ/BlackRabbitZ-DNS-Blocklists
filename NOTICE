@@ -1,9 +1,0 @@
-BlackRabbitZ DNS Blocklists vNext
-
-Copyright (c) 2026 BlackRabbitZ.
-Lizenz: GNU GPL-3.0-only.
-
-Dieser vNext-Entwurf reorganisiert die statischen BlackRabbitZ-Daten in ein
-Light/Normal/Pro/Pro++/Ultimate-Modell und uebernimmt die Hersteller-/Native-Tracker-
-Logik als Konzept aus HaGeZi. Drittquellen und deren Herkunft sind in THIRD_PARTY.md
-dokumentiert.
