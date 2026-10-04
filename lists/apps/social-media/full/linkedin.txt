@@ -6,8 +6,8 @@
 # Sources: Aus vorhandenen BlackRabbitZ-/dokumentierten HaGeZi-Domains konservativ abgeleitet
 # Risk: variabel
 # Data status: abgeleitet
-# Data method: derived-keyword
-# Entries: 23
+# Data method: curated-privacy
+# Entries: 8
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -15,22 +15,7 @@ ads.linkedin.com
 analytics.linkedin.com
 analytics.pointdrive.linkedin.com
 ap-southeast-1.dc.ads.linkedin.com
-atanx.alicdn.com
-d.alicdn.com
-danuoyi.alicdn.com
 dc.ads.linkedin.com
-gma.alicdn.com
-linkedin-learning.pxf.io
-linkedin.cdn.qualaroo.com
-media-akam.licdn.com
-nbsdk-baichuan.alicdn.com
-platform.linkedin.com
 px.ads.linkedin.com
-retcode.alicdn.com
-rtb-trk4.linkedin.com
-snap.licdn.com
-static-src.alicdn.com
-tbip.alicdn.com
-tce.alicdn.com
 us-east-1.dc.ads.linkedin.com
 us-east-1.profile-api.ads.linkedin.com

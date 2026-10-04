@@ -7,7 +7,7 @@
 # Risk: Niedrig
 # Data status: befüllt
 # Data method: generated-tier
-# Entries: 75
+# Entries: 73
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -64,7 +64,6 @@ metrics.adobe.nbprivateequitypartners.com
 metrics.adobe.nbprivatewealth.com
 metrics.amd.com
 metricsadobe.hollandandbarrett.be
-metricsadobe.hollandandbarrett.com
 metricsadobe.hollandandbarrett.ie
 metricsadobe.hollandandbarrett.nl
 s-adobeanalytics.vice.com
@@ -75,7 +74,6 @@ sanalytics.adobe.tp.gskpro.com
 smetrics.autodesk.com
 smetrics.autodesk.com.cn
 smetrics.nvidia.com
-smetricsadobe.hollandandbarrett.com
 smetricsadobe.hollandandbarrett.ie
 smetricsadobe.hollandandbarrett.nl
 tag.corsair.com

@@ -1,0 +1,22 @@
+# BlackRabbitZ DNS Blocklists
+# Title: x-twitter restrict
+# Description: Privacy plus optional advertising/recommendation/marketing endpoints; core service should remain usable.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: lists/service-blocking/social-media/x-twitter/block-all.txt
+# Risk: high
+# Data status: befuellt
+# Data method: service-restrict-curated
+# Entries: 9
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+ads-api.twitter.com
+ads-bidder-api.twitter.com
+ads-twitter.com
+ads.twitter.center
+ads.twitter.com
+advertising.twitter.com
+analytics.twitter.com
+static.ads-twitter.com
+tap.ads-twitter.com

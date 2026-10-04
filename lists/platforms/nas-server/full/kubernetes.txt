@@ -7,7 +7,7 @@
 # Risk: variabel
 # Data status: abgeleitet
 # Data method: derived-keyword
-# Entries: 25
+# Entries: 21
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -17,22 +17,18 @@ analytics.k8s.djpmedia.cloud
 csp-violations.k8s.prod.blend.com
 dy2xcjk8s1dbz.cloudfront.net
 gql-graphql-gateway.prod.k8s.onepeloton.com
-k8s-matomo-matomoin-1abe0536fc-1571093737.us-east-1.elb.amazonaws.com
 k8s-stage1-use1.int.vidible.tv
 k8s.prod.vidible.tv
 k8s.stage.vidible.tv
 k8s.unity.amobee.com
 k8s.vidible.tv
-matomo-k8s.ramsalt.com
 matomo.az.prod.k8s.soliver.com
-pageinfo-k8s.motorsport.com
 pixel.k8s.prod.blend.com
 plausible.k8stage.myafsa.com
 pux-api.k8s-a1.veinteractive.com
 pux-api.k8s-e1.veinteractive.com
 pux-api.k8s-u2.veinteractive.com
 systemintegrationsapi.k8s-e1.veinteractive.com
-travel-data-matomo-pro.k8s.travel-data-prod.aws.idealo.cloud
 veadsimages.k8s-e1.veinteractive.com
 veadstracking.k8s-e1.veinteractive.com
 vg-k8s-setting.rayjump.com

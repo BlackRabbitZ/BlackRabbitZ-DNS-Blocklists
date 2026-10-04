@@ -6,69 +6,26 @@
 # Sources: Aus vorhandenen BlackRabbitZ-/dokumentierten HaGeZi-Domains konservativ abgeleitet
 # Risk: variabel
 # Data status: abgeleitet
-# Data method: derived-keyword
-# Entries: 61
+# Data method: curated-privacy
+# Entries: 18
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
-abtest-va-tiktok.byteoversea.com
 ads-api.tiktok.com
 ads-ie.tiktokw.eu
 ads-sg.tiktok.com
 ads-ttp2.tiktokw.eu
 ads.tiktok.com
-ads16-normal-useastred.tiktokw.eu
 analytics-sg.tiktok.com
 analytics-ttp2.us.tiktok.com
 analytics.tiktok.com
 analytics.us.tiktok.com
-business-api.tiktok.com
-bytedance.com
-byteoversea.com
-gtm.tiktoknagringa.com
-ib.tiktokv.com
 log-va.tiktokv.com
-log.byteoversea.com
-log.byteoversea.com.edgekey.net
 log.tiktokv.com
-log15.byteoversea.com
-log16-applog-useast5.us.tiktokv.com
-log16-normal-c-useast1a.tiktokv.com
-log16-normal-c-useast2a.tiktokv.com
-log16-normal-useast5.tiktokv.us
-maliva-mcs.byteoversea.com
-mcs-va.tiktok.com
-mcs-va.tiktokv.com
-mcs.us.tiktok.com
-mcs.us.tiktokv.com
-meteor.tiktok.com
-mon-va.byteoversea.com
-mon-va.tiktokv.com
-mon.byteoversea.com
-mon.tiktokv.com
-mon.us.tiktokv.com
-mon16-normal-useast5.tiktokv.us
 p15-tiktok-ads-us.tiktokcdn1.xyz
 p16-ad-sg.tiktokcdn.com
 p16-ad-site-sign-sg.tiktokcdn.com
 p16-tiktok-ads-sg.tiktokcdn1.xyz
 p17-tiktok-ads-us.tiktokcdn1.xyz
 p19-ad-site-sign-sg.tiktokcdn.com
-rtlog.byteoversea.com
-rtlog.tiktokv.com
-s20.tiktokcdn.com
-sgali-mcs.byteoversea.com
-st.db-tiktok-ticket.de
-stape.tiktok.anmeldung.andorftechnologyschool.at
-studiotiktok.in
-tiktok-fly.com
 tiktok-user-events.boloforms.com
-tiktokcdn1.xyz
-tiktokpangle-b.us
-tiktokpangle.us
-v16-ad.byteoversea.com
-verification-va.byteoversea.com
-xlog-va.byteoversea.com
-xlog-va.tiktokv.com
-xlog.byteoversea.com
-xlog.tiktokv.com

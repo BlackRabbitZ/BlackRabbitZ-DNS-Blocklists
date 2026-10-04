@@ -6,16 +6,12 @@
 # Sources: BRZ existing data + curated service roots
 # Risk: very high
 # Data status: befuellt
-# Data method: service-block-all
-# Entries: 8
+# Data method: service-block-all-curated
+# Entries: 4
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
 ehg-ubisoft.hitbox.com
-fast.ubisoftca.demdex.net
-fast.ubisoftinternational.demdex.net
 ubisoft.ca1.qualtrics.com
 ubisoft.com
-ubisoftca.demdex.net
 ubisoftconnect.com
-ubisoftinternational.demdex.net

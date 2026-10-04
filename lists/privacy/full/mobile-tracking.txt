@@ -5,19 +5,17 @@
 # License: GPL-3.0-only; siehe THIRD_PARTY.md fuer Drittquellen
 # Sources: BlackRabbitZ statischer Datenbestand; Pi-hole Query-Log Review 2026-10-03
 # Risk: niedrig-mittel
-# Entries: 235
+# Entries: 208
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
 1681.engine.mobileapptracking.com
-a-graph.facebook.com
 a.applovin.com
 a.applvn.com
 ad.doubleclick.net
 adc3-launch.adcolony.com
 adcolony.com
 ade.googlesyndication.com
-adjust.com
 adjust.io
 adjust.net.in
 adjust.world
@@ -49,9 +47,6 @@ api.uca.cloud.unity3d.com
 api2.amplitude.com
 api2.branch.io
 api3.branch.io
-app-analytics.snapchat.com
-app-measurement.com
-app.adjust.com
 app.appsflyer.com
 appboy.com
 applovin.com
@@ -65,21 +60,17 @@ appsflyer.co
 appsflyer.com
 appsflyersdk.com
 appspot-preview.l.google.com
-arithmeticadjustment.com
 ase.adserver.snapads.com
 auction.unityads.unity3d.com
 branch.io
 braze.com
 c-eus.w.inmobi.com
 c6thn4.launches.appsflyersdk.com
-ca.iadsdk.apple.com
 cdn-lb.vungle.com
 cdn.branch.io
 cdn.braze.eu
 cdn2.inner-active.mobi
 cdp.cloud.unity3d.com
-cf.iadsdk.apple.com
-chartboost.com
 cmp.inmobi.com
 config-server-gke-gw2.ssp.inmobi.com
 config.inmobi.com
@@ -90,11 +81,9 @@ connect.tapjoy.com
 content.elumenguides.elumenapp.com
 control.kochava.com
 cp.pushwoosh.com
-crashlogs.whatsapp.net
 crashlytics.163.com
 crashlytics.com
 crashlytics.ru
-crashlyticsreports-pa.googleapis.com
 crumengm.com
 d.applovin.com
 d.applvn.com
@@ -120,24 +109,16 @@ events.iap.unity3d.com
 events.mz.unity3d.com
 events3.adcolony.com
 events3alt.adcolony.com
-federatedml-pa.googleapis.com
 firebase-settings.crashlytics.com
-firebasecrashlytics.googleapis.com
-firebaselogging-pa.googleapis.com
-firebaselogging.googleapis.com
 flurry.com
 freegameanalytics.com
 fyber.com
 gameanalytics.com
 gate.hockeyapp.net
-go.adjust.com
 googleads.g.doubleclick.net
-graph.accountkit.com
-graph.instagram.com
 hit-counter-26c68-default-rtdb.firebaseio.com
 i-l-ssp-inmobicdnnet-gcp-cdn.ssp.inmobi.com
 i.w.inmobi.com
-iadsdk.apple.com
 id.google.de
 info.tetumengenharia.com.br
 inmobi.com
@@ -155,12 +136,10 @@ kymhci.cdn-settings.appsflyersdk.com
 kymhci.launches.appsflyersdk.com
 kymhci.skadsdk.appsflyersdk.com
 leanplum.com
-live.chartboost.com
 live.direct.ly
 log.musical.ly
 logs.ironsrc.com
 logs.locarta.co
-m.quantcount.com
 mail-virginmobileusa.com
 med.heyzap.com
 metrics.virginmobileusa.com
@@ -168,7 +147,6 @@ mixpanel.com
 mobileapptracking.com
 mopub.cloud
 mopub.com
-mqtt-mini.facebook.com
 ms.applovin.com
 noti-eu.adsmoloco.com
 onelink.me
@@ -180,9 +158,7 @@ pushwoosh.com
 re.masoinmobiliaria.com
 reports.crashlytics.com
 rt.applovin.com
-s2s.adjust.com
 sa.singulargarden.com
-sc-analytics.appspot.com
 sdk-api-v1.singular.net
 sdk-events.inner-active.mobi
 sdk.fra-01.braze.eu
@@ -216,12 +192,9 @@ tapjoy.com
 tapjoyads.com
 telemetry.sdk.inmobi.com
 tenjin.com
-tr.iadsdk.apple.com
-tr.snapchat.com
 track.singularresearch.com
 track.tenjin.com
 tracking.prd.mz.internal.unity3d.com
-trk.pinterest.com
 tune.com
 ulogs.umengcloud.com
 umeng.co

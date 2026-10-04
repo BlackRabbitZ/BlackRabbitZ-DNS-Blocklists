@@ -6,13 +6,12 @@
 # Sources: BRZ existing data + curated service roots
 # Risk: very high
 # Data status: befuellt
-# Data method: service-block-all
-# Entries: 214
+# Data method: service-block-all-curated
+# Entries: 186
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
 149b4.wpc.azureedge.net
-action.azurecomm.net
 adncdnend.azureedge.net
 adsdkpreprod.afd.azureedge.net
 adsdkpreprod.azureedge.net
@@ -22,7 +21,6 @@ adserver-public-cdn.afd.azureedge.net
 adserver-public-cdn.azureedge.net
 advertiserconnection.azurewebsites.net
 aimon.applicationinsights.azure.com
-analytics.azurecurve.co.uk
 anonymous-api.azurewebsites.net
 api-traq-li-v2.westus2.cloudapp.azure.com
 api.applicationinsights.azure.cn
@@ -32,19 +30,9 @@ australiaeast-0.in.applicationinsights.azure.com
 australiaeast-1.in.applicationinsights.azure.com
 australiaeast-global.in.applicationinsights.azure.com
 australiasoutheast-0.in.applicationinsights.azure.com
-awsysanalyticsiothub1.azure-devices.net
-azure.7eer.net
 azure.bcp.bingads.trafficmanager.net
-azure.bingads.microsoft.com
 azure.bingads.trafficmanager.net
 azure.tip.bingads.trafficmanager.net
-azurehdinsight.net
-azuremystique.com
-azurestealth.com
-azureus.es
-azurewatson.microsoft.com
-azurewatsontest.microsoft.com
-bizerba-dot-azure-projectfiles.uk.r.appspot.com
 boost-client-czcnbahycxbnamaq.b01.azurefd.net
 brazilsouth-0.in.applicationinsights.azure.com
 brazilsouth-1.in.applicationinsights.azure.com
@@ -77,7 +65,6 @@ consentdeliveryfd.azurefd.net
 d365portal-prod-sdk.akstd.azureedge.net
 d365portal-prod-sdk.azureedge.net
 d365prod-sdk.azureedge.net
-dazurebox-420.top
 dc.applicationinsights.azure.cn
 dc.applicationinsights.azure.com
 dc.applicationinsights.azure.us
@@ -102,17 +89,11 @@ fingerprinting-fd-hzbjgafhhucga5dn.z01.azurefd.net
 fp-afd-nocache-ccp.azureedge.net
 fp-afd-nocache.azureedge.net
 fp-afd.azureedge.net
-fp-afd.azureedge.us
 fp-afd.azurefd.net
-fp-afd.azurefd.us
 fps-prod-na-frontdoor.z01.azurefd.net
-fpt.windowsazure.cn
-fpt.windowsazure.com
-fpt.windowsazure.us
 francecentral-0.in.applicationinsights.azure.com
 francecentral-1.in.applicationinsights.azure.com
 g2insights-cdn.azureedge.net
-geoip.bluebeach-9a0f96b5.northeurope.azurecontainerapps.io
 germanywestcentral-0.in.applicationinsights.azure.com
 germanywestcentral-1.in.applicationinsights.azure.com
 harleydavidson-tagging-prod.azureedge.net
@@ -140,7 +121,6 @@ live.applicationinsights.azure.com
 marketplaceassets.azureedge.net
 masdpanalytics.azureedge.net
 matomo-westnetz.germanywestcentral.cloudapp.azure.com
-matomo.azure-hosting.de
 mazda-tagging-prod.azureedge.net
 mbusa-tagging-prod.azureedge.net
 me-cam-pixel-tracker-prod.azure-api.net
@@ -160,22 +140,15 @@ norwayeast-0.in.applicationinsights.azure.com
 okdev.southeastasia.cloudapp.azure.com
 opinsights.azure.com
 opinsights.azure.us
-or-matomoapp.bluemushroom-cefb791a.westeurope.azurecontainerapps.io
-pj.azuresdidacts.com
 polaris-tagging-prod.azureedge.net
 prod-clientlogs-n.northeurope.cloudapp.azure.com
 prod-dfm-proxy-connext.azurewebsites.net
 qatarcentral-0.in.applicationinsights.azure.com
-rd91-0-azurenet.top
 retailmedia-static.azureedge.net
 reviewzaap.azurewebsites.net
-rexmonitoring.apm.westus2.azure.elastic-cloud.com
 sd-tagging.azurefd.net
-sdkm.w.ams1.azurelb.inmobi.com
 sdtagging-east.eastus.cloudapp.azure.com
 sdtagging.azureedge.net
-secure.azure.bingads.microsoft.com
-server.lazureshop.com
 solecarttracker.azurewebsites.net
 southafricanorth-0.in.applicationinsights.azure.com
 southafricanorth-1.in.applicationinsights.azure.com
@@ -185,7 +158,6 @@ southeastasia-0.in.applicationinsights.azure.com
 southeastasia-1.in.applicationinsights.azure.com
 southindia-0.in.applicationinsights.azure.com
 spaincentral-0.in.applicationinsights.azure.com
-stag.azurefilm.com
 subaru-tagging-prod.azureedge.net
 swedencentral-0.in.applicationinsights.azure.com
 switzerlandnorth-0.in.applicationinsights.azure.com

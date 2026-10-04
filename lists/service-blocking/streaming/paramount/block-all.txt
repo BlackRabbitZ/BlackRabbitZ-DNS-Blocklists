@@ -6,21 +6,17 @@
 # Sources: BRZ existing data + curated service roots
 # Risk: very high
 # Data status: befuellt
-# Data method: service-block-all
-# Entries: 13
+# Data method: service-block-all-curated
+# Entries: 9
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
 aa.paramountplus.com
 cbs.com
 cbsi.com
-paramount.go2cloud.org
-paramount.truewisemedia.net
 paramountplus.com
 saa.paramountplus.com
-saa.paramountpressexpress.com
 sc.paramount.com
-sc.paramountchannel.es
 sc.paramountnetwork.com
 ssc.paramountnetwork.com
 www.paramountplus.com

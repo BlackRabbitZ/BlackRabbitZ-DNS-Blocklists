@@ -6,16 +6,8 @@
 # Sources: Aus vorhandenen BlackRabbitZ-/dokumentierten HaGeZi-Domains konservativ abgeleitet
 # Risk: variabel
 # Data status: abgeleitet
-# Data method: derived-keyword
-# Entries: 8
+# Data method: curated-privacy
+# Entries: 0
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
-buildkiteanalytics.com
-dsp.jenkins.secure.blismedia.com
-ideas.circleci.com
-jenkins-matomo.do.g4v.dev
-jenkins.kissmetrics.com
-metrics.morrisjenkins.com
-slcjenkins.tynt.com
-tmsc.jerryjenkins.com

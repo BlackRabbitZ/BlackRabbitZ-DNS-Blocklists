@@ -6,21 +6,14 @@
 # Sources: lists/platforms/smart-tv/full/philips.txt + BRZ manufacturer data
 # Risk: high
 # Data status: befuellt
-# Data method: derived-restrict
-# Entries: 73
+# Data method: device-restrict-curated
+# Entries: 63
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
-data.info.philips-hue.com
 ehg-philipsvheusen.hitbox.com
 fast.philipslighting.demdex.net
-mailing.philips.com
 metrics.marketing.lighting.philips.kz
-philips-beacons.xumo.com
-philips.112.2o7.net
-philipselectronicsne.tt.omtrdc.net
-philipslighting.d3.sc.omtrdc.net
-philipstreehouse.info
 smetrics.marketing.lighting.philips.at
 smetrics.marketing.lighting.philips.be
 smetrics.marketing.lighting.philips.bg
@@ -81,6 +74,3 @@ smetrics.marketing.lighting.philips.si
 smetrics.marketing.lighting.philips.sk
 smetrics.marketing.lighting.philips.ua
 smetrics.marketing.philips-hue.com
-smtp.philipsburg.bluehornet.com
-textmessagephilipstraits.com
-www.mailing.philips.com

@@ -1,0 +1,33 @@
+# BlackRabbitZ DNS Blocklists
+# List: lists/kids-allow-only/learning.txt
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; third-party sources: THIRD_PARTY.md
+# Data method: mapped from BRZ Kids Allow-Only sources
+# Entries: 26
+#
+abenteuer-regenwald.de
+ajax.googleapis.com
+cdn.jsdelivr.net
+cdnjs.cloudflare.com
+challenges.cloudflare.com
+code.jquery.com
+coollama.de
+fonts.googleapis.com
+fonts.gstatic.com
+hanisauland.de
+internet-abc.de
+kinderzeitmaschine.de
+klassewasser.de
+legakids.net
+meine-forscherwelt.de
+naturdetektive.bfn.de
+unpkg.com
+www.abenteuer-regenwald.de
+www.coollama.de
+www.gstatic.com
+www.hanisauland.de
+www.internet-abc.de
+www.kinderzeitmaschine.de
+www.klassewasser.de
+www.legakids.net
+www.meine-forscherwelt.de

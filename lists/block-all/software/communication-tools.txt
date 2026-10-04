@@ -1,0 +1,13 @@
+# BlackRabbitZ DNS Blocklists
+# List: lists/block-all/software/communication-tools.txt
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; third-party sources: THIRD_PARTY.md
+# Data method: aggregate software package: communication-tools
+# Entries: 6
+#
+slack-edge.com
+slack-msgs.com
+slack.com
+teams.cloud.microsoft
+teams.live.com
+teams.microsoft.com

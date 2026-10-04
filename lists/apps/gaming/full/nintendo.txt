@@ -5,13 +5,9 @@
 # License: GPL-3.0-only; siehe THIRD_PARTY.md fuer Drittquellen
 # Sources: BlackRabbitZ Ads/Tracking/Telemetry-Daten
 # Risk: mittel-hoch
-# Entries: 5
+# Entries: 1
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 # Generated: ja
 #
-click.ccg.nintendo.com
-discovery.olv.nintendo.net
-fast.nintendoofamericainc.demdex.net
-nintendoofamericainc.demdex.net
-smetrics.nintendo.com
+tracking.nintendo-europe.com

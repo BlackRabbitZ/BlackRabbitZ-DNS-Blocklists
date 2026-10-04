@@ -7,7 +7,7 @@
 # Risk: Niedrig–Mittel
 # Data status: befüllt
 # Data method: generated-tier
-# Entries: 75
+# Entries: 73
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -77,12 +77,10 @@ trace.svc.ui.com
 track.grupopegasus.com.br
 track.mitpegasus.com.br
 track.pegasuscaoachery.com.br
-track.pegasusselect.com.br
 tracking.eu.miui.com
 tracking.india.miui.com
 tracking.intl.miui.com
 tracking.miui.com
 tracking.rus.miui.com
-unifi-report.ubnt.com
 unifiedbidding.ad.smaato.net
 unifiedsearchanalyticsapi.dell.com

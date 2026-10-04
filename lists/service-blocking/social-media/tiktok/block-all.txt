@@ -6,8 +6,8 @@
 # Sources: BRZ existing data + curated service roots
 # Risk: very high
 # Data status: befuellt
-# Data method: service-block-all
-# Entries: 67
+# Data method: service-block-all-curated
+# Entries: 58
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -26,11 +26,9 @@ api.tiktok.com
 business-api.tiktok.com
 bytedance.com
 byteoversea.com
-gtm.tiktoknagringa.com
 ib.tiktokv.com
 log-va.tiktokv.com
 log.byteoversea.com
-log.byteoversea.com.edgekey.net
 log.tiktokv.com
 log15.byteoversea.com
 log16-applog-useast5.us.tiktokv.com
@@ -60,16 +58,9 @@ rtlog.byteoversea.com
 rtlog.tiktokv.com
 s20.tiktokcdn.com
 sgali-mcs.byteoversea.com
-st.db-tiktok-ticket.de
-stape.tiktok.anmeldung.andorftechnologyschool.at
-studiotiktok.in
-tiktok-fly.com
 tiktok-user-events.boloforms.com
 tiktok.com
 tiktokcdn.com
-tiktokcdn1.xyz
-tiktokpangle-b.us
-tiktokpangle.us
 tiktokv.com
 v16-ad.byteoversea.com
 verification-va.byteoversea.com

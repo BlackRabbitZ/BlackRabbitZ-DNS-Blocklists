@@ -6,11 +6,13 @@
 # Sources: lists/manufacturers/philips.txt
 # Risk: high
 # Data status: befuellt
-# Data method: manufacturer-restrict
-# Entries: 61
+# Data method: device-restrict-curated
+# Entries: 63
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
+ehg-philipsvheusen.hitbox.com
+fast.philipslighting.demdex.net
 metrics.marketing.lighting.philips.kz
 smetrics.marketing.lighting.philips.at
 smetrics.marketing.lighting.philips.be

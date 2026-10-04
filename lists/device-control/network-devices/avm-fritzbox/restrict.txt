@@ -6,9 +6,8 @@
 # Sources: lists/platforms/network-devices/full/avm-fritzbox.txt + BRZ manufacturer data
 # Risk: high
 # Data status: befuellt
-# Data method: derived-restrict
-# Entries: 1
+# Data method: device-restrict-curated
+# Entries: 0
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
-piwik.avm.de

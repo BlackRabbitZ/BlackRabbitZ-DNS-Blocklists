@@ -7,7 +7,7 @@
 # Risk: Niedrig–Mittel
 # Data status: befüllt
 # Data method: generated-tier
-# Entries: 188
+# Entries: 177
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -66,7 +66,6 @@ audience.visiblemeasures.com
 audience.zeustechnology.com
 audiencegrid.demdex.net
 audiencelogy.com
-audiencereport.com
 audio.ad
 audio.iad.cimedia.net
 audioad.adswizz.com
@@ -91,7 +90,6 @@ fast.bmwfr.demdex.net
 fast.bmwuk.demdex.net
 fast.daimler-retargeting.demdex.net
 fast.daimlerag.demdex.net
-gtm.claudinhacrochet.com.br
 load.gtm.audittoolbar.com
 load.gtm.claudioalmeida.com.br
 load.gtm.elizakingsford.com
@@ -136,7 +134,6 @@ smetric.volkswagen.ru
 smetrics.audidirect.us
 smetrics.audifinance.ca
 smetrics.audifs.de
-smetrics.bmwgroupdirect.com
 smetrics.boundaryford.com
 smetrics.finance.audifs.com
 smetrics.financing.audifinance.ca
@@ -144,9 +141,6 @@ smetrics.ford.com
 smetrics.mid-townford.com
 smetrics.mieten.mercedes-benz.de
 smetrics.nuanceaudio.com
-smetrics.rent.mercedes-benz.ch
-smetrics.rent.mercedes-benz.co.jp
-smetrics.rent.mercedes-benz.se
 smetrics.saudiairlines.com
 smetrics.volkswagenbank.de
 smetrics.volkswagendirect.us
@@ -155,14 +149,12 @@ stat.alsaudiatoday.com
 static.audienceinsights.net
 static.audienceline.com
 stats.audi-mediacenter.com
-stats.audio2edit.com
 stats.audiorelay.net
 stats.axlcrawford.com
 stats.bmw.de
 stats.chriscrawford.com
 stats.ddaudio.net
 stats.meinbmw.de
-stats.teslascout.com
 stats.tyclifford.com
 stats.volkswagen-automobile-berlin.de
 stats.volkswagen-automobile-hamburg.de
@@ -189,9 +181,6 @@ tracking.m.mercedes-benz.com.sg
 tracking.m.mercedes-benz.ru
 tracking.mercedes-amg-f1.com
 tracking.mercedes-benz-bus.com
-tracking.t.mercedes-benz.co.in
-tracking.t.mercedes-benz.com.cn
-tracking.t.mercedes-benz.de
 tracking.techcenter.mercedes-benz.com
 uemm-dynatrace.app.ford.com
 volkswagen.122.2o7.net

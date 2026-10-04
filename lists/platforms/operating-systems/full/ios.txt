@@ -7,7 +7,7 @@
 # Risk: variabel
 # Data status: abgeleitet
 # Data method: derived-keyword
-# Entries: 92
+# Entries: 82
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -16,13 +16,10 @@ advertising.apple.com
 advp.apple.com
 analytics-events.apple.com
 analytics.apple.com
-api-adservices.apple.com
 applemediaservices.com
 books-analytics-events.apple.com
 books-analytics-events.news.apple-dns.net
-ca.iadsdk.apple.com
 cdn-xp-ingest.edge.apple
-cf.iadsdk.apple.com
 cstat-origin.apple.com
 cstat.apple.com
 cstat.apple.com.edgesuite.net
@@ -51,9 +48,6 @@ iad.apple.com
 iadcontent-lb.apple.com.akadns.net
 iadcontent.apple.com
 iadmoo.apple.com
-iadsdk.apple.com
-iadsdk.apple.com.akadns.net
-iadsdk.apple.com.edgekey.net
 iadworkbench.apple.com
 idiagnostics-mdn1.apple.com
 idiagnostics.apple.com
@@ -90,13 +84,9 @@ radarsubmissions.apple.com.akadns.net
 searchads.apple.com
 searchads.apple.com.edgesuite.net
 searchads.lb-apple.com.akadns.net
-securemetrics.apple.com
-securemetrics.apple.com.cn
 securemvt.apple.com
 stocks-analytics-events.apple.com
 stocks-analytics-events.news.apple-dns.net
-supportmetrics.apple.com
-tr.iadsdk.apple.com
 tv-analytics-events.apple.com
 weather-analytics-events.apple.com
 weather-analytics-events.news.apple-dns.net

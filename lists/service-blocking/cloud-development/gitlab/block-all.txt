@@ -6,15 +6,11 @@
 # Sources: BRZ existing data + curated service roots
 # Risk: very high
 # Data status: befuellt
-# Data method: service-block-all
-# Entries: 7
+# Data method: service-block-all-curated
+# Entries: 3
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
-airbrake-gitlab.airbrake.io
 gitlab.ad-stir.com
-gitlab.affise.com
-gitlab.build.ligatus.com
-gitlab.mgid.com
 ledger-wallet.gitlab.io
 trx.gitlab.net

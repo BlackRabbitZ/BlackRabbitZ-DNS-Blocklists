@@ -6,14 +6,10 @@
 # Sources: lists/apps/gaming/full/ubisoft.txt
 # Risk: medium
 # Data status: befuellt
-# Data method: derived-service-privacy
-# Entries: 6
+# Data method: service-privacy-curated
+# Entries: 2
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
 ehg-ubisoft.hitbox.com
-fast.ubisoftca.demdex.net
-fast.ubisoftinternational.demdex.net
 ubisoft.ca1.qualtrics.com
-ubisoftca.demdex.net
-ubisoftinternational.demdex.net

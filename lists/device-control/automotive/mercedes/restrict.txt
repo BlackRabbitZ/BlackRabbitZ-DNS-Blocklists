@@ -6,27 +6,16 @@
 # Sources: lists/platforms/automotive/full/mercedes.txt + BRZ manufacturer data
 # Risk: high
 # Data status: befuellt
-# Data method: derived-restrict
-# Entries: 33
+# Data method: device-restrict-curated
+# Entries: 22
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
 analytics.daimler-bkk.com
 analytics.daimler-truck-events.com
-daimlerag.122.2o7.net
-daimlerag.d2.sc.omtrdc.net
-daimlermobilityservices.d3.sc.omtrdc.net
-daimlerversicherung.com
 fast.daimler-retargeting.demdex.net
 fast.daimlerag.demdex.net
-mercedes-forum.de.intellitxt.com
-mercedes-scene.de.intellitxt.com
-mercedesbenz.pxf.io
 metrics.cbc.youtube.mercedes-benz.com
-smetrics.mieten.mercedes-benz.de
-smetrics.rent.mercedes-benz.ch
-smetrics.rent.mercedes-benz.co.jp
-smetrics.rent.mercedes-benz.se
 tracking.c.mercedes-benz.co.in
 tracking.c.mercedes-benz.com.cn
 tracking.c.mercedes-benz.de

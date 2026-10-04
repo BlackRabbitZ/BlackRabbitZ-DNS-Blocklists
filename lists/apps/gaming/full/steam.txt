@@ -5,9 +5,10 @@
 # License: GPL-3.0-only; siehe THIRD_PARTY.md fuer Drittquellen
 # Sources: BlackRabbitZ Ads/Tracking/Telemetry-Daten
 # Risk: mittel-hoch
-# Entries: 1
+# Entries: 2
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 # Generated: ja
 #
 crash.steampowered.com
+steam-telemetry.homefront-game.com

@@ -1,0 +1,13 @@
+# BlackRabbitZ DNS Blocklists
+# List: lists/system-blocking/qnap/local-mode.txt
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; third-party sources: THIRD_PARTY.md
+# Data method: BRZ privacy+restrict minus update endpoints
+# Entries: 6
+#
+analytics.api.myqnapcloud.com
+analytics.myqnapcloud.io
+qcenter-events-device.api.myqnapcloud.cn
+qcenter-events-device.api.myqnapcloud.com
+qcenter-metrics-device.api.myqnapcloud.cn
+qcenter-metrics-device.api.myqnapcloud.com

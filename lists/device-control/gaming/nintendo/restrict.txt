@@ -1,0 +1,9 @@
+# BlackRabbitZ DNS Blocklists
+# List: lists/device-control/gaming/nintendo/restrict.txt
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; third-party sources: THIRD_PARTY.md
+# Data method: mapped BRZ gaming service restrict
+# Entries: 2
+#
+discovery.olv.nintendo.net
+tracking.nintendo-europe.com

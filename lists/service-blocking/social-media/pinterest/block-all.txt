@@ -6,8 +6,8 @@
 # Sources: BRZ existing data + curated service roots
 # Risk: very high
 # Data status: befuellt
-# Data method: service-block-all
-# Entries: 16
+# Data method: service-block-all-curated
+# Entries: 13
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -19,9 +19,6 @@ assets.pinterest.com
 ct.pinterest.com
 log.pinterest.com
 pinimg.com
-pinterest-stape.stmna.com.au
-pinterest.3lift.com
-pinterest.adsymptotic.com
 pinterest.com
 s-media-cache-ak0.pinimg.com
 trk.pinterest.com

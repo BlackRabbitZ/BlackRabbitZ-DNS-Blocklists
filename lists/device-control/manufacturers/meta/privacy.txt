@@ -6,8 +6,8 @@
 # Sources: lists/manufacturers/meta.txt
 # Risk: medium
 # Data status: befuellt
-# Data method: manufacturer-privacy
-# Entries: 31
+# Data method: device-privacy-curated
+# Entries: 12
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -17,28 +17,9 @@ ads.findfacebookwoman.com
 analytics.facebook.com
 analytics.instagram.com
 analytics.whatsapp.com
-cdnthreads.com
-crashlogs.whatsapp.net
-data.connectingthreads.com
-downloads-whatsapp.com
-eshsm.amazethreads.com
-facebookgatewaytrackdm.worshipproductions.org
-jack-threads.ojrq.net
+facebook.co1.qualtrics.com
 marketing.threadsol.com
-photothreads.store
 pixel.facebook.com
-pkbjr.wildthreadsco.com
 s-threads.analytics.carbonite.com
-scontent-hkg2-1.cdnthreads.com
-scontent-lax1-3.cdnthreads.com
-scontent-nrt1-1.cdnthreads.com
-scontent-sin1-2.cdnthreads.com
-smetrics.whatsappsim.de
-ss.castthreads.com
-sst.facebookads-master.com
-static.cdnthreads.com
-stats.qameta.com
-tl.reveriethreads.com
 tracking.whatsappbgr.com
 tracking.whatsapplp.com
-www.downloads-whatsapp.com

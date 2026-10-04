@@ -6,13 +6,16 @@
 # Sources: lists/manufacturers/nvidia.txt
 # Risk: medium
 # Data status: befuellt
-# Data method: manufacturer-privacy
-# Entries: 5
+# Data method: device-privacy-curated
+# Entries: 8
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
+ehg-nvidia.hitbox.com
 events.gfe.nvidia.com
-prd-appstats.nvidia.com
-smetrics.nvidia.com
+fast.nvidia.demdex.net
+gx-target-experiments-frontend-api.gx.nvidia.com
+nvidia.demdex.net
 telemetry.gfe.nvidia.com
 telemetry.nvidia.com
+zn8jonxbval6gn2if-nvidia.siteintercept.qualtrics.com

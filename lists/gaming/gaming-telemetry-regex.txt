@@ -1,0 +1,34 @@
+# BlackRabbitZ DNS Blocklists
+# List: lists/gaming/gaming-telemetry-regex.txt
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; third-party sources: THIRD_PARTY.md
+# Data method: derived from current BRZ snapshot
+# Entries: 27
+#
+api-eu.gameanalytics.com
+api-us.gameanalytics.com
+api.gameanalytics.com
+cdn.gameanalytics.com
+cdp.cloud.unity3d.com
+cn.gameanalytics.com
+config.uca.cloud.unity3d.com
+download.gameanalytics.com
+easy.gameanalytics.com
+freegameanalytics.com
+gameanalytics.com
+go-export.gameanalytics.com
+go.gameanalytics.com
+maven.gameanalytics.com
+ops-query-0.gameanalytics.com
+ops-query-1.gameanalytics.com
+ops-query-2.gameanalytics.com
+ops-query-3.gameanalytics.com
+public.gameanalytics.com
+query-0.gameanalytics.com
+query-1.gameanalytics.com
+query-2.gameanalytics.com
+query-3.gameanalytics.com
+ru.gameanalytics.com
+rubick.gameanalytics.com
+sandbox-api.gameanalytics.com
+www.gameanalytics.com

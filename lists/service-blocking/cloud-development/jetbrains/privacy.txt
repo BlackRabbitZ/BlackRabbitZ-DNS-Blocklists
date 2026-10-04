@@ -6,10 +6,9 @@
 # Sources: lists/infrastructure/cloud-development/full/jetbrains.txt
 # Risk: medium
 # Data status: befuellt
-# Data method: derived-service-privacy
-# Entries: 2
+# Data method: service-privacy-curated
+# Entries: 1
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
 analytics.services.jetbrains.com
-myjetbrains.com

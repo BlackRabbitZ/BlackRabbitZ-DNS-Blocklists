@@ -6,8 +6,8 @@
 # Sources: lists/platforms/iot-smart-home/full/shared-other.txt + BRZ manufacturer data
 # Risk: medium
 # Data status: befuellt
-# Data method: derived-existing-privacy
-# Entries: 20
+# Data method: device-privacy-curated
+# Entries: 10
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -15,19 +15,9 @@ api.mixpanel.com
 api.segment.io
 api2.amplitude.com
 app-measurement.com
-bam.nr-data.net
-browser-intake-datadoghq.com
-config.ioam.de
-d3p8zr0ffa9t17.cloudfront.net
-de.ioam.de
 events.launchdarkly.com
-firebasecrashlytics.googleapis.com
 logs.roku.com
-logs1409.xiti.com
 metrics.icloud.com
 o0.ingest.sentry.io
 reports.crashlytics.com
-secure-eu.imrworldwide.com
 sentry.io
-settings.crashlytics.com
-tracksrv.zdf.de

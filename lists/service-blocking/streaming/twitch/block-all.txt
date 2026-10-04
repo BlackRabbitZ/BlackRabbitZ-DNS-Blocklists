@@ -6,12 +6,11 @@
 # Sources: BRZ existing data + curated service roots
 # Risk: very high
 # Data status: befuellt
-# Data method: service-block-all
-# Entries: 29
+# Data method: service-block-all-curated
+# Entries: 18
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
-ad.twitchguru.com
 ads.twitch.tv
 api.twitch.tv
 badges.twitch.tv
@@ -23,20 +22,10 @@ gql.twitch.tv
 ingest.twitch.tv
 jtvnw.net
 mp.twitch.tv
-outwitch.com
 pubster.twitch.tv
-reach.slowtwitch.com
-shoptwitchcdn.com
 spade.sci.twitch.tv
 spade.twitch.com
 spade.twitch.tv
 ttvnw.net
 twitch.tv
-twitchads.tv
-twitchadvertising.tv
-twitchcdn.net
-twitchcdnfor.com
-twitchcdnshop.com
-twitchguru.us.intellitxt.com
-www.ad.twitchguru.com
 www.twitch.tv

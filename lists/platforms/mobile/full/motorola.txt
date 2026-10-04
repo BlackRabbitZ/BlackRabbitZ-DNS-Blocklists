@@ -7,7 +7,7 @@
 # Risk: variabel
 # Data status: abgeleitet
 # Data method: derived-keyword
-# Entries: 31
+# Entries: 29
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -20,7 +20,6 @@ fsr.lenovomm.com
 lds.lenovomm.com
 lenovo-chile.pxf.io
 lenovo-co.evyy.net
-lenovo-techsupport.com
 lenovo.112.2o7.net
 lenovo.7eer.net
 lenovo.demdex.net
@@ -41,4 +40,3 @@ s.lenovo.com
 t.lenovo.com
 tag.lenovo.com
 vantage.csw.lenovo.com
-www.lenovo-techsupport.com

@@ -7,7 +7,7 @@
 # Risk: variabel
 # Data status: abgeleitet
 # Data method: derived-keyword
-# Entries: 61
+# Entries: 57
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -39,7 +39,6 @@ elsi.homepage.t-online.de
 email-telekom.de
 ex.banner.t-online.de
 fc-sst.ticket-onlineshop.com
-fioricet-online.blogspot.com
 geolocation.t-online.de
 ggbet-online.net
 gitconnect-online.web.app
@@ -47,7 +46,6 @@ hubert-online.ch.102.112.2o7.net
 im.banner.t-online.de
 install.streamit-online.com
 jdgtgb.t-online.de
-knight-online.de.intellitxt.com
 koschudu.homepage.t-online.de
 m.banner.t-online.de
 madasi.homepage.t-online.de
@@ -64,11 +62,9 @@ sgtm.tourist-online.de
 statistics.freinet-online.de
 statistik.zeitgeist-online.de
 streamit-online.com
-t-online.de.intellitxt.com
 tcrwharen.homepage.t-online.de
 telekom01.webtrekk.net
 telekom02.webtrekk.net
 tracking.levelup.telekom.com
-wallstreet-online.de.intellitxt.com
 wc0x83ghk.homepage.t-online.de
 web-track.telekom-dienste.de

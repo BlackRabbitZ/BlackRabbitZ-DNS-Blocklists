@@ -1,0 +1,17 @@
+# BlackRabbitZ DNS Blocklists
+# List: lists/privacy-security/privacy/fingerprinting.txt
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; third-party sources: THIRD_PARTY.md
+# Data method: derived from current BRZ snapshot
+# Entries: 10
+#
+526088041474-prod-fingerprint-assets.s3.us-west-2.amazonaws.com
+devicefingerprint.pay.checkout.worldline-solutions.com
+fingerprint.ancor-group.com
+fingerprint.demandbase.com
+fingerprint.fool.com
+fingerprint.gointerpay.net
+fingerprinting-fd-hzbjgafhhucga5dn.z01.azurefd.net
+fpjs.io
+fpjscdn.net
+ipfingerprints.com

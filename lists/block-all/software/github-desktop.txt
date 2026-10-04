@@ -1,0 +1,28 @@
+# BlackRabbitZ DNS Blocklists
+# List: lists/block-all/software/github-desktop.txt
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; third-party sources: THIRD_PARTY.md
+# Data method: BRZ service blocking + curated functional roots
+# Entries: 21
+#
+black-js.github.io
+blue-js.github.io
+collector.githubapp.com
+cyberalien.github.io
+drozdovvalerij0.github.io
+dynya-may.github.io
+github.com
+githubassets.com
+githubusercontent.com
+googleads.github.io
+kireevairina959.github.io
+may-js.github.io
+mindmup.github.io
+one-jj.github.io
+prxio.github.io
+red-js.github.io
+superlogout.github.io
+telemetry.business.githubcopilot.com
+telemetry.enterprise.githubcopilot.com
+three-jj.github.io
+two-jj.github.io

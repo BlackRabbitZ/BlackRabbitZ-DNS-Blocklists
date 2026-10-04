@@ -7,7 +7,7 @@
 # Risk: variabel
 # Data status: abgeleitet
 # Data method: derived-keyword
-# Entries: 20
+# Entries: 19
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -30,4 +30,3 @@ analytics-cdn.xmaxdata.com
 data.ppn-ad-cdn.populis.com
 hsanalytics-cdn.com
 hsanalytics-cdn.net
-tracking-cdn.rdc.moveaws.com

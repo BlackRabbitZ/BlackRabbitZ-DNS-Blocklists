@@ -1,0 +1,25 @@
+# BlackRabbitZ DNS Blocklists
+# Title: discord isolate
+# Description: Maximum known service communication; service/app is expected to stop working.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: lists/service-blocking/social-media/discord/block-all.txt
+# Risk: very high
+# Data status: befuellt
+# Data method: service-isolate
+# Entries: 12
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+analytics.discord.com
+api.discord.com
+cdn.discordapp.com
+click.discord.com
+discord.com
+discord.gg
+discord.media
+discordapp.com
+discordapp.net
+gateway.discord.gg
+science.discord.com
+sentry.discord.com

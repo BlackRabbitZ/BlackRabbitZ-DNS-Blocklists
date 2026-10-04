@@ -7,7 +7,7 @@
 # Risk: variabel
 # Data status: abgeleitet
 # Data method: derived-keyword
-# Entries: 29
+# Entries: 27
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -26,7 +26,6 @@ ciscosystemsinc.tt.omtrdc.net
 ciscowebex.112.2o7.net
 datacollect.cisco.com
 dsc.cisco.com
-ehg-cisco.hitbox.com
 engage2demand.cisco.com
 engagemetrics.cisco.com
 load.sgtm.restaurante-sanfrancisco.es
@@ -36,7 +35,6 @@ partnersuccessmetrics.cisco.com
 reporting.cisco.com
 sanfranciscojapanesefusion.com
 smetrics.cisco.com
-smtp.sanfrancisco.bluehornet.com
 sst.sanfranciscomagictheater.com
 stape.franciscopenha.com
 target.cisco.com

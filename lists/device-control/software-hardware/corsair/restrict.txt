@@ -1,15 +1,9 @@
 # BlackRabbitZ DNS Blocklists
-# Title: corsair restrict
-# Description: Privacy plus optional vendor/cloud/recommendation endpoints.
+# List: lists/device-control/software-hardware/corsair/restrict.txt
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
-# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
-# Sources: lists/platforms/software-hardware-telemetry/full/corsair.txt + BRZ manufacturer data
-# Risk: high
-# Data status: befuellt
-# Data method: derived-restrict
+# License: GPL-3.0-only; third-party sources: THIRD_PARTY.md
+# Data method: fallback from BRZ lists/platforms/software-hardware-telemetry/full/corsair.txt
 # Entries: 2
-# Format: Plain domains, eine Domain pro Zeile
-# Build model: Single file; keine Part-/MiB-Aufteilung
 #
 tag.corsair.com
 web.corsair.com

@@ -1,0 +1,33 @@
+# BlackRabbitZ DNS Blocklists
+# List: lists/block-all/social/reddit.txt
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; third-party sources: THIRD_PARTY.md
+# Data method: BRZ service-blocking Block All
+# Entries: 26
+#
+ads.reddit.com
+alb.reddit.com
+analytics.reddit.com
+click.redditmail.com
+conversions-config.reddit.com
+d.reddit.com
+e.reddit.com
+engine.a.redditmedia.com
+error-tracking.reddit.com
+events.reddit.com
+events.redditmedia.com
+oauth.reddit.com
+old.reddit.com
+pixel-config.reddit.com
+pixel.reddit.com
+pixel.redditmedia.com
+reddit.com
+redditmedia.com
+redditstatic.com
+stats.redditmedia.com
+tracker.redditmedia.com
+w3-reporting-csp.reddit.com
+w3-reporting-nel.reddit.com
+w3-reporting.reddit.com
+www.alb.reddit.com
+www.reddit.com

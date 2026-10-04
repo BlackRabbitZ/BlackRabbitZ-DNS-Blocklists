@@ -6,10 +6,11 @@
 # Sources: lists/manufacturers/razer.txt
 # Risk: medium
 # Data status: befuellt
-# Data method: manufacturer-privacy
-# Entries: 2
+# Data method: device-privacy-curated
+# Entries: 3
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
+analytic.wolkengrazer.com
 bespoke-analytics.razerapi.com
 pixel.olaprazer.com.br

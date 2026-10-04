@@ -6,11 +6,9 @@
 # Sources: lists/platforms/operating-systems/full/linux.txt + BRZ manufacturer data
 # Risk: high
 # Data status: befuellt
-# Data method: derived-restrict
-# Entries: 3
+# Data method: device-restrict-curated
+# Entries: 1
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
 metrics.ubuntu.com
-popcon.debian.org
-popcon.ubuntu.com

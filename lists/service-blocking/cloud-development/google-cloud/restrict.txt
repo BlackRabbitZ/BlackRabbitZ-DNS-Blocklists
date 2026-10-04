@@ -1,0 +1,15 @@
+# BlackRabbitZ DNS Blocklists
+# Title: google-cloud restrict
+# Description: Privacy plus optional advertising/recommendation/marketing endpoints; core service should remain usable.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: lists/service-blocking/cloud-development/google-cloud/block-all.txt
+# Risk: high
+# Data status: befuellt
+# Data method: service-restrict-curated
+# Entries: 2
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+bluestacks-cloud-appplayer-logs.storage.googleapis.com
+feedback-pa.googleapis.com

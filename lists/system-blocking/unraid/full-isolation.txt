@@ -1,0 +1,9 @@
+# BlackRabbitZ DNS Blocklists
+# List: lists/system-blocking/unraid/full-isolation.txt
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; third-party sources: THIRD_PARTY.md
+# Data method: BRZ isolate + updates + privacy/restrict
+# Entries: 2
+#
+account.unraid.net
+myunraid.net

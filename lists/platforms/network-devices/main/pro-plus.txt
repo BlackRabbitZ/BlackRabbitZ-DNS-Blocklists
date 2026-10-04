@@ -7,7 +7,7 @@
 # Risk: Mittel
 # Data status: befüllt
 # Data method: generated-tier
-# Entries: 375
+# Entries: 370
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -114,7 +114,6 @@ ciscowebex.112.2o7.net
 cms.sec.miui.com
 cnaac.getui.com
 cncapi.getui.com
-collect.content.intl.miui.com
 connect.asus.com
 connect.rom.miui.com
 crash-report-service.svc.ui.com
@@ -130,7 +129,6 @@ detect.getui.com
 dsc.cisco.com
 dt.etuui.com
 dzsbappdown.getui.com
-ehg-cisco.hitbox.com
 engage2demand.cisco.com
 engagemetrics.cisco.com
 esurveyapi.asus.com
@@ -311,7 +309,6 @@ security.browser.intl.miui.com
 security.browser.miui.com
 sentry.sec.miui.com
 smetrics.cisco.com
-smtp.sanfrancisco.bluehornet.com
 sndgydifipxuui.com
 spd.browser.miui.com
 srv.greenguard.sec.miui.com
@@ -346,7 +343,6 @@ trace.svc.ui.com
 track.grupopegasus.com.br
 track.mitpegasus.com.br
 track.pegasuscaoachery.com.br
-track.pegasusselect.com.br
 tracking.eu.miui.com
 tracking.india.miui.com
 tracking.intl.miui.com
@@ -357,7 +353,6 @@ trial.api.huangye.miui.com
 trizoicaequi.com
 uba.huaweicloud.com
 umami.daishoui.com
-unifi-report.ubnt.com
 unifi.corp.exoclick.com
 unified-ter-na.hismarttv.com
 unified.adsafeprotected.com

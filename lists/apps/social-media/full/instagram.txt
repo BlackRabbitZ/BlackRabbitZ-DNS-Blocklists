@@ -6,20 +6,9 @@
 # Sources: Aus vorhandenen BlackRabbitZ-/dokumentierten HaGeZi-Domains konservativ abgeleitet
 # Risk: variabel
 # Data status: abgeleitet
-# Data method: derived-keyword
-# Entries: 12
+# Data method: curated-privacy
+# Entries: 1
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
 analytics.instagram.com
-badges.instagram.com
-fr-instagram.com
-gateway.instagram.com
-graph-fallback.instagram.com
-graph.instagram.com
-graphql.instagram.com
-gtm.instagramautomation.com
-instagram-nextjs-three.vercel.app
-instagram.irancell-10g-free.rf.gd
-instagram.sokrati.com
-instagramcdn.com

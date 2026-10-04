@@ -6,16 +6,17 @@
 # Sources: lists/platforms/software-hardware-telemetry/full/nvidia.txt + BRZ manufacturer data; Pi-hole Query-Log Review 2026-10-03
 # Risk: high
 # Data status: befuellt
-# Data method: derived-restrict
-# Entries: 8
+# Data method: device-restrict-curated
+# Entries: 9
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
+ehg-nvidia.hitbox.com
 events.gfe.nvidia.com
 events.telemetry.data.nvidia.com
+fast.nvidia.demdex.net
 gx-target-experiments-frontend-api.gx.nvidia.com
-lightstep.kaizen.nvidia.com
-prd-appstats.nvidia.com
-smetrics.nvidia.com
+nvidia.demdex.net
 telemetry.gfe.nvidia.com
 telemetry.nvidia.com
+zn8jonxbval6gn2if-nvidia.siteintercept.qualtrics.com

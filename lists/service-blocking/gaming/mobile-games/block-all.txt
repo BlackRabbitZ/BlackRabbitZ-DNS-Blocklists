@@ -6,8 +6,8 @@
 # Sources: BRZ existing data + curated service roots; Pi-hole Query-Log Review 2026-10-03
 # Risk: very high
 # Data status: befuellt
-# Data method: service-block-all
-# Entries: 8
+# Data method: service-block-all-curated
+# Entries: 7
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -16,6 +16,5 @@ ae.iads.unity3d.com
 analytics-ios-tcp.rayjump.com
 cdn.iads.unity3d.com
 config.mobilegamestats.com
-crashlogs.mobilegame.woniu.com
 hbevents-public.mz.unity3d.com
 mobilegamestats.com

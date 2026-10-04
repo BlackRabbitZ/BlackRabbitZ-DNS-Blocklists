@@ -6,20 +6,8 @@
 # Sources: Aus vorhandenen BlackRabbitZ-/dokumentierten HaGeZi-Domains konservativ abgeleitet
 # Risk: variabel
 # Data status: abgeleitet
-# Data method: derived-keyword
-# Entries: 12
+# Data method: curated-privacy
+# Entries: 0
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
-ads-dev.pinterest.com
-ads.pinterest.com
-analytics.pinterest.com
-assets.pinterest.com
-ct.pinterest.com
-log.pinterest.com
-pinterest-stape.stmna.com.au
-pinterest.3lift.com
-pinterest.adsymptotic.com
-s-media-cache-ak0.pinimg.com
-trk.pinterest.com
-widgets.pinterest.com

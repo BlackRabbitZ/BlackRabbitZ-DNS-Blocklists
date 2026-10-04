@@ -7,13 +7,12 @@
 # Risk: Mittel
 # Data status: befüllt
 # Data method: generated-tier
-# Entries: 107
+# Entries: 103
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
 ad.sirian.dumedia.ru
 ads.alexander-walz.de
-alexa-sitestats.s3.amazonaws.com
 alexa.com
 alexa.links.cn
 alexa.propellerads.com
@@ -86,7 +85,6 @@ service1.mundwerk-alexa.de
 simple.alexandria-library.julienc.me
 siri.hboin.com
 sirian.dumedia.ru
-sirinbet.com
 sirius-expedition.com
 sirius.adx1.com
 sirius.iad-03.braze.com
@@ -95,8 +93,6 @@ smetrics.alexalbon.com
 smetrics.alexandani.com
 smetrics.siriusxm.ca
 smetrics.siriusxm.com
-smtp.alexandria.bluehornet.com
-smtp.alexandroupolis.bluehornet.com
 sst.alexander-veyron.de
 sst.siriusoutdoorgroup.com
 stape.alexandrecamilo.com

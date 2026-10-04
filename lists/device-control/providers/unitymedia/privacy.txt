@@ -1,15 +1,9 @@
 # BlackRabbitZ DNS Blocklists
-# Title: unitymedia privacy
-# Description: Privacy/Tracking/Telemetry; core service should remain usable.
+# List: lists/device-control/providers/unitymedia/privacy.txt
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
-# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
-# Sources: lists/platforms/providers/full/unitymedia.txt + BRZ manufacturer data
-# Risk: medium
-# Data status: befuellt
-# Data method: derived-existing-privacy
+# License: GPL-3.0-only; third-party sources: THIRD_PARTY.md
+# Data method: fallback from BRZ lists/platforms/providers/full/unitymedia.txt
 # Entries: 4
-# Format: Plain domains, eine Domain pro Zeile
-# Build model: Single file; keine Part-/MiB-Aufteilung
 #
 sc.unitymedia.de
 smetrics.unitymediabusiness.de

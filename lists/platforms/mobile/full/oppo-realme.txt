@@ -7,7 +7,7 @@
 # Risk: variabel
 # Data status: abgeleitet
 # Data method: derived-keyword
-# Entries: 161
+# Entries: 157
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -29,7 +29,6 @@ adx.ads.oppomobile.com
 affirmwreathopportunity.com
 analytics.istodayoppositeday.com
 analytics.oppomobile.com
-anopportunitytost.com
 b1.ads.oppomobile.com
 bdapi-ads.realmemobile.com
 bdapi-id.ads.oppomobile.com
@@ -54,7 +53,6 @@ data.ads.oppomobile.com
 dataf.ads.oppomobile.com
 fickleopportunity.pro
 findanopportunity.com
-franchiseopportunitiesexpert.com
 g1.ads.oppomobile.com
 generousmedievalopposed.com
 grounded-opposite.com
@@ -138,9 +136,7 @@ opportunity-tracking.com
 opportunity.businessbroker.net
 opportunityforeigntoward.com
 opportunitysearch.net
-oppositefeasibleunemployment.com
 oppositeoperation.com
-oppositionconvenient.com
 pub.realmedia.fr
 pubs.opportunites.mg
 puzzled-opportunity.com

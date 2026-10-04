@@ -1,0 +1,14 @@
+# BlackRabbitZ DNS Blocklists
+# Title: disney-plus restrict
+# Description: Privacy plus optional advertising/recommendation/marketing endpoints; core service should remain usable.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: lists/service-blocking/streaming/disney-plus/block-all.txt
+# Risk: high
+# Data status: befuellt
+# Data method: service-restrict-curated
+# Entries: 1
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+analytics.disneyplus.com

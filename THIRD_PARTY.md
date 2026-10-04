@@ -36,3 +36,8 @@ Weitere Quellen je nach Ursprungsliste: Block List Project, AnudeepND, NextDNS N
 - HaGeZi-Dokumentation wurde als Referenz für Privacy-Tiers, Native Tracker und Bypass-/NRD-Semantik verwendet.
 - Block List Project wurde als Referenz für Pi-hole-kompatible Kategorien und Listenpflege verwendet.
 - Es wurde **keine neue automatische Fremdlisten-Synchronisation** eingebaut; die neuen Listen sind statische Snapshots bzw. aus dem vorhandenen BRZ-Bestand abgeleitet.
+
+## Rebuilt README project (2026-10-04)
+
+The rebuilt project uses the current BlackRabbitZ repository snapshot as the primary dataset. That snapshot already contains and documents GPL-3.0-compatible HaGeZi-derived Native Tracking, Family, Threat Intelligence, DNS/Bypass and other standalone data. New convenience/group/system lists are derived from these existing source files without removing the original attribution.
+

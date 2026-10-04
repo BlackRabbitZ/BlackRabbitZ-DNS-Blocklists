@@ -5,10 +5,8 @@
 # License: GPL-3.0-only; siehe THIRD_PARTY.md fuer Drittquellen
 # Sources: BlackRabbitZ Smart-TV Bestand; HaGeZi-basierte Native/TV-Anteile
 # Risk: hoch
-# Entries: 2
+# Entries: 0
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 # Generated: ja
 #
-androidtvchannels-pa.googleapis.com
-androidtvwatsonfe-pa.googleapis.com

@@ -5,7 +5,7 @@
 # License: GPL-3.0-only; siehe THIRD_PARTY.md fuer Drittquellen
 # Sources: BlackRabbitZ IoT-Datenbestand
 # Risk: hoch
-# Entries: 13
+# Entries: 12
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 # Generated: ja
@@ -20,6 +20,5 @@ fls-eu.amazon.com
 fls-na.amazon.com
 mads-eu.amazon.com
 mas-sdk.amazon.com
-mobileanalytics.us-east-1.amazonaws.com
 notify.firetv.bugsnag.appstore.a2z.com
 unagi-na.amazon.com

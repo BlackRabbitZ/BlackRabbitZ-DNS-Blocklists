@@ -6,20 +6,9 @@
 # Sources: lists/apps/social-media/full/instagram.txt
 # Risk: medium
 # Data status: befuellt
-# Data method: derived-service-privacy
-# Entries: 12
+# Data method: service-privacy-curated
+# Entries: 1
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
 analytics.instagram.com
-badges.instagram.com
-fr-instagram.com
-gateway.instagram.com
-graph-fallback.instagram.com
-graph.instagram.com
-graphql.instagram.com
-gtm.instagramautomation.com
-instagram-nextjs-three.vercel.app
-instagram.irancell-10g-free.rf.gd
-instagram.sokrati.com
-instagramcdn.com

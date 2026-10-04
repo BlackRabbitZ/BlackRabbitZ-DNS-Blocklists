@@ -6,30 +6,12 @@
 # Sources: lists/platforms/streaming/full/twitch.txt
 # Risk: medium
 # Data status: befuellt
-# Data method: derived-service-privacy
-# Entries: 22
+# Data method: service-privacy-curated
+# Entries: 4
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
-ad.twitchguru.com
 ads.twitch.tv
-badges.twitch.tv
 client-event-reporter.twitch.tv
-countess.twitch.tv
-deviceidshare.twitch.tv
-fan.twitch.tv
-ingest.twitch.tv
-mp.twitch.tv
-outwitch.com
-pubster.twitch.tv
-reach.slowtwitch.com
-shoptwitchcdn.com
-spade.sci.twitch.tv
 spade.twitch.com
 spade.twitch.tv
-twitchads.tv
-twitchadvertising.tv
-twitchcdnfor.com
-twitchcdnshop.com
-twitchguru.us.intellitxt.com
-www.ad.twitchguru.com

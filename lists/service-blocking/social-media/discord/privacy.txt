@@ -6,17 +6,10 @@
 # Sources: lists/apps/social-media/full/discord.txt
 # Risk: medium
 # Data status: befuellt
-# Data method: derived-service-privacy
-# Entries: 9
+# Data method: service-privacy-curated
+# Entries: 2
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
 analytics.discord.com
-click.discord.com
-discordvip.createsocialcard.top
-modificationviewpointdiscord.com
-owl.sentrydiscord.dev
-plausible.discord.place
 science.discord.com
-sentry.discord.com
-stats.discordtickets.app

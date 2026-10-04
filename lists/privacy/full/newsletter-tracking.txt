@@ -7,7 +7,7 @@
 # Risk: variabel
 # Data status: abgeleitet
 # Data method: derived-keyword
-# Entries: 166
+# Entries: 156
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -37,7 +37,6 @@ email-tracking.parentlab.com
 emailtracker.website
 emailtracking.appsflyer.com
 emailtracking.gokidpower.org
-enewsletters.ziffdavisinternet.com
 free-email-tracker.com
 getmailtracker.com
 links.ayrnewsletter.com
@@ -52,7 +51,6 @@ newsletter-soletrader.co.uk
 newsletter.davey.com
 newsletter.enviedeplus.be
 newsletter.epithimies.gr
-newsletter.gamespot.com
 newsletter.globalnews.ca
 newsletter.institutmontaigne.org
 newsletter.linkshare.com
@@ -62,12 +60,9 @@ newsletter.mobiles.co.uk
 newsletter.outbrain.com
 newsletter.pg.com
 newsletter.renesola.com
-newsletter.rubiconproject.com
 newsletter.sst-apac.test.cjmadobe.com
 newsletter.tide.com
 newsletter.visitnc.com
-newsletterhut.com
-newsletterjet.com
 newsletters.artips.fr
 newsletters.hcf.com.au
 newsletters.vocento.com
@@ -77,7 +72,6 @@ ordinarilyrehearsenewsletter.com
 pages.newsletter.avianca.com
 pxl-mailtracker.com
 r.koppnewsletter.kopp-verlag.de
-r.newsletter-anct.com
 r.newsletter-approches.com
 r.newsletter-beeper.fr
 r.newsletter-swing.fr
@@ -104,7 +98,6 @@ r.newsletter.directcontactexhibitions.com
 r.newsletter.discoverbooks.com
 r.newsletter.doctormusic.com
 r.newsletter.ekopo.fr
-r.newsletter.en-contact.com
 r.newsletter.energylandia.pl
 r.newsletter.evercade.co.uk
 r.newsletter.fncc.fr
@@ -144,9 +137,7 @@ r.newsletter.snepfsu-communication.net
 r.newsletter.theleader.info
 r.newsletter.ticketline.co.uk
 r.newsletter.tokyoindustries.com
-r.newsletter.unitedliftequipment.com
 r.newsletter.wetechsystem.it
-r.newsletter.wizzvet.com
 r.newsletter.wsa-dz.com
 r.newsletter1.batiactu.com
 r.newsletter2.batiactu.com
@@ -170,7 +161,6 @@ vodafonenewsletters.co.uk
 waymailtracker.com
 web.newsletter.koffer-to-go.de
 web.newsletter.viviennewestwood.com
-web.newsletterit.esprinet.com
 wirenewsletter.com
 www.mailtrack.me
 www.newsletter.enviedeplus.be

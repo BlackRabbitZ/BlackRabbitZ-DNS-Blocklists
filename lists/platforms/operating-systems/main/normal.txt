@@ -7,7 +7,7 @@
 # Risk: Niedrig
 # Data status: befüllt
 # Data method: generated-tier
-# Entries: 48
+# Entries: 45
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -22,8 +22,6 @@ analytics-events.apple.com
 analytics.apple.com
 analytics.google.com
 api.gameanalytics.com
-app-analytics.snapchat.com
-app-measurement.com
 ase.adserver.snapads.com
 books-analytics-events.apple.com
 books-analytics-events.news.apple-dns.net
@@ -41,7 +39,6 @@ news-analytics-events.apple.com
 notes-analytics-events.apple.com
 notes-analytics-events.news.apple-dns.net
 podcasts-analytics-events.apple.com
-sc-analytics.appspot.com
 searchads.apple.com
 searchads.apple.com.edgesuite.net
 searchads.lb-apple.com.akadns.net

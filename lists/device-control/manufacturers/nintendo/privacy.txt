@@ -6,10 +6,11 @@
 # Sources: lists/manufacturers/nintendo.txt
 # Risk: medium
 # Data status: befuellt
-# Data method: manufacturer-privacy
-# Entries: 2
+# Data method: device-privacy-curated
+# Entries: 3
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
-smetrics.nintendo.com
+fast.nintendoofamericainc.demdex.net
+nintendoofamericainc.demdex.net
 tracking.nintendo-europe.com

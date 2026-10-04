@@ -1,0 +1,28 @@
+# BlackRabbitZ DNS Blocklists
+# List: lists/block-all/software/cloud-clients.txt
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; third-party sources: THIRD_PARTY.md
+# Data method: aggregate software package: cloud-clients
+# Entries: 21
+#
+1drv.com
+bolt.dropbox.com
+client-log.box.com
+d.dropbox.com
+dl-debug.dropbox.com
+drive.google.com
+drive.usercontent.google.com
+dropbox.com
+dropboxapi.com
+dropboxstatic.com
+fp.dropbox.com
+googleusercontent.com
+marketing.dropbox.com
+onedrive.com
+onedrive.live.com
+sanalytics.box.com
+t8.dropbox.com
+telemetry.dropbox.com
+telemetry.v.dropbox.com
+thunder.dropbox.com
+usersurvey.dropbox.com

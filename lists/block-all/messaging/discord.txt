@@ -1,0 +1,19 @@
+# BlackRabbitZ DNS Blocklists
+# List: lists/block-all/messaging/discord.txt
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; third-party sources: THIRD_PARTY.md
+# Data method: BRZ service-blocking Block All
+# Entries: 12
+#
+analytics.discord.com
+api.discord.com
+cdn.discordapp.com
+click.discord.com
+discord.com
+discord.gg
+discord.media
+discordapp.com
+discordapp.net
+gateway.discord.gg
+science.discord.com
+sentry.discord.com

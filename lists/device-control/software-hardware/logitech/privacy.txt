@@ -1,15 +1,9 @@
 # BlackRabbitZ DNS Blocklists
-# Title: logitech privacy
-# Description: Privacy/Tracking/Telemetry; core service should remain usable.
+# List: lists/device-control/software-hardware/logitech/privacy.txt
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
-# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
-# Sources: lists/platforms/software-hardware-telemetry/full/logitech.txt + BRZ manufacturer data
-# Risk: medium
-# Data status: befuellt
-# Data method: derived-existing-privacy
+# License: GPL-3.0-only; third-party sources: THIRD_PARTY.md
+# Data method: fallback from BRZ lists/platforms/software-hardware-telemetry/full/logitech.txt
 # Entries: 4
-# Format: Plain domains, eine Domain pro Zeile
-# Build model: Single file; keine Part-/MiB-Aufteilung
 #
 webanalytics.logitech.com
 webanalytics.logitech.com.cn

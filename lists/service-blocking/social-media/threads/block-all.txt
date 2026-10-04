@@ -6,20 +6,16 @@
 # Sources: BRZ existing data + curated service roots
 # Risk: very high
 # Data status: befuellt
-# Data method: service-block-all
-# Entries: 12
+# Data method: service-block-all-curated
+# Entries: 8
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
 cdnthreads.com
-data.connectingthreads.com
-eshsm.amazethreads.com
 scontent-hkg2-1.cdnthreads.com
 scontent-lax1-3.cdnthreads.com
 scontent-nrt1-1.cdnthreads.com
 scontent-sin1-2.cdnthreads.com
-ss.castthreads.com
 static.cdnthreads.com
 threads.net
-tl.reveriethreads.com
 www.threads.net

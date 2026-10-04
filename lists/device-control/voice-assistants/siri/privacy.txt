@@ -6,35 +6,63 @@
 # Sources: lists/platforms/voice-assistants/full/siri.txt + BRZ manufacturer data
 # Risk: medium
 # Data status: befuellt
-# Data method: derived-existing-privacy
-# Entries: 27
+# Data method: device-privacy-curated
+# Entries: 55
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
+ad.myapple.pl
 ad.sirian.dumedia.ru
+ads.applelinks.com
+ads.wappler.io
+advertising.apple.com
+analytics-events.apple.com
+analytics.apple.com
+analytics.appleboys.us
+analytics.applemooz.net
+analytics.icloud.com
 analytics.osirius.de
-anon.sirius.speedera.net
-capig.siriusmarketing.com.br
-download.sirius.speedera.net
-fetasirid.shop
-get.siriuscom.com
-matomo.esirion.de
-matomo.sirius.org.ru
+books-analytics-events.apple.com
+books-analytics-events.news.apple-dns.net
+diagnostics.apple.com
+diagnostics.apple.com.akadns.net
+dzc-metrics.mzstatic.com
+events-analytics.apple.com
+events-dra-op-hicloud-com-dra.appacc-region.dbankedge.cn
+events-dra-op-hicloud-com-dra.appacc.dbankedge.cn
+events-dra-op-hicloud-com-dra.edge.dbankedge.cn
+events-dra.op.hicloud.com
+events-dre-op-hicloud-com-dre.appacc.dbankedge.cn
+events-dre.op.hicloud.com
+experiment-icloud.v.aaplimg.com
+experiment.icloud.com
+experiments.apple.com
+experiments.apple.com.edgekey.net
+feedback.apple.com
+marketing.services.apple
+metrics-config.icloud.com
+metrics-dra.dt.hicloud.com
+metrics-drcn.dt.hicloud.com
 metrics-target.siriusxm.com
+metrics.apple.com
+metrics.data.hicloud.com
+metrics.dt.hicloud.com
+metrics.icloud.com
+metrics.mzstatic.com
 metrics.siriusxm.ca
-osiristrading.112.2o7.net
-piwik.siriusonline.de
-piwik.siriustec.eu
-push.silversiri.com
-siri.hboin.com
-sirian.dumedia.ru
-sirinbet.com
-sirius-expedition.com
-sirius.adx1.com
-sirius.iad-03.braze.com
-siriusxm.pxf.io
-smetrics.siriusxm.ca
-smetrics.siriusxm.com
-sst.siriusoutdoorgroup.com
-stats.siriusag.com
-www.sirius-expedition.com
+news-analytics-events.apple.com
+news-app-events.apple.com
+news-events.apple.com
+news-notification-events.apple.com
+news-sports-events.apple.com
+notes-analytics-events.apple.com
+notes-analytics-events.news.apple-dns.net
+podcasts-analytics-events.apple.com
+stocks-analytics-events.apple.com
+stocks-analytics-events.news.apple-dns.net
+tf-feedback.itunes.apple.com
+tracking.appleadstech.com
+tracking.applegiftcards.ir
+tv-analytics-events.apple.com
+weather-analytics-events.apple.com
+weather-analytics-events.news.apple-dns.net

@@ -1,0 +1,23 @@
+# BlackRabbitZ DNS Blocklists
+# List: lists/kids-allow-only/kids-media.txt
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; third-party sources: THIRD_PARTY.md
+# Data method: mapped from BRZ Kids Allow-Only sources
+# Entries: 16
+#
+auditorix.de
+duda.news
+kika.de
+kikaninchen.de
+kinderfilmwelt.de
+kindernetz.de
+ohrka.de
+wdrmaus.de
+www.auditorix.de
+www.duda.news
+www.kika.de
+www.kikaninchen.de
+www.kinderfilmwelt.de
+www.kindernetz.de
+www.ohrka.de
+www.wdrmaus.de

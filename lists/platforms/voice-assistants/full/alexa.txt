@@ -7,12 +7,11 @@
 # Risk: variabel
 # Data status: abgeleitet
 # Data method: derived-keyword
-# Entries: 82
+# Entries: 79
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
 ads.alexander-walz.de
-alexa-sitestats.s3.amazonaws.com
 alexa.com
 alexa.links.cn
 alexa.propellerads.com
@@ -73,8 +72,6 @@ service1.mundwerk-alexa.de
 simple.alexandria-library.julienc.me
 smetrics.alexalbon.com
 smetrics.alexandani.com
-smtp.alexandria.bluehornet.com
-smtp.alexandroupolis.bluehornet.com
 sst.alexander-veyron.de
 stape.alexandrecamilo.com
 stats.alexandar.me

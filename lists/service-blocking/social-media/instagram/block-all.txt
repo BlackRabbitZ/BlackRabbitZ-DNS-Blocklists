@@ -6,24 +6,18 @@
 # Sources: BRZ existing data + curated service roots
 # Risk: very high
 # Data status: befuellt
-# Data method: service-block-all
-# Entries: 16
+# Data method: service-block-all-curated
+# Entries: 10
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
 analytics.instagram.com
 badges.instagram.com
 cdninstagram.com
-fr-instagram.com
 gateway.instagram.com
 graph-fallback.instagram.com
 graph.instagram.com
 graphql.instagram.com
-gtm.instagramautomation.com
 i.instagram.com
-instagram-nextjs-three.vercel.app
 instagram.com
-instagram.irancell-10g-free.rf.gd
-instagram.sokrati.com
-instagramcdn.com
 www.instagram.com

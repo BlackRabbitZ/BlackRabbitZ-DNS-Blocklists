@@ -6,8 +6,8 @@
 # Sources: BRZ existing data + curated service roots
 # Risk: very high
 # Data status: befuellt
-# Data method: service-block-all
-# Entries: 17
+# Data method: service-block-all-curated
+# Entries: 12
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -20,11 +20,6 @@ discord.gg
 discord.media
 discordapp.com
 discordapp.net
-discordvip.createsocialcard.top
 gateway.discord.gg
-modificationviewpointdiscord.com
-owl.sentrydiscord.dev
-plausible.discord.place
 science.discord.com
 sentry.discord.com
-stats.discordtickets.app

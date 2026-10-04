@@ -7,7 +7,7 @@
 # Risk: Niedrig
 # Data status: befüllt
 # Data method: generated-tier
-# Entries: 362
+# Entries: 359
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -203,8 +203,6 @@ kz.lgsmartad.com
 lb-ad-lgsmartad-com.aws-prd.net
 lb.lgsmartad.com
 lc.lgsmartad.com
-lgad.cjpowercast.com
-lgad.cjpowercast.com.edgesuite.net
 lgads.tv
 lgsmartad.com
 li-ad-lgsmartad-com.aws-prd.net
@@ -237,7 +235,6 @@ mm-ad-lgsmartad-com.aws-prd.net
 mm.lgsmartad.com
 mn-ad-lgsmartad-com.aws-prd.net
 mo-ad-lgsmartad-com.aws-prd.net
-mobileanalytics.us-east-1.amazonaws.com
 mq.lgsmartad.com
 mr-ad-lgsmartad-com.aws-prd.net
 mr.lgsmartad.com

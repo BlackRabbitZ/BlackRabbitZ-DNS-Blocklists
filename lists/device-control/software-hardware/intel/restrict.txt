@@ -6,12 +6,11 @@
 # Sources: lists/platforms/software-hardware-telemetry/full/intel.txt + BRZ manufacturer data
 # Risk: high
 # Data status: befuellt
-# Data method: derived-restrict
-# Entries: 4
+# Data method: device-restrict-curated
+# Entries: 3
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
 analytics.kriskintel.com
 analytics.ravenintel.com
-stats.iridiumintel.com
 telemetry.intel.com

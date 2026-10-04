@@ -6,11 +6,10 @@
 # Sources: lists/platforms/streaming/full/plex.txt
 # Risk: medium
 # Data status: befuellt
-# Data method: derived-service-privacy
-# Entries: 3
+# Data method: service-privacy-curated
+# Entries: 2
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
 analytics.plex.tv
 metrics.plex.tv
-my.plexapp.com

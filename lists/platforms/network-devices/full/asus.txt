@@ -7,7 +7,7 @@
 # Risk: variabel
 # Data status: abgeleitet
 # Data method: derived-keyword
-# Entries: 29
+# Entries: 28
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -38,5 +38,4 @@ stats.pegasus24.com
 track.grupopegasus.com.br
 track.mitpegasus.com.br
 track.pegasuscaoachery.com.br
-track.pegasusselect.com.br
 www.asustechsupport247.com

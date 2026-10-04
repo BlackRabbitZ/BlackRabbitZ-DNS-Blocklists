@@ -1,0 +1,13 @@
+# BlackRabbitZ DNS Blocklists
+# List: lists/system-blocking/consoles/local-mode.txt
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; third-party sources: THIRD_PARTY.md
+# Data method: BRZ privacy+restrict minus update endpoints
+# Entries: 6
+#
+a.ad.playstation.net
+discovery.olv.nintendo.net
+metrics.us.playstation.com
+telemetry-web.api.playstation.com
+telemetry.api.playstation.com
+tracking.nintendo-europe.com

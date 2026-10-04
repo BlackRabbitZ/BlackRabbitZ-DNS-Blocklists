@@ -6,8 +6,8 @@
 # Sources: BRZ existing data + curated service roots
 # Risk: very high
 # Data status: befuellt
-# Data method: service-block-all
-# Entries: 31
+# Data method: service-block-all-curated
+# Entries: 26
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -17,13 +17,11 @@ analytics.reddit.com
 click.redditmail.com
 conversions-config.reddit.com
 d.reddit.com
-data.redditsave.com
 e.reddit.com
 engine.a.redditmedia.com
 error-tracking.reddit.com
 events.reddit.com
 events.redditmedia.com
-libreddit.domain.glass
 oauth.reddit.com
 old.reddit.com
 pixel-config.reddit.com
@@ -32,9 +30,6 @@ pixel.redditmedia.com
 reddit.com
 redditmedia.com
 redditstatic.com
-rereddit.com
-s.onreddit.com
-sa.askredditbut.ai
 stats.redditmedia.com
 tracker.redditmedia.com
 w3-reporting-csp.reddit.com

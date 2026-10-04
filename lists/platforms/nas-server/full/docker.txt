@@ -7,7 +7,7 @@
 # Risk: variabel
 # Data status: abgeleitet
 # Data method: derived-keyword
-# Entries: 16
+# Entries: 15
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -19,7 +19,6 @@ docker.vidible.tv
 dockers.pxf.io
 dockerverse.com
 email.docker.com
-fabric8-docker-registry.default.console.ws.adacts.com
 matomo.docker1.standpunkt-hosting.de
 metrics.dockers-site.com
 metrics.us.dockers.com

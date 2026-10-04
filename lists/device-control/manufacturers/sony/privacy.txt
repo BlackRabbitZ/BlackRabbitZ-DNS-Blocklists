@@ -6,15 +6,21 @@
 # Sources: lists/manufacturers/sony.txt
 # Risk: medium
 # Data status: befuellt
-# Data method: manufacturer-privacy
-# Entries: 88
+# Data method: device-privacy-curated
+# Entries: 26
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
-adserver1.sonymusiceurope.com
 analytics.ensonyan.com
 analytics.sonymusic.com
-hqmetrics.sony.com
+ehg-sonybssc.hitbox.com
+ehg-sonycomputer.hitbox.com
+ehg-sonyelec.hitbox.com
+ehg-sonyesolutions.hitbox.com
+ehg-sonymusic.hitbox.com
+ehg-sonyny.hitbox.com
+fast.sony.demdex.net
+fast.sonyglobal.demdex.net
 metrics.helpguide.sony.net
 metrics.sony-asia.com
 metrics.sony.co.in
@@ -29,73 +35,5 @@ metrics.sony.jp
 metrics.sony.lt
 metrics.sony.se
 metrics.sonymusicd2c.com
-shqmetrics.sony.com
-smetrics.aitrios.sony-semicon.com
-smetrics.sony-africa.com
-smetrics.sony-europe.com
-smetrics.sony-latin.com
-smetrics.sony-mea.com
-smetrics.sony.at
-smetrics.sony.ba
-smetrics.sony.be
-smetrics.sony.bg
-smetrics.sony.ch
-smetrics.sony.cl
-smetrics.sony.co.cr
-smetrics.sony.co.id
-smetrics.sony.co.in
-smetrics.sony.co.kr
-smetrics.sony.co.nz
-smetrics.sony.co.th
-smetrics.sony.com.ar
-smetrics.sony.com.au
-smetrics.sony.com.bo
-smetrics.sony.com.br
-smetrics.sony.com.co
-smetrics.sony.com.do
-smetrics.sony.com.ec
-smetrics.sony.com.gt
-smetrics.sony.com.hn
-smetrics.sony.com.mk
-smetrics.sony.com.mx
-smetrics.sony.com.my
-smetrics.sony.com.ni
-smetrics.sony.com.pa
-smetrics.sony.com.pe
-smetrics.sony.com.ph
-smetrics.sony.com.sg
-smetrics.sony.com.sv
-smetrics.sony.com.tr
-smetrics.sony.com.tw
-smetrics.sony.com.vn
-smetrics.sony.cz
-smetrics.sony.de
-smetrics.sony.dk
-smetrics.sony.ee
-smetrics.sony.es
-smetrics.sony.eu
-smetrics.sony.fi
-smetrics.sony.fr
-smetrics.sony.gr
-smetrics.sony.hr
-smetrics.sony.hu
-smetrics.sony.ie
-smetrics.sony.it
-smetrics.sony.jp
-smetrics.sony.kz
-smetrics.sony.lt
-smetrics.sony.lu
-smetrics.sony.lv
-smetrics.sony.nl
-smetrics.sony.no
-smetrics.sony.pl
-smetrics.sony.pt
-smetrics.sony.ro
-smetrics.sony.rs
-smetrics.sony.ru
-smetrics.sony.se
-smetrics.sony.si
-smetrics.sony.sk
-smetrics.sony.ua
-smetrics.sonylatvija.com
-tag.sonymusic.com
+sony.demdex.net
+sony.qualtrics.com

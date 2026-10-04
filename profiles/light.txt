@@ -5,7 +5,7 @@
 # License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
 # Sources: BlackRabbitZ Privacy Light; Pi-hole Query-Log Review 2026-10-03
 # Risk: minimal
-# Entries: 234015
+# Entries: 234013
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 # Generated: ja
@@ -46002,7 +46002,6 @@ ae.carnelbawrel.com
 ae.exquirelikest.com
 ae.goodsblock.mgid.com
 ae.gsecondscreen.com
-ae.iads.unity3d.com
 ae.info.lgsmartad.com
 ae.nflximg.net
 ae.pubmatic.com
@@ -70568,7 +70567,6 @@ cdn.hoverr.me
 cdn.ht.trafficforce.com
 cdn.hunteryvely.com
 cdn.hyperpromote.com
-cdn.iads.unity3d.com
 cdn.iasrv.com
 cdn.ichlnk.com
 cdn.idtargeting.com

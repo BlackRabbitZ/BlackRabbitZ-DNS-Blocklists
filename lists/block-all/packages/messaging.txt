@@ -1,0 +1,24 @@
+# BlackRabbitZ DNS Blocklists
+# List: lists/block-all/packages/messaging.txt
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; third-party sources: THIRD_PARTY.md
+# Data method: aggregate package: messaging
+# Entries: 17
+#
+analytics.discord.com
+api.discord.com
+api.telegram.org
+cdn.discordapp.com
+click.discord.com
+discord.com
+discord.gg
+discord.media
+discordapp.com
+discordapp.net
+gateway.discord.gg
+science.discord.com
+sentry.discord.com
+t.me
+telegram.me
+telegram.org
+web.telegram.org

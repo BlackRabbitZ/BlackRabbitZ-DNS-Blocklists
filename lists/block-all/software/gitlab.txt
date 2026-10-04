@@ -1,0 +1,12 @@
+# BlackRabbitZ DNS Blocklists
+# List: lists/block-all/software/gitlab.txt
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; third-party sources: THIRD_PARTY.md
+# Data method: BRZ service blocking + curated functional roots
+# Entries: 5
+#
+gitlab-static.net
+gitlab.ad-stir.com
+gitlab.com
+ledger-wallet.gitlab.io
+trx.gitlab.net

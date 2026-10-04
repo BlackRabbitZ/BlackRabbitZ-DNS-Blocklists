@@ -6,30 +6,12 @@
 # Sources: Aus vorhandenen BlackRabbitZ-/dokumentierten HaGeZi-Domains konservativ abgeleitet
 # Risk: variabel
 # Data status: abgeleitet
-# Data method: derived-keyword
-# Entries: 22
+# Data method: curated-privacy
+# Entries: 4
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
-ad.twitchguru.com
 ads.twitch.tv
-badges.twitch.tv
 client-event-reporter.twitch.tv
-countess.twitch.tv
-deviceidshare.twitch.tv
-fan.twitch.tv
-ingest.twitch.tv
-mp.twitch.tv
-outwitch.com
-pubster.twitch.tv
-reach.slowtwitch.com
-shoptwitchcdn.com
-spade.sci.twitch.tv
 spade.twitch.com
 spade.twitch.tv
-twitchads.tv
-twitchadvertising.tv
-twitchcdnfor.com
-twitchcdnshop.com
-twitchguru.us.intellitxt.com
-www.ad.twitchguru.com

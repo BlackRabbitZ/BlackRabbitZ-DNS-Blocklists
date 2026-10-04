@@ -7,7 +7,7 @@
 # Risk: variabel
 # Data status: abgeleitet
 # Data method: derived-keyword
-# Entries: 74
+# Entries: 73
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -17,7 +17,6 @@ aajtak.pushwoosh.com
 api.pushwoosh.com
 appspress.pushwoosh.com
 askfm.pushwoosh.com
-aston-mpr-web-push-notification.s3-us-west-2.amazonaws.com
 bbumgames.pushwoosh.com
 cache-05.pushwoosh.com
 cache-06.pushwoosh.com

@@ -1,4 +1,8 @@
-<p align="right">🇩🇪 <strong>Deutsch</strong> · <a href="README_EN.md">🇬🇧 English</a></p>
+<p align="right">
+
+🇩🇪 <strong>Deutsch</strong> · <a href="README_EN.md">🇬🇧 English</a>
+
+</p>
 
 <a id="top"></a>
 
@@ -6,1585 +10,1204 @@
 
 # 🐇 BlackRabbitZ DNS Blocklists
 
-### Privacy • Geräte-Isolation • App-Blocking • Security • Family • Network Control
+### Privacy • Geräte-Isolation • App-Blocking • Security • Family • Netzwerk-Kontrolle
 
-![Pi-hole](https://img.shields.io/badge/Pi--hole-kompatibel-96060C?logo=pihole&logoColor=white)
-![Format](https://img.shields.io/badge/Format-Plain%20Domains-2ea44f)
+[![Pi-hole](https://img.shields.io/badge/Pi--hole-kompatibel-96060C?logo=pihole&logoColor=white)](https://pi-hole.net/)
+[![AdGuard Home](https://img.shields.io/badge/AdGuard%20Home-kompatibel-67B279?logo=adguard&logoColor=white)](https://github.com/AdguardTeam/AdGuardHome)
+[![Unbound](https://img.shields.io/badge/Unbound-kompatibel-5B6770)](https://nlnetlabs.nl/projects/unbound/about/)
+![Format](https://img.shields.io/badge/Format-Plain%20Domains-2EA44F)
 ![Profiles](https://img.shields.io/badge/Profile-Light%20%7C%20Normal%20%7C%20Pro%20%7C%20Pro%2B%2B%20%7C%20Ultimate-3178C6)
-![Catalog](https://img.shields.io/badge/Katalog-100%20Kategorien-informational)
+![Catalog](https://img.shields.io/badge/Katalog-100%20Kategorien-0088CC)
 
-**DNS-Blocklisten mit klar definierter Wirkung:**
+[![Validate](https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/actions/workflows/validate.yml/badge.svg)](https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/actions/workflows/validate.yml)
+[![License](https://img.shields.io/github/license/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists?label=Lizenz)](https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/blob/main/LICENSE)
+[![Last Commit](https://img.shields.io/github/last-commit/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists?label=Letzter%20Commit)](https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/commits/main)
+[![Issues](https://img.shields.io/github/issues/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists)](https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/issues)
+[![Repo Size](https://img.shields.io/github/repo-size/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists?label=Repo-Gr%C3%B6%C3%9Fe)](https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists)
+[![Stars](https://img.shields.io/github/stars/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists?style=flat&label=Stars)](https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/stargazers)
 
-🛡️ **Privacy** – Werbung, Tracking, Analytics, Telemetrie und Fingerprinting blockieren, ohne den Dienst absichtlich abzuschalten  
-⚠️ **Restrict** – Geräte und Hersteller stärker einschränken, optionale Online-/Cloudfunktionen reduzieren  
-🚫 **Isolate** – Geräte möglichst vollständig von der Hersteller-Infrastruktur trennen  
-🚫 **Block All** – Apps und Webdienste vollständig sperren  
-🛡️ **Security** – Malware, Phishing, C2, Ransomware und Scam vollständig blockieren  
-👨‍👩‍👧 **Family** – NSFW, Gambling, Drugs, Violence/Gore, Weapons usw. vollständig blockieren
+**Modulare DNS-Blocklisten mit klar getrennten Schutzstufen für Privacy, Geräte, Apps, Security, Family und Netzwerk-Kontrolle.**
 
 </div>
 
 ---
-<a id="projekt-navigation"></a>
-## 📘 1. Inhaltsverzeichnis – Projekt & Nutzung
+<!-- BRZ-TOC-START -->
+# 📑 Inhaltsverzeichnis
 
-- [🚀 Schnellstart](#schnellstart)
-- [🧭 Welche Wirkungsart brauche ich?](#wirkungsarten)
-- [📊 Globale Hauptlisten auf einen Blick](#hauptlisten)
-- [🎚️ Privacy-Schutzstufen](#schutzstufen)
-
----
-<a id="kinderschutz-navigation"></a>
-## 👨‍👩‍👧 Besonderes Inhaltsverzeichnis – Family & Kinderschutz
-
-- [👨‍👩‍👧 Family & Content](#family)
-- [🧒 Kids Allow-Only](#kids-allow-only)
-- [📚 Kids-Allowlist-Dateien](#kids-dateien)
-- [🛠️ Pi-hole-v6-Anleitung](#kids-anleitung)
-
----
-<a id="blocklisten-navigation"></a>
-## 🧱 2. Inhaltsverzeichnis – Blocklisten
-
-### [🛡️ Allgemeine Privacy-Listen](#privacy-group)
-- [🕵️ Privacy & Tracking](#privacy)
-- [🧩 Software & Hardware Telemetrie](#software-hardware)
-- [🤖 KI, Bots & Crawler](#automation)
-
-### [🔌 Geräte & Hersteller — Privacy / Restrict / Isolate](#devices-group)
-- [📺 Smart TV](#smart-tv)
-- [📱 Smartphones & Mobile](#mobile)
-- [💻 Betriebssysteme](#betriebssysteme)
-- [🏠 IoT & Smart Home](#iot)
-- [🎙️ Sprachassistenten](#voice)
-- [🚗 Automotive / Connected Cars](#automotive)
-- [💾 NAS & Server](#nas-server)
-- [🌐 Router & Netzwerkgeräte](#network-devices)
-- [📡 ISP / Provider](#providers)
-- [🏢 Google, Microsoft, Apple & Amazon](#ecosystems)
-- [🏭 Herstellerlisten](#manufacturers)
-
-### [📱 Apps & Dienste — Privacy / Block All](#apps-group)
-- [📺 Streaming](#streaming)
-- [🎮 Gaming](#gaming)
-- [💬 Social Media](#social-media)
-- [☁️ Cloud, Server & Development](#cloud-dev)
-
-### [🛡️ Vollständige Schutz-/Kontrolllisten](#protection-group)
-- [👨‍👩‍👧 Family & Content](#family)
-- [🛡️ Security & Threat Intelligence](#security)
-- [🔐 DNS, Netzwerk & Umgehung](#network)
-- [🧰 Speziallisten](#speziallisten)
-- [🌍 Regionale Listen](#regional)
-
-### 📚 Projekt & Dokumentation
-- [🧩 Listenmodell](#listenmodell)
-- [🗺️ 100-Kategorien-Katalog](#katalog100)
-- [📂 Repository-Struktur](#repo-struktur)
-- [✅ Qualitätssicherung](#qualitaet)
-- [⚠️ Hinweise & technische Grenzen](#grenzen)
-- [📜 Quellen & Lizenz](#lizenz)
+- [🚀 Schnellstart – Werbung / Ads / Tracker / Telemetrie](#-schnellstart--werbung--ads--tracker--telemetrie)
+- [💎 All-in Profile](#-all-in-profile)
+- [📚 Hauptbereiche](#-hauptbereiche)
+  - [👨‍👩‍👧 Family & Kinderschutz](#-family--kinderschutz)
+  - [🧒 Kids Allow Only](#-kids-allow-only)
+  - [📢 Werbung & Tracking](#-werbung--tracking)
+  - [🧩 Software & Hardware Telemetrie](#-software--hardware-telemetrie)
+  - [🤖 KI, Bots & Crawler](#-ki-bots--crawler)
+  - [🛡️ Privatsphäre & Security](#️-privatsphäre--security)
+  - [💻 Geräte, Systeme & Hersteller](#-geräte-systeme--hersteller)
+  - [🎮 Gaming Privacy](#-gaming-privacy)
+  - [☁️ Cloud, Server & Development](#️-cloud-server--development)
+  - [🌐 Netzwerk & Spezialschutz](#-netzwerk--spezialschutz)
+  - [🚫 Komplettblockierungen](#-komplettblockierungen)
+    - [🧰 Software & Tools blockieren](#-software--tools-blockieren)
+    - [🖥️ Systemblockierungen](#️-systemblockierungen)
+- [🧠 Welche Liste brauche ich?](#-welche-liste-brauche-ich)
+- [🐛 False Positive gefunden?](#-false-positive-gefunden)
+- [❤️ Mitwirken](#️-mitwirken)
+- [📜 Lizenz](#-lizenz)
 
 ---
-# 📘 Teil 1 – Projekt & Nutzung
+<!-- BRZ-TOC-END -->
+
+# 🚀 Schnellstart – Werbung / Ads / Tracker / Telemetrie
+
+Du möchtest möglichst wenig selbst zusammenstellen? Dann wähle **genau ein Gesamtprofil**.
+
+| Profil | Schutz | Kompatibilität | Geeignet für | Liste |
+|---|---|:---:|---|---|
+| 🟩 **Light** | Blockiert Werbung und sehr eindeutig zuordenbare Tracker. Maximale Rücksicht auf Webseiten, Apps und Gerätefunktionen. | 🟢 Sehr hoch | Einsteiger / maximale Kompatibilität | [Liste öffnen](profiles/light.txt) |
+| 🟦 **Normal** | Light + allgemeines Tracking, Analytics und erste Telemetrie-Endpunkte. | 🟢 Hoch | Normale Heimnetze | [Liste öffnen](profiles/normal.txt) |
+| 🟨 **Pro ⭐** | Umfangreicher Schutz vor Ads, Trackern, Analytics, App-/Mobile-Tracking und Telemetrie bei möglichst normaler Nutzung. | 🟢 Hoch | **Für die meisten Nutzer** | [Liste öffnen](profiles/pro.txt) |
+| 🟧 **Pro++** | Pro + aggressivere Privacy-, Telemetrie- und Geräte-Tracker. | 🟡 Mittel | Erfahrene Nutzer | [Liste öffnen](profiles/pro-plus.txt) |
+| 🟥 **Ultimate** | Maximale allgemeine Ads-/Tracking-/Telemetry-Abdeckung. Höheres False-Positive-Risiko. | 🟠 Erhöht | Experten | [Liste öffnen](profiles/ultimate.txt) |
+
+> ⭐ **Empfohlen:** `Pro` – hoher Datenschutz bei möglichst guter Kompatibilität.
 
 
-<a id="wirkungsarten"></a>
-## 🧭 Welche Wirkungsart brauche ich?
+<details>
+<summary><strong>ℹ️ Was machen die Gesamtprofile – und was machen sie ausdrücklich nicht?</strong></summary>
 
-> **Kompatibilität:** Alle bisherigen Repo-Pfade und RAW-URLs bleiben erhalten. Die neuen `device-control`- und `service-blocking`-Listen kommen **zusätzlich** hinzu; vorhandene Listen wurden nicht verschoben oder umsortiert.
+| ✅ Die Gesamtprofile konzentrieren sich auf |  | 🚫 Sie sperren nicht automatisch |
+|---|:---:|---|
+| Werbung<br>Tracker<br>Analytics<br>Social Tracking<br>Mobile-/App-Tracking<br>Telemetrie<br>Diagnostics<br>Fingerprinting<br>bekannte Privacy-Endpunkte | **│**<br>**│**<br>**│**<br>**│**<br>**│**<br>**│**<br>**│**<br>**│**<br>**│**<br>**│** | Adult / NSFW<br>Glücksspiel<br>Social Media komplett<br>Streamingdienste komplett<br>Musikdienste komplett<br>Gaming-Plattformen komplett<br>Hersteller-Clouds komplett<br>Geräte-Updates<br>VPN / Tor / Proxy<br>ganze Apps oder Dienste |
 
-| Was möchtest du erreichen? | Richtige Liste |
+> **Grundregel:** `Light → Normal → Pro → Pro++ → Ultimate` bedeutet mehr allgemeinen Schutz – **nicht automatisch mehr Zugriffssperren**.
+
+</details>
+
+---
+
+<!-- ALL-IN-BANNER-START -->
+# 💎 All-in Profile
+
+<p align="center">
+  <img src="assets/categories/09-all-in-profile.png" alt="All-in Profile" width="100%">
+</p>
+
+> **Maximalprofil:** bündelt Werbung, Tracking, Telemetrie, Family, Geräte, Security, Netzwerk und Komplettblockierungen in einer einzigen Liste.  
+> ⚠️ **Sehr aggressiv:** Apps, Dienste, Updates, Cloud-Funktionen oder ganze Plattformen können dadurch absichtlich nicht mehr funktionieren.
+
+| Profil | Schutz | Geeignet für | Liste |
+|---|---|---|---|
+| 💎 **All-in** | Alle Schutz- und Blockierbereiche in einer Gesamtliste | Testsysteme, stark kontrollierte Netze, Experten | [Liste öffnen](profiles/all-in.txt) |
+
+<!-- ALL-IN-BANNER-END -->
+
+---
+
+# 📚 Hauptbereiche
+
+| Bereich | Zweck |
 |---|---|
-| Werbung, Tracker, Analytics, Telemetrie, Fingerprinting reduzieren | 🛡️ **Privacy** |
-| Gerät normal nutzen, Herstellertracking reduzieren | 🔌 Hersteller/Gerät → **Privacy** |
-| Optionale Hersteller-/Cloudfunktionen zusätzlich einschränken | ⚠️ Hersteller/Gerät → **Restrict** |
-| Gerät möglichst komplett vom Hersteller trennen | 🚫 Hersteller/Gerät → **Isolate** |
-| App/Dienst weiter nutzen, aber Tracking reduzieren | 📱 App/Dienst → **Privacy** |
-| App/Webdienst vollständig sperren | 🚫 App/Dienst → **Block All** |
-| Malware/Phishing/Ransomware/Scam blockieren | 🛡️ **Security** |
-| NSFW/Gambling/Drugs/Violence/Weapons usw. sperren | 👨‍👩‍👧 **Family** |
-| DoH/VPN/Proxy/Bypass-Endpunkte sperren | 🔐 **Network Control** |
+| 👨‍👩‍👧 [Family & Kinderschutz](#-family--kinderschutz) | Ungeeignete Inhalte gezielt filtern |
+| 🧒 [Kids Allow Only](#-kids-allow-only) | Nur ausdrücklich erlaubte Seiten zulassen |
+| 📢 [Werbung & Tracking](#-werbung--tracking) | Ads, Tracker, Analytics und Attribution |
+| 🧩 [Software & Hardware Telemetrie](#-software--hardware-telemetrie) | Telemetrie von Software, Treibern und Hardware-Herstellern |
+| 🤖 [KI, Bots & Crawler](#-ki-bots--crawler) | KI-Crawler, Scraper, Bots, Training und AI-Telemetrie |
+| 🛡️ [Privatsphäre & Security](#️-privatsphäre--security) | Privacy-Schutz sowie Malware, Phishing und Threat Intelligence |
+| 💻 [Geräte, Systeme & Hersteller](#-geräte-systeme--hersteller) | Geräte-, Hersteller-, ISP- und Ökosystem-Kommunikation steuern |
+| 🎮 [Gaming Privacy](#-gaming-privacy) | Gaming-Telemetrie und Launcher-Tracking reduzieren |
+| ☁️ [Cloud, Server & Development](#️-cloud-server--development) | Cloud-, Hosting-, CI/CD- und Entwicklerdienste |
+| 🌐 [Netzwerk & Spezialschutz](#-netzwerk--spezialschutz) | DoH, VPN, Proxy, Tor, Spezial- und Regionallisten |
+| 🚫 [Komplettblockierungen](#-komplettblockierungen) | Apps, Software, Tools und komplette Systeme gezielt sperren |
 
-### 🔌 Geräte & Hersteller
-
-Jedes unterstützte Gerät bzw. jeder Hersteller erhält:
-
-```text
-privacy.txt
-restrict.txt
-isolate.txt
-updates.txt
-```
-
-**Privacy** = nur Datenschutz-/Tracking-Endpunkte.  
-**Restrict** = zusätzlich optionale Hersteller-, Cloud-, Marketing- und Recommendation-Dienste.  
-**Isolate** = möglichst gesamte bekannte Herstellerkommunikation inklusive Account, Store, Cloud, APIs und Updates.  
-**Updates** = Update-Infrastruktur separat steuerbar.
-
-### 📱 Apps & Dienste
-
-Jeder unterstützte Dienst erhält:
-
-```text
-privacy.txt
-block-all.txt
-```
-
-**Privacy** = Tracking/Analytics/Telemetry reduzieren.  
-**Block All** = funktionale Servicehosts sperren, sodass der Dienst nicht mehr funktioniert.
-
-### 🛡️ Security und 👨‍👩‍👧 Family
-
-Hier bedeutet ein Eintrag grundsätzlich:
-
-> **Die gelistete Domain soll nicht erreichbar sein.**
+<br>
 
 ---
 
-<a id="schnellstart"></a>
-## 🚀 Schnellstart
-
-Für das gesamte Netzwerk wählst du **genau eine** globale Hauptliste:
-
-```text
-profiles/light.txt
-profiles/normal.txt
-profiles/pro.txt
-profiles/pro-plus.txt
-profiles/ultimate.txt
-```
-
-Die Stufen sind kumulativ. Es gibt **keine Part-/MiB-Aufteilung** – jedes logische Profil ist genau **eine Datei und eine URL**.
+<br>
 
 ---
-<a id="hauptlisten"></a>
-## 📊 Globale Hauptlisten auf einen Blick
 
-| Profil | Blockierung | Risiko | Einträge | Liste |
-|---|---|:---:|---:|---|
-| 🟩 **Light** | zurückhaltend | Minimal | **234.015** | [Light](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/profiles/light.txt) |
-| 🟦 **Normal** | ausgewogen | Niedrig | **342.242** | [Normal](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/profiles/normal.txt) |
-| 🟨 **Pro** | Datenschutz | Niedrig–Mittel | **371.547** | [Pro](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/profiles/pro.txt) |
-| 🟧 **Pro++** | aggressiv | Mittel | **383.656** | [Pro++](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/profiles/pro-plus.txt) |
-| 🟥 **Ultimate** | maximal | Hoch | **5.119.303** | [Ultimate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/profiles/ultimate.txt) |
+<br>
 
 
-Die fünf Profile bauen aufeinander auf. Für den normalen Einsatz wird **genau eine** Stufe gewählt.
+# 👨‍👩‍👧 Family & Kinderschutz
 
-> **Was steckt in den globalen Hauptlisten?** `Ultimate` enthält die Vereinigung aller bereichsspezifischen `Ultimate`-Hauptlisten im Repository. Die kleineren globalen Stufen (`Light`, `Normal`, `Pro`, `Pro++`) sind dagegen bewusst kuratierte, kumulative Teilmengen und **nicht** einfach die 1:1-Vereinigung aller gleichnamigen Bereichslisten.
+<!-- CATEGORY-BANNER:02-family-kinderschutz.png -->
+<p align="center">
+  <img src="assets/categories/02-family-kinderschutz.png" alt="Family & Kinderschutz" width="100%">
+</p>
+<!-- /CATEGORY-BANNER -->
+
+
+## Fertige Family-Profile
+
+| Profil | Schutz | Geeignet für | Liste |
+|---|---|---|---|
+| 🟩 **Light** | Grundlegender Jugendschutz mit geringer Einschränkung | Jüngere Nutzer mit viel Freiraum | [Liste öffnen](family/main/light.txt) |
+| 🟦 **Normal** | Adult + Gambling + SafeSearch-Basis | Familiennetzwerke | [Liste öffnen](family/main/normal.txt) |
+| 🟨 **Pro ⭐** | Normal + Drugs + Violence + Weapons + Dating | **Empfohlen für Kindergeräte** | [Liste öffnen](family/main/pro.txt) |
+| 🟧 **Pro++** | Pro + Social + Chats + Anti-Piracy + stärkerer Umgehungsschutz | Strengere Familiennetze | [Liste öffnen](family/main/pro-plus.txt) |
+| 🟥 **Ultimate** | Maximale Family-Filterung ohne Allow-Only-Prinzip | Stark kontrollierte Geräte | [Liste öffnen](family/main/ultimate.txt) |
+
+<details>
+<summary><strong>📂 Einzelne Family-Listen anzeigen</strong></summary>
+
+| Name | Funktion | Liste anzeigen |
+|---|---|---|
+| 🔞 **Adult / NSFW** | Blockiert Pornografie, Adult-/NSFW-Seiten und zugehörige Dienste. | [Öffnen](lists/family/adult-nsfw.txt) |
+| 🎰 **Gambling** | Blockiert Casinos, Sportwetten, Betting und Glücksspielplattformen. | [Öffnen](lists/family/gambling.txt) |
+| 🎰 **Gambling Medium** | Kleinere Gambling-Variante mit geringerer Datenmenge. | [Öffnen](lists/family/gambling-medium.txt) |
+| 🎰 **Gambling Mini** | Stark größenoptimierte Gambling-Variante für ressourcenarme Systeme. | [Öffnen](lists/family/gambling-mini.txt) |
+| 💊 **Drugs** | Blockiert bekannte Drogenmärkte und einschlägige Plattformen. | [Öffnen](lists/family/drugs.txt) |
+| 🩸 **Violence / Gore** | Blockiert Gore-, Shock- und extreme Gewaltinhalte. | [Öffnen](lists/family/violence-gore.txt) |
+| 🔫 **Weapons** | Blockiert ausgewählte Waffenhandels- und problematische Waffenplattformen. | [Öffnen](lists/family/weapons.txt) |
+| 💕 **Dating** | Blockiert Dating-Webseiten und Dating-Apps. | [Öffnen](lists/family/dating.txt) |
+| 💬 **Social Networks** | Blockiert klassische soziale Netzwerke. | [Öffnen](lists/family/social-networks.txt) |
+| 💭 **Chats & Communities** | Blockiert ausgewählte Chats, anonyme Communities und Community-Plattformen. | [Öffnen](lists/family/chats-communities.txt) |
+| 🔍 **SafeSearch Unsupported** | Blockiert Suchdienste, die keinen verlässlichen SafeSearch-Modus anbieten. | [Öffnen](lists/family/safesearch-unsupported.txt) |
+| 💀 **Anti-Piracy** | Blockiert Plattformen, die überwiegend zur unerlaubten Verbreitung urheberrechtlich geschützter Inhalte dienen. | [Öffnen](lists/family/anti-piracy.txt) |
+| 🕳️ **Family Bypass Protection** | Blockiert typische DNS-/Proxy-/VPN-/Tor-Umgehungswege für Family-Gruppen. | [Öffnen](lists/family/bypass-protection.txt) |
+
+</details>
 
 ---
-<a id="schutzstufen"></a>
-## 🎚️ Privacy-Schutzstufen Light bis Ultimate
 
-| Profil | Typischer Inhalt | Risiko |
-|---|---|:---:|
-| 🟩 **Light** | Werbung + besonders sichere Tracker | Minimal |
-| 🟦 **Normal** | Light + Tracking/Analytics | Niedrig |
-| 🟨 **Pro** | Normal + Telemetrie, Diagnostics, Native-/Device-Tracking | Niedrig–Mittel |
-| 🟧 **Pro++** | Pro + aggressivere Hersteller-/Cloud-Endpunkte + Security-Basis | Mittel |
-| 🟥 **Ultimate** | maximaler Privacy-/Tracking-Bestand; keine absichtliche Block-All-/Isolate-Wirkung | Hoch |
-
-`Ultimate` kann je nach Bereich Cloudfunktionen, Logins, Stores, Updates oder andere Onlinefunktionen beeinträchtigen.
+<br>
 
 ---
-<a id="listenmodell"></a>
-## 🧩 Hauptlisten & Full-Listen
 
-Jeder große Bereich folgt demselben Modell:
+<br>
 
-```text
-Light ⊂ Normal ⊂ Pro ⊂ Pro++ ⊂ Ultimate
-```
 
-Die **Hauptlisten** bündeln ganze Bereiche.
+# 🧒 Kids Allow Only
 
-Für einzelne Ziele wird die Wirkung über den Dateinamen eindeutig:
+<!-- CATEGORY-BANNER:03-kids-allow-only.png -->
+<p align="center">
+  <img src="assets/categories/03-kids-allow-only.png" alt="Kids Allow Only" width="100%">
+</p>
+<!-- /CATEGORY-BANNER -->
 
-| Bereich | Dateien |
+
+**Komplett anderer Ansatz als Family:** Standardmäßig ist nichts erlaubt. Nur explizit freigegebene Domains funktionieren.
+
+
+<details>
+<summary><strong>🛠️ Pi-hole v6+: Kids Allow Only einrichten</strong></summary>
+
+> **Prinzip:** Für die Kindergeräte wird eine eigene Pi-hole-Gruppe erstellt.  
+> Diese Gruppe bekommt eine **Regex-Deny-Regel `.*`**, die zunächst alle Domains sperrt.  
+> Anschließend wird **genau eine Kids-Allow-Only-Liste als abonnierte Allowlist** hinzugefügt.  
+> Dadurch funktionieren nur die ausdrücklich erlaubten Domains.
+
+### 1. Kindergerät eindeutig festlegen
+
+Gib dem Kindergerät möglichst eine **feste IP-Adresse bzw. DHCP-Reservierung**, damit Pi-hole es dauerhaft derselben Gruppe zuordnen kann.
+
+Beispiel:
+
+`192.168.178.50` → Tablet des Kindes
+
+### 2. Eigene Pi-hole-Gruppe erstellen
+
+In Pi-hole:
+
+**Group Management → Groups → Add Group**
+
+Name zum Beispiel:
+
+`Kids-Allow-Only`
+
+### 3. Kindergerät der Gruppe zuweisen
+
+Unter:
+
+**Group Management → Clients**
+
+das Kindergerät hinzufügen und ausschließlich der Gruppe **Kids-Allow-Only** zuweisen.
+
+> **Empfehlung:** Die Zuordnung zur Gruppe `Default` für dieses Gerät entfernen, damit normale Netzwerkregeln nicht unerwartet mit dem Allow-Only-Profil kollidieren.
+
+### 4. Passendes Kids-Profil auswählen
+
+Wähle **genau eine** der fertigen Listen:
+
+| Profil | Geeignet für |
 |---|---|
-| Geräte / Hersteller | `privacy.txt` · `restrict.txt` · `isolate.txt` · `updates.txt` |
-| Apps / Dienste | `privacy.txt` · `block-all.txt` |
-| Security | vollständige Schutzlisten |
-| Family | vollständige Inhalts-Sperrlisten |
-| Network Control | vollständige Policy-/Umgehungs-Sperrlisten |
+| 🟩 **Basic** | sehr kleine, stark eingeschränkte Auswahl |
+| 🟦 **School** | Schulgeräte und Lernplattformen |
+| 🟨 **Learning ⭐** | Lernen + ausgewählte Kinder-/Medienangebote |
+| 🟧 **Extended** | größere Auswahl inkl. ausgewählter Kommunikation |
 
-**Status:** ✅ = enthält Einträge. 🟡 = Pfad/Kategorie ist vollständig vorbereitet, aber im aktuellen statischen Quellstand fehlen belastbare Domain-Einträge. In den Datei-Headern zeigt `Data method`, ob eine Liste direkt aus einer Quelle übernommen, als Tier erzeugt oder konservativ aus bestehenden Domains neu einsortiert wurde.
+Öffne die gewünschte Liste auf GitHub, klicke auf **Raw** und kopiere die Raw-URL.
 
----
-<a id="katalog100"></a>
-## 🗺️ 100-Kategorien-Katalog
+### 5. Kids-Liste als abonnierte Allowlist eintragen
 
-Alle **100 Kategorien** des BRZ Pi-hole DNS-Listen & Kinderschutz-Handbuchs sind in [`docs/CATALOG_100.md`](docs/CATALOG_100.md) auf konkrete Repo-Pfade gemappt. Damit bleibt auch sichtbar, welche Spezialklassen bereits befüllt und welche nur vorbereitet sind.
+In **Pi-hole v6+** die kopierte Raw-URL als **Subscribed Allowlist / abonnierte Allowlist** hinzufügen.
 
----
-<a id="repo-struktur"></a>
-## 📂 Repository-Struktur – fertige Ansicht
+Wichtig:
 
-### Smartphones & Mobile
+- Typ: **Allow**
+- Gruppe: **nur `Kids-Allow-Only`**
+- nicht der normalen `Default`-Gruppe zuweisen
 
-<details>
-<summary><strong>📂 Smartphones & Mobile anzeigen</strong></summary>
+Pi-hole v6 unterstützt abonnierte externe Allowlists direkt.
 
+### 6. Alles andere sperren
 
-```text
-lists/device-control/mobile/
-├── apple-ios/
-│   ├── privacy.txt
-│   ├── restrict.txt
-│   ├── isolate.txt
-│   └── updates.txt
-├── google-android/
-│   ├── privacy.txt
-│   ├── restrict.txt
-│   ├── isolate.txt
-│   └── updates.txt
-├── google-pixel/
-│   ├── privacy.txt
-│   ├── restrict.txt
-│   ├── isolate.txt
-│   └── updates.txt
-├── huawei/
-│   ├── privacy.txt
-│   ├── restrict.txt
-│   ├── isolate.txt
-│   └── updates.txt
-├── motorola/
-│   ├── privacy.txt
-│   ├── restrict.txt
-│   ├── isolate.txt
-│   └── updates.txt
-├── oneplus/
-│   ├── privacy.txt
-│   ├── restrict.txt
-│   ├── isolate.txt
-│   └── updates.txt
-├── oppo-realme/
-│   ├── privacy.txt
-│   ├── restrict.txt
-│   ├── isolate.txt
-│   └── updates.txt
-├── samsung/
-│   ├── privacy.txt
-│   ├── restrict.txt
-│   ├── isolate.txt
-│   └── updates.txt
-├── shared-other/
-│   ├── privacy.txt
-│   ├── restrict.txt
-│   ├── isolate.txt
-│   └── updates.txt
-├── vivo/
-│   ├── privacy.txt
-│   ├── restrict.txt
-│   ├── isolate.txt
-│   └── updates.txt
-├── xiaomi/
-│   ├── privacy.txt
-│   ├── restrict.txt
-│   ├── isolate.txt
-│   └── updates.txt
-```
+Unter:
 
-</details>
+**Group Management → Domains**
 
-### Smart TV
-
-<details>
-<summary><strong>📂 Smart TV anzeigen</strong></summary>
-
+eine neue **Regex-Denylist** anlegen:
 
 ```text
-lists/device-control/smart-tv/
-├── amazon-fire-tv/
-│   ├── privacy.txt
-│   ├── restrict.txt
-│   ├── isolate.txt
-│   └── updates.txt
-├── google-android-tv/
-│   ├── privacy.txt
-│   ├── restrict.txt
-│   ├── isolate.txt
-│   └── updates.txt
-├── google-tv/
-│   ├── privacy.txt
-│   ├── restrict.txt
-│   ├── isolate.txt
-│   └── updates.txt
-├── hisense-vidaa/
-│   ├── privacy.txt
-│   ├── restrict.txt
-│   ├── isolate.txt
-│   └── updates.txt
-├── lg-webos/
-│   ├── privacy.txt
-│   ├── restrict.txt
-│   ├── isolate.txt
-│   └── updates.txt
-├── panasonic/
-│   ├── privacy.txt
-│   ├── restrict.txt
-│   ├── isolate.txt
-│   └── updates.txt
-├── philips/
-│   ├── privacy.txt
-│   ├── restrict.txt
-│   ├── isolate.txt
-│   └── updates.txt
-├── roku/
-│   ├── privacy.txt
-│   ├── restrict.txt
-│   ├── isolate.txt
-│   └── updates.txt
-├── samsung/
-│   ├── privacy.txt
-│   ├── restrict.txt
-│   ├── isolate.txt
-│   └── updates.txt
-├── shared-other/
-│   ├── privacy.txt
-│   ├── restrict.txt
-│   ├── isolate.txt
-│   └── updates.txt
-├── sony-bravia/
-│   ├── privacy.txt
-│   ├── restrict.txt
-│   ├── isolate.txt
-│   └── updates.txt
-├── tcl/
-│   ├── privacy.txt
-│   ├── restrict.txt
-│   ├── isolate.txt
-│   └── updates.txt
+.*
 ```
 
-</details>
+Diese Regel ebenfalls **nur** der Gruppe `Kids-Allow-Only` zuweisen.
 
-### Betriebssysteme
+> ⚠️ **Niemals `.*` versehentlich der Gruppe `Default` zuweisen.**  
+> Sonst blockierst du praktisch das gesamte Internet für alle Geräte, die diese Gruppe verwenden.
 
-<details>
-<summary><strong>📂 Betriebssysteme anzeigen</strong></summary>
+### 7. Listen aktualisieren
 
+Anschließend die Listen/Gravity aktualisieren.
 
-```text
-lists/device-control/operating-systems/
-├── android/
-│   ├── privacy.txt
-│   ├── restrict.txt
-│   ├── isolate.txt
-│   └── updates.txt
-├── apple/
-│   ├── privacy.txt
-│   ├── restrict.txt
-│   ├── isolate.txt
-│   └── updates.txt
-├── chromeos/
-│   ├── privacy.txt
-│   ├── restrict.txt
-│   ├── isolate.txt
-│   └── updates.txt
-├── ios/
-│   ├── privacy.txt
-│   ├── restrict.txt
-│   ├── isolate.txt
-│   └── updates.txt
-├── linux/
-│   ├── privacy.txt
-│   ├── restrict.txt
-│   ├── isolate.txt
-│   └── updates.txt
-├── macos/
-│   ├── privacy.txt
-│   ├── restrict.txt
-│   ├── isolate.txt
-│   └── updates.txt
-├── windows/
-│   ├── privacy.txt
-│   ├── restrict.txt
-│   ├── isolate.txt
-│   └── updates.txt
-```
-
-</details>
-
-### Social Media
-
-<details>
-<summary><strong>📂 Social Media anzeigen</strong></summary>
-
-
-```text
-lists/service-blocking/social-media/
-├── discord/
-│   ├── privacy.txt
-│   └── block-all.txt
-├── facebook-meta/
-│   ├── privacy.txt
-│   └── block-all.txt
-├── instagram/
-│   ├── privacy.txt
-│   └── block-all.txt
-├── linkedin/
-│   ├── privacy.txt
-│   └── block-all.txt
-├── pinterest/
-│   ├── privacy.txt
-│   └── block-all.txt
-├── reddit/
-│   ├── privacy.txt
-│   └── block-all.txt
-├── snapchat/
-│   ├── privacy.txt
-│   └── block-all.txt
-├── telegram/
-│   ├── privacy.txt
-│   └── block-all.txt
-├── threads/
-│   ├── privacy.txt
-│   └── block-all.txt
-├── tiktok/
-│   ├── privacy.txt
-│   └── block-all.txt
-├── whatsapp/
-│   ├── privacy.txt
-│   └── block-all.txt
-├── x-twitter/
-│   ├── privacy.txt
-│   └── block-all.txt
-```
-
-</details>
-
-### Streaming
-
-<details>
-<summary><strong>📂 Streaming anzeigen</strong></summary>
-
-
-```text
-lists/service-blocking/streaming/
-├── apple-tv/
-│   ├── privacy.txt
-│   └── block-all.txt
-├── dazn/
-│   ├── privacy.txt
-│   └── block-all.txt
-├── disney-plus/
-│   ├── privacy.txt
-│   └── block-all.txt
-├── emby/
-│   ├── privacy.txt
-│   └── block-all.txt
-├── jellyfin/
-│   ├── privacy.txt
-│   └── block-all.txt
-├── netflix/
-│   ├── privacy.txt
-│   └── block-all.txt
-├── paramount/
-│   ├── privacy.txt
-│   └── block-all.txt
-├── plex/
-│   ├── privacy.txt
-│   └── block-all.txt
-├── prime-video/
-│   ├── privacy.txt
-│   └── block-all.txt
-├── spotify/
-│   ├── privacy.txt
-│   └── block-all.txt
-├── twitch/
-│   ├── privacy.txt
-│   └── block-all.txt
-├── youtube/
-│   ├── privacy.txt
-│   └── block-all.txt
-```
-
-</details>
-
-### Gaming
-
-<details>
-<summary><strong>📂 Gaming anzeigen</strong></summary>
-
-
-```text
-lists/service-blocking/gaming/
-├── battle-net/
-│   ├── privacy.txt
-│   └── block-all.txt
-├── ea-origin/
-│   ├── privacy.txt
-│   └── block-all.txt
-├── epic-games/
-│   ├── privacy.txt
-│   └── block-all.txt
-├── mobile-games/
-│   ├── privacy.txt
-│   └── block-all.txt
-├── nintendo/
-│   ├── privacy.txt
-│   └── block-all.txt
-├── playstation/
-│   ├── privacy.txt
-│   └── block-all.txt
-├── riot-games/
-│   ├── privacy.txt
-│   └── block-all.txt
-├── rockstar/
-│   ├── privacy.txt
-│   └── block-all.txt
-├── steam/
-│   ├── privacy.txt
-│   └── block-all.txt
-├── ubisoft/
-│   ├── privacy.txt
-│   └── block-all.txt
-├── xbox/
-│   ├── privacy.txt
-│   └── block-all.txt
-```
-
-</details>
-
-### Security / Family / Network Control
-
-<details>
-<summary><strong>📂 Security / Family / Network Control anzeigen</strong></summary>
-
-
-```text
-lists/security/
-family/content/
-lists/network/
-```
-
-Diese drei Bereiche bleiben vollständige Schutz-/Sperrlisten.
-
----
-
-</details>
-<a id="qualitaet"></a>
-## ✅ Qualitätssicherung
-
-- Plain-Domain-Format, eine Domain pro Zeile
-- sortiert und dedupliziert
-- kumulative Hauptprofile
-- 100-Kategorien-Mapping
-- SHA-256-Prüfsummen
-- keine Part-Dateien
-- keine automatische Fremdlisten-Synchronisation
-- transparente Kennzeichnung vorbereiteter und abgeleiteter Listen
+Über die Pi-hole-Oberfläche oder per Terminal:
 
 ```bash
-python3 scripts/validate.py
+pihole updateGravity
 ```
 
----
-<a id="grenzen"></a>
-## ⚠️ Hinweise & technische Grenzen
+### 8. Funktion testen
 
-DNS-Blocking filtert Domains, keine einzelnen URL-Pfade. Fehlende Quellklassen werden nicht geraten: sie bleiben als vorbereitete Liste sichtbar, bis eine belastbare Quelle aufgenommen wird. KI-/Crawler-Listen ersetzen keine WAF-/Webserver-/`robots.txt`-Regeln. DNS-Rebind-Schutz liegt unter `policies/`, weil er Resolver-/Firewall-Konfiguration und keine normale Domainliste ist.
+Auf dem Kindergerät testen:
 
----
-# 🧱 Teil 2 – Listen-Katalog
+- eine Domain aus der Allowlist → **muss funktionieren**
+- eine beliebige nicht freigegebene Domain → **muss blockiert werden**
 
-> Die Reihenfolge dieses Katalogs entspricht jetzt **1:1 dem Blocklisten-Inhaltsverzeichnis**.
+Im **Query Log** kannst du genau sehen, welche Domains erlaubt oder blockiert wurden.
 
----
-<a id="privacy-group"></a>
-## 🛡️ Allgemeine Privacy-Listen
+### 9. Wenn eine erlaubte Webseite nicht vollständig funktioniert
 
-Hier werden **nur Hintergrund- und Datenschutz-Endpunkte** geblockt. Webseiten, Apps und Geräte sollen grundsätzlich weiter funktionieren.
+Viele Webseiten benötigen zusätzliche Domains für Bilder, Videos, Login, APIs oder CDNs.
 
-<a id="privacy"></a>
-### 🕵️ Privacy & Tracking
+Wenn eine eigentlich erlaubte Seite nicht richtig lädt:
 
-#### Hauptlisten
+1. Seite öffnen.
+2. Pi-hole **Query Log** beobachten.
+3. Die tatsächlich benötigten blockierten Domains prüfen.
+4. Nur eindeutig notwendige Domains zusätzlich erlauben.
+5. Diese Domains langfristig in die passende Kids-Liste bzw. Runtime-Liste aufnehmen.
 
-| Profil | Schutz | Risiko | Einträge | Liste |
-|---|---|:---:|---:|---|
-| 🟩 **Light** | zurückhaltend | Minimal | **32.548** | [Light](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/main/light.txt) |
-| 🟦 **Normal** | ausgewogen | Niedrig | **57.866** | [Normal](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/main/normal.txt) |
-| 🟨 **Pro** | Datenschutz | Niedrig–Mittel | **86.969** | [Pro](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/main/pro.txt) |
-| 🟧 **Pro++** | aggressiv | Mittel | **367.467** | [Pro++](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/main/pro-plus.txt) |
-| 🟥 **Ultimate** | maximal | Hoch | **371.605** | [Ultimate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/main/ultimate.txt) |
+> Keine kompletten Cloud-/CDN-Zonen pauschal erlauben. Sonst kann das Allow-Only-Prinzip sehr schnell ausgehebelt werden.
 
-> **Privacy & Tracking – Ultimate:** Diese Stufe enthält die Vereinigung aller Full-/Speziallisten aus dem Bereich **Privacy & Tracking**. Die Stufen darunter sind kumulative, risikobasierte Teilmengen.
+### 10. Umgehung verhindern
 
-#### Full-/Speziallisten
+Kids Allow Only funktioniert nur zuverlässig, wenn das Gerät **Pi-hole tatsächlich als DNS-Server verwendet**.
 
-<details>
-<summary><strong>📂 Full-/Speziallisten anzeigen</strong></summary>
+Für stärker kontrollierte Kindergeräte zusätzlich sinnvoll:
 
-| Liste | Einträge | Status | Full-Liste |
-|---|---:|:---:|---|
-| **Ads (Werbung)** | **234.019** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/ads.txt) |
-| **Pop-Up Ads** | **517** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/pop-up-ads.txt) |
-| **Affiliate Tracking** | **643** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/affiliate-tracking.txt) |
-| **Aggressive Privacy** | **652** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/aggressive-privacy.txt) |
-| **Analytics** | **35.903** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/analytics.txt) |
-| **Captcha Antibot** | **379** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/captcha-antibot.txt) |
-| **Cdn Tracking** | **20** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/cdn-tracking.txt) |
-| **Chat Support** | **64** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/chat-support.txt) |
-| **Consent Cmp** | **46** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/consent-cmp.txt) |
-| **Crash Reporting** | **98** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/crash-reporting.txt) |
-| **Crm** | **121** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/crm.txt) |
-| **Ecommerce** | **44** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/ecommerce.txt) |
-| **External Fonts** | **3** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/external-fonts.txt) |
-| **Fingerprinting** | **14** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/fingerprinting.txt) |
-| **Marketing** | **2.060** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/marketing.txt) |
-| **Mobile Tracking** | **235** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/mobile-tracking.txt) |
-| **Native Tracking** | **628** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/native-tracking.txt) |
-| **Newsletter Tracking** | **166** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/newsletter-tracking.txt) |
-| **Payment Tracking** | **17** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/payment-tracking.txt) |
-| **Push Notifications** | **74** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/push-notifications.txt) |
-| **Recommendations** | **362** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/recommendations.txt) |
-| **Search Tracking** | **1** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/search-tracking.txt) |
-| **Seo Tracking** | **115** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/seo-tracking.txt) |
-| **Session Replay** | **212** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/session-replay.txt) |
-| **Social Tracking** | **99** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/social-tracking.txt) |
-| **Telemetry** | **29.181** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/telemetry.txt) |
-| **Trackers** | **113.609** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/trackers.txt) |
-| **Tracking Pixels** | **927** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/tracking-pixels.txt) |
-| **Tracking Redirects** | **377** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/tracking-redirects.txt) |
+- externes DNS am Router/Firewall blockieren
+- DoH / DoT / Private DNS einschränken
+- VPN-/Proxy-Umgehungen einschränken
+- IPv4 **und** IPv6 berücksichtigen
+
+DNS-Filtering allein ist kein vollständiger Ersatz für Firewall-, Geräte- oder Jugendschutzrichtlinien.
+
+### Pi-hole v5
+
+Das direkte Abonnieren externer **Allowlists** wurde erst mit **Pi-hole v6** eingeführt.  
+Bei Pi-hole v5 müssten die erlaubten Domains einzeln bzw. per eigenem Importmechanismus als Allowlist eingetragen werden.
 
 </details>
 
-<p align="right"><a href="#blocklisten-navigation">⬆️ Blocklisten-Inhaltsverzeichnis</a></p>
 
----
+## Fertige Kids-Allow-Only-Profile
 
-<a id="software-hardware"></a>
-### 🧩 Software & Hardware Telemetrie
-
-#### Hauptlisten
-
-| Profil | Schutz | Risiko | Einträge | Liste |
-|---|---|:---:|---:|---|
-| 🟩 **Light** | zurückhaltend | Minimal | **75** | [Light](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/software-hardware-telemetry/main/light.txt) |
-| 🟦 **Normal** | ausgewogen | Niedrig | **75** | [Normal](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/software-hardware-telemetry/main/normal.txt) |
-| 🟨 **Pro** | Datenschutz | Niedrig–Mittel | **80** | [Pro](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/software-hardware-telemetry/main/pro.txt) |
-| 🟧 **Pro++** | aggressiv | Mittel | **80** | [Pro++](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/software-hardware-telemetry/main/pro-plus.txt) |
-| 🟥 **Ultimate** | maximal | Hoch | **85** | [Ultimate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/software-hardware-telemetry/main/ultimate.txt) |
+| Profil | Schutz | Geeignet für | Liste |
+|---|---|---|---|
+| 🟩 **Basic** | Nur wichtige Lern-, Such- und Wissensdienste | Kleine Kinder | [Liste öffnen](lists/kids-allow-only/basic.txt) |
+| 🟦 **School** | Basic + typische Schul- und Lernplattformen | Schulgeräte | [Liste öffnen](lists/kids-allow-only/school.txt) |
+| 🟨 **Learning ⭐** | School + ausgewählte Mediatheken, Lernvideos und Kinderangebote | **Lern-Tablets / Familiengeräte** | [Liste öffnen](lists/kids-allow-only/learning.txt) |
+| 🟧 **Extended** | Learning + ausgewählte Kommunikation und zusätzliche sichere Dienste | Ältere Kinder | [Liste öffnen](lists/kids-allow-only/extended.txt) |
 
 <details>
-<summary><strong>📂 Hersteller-Wirkungslisten anzeigen</strong></summary>
+<summary><strong>📂 Einzelne Allow-Only-Listen anzeigen</strong></summary>
 
-
-| Gerät / Hersteller | 🛡️ Privacy | ⚠️ Restrict | 🚫 Isolate | 🔄 Updates |
-|---|---|---|---|---|
-| **Adobe** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/software-hardware/adobe/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/software-hardware/adobe/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/software-hardware/adobe/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/software-hardware/adobe/updates.txt) |
-| **AMD** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/software-hardware/amd/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/software-hardware/amd/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/software-hardware/amd/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/software-hardware/amd/updates.txt) |
-| **Autodesk** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/software-hardware/autodesk/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/software-hardware/autodesk/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/software-hardware/autodesk/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/software-hardware/autodesk/updates.txt) |
-| **Corsair** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/software-hardware/corsair/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/software-hardware/corsair/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/software-hardware/corsair/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/software-hardware/corsair/updates.txt) |
-| **Intel** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/software-hardware/intel/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/software-hardware/intel/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/software-hardware/intel/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/software-hardware/intel/updates.txt) |
-| **Logitech** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/software-hardware/logitech/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/software-hardware/logitech/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/software-hardware/logitech/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/software-hardware/logitech/updates.txt) |
-| **Nvidia** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/software-hardware/nvidia/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/software-hardware/nvidia/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/software-hardware/nvidia/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/software-hardware/nvidia/updates.txt) |
-| **Razer** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/software-hardware/razer/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/software-hardware/razer/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/software-hardware/razer/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/software-hardware/razer/updates.txt) |
-
-</details>
-
-<p align="right"><a href="#blocklisten-navigation">⬆️ Blocklisten-Inhaltsverzeichnis</a></p>
-
----
-
-<a id="automation"></a>
-### 🤖 KI, Bots & Crawler
-
-#### Hauptlisten
-
-| Profil | Schutz | Risiko | Einträge | Liste |
-|---|---|:---:|---:|---|
-| 🟩 **Light** | zurückhaltend | Minimal | **13** | [Light](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/automation/main/light.txt) |
-| 🟦 **Normal** | ausgewogen | Niedrig | **28** | [Normal](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/automation/main/normal.txt) |
-| 🟨 **Pro** | Datenschutz | Niedrig–Mittel | **33** | [Pro](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/automation/main/pro.txt) |
-| 🟧 **Pro++** | aggressiv | Mittel | **50** | [Pro++](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/automation/main/pro-plus.txt) |
-| 🟥 **Ultimate** | maximal | Hoch | **301** | [Ultimate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/automation/main/ultimate.txt) |
-
-#### Full-/Speziallisten
-
-<details>
-<summary><strong>📂 Full-/Speziallisten anzeigen</strong></summary>
-
-| Liste | Einträge | Status | Full-Liste |
-|---|---:|:---:|---|
-| **Aggressive Crawlers** | **15** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/automation/full/aggressive-crawlers.txt) |
-| **Ai Crawlers** | **10** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/automation/full/ai-crawlers.txt) |
-| **Ai Scrapers** | **3** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/automation/full/ai-scrapers.txt) |
-| **Ai Telemetry** | **36** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/automation/full/ai-telemetry.txt) |
-| **Ai Tracking** | **44** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/automation/full/ai-tracking.txt) |
-| **Llm Crawlers** | **188** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/automation/full/llm-crawlers.txt) |
-| **Malicious Bots** | **1** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/automation/full/malicious-bots.txt) |
-| **Seo Bots** | **5** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/automation/full/seo-bots.txt) |
-| **Training Bots** | **6** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/automation/full/training-bots.txt) |
-| **Web Crawlers** | **62** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/automation/full/web-crawlers.txt) |
-
-</details>
-
-<p align="right"><a href="#blocklisten-navigation">⬆️ Blocklisten-Inhaltsverzeichnis</a></p>
-
-
----
-<a id="devices-group"></a>
-## 🔌 Geräte & Hersteller — Privacy / Restrict / Isolate
-
-Geräte und Hersteller erhalten getrennte Wirkungsstufen: **Privacy** für Tracking/Telemetrie, **Restrict** für zusätzliche optionale Herstellerdienste und **Isolate** für möglichst vollständige Herstellerkommunikation.
-
-<a id="smart-tv"></a>
-### 📺 Smart TV
-
-#### Hauptlisten
-
-| Profil | Schutz | Risiko | Einträge | Liste |
-|---|---|:---:|---:|---|
-| 🟩 **Light** | zurückhaltend | Minimal | **346** | [Light](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/smart-tv/main/light.txt) |
-| 🟦 **Normal** | ausgewogen | Niedrig | **362** | [Normal](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/smart-tv/main/normal.txt) |
-| 🟨 **Pro** | Datenschutz | Niedrig–Mittel | **455** | [Pro](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/smart-tv/main/pro.txt) |
-| 🟧 **Pro++** | aggressiv | Mittel | **637** | [Pro++](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/smart-tv/main/pro-plus.txt) |
-| 🟥 **Ultimate** | maximal | Hoch | **649** | [Ultimate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/smart-tv/main/ultimate.txt) |
-
-<details>
-<summary><strong>📂 Wirkungslisten anzeigen</strong></summary>
-
-
-> 🛡️ **Privacy:** nur Tracking/Ads/Analytics/Telemetry/Diagnostics  
-> ⚠️ **Restrict:** Privacy + optionale Hersteller-/Cloud-/Recommendation-Dienste  
-> 🚫 **Isolate:** möglichst vollständige Herstellerkommunikation  
-> 🔄 **Updates:** Update-Infrastruktur separat steuerbar
-
-| Gerät / Hersteller | 🛡️ Privacy | ⚠️ Restrict | 🚫 Isolate | 🔄 Updates |
-|---|---|---|---|---|
-| **Amazon Fire TV** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/smart-tv/amazon-fire-tv/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/smart-tv/amazon-fire-tv/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/smart-tv/amazon-fire-tv/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/smart-tv/amazon-fire-tv/updates.txt) |
-| **Google Android TV** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/smart-tv/google-android-tv/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/smart-tv/google-android-tv/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/smart-tv/google-android-tv/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/smart-tv/google-android-tv/updates.txt) |
-| **Google TV** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/smart-tv/google-tv/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/smart-tv/google-tv/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/smart-tv/google-tv/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/smart-tv/google-tv/updates.txt) |
-| **Hisense VIDAA** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/smart-tv/hisense-vidaa/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/smart-tv/hisense-vidaa/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/smart-tv/hisense-vidaa/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/smart-tv/hisense-vidaa/updates.txt) |
-| **LG webOS** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/smart-tv/lg-webos/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/smart-tv/lg-webos/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/smart-tv/lg-webos/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/smart-tv/lg-webos/updates.txt) |
-| **Panasonic** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/smart-tv/panasonic/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/smart-tv/panasonic/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/smart-tv/panasonic/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/smart-tv/panasonic/updates.txt) |
-| **Philips** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/smart-tv/philips/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/smart-tv/philips/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/smart-tv/philips/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/smart-tv/philips/updates.txt) |
-| **Roku** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/smart-tv/roku/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/smart-tv/roku/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/smart-tv/roku/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/smart-tv/roku/updates.txt) |
-| **Samsung** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/smart-tv/samsung/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/smart-tv/samsung/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/smart-tv/samsung/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/smart-tv/samsung/updates.txt) |
-| **Shared / Other** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/smart-tv/shared-other/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/smart-tv/shared-other/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/smart-tv/shared-other/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/smart-tv/shared-other/updates.txt) |
-| **Sony Bravia** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/smart-tv/sony-bravia/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/smart-tv/sony-bravia/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/smart-tv/sony-bravia/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/smart-tv/sony-bravia/updates.txt) |
-| **TCL** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/smart-tv/tcl/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/smart-tv/tcl/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/smart-tv/tcl/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/smart-tv/tcl/updates.txt) |
-
-</details>
-
-<p align="right"><a href="#blocklisten-navigation">⬆️ Blocklisten-Inhaltsverzeichnis</a></p>
-
----
-
-<a id="mobile"></a>
-### 📱 Smartphones & Mobile
-
-#### Hauptlisten
-
-| Profil | Schutz | Risiko | Einträge | Liste |
-|---|---|:---:|---:|---|
-| 🟩 **Light** | zurückhaltend | Minimal | **391** | [Light](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/mobile/main/light.txt) |
-| 🟦 **Normal** | ausgewogen | Niedrig | **445** | [Normal](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/mobile/main/normal.txt) |
-| 🟨 **Pro** | Datenschutz | Niedrig–Mittel | **531** | [Pro](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/mobile/main/pro.txt) |
-| 🟧 **Pro++** | aggressiv | Mittel | **993** | [Pro++](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/mobile/main/pro-plus.txt) |
-| 🟥 **Ultimate** | maximal | Hoch | **1.004** | [Ultimate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/mobile/main/ultimate.txt) |
-
-<details>
-<summary><strong>📂 Wirkungslisten anzeigen</strong></summary>
-
-
-> 🛡️ **Privacy:** nur Tracking/Ads/Analytics/Telemetry/Diagnostics  
-> ⚠️ **Restrict:** Privacy + optionale Hersteller-/Cloud-/Recommendation-Dienste  
-> 🚫 **Isolate:** möglichst vollständige Herstellerkommunikation  
-> 🔄 **Updates:** Update-Infrastruktur separat steuerbar
-
-| Gerät / Hersteller | 🛡️ Privacy | ⚠️ Restrict | 🚫 Isolate | 🔄 Updates |
-|---|---|---|---|---|
-| **Apple iOS** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/mobile/apple-ios/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/mobile/apple-ios/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/mobile/apple-ios/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/mobile/apple-ios/updates.txt) |
-| **Google Android** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/mobile/google-android/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/mobile/google-android/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/mobile/google-android/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/mobile/google-android/updates.txt) |
-| **Google Pixel** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/mobile/google-pixel/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/mobile/google-pixel/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/mobile/google-pixel/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/mobile/google-pixel/updates.txt) |
-| **Huawei** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/mobile/huawei/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/mobile/huawei/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/mobile/huawei/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/mobile/huawei/updates.txt) |
-| **Motorola** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/mobile/motorola/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/mobile/motorola/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/mobile/motorola/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/mobile/motorola/updates.txt) |
-| **Oneplus** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/mobile/oneplus/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/mobile/oneplus/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/mobile/oneplus/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/mobile/oneplus/updates.txt) |
-| **Oppo / Realme** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/mobile/oppo-realme/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/mobile/oppo-realme/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/mobile/oppo-realme/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/mobile/oppo-realme/updates.txt) |
-| **Samsung** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/mobile/samsung/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/mobile/samsung/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/mobile/samsung/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/mobile/samsung/updates.txt) |
-| **Shared / Other** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/mobile/shared-other/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/mobile/shared-other/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/mobile/shared-other/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/mobile/shared-other/updates.txt) |
-| **Vivo** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/mobile/vivo/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/mobile/vivo/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/mobile/vivo/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/mobile/vivo/updates.txt) |
-| **Xiaomi** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/mobile/xiaomi/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/mobile/xiaomi/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/mobile/xiaomi/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/mobile/xiaomi/updates.txt) |
-
-</details>
-
-<p align="right"><a href="#blocklisten-navigation">⬆️ Blocklisten-Inhaltsverzeichnis</a></p>
-
----
-
-<a id="betriebssysteme"></a>
-### 💻 Betriebssysteme
-
-#### Hauptlisten
-
-| Profil | Schutz | Risiko | Einträge | Liste |
-|---|---|:---:|---:|---|
-| 🟩 **Light** | zurückhaltend | Minimal | **20** | [Light](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/operating-systems/main/light.txt) |
-| 🟦 **Normal** | ausgewogen | Niedrig | **48** | [Normal](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/operating-systems/main/normal.txt) |
-| 🟨 **Pro** | Datenschutz | Niedrig–Mittel | **104** | [Pro](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/operating-systems/main/pro.txt) |
-| 🟧 **Pro++** | aggressiv | Mittel | **302** | [Pro++](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/operating-systems/main/pro-plus.txt) |
-| 🟥 **Ultimate** | maximal | Hoch | **311** | [Ultimate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/operating-systems/main/ultimate.txt) |
-
-<details>
-<summary><strong>📂 Wirkungslisten anzeigen</strong></summary>
-
-
-> 🛡️ **Privacy:** nur Tracking/Ads/Analytics/Telemetry/Diagnostics  
-> ⚠️ **Restrict:** Privacy + optionale Hersteller-/Cloud-/Recommendation-Dienste  
-> 🚫 **Isolate:** möglichst vollständige Herstellerkommunikation  
-> 🔄 **Updates:** Update-Infrastruktur separat steuerbar
-
-| Gerät / Hersteller | 🛡️ Privacy | ⚠️ Restrict | 🚫 Isolate | 🔄 Updates |
-|---|---|---|---|---|
-| **Android** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/operating-systems/android/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/operating-systems/android/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/operating-systems/android/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/operating-systems/android/updates.txt) |
-| **Apple** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/operating-systems/apple/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/operating-systems/apple/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/operating-systems/apple/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/operating-systems/apple/updates.txt) |
-| **Chromeos** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/operating-systems/chromeos/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/operating-systems/chromeos/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/operating-systems/chromeos/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/operating-systems/chromeos/updates.txt) |
-| **Ios** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/operating-systems/ios/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/operating-systems/ios/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/operating-systems/ios/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/operating-systems/ios/updates.txt) |
-| **Linux** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/operating-systems/linux/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/operating-systems/linux/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/operating-systems/linux/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/operating-systems/linux/updates.txt) |
-| **Macos** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/operating-systems/macos/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/operating-systems/macos/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/operating-systems/macos/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/operating-systems/macos/updates.txt) |
-| **Windows** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/operating-systems/windows/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/operating-systems/windows/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/operating-systems/windows/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/operating-systems/windows/updates.txt) |
-
-</details>
-
-<p align="right"><a href="#blocklisten-navigation">⬆️ Blocklisten-Inhaltsverzeichnis</a></p>
-
----
-
-<a id="iot"></a>
-### 🏠 IoT & Smart Home
-
-#### Hauptlisten
-
-| Profil | Schutz | Risiko | Einträge | Liste |
-|---|---|:---:|---:|---|
-| 🟩 **Light** | zurückhaltend | Minimal | **2** | [Light](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/iot-smart-home/main/light.txt) |
-| 🟦 **Normal** | ausgewogen | Niedrig | **13** | [Normal](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/iot-smart-home/main/normal.txt) |
-| 🟨 **Pro** | Datenschutz | Niedrig–Mittel | **29** | [Pro](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/iot-smart-home/main/pro.txt) |
-| 🟧 **Pro++** | aggressiv | Mittel | **82** | [Pro++](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/iot-smart-home/main/pro-plus.txt) |
-| 🟥 **Ultimate** | maximal | Hoch | **85** | [Ultimate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/iot-smart-home/main/ultimate.txt) |
-
-<details>
-<summary><strong>📂 Wirkungslisten anzeigen</strong></summary>
-
-
-> 🛡️ **Privacy:** nur Tracking/Ads/Analytics/Telemetry/Diagnostics  
-> ⚠️ **Restrict:** Privacy + optionale Hersteller-/Cloud-/Recommendation-Dienste  
-> 🚫 **Isolate:** möglichst vollständige Herstellerkommunikation  
-> 🔄 **Updates:** Update-Infrastruktur separat steuerbar
-
-| Gerät / Hersteller | 🛡️ Privacy | ⚠️ Restrict | 🚫 Isolate | 🔄 Updates |
-|---|---|---|---|---|
-| **Amazon Alexa** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/iot-smart-home/amazon-alexa/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/iot-smart-home/amazon-alexa/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/iot-smart-home/amazon-alexa/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/iot-smart-home/amazon-alexa/updates.txt) |
-| **Huawei** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/iot-smart-home/huawei/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/iot-smart-home/huawei/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/iot-smart-home/huawei/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/iot-smart-home/huawei/updates.txt) |
-| **Samsung SmartThings** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/iot-smart-home/samsung-smartthings/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/iot-smart-home/samsung-smartthings/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/iot-smart-home/samsung-smartthings/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/iot-smart-home/samsung-smartthings/updates.txt) |
-| **Shared / Other** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/iot-smart-home/shared-other/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/iot-smart-home/shared-other/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/iot-smart-home/shared-other/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/iot-smart-home/shared-other/updates.txt) |
-| **Sonos** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/iot-smart-home/sonos/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/iot-smart-home/sonos/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/iot-smart-home/sonos/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/iot-smart-home/sonos/updates.txt) |
-| **Xiaomi** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/iot-smart-home/xiaomi/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/iot-smart-home/xiaomi/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/iot-smart-home/xiaomi/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/iot-smart-home/xiaomi/updates.txt) |
-
-</details>
-
-<p align="right"><a href="#blocklisten-navigation">⬆️ Blocklisten-Inhaltsverzeichnis</a></p>
-
----
-
-<a id="voice"></a>
-### 🎙️ Sprachassistenten
-
-#### Hauptlisten
-
-| Profil | Schutz | Risiko | Einträge | Liste |
-|---|---|:---:|---:|---|
-| 🟩 **Light** | zurückhaltend | Minimal | **7** | [Light](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/voice-assistants/main/light.txt) |
-| 🟦 **Normal** | ausgewogen | Niedrig | **16** | [Normal](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/voice-assistants/main/normal.txt) |
-| 🟨 **Pro** | Datenschutz | Niedrig–Mittel | **38** | [Pro](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/voice-assistants/main/pro.txt) |
-| 🟧 **Pro++** | aggressiv | Mittel | **107** | [Pro++](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/voice-assistants/main/pro-plus.txt) |
-| 🟥 **Ultimate** | maximal | Hoch | **112** | [Ultimate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/voice-assistants/main/ultimate.txt) |
-
-<details>
-<summary><strong>📂 Wirkungslisten anzeigen</strong></summary>
-
-
-> 🛡️ **Privacy:** nur Tracking/Ads/Analytics/Telemetry/Diagnostics  
-> ⚠️ **Restrict:** Privacy + optionale Hersteller-/Cloud-/Recommendation-Dienste  
-> 🚫 **Isolate:** möglichst vollständige Herstellerkommunikation  
-> 🔄 **Updates:** Update-Infrastruktur separat steuerbar
-
-| Gerät / Hersteller | 🛡️ Privacy | ⚠️ Restrict | 🚫 Isolate | 🔄 Updates |
-|---|---|---|---|---|
-| **Alexa** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/voice-assistants/alexa/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/voice-assistants/alexa/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/voice-assistants/alexa/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/voice-assistants/alexa/updates.txt) |
-| **Cortana** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/voice-assistants/cortana/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/voice-assistants/cortana/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/voice-assistants/cortana/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/voice-assistants/cortana/updates.txt) |
-| **Google Assistant** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/voice-assistants/google-assistant/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/voice-assistants/google-assistant/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/voice-assistants/google-assistant/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/voice-assistants/google-assistant/updates.txt) |
-| **Siri** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/voice-assistants/siri/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/voice-assistants/siri/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/voice-assistants/siri/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/voice-assistants/siri/updates.txt) |
-
-</details>
-
-<p align="right"><a href="#blocklisten-navigation">⬆️ Blocklisten-Inhaltsverzeichnis</a></p>
-
----
-
-<a id="automotive"></a>
-### 🚗 Automotive / Connected Cars
-
-#### Hauptlisten
-
-| Profil | Schutz | Risiko | Einträge | Liste |
-|---|---|:---:|---:|---|
-| 🟩 **Light** | zurückhaltend | Minimal | **42** | [Light](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/automotive/main/light.txt) |
-| 🟦 **Normal** | ausgewogen | Niedrig | **105** | [Normal](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/automotive/main/normal.txt) |
-| 🟨 **Pro** | Datenschutz | Niedrig–Mittel | **188** | [Pro](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/automotive/main/pro.txt) |
-| 🟧 **Pro++** | aggressiv | Mittel | **663** | [Pro++](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/automotive/main/pro-plus.txt) |
-| 🟥 **Ultimate** | maximal | Hoch | **665** | [Ultimate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/automotive/main/ultimate.txt) |
-
-<details>
-<summary><strong>📂 Wirkungslisten anzeigen</strong></summary>
-
-
-> 🛡️ **Privacy:** nur Tracking/Ads/Analytics/Telemetry/Diagnostics  
-> ⚠️ **Restrict:** Privacy + optionale Hersteller-/Cloud-/Recommendation-Dienste  
-> 🚫 **Isolate:** möglichst vollständige Herstellerkommunikation  
-> 🔄 **Updates:** Update-Infrastruktur separat steuerbar
-
-| Gerät / Hersteller | 🛡️ Privacy | ⚠️ Restrict | 🚫 Isolate | 🔄 Updates |
-|---|---|---|---|---|
-| **Audi** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/automotive/audi/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/automotive/audi/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/automotive/audi/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/automotive/audi/updates.txt) |
-| **Bmw** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/automotive/bmw/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/automotive/bmw/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/automotive/bmw/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/automotive/bmw/updates.txt) |
-| **Ford** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/automotive/ford/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/automotive/ford/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/automotive/ford/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/automotive/ford/updates.txt) |
-| **Mercedes** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/automotive/mercedes/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/automotive/mercedes/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/automotive/mercedes/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/automotive/mercedes/updates.txt) |
-| **Tesla** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/automotive/tesla/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/automotive/tesla/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/automotive/tesla/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/automotive/tesla/updates.txt) |
-| **VW** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/automotive/vw/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/automotive/vw/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/automotive/vw/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/automotive/vw/updates.txt) |
-
-</details>
-
-<p align="right"><a href="#blocklisten-navigation">⬆️ Blocklisten-Inhaltsverzeichnis</a></p>
-
----
-
-<a id="nas-server"></a>
-### 💾 NAS & Server
-
-#### Hauptlisten
-
-| Profil | Schutz | Risiko | Einträge | Liste |
-|---|---|:---:|---:|---|
-| 🟩 **Light** | zurückhaltend | Minimal | **1** | [Light](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/nas-server/main/light.txt) |
-| 🟦 **Normal** | ausgewogen | Niedrig | **3** | [Normal](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/nas-server/main/normal.txt) |
-| 🟨 **Pro** | Datenschutz | Niedrig–Mittel | **11** | [Pro](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/nas-server/main/pro.txt) |
-| 🟧 **Pro++** | aggressiv | Mittel | **63** | [Pro++](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/nas-server/main/pro-plus.txt) |
-| 🟥 **Ultimate** | maximal | Hoch | **65** | [Ultimate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/nas-server/main/ultimate.txt) |
-
-<details>
-<summary><strong>📂 Wirkungslisten anzeigen</strong></summary>
-
-
-> 🛡️ **Privacy:** nur Tracking/Ads/Analytics/Telemetry/Diagnostics  
-> ⚠️ **Restrict:** Privacy + optionale Hersteller-/Cloud-/Recommendation-Dienste  
-> 🚫 **Isolate:** möglichst vollständige Herstellerkommunikation  
-> 🔄 **Updates:** Update-Infrastruktur separat steuerbar
-
-| Gerät / Hersteller | 🛡️ Privacy | ⚠️ Restrict | 🚫 Isolate | 🔄 Updates |
-|---|---|---|---|---|
-| **Docker** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/nas-server/docker/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/nas-server/docker/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/nas-server/docker/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/nas-server/docker/updates.txt) |
-| **HPE / Dell** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/nas-server/hpe-dell/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/nas-server/hpe-dell/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/nas-server/hpe-dell/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/nas-server/hpe-dell/updates.txt) |
-| **Kubernetes** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/nas-server/kubernetes/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/nas-server/kubernetes/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/nas-server/kubernetes/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/nas-server/kubernetes/updates.txt) |
-| **QNAP** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/nas-server/qnap/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/nas-server/qnap/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/nas-server/qnap/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/nas-server/qnap/updates.txt) |
-| **Red Hat / OpenShift** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/nas-server/redhat-openshift/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/nas-server/redhat-openshift/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/nas-server/redhat-openshift/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/nas-server/redhat-openshift/updates.txt) |
-| **Synology** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/nas-server/synology/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/nas-server/synology/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/nas-server/synology/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/nas-server/synology/updates.txt) |
-| **Truenas** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/nas-server/truenas/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/nas-server/truenas/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/nas-server/truenas/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/nas-server/truenas/updates.txt) |
-| **Unraid** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/nas-server/unraid/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/nas-server/unraid/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/nas-server/unraid/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/nas-server/unraid/updates.txt) |
-
-</details>
-
-<p align="right"><a href="#blocklisten-navigation">⬆️ Blocklisten-Inhaltsverzeichnis</a></p>
-
----
-
-<a id="network-devices"></a>
-### 🌐 Router & Netzwerkgeräte
-
-#### Hauptlisten
-
-| Profil | Schutz | Risiko | Einträge | Liste |
-|---|---|:---:|---:|---|
-| 🟩 **Light** | zurückhaltend | Minimal | **11** | [Light](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/network-devices/main/light.txt) |
-| 🟦 **Normal** | ausgewogen | Niedrig | **49** | [Normal](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/network-devices/main/normal.txt) |
-| 🟨 **Pro** | Datenschutz | Niedrig–Mittel | **75** | [Pro](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/network-devices/main/pro.txt) |
-| 🟧 **Pro++** | aggressiv | Mittel | **375** | [Pro++](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/network-devices/main/pro-plus.txt) |
-| 🟥 **Ultimate** | maximal | Hoch | **401** | [Ultimate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/network-devices/main/ultimate.txt) |
-
-<details>
-<summary><strong>📂 Wirkungslisten anzeigen</strong></summary>
-
-
-> 🛡️ **Privacy:** nur Tracking/Ads/Analytics/Telemetry/Diagnostics  
-> ⚠️ **Restrict:** Privacy + optionale Hersteller-/Cloud-/Recommendation-Dienste  
-> 🚫 **Isolate:** möglichst vollständige Herstellerkommunikation  
-> 🔄 **Updates:** Update-Infrastruktur separat steuerbar
-
-| Gerät / Hersteller | 🛡️ Privacy | ⚠️ Restrict | 🚫 Isolate | 🔄 Updates |
-|---|---|---|---|---|
-| **Asus** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/network-devices/asus/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/network-devices/asus/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/network-devices/asus/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/network-devices/asus/updates.txt) |
-| **AVM / FRITZ!Box** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/network-devices/avm-fritzbox/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/network-devices/avm-fritzbox/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/network-devices/avm-fritzbox/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/network-devices/avm-fritzbox/updates.txt) |
-| **Cisco** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/network-devices/cisco/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/network-devices/cisco/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/network-devices/cisco/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/network-devices/cisco/updates.txt) |
-| **Huawei** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/network-devices/huawei/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/network-devices/huawei/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/network-devices/huawei/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/network-devices/huawei/updates.txt) |
-| **Mikrotik** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/network-devices/mikrotik/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/network-devices/mikrotik/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/network-devices/mikrotik/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/network-devices/mikrotik/updates.txt) |
-| **Netgear** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/network-devices/netgear/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/network-devices/netgear/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/network-devices/netgear/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/network-devices/netgear/updates.txt) |
-| **TP-Link** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/network-devices/tp-link/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/network-devices/tp-link/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/network-devices/tp-link/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/network-devices/tp-link/updates.txt) |
-| **Ubiquiti** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/network-devices/ubiquiti/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/network-devices/ubiquiti/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/network-devices/ubiquiti/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/network-devices/ubiquiti/updates.txt) |
-| **Zyxel** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/network-devices/zyxel/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/network-devices/zyxel/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/network-devices/zyxel/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/network-devices/zyxel/updates.txt) |
-
-</details>
-
-<p align="right"><a href="#blocklisten-navigation">⬆️ Blocklisten-Inhaltsverzeichnis</a></p>
-
----
-
-<a id="providers"></a>
-### 📡 ISP / Provider
-
-#### Hauptlisten
-
-| Profil | Schutz | Risiko | Einträge | Liste |
-|---|---|:---:|---:|---|
-| 🟩 **Light** | zurückhaltend | Minimal | **5** | [Light](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/providers/main/light.txt) |
-| 🟦 **Normal** | ausgewogen | Niedrig | **39** | [Normal](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/providers/main/normal.txt) |
-| 🟨 **Pro** | Datenschutz | Niedrig–Mittel | **72** | [Pro](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/providers/main/pro.txt) |
-| 🟧 **Pro++** | aggressiv | Mittel | **171** | [Pro++](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/providers/main/pro-plus.txt) |
-| 🟥 **Ultimate** | maximal | Hoch | **171** | [Ultimate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/providers/main/ultimate.txt) |
-
-<details>
-<summary><strong>📂 Wirkungslisten anzeigen</strong></summary>
-
-
-> 🛡️ **Privacy:** nur Tracking/Ads/Analytics/Telemetry/Diagnostics  
-> ⚠️ **Restrict:** Privacy + optionale Hersteller-/Cloud-/Recommendation-Dienste  
-> 🚫 **Isolate:** möglichst vollständige Herstellerkommunikation  
-> 🔄 **Updates:** Update-Infrastruktur separat steuerbar
-
-| Gerät / Hersteller | 🛡️ Privacy | ⚠️ Restrict | 🚫 Isolate | 🔄 Updates |
-|---|---|---|---|---|
-| **1&1** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/providers/1und1/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/providers/1und1/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/providers/1und1/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/providers/1und1/updates.txt) |
-| **Deutsche Glasfaser** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/providers/deutsche-glasfaser/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/providers/deutsche-glasfaser/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/providers/deutsche-glasfaser/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/providers/deutsche-glasfaser/updates.txt) |
-| **O2** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/providers/o2/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/providers/o2/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/providers/o2/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/providers/o2/updates.txt) |
-| **Telekom** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/providers/telekom/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/providers/telekom/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/providers/telekom/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/providers/telekom/updates.txt) |
-| **Unitymedia** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/providers/unitymedia/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/providers/unitymedia/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/providers/unitymedia/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/providers/unitymedia/updates.txt) |
-| **Vodafone** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/providers/vodafone/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/providers/vodafone/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/providers/vodafone/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/providers/vodafone/updates.txt) |
-
-</details>
-
-<p align="right"><a href="#blocklisten-navigation">⬆️ Blocklisten-Inhaltsverzeichnis</a></p>
-
----
-
-<a id="ecosystems"></a>
-### 🏢 Google, Microsoft, Apple & Amazon
-
-#### Hauptlisten
-
-| Profil | Schutz | Risiko | Einträge | Liste |
-|---|---|:---:|---:|---|
-| 🟩 **Light** | zurückhaltend | Minimal | **11.912** | [Light](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/ecosystems/main/light.txt) |
-| 🟦 **Normal** | ausgewogen | Niedrig | **12.074** | [Normal](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/ecosystems/main/normal.txt) |
-| 🟨 **Pro** | Datenschutz | Niedrig–Mittel | **12.357** | [Pro](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/ecosystems/main/pro.txt) |
-| 🟧 **Pro++** | aggressiv | Mittel | **15.410** | [Pro++](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/ecosystems/main/pro-plus.txt) |
-| 🟥 **Ultimate** | maximal | Hoch | **15.462** | [Ultimate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/ecosystems/main/ultimate.txt) |
-
-<details>
-<summary><strong>📂 Wirkungslisten anzeigen</strong></summary>
-
-
-> 🛡️ **Privacy:** nur Tracking/Ads/Analytics/Telemetry/Diagnostics  
-> ⚠️ **Restrict:** Privacy + optionale Hersteller-/Cloud-/Recommendation-Dienste  
-> 🚫 **Isolate:** möglichst vollständige Herstellerkommunikation  
-> 🔄 **Updates:** Update-Infrastruktur separat steuerbar
-
-| Gerät / Hersteller | 🛡️ Privacy | ⚠️ Restrict | 🚫 Isolate | 🔄 Updates |
-|---|---|---|---|---|
-| **Amazon** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/ecosystems/amazon/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/ecosystems/amazon/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/ecosystems/amazon/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/ecosystems/amazon/updates.txt) |
-| **Apple** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/ecosystems/apple/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/ecosystems/apple/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/ecosystems/apple/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/ecosystems/apple/updates.txt) |
-| **Google** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/ecosystems/google/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/ecosystems/google/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/ecosystems/google/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/ecosystems/google/updates.txt) |
-| **Microsoft** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/ecosystems/microsoft/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/ecosystems/microsoft/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/ecosystems/microsoft/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/ecosystems/microsoft/updates.txt) |
-
-</details>
-
-<p align="right"><a href="#blocklisten-navigation">⬆️ Blocklisten-Inhaltsverzeichnis</a></p>
-
----
-
-<a id="manufacturers"></a>
-### 🏭 Herstellerlisten
-
-Diese Übersicht zeigt für **jeden aktuell vorhandenen Hersteller** die konkreten Wirkungslisten.
-
-| Gerät / Hersteller | 🛡️ Privacy | ⚠️ Restrict | 🚫 Isolate | 🔄 Updates |
-|---|---|---|---|---|
-| **Adobe** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/manufacturers/adobe/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/manufacturers/adobe/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/manufacturers/adobe/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/manufacturers/adobe/updates.txt) |
-| **Amazon** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/manufacturers/amazon/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/manufacturers/amazon/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/manufacturers/amazon/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/manufacturers/amazon/updates.txt) |
-| **AMD** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/manufacturers/amd/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/manufacturers/amd/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/manufacturers/amd/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/manufacturers/amd/updates.txt) |
-| **Apple** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/manufacturers/apple/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/manufacturers/apple/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/manufacturers/apple/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/manufacturers/apple/updates.txt) |
-| **Autodesk** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/manufacturers/autodesk/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/manufacturers/autodesk/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/manufacturers/autodesk/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/manufacturers/autodesk/updates.txt) |
-| **Ea** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/manufacturers/ea/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/manufacturers/ea/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/manufacturers/ea/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/manufacturers/ea/updates.txt) |
-| **Epic** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/manufacturers/epic/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/manufacturers/epic/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/manufacturers/epic/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/manufacturers/epic/updates.txt) |
-| **Google** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/manufacturers/google/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/manufacturers/google/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/manufacturers/google/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/manufacturers/google/updates.txt) |
-| **Huawei** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/manufacturers/huawei/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/manufacturers/huawei/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/manufacturers/huawei/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/manufacturers/huawei/updates.txt) |
-| **LG** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/manufacturers/lg/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/manufacturers/lg/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/manufacturers/lg/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/manufacturers/lg/updates.txt) |
-| **Logitech** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/manufacturers/logitech/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/manufacturers/logitech/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/manufacturers/logitech/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/manufacturers/logitech/updates.txt) |
-| **Meta** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/manufacturers/meta/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/manufacturers/meta/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/manufacturers/meta/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/manufacturers/meta/updates.txt) |
-| **Microsoft** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/manufacturers/microsoft/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/manufacturers/microsoft/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/manufacturers/microsoft/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/manufacturers/microsoft/updates.txt) |
-| **Nintendo** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/manufacturers/nintendo/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/manufacturers/nintendo/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/manufacturers/nintendo/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/manufacturers/nintendo/updates.txt) |
-| **Nvidia** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/manufacturers/nvidia/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/manufacturers/nvidia/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/manufacturers/nvidia/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/manufacturers/nvidia/updates.txt) |
-| **Philips** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/manufacturers/philips/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/manufacturers/philips/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/manufacturers/philips/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/manufacturers/philips/updates.txt) |
-| **Razer** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/manufacturers/razer/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/manufacturers/razer/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/manufacturers/razer/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/manufacturers/razer/updates.txt) |
-| **Samsung** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/manufacturers/samsung/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/manufacturers/samsung/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/manufacturers/samsung/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/manufacturers/samsung/updates.txt) |
-| **Sony** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/manufacturers/sony/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/manufacturers/sony/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/manufacturers/sony/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/manufacturers/sony/updates.txt) |
-| **Ubisoft** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/manufacturers/ubisoft/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/manufacturers/ubisoft/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/manufacturers/ubisoft/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/manufacturers/ubisoft/updates.txt) |
-| **Valve / Steam** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/manufacturers/valve-steam/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/manufacturers/valve-steam/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/manufacturers/valve-steam/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/manufacturers/valve-steam/updates.txt) |
-| **Xiaomi** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/manufacturers/xiaomi/privacy.txt) | [Restrict](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/manufacturers/xiaomi/restrict.txt) | [Isolate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/manufacturers/xiaomi/isolate.txt) | [Updates](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/device-control/manufacturers/xiaomi/updates.txt) |
-
-<p align="right"><a href="#blocklisten-navigation">⬆️ Blocklisten-Inhaltsverzeichnis</a></p>
-
-
----
-<a id="apps-group"></a>
-## 📱 Apps & Dienste — Privacy / Block All
-
-Bei Apps und Diensten wird zwischen **Privacy** und **Block All** unterschieden. Privacy reduziert Tracking/Analytics/Telemetrie; Block All soll den jeweiligen Dienst vollständig sperren.
-
-<a id="streaming"></a>
-### 📺 Streaming
-
-#### Hauptlisten
-
-| Profil | Schutz | Risiko | Einträge | Liste |
-|---|---|:---:|---:|---|
-| 🟩 **Light** | zurückhaltend | Minimal | **12** | [Light](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/streaming/main/light.txt) |
-| 🟦 **Normal** | ausgewogen | Niedrig | **24** | [Normal](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/streaming/main/normal.txt) |
-| 🟨 **Pro** | Datenschutz | Niedrig–Mittel | **45** | [Pro](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/streaming/main/pro.txt) |
-| 🟧 **Pro++** | aggressiv | Mittel | **280** | [Pro++](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/streaming/main/pro-plus.txt) |
-| 🟥 **Ultimate** | maximal | Hoch | **301** | [Ultimate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/streaming/main/ultimate.txt) |
-
-<details>
-<summary><strong>📂 Wirkungslisten anzeigen</strong></summary>
-
-
-> 🛡️ **Privacy:** Dienst soll weiter funktionieren; Tracking/Analytics/Telemetry werden reduziert.  
-> 🚫 **Block All:** Dienst soll vollständig gesperrt werden.
-
-| App / Dienst | 🛡️ Privacy | 🚫 Block All |
+| Name | Funktion | Liste anzeigen |
 |---|---|---|
-| **Apple TV** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/service-blocking/streaming/apple-tv/privacy.txt) | [Block All](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/service-blocking/streaming/apple-tv/block-all.txt) |
-| **Dazn** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/service-blocking/streaming/dazn/privacy.txt) | [Block All](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/service-blocking/streaming/dazn/block-all.txt) |
-| **Disney+** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/service-blocking/streaming/disney-plus/privacy.txt) | [Block All](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/service-blocking/streaming/disney-plus/block-all.txt) |
-| **Emby** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/service-blocking/streaming/emby/privacy.txt) | [Block All](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/service-blocking/streaming/emby/block-all.txt) |
-| **Jellyfin** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/service-blocking/streaming/jellyfin/privacy.txt) | [Block All](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/service-blocking/streaming/jellyfin/block-all.txt) |
-| **Netflix** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/service-blocking/streaming/netflix/privacy.txt) | [Block All](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/service-blocking/streaming/netflix/block-all.txt) |
-| **Paramount** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/service-blocking/streaming/paramount/privacy.txt) | [Block All](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/service-blocking/streaming/paramount/block-all.txt) |
-| **Plex** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/service-blocking/streaming/plex/privacy.txt) | [Block All](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/service-blocking/streaming/plex/block-all.txt) |
-| **Prime Video** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/service-blocking/streaming/prime-video/privacy.txt) | [Block All](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/service-blocking/streaming/prime-video/block-all.txt) |
-| **Spotify** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/service-blocking/streaming/spotify/privacy.txt) | [Block All](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/service-blocking/streaming/spotify/block-all.txt) |
-| **Twitch** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/service-blocking/streaming/twitch/privacy.txt) | [Block All](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/service-blocking/streaming/twitch/block-all.txt) |
-| **Youtube** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/service-blocking/streaming/youtube/privacy.txt) | [Block All](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/service-blocking/streaming/youtube/block-all.txt) |
+| 📚 **Education** | Erlaubte Lern- und Bildungsplattformen. | [Öffnen](lists/kids-allow-only/education.txt) |
+| 🏫 **School Platforms** | Erlaubte Schulportale, Lernmanagement- und Unterrichtsdienste. | [Öffnen](lists/kids-allow-only/school-platforms.txt) |
+| 🔎 **Safe Search** | Erlaubte Suchmaschinen mit geeigneten Schutzoptionen. | [Öffnen](lists/kids-allow-only/safe-search.txt) |
+| 📖 **Knowledge** | Erlaubte Wissens-, Lexikon- und Nachschlageangebote. | [Öffnen](lists/kids-allow-only/knowledge.txt) |
+| 🎬 **Kids Media** | Ausgewählte Kinder-, Bildungs- und Mediathek-Angebote. | [Öffnen](lists/kids-allow-only/kids-media.txt) |
+| 💬 **Approved Communication** | Gezielt erlaubte Kommunikationsdienste. | [Öffnen](lists/kids-allow-only/approved-communication.txt) |
 
 </details>
-
-<p align="right"><a href="#blocklisten-navigation">⬆️ Blocklisten-Inhaltsverzeichnis</a></p>
 
 ---
 
-<a id="gaming"></a>
-### 🎮 Gaming
+<br>
 
-#### Hauptlisten
+---
 
-| Profil | Schutz | Risiko | Einträge | Liste |
-|---|---|:---:|---:|---|
-| 🟩 **Light** | zurückhaltend | Minimal | **26** | [Light](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/apps/gaming/main/light.txt) |
-| 🟦 **Normal** | ausgewogen | Niedrig | **75** | [Normal](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/apps/gaming/main/normal.txt) |
-| 🟨 **Pro** | Datenschutz | Niedrig–Mittel | **123** | [Pro](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/apps/gaming/main/pro.txt) |
-| 🟧 **Pro++** | aggressiv | Mittel | **379** | [Pro++](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/apps/gaming/main/pro-plus.txt) |
-| 🟥 **Ultimate** | maximal | Hoch | **385** | [Ultimate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/apps/gaming/main/ultimate.txt) |
+<br>
+
+
+# 📢 Werbung & Tracking
+
+<!-- CATEGORY-BANNER:01-werbung-tracking.png -->
+<p align="center">
+  <img src="assets/categories/01-werbung-tracking.png" alt="Werbung & Tracking" width="100%">
+</p>
+<!-- /CATEGORY-BANNER -->
+
+
+## Fertige Ads-&-Tracking-Profile
+
+| Profil | Schutz | Geeignet für | Liste |
+|---|---|---|---|
+| 🟩 **Light** | Eindeutige Werbung + sichere Tracker | Maximale Kompatibilität | [Liste öffnen](lists/privacy/main/light.txt) |
+| 🟦 **Normal** | Light + allgemeines Tracking + Analytics | Normale Nutzung | [Liste öffnen](lists/privacy/main/normal.txt) |
+| 🟨 **Pro ⭐** | Normal + Social + Mobile + App Tracking | **Die meisten Nutzer** | [Liste öffnen](lists/privacy/main/pro.txt) |
+| 🟧 **Pro++** | Pro + Affiliate + Conversion + aggressive Tracker | Privacy-orientierte Nutzer | [Liste öffnen](lists/privacy/main/pro-plus.txt) |
+| 🟥 **Ultimate** | Maximale Ads-/Tracking-Abdeckung | Experten | [Liste öffnen](lists/privacy/main/ultimate.txt) |
 
 <details>
-<summary><strong>📂 Plattform-Wirkungslisten anzeigen</strong></summary>
+<summary><strong>📂 Einzelne Werbung-&-Tracking-Listen anzeigen</strong></summary>
 
-
-| App / Dienst | 🛡️ Privacy | 🚫 Block All |
+| Name | Funktion | Liste anzeigen |
 |---|---|---|
-| **Battle.net** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/service-blocking/gaming/battle-net/privacy.txt) | [Block All](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/service-blocking/gaming/battle-net/block-all.txt) |
-| **EA / Origin** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/service-blocking/gaming/ea-origin/privacy.txt) | [Block All](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/service-blocking/gaming/ea-origin/block-all.txt) |
-| **Epic Games** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/service-blocking/gaming/epic-games/privacy.txt) | [Block All](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/service-blocking/gaming/epic-games/block-all.txt) |
-| **Mobile Games** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/service-blocking/gaming/mobile-games/privacy.txt) | [Block All](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/service-blocking/gaming/mobile-games/block-all.txt) |
-| **Nintendo** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/service-blocking/gaming/nintendo/privacy.txt) | [Block All](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/service-blocking/gaming/nintendo/block-all.txt) |
-| **Playstation** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/service-blocking/gaming/playstation/privacy.txt) | [Block All](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/service-blocking/gaming/playstation/block-all.txt) |
-| **Riot Games** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/service-blocking/gaming/riot-games/privacy.txt) | [Block All](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/service-blocking/gaming/riot-games/block-all.txt) |
-| **Rockstar** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/service-blocking/gaming/rockstar/privacy.txt) | [Block All](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/service-blocking/gaming/rockstar/block-all.txt) |
-| **Steam** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/service-blocking/gaming/steam/privacy.txt) | [Block All](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/service-blocking/gaming/steam/block-all.txt) |
-| **Ubisoft** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/service-blocking/gaming/ubisoft/privacy.txt) | [Block All](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/service-blocking/gaming/ubisoft/block-all.txt) |
-| **Xbox** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/service-blocking/gaming/xbox/privacy.txt) | [Block All](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/service-blocking/gaming/xbox/block-all.txt) |
+| 📣 **Ads / Werbung** | Klassische Werbenetzwerke und Ad-Delivery. | [Öffnen](lists/privacy/full/ads.txt) |
+| 🪟 **Pop-Up Ads** | Pop-up- und Pop-under-Werbung. | [Öffnen](lists/privacy/full/pop-up-ads.txt) |
+| 🔗 **Affiliate Tracking** | Affiliate-, Referral- und Conversion-Tracking. | [Öffnen](lists/privacy/full/affiliate-tracking.txt) |
+| ⚠️ **Aggressive Privacy** | Aggressivere Privacy-Endpunkte mit höherem Breakage-Risiko. | [Öffnen](lists/privacy/full/aggressive-privacy.txt) |
+| 📊 **Analytics** | Web-, App- und Nutzungsanalyse. | [Öffnen](lists/privacy/full/analytics.txt) |
+| 🤖 **Captcha / Antibot** | Ausgewählte Captcha-/Antibot-Infrastruktur. | [Öffnen](lists/privacy/full/captcha-antibot.txt) |
+| 🌐 **CDN Tracking** | Tracking über CDN-/Edge-Infrastruktur. | [Öffnen](lists/privacy/full/cdn-tracking.txt) |
+| 💬 **Chat Support** | Tracking in Chat-/Support-Systemen. | [Öffnen](lists/privacy/full/chat-support.txt) |
+| 🍪 **Consent / CMP** | Consent- und CMP-Infrastruktur; bewusst aggressiv. | [Öffnen](lists/privacy/full/consent-cmp.txt) |
+| 💥 **Crash Reporting** | Crash-, Fehler- und Ereignisberichte. | [Öffnen](lists/privacy/full/crash-reporting.txt) |
+| 🗂️ **CRM** | CRM- und Lead-Tracking. | [Öffnen](lists/privacy/full/crm.txt) |
+| 🛒 **E-Commerce Tracking** | Shop-, Conversion- und Commerce-Tracking. | [Öffnen](lists/privacy/full/ecommerce.txt) |
+| 🔤 **External Fonts** | Externe Font-Endpunkte mit Privacy-Relevanz. | [Öffnen](lists/privacy/full/external-fonts.txt) |
+| 🧬 **Fingerprinting** | Browser-/Device-Fingerprinting. | [Öffnen](lists/privacy/full/fingerprinting.txt) |
+| 📢 **Marketing** | Marketing- und Kampagnenmessung. | [Öffnen](lists/privacy/full/marketing.txt) |
+| 📱 **Mobile Tracking** | Mobile Attribution und SDK-Tracking. | [Öffnen](lists/privacy/full/mobile-tracking.txt) |
+| 🧩 **Native Tracking** | Integrierte Tracker von OS, Apps und Geräten. | [Öffnen](lists/privacy/full/native-tracking.txt) |
+| ✉️ **Newsletter Tracking** | Newsletter- und Mail-Tracking. | [Öffnen](lists/privacy/full/newsletter-tracking.txt) |
+| 💳 **Payment Tracking** | Tracking rund um Zahlungsprozesse. | [Öffnen](lists/privacy/full/payment-tracking.txt) |
+| 🔔 **Push Notifications** | Ausgewählte Push-/Notification-Endpunkte. | [Öffnen](lists/privacy/full/push-notifications.txt) |
+| ⭐ **Recommendations** | Empfehlungs- und Personalisierungsdienste. | [Öffnen](lists/privacy/full/recommendations.txt) |
+| 🔎 **Search Tracking** | Such- und Search-Tracking. | [Öffnen](lists/privacy/full/search-tracking.txt) |
+| 📈 **SEO Tracking** | SEO-/Marketing-Messsysteme. | [Öffnen](lists/privacy/full/seo-tracking.txt) |
+| 🎥 **Session Replay** | Session-Replay und Verhaltensaufzeichnung. | [Öffnen](lists/privacy/full/session-replay.txt) |
+| 👥 **Social Tracking** | Tracking sozialer Netzwerke. | [Öffnen](lists/privacy/full/social-tracking.txt) |
+| 📡 **Telemetry** | Allgemeine Telemetrie-Endpunkte. | [Öffnen](lists/privacy/full/telemetry.txt) |
+| 👁️ **Trackers** | Große allgemeine Tracker-Liste. | [Öffnen](lists/privacy/full/trackers.txt) |
+| 🟣 **Tracking Pixels** | Tracking-Pixel und Beacons. | [Öffnen](lists/privacy/full/tracking-pixels.txt) |
+| 🔁 **Tracking Redirects** | Tracking-Weiterleitungen und Redirector-Infrastruktur. | [Öffnen](lists/privacy/full/tracking-redirects.txt) |
 
 </details>
 
-#### Privacy-Speziallisten
+---
 
-| Spezialliste | 🛡️ Privacy |
+<br>
+
+---
+
+<br>
+
+
+
+---
+
+<br>
+
+# 🧩 Software & Hardware Telemetrie
+
+Gezielte Datenschutzlisten für **Software, Treiber, PC-Komponenten und Peripherie**. Die Privacy-Variante soll Telemetrie reduzieren, ohne die Kernfunktion absichtlich abzuschalten.
+
+## Fertige Telemetrie-Profile
+
+| Profil | Schutz | Risiko | Liste |
+|---|---|:---:|---|
+| 🟩 **Light** | sehr sichere Software-/Hardware-Telemetrie | Minimal | [Liste öffnen](lists/platforms/software-hardware-telemetry/main/light.txt) |
+| 🟦 **Normal** | Light + zusätzliche Analytics | Niedrig | [Liste öffnen](lists/platforms/software-hardware-telemetry/main/normal.txt) |
+| 🟨 **Pro ⭐** | umfangreicher Telemetrie-Schutz | Niedrig–Mittel | [Liste öffnen](lists/platforms/software-hardware-telemetry/main/pro.txt) |
+| 🟧 **Pro++** | aggressivere Hersteller-Telemetrie | Mittel | [Liste öffnen](lists/platforms/software-hardware-telemetry/main/pro-plus.txt) |
+| 🟥 **Ultimate** | maximaler Datenbestand dieses Bereichs | Hoch | [Liste öffnen](lists/platforms/software-hardware-telemetry/main/ultimate.txt) |
+
+<details>
+<summary><strong>📂 Software-/Hardware-Hersteller anzeigen</strong></summary>
+
+| Name | 🛡️ Privacy | ⚠️ Restrict | 🔄 Updates blockieren |
+|---|:---:|:---:|:---:|
+| **Adobe** | [Liste](lists/device-control/software-hardware/adobe/privacy.txt) | [Liste](lists/device-control/software-hardware/adobe/restrict.txt) | [Liste](lists/device-control/software-hardware/adobe/updates.txt) |
+| **AMD** | [Liste](lists/device-control/software-hardware/amd/privacy.txt) | [Liste](lists/device-control/software-hardware/amd/restrict.txt) | [Liste](lists/device-control/software-hardware/amd/updates.txt) |
+| **Autodesk** | [Liste](lists/device-control/software-hardware/autodesk/privacy.txt) | [Liste](lists/device-control/software-hardware/autodesk/restrict.txt) | [Liste](lists/device-control/software-hardware/autodesk/updates.txt) |
+| **Corsair** | [Liste](lists/device-control/software-hardware/corsair/privacy.txt) | [Liste](lists/device-control/software-hardware/corsair/restrict.txt) | [Liste](lists/device-control/software-hardware/corsair/updates.txt) |
+| **Intel** | [Liste](lists/device-control/software-hardware/intel/privacy.txt) | [Liste](lists/device-control/software-hardware/intel/restrict.txt) | [Liste](lists/device-control/software-hardware/intel/updates.txt) |
+| **Logitech** | [Liste](lists/device-control/software-hardware/logitech/privacy.txt) | [Liste](lists/device-control/software-hardware/logitech/restrict.txt) | [Liste](lists/device-control/software-hardware/logitech/updates.txt) |
+| **Nvidia** | [Liste](lists/device-control/software-hardware/nvidia/privacy.txt) | [Liste](lists/device-control/software-hardware/nvidia/restrict.txt) | [Liste](lists/device-control/software-hardware/nvidia/updates.txt) |
+| **Razer** | [Liste](lists/device-control/software-hardware/razer/privacy.txt) | [Liste](lists/device-control/software-hardware/razer/restrict.txt) | [Liste](lists/device-control/software-hardware/razer/updates.txt) |
+
+</details>
+
+---
+
+<br>
+
+# 🤖 KI, Bots & Crawler
+
+Listen für **AI-/LLM-Crawler, Scraper, Training-Bots, SEO-Bots und unerwünschte automatisierte Zugriffe**.
+
+> DNS-Blocking kann Crawler-Domains sperren, ersetzt aber keine WAF-, Webserver- oder `robots.txt`-Regeln.
+
+## Fertige KI-/Bot-Profile
+
+| Profil | Schutz | Risiko | Liste |
+|---|---|:---:|---|
+| 🟩 **Light** | sehr konservative Bot-/Crawler-Auswahl | Minimal | [Liste öffnen](lists/automation/main/light.txt) |
+| 🟦 **Normal** | zusätzliche Crawler und Tracking-Endpunkte | Niedrig | [Liste öffnen](lists/automation/main/normal.txt) |
+| 🟨 **Pro ⭐** | breiter KI-/Crawler-Schutz | Niedrig–Mittel | [Liste öffnen](lists/automation/main/pro.txt) |
+| 🟧 **Pro++** | aggressivere Bot-/Scraper-Blockierung | Mittel | [Liste öffnen](lists/automation/main/pro-plus.txt) |
+| 🟥 **Ultimate** | maximaler Datenbestand dieses Bereichs | Hoch | [Liste öffnen](lists/automation/main/ultimate.txt) |
+
+<details>
+<summary><strong>📂 Einzelne KI-, Bot- & Crawler-Listen anzeigen</strong></summary>
+
+| Name | Funktion | Liste |
+|---|---|---|
+| **Aggressive Crawlers** | aggressive bekannte Crawler-Operatoren | [Öffnen](lists/automation/full/aggressive-crawlers.txt) |
+| **AI Crawlers** | Crawler von KI-/AI-Anbietern | [Öffnen](lists/automation/full/ai-crawlers.txt) |
+| **AI Scrapers** | Scraping-Endpunkte mit KI-Bezug | [Öffnen](lists/automation/full/ai-scrapers.txt) |
+| **AI Telemetry** | Telemetrie von KI-Diensten | [Öffnen](lists/automation/full/ai-telemetry.txt) |
+| **AI Tracking** | Tracking durch KI-Dienste | [Öffnen](lists/automation/full/ai-tracking.txt) |
+| **LLM Crawlers** | LLM-Crawler und verwandte Infrastruktur | [Öffnen](lists/automation/full/llm-crawlers.txt) |
+| **Malicious Bots** | bekannte schädliche Bots | [Öffnen](lists/automation/full/malicious-bots.txt) |
+| **SEO Bots** | SEO-Crawler und automatisierte Analyse | [Öffnen](lists/automation/full/seo-bots.txt) |
+| **Training Bots** | Bots für Training/Datensammlung | [Öffnen](lists/automation/full/training-bots.txt) |
+| **Web Crawlers** | allgemeine Webcrawler | [Öffnen](lists/automation/full/web-crawlers.txt) |
+
+</details>
+
+
+# 🛡️ Privatsphäre & Security
+
+<!-- CATEGORY-BANNER:04-privatsphaere-security.png -->
+<p align="center">
+  <img src="assets/categories/04-privatsphaere-security.png" alt="Privatsphäre & Security" width="100%">
+</p>
+<!-- /CATEGORY-BANNER -->
+
+
+## Fertige Privacy-&-Security-Profile
+
+| Profil | Schutz | Geeignet für | Liste |
+|---|---|---|---|
+| 🟩 **Light** | Sichere Privacy-/Security-Basis | Maximale Kompatibilität | [Liste öffnen](lists/security/main/light.txt) |
+| 🟦 **Normal** | Telemetrie + Malware + Phishing | Normale Heimnetze | [Liste öffnen](lists/security/main/normal.txt) |
+| 🟨 **Pro ⭐** | Umfassende Telemetrie + Malware + Phishing + Scam | **Empfohlen** | [Liste öffnen](lists/security/main/pro.txt) |
+| 🟧 **Pro++** | Pro + aggressive Privacy- und Threat-Listen | Erfahrene Nutzer | [Liste öffnen](lists/security/main/pro-plus.txt) |
+| 🟥 **Ultimate** | Maximale Privacy-/Security-Abdeckung | Experten | [Liste öffnen](lists/security/main/ultimate.txt) |
+
+<details>
+<summary><strong>🔐 Einzelne Privacy-Listen anzeigen</strong></summary>
+
+| Name | Funktion | Liste anzeigen |
+|---|---|---|
+| 📊 **General Telemetry** | Blockiert allgemeine Produkt-, App- und Herstellertelemetrie. | [Öffnen](lists/privacy-security/privacy/general-telemetry.txt) |
+| 🩺 **Diagnostics** | Reduziert Diagnose-, Fehler- und Nutzungsdaten. | [Öffnen](lists/privacy-security/privacy/diagnostics.txt) |
+| 💥 **Crash Reporting** | Blockiert ausgewählte automatische Crash-Reports. | [Öffnen](lists/privacy-security/privacy/crash-reporting.txt) |
+| 🧬 **Fingerprinting** | Blockiert bekannte Infrastruktur zur Wiedererkennung und Profilbildung. | [Öffnen](lists/privacy-security/privacy/fingerprinting.txt) |
+| 📈 **Usage Reporting** | Blockiert ausgewählte Nutzungsstatistiken und Usage Reports. | [Öffnen](lists/privacy-security/privacy/usage-reporting.txt) |
+| ☁️ **Cloud Analytics** | Reduziert optionale Cloud-Analytics und Hersteller-Messdienste. | [Öffnen](lists/privacy-security/privacy/cloud-analytics.txt) |
+
+</details>
+
+<details>
+<summary><strong>🛡️ Einzelne Security-Listen anzeigen</strong></summary>
+
+| Name | Funktion | Liste anzeigen |
+|---|---|---|
+| 🦠 **Malware** | Blockiert bekannte Malware-, Ransomware- und Schadsoftware-Infrastruktur. | [Öffnen](lists/privacy-security/security/malware.txt) |
+| 🎣 **Phishing** | Blockiert bekannte Phishing- und Credential-Diebstahl-Domains. | [Öffnen](lists/privacy-security/security/phishing.txt) |
+| 💰 **Scam & Internet Fraud** | Blockiert Betrugs-, Scam- und deceptive Domains. | [Öffnen](lists/privacy-security/security/scam-fraud.txt) |
+| 🛒 **Fake Shops** | Blockiert bekannte Fake-Shops und betrügerische Store-Domains. | [Öffnen](lists/privacy-security/security/fake-shops.txt) |
+| 🎭 **Fake Sites** | Blockiert Fake-Streaming-, Fake-Download-, Fake-Support- und sonstige Täuschungsseiten. | [Öffnen](lists/privacy-security/security/fake-sites.txt) |
+| ⛏️ **Cryptomining** | Blockiert bekannte Browser-/Remote-Mining-Infrastruktur. | [Öffnen](lists/privacy-security/security/cryptomining.txt) |
+| 🤖 **Botnets** | Blockiert bekannte Botnet-Infrastruktur. | [Öffnen](lists/privacy-security/security/botnets.txt) |
+| 🎛️ **Command & Control** | Blockiert bekannte C2-Infrastruktur. | [Öffnen](lists/privacy-security/security/command-control.txt) |
+| 🔐 **Threat Intelligence Full** | Große kombinierte Threat-Intelligence-Liste. | [Öffnen](lists/privacy-security/security/tif-full.txt) |
+| 🔐 **Threat Intelligence Medium** | Mittlere TIF-Variante mit reduziertem Ressourcenbedarf. | [Öffnen](lists/privacy-security/security/tif-medium.txt) |
+| 🔐 **Threat Intelligence Mini** | Kleine priorisierte TIF-Variante. | [Öffnen](lists/privacy-security/security/tif-mini.txt) |
+| 🌐 **Threat Intelligence IPv4** | IPv4-Begleitliste für Firewall-/IP-basierte Threat-Intelligence-Filterung. | [Öffnen](lists/privacy-security/security/tif-ipv4.txt) |
+| 🆕 **NRD 1–7 Tage** | Neu registrierte Domains der letzten 1–7 Tage; erhöhtes False-Positive-Risiko. | [Öffnen](lists/privacy-security/security/nrd-1-7d.txt) |
+| 🆕 **NRD 8–14 Tage** | Neu registrierte Domains der Tage 8–14. | [Öffnen](lists/privacy-security/security/nrd-8-14d.txt) |
+| 🆕 **NRD 15–21 Tage** | Neu registrierte Domains der Tage 15–21. | [Öffnen](lists/privacy-security/security/nrd-15-21d.txt) |
+| 🆕 **NRD 22–28 Tage** | Neu registrierte Domains der Tage 22–28. | [Öffnen](lists/privacy-security/security/nrd-22-28d.txt) |
+| 🆕 **NRD 29–35 Tage** | Neu registrierte Domains der Tage 29–35. | [Öffnen](lists/privacy-security/security/nrd-29-35d.txt) |
+| 🧬 **DGA 7 Tage** | Algorithmisch erzeugte Domains aus aktuellen DGA-Daten. | [Öffnen](lists/privacy-security/security/dga-7d.txt) |
+| 🧬 **DGA 14 Tage** | Größere DGA-Abdeckung über 14 Tage. | [Öffnen](lists/privacy-security/security/dga-14d.txt) |
+| 🧬 **DGA 30 Tage** | Maximale DGA-Abdeckung über 30 Tage. | [Öffnen](lists/privacy-security/security/dga-30d.txt) |
+| 🔏 **Dynamic DNS** | Blockiert bekannte Dynamic-DNS-Dienste mit erhöhtem Missbrauchspotenzial. | [Öffnen](lists/privacy-security/security/dynamic-dns.txt) |
+| 💻 **Badware Hoster** | Blockiert besonders häufig für Schadsoftware missbrauchte Hosting-Infrastruktur. | [Öffnen](lists/privacy-security/security/badware-hoster.txt) |
+| 🔮 **Most Abused TLDs** | Aggressive Liste häufig missbrauchter Top-Level-Domains. | [Öffnen](lists/privacy-security/security/abused-tlds.txt) |
+
+</details>
+
+---
+
+<br>
+
+---
+
+<br>
+
+
+# 💻 Geräte, Systeme & Hersteller
+
+<!-- CATEGORY-BANNER:05-geraete-systeme-hersteller.png -->
+<p align="center">
+  <img src="assets/categories/05-geraete-systeme-hersteller.png" alt="Geräte, Systeme & Hersteller" width="100%">
+</p>
+<!-- /CATEGORY-BANNER -->
+
+
+Hier steuerst du direkt, **wie stark einzelne Betriebssysteme, Geräte oder Hersteller eingeschränkt werden sollen**.
+
+<details>
+<summary><strong>ℹ️ Privacy, Restrict und Updates blockieren – Erklärung anzeigen</strong></summary>
+
+| Modus | Erklärung |
 |---|---|
-| **Anti-Cheat Telemetry** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/service-blocking/gaming/anti-cheat-telemetry/privacy.txt) |
-| **Game Analytics** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/service-blocking/gaming/game-analytics/privacy.txt) |
+| 🛡️ **Privacy** | Blockiert bekannte Tracker, Analytics und Telemetrie. Die normalen Kernfunktionen sollen möglichst erhalten bleiben. |
+| ⚠️ **Restrict** | Enthält Privacy und blockiert zusätzlich optionale Hersteller-, Cloud-, Empfehlungs- und Komfortdienste. Einzelne Zusatzfunktionen können ausfallen. |
+| 🔄 **Updates blockieren** | Blockiert gezielt die Update-, Firmware- oder Software-Update-Infrastruktur des jeweiligen Systems oder Herstellers. |
 
-<p align="right"><a href="#blocklisten-navigation">⬆️ Blocklisten-Inhaltsverzeichnis</a></p>
+> **Du wählst pro Gerät/System nur die Wirkung, die du wirklich möchtest.**
+
+</details>
+
+## 📦 Geräte-Gesamtlisten
+
+Du möchtest nicht jeden Hersteller einzeln auswählen? Dann kannst du komplette **Gerätegruppen** oder unten die **All-in-Liste** verwenden.
+
+| Gerätegruppe | 🛡️ Privacy | ⚠️ Restrict | 🔄 Updates blockieren |
+|---|:---:|:---:|:---:|
+| 💻 **Computer / Laptop** | [Liste](lists/device-control/groups/computer/privacy.txt) | [Liste](lists/device-control/groups/computer/restrict.txt) | [Liste](lists/device-control/groups/computer/updates.txt) |
+| 📺 **TV / Streaming-Geräte** | [Liste](lists/device-control/groups/tv-streaming/privacy.txt) | [Liste](lists/device-control/groups/tv-streaming/restrict.txt) | [Liste](lists/device-control/groups/tv-streaming/updates.txt) |
+| 📱 **Handy / Tablet** | [Liste](lists/device-control/groups/mobile-tablet/privacy.txt) | [Liste](lists/device-control/groups/mobile-tablet/restrict.txt) | [Liste](lists/device-control/groups/mobile-tablet/updates.txt) |
+| 🏠 **Smart Home / IoT** | [Liste](lists/device-control/groups/smart-home-iot/privacy.txt) | [Liste](lists/device-control/groups/smart-home-iot/restrict.txt) | [Liste](lists/device-control/groups/smart-home-iot/updates.txt) |
+| 💾 **NAS / Server** | [Liste](lists/device-control/groups/nas-server/privacy.txt) | [Liste](lists/device-control/groups/nas-server/restrict.txt) | [Liste](lists/device-control/groups/nas-server/updates.txt) |
+| 🌐 **Router / Netzwerkgeräte** | [Liste](lists/device-control/groups/network/privacy.txt) | [Liste](lists/device-control/groups/network/restrict.txt) | [Liste](lists/device-control/groups/network/updates.txt) |
+| 🎮 **Konsole / Gaming-Geräte** | [Liste](lists/device-control/groups/gaming-devices/privacy.txt) | [Liste](lists/device-control/groups/gaming-devices/restrict.txt) | [Liste](lists/device-control/groups/gaming-devices/updates.txt) |
+| 🗣️ **Sprachassistenten** | [Liste](lists/device-control/groups/voice-assistants/privacy.txt) | [Liste](lists/device-control/groups/voice-assistants/restrict.txt) | [Liste](lists/device-control/groups/voice-assistants/updates.txt) |
+| 🧩 **All-in** | **[Alle Privacy-Listen](lists/device-control/all-in/privacy.txt)** | **[Alle Restrict-Listen](lists/device-control/all-in/restrict.txt)** | **[Alle Update-Blocklisten](lists/device-control/all-in/updates.txt)** |
+
+<details>
+<summary><strong>📂 Einzelne Geräte-, System- & Herstellerlisten anzeigen</strong></summary>
+
+| Name | 🛡️ Privacy | ⚠️ Restrict | 🔄 Updates blockieren |
+|---|:---:|:---:|:---:|
+| 🪟 **Windows** | [Liste](lists/device-control/windows/privacy.txt) | [Liste](lists/device-control/windows/restrict.txt) | [Liste](lists/device-control/windows/updates.txt) |
+| 🤖 **Android** | [Liste](lists/device-control/android/privacy.txt) | [Liste](lists/device-control/android/restrict.txt) | [Liste](lists/device-control/android/updates.txt) |
+| 📱 **Google / Pixel** | [Liste](lists/device-control/google-pixel/privacy.txt) | [Liste](lists/device-control/google-pixel/restrict.txt) | [Liste](lists/device-control/google-pixel/updates.txt) |
+| 📱 **Samsung Mobile** | [Liste](lists/device-control/samsung-mobile/privacy.txt) | [Liste](lists/device-control/samsung-mobile/restrict.txt) | [Liste](lists/device-control/samsung-mobile/updates.txt) |
+| 📱 **Huawei** | [Liste](lists/device-control/huawei/privacy.txt) | [Liste](lists/device-control/huawei/restrict.txt) | [Liste](lists/device-control/huawei/updates.txt) |
+| 📱 **Xiaomi** | [Liste](lists/device-control/xiaomi/privacy.txt) | [Liste](lists/device-control/xiaomi/restrict.txt) | [Liste](lists/device-control/xiaomi/updates.txt) |
+| 📱 **OPPO / Realme** | [Liste](lists/device-control/oppo-realme/privacy.txt) | [Liste](lists/device-control/oppo-realme/restrict.txt) | [Liste](lists/device-control/oppo-realme/updates.txt) |
+| 📱 **Vivo** | [Liste](lists/device-control/vivo/privacy.txt) | [Liste](lists/device-control/vivo/restrict.txt) | [Liste](lists/device-control/vivo/updates.txt) |
+| 🍎 **Apple / iOS / macOS** | [Liste](lists/device-control/apple/privacy.txt) | [Liste](lists/device-control/apple/restrict.txt) | [Liste](lists/device-control/apple/updates.txt) |
+| 🐧 **Linux** | [Liste](lists/device-control/linux/privacy.txt) | [Liste](lists/device-control/linux/restrict.txt) | [Liste](lists/device-control/linux/updates.txt) |
+| 📺 **Samsung TV** | [Liste](lists/device-control/smart-tv/samsung/privacy.txt) | [Liste](lists/device-control/smart-tv/samsung/restrict.txt) | [Liste](lists/device-control/smart-tv/samsung/updates.txt) |
+| 📺 **LG webOS** | [Liste](lists/device-control/smart-tv/lg/privacy.txt) | [Liste](lists/device-control/smart-tv/lg/restrict.txt) | [Liste](lists/device-control/smart-tv/lg/updates.txt) |
+| 📺 **Roku** | [Liste](lists/device-control/smart-tv/roku/privacy.txt) | [Liste](lists/device-control/smart-tv/roku/restrict.txt) | [Liste](lists/device-control/smart-tv/roku/updates.txt) |
+| 🔥 **Fire TV** | [Liste](lists/device-control/smart-tv/fire-tv/privacy.txt) | [Liste](lists/device-control/smart-tv/fire-tv/restrict.txt) | [Liste](lists/device-control/smart-tv/fire-tv/updates.txt) |
+| 📦 **Amazon Geräte / Alexa** | [Liste](lists/device-control/amazon/privacy.txt) | [Liste](lists/device-control/amazon/restrict.txt) | [Liste](lists/device-control/amazon/updates.txt) |
+| 📺 **Android TV / Google TV** | [Liste](lists/device-control/smart-tv/android-tv/privacy.txt) | [Liste](lists/device-control/smart-tv/android-tv/restrict.txt) | [Liste](lists/device-control/smart-tv/android-tv/updates.txt) |
+| 🏠 **IoT / Smart Home** | [Liste](lists/device-control/iot/privacy.txt) | [Liste](lists/device-control/iot/restrict.txt) | [Liste](lists/device-control/iot/updates.txt) |
+| 💾 **NAS** | [Liste](lists/device-control/nas/privacy.txt) | [Liste](lists/device-control/nas/restrict.txt) | [Liste](lists/device-control/nas/updates.txt) |
+| 🖥️ **Server** | [Liste](lists/device-control/server/privacy.txt) | [Liste](lists/device-control/server/restrict.txt) | [Liste](lists/device-control/server/updates.txt) |
+| 🌐 **Router / Netzwerkgeräte** | [Liste](lists/device-control/router/privacy.txt) | [Liste](lists/device-control/router/restrict.txt) | [Liste](lists/device-control/router/updates.txt) |
+| 🎮 **Xbox** | [Liste](lists/device-control/gaming/xbox/privacy.txt) | [Liste](lists/device-control/gaming/xbox/restrict.txt) | [Liste](lists/device-control/gaming/xbox/updates.txt) |
+| 🎮 **PlayStation** | [Liste](lists/device-control/gaming/playstation/privacy.txt) | [Liste](lists/device-control/gaming/playstation/restrict.txt) | [Liste](lists/device-control/gaming/playstation/updates.txt) |
+| 🎮 **Nintendo** | [Liste](lists/device-control/gaming/nintendo/privacy.txt) | [Liste](lists/device-control/gaming/nintendo/restrict.txt) | [Liste](lists/device-control/gaming/nintendo/updates.txt) |
+| 🗣️ **Sprachassistenten** | [Liste](lists/device-control/voice-assistants/privacy.txt) | [Liste](lists/device-control/voice-assistants/restrict.txt) | [Liste](lists/device-control/voice-assistants/updates.txt) |
+
+</details>
 
 ---
 
-<a id="social-media"></a>
-### 💬 Social Media
+<br>
 
-#### Hauptlisten
+---
 
-| Profil | Schutz | Risiko | Einträge | Liste |
-|---|---|:---:|---:|---|
-| 🟩 **Light** | zurückhaltend | Minimal | **1.097** | [Light](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/apps/social-media/main/light.txt) |
-| 🟦 **Normal** | ausgewogen | Niedrig | **1.789** | [Normal](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/apps/social-media/main/normal.txt) |
-| 🟨 **Pro** | Datenschutz | Niedrig–Mittel | **3.145** | [Pro](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/apps/social-media/main/pro.txt) |
-| 🟧 **Pro++** | aggressiv | Mittel | **21.441** | [Pro++](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/apps/social-media/main/pro-plus.txt) |
-| 🟥 **Ultimate** | maximal | Hoch | **21.588** | [Ultimate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/apps/social-media/main/ultimate.txt) |
+<br>
+
+
+
+
+## 📚 Weitere Geräte-, Hersteller- & Providerbereiche
 
 <details>
-<summary><strong>📂 Wirkungslisten anzeigen</strong></summary>
+<summary><strong>📡 ISP / Provider anzeigen</strong></summary>
+
+| Provider | 🛡️ Privacy | ⚠️ Restrict | 🔄 Updates blockieren |
+|---|:---:|:---:|:---:|
+| **1&1** | [Liste](lists/device-control/providers/1und1/privacy.txt) | [Liste](lists/device-control/providers/1und1/restrict.txt) | [Liste](lists/device-control/providers/1und1/updates.txt) |
+| **Deutsche Glasfaser** | [Liste](lists/device-control/providers/deutsche-glasfaser/privacy.txt) | [Liste](lists/device-control/providers/deutsche-glasfaser/restrict.txt) | [Liste](lists/device-control/providers/deutsche-glasfaser/updates.txt) |
+| **O2** | [Liste](lists/device-control/providers/o2/privacy.txt) | [Liste](lists/device-control/providers/o2/restrict.txt) | [Liste](lists/device-control/providers/o2/updates.txt) |
+| **Telekom** | [Liste](lists/device-control/providers/telekom/privacy.txt) | [Liste](lists/device-control/providers/telekom/restrict.txt) | [Liste](lists/device-control/providers/telekom/updates.txt) |
+| **Unitymedia** | [Liste](lists/device-control/providers/unitymedia/privacy.txt) | [Liste](lists/device-control/providers/unitymedia/restrict.txt) | [Liste](lists/device-control/providers/unitymedia/updates.txt) |
+| **Vodafone** | [Liste](lists/device-control/providers/vodafone/privacy.txt) | [Liste](lists/device-control/providers/vodafone/restrict.txt) | [Liste](lists/device-control/providers/vodafone/updates.txt) |
+
+### Fertige Provider-Profile
+[Light](lists/platforms/providers/main/light.txt) ·
+[Normal](lists/platforms/providers/main/normal.txt) ·
+[Pro](lists/platforms/providers/main/pro.txt) ·
+[Pro++](lists/platforms/providers/main/pro-plus.txt) ·
+[Ultimate](lists/platforms/providers/main/ultimate.txt)
+
+</details>
+
+<details>
+<summary><strong>🏢 Google, Microsoft, Apple & Amazon anzeigen</strong></summary>
+
+| Ökosystem | 🛡️ Privacy | ⚠️ Restrict | 🔄 Updates blockieren |
+|---|:---:|:---:|:---:|
+| **Amazon** | [Liste](lists/device-control/ecosystems/amazon/privacy.txt) | [Liste](lists/device-control/ecosystems/amazon/restrict.txt) | [Liste](lists/device-control/ecosystems/amazon/updates.txt) |
+| **Apple** | [Liste](lists/device-control/ecosystems/apple/privacy.txt) | [Liste](lists/device-control/ecosystems/apple/restrict.txt) | [Liste](lists/device-control/ecosystems/apple/updates.txt) |
+| **Google** | [Liste](lists/device-control/ecosystems/google/privacy.txt) | [Liste](lists/device-control/ecosystems/google/restrict.txt) | [Liste](lists/device-control/ecosystems/google/updates.txt) |
+| **Microsoft** | [Liste](lists/device-control/ecosystems/microsoft/privacy.txt) | [Liste](lists/device-control/ecosystems/microsoft/restrict.txt) | [Liste](lists/device-control/ecosystems/microsoft/updates.txt) |
+
+</details>
+
+<details>
+<summary><strong>🏭 Herstellerlisten anzeigen</strong></summary>
+
+| Hersteller | 🛡️ Privacy | ⚠️ Restrict | 🔄 Updates blockieren |
+|---|:---:|:---:|:---:|
+| Adobe | [Liste](lists/device-control/manufacturers/adobe/privacy.txt) | [Liste](lists/device-control/manufacturers/adobe/restrict.txt) | [Liste](lists/device-control/manufacturers/adobe/updates.txt) |
+| Amazon | [Liste](lists/device-control/manufacturers/amazon/privacy.txt) | [Liste](lists/device-control/manufacturers/amazon/restrict.txt) | [Liste](lists/device-control/manufacturers/amazon/updates.txt) |
+| AMD | [Liste](lists/device-control/manufacturers/amd/privacy.txt) | [Liste](lists/device-control/manufacturers/amd/restrict.txt) | [Liste](lists/device-control/manufacturers/amd/updates.txt) |
+| Apple | [Liste](lists/device-control/manufacturers/apple/privacy.txt) | [Liste](lists/device-control/manufacturers/apple/restrict.txt) | [Liste](lists/device-control/manufacturers/apple/updates.txt) |
+| Autodesk | [Liste](lists/device-control/manufacturers/autodesk/privacy.txt) | [Liste](lists/device-control/manufacturers/autodesk/restrict.txt) | [Liste](lists/device-control/manufacturers/autodesk/updates.txt) |
+| EA | [Liste](lists/device-control/manufacturers/ea/privacy.txt) | [Liste](lists/device-control/manufacturers/ea/restrict.txt) | [Liste](lists/device-control/manufacturers/ea/updates.txt) |
+| Epic | [Liste](lists/device-control/manufacturers/epic/privacy.txt) | [Liste](lists/device-control/manufacturers/epic/restrict.txt) | [Liste](lists/device-control/manufacturers/epic/updates.txt) |
+| Google | [Liste](lists/device-control/manufacturers/google/privacy.txt) | [Liste](lists/device-control/manufacturers/google/restrict.txt) | [Liste](lists/device-control/manufacturers/google/updates.txt) |
+| Huawei | [Liste](lists/device-control/manufacturers/huawei/privacy.txt) | [Liste](lists/device-control/manufacturers/huawei/restrict.txt) | [Liste](lists/device-control/manufacturers/huawei/updates.txt) |
+| LG | [Liste](lists/device-control/manufacturers/lg/privacy.txt) | [Liste](lists/device-control/manufacturers/lg/restrict.txt) | [Liste](lists/device-control/manufacturers/lg/updates.txt) |
+| Logitech | [Liste](lists/device-control/manufacturers/logitech/privacy.txt) | [Liste](lists/device-control/manufacturers/logitech/restrict.txt) | [Liste](lists/device-control/manufacturers/logitech/updates.txt) |
+| Meta | [Liste](lists/device-control/manufacturers/meta/privacy.txt) | [Liste](lists/device-control/manufacturers/meta/restrict.txt) | [Liste](lists/device-control/manufacturers/meta/updates.txt) |
+| Microsoft | [Liste](lists/device-control/manufacturers/microsoft/privacy.txt) | [Liste](lists/device-control/manufacturers/microsoft/restrict.txt) | [Liste](lists/device-control/manufacturers/microsoft/updates.txt) |
+| Nintendo | [Liste](lists/device-control/manufacturers/nintendo/privacy.txt) | [Liste](lists/device-control/manufacturers/nintendo/restrict.txt) | [Liste](lists/device-control/manufacturers/nintendo/updates.txt) |
+| Nvidia | [Liste](lists/device-control/manufacturers/nvidia/privacy.txt) | [Liste](lists/device-control/manufacturers/nvidia/restrict.txt) | [Liste](lists/device-control/manufacturers/nvidia/updates.txt) |
+| Philips | [Liste](lists/device-control/manufacturers/philips/privacy.txt) | [Liste](lists/device-control/manufacturers/philips/restrict.txt) | [Liste](lists/device-control/manufacturers/philips/updates.txt) |
+| Razer | [Liste](lists/device-control/manufacturers/razer/privacy.txt) | [Liste](lists/device-control/manufacturers/razer/restrict.txt) | [Liste](lists/device-control/manufacturers/razer/updates.txt) |
+| Samsung | [Liste](lists/device-control/manufacturers/samsung/privacy.txt) | [Liste](lists/device-control/manufacturers/samsung/restrict.txt) | [Liste](lists/device-control/manufacturers/samsung/updates.txt) |
+| Sony | [Liste](lists/device-control/manufacturers/sony/privacy.txt) | [Liste](lists/device-control/manufacturers/sony/restrict.txt) | [Liste](lists/device-control/manufacturers/sony/updates.txt) |
+| Ubisoft | [Liste](lists/device-control/manufacturers/ubisoft/privacy.txt) | [Liste](lists/device-control/manufacturers/ubisoft/restrict.txt) | [Liste](lists/device-control/manufacturers/ubisoft/updates.txt) |
+| Valve / Steam | [Liste](lists/device-control/manufacturers/valve-steam/privacy.txt) | [Liste](lists/device-control/manufacturers/valve-steam/restrict.txt) | [Liste](lists/device-control/manufacturers/valve-steam/updates.txt) |
+| Xiaomi | [Liste](lists/device-control/manufacturers/xiaomi/privacy.txt) | [Liste](lists/device-control/manufacturers/xiaomi/restrict.txt) | [Liste](lists/device-control/manufacturers/xiaomi/updates.txt) |
+
+</details>
+
+<details>
+<summary><strong>🚗 Automotive / Connected Cars anzeigen</strong></summary>
+
+Fertige Profile:
+[Light](lists/platforms/automotive/main/light.txt) ·
+[Normal](lists/platforms/automotive/main/normal.txt) ·
+[Pro](lists/platforms/automotive/main/pro.txt) ·
+[Pro++](lists/platforms/automotive/main/pro-plus.txt) ·
+[Ultimate](lists/platforms/automotive/main/ultimate.txt)
+
+Unterstützte Hersteller umfassen u. a. **BMW, Ford, Mercedes, Tesla und Volkswagen**.
+
+</details>
+
+<details>
+<summary><strong>💾 NAS & Server anzeigen</strong></summary>
+
+Unterstützt werden u. a. **Docker, HPE/Dell, Kubernetes, QNAP, Red Hat/OpenShift, Synology, TrueNAS und Unraid**.
+
+[Zum Bereich](lists/device-control/nas-server/)
+
+</details>
+
+<details>
+<summary><strong>🌐 Router & Netzwerkgeräte anzeigen</strong></summary>
+
+Unterstützt werden u. a. **ASUS, AVM/FRITZ!Box, Cisco, Huawei, MikroTik, Netgear, TP-Link, Ubiquiti und Zyxel**.
+
+[Zum Bereich](lists/device-control/network-devices/)
+
+</details>
+
+<details>
+<summary><strong>🏠 IoT & Smart Home anzeigen</strong></summary>
+
+Unterstützt werden u. a. **Amazon Alexa, Huawei, Samsung SmartThings, Sonos, Xiaomi und Shared/Other**.
+
+[Zum Bereich](lists/device-control/iot-smart-home/)
+
+</details>
+
+<details>
+<summary><strong>🎙️ Sprachassistenten anzeigen</strong></summary>
+
+| Dienst | 🛡️ Privacy | ⚠️ Restrict | 🔄 Updates blockieren |
+|---|:---:|:---:|:---:|
+| Alexa | [Liste](lists/device-control/voice-assistants/alexa/privacy.txt) | [Liste](lists/device-control/voice-assistants/alexa/restrict.txt) | [Liste](lists/device-control/voice-assistants/alexa/updates.txt) |
+| Cortana | [Liste](lists/device-control/voice-assistants/cortana/privacy.txt) | [Liste](lists/device-control/voice-assistants/cortana/restrict.txt) | [Liste](lists/device-control/voice-assistants/cortana/updates.txt) |
+| Google Assistant | [Liste](lists/device-control/voice-assistants/google-assistant/privacy.txt) | [Liste](lists/device-control/voice-assistants/google-assistant/restrict.txt) | [Liste](lists/device-control/voice-assistants/google-assistant/updates.txt) |
+| Siri | [Liste](lists/device-control/voice-assistants/siri/privacy.txt) | [Liste](lists/device-control/voice-assistants/siri/restrict.txt) | [Liste](lists/device-control/voice-assistants/siri/updates.txt) |
+
+</details>
 
 
-> 🛡️ **Privacy:** Dienst soll weiter funktionieren; Tracking/Analytics/Telemetry werden reduziert.  
-> 🚫 **Block All:** Dienst soll vollständig gesperrt werden.
+# 🎮 Gaming Privacy
 
-| App / Dienst | 🛡️ Privacy | 🚫 Block All |
+<!-- CATEGORY-BANNER:06-gaming-privacy.png -->
+<p align="center">
+  <img src="assets/categories/06-gaming-privacy.png" alt="Gaming Privacy" width="100%">
+</p>
+<!-- /CATEGORY-BANNER -->
+
+
+## Fertige Gaming-Profile
+
+| Profil | Schutz | Geeignet für | Liste |
+|---|---|---|---|
+| 🟩 **Light** | Nur sehr sichere Gaming-Telemetrie | Maximale Launcher-/Game-Kompatibilität | [Liste öffnen](lists/apps/gaming/main/light.txt) |
+| 🟦 **Normal** | Launcher-Analytics + Crash-/Metrics-Endpunkte | Normale Gaming-PCs | [Liste öffnen](lists/apps/gaming/main/normal.txt) |
+| 🟨 **Pro ⭐** | Breiter Gaming-Privacy-Schutz | **Empfohlen** | [Liste öffnen](lists/apps/gaming/main/pro.txt) |
+| 🟧 **Pro++** | Aggressivere Launcher-/Game-Telemetrie | Erfahrene Nutzer | [Liste öffnen](lists/apps/gaming/main/pro-plus.txt) |
+| 🟥 **Ultimate** | Maximale Gaming-Telemetrie-Abdeckung | Test-/Expertenumgebungen | [Liste öffnen](lists/apps/gaming/main/ultimate.txt) |
+
+<details>
+<summary><strong>📂 Einzelne Gaming-Listen anzeigen</strong></summary>
+
+| Name | Funktion | Liste anzeigen |
 |---|---|---|
-| **Discord** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/service-blocking/social-media/discord/privacy.txt) | [Block All](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/service-blocking/social-media/discord/block-all.txt) |
-| **Facebook / Meta** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/service-blocking/social-media/facebook-meta/privacy.txt) | [Block All](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/service-blocking/social-media/facebook-meta/block-all.txt) |
-| **Instagram** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/service-blocking/social-media/instagram/privacy.txt) | [Block All](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/service-blocking/social-media/instagram/block-all.txt) |
-| **Linkedin** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/service-blocking/social-media/linkedin/privacy.txt) | [Block All](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/service-blocking/social-media/linkedin/block-all.txt) |
-| **Pinterest** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/service-blocking/social-media/pinterest/privacy.txt) | [Block All](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/service-blocking/social-media/pinterest/block-all.txt) |
-| **Reddit** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/service-blocking/social-media/reddit/privacy.txt) | [Block All](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/service-blocking/social-media/reddit/block-all.txt) |
-| **Snapchat** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/service-blocking/social-media/snapchat/privacy.txt) | [Block All](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/service-blocking/social-media/snapchat/block-all.txt) |
-| **Telegram** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/service-blocking/social-media/telegram/privacy.txt) | [Block All](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/service-blocking/social-media/telegram/block-all.txt) |
-| **Threads** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/service-blocking/social-media/threads/privacy.txt) | [Block All](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/service-blocking/social-media/threads/block-all.txt) |
-| **Tiktok** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/service-blocking/social-media/tiktok/privacy.txt) | [Block All](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/service-blocking/social-media/tiktok/block-all.txt) |
-| **Whatsapp** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/service-blocking/social-media/whatsapp/privacy.txt) | [Block All](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/service-blocking/social-media/whatsapp/block-all.txt) |
-| **X / Twitter** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/service-blocking/social-media/x-twitter/privacy.txt) | [Block All](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/service-blocking/social-media/x-twitter/block-all.txt) |
+| 🎮 **Gaming Telemetry** | Empfohlene Game-, Launcher-, Analytics- und Crash-Reporting-Endpunkte mit geringem Risiko. | [Öffnen](lists/gaming/gaming-telemetry.txt) |
+| ⚠️ **Gaming Telemetry – Aggressive** | Zusätzliche Endpunkte mit höherem Risiko für Launcher, Login oder Gameplay. | [Öffnen](lists/gaming/gaming-telemetry-aggressive.txt) |
+| 🧩 **Gaming RegEx Rules** | Dynamische Pi-hole-RegEx-Regeln für zusätzliche Gaming-Telemetrie. | [Öffnen](lists/gaming/gaming-telemetry-regex.txt) |
+| 🟦 **Steam Tracking** | Steam-/Valve-Tracking und Telemetrie reduzieren. | [Öffnen](lists/gaming/platforms/steam-privacy.txt) |
+| 🟪 **Battle.net Tracking** | Blizzard-/Battle.net-Analytics und Telemetrie reduzieren. | [Öffnen](lists/gaming/platforms/battlenet-privacy.txt) |
+| 🟨 **Rockstar Tracking** | Rockstar-Launcher-/Game-Telemetrie reduzieren. | [Öffnen](lists/gaming/platforms/rockstar-privacy.txt) |
+| ⚫ **Epic Tracking** | Epic-Games-/Launcher-Telemetrie reduzieren. | [Öffnen](lists/gaming/platforms/epic-privacy.txt) |
+| 🔴 **Riot Tracking** | Riot-Launcher-/Game-Telemetrie reduzieren. | [Öffnen](lists/gaming/platforms/riot-privacy.txt) |
 
 </details>
 
-<p align="right"><a href="#blocklisten-navigation">⬆️ Blocklisten-Inhaltsverzeichnis</a></p>
+---
+
+<br>
 
 ---
 
-<a id="cloud-dev"></a>
-### ☁️ Cloud, Server & Development
+<br>
 
-#### Hauptlisten
 
-| Profil | Schutz | Risiko | Einträge | Liste |
-|---|---|:---:|---:|---|
-| 🟩 **Light** | zurückhaltend | Minimal | **65** | [Light](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/infrastructure/cloud-development/main/light.txt) |
-| 🟦 **Normal** | ausgewogen | Niedrig | **165** | [Normal](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/infrastructure/cloud-development/main/normal.txt) |
-| 🟨 **Pro** | Datenschutz | Niedrig–Mittel | **301** | [Pro](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/infrastructure/cloud-development/main/pro.txt) |
-| 🟧 **Pro++** | aggressiv | Mittel | **1.486** | [Pro++](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/infrastructure/cloud-development/main/pro-plus.txt) |
-| 🟥 **Ultimate** | maximal | Hoch | **1.491** | [Ultimate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/infrastructure/cloud-development/main/ultimate.txt) |
+
+---
+
+<br>
+
+# ☁️ Cloud, Server & Development
+
+Privacy- und Block-All-Listen für **Cloud-Plattformen, Hosting, CI/CD und Entwicklerwerkzeuge**.
+
+## Fertige Cloud-/Development-Profile
+
+| Profil | Schutz | Risiko | Liste |
+|---|---|:---:|---|
+| 🟩 **Light** | konservativer Privacy-Schutz | Minimal | [Liste öffnen](lists/infrastructure/cloud-development/main/light.txt) |
+| 🟦 **Normal** | zusätzliche Tracking-/Analytics-Endpunkte | Niedrig | [Liste öffnen](lists/infrastructure/cloud-development/main/normal.txt) |
+| 🟨 **Pro ⭐** | umfangreicher Cloud-/Development-Privacy-Schutz | Niedrig–Mittel | [Liste öffnen](lists/infrastructure/cloud-development/main/pro.txt) |
+| 🟧 **Pro++** | aggressive Cloud-/Developer-Telemetrie | Mittel | [Liste öffnen](lists/infrastructure/cloud-development/main/pro-plus.txt) |
+| 🟥 **Ultimate** | maximaler Datenbestand dieses Bereichs | Hoch | [Liste öffnen](lists/infrastructure/cloud-development/main/ultimate.txt) |
 
 <details>
-<summary><strong>📂 Wirkungslisten anzeigen</strong></summary>
+<summary><strong>📂 Einzelne Cloud- & Development-Dienste anzeigen</strong></summary>
+
+| Dienst | 🛡️ Privacy | 🚫 Block All |
+|---|:---:|:---:|
+| AWS | [Liste](lists/service-blocking/cloud-development/aws/privacy.txt) | [Liste](lists/service-blocking/cloud-development/aws/block-all.txt) |
+| Azure | [Liste](lists/service-blocking/cloud-development/azure/privacy.txt) | [Liste](lists/service-blocking/cloud-development/azure/block-all.txt) |
+| CI/CD | [Liste](lists/service-blocking/cloud-development/cicd/privacy.txt) | [Liste](lists/service-blocking/cloud-development/cicd/block-all.txt) |
+| Cloud Storage | [Liste](lists/service-blocking/cloud-development/cloud-storage/privacy.txt) | [Liste](lists/service-blocking/cloud-development/cloud-storage/block-all.txt) |
+| Cloudflare | [Liste](lists/service-blocking/cloud-development/cloudflare/privacy.txt) | [Liste](lists/service-blocking/cloud-development/cloudflare/block-all.txt) |
+| GitHub | [Liste](lists/service-blocking/cloud-development/github/privacy.txt) | [Liste](lists/service-blocking/cloud-development/github/block-all.txt) |
+| GitLab | [Liste](lists/service-blocking/cloud-development/gitlab/privacy.txt) | [Liste](lists/service-blocking/cloud-development/gitlab/block-all.txt) |
+| Google Cloud | [Liste](lists/service-blocking/cloud-development/google-cloud/privacy.txt) | [Liste](lists/service-blocking/cloud-development/google-cloud/block-all.txt) |
+| JetBrains | [Liste](lists/service-blocking/cloud-development/jetbrains/privacy.txt) | [Liste](lists/service-blocking/cloud-development/jetbrains/block-all.txt) |
+| Oracle Cloud | [Liste](lists/service-blocking/cloud-development/oracle-cloud/privacy.txt) | [Liste](lists/service-blocking/cloud-development/oracle-cloud/block-all.txt) |
+| Visual Studio | [Liste](lists/service-blocking/cloud-development/visual-studio/privacy.txt) | [Liste](lists/service-blocking/cloud-development/visual-studio/block-all.txt) |
+| VS Code | [Liste](lists/service-blocking/cloud-development/vs-code/privacy.txt) | [Liste](lists/service-blocking/cloud-development/vs-code/block-all.txt) |
+
+</details>
 
 
-> 🛡️ **Privacy:** Dienst soll weiter funktionieren; Tracking/Analytics/Telemetry werden reduziert.  
-> 🚫 **Block All:** Dienst soll vollständig gesperrt werden.
+# 🌐 Netzwerk & Spezialschutz
 
-| App / Dienst | 🛡️ Privacy | 🚫 Block All |
+<!-- CATEGORY-BANNER:07-netzwerk-spezialschutz.png -->
+<p align="center">
+  <img src="assets/categories/07-netzwerk-spezialschutz.png" alt="Netzwerk & Spezialschutz" width="100%">
+</p>
+<!-- /CATEGORY-BANNER -->
+
+
+## Fertige Netzwerkprofile
+
+| Profil | Schutz | Geeignet für | Liste |
+|---|---|---|---|
+| 🟩 **Light** | Sichere DNS-/Bypass-Basis | Heimnetze | [Liste öffnen](lists/network/main/light.txt) |
+| 🟦 **Normal** | Light + bekannte DoH-/Bypass-Endpunkte | Kontrollierte Heimnetze | [Liste öffnen](lists/network/main/normal.txt) |
+| 🟨 **Pro ⭐** | DoH + VPN/Proxy + Rebind-/Redirect-Schutz | **Homelabs / Admins** | [Liste öffnen](lists/network/main/pro.txt) |
+| 🟧 **Pro++** | Aggressivere Umgehungs- und Spezialfilter | Schulen / strengere Netze | [Liste öffnen](lists/network/main/pro-plus.txt) |
+| 🟥 **Ultimate** | Maximale Netzwerk-Kontrolle | Experten / isolierte Netze | [Liste öffnen](lists/network/main/ultimate.txt) |
+
+<details>
+<summary><strong>📂 Einzelne Netzwerk-&-Speziallisten anzeigen</strong></summary>
+
+| Name | Funktion | Liste anzeigen |
 |---|---|---|
-| **AWS** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/service-blocking/cloud-development/aws/privacy.txt) | [Block All](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/service-blocking/cloud-development/aws/block-all.txt) |
-| **Azure** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/service-blocking/cloud-development/azure/privacy.txt) | [Block All](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/service-blocking/cloud-development/azure/block-all.txt) |
-| **Cicd** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/service-blocking/cloud-development/cicd/privacy.txt) | [Block All](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/service-blocking/cloud-development/cicd/block-all.txt) |
-| **Cloud Storage** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/service-blocking/cloud-development/cloud-storage/privacy.txt) | [Block All](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/service-blocking/cloud-development/cloud-storage/block-all.txt) |
-| **Cloudflare** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/service-blocking/cloud-development/cloudflare/privacy.txt) | [Block All](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/service-blocking/cloud-development/cloudflare/block-all.txt) |
-| **Github** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/service-blocking/cloud-development/github/privacy.txt) | [Block All](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/service-blocking/cloud-development/github/block-all.txt) |
-| **Gitlab** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/service-blocking/cloud-development/gitlab/privacy.txt) | [Block All](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/service-blocking/cloud-development/gitlab/block-all.txt) |
-| **Google Cloud** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/service-blocking/cloud-development/google-cloud/privacy.txt) | [Block All](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/service-blocking/cloud-development/google-cloud/block-all.txt) |
-| **Jetbrains** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/service-blocking/cloud-development/jetbrains/privacy.txt) | [Block All](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/service-blocking/cloud-development/jetbrains/block-all.txt) |
-| **Oracle Cloud** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/service-blocking/cloud-development/oracle-cloud/privacy.txt) | [Block All](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/service-blocking/cloud-development/oracle-cloud/block-all.txt) |
-| **Visual Studio** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/service-blocking/cloud-development/visual-studio/privacy.txt) | [Block All](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/service-blocking/cloud-development/visual-studio/block-all.txt) |
-| **VS Code** | [Privacy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/service-blocking/cloud-development/vscode/privacy.txt) | [Block All](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/service-blocking/cloud-development/vscode/block-all.txt) |
+| 📤 **DoH / VPN / Tor / Proxy Bypass** | Blockiert bekannte verschlüsselte DNS-, VPN-, Tor- und Proxy-Endpunkte zur Filterumgehung. | [Öffnen](lists/network/doh-vpn-tor-proxy-bypass.txt) |
+| 🌐 **DoH Only** | Blockiert bekannte DNS-over-HTTPS-Endpunkte. | [Öffnen](lists/network/doh-only.txt) |
+| 🌐 **DoH IPv4** | IPv4-Liste bekannter DoH-Resolver. | [Öffnen](lists/network/doh-ipv4.txt) |
+| 🔎 **SafeSearch Unsupported** | Blockiert Suchmaschinen, die keinen verlässlichen SafeSearch-Modus unterstützen. | [Öffnen](lists/network/safesearch-unsupported.txt) |
+| 📲 **URL Shortener** | Blockiert bekannte URL-Shortener und Redirect-Dienste. | [Öffnen](lists/network/url-shortener.txt) |
+| 🛡️ **DNS Rebind Protection** | Dokumentation/Regeln zum Schutz gegen DNS-Rebinding. | [Öffnen](docs/DNS_REBIND_PROTECTION.md) |
+| 🤖 **AI Crawler** | Blockiert ausgewählte KI-Crawler und Scraper. | [Öffnen](lists/network/ai-crawlers.txt) |
+| 🕷️ **Scraper & Bots** | Blockiert ausgewählte aggressive Bots und Scraper. | [Öffnen](lists/network/scrapers-bots.txt) |
+| 🔏 **Dynamic DNS** | Blockiert bekannte Dynamic-DNS-Dienste. | [Öffnen](lists/network/dynamic-dns.txt) |
+| 🔮 **Suspicious TLDs** | Aggressive Regeln für ausgewählte missbrauchte Top-Level-Domains. | [Öffnen](lists/network/suspicious-tlds.txt) |
+| 🔁 **Tracking Redirectors** | Blockiert bekannte Tracking- und Redirect-Infrastruktur. | [Öffnen](lists/network/tracking-redirectors.txt) |
 
 </details>
-
-<p align="right"><a href="#blocklisten-navigation">⬆️ Blocklisten-Inhaltsverzeichnis</a></p>
-
-
----
-<a id="protection-group"></a>
-## 🛡️ Vollständige Schutz-/Kontrolllisten
-
-Diese Bereiche sind bewusste **Domain-Sperrlisten**. Ein Treffer soll für die zugewiesene Pi-hole-Gruppe nicht erreichbar sein.
-
-<a id="family"></a>
-### 👨‍👩‍👧 Family & Content
-
-> 🚫 **Vollständige Domain-Sperre:** Gelistete Adult-/NSFW-/Gambling-/Drugs-/Violence-/Weapons-/Piracy-/Torrent-Domains sollen nicht erreichbar sein.
-
-
-#### Hauptlisten
-
-| Profil | Schutz | Risiko | Einträge | Liste |
-|---|---|:---:|---:|---|
-| 🟩 **Light** | zurückhaltend | Minimal | **998.924** | [Light](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/family/main/light.txt) |
-| 🟦 **Normal** | ausgewogen | Niedrig | **1.419.159** | [Normal](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/family/main/normal.txt) |
-| 🟨 **Pro** | Datenschutz | Niedrig–Mittel | **1.430.117** | [Pro](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/family/main/pro.txt) |
-| 🟧 **Pro++** | aggressiv | Mittel | **1.769.650** | [Pro++](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/family/main/pro-plus.txt) |
-| 🟥 **Ultimate** | maximal | Hoch | **2.347.190** | [Ultimate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/family/main/ultimate.txt) |
-
-#### Vollständige Content-Listen
 
 <details>
-<summary><strong>📂 Content-Listen anzeigen</strong></summary>
+<summary><strong>🧰 Speziallisten anzeigen</strong></summary>
 
-| Liste | Einträge | Status | Link |
-|---|---:|:---:|---|
-| **Adult** | **998.924** | ✅ | [Liste](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/family/content/adult.txt) |
-| **Dating** | **40** | ✅ | [Liste](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/family/content/dating.txt) |
-| **Drugs** | **55** | ✅ | [Liste](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/family/content/drugs.txt) |
-| **Gambling** | **420.536** | ✅ | [Liste](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/family/content/gambling.txt) |
-| **Misinformation** | **0** | 🟡 | [Liste](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/family/content/misinformation.txt) |
-| **Piracy** | **58** | ✅ | [Liste](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/family/content/piracy.txt) |
-| **Sexual Content** | **998.924** | ✅ | [Liste](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/family/content/sexual-content.txt) |
-| **Torrents** | **44** | ✅ | [Liste](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/family/content/torrents.txt) |
-| **Violence Gore** | **53** | ✅ | [Liste](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/family/content/violence-gore.txt) |
-| **Weapons** | **89** | ✅ | [Liste](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/family/content/weapons.txt) |
-
-> `Misinformation` bleibt bewusst optional und wird nicht automatisch als objektive Security-Kategorie behandelt.
+| Spezialliste | Zweck | Liste |
+|---|---|---|
+| **Fake / Scam / Trap Sites** | Scam + Fake Shops + Fake Software gebündelt | [Öffnen](lists/special/fake-scam-trap-sites.txt) |
+| **Threat Intelligence Mini** | kompakte Threat-Intelligence-Stufe | [Öffnen](lists/security/main/pro.txt) |
+| **Threat Intelligence Medium** | mittlere Threat-Intelligence-Stufe | [Öffnen](lists/security/main/pro-plus.txt) |
+| **Threat Intelligence Full** | kompletter Security-Ultimate-Datenbestand | [Öffnen](lists/security/main/ultimate.txt) |
+| **Dynamic DNS** | bekannte DynDNS-Provider; aggressiv | [Öffnen](lists/network/full/dynamic-dns.txt) |
+| **Badware Hoster** | häufig missbrauchte Hosting-/Site-Builder-Infrastruktur | [Öffnen](lists/security/full/badware-hosters.txt) |
+| **Most Abused TLDs** | riskante TLDs/Suffixe | [Spezial-Doku](docs/SPECIAL_LISTS.md) |
+| **DNS Rebind Protection** | Resolver-/dnsmasq-Policy | [Öffnen](policies/) |
+| **DoH/VPN/Tor/Proxy Bypass** | kombinierte Umgehungsliste | [Öffnen](lists/network/full/dns-bypass.txt) |
+| **Encrypted DNS Only** | DoH + DoT + Private DNS | [Öffnen](lists/network/) |
+| **SafeSearch not supported** | Suchmaschinen ohne SafeSearch-Support | [Öffnen](lists/network/full/safesearch-not-supported.txt) |
+| **URL Shortener** | bekannte Kurzlink-Dienste | [Öffnen](lists/network/full/url-shorteners.txt) |
+| **Native Tracker** | integrierte Tracker von OS, Apps und Geräten | [Öffnen](lists/privacy/full/native-tracking.txt) |
 
 </details>
-
-<p align="right"><a href="#kinderschutz-navigation">⬆️ Family-Inhaltsverzeichnis</a></p>
-
----
-
-<a id="kids-allow-only"></a>
-### 🧒 Kids Allow-Only
-
-`Kids Allow-Only` ist kein normales Denylist-Profil. Für eine eigene Pi-hole-Gruppe wird standardmäßig alles blockiert; nur ausdrücklich freigegebene Domains funktionieren.
-
-<a id="kids-dateien"></a>
-#### 📚 Kids-Allowlist-Dateien
-
-| Datei | Zweck | Einträge | Liste |
-|---|---|---:|---|
-| `kids-de.txt` | Basis-Allowlist | **39** | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/family/kids-allow-only/kids-de.txt) |
-| `kids-education-de.txt` | Lernen, Schule, MINT, Geschichte | **17** | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/family/kids-allow-only/kids-education-de.txt) |
-| `kids-media-de.txt` | Kinderfernsehen, Audio, Nachrichten | **16** | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/family/kids-allow-only/kids-media-de.txt) |
-| `kids-games-de.txt` | geprüfte Kinderspiele | **18** | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/family/kids-allow-only/kids-games-de.txt) |
-| `kids-runtime-de.txt` | notwendige technische Hosts | **9** | [Raw](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/family/kids-allow-only/kids-runtime-de.txt) |
-
-
-Die Basis-Allowlist enthält unter anderem fragFINN, Blinde Kuh, Seitenstark, Internet-ABC, KiKA, Kikaninchen, WDR Maus, Kindernetz, Kinderfilmwelt, HanisauLand, Kinderzeitmaschine, LegaKids, Meine Forscherwelt, Klassewasser, Abenteuer Regenwald, Naturdetektive, Ohrka und Auditorix.
-
-<a id="kids-anleitung"></a>
-#### 🛠️ Pi-hole v6 – Anleitung
-
-1. Gruppe `Kids-AllowOnly` anlegen.
-2. Kindergeräte dieser Gruppe zuweisen; die Default-Gruppenzuordnung bewusst prüfen.
-3. Die RAW-URL von `family/kids-allow-only/kids-de.txt` als **Subscribed Allowlist** nur der Kids-Gruppe zuweisen.
-4. Regex-Denylist `.*` nur derselben Gruppe zuweisen.
-5. Gravity/Listen aktualisieren.
-6. Eine freigegebene und eine nicht freigegebene Domain testen.
-7. Geblockte Zusatzhosts erlaubter Seiten im Query Log prüfen und nur eindeutig notwendige Hosts in `kids-runtime-de.txt` aufnehmen.
-8. Keine kompletten CDN-/Cloud-Zonen pauschal freigeben.
-9. IPv4, IPv6 und mögliche DoH/DoT/VPN-Umgehung berücksichtigen.
-
-> **Warnung:** `.*` niemals versehentlich der normalen Default-Gruppe zuweisen.
-
-<p align="right"><a href="#kinderschutz-navigation">⬆️ Family-Inhaltsverzeichnis</a></p>
-
----
-# 🧱 Teil 3 – Blocklisten-Katalog
-
----
-
-<a id="security"></a>
-### 🛡️ Security & Threat Intelligence
-
-> 🚫 **Vollständige Domain-Sperre:** Malware-, Phishing-, Ransomware-, C2-, Scam- und andere Security-Ziele sollen nicht erreichbar sein.
-
-
-#### Hauptlisten
-
-| Profil | Schutz | Risiko | Einträge | Liste |
-|---|---|:---:|---:|---|
-| 🟩 **Light** | zurückhaltend | Minimal | **10.960** | [Light](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/main/light.txt) |
-| 🟦 **Normal** | ausgewogen | Niedrig | **17.081** | [Normal](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/main/normal.txt) |
-| 🟨 **Pro** | Datenschutz | Niedrig–Mittel | **594.410** | [Pro](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/main/pro.txt) |
-| 🟧 **Pro++** | aggressiv | Mittel | **844.669** | [Pro++](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/main/pro-plus.txt) |
-| 🟥 **Ultimate** | maximal | Hoch | **3.408.596** | [Ultimate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/main/ultimate.txt) |
-
-#### Full-/Speziallisten
 
 <details>
-<summary><strong>📂 Full-/Speziallisten anzeigen</strong></summary>
+<summary><strong>🌍 Regionale Listen anzeigen</strong></summary>
 
-| Liste | Einträge | Status | Full-Liste |
-|---|---:|:---:|---|
-| **Abuse** | **116.920** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/abuse.txt) |
-| **Brand Impersonation** | **53.975** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/brand-impersonation.txt) |
-| **Command Control** | **53** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/command-control.txt) |
-| **Cryptocurrency** | **63** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/cryptocurrency.txt) |
-| **Cryptomining** | **6.121** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/cryptomining.txt) |
-| **Data Exfiltration** | **13** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/data-exfiltration.txt) |
-| **Ddos** | **15** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/ddos.txt) |
-| **Disposable Email** | **30** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/disposable-email.txt) |
-| **Dns Security** | **386** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/dns-security.txt) |
-| **Dynamic Dns** | **74** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/dynamic-dns.txt) |
-| **Expired Domains** | **0** | 🟡 | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/expired-domains.txt) |
-| **Exploits** | **38** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/exploits.txt) |
-| **Badware Hosters** | **24** | ✅⚠️ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/badware-hosters.txt) |
-| **Fake Shops** | **10.960** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/fake-shops.txt) |
-| **Fake Software** | **229** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/fake-software.txt) |
-| **Malicious Extensions** | **0** | 🟡 | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/malicious-extensions.txt) |
-| **Malicious Redirects** | **83** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/malicious-redirects.txt) |
-| **Malvertising** | **51.883** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/malvertising.txt) |
-| **Malware** | **2.656.377** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/malware.txt) |
-| **Newly Registered Domains** | **15.000** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/newly-registered-domains.txt) |
-| **Nft** | **1.758** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/nft.txt) |
-| **Parked Domains** | **25** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/parked-domains.txt) |
-| **Phishing** | **577.332** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/phishing.txt) |
-| **Pup Pua** | **33** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/pup-pua.txt) |
-| **Ransomware** | **53** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/ransomware.txt) |
-| **Remote Access** | **23** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/remote-access.txt) |
-| **Scam** | **265.246** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/scam.txt) |
-| **Scanners** | **143** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/scanners.txt) |
-| **Spam** | **32** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/spam.txt) |
-| **Surveillance** | **16** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/surveillance.txt) |
-| **Suspicious Tlds** | **6.490** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/suspicious-tlds.txt) |
-| **Typosquatting** | **53.975** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/typosquatting.txt) |
+> Regionale Listen werden **nicht** einfach nach TLD gebaut, sondern aus dem vorhandenen Datenbestand kuratiert.
+
+| Region | Liste |
+|---|---|
+| 🇨🇳 **China** | [Öffnen](lists/regional/cn.txt) |
+| 🇩🇪 **Deutschland** | [Öffnen](lists/regional/de.txt) |
+| 🇪🇸 **Spanien** | [Öffnen](lists/regional/es.txt) |
+| 🇪🇺 **EU** | [Öffnen](lists/regional/eu.txt) |
+| 🇫🇷 **Frankreich** | [Öffnen](lists/regional/fr.txt) |
+| 🇮🇹 **Italien** | [Öffnen](lists/regional/it.txt) |
+| 🇯🇵 **Japan** | [Öffnen](lists/regional/jp.txt) |
+| 🇰🇷 **Südkorea** | [Öffnen](lists/regional/kr.txt) |
+| 🇷🇺 **Russland** | [Öffnen](lists/regional/ru.txt) |
+| 🇬🇧 **UK** | [Öffnen](lists/regional/uk.txt) |
+| 🇺🇸 **USA** | [Öffnen](lists/regional/us.txt) |
 
 </details>
 
-<p align="right"><a href="#blocklisten-navigation">⬆️ Blocklisten-Inhaltsverzeichnis</a></p>
 
 ---
 
-<a id="network"></a>
-### 🔐 DNS, Netzwerk & Umgehung
+---
 
-> 🚫 **Network Control:** Gelistete DoH-/DoT-/VPN-/Proxy-/Tor-/DDNS-/Bypass-Endpunkte sollen gezielt nicht erreichbar sein.
+<br>
 
 
-#### Hauptlisten
+# 🚫 Komplettblockierungen
 
-| Profil | Schutz | Risiko | Einträge | Liste |
-|---|---|:---:|---:|---|
-| 🟩 **Light** | zurückhaltend | Minimal | **31** | [Light](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/network/main/light.txt) |
-| 🟦 **Normal** | ausgewogen | Niedrig | **49** | [Normal](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/network/main/normal.txt) |
-| 🟨 **Pro** | Datenschutz | Niedrig–Mittel | **66** | [Pro](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/network/main/pro.txt) |
-| 🟧 **Pro++** | aggressiv | Mittel | **311** | [Pro++](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/network/main/pro-plus.txt) |
-| 🟥 **Ultimate** | maximal | Hoch | **947** | [Ultimate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/network/main/ultimate.txt) |
+<!-- CATEGORY-BANNER:08-komplettblockierungen.png -->
+<p align="center">
+  <img src="assets/categories/08-komplettblockierungen.png" alt="Komplettblockierungen" width="100%">
+</p>
+<!-- /CATEGORY-BANNER -->
 
-#### Full-/Speziallisten
+
+**Hier wird nicht optimiert oder Tracking reduziert – hier soll der gewählte Dienst absichtlich nicht mehr funktionieren.**
+
+## Fertige Block-Pakete
+
+| Paket | Funktion | Liste |
+|---|---|---|
+| 💬 **Social Media** | Blockiert unterstützte Social-Media-Plattformen vollständig. | [Liste öffnen](lists/block-all/packages/social-media.txt) |
+| 🎵 **Music** | Blockiert unterstützte Musik-/Audio-Dienste vollständig. | [Liste öffnen](lists/block-all/packages/music.txt) |
+| 📺 **Streaming** | Blockiert unterstützte Video-/Streamingdienste vollständig. | [Liste öffnen](lists/block-all/packages/streaming.txt) |
+| 🎮 **Gaming** | Blockiert unterstützte Gaming-Plattformen vollständig. | [Liste öffnen](lists/block-all/packages/gaming.txt) |
+| 💬 **Messaging** | Blockiert unterstützte Messenger und Chat-Dienste vollständig. | [Liste öffnen](lists/block-all/packages/messaging.txt) |
+| 🤖 **AI** | Blockiert unterstützte KI-Dienste vollständig. | [Liste öffnen](lists/block-all/packages/ai.txt) |
+| ☁️ **Cloud** | Blockiert ausgewählte Cloud-/Hosting-Dienste vollständig. | [Liste öffnen](lists/block-all/packages/cloud.txt) |
 
 <details>
-<summary><strong>📂 Full-/Speziallisten anzeigen</strong></summary>
+<summary><strong>📂 Einzelne Block-All-Listen anzeigen</strong></summary>
 
-| Liste | Einträge | Status | Full-Liste |
-|---|---:|:---:|---|
-| **Adblock Bypass** | **88** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/network/full/adblock-bypass.txt) |
-| **Dns Attacks** | **9** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/network/full/dns-attacks.txt) |
-| **Dns Bypass** | **314** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/network/full/dns-bypass.txt) |
-| **Doh** | **3** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/network/full/doh.txt) |
-| **Dot** | **99** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/network/full/dot.txt) |
-| **Dynamic Dns** | **74** | ✅⚠️ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/network/full/dynamic-dns.txt) |
-| **Private Dns** | **102** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/network/full/private-dns.txt) |
-| **Proxy** | **142** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/network/full/proxy.txt) |
-| **Tor** | **7** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/network/full/tor.txt) |
-| **Url Shorteners** | **255** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/network/full/url-shorteners.txt) |
-| **Vpn** | **63** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/network/full/vpn.txt) |
-| **SafeSearch not supported** | **205** | ✅⚠️ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/network/full/safesearch-not-supported.txt) |
+| Name | Funktion | Liste anzeigen |
+|---|---|---|
+| 🎵 **Spotify** | Blockiert Spotify App, Webplayer, Login, APIs und Streaming-Endpunkte. | [Öffnen](lists/block-all/music/spotify.txt) |
+| 🎵 **Deezer** | Blockiert Deezer vollständig. | [Öffnen](lists/block-all/music/deezer.txt) |
+| 📺 **Netflix** | Blockiert Netflix App, Web und Streaming-Infrastruktur. | [Öffnen](lists/block-all/streaming/netflix.txt) |
+| 📺 **Disney+** | Blockiert Disney+ vollständig. | [Öffnen](lists/block-all/streaming/disney-plus.txt) |
+| 📺 **Prime Video** | Blockiert Prime Video vollständig. | [Öffnen](lists/block-all/streaming/prime-video.txt) |
+| 🟣 **Twitch** | Blockiert Twitch Web, App und Streaming-Infrastruktur. | [Öffnen](lists/block-all/streaming/twitch.txt) |
+| 📱 **TikTok** | Blockiert TikTok vollständig. | [Öffnen](lists/block-all/social/tiktok.txt) |
+| 📸 **Instagram** | Blockiert Instagram vollständig. | [Öffnen](lists/block-all/social/instagram.txt) |
+| 🔵 **Facebook** | Blockiert Facebook vollständig. | [Öffnen](lists/block-all/social/facebook.txt) |
+| ✖️ **X / Twitter** | Blockiert X / Twitter vollständig. | [Öffnen](lists/block-all/social/x-twitter.txt) |
+| 👻 **Snapchat** | Blockiert Snapchat vollständig. | [Öffnen](lists/block-all/social/snapchat.txt) |
+| 🟠 **Reddit** | Blockiert Reddit vollständig. | [Öffnen](lists/block-all/social/reddit.txt) |
+| 🎮 **Steam** | Blockiert Steam Store, Client und Netzwerkdienste. | [Öffnen](lists/block-all/gaming/steam.txt) |
+| 🎮 **Epic Games** | Blockiert Epic Games Store und Launcher. | [Öffnen](lists/block-all/gaming/epic-games.txt) |
+| 🎮 **Battle.net** | Blockiert Battle.net und Blizzard-Onlinedienste. | [Öffnen](lists/block-all/gaming/battlenet.txt) |
+| 🎮 **Riot Games** | Blockiert Riot-Launcher und unterstützte Riot-Dienste. | [Öffnen](lists/block-all/gaming/riot-games.txt) |
+| 🎮 **Rockstar** | Blockiert Rockstar Launcher und Online-Dienste. | [Öffnen](lists/block-all/gaming/rockstar.txt) |
+| 💬 **Discord** | Blockiert Discord App, Web, API und Medien-Endpunkte. | [Öffnen](lists/block-all/messaging/discord.txt) |
+| 💬 **Telegram** | Blockiert Telegram-Dienste. | [Öffnen](lists/block-all/messaging/telegram.txt) |
 
 </details>
 
-<p align="right"><a href="#blocklisten-navigation">⬆️ Blocklisten-Inhaltsverzeichnis</a></p>
+---
+
+
+
 
 ---
 
-<a id="speziallisten"></a>
-### 🧰 Speziallisten
+## 🧰 Software & Tools blockieren
 
-Diese Listen sind **optionale Zusatzmodule** und ersetzen nicht die normalen Light/Normal/Pro/Pro++/Ultimate-Profile. Besonders aggressive Speziallisten zuerst in einer Testgruppe pruefen.
+Hier werden **Programme, Clients, Plattformen oder komplette Software-Kategorien vollständig gesperrt**.
 
-> **⚠️ Hinweis:** `Dynamic DNS`, `Badware Hoster`, `Most Abused TLDs`, `SafeSearch not supported` und Bypass-Listen koennen legitime Dienste deutlich einschraenken. `Most Abused TLDs` ist absichtlich **Adblock-Syntax** und keine normale Plain-Domain-Liste.
+> Diese Listen sind keine Privacy-Listen. Wenn eine Software hier blockiert wird, soll sie **bewusst nicht mehr online funktionieren**.
 
-| Spezialliste | Zweck | Eintraege | Liste |
-|---|---|---:|---|
-| **Fake / Scam / Trap Sites** | Scam + Fake Shops + Fake Software als eine Liste | **265.318** | [Liste](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/special/fake.txt) |
-| **Pop-Up Ads** | Pop-up-/Pop-under-Werbenetze aus BRZ Ads | **517** | [Liste](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/pop-up-ads.txt) |
-| **Threat Intelligence Mini** | kompakte BRZ-TI-Stufe | **594.410** | [Mini](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/threat-intelligence/mini.txt) |
-| **Threat Intelligence Medium** | mittlere BRZ-TI-Stufe | **844.669** | [Medium](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/threat-intelligence/medium.txt) |
-| **Threat Intelligence Full** | kompletter BRZ-Security-Ultimate-Datenbestand als Standalone-Liste | **3.408.596** | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/threat-intelligence/full.txt) |
-| **Dynamic DNS** | bekannte DynDNS-Provider; sehr aggressiv | **74** | [Liste](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/network/full/dynamic-dns.txt) |
-| **Badware Hoster** | riskante Hosting-/Site-Builder-Roots mit hoher Malware-Konzentration | **24** | [Liste](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/badware-hosters.txt) |
-| **Most Abused TLDs** | ganze riskante TLDs/Suffixe; Adblock-Format | **130** | [Adblock](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/policies/adblock/most-abused-tlds.adblock) |
-| **DNS Rebind Protection** | Resolver-Policy statt normaler Domainliste | – | [dnsmasq Policy](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/policies/dnsmasq/rebind.conf) |
-| **DoH/VPN/Tor/Proxy Bypass** | kombinierte lokale Umgehungsliste | **314** | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/network/special/doh-vpn-tor-proxy-bypass.txt) |
-| **Encrypted DNS Only** | DoH + DoT + Private DNS | **102** | [Liste](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/network/special/encrypted-dns-only.txt) |
-| **SafeSearch not supported** | Suchmaschinen ohne SafeSearch-Unterstuetzung | **205** | [Liste](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/network/full/safesearch-not-supported.txt) |
-| **URL Shortener** | bekannte Kurzlink-Dienste | **255** | [Liste](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/network/full/url-shorteners.txt) |
-| **Anti Piracy** | Piracy/Illegal-Streaming | aktueller BRZ-Stand / optionaler Upstream | [Liste](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/family/content/piracy.txt) |
-| **Gambling Full** | kompletter BRZ-Gambling-Datensatz | **420.536** | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/family/content/gambling.txt) |
-| **Social Networks** | Social-Network-Sammelliste | **21.588** | [Liste](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/apps/social-media/special/social-networks.txt) |
-| **NSFW** | Adult/NSFW-Spezialliste | **998.924** | [Liste](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/family/content/nsfw.txt) |
-| **Native Tracker** | integrierte Tracker von OS, Apps und Geraeten | **628** | [Liste](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/native-tracking.txt) |
+### Fertige Software-Blockpakete
 
-#### Manuell aktualisierbare Live-Varianten
+| Paket | Funktion | Liste |
+|---|---|---|
+| ☁️ **Cloud Clients** | Blockiert typische Cloud-Sync-Clients und deren Online-Dienste. | [Liste öffnen](lists/block-all/software/cloud-clients.txt) |
+| 💻 **Development Tools** | Blockiert unterstützte Entwicklungs- und Entwicklerplattformen. | [Liste öffnen](lists/block-all/software/development-tools.txt) |
+| 🎮 **Game Launcher** | Blockiert unterstützte Spiele-Launcher vollständig. | [Liste öffnen](lists/block-all/software/game-launchers.txt) |
+| 🤖 **AI Tools** | Blockiert unterstützte KI-Clients und AI-Dienste. | [Liste öffnen](lists/block-all/software/ai-tools.txt) |
+| 📡 **Remote Access** | Blockiert Remote-Desktop-/Fernwartungssoftware und deren Infrastruktur. | [Liste öffnen](lists/block-all/software/remote-access.txt) |
+| 💬 **Communication Tools** | Blockiert unterstützte Messenger-, Chat- und Collaboration-Software. | [Liste öffnen](lists/block-all/software/communication-tools.txt) |
+| 📦 **Software Stores** | Blockiert unterstützte App-/Software-Stores und Paketquellen. | [Liste öffnen](lists/block-all/software/software-stores.txt) |
+| 🔄 **Auto Updater** | Blockiert Update-Infrastruktur ausgewählter Software-Produkte. | [Liste öffnen](lists/block-all/software/auto-updaters.txt) |
 
-Fuer sehr grosse oder schnell wechselnde Listen (z. B. **NRD/DGA, TIF-IP-Adressen, DoH-IP-Adressen, Anti-Piracy, Gambling Medium/Mini**) liegt bewusst **kein automatischer GitHub-Workflow** bei. Die Quellen sind in `config/special-upstreams.json` hinterlegt und koennen bei Bedarf manuell aktualisiert werden:
+<details>
+<summary><strong>📂 Einzelne Software- & Tool-Blocklisten anzeigen</strong></summary>
 
-```bash
-python3 scripts/update-special-lists.py --list
-python3 scripts/update-special-lists.py hagezi_anti_piracy hagezi_gambling_medium hagezi_gambling_mini
-```
+| Name | Funktion | Liste anzeigen |
+|---|---|---|
+| **OneDrive** | Blockiert OneDrive-Sync und zugehörige Onlinedienste. | [Öffnen](lists/block-all/software/onedrive.txt) |
+| **Dropbox** | Blockiert Dropbox-Client und Cloudzugriff. | [Öffnen](lists/block-all/software/dropbox.txt) |
+| **Google Drive** | Blockiert Google-Drive-Client und Cloudzugriff. | [Öffnen](lists/block-all/software/google-drive.txt) |
+| **GitHub Desktop** | Blockiert GitHub-Desktop-Kommunikation. | [Öffnen](lists/block-all/software/github-desktop.txt) |
+| **GitLab** | Blockiert GitLab-bezogene Client-/Service-Kommunikation. | [Öffnen](lists/block-all/software/gitlab.txt) |
+| **VS Code Online Services** | Blockiert VS-Code-Onlinedienste, Marketplace und Telemetrie-Endpunkte vollständig. | [Öffnen](lists/block-all/software/vscode.txt) |
+| **JetBrains** | Blockiert JetBrains-Onlinedienste und zugehörige Softwarekommunikation. | [Öffnen](lists/block-all/software/jetbrains.txt) |
+| **TeamViewer** | Blockiert TeamViewer vollständig. | [Öffnen](lists/block-all/software/teamviewer.txt) |
+| **AnyDesk** | Blockiert AnyDesk vollständig. | [Öffnen](lists/block-all/software/anydesk.txt) |
+| **RustDesk** | Blockiert öffentliche RustDesk-Infrastruktur; selbst gehostete Server können separat erlaubt werden. | [Öffnen](lists/block-all/software/rustdesk.txt) |
+| **Microsoft Teams** | Blockiert Teams vollständig. | [Öffnen](lists/block-all/software/microsoft-teams.txt) |
+| **Slack** | Blockiert Slack vollständig. | [Öffnen](lists/block-all/software/slack.txt) |
+| **Microsoft Store** | Blockiert den Microsoft Store und Store-Infrastruktur. | [Öffnen](lists/block-all/software/microsoft-store.txt) |
+| **Snap Store** | Blockiert Snap-/Snapcraft-Infrastruktur. | [Öffnen](lists/block-all/software/snap-store.txt) |
+| **Flatpak / Flathub** | Blockiert Flathub-/Flatpak-Onlinedienste. | [Öffnen](lists/block-all/software/flathub.txt) |
 
-Der Updater schreibt nur die explizit ausgewaehlten Dateien. Details: [`docs/SPECIAL_LISTS.md`](docs/SPECIAL_LISTS.md).
+</details>
 
-<p align="right"><a href="#blocklisten-navigation">⬆️ Blocklisten-Inhaltsverzeichnis</a></p>
+---
+
+## 🖥️ Systemblockierungen
+
+Systemblockierungen sind für Geräte gedacht, die **möglichst lokal betrieben werden sollen**.
+
+Es gibt bewusst zwei Stufen:
+
+| Modus | Wirkung |
+|---|---|
+| 🟠 **Local Mode** | Hersteller-, Cloud-, Telemetrie- und optionale Online-Dienste werden blockiert. **Updates bleiben erlaubt.** |
+| 🔴 **Full Isolation** | Externe Kommunikation wird so weit wie über DNS möglich blockiert. **Updates werden ebenfalls blockiert.** |
+
+> ⚠️ **Wichtig:** DNS-Blocklisten allein garantieren keine vollständige Netzisolation. Geräte können feste IP-Adressen, eigenes DoH/DoT, VPN-Tunnel oder andere Protokolle verwenden. Für echte Isolation zusätzlich Firewall-/VLAN-Regeln einsetzen.
+
+### System-Blocklisten
+
+| System / Gerät | 🟠 Local Mode – Updates erlaubt | 🔴 Full Isolation – inkl. Updates |
+|---|:---:|:---:|
+| 🪟 **Windows** | [Liste](lists/system-blocking/windows/local-mode.txt) | [Liste](lists/system-blocking/windows/full-isolation.txt) |
+| 🍎 **macOS** | [Liste](lists/system-blocking/macos/local-mode.txt) | [Liste](lists/system-blocking/macos/full-isolation.txt) |
+| 🤖 **Android** | [Liste](lists/system-blocking/android/local-mode.txt) | [Liste](lists/system-blocking/android/full-isolation.txt) |
+| 🍏 **iOS / iPadOS** | [Liste](lists/system-blocking/ios/local-mode.txt) | [Liste](lists/system-blocking/ios/full-isolation.txt) |
+| 🐧 **Linux** | [Liste](lists/system-blocking/linux/local-mode.txt) | [Liste](lists/system-blocking/linux/full-isolation.txt) |
+| 📺 **Samsung TV** | [Liste](lists/system-blocking/samsung-tv/local-mode.txt) | [Liste](lists/system-blocking/samsung-tv/full-isolation.txt) |
+| 📺 **LG webOS** | [Liste](lists/system-blocking/lg-webos/local-mode.txt) | [Liste](lists/system-blocking/lg-webos/full-isolation.txt) |
+| 🔥 **Fire TV** | [Liste](lists/system-blocking/fire-tv/local-mode.txt) | [Liste](lists/system-blocking/fire-tv/full-isolation.txt) |
+| 📺 **Android TV / Google TV** | [Liste](lists/system-blocking/android-tv/local-mode.txt) | [Liste](lists/system-blocking/android-tv/full-isolation.txt) |
+| 💾 **Synology** | [Liste](lists/system-blocking/synology/local-mode.txt) | [Liste](lists/system-blocking/synology/full-isolation.txt) |
+| 💾 **QNAP** | [Liste](lists/system-blocking/qnap/local-mode.txt) | [Liste](lists/system-blocking/qnap/full-isolation.txt) |
+| 💾 **TrueNAS** | [Liste](lists/system-blocking/truenas/local-mode.txt) | [Liste](lists/system-blocking/truenas/full-isolation.txt) |
+| 💾 **Unraid** | [Liste](lists/system-blocking/unraid/local-mode.txt) | [Liste](lists/system-blocking/unraid/full-isolation.txt) |
+| 🌐 **Router / Netzwerkgeräte** | [Liste](lists/system-blocking/network-devices/local-mode.txt) | [Liste](lists/system-blocking/network-devices/full-isolation.txt) |
+| 🏠 **IoT / Smart Home** | [Liste](lists/system-blocking/iot/local-mode.txt) | [Liste](lists/system-blocking/iot/full-isolation.txt) |
+| 🗣️ **Sprachassistenten** | [Liste](lists/system-blocking/voice-assistants/local-mode.txt) | [Liste](lists/system-blocking/voice-assistants/full-isolation.txt) |
+| 🎮 **Konsolen** | [Liste](lists/system-blocking/consoles/local-mode.txt) | [Liste](lists/system-blocking/consoles/full-isolation.txt) |
+
+### System-Gesamtlisten
+
+| Gesamtgruppe | 🟠 Local Mode | 🔴 Full Isolation |
+|---|:---:|:---:|
+| 💻 **Computer / Laptop** | [Liste](lists/system-blocking/groups/computer/local-mode.txt) | [Liste](lists/system-blocking/groups/computer/full-isolation.txt) |
+| 📱 **Handy / Tablet** | [Liste](lists/system-blocking/groups/mobile/local-mode.txt) | [Liste](lists/system-blocking/groups/mobile/full-isolation.txt) |
+| 📺 **TV / Streaming-Geräte** | [Liste](lists/system-blocking/groups/tv-streaming/local-mode.txt) | [Liste](lists/system-blocking/groups/tv-streaming/full-isolation.txt) |
+| 💾 **NAS / Server** | [Liste](lists/system-blocking/groups/nas-server/local-mode.txt) | [Liste](lists/system-blocking/groups/nas-server/full-isolation.txt) |
+| 🏠 **Smart Home / IoT** | [Liste](lists/system-blocking/groups/iot/local-mode.txt) | [Liste](lists/system-blocking/groups/iot/full-isolation.txt) |
+| 🌐 **Netzwerkgeräte** | [Liste](lists/system-blocking/groups/network/local-mode.txt) | [Liste](lists/system-blocking/groups/network/full-isolation.txt) |
+| 🧩 **All Systems** | **[Liste](lists/system-blocking/all-in/local-mode.txt)** | **[Liste](lists/system-blocking/all-in/full-isolation.txt)** |
+
+<details>
+<summary><strong>ℹ️ Wann nutze ich Privacy, Restrict, Local Mode oder Full Isolation?</strong></summary>
+
+| Stufe | Ziel |
+|---|---|
+| 🛡️ **Privacy** | Tracking/Telemetrie reduzieren, normale Online-Funktion behalten |
+| ⚠️ **Restrict** | zusätzliche Hersteller-/Cloud-Funktionen einschränken |
+| 🟠 **Local Mode** | System weitgehend lokal betreiben, **Updates bleiben möglich** |
+| 🔴 **Full Isolation** | externe Kommunikation maximal reduzieren, **inklusive Updates** |
+
+</details>
+
+
+# 🧠 Welche Liste brauche ich?
+
+| Ziel | Empfehlung |
+|---|---|
+| Werbung, Tracker und Telemetrie blockieren | 🟨 **Gesamtprofil Pro** |
+| Maximale Kompatibilität | 🟩 **Gesamtprofil Light** |
+| Aggressiver allgemeiner Privacy-Schutz | 🟧 **Gesamtprofil Pro++** |
+| Kinder schützen | 👨‍👩‍👧 **Family Pro** |
+| Nur freigegebene Kinderseiten | 🧒 **Kids Allow Only – Learning** |
+| Nur Ads & Tracking | 📢 **Ads & Tracking Pro** |
+| Mehr Telemetrie-/Security-Schutz | 🛡️ **Privacy & Security Pro** |
+| Smart-TV-Tracking reduzieren | 💻 **Gerät → Privacy** |
+| Hersteller-Cloud einschränken | ⚠️ **Gerät → Restrict** |
+| Gerät vom Hersteller trennen | 🔒 **Gerät → Isolate** |
+| Firmware-/Systemupdates blockieren | 🔄 **Gerät → Updates** |
+| Gaming-Telemetrie reduzieren | 🎮 **Gaming Pro** |
+| Einzelnen Dienst komplett sperren | 🚫 **Block-All-Einzelliste** |
+| Ganze Dienstgruppe sperren | 🚫 **Block-Paket** |
+| Software oder Tools komplett sperren | 🧰 **Software & Tools blockieren** |
+| System lokal halten, Updates aber erlauben | 🟠 **Systemblockierung → Local Mode** |
+| System maximal isolieren inkl. Updates | 🔴 **Systemblockierung → Full Isolation** |
+| DoH/VPN/Proxy/Tor einschränken | 🌐 **Netzwerk Pro** |
+| Software-/Hardware-Telemetrie reduzieren | 🧩 **Software & Hardware Telemetrie Pro** |
+| KI-Crawler/Scraper blockieren | 🤖 **KI, Bots & Crawler Pro** |
+| ISP-/Provider-Tracking reduzieren | 📡 **Geräte → ISP / Provider → Privacy** |
+| Herstellerübergreifend filtern | 🏭 **Herstellerlisten → Privacy/Restrict** |
+| Cloud-/Developer-Telemetrie reduzieren | ☁️ **Cloud, Server & Development Pro** |
+| Regionale Filter verwenden | 🌍 **Regionale Listen** |
 
 ---
 
-<a id="regional"></a>
-### 🌍 Regionale Listen
+<details>
+<summary><strong>📊 Inclusion Matrix – Was steckt bereits in den Gesamtprofilen?</strong></summary>
 
-Die Pfade sind vorbereitet. Sie werden nicht künstlich nach dem Muster „TLD = Region“ befüllt, weil das fachlich unzuverlässig wäre.
+| Bereich | Light | Normal | Pro | Pro++ | Ultimate |
+|---|:---:|:---:|:---:|:---:|:---:|
+| Werbung | ✅ | ✅ | ✅ | ✅ | ✅ |
+| General Tracking | 🟡 | ✅ | ✅ | ✅ | ✅ |
+| Analytics | ❌ | ✅ | ✅ | ✅ | ✅ |
+| Social Tracking | ❌ | 🟡 | ✅ | ✅ | ✅ |
+| Mobile / App Tracking | ❌ | ❌ | ✅ | ✅ | ✅ |
+| Allgemeine Telemetrie | ❌ | 🟡 | ✅ | ✅ | ✅ |
+| Geräte-/Native-Tracker | ❌ | ❌ | 🟡 | ✅ | ✅ |
+| Fingerprinting | ❌ | ❌ | 🟡 | ✅ | ✅ |
+| Malware / Phishing | ❌ | 🟡 | ✅ | ✅ | ✅ |
+| Scam / Fake Shops | ❌ | ❌ | ✅ | ✅ | ✅ |
+| Family / Adult | ❌ | ❌ | ❌ | ❌ | ❌ |
+| Kids Allow Only | ❌ | ❌ | ❌ | ❌ | ❌ |
+| Block All | ❌ | ❌ | ❌ | ❌ | ❌ |
+| Geräte-Isolation | ❌ | ❌ | ❌ | ❌ | ❌ |
+| Updates blockieren | ❌ | ❌ | ❌ | ❌ | ❌ |
+| VPN / Tor / Proxy blockieren | ❌ | ❌ | ❌ | ❌ | ❌ |
 
-| Liste | Einträge | Status | Link |
-|---|---:|:---:|---|
-| **Cn** | **5.896** | ✅ | [Liste](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/regional/cn.txt) |
-| **De** | **3.304** | ✅ | [Liste](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/regional/de.txt) |
-| **Es** | **1.698** | ✅ | [Liste](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/regional/es.txt) |
-| **Eu** | **31.996** | ✅ | [Liste](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/regional/eu.txt) |
-| **Fr** | **2.123** | ✅ | [Liste](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/regional/fr.txt) |
-| **It** | **2.307** | ✅ | [Liste](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/regional/it.txt) |
-| **Jp** | **625** | ✅ | [Liste](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/regional/jp.txt) |
-| **Kr** | **479** | ✅ | [Liste](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/regional/kr.txt) |
-| **Ru** | **15.374** | ✅ | [Liste](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/regional/ru.txt) |
-| **Uk** | **7.416** | ✅ | [Liste](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/regional/uk.txt) |
-| **Us** | **6.302** | ✅ | [Liste](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/regional/us.txt) |
+**✅ enthalten · 🟡 teilweise enthalten · ❌ bewusst separat**
 
+</details>
 
 ---
-<a id="lizenz"></a>
-## 📜 Quellen & Lizenz
 
-Das Repository steht unter **GPL-3.0-only**. Die Domainbasis stammt aus dem statischen BlackRabbitZ-Snapshot mit seinen dokumentierten Quellen, darunter Block List Project, AnudeepND, NextDNS Native Tracking Protection, Perflyst, URLhaus, Phishing.Database und HaGeZi-Anteile.
+<details>
+<summary><strong>🛠️ Technische Regeln & Qualitätsprinzipien</strong></summary>
 
-HaGeZi dient zusätzlich als Referenz für kumulative Hauptstufen und getrennte Native-/Speziallisten. Es gibt **keine automatische Live-Synchronisation**.
+- Privacy-/Ads-/Tracking-Listen sollen Kernfunktionen nicht absichtlich zerstören.
+- Login-, Account-, Streaming-, Update- und Kern-API-Hosts gehören nicht in normale Privacy-Listen, wenn sie für die Funktion benötigt werden.
+- `Restrict`, `Isolate`, `Updates` und `Block All` dürfen bewusst stärker eingreifen.
+- Alle Listen werden normalisiert, dedupliziert und auf ungültige Einträge geprüft.
+- Große Listen können zusätzlich als Full-/Medium-/Mini-Varianten veröffentlicht werden.
+- DNS-Blocking kann First-Party-Tracking oder Werbung über dieselbe Domain wie den eigentlichen Inhalt nicht zuverlässig trennen.
 
-Siehe [`THIRD_PARTY.md`](THIRD_PARTY.md), [`docs/SOURCES.md`](docs/SOURCES.md) und die `# Sources:`-Header der Listen.
+</details>
 
-<p align="right"><a href="#top">⬆️ Nach oben</a></p>
+---
+
+# 🐛 False Positive gefunden?
+
+Wenn eine normale Privacy-, Ads- oder Tracking-Liste eine wichtige Funktion blockiert:
+
+[**False Positive melden**](../../issues)
+
+Bitte angeben:
+
+- betroffene Domain
+- verwendete Liste / Profil
+- App, Webseite oder Gerät
+- ausgefallene Funktion
+- optional Query-Log
+
+---
+
+# ❤️ Mitwirken
+
+Pull Requests und Issues sind willkommen.
+
+---
+
+# 📜 Lizenz
+
+Siehe [LICENSE](LICENSE).
+
+---
+
+<p align="center">
+
+## 🐇 BlackRabbitZ DNS Blocklists
+
+**Starker Schutz. Klare Wirkung. Volle Kontrolle.**
+
+</p>

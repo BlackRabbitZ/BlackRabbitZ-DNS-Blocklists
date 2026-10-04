@@ -7,7 +7,7 @@
 # Risk: Niedrig
 # Data status: befüllt
 # Data method: generated-tier
-# Entries: 445
+# Entries: 442
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -62,8 +62,6 @@ api.gameanalytics.com
 api.mixpanel.com
 api.segment.io
 api2.amplitude.com
-app-analytics.snapchat.com
-app-measurement.com
 ar-ad-lgsmartad-com.aws-prd.net
 ar.lgsmartad.com
 ase.adserver.snapads.com
@@ -362,7 +360,6 @@ rw-ad-lgsmartad-com.aws-prd.net
 rw.lgsmartad.com
 sa-ad-lgsmartad-com.aws-prd.net
 sa.lgsmartad.com
-sc-analytics.appspot.com
 sd-ad-lgsmartad-com.aws-prd.net
 sd.lgsmartad.com
 se-ad-lgsmartad-com.aws-prd.net

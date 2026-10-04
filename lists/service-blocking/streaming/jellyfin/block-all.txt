@@ -6,11 +6,10 @@
 # Sources: BRZ existing data + curated service roots
 # Risk: very high
 # Data status: befuellt
-# Data method: service-block-all
-# Entries: 3
+# Data method: service-block-all-curated
+# Entries: 2
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
 jellyfin.org
-jellyfinstream.com
 repo.jellyfin.org

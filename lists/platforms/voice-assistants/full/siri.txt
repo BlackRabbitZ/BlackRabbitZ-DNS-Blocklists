@@ -7,7 +7,7 @@
 # Risk: variabel
 # Data status: abgeleitet
 # Data method: derived-keyword
-# Entries: 27
+# Entries: 26
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -28,7 +28,6 @@ piwik.siriustec.eu
 push.silversiri.com
 siri.hboin.com
 sirian.dumedia.ru
-sirinbet.com
 sirius-expedition.com
 sirius.adx1.com
 sirius.iad-03.braze.com

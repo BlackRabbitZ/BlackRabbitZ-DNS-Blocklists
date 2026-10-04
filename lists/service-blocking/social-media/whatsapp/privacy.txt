@@ -6,28 +6,9 @@
 # Sources: lists/apps/social-media/full/whatsapp.txt
 # Risk: medium
 # Data status: befuellt
-# Data method: derived-service-privacy
-# Entries: 20
+# Data method: service-privacy-curated
+# Entries: 1
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
-abmeldung.information.whatsappsim.de
 analytics.whatsapp.com
-crashlogs.whatsapp.net
-data.hinweis.whatsappsim.de
-data.information.whatsappsim.de
-data.testing.whatsappsim.de
-data.umfrage.whatsappsim.de
-downloads-whatsapp.com
-gtm.lucibellagrupowhatsapp.cabe.shop
-smetrics.whatsappsim.de
-tracking.whatsappbgr.com
-tracking.whatsapplp.com
-whatsapp-32w.pages.dev
-whatsapp-chat.xyz
-whatsappmessages.info
-whatsapps.com
-whatsappsohbetet.com
-whatsappsohbetim.net
-www.downloads-whatsapp.com
-www.whatsapps.com

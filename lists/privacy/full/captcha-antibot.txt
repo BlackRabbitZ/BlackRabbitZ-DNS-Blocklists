@@ -7,7 +7,7 @@
 # Risk: mittel
 # Data status: abgeleitet
 # Data method: derived-keyword
-# Entries: 379
+# Entries: 378
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -339,7 +339,6 @@ datadome.mdm-staging.com
 datadome.monster.lu
 datadome.njm.com
 datadome.plarium.com
-datadome.ratemyagent.com
 datadome.sanoma.fi
 datadome.seatgeek.com
 datadome.secure-hotel-booking.com

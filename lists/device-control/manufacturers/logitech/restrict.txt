@@ -1,15 +1,9 @@
 # BlackRabbitZ DNS Blocklists
-# Title: logitech restrict
-# Description: Privacy plus optional vendor/cloud services.
+# List: lists/device-control/manufacturers/logitech/restrict.txt
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
-# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
-# Sources: lists/manufacturers/logitech.txt
-# Risk: high
-# Data status: befuellt
-# Data method: manufacturer-restrict
+# License: GPL-3.0-only; third-party sources: THIRD_PARTY.md
+# Data method: fallback restrict from same BRZ manufacturer privacy data
 # Entries: 4
-# Format: Plain domains, eine Domain pro Zeile
-# Build model: Single file; keine Part-/MiB-Aufteilung
 #
 webanalytics.logitech.com
 webanalytics.logitech.com.cn

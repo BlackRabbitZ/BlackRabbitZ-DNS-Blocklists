@@ -5,7 +5,7 @@
 # License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
 # Sources: BlackRabbitZ IoT-Datenbestand
 # Risk: hoch
-# Entries: 20
+# Entries: 18
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 # Generated: ja
@@ -13,14 +13,12 @@
 api.mixpanel.com
 api.segment.io
 api2.amplitude.com
-app-measurement.com
 bam.nr-data.net
 browser-intake-datadoghq.com
 config.ioam.de
 d3p8zr0ffa9t17.cloudfront.net
 de.ioam.de
 events.launchdarkly.com
-firebasecrashlytics.googleapis.com
 logs.roku.com
 logs1409.xiti.com
 metrics.icloud.com

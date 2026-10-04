@@ -6,16 +6,11 @@
 # Sources: lists/infrastructure/cloud-development/full/oracle-cloud.txt
 # Risk: medium
 # Data status: befuellt
-# Data method: derived-service-privacy
-# Entries: 8
+# Data method: service-privacy-curated
+# Entries: 3
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
 analytics.ocp.oraclecloud.com
 experiments-prod-us.occa.ocs.oraclecloud.com
-go.oracle.com
-recs.occa.us-phoenix-1.ocs.oraclecloud.com
-rps-svcs.oracle.com
 telemetry.us-ashburn-1.oci.oraclecloud.com
-tms.oracle.com
-visit-prod-us.occa.ocs.oraclecloud.com

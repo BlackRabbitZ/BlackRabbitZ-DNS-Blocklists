@@ -7,7 +7,7 @@
 # Risk: Niedrig–Mittel
 # Data status: befüllt
 # Data method: generated-tier
-# Entries: 531
+# Entries: 518
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -67,8 +67,6 @@ api.gameanalytics.com
 api.mixpanel.com
 api.segment.io
 api2.amplitude.com
-app-analytics.snapchat.com
-app-measurement.com
 appmetrica.ru
 appmetrica.yandex
 appmetrica.yandex.com
@@ -149,11 +147,9 @@ co.lgsmartad.com
 config.unityads.unity3d.com
 cr-ad-lgsmartad-com.aws-prd.net
 cr.lgsmartad.com
-crashlogs.whatsapp.net
 crashlytics.163.com
 crashlytics.com
 crashlytics.ru
-crashlyticsreports-pa.googleapis.com
 cstat-origin.apple.com
 cstat.apple.com
 cstat.apple.com.edgesuite.net
@@ -217,7 +213,6 @@ euc.adserver.snapads.com
 euw.adserver.snapads.com
 events.ads.vungle.com
 fast.lenovo.demdex.net
-feedback.search.microsoft.com
 feedback.windows.com
 feedbackws.apple.com
 feedbackws.fe.apple-dns.cn
@@ -226,9 +221,6 @@ feedbackws.fe2.apple-dns.net
 fi-ad-lgsmartad-com.aws-prd.net
 fi.lgsmartad.com
 firebase-settings.crashlytics.com
-firebasecrashlytics.googleapis.com
-firebaselogging-pa.googleapis.com
-firebaselogging.googleapis.com
 fj-ad-lgsmartad-com.aws-prd.net
 flirfvysba2opz0zmzqs5iuiad.apple.com
 fr-ad-lgsmartad-com.aws-prd.net
@@ -428,7 +420,6 @@ rw-ad-lgsmartad-com.aws-prd.net
 rw.lgsmartad.com
 sa-ad-lgsmartad-com.aws-prd.net
 sa.lgsmartad.com
-sc-analytics.appspot.com
 sd-ad-lgsmartad-com.aws-prd.net
 sd.lgsmartad.com
 se-ad-lgsmartad-com.aws-prd.net
@@ -437,8 +428,6 @@ searchads.apple.com
 searchads.apple.com.edgesuite.net
 searchads.lb-apple.com.akadns.net
 securemetrics-cn.v.aaplimg.com
-securemetrics.apple.com
-securemetrics.apple.com.cn
 securemetrics.v.aaplimg.com
 securepubads.g.doubleclick.net
 segment.io
@@ -482,8 +471,6 @@ sz-ad-lgsmartad-com.aws-prd.net
 tapjoyads.com
 tc.lgsmartad.com
 telemetry.appex.bing.net
-telemetry.microsoft.com
-telemetry.urs.microsoft.com
 tg-ad-lgsmartad-com.aws-prd.net
 tg.lgsmartad.com
 th-ad-lgsmartad-com.aws-prd.net

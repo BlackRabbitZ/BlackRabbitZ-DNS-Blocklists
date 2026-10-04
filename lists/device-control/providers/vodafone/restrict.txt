@@ -6,15 +6,13 @@
 # Sources: lists/platforms/providers/full/vodafone.txt + BRZ manufacturer data
 # Risk: high
 # Data status: befuellt
-# Data method: derived-restrict
-# Entries: 81
+# Data method: device-restrict-curated
+# Entries: 22
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
 analytics.vodafone.co.uk
 analytics.vodafone.com.au
-at.vodafone.de
-exagm.vodafone.de
 fast.vodafonealbania.demdex.net
 fast.vodafonecz.demdex.net
 fast.vodafonegr.demdex.net
@@ -22,8 +20,6 @@ fast.vodafonein.demdex.net
 fast.vodafoneit.demdex.net
 fast.vodafoneturkey.demdex.net
 fast.vodafoneuk.demdex.net
-fc.vodafone.de
-infos.vodafone.com.au
 metric.vodafone.hu
 metrics.vodafone.co.uk
 metrics.vodafone.com.gh
@@ -32,63 +28,8 @@ metrics.vodafone.hu
 metrics.vodafone.in
 metrics.vodafone.qa
 metrics.vodafone.ro
-mplusps.ims.vodafone.com
-mpluswf.ims.vodafone.com
-netperform-is.vodafone.com.tr
-piwikpro.vodafone.com
-sat.vodafone.nl
-scmetrics.vodafone.it
-scsmetrics.vodafone.it
-smetrics.vodafone.al
-smetrics.vodafone.co.nz
-smetrics.vodafone.co.uk
-smetrics.vodafone.com.gh
-smetrics.vodafone.com.tr
-smetrics.vodafone.es
-smetrics.vodafone.gr
-smetrics.vodafone.in
-smetrics.vodafone.qa
-smetrics.vodafone.ro
-smetrics.vodafonecu.gr
-starget.vodafone.es
-swa.vodafone.cz
-swa.vodafone.pt
-tags.groupmartech.vodafone.com
-tags.vodafone.de
-tags.vodafone.pt
-target.vodafone.es
-vfd2dyn.vodafone.de
-vodafone-de-care.inq.com
-vodafone-de-care.touchcommerce.com
-vodafone-de.zeotap.com
-vodafone-direkt.de
-vodafone-uk.zeotap.com
 vodafone.eu.qualtrics.com
-vodafone.inq.com
-vodafone.tiqcdn.com
-vodafone.touchcommerce.com
 vodafonealbania.demdex.net
-vodafonees.d2.sc.omtrdc.net
-vodafonegroup.122.2o7.net
 vodafonein.demdex.net
-vodafonein.sc.omtrdc.net
-vodafoneindia.tt.omtrdc.net
-vodafoneit.sc.omtrdc.net
-vodafoneit.solution.weborama.fr
-vodafoneitaly.tt.omtrdc.net
-vodafonenewsletters.co.uk
-vodafonenz.122.2o7.net
 vodafoneromania.demdex.net
-vodafonetr.sc.omtrdc.net
-vodafoneturkey.tt.omtrdc.net
-vodafoneuk.tt.omtrdc.net
-wa.vodafone.cz
-wa.vodafone.de
-wa.vodafone.nl
-wa.vodafone.pt
-was.vodafone.de
-was.vodafone.ie
-was.vodafone.nl
-webstat.vodafone.com
-www.vodafone-de.zeotap.com
 zn3xi980gfnkbpimj-vodafone.siteintercept.qualtrics.com

@@ -1,21 +1,7 @@
 # BlackRabbitZ DNS Blocklists
-# Title: cicd privacy
-# Description: Service tracking/analytics/telemetry; service should remain usable.
+# List: lists/service-blocking/cloud-development/cicd/privacy.txt
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
-# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
-# Sources: lists/infrastructure/cloud-development/full/cicd.txt
-# Risk: medium
-# Data status: befuellt
-# Data method: derived-service-privacy
-# Entries: 8
-# Format: Plain domains, eine Domain pro Zeile
-# Build model: Single file; keine Part-/MiB-Aufteilung
+# License: GPL-3.0-only; third-party sources: THIRD_PARTY.md
+# Data method: BRZ CI/CD telemetry dataset
+# Entries: 0
 #
-buildkiteanalytics.com
-dsp.jenkins.secure.blismedia.com
-ideas.circleci.com
-jenkins-matomo.do.g4v.dev
-jenkins.kissmetrics.com
-metrics.morrisjenkins.com
-slcjenkins.tynt.com
-tmsc.jerryjenkins.com

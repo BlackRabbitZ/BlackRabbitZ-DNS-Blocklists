@@ -5,17 +5,12 @@
 # License: GPL-3.0-only; siehe THIRD_PARTY.md fuer Drittquellen
 # Sources: Red Hat documentation; Dell/HPE documented service endpoints; Dell SupportAssist documented endpoint
 # Risk: mittel
-# Entries: 10
+# Entries: 5
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
-api.access.redhat.com
-cert-api.access.redhat.com
-cert.console.redhat.com
-connect.cloud.redhat.com
 device.cloud.hpe.com
 esrs3-core.emc.com
 esrs3-coredr.emc.com
-infogw.api.openshift.com
 infosight.hpe.com
 midway.ext.hpe.com

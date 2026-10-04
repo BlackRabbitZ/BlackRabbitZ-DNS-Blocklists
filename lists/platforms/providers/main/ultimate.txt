@@ -7,7 +7,7 @@
 # Risk: Hoch
 # Data status: befüllt
 # Data method: generated-tier
-# Entries: 171
+# Entries: 166
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -58,7 +58,6 @@ fast.vodafoneturkey.demdex.net
 fast.vodafoneuk.demdex.net
 fc-sst.ticket-onlineshop.com
 fc.vodafone.de
-fioricet-online.blogspot.com
 geolocation.t-online.de
 ggbet-online.net
 gitconnect-online.web.app
@@ -67,7 +66,6 @@ im.banner.t-online.de
 infos.vodafone.com.au
 install.streamit-online.com
 jdgtgb.t-online.de
-knight-online.de.intellitxt.com
 koschudu.homepage.t-online.de
 lon.telefonica.bench.cedexis.com
 m.banner.t-online.de
@@ -123,13 +121,11 @@ stats.drillisch-online.de
 streamit-online.com
 swa.vodafone.cz
 swa.vodafone.pt
-t-online.de.intellitxt.com
 tags.groupmartech.vodafone.com
 tags.vodafone.de
 tags.vodafone.pt
 target.vodafone.es
 tcrwharen.homepage.t-online.de
-telefonica.es.intellitxt.com
 telefonica.eu.qualtrics.com
 telefonica.inq.com
 telefonicaespana.tt.omtrdc.net
@@ -172,7 +168,6 @@ wa.vodafone.cz
 wa.vodafone.de
 wa.vodafone.nl
 wa.vodafone.pt
-wallstreet-online.de.intellitxt.com
 was.vodafone.de
 was.vodafone.ie
 was.vodafone.nl

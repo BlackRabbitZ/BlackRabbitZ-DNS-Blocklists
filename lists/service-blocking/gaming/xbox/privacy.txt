@@ -6,16 +6,8 @@
 # Sources: lists/apps/gaming/full/xbox.txt
 # Risk: medium
 # Data status: befuellt
-# Data method: derived-service-privacy
-# Entries: 8
+# Data method: service-privacy-curated
+# Entries: 0
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
-avty.xboxlive.com
-beacons.xboxlive.com
-c.xbox.com
-click.engage.xbox.com
-data.xboxlive.com
-expbl2ro.xbox.com
-o.xbox.com
-userstats.xboxlive.com

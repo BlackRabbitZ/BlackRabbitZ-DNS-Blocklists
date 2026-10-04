@@ -5,7 +5,7 @@
 # License: GPL-3.0-only; siehe THIRD_PARTY.md fuer Drittquellen
 # Sources: BlackRabbitZ statischer Datenbestand
 # Risk: mittel
-# Entries: 643
+# Entries: 608
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -17,7 +17,6 @@ a8affiliate.liftup-turban.net
 action.metaffiliation.com
 activeconversion.com
 acworks.postaffiliatepro.com
-ad.atdmt.com
 ad.doubleclick.net
 ad.dyntracker.de
 adclick.g.doubleclick.net
@@ -267,7 +266,6 @@ affiliate.couleur-labo.com
 affiliate.dietician-family.jp
 affiliate.entireweb.com
 affiliate.fsastore.com
-affiliate.googleusercontent.com
 affiliate.hsastore.com
 affiliate.htb-energy.co.jp
 affiliate.hypercentage.com
@@ -281,13 +279,10 @@ affiliate.tigerfitness.com
 affiliate.tripact.jp
 affiliated.io
 affiliatefuture.com
-affiliatehub.skybet.com
-affiliatehunt.com
 affiliateinsider.com
 affiliates.cdkeys.com
 affiliates.leonardo.ai
 affiliates.purevpn.com
-affiliates.r2net.com
 affiliates.thermoworks.com
 affiliateswindow.com
 affiliatetracking.com
@@ -297,7 +292,6 @@ affiliatewindow.net
 affiliatewindow.porn
 affiliatewindows.com
 affiliatly.com
-alb.reddit.com
 amazon-adsystem.com
 analyticaa.postaffiliatepro.com
 analytics.easydrawingtips.com
@@ -307,7 +301,6 @@ analytics.twitter.com
 anrdoezrs.net
 apiservices.krxd.net
 apmebf.com
-app.adjust.com
 app.getresponse.com
 app.link
 app2.salesmanago.pl
@@ -323,13 +316,11 @@ awin3.com
 awinanalytics.com
 awstrack.me
 be-go.kelkoogroup.net
-bfast.com
 br-go.kelkoogroup.net
 bs.serving-sys.com
 campaign.adobe.com
 carvertical.postaffiliatepro.com
 cb.sailthru.com
-cc-dt.com
 ch-go.kelkoogroup.net
 ch0p.darty.com
 cj.com
@@ -338,7 +329,6 @@ cl.exct.net
 clck.yandex.ru
 click.chp.kohls.com
 click.cptrack.de
-click.discord.com
 click.e.krogermail.com
 click.e.lowes.com
 click.e.safelite.com
@@ -360,20 +350,11 @@ click.mlsend.com
 click.myctm.canadiantire.ca
 click.o.delta.com
 click.pstmrk.it
-click.redditmail.com
 click.royalcaribbeanmarketing.com
 click.s.kohls.com
-click.virt.s10.exacttarget.com
-click.virt.s11.exacttarget.com
-click.virt.s12.exacttarget.com
-click.virt.s4.exacttarget.com
-click.virt.s5.exacttarget.com
-click.virt.s6.exacttarget.com
-click.virt.s7.exacttarget.com
 clickbank.net
 clickcash.onelink.me
 clicks.mlsend.com
-clickserve.cc-dt.com
 clickserve.dartsearch.net
 clk.boulanger.com
 clk.tradedoubler.com
@@ -393,16 +374,12 @@ conversion.lolahealth.com
 conversion.novaliaromania.ro
 conversion.nox-xtreme.com
 conversion.onyx-fitness.com
-conversion.studiobust.com
 conversionapi.wildflowersnailshop.com
 conversionfly.com
 conversionguard.com
 conversionlogic.net
 conversionruler.com
-conversions-config.reddit.com
-conversions.am-usercontent.com
 conversions.smyccorretores.com.br
-cse3.chausport.com
 ct.impactradius.com
 ct.klclick.com
 ct.sendgrid.net
@@ -437,12 +414,9 @@ fi-go.kelkoogroup.net
 fr-go.kelkoogroup.net
 go.cj.com
 go.flx1.com
-go.microsoft.com
 go.nordlocker.net
 go.nordvpn.net
 go.onelink.me
-go.pardot.com
-go.redirectingat.com
 go.skimresources.com
 go2jump.org
 gopjn.com
@@ -459,8 +433,6 @@ hubspotemail.net
 humann-affiliate.com
 ie-go.kelkoogroup.net
 image.email.microsoftemail.com
-impact.com
-impactradius-event.com
 impactradius-tag.com
 impactradius.co.uk
 impactradius.com
@@ -506,7 +478,6 @@ onenetworkdirect.net
 online.adservicemedia.dk
 online.digital-advisor.com
 oofos.postaffiliatepro.com
-open.spotify.com
 our.affiliatetracking.net
 pagead.l.doubleclick.net
 partnerize.com
@@ -516,8 +487,6 @@ partnerstack.com
 pdt.tradedoubler.com
 pepperjam.com
 pepperjamnetwork.com
-pi.pardot.com
-pixel-conversion.apps.seabroadnet.com
 pixel.everesttech.net
 pjatr.com
 pjtra.com
@@ -544,7 +513,6 @@ redirect.appmetrica.yandex.ru
 redirect.at
 redirect.viglink.com
 redirects.tradedoubler.com
-referral.bluehost.com
 referralfetch.herokuapp.com
 referralmagic.co
 referralrock.com
@@ -591,7 +559,6 @@ tags.adsafety.net
 tags.news.com.au
 tags.rd.linksynergy.com
 target.clickfunnels.com
-target.georiot.com
 tc.tradetracker.net
 the-home-depot-ca.pxf.io
 thirdparty.bnc.lt
@@ -637,11 +604,9 @@ uk-go.kelkoogroup.net
 us-go.kelkoogroup.net
 valaffiliates.com
 vcommission.com
-view.virt.s7.exacttarget.com
 viglink.com
 wagawin.com
 webgains.com
-wl.spotify.com
 www.anrdoezrs.net
 www.awin1.com
 www.emjcd.com

@@ -6,26 +6,12 @@
 # Sources: lists/platforms/streaming/full/apple-tv.txt
 # Risk: medium
 # Data status: befuellt
-# Data method: derived-service-privacy
-# Entries: 18
+# Data method: service-privacy-curated
+# Entries: 4
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
 advertising.apple.com
 analytics.apple.com
-analytics.appleboys.us
-analytics.applemooz.net
-api-adservices.apple.com
-ca.iadsdk.apple.com
-cf.iadsdk.apple.com
 events-analytics.apple.com
-iadsdk.apple.com
-iadsdk.apple.com.akadns.net
-iadsdk.apple.com.edgekey.net
 metrics.apple.com
-news.iadsdk.apple.com
-securemetrics.apple.com
-securemetrics.apple.com.cn
-supportmetrics.apple.com
-tr.iadsdk.apple.com
-ut.iadsdk.apple.com

@@ -7,7 +7,7 @@
 # Risk: Niedrig
 # Data status: befüllt
 # Data method: generated-tier
-# Entries: 49
+# Entries: 48
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -52,7 +52,6 @@ router.tracking.miui.com
 track.grupopegasus.com.br
 track.mitpegasus.com.br
 track.pegasuscaoachery.com.br
-track.pegasusselect.com.br
 tracking.eu.miui.com
 tracking.india.miui.com
 tracking.intl.miui.com

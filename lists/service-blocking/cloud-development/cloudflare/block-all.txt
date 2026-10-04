@@ -6,8 +6,8 @@
 # Sources: BRZ existing data + curated service roots
 # Risk: very high
 # Data status: befuellt
-# Data method: service-block-all
-# Entries: 42
+# Data method: service-block-all-curated
+# Entries: 33
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -20,26 +20,17 @@ adxcore.com.cdn.cloudflare.net
 biddr.brealtime.com.cdn.cloudflare.net
 bugsnag.8x8.com.cdn.cloudflare.net
 cdn.bannerflow.com.cdn.cloudflare.net
-cdn1cloudflare.xyz
-cloudflare.cdneval.adnxs.com
-cloudflare.re.getclicky.com
-cloudflare.solutions
 cloudflareinsights.com
-cloudflareresearch.com
 csp-reporting.cloudflare.com
 customer.cludo.com.cdn.cloudflare.net
-data.cloudflare.dev.cjmadobe.com
 data.em2.cloudflare.com
 dsp-adcreative.mobshark.net.cdn.cloudflare.net
 fltag.findlawresources.com.cdn.cloudflare.net
 idpix.media6degrees.com.cdn.cloudflare.net
 ids.ad.gt.cdn.cloudflare.net
-img-cloudflare-2.haizap.com
-img-cloudflare.haizap.com
 ins.elements.video.cdn.cloudflare.net
 js.brealtime.com.cdn.cloudflare.net
 map.media6degrees.com.cdn.cloudflare.net
-metrics.cloudflarebolt.com
 p.ad.gt.cdn.cloudflare.net
 pixels.ad.gt.cdn.cloudflare.net
 pub.doubleverify.com.cdn.cloudflare.net

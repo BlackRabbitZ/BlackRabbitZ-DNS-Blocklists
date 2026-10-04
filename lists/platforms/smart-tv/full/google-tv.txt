@@ -6,9 +6,7 @@
 # Sources: BRZ google-android-tv.txt
 # Risk: mittel
 # Data method: platform-inheritance
-# Entries: 2
+# Entries: 0
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
-androidtvchannels-pa.googleapis.com
-androidtvwatsonfe-pa.googleapis.com

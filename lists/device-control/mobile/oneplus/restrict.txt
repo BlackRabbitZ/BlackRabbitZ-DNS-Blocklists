@@ -6,16 +6,9 @@
 # Sources: lists/platforms/mobile/full/oneplus.txt + BRZ manufacturer data
 # Risk: high
 # Data status: befuellt
-# Data method: derived-restrict
-# Entries: 8
+# Data method: device-restrict-curated
+# Entries: 1
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
 analytics.oneplus.cn
-click.oneplus.cn
-click.oneplus.com
-deals.getpaingoneplus.io
-extyoneplus-2.com
-extyoneplus-3.com
-oneplus1life.com
-open.oneplus.net

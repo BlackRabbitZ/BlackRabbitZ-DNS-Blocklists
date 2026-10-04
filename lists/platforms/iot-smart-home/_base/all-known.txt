@@ -5,7 +5,7 @@
 # License: GPL-3.0-only; siehe THIRD_PARTY.md fuer Drittquellen
 # Sources: NextDNS Native Tracking Protection; Perflyst PiHoleBlocklist
 # Risk: mittel-hoch
-# Entries: 85
+# Entries: 82
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -14,7 +14,6 @@ analytics.samsungknox.com
 api.mixpanel.com
 api.segment.io
 api2.amplitude.com
-app-measurement.com
 bam.nr-data.net
 bigdata.ssp.samsung.com
 browser-intake-datadoghq.com
@@ -39,7 +38,6 @@ device-metrics-us-2.amazon.com
 device-metrics-us.amazon.com
 devicemessaging.us-east-1.amazon.com
 events.launchdarkly.com
-firebasecrashlytics.googleapis.com
 fls-eu.amazon.com
 fls-na.amazon.com
 grs.dbankcloud.asia
@@ -77,7 +75,6 @@ metrics4.data.hicloud.com
 metrics5.data.hicloud.com
 metrics5.dt.dbankcloud.ru
 metrics6.dt.hicloud.com
-mobileanalytics.us-east-1.amazonaws.com
 msmetrics-test.ws.sonos.com
 msmetrics.ws.sonos.com
 nmetrics.samsung.com

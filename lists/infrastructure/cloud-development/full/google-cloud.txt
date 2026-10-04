@@ -6,57 +6,10 @@
 # Sources: Aus vorhandenen BlackRabbitZ-/dokumentierten HaGeZi-Domains konservativ abgeleitet
 # Risk: variabel
 # Data status: abgeleitet
-# Data method: derived-keyword
-# Entries: 49
+# Data method: curated-privacy
+# Entries: 2
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
-accesspoints.googleapis.com
-android-context-data.googleapis.com
-androidtvchannels-pa.googleapis.com
-androidtvwatsonfe-pa.googleapis.com
-appsgrowthpromo-pa.googleapis.com
-auditrecording-pa.googleapis.com
 bluestacks-cloud-appplayer-logs.storage.googleapis.com
-chromecontentsuggestions-pa.googleapis.com
-chromefeedcontentsuggestions-pa.googleapis.com
-clienttracing-pa.googleapis.com
-clouderrorreporting.googleapis.com
-content-partnersbadge-pa.googleapis.com
-crashlyticsreports-pa.googleapis.com
-dbs-pa.googleapis.com
-device-provisioning.googleapis.com
-fcm-xmpp.googleapis.com
-fcmtoken.googleapis.com
-federatedml-pa.googleapis.com
 feedback-pa.googleapis.com
-findmydevice-pa.googleapis.com
-firebasecrashlytics.googleapis.com
-firebaseinappmessaging.googleapis.com
-firebaselogging-pa.googleapis.com
-firebaselogging.googleapis.com
-firebaseperf.googleapis.com
-footprints-pa.googleapis.com
-geoar.googleapis.com
-geofilter-compress.storage.googleapis.com
-geofilter.storage.googleapis.com
-geomobileservices-pa.googleapis.com
-growth-pa.googleapis.com
-locationhistory-pa.googleapis.com
-locationhistoryaggregates-pa.googleapis.com
-locationhistoryplacedetails-pa.googleapis.com
-mdh-pa.googleapis.com
-mobilecrashreporting.googleapis.com
-mobilenetworkscoring-pa.googleapis.com
-notifications-ueeshp-pa.googleapis.com
-ogads-pa.googleapis.com
-playapprecommendations.googleapis.com
-recommendationengine.googleapis.com
-retail.googleapis.com
-safebrowsing.googleapis.com
-safebrowsingohttpgateway.googleapis.com
-semanticlocation-pa.googleapis.com
-spot-pa.googleapis.com
-ulp1p-pa.googleapis.com
-userlocation.googleapis.com
-xgapromomanager-pa.googleapis.com

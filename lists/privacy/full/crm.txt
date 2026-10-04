@@ -7,13 +7,12 @@
 # Risk: variabel
 # Data status: abgeleitet
 # Data method: derived-keyword
-# Entries: 121
+# Entries: 106
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
 ads.salesforcedevops.net
 adsalesforce.com
-agilecrm-web-stats.appspot.com
 agilecrm.com
 ali-crm.ru
 alicrm.alibaba.com
@@ -23,7 +22,6 @@ analytics.platformcrm.com
 analytics.snapshotcrm.com
 api-crm.miele.com
 api.appexchange.salesforce.com
-api.crm.mandmdirect.com
 beacon.my.salesforce.com
 canidae.introcrm.com
 cdn-crm.miele.com
@@ -42,7 +40,6 @@ crm-preview.dynamicyield.com
 crm.ants.vn
 crm.chambers.com
 crm.childrens.com
-crm.mandmdirect.com
 crm.masonmac.com
 crm.mindic.com
 crm.mobikwik.com
@@ -53,8 +50,6 @@ crm.stickyadstv.com
 crm.studio4.ch
 crm.zenguard.biz
 crm.zohopublic.com
-cta-redirect.hubspot.com
-d.la1-c2-iad.salesforceliveagent.com
 data.crm-edm.thsrc.com.tw
 data.crm.email-favorita.com
 data.crm.lizearle.com
@@ -65,8 +60,6 @@ data.simpleviewcrm.com
 digital-et-crm.com
 directcrm.ru
 e.hertzusa.brierleycrm.com
-ehg-salesforce.hitbox.com
-exceptions.hubspot.com
 fulcrm.com
 go.salesforce-partners.com
 gtm.nectarcrm.com.br
@@ -98,9 +91,6 @@ js.hubspotfeedback.com
 lct.salesforce.com
 load.ss.sunsetboulevard.youngcrm.com
 mbodizyhchqcrm.com
-mdlinx.app4.hubspot.com
-metrics-fe-eu1.hubspot.com
-metrics-fe-na1.hubspot.com
 microsoftwlsearchcrm.112.2o7.net
 mobilecrm.accengage.com
 mpocurull.crm.es
@@ -111,7 +101,6 @@ piwik.crm-illusio.fr
 positiva.limpacrm.com.br
 preview.crm.sms.miui.com
 qgvmfmu.crm.mijn.host
-qubitproducts.app13.hubspot.com
 r.crm.mbn.com
 salesforce.122.2o7.net
 salesforce.com
@@ -120,12 +109,8 @@ salesforcecom.demdex.net
 salesforcecom.tt.omtrdc.net
 server.facilcrm.com.br
 signup.crm.lizearle.com
-static.hubspot.com
 sugarcrm.com
-track-eu1.hubspot.com
 track.dealerminecrm.com
-track.hubspot.com
-tracking.hubspot.com
 ucrm.bounceexchange.com
 unify.my.salesforce.com
 unsub.crm-edm.thsrc.com.tw

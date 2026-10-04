@@ -1,0 +1,7 @@
+# BlackRabbitZ DNS Blocklists
+# List: lists/device-control/gaming/xbox/updates.txt
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; third-party sources: THIRD_PARTY.md
+# Data method: mapped BRZ gaming service updates
+# Entries: 0
+#

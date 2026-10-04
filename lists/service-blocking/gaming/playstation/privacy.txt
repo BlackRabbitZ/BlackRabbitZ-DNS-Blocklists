@@ -6,18 +6,12 @@
 # Sources: lists/apps/gaming/full/playstation.txt
 # Risk: medium
 # Data status: befuellt
-# Data method: derived-service-privacy
-# Entries: 10
+# Data method: service-privacy-curated
+# Entries: 4
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
 a.ad.playstation.net
-cmt.us.playstation.com
-cs.prd.msys.playstation.net
-mercury.dl.playstation.net
 metrics.us.playstation.com
-nsx-e.np.dl.playstation.net
-pdr.eve.sonyentertainmentnetwork.com
-smetrics.aem.playstation.com
 telemetry-web.api.playstation.com
 telemetry.api.playstation.com

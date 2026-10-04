@@ -6,14 +6,9 @@
 # Sources: lists/platforms/streaming/full/disney-plus.txt
 # Risk: medium
 # Data status: befuellt
-# Data method: derived-service-privacy
-# Entries: 6
+# Data method: service-privacy-curated
+# Entries: 1
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
 analytics.disneyplus.com
-disneyplus-tv.com
-em.disneyplus.com
-sanalytics.disneyplus.com
-smetrics-stg.help.disneyplus.com
-smetrics.help.disneyplus.com

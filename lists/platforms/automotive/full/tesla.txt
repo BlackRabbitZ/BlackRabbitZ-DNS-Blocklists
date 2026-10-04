@@ -7,7 +7,7 @@
 # Risk: variabel
 # Data status: abgeleitet
 # Data method: derived-keyword
-# Entries: 12
+# Entries: 11
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -20,6 +20,5 @@ piwik.teslacds.com
 restrictassociateslang.com
 rumcollector.teslamotors.com
 server.teslahenergiasolar.com.br
-stats.teslascout.com
 tesla.tt.omtrdc.net
 znedscsenlrql0rxd-teslamotors.siteintercept.qualtrics.com

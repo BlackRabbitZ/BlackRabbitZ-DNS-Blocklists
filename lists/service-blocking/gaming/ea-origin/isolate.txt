@@ -1,0 +1,33 @@
+# BlackRabbitZ DNS Blocklists
+# Title: ea-origin isolate
+# Description: Maximum known service communication; service/app is expected to stop working.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: lists/service-blocking/gaming/ea-origin/block-all.txt
+# Risk: very high
+# Data status: befuellt
+# Data method: service-isolate
+# Entries: 20
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+adsrv.ea.com
+ea.com
+emapi.prm.data.ea.com
+errors.ea.com
+experimentation-apex.data.ea.com
+experimentation.data.ea.com
+freeform-river.data.ea.com
+heartbeat.dm.origin.com
+mangler1.generals.ea.com
+mangler2.generals.ea.com
+mangler3.generals.ea.com
+mangler4.generals.ea.com
+origin.com
+pin-river.data.ea.com
+reports.tools.gos.ea.com
+river-mobile.data.ea.com
+river.data.ea.com
+rl.data.ea.com
+segmentation-service.data.ea.com
+servserv.generals.ea.com

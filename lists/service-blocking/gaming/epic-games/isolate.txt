@@ -1,0 +1,24 @@
+# BlackRabbitZ DNS Blocklists
+# Title: epic-games isolate
+# Description: Maximum known service communication; service/app is expected to stop working.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: lists/service-blocking/gaming/epic-games/block-all.txt
+# Risk: very high
+# Data status: befuellt
+# Data method: service-isolate
+# Entries: 11
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+datarouter-prod.ak.epicgames.com
+datarouter.ol.epicgames.com
+epicgames.com
+etsource.epicgames.com
+fortnite.com
+link.epicgames.com
+metric-public-service-prod.ol.epicgames.com
+metrics.ol.epicgames.com
+statsproxy-public-service-live.ol.epicgames.com
+tracking.epicgames.com
+unrealengine.com

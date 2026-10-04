@@ -7,12 +7,11 @@
 # Risk: Hoch
 # Data status: befüllt
 # Data method: generated-tier
-# Entries: 311
+# Entries: 249
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
 1681.engine.mobileapptracking.com
-a-graph.facebook.com
 a.applvn.com
 ab.apple.com.akadns.net
 acfeedbackws.icloud.com
@@ -34,15 +33,11 @@ analytics-events.apple.com
 analytics.apple.com
 analytics.google.com
 analytics.icloud.com
-api-adservices.apple.com
 api.branch.io
 api.gameanalytics.com
 api.leanplum.com
 api.msn.com
 api.uca.cloud.unity3d.com
-app-analytics.snapchat.com
-app-measurement.com
-app.adjust.com
 applemediaservices.com
 applvn.com
 appspot-preview.l.google.com
@@ -54,20 +49,14 @@ beacon.shazam.com
 books-analytics-events.apple.com
 books-analytics-events.news.apple-dns.net
 browser.events.data.msn.com
-browser.pipe.aria.microsoft.com
 c.msn.com
-ca.iadsdk.apple.com
 cache.datamart.windows.com
 cdn-xp-ingest-ab.v.aaplimg.com
 cdn-xp-ingest.edge.apple
-cf.iadsdk.apple.com
-choice.microsoft.com
 chromebookaccessories.com
 config.ioam.de
 connect.tapjoy.com
-corp.sts.microsoft.com
 cp.pushwoosh.com
-crashlogs.whatsapp.net
 crashlytics.com
 cstat-origin.apple.com
 cstat.apple.com
@@ -91,7 +80,6 @@ datacollector-dre.dt.hicloud.com
 datacollector-drru.dt.dbankcloud.ru
 datacollector-drru.dt.hicloud.com
 dev.appboy.com
-device-provisioning.googleapis.com
 device.zhiliaoapp.com
 diagassets-lb.apple.com.akadns.net
 diagassets.apple.com
@@ -99,8 +87,6 @@ diagassets.g.aaplimg.com
 diagnostics.apple.com
 diagnostics.apple.com.akadns.net
 diagnostics.support.apple.com
-diagnostics.support.microsoft.com
-dmd.metaservices.microsoft.com
 dz1dt3wqswdezgx4j2ryem5iad.apple.com
 dzc-metrics.mzstatic.com
 e.crashlytics.com
@@ -108,7 +94,6 @@ ecs.nel.measure.office.net
 edge.activity.windows.com
 engine.fyber.com
 engine.mobileapptracking.com
-eu-mobile.events.data.microsoft.com
 euc.adserver.snapads.com
 euw.adserver.snapads.com
 events.appsflyer.com
@@ -117,9 +102,6 @@ events3alt.adcolony.com
 experiments.apple.com
 experiments.apple.com.edgekey.net
 fbs.smoot.apple.com
-fd.api.iris.microsoft.com
-federatedml-pa.googleapis.com
-feedback.search.microsoft.com
 feedback.windows.com
 feedbackassistant.apple.com
 feedbackws.apple.com
@@ -129,18 +111,11 @@ feedbackws.fe2.apple-dns.net
 feedbackws.icloud.com
 feedbackws.icloud.com.cn
 firebase-settings.crashlytics.com
-firebasecrashlytics.googleapis.com
-firebaseinappmessaging.googleapis.com
-firebaselogging.googleapis.com
-firebaseperf.googleapis.com
 flirfvysba2opz0zmzqs5iuiad.apple.com
-functional.events.data.microsoft.com
 gate.hockeyapp.net
 google-analytics.com
 googleads.g.doubleclick.net
 graffiti-tags.apple.com
-graph.accountkit.com
-graph.instagram.com
 grs.dbankcloud.asia
 grs.dbankcloud.cn
 grs.dbankcloud.com
@@ -149,15 +124,11 @@ grs.hicloud.com
 grs.platform.dbankcloud.ru
 h4g3z1-native.apple.web.app
 i.w.inmobi.com
-i1.services.social.microsoft.com
 iad-apple.com.akadns.net
 iad.apple.com
 iadcontent-lb.apple.com.akadns.net
 iadcontent.apple.com
 iadmoo.apple.com
-iadsdk.apple.com
-iadsdk.apple.com.akadns.net
-iadsdk.apple.com.edgekey.net
 iadworkbench.apple.com
 id.google.de
 idiagnostics-mdn1.apple.com
@@ -179,8 +150,6 @@ logservice-dre.platform.hicloud.com
 logservice-drru.dt.hicloud.com
 logservice.hicloud.com
 logservice1.hicloud.com
-m.quantcount.com
-manage.devcenter.microsoft.com
 marketing.services.apple
 me.apple-dns.net
 med.heyzap.com
@@ -208,7 +177,6 @@ metrics5.dt.dbankcloud.ru
 metrics6.dt.hicloud.com
 mobile.events.data.microsoft.com
 mobileapptracking.com
-mqtt-mini.facebook.com
 msc-dct-prod.msc.apple.com
 news-analytics-events.apple.com
 news-app-events.apple.com
@@ -217,7 +185,6 @@ news-notification-events.apple.com
 news-sports-events.apple.com
 notes-analytics-events.apple.com
 notes-analytics-events.news.apple-dns.net
-oca.telemetry.microsoft.com
 ocws.officeapps.live.com
 odc.officeapps.live.com
 odin-signals.apple.com
@@ -245,34 +212,22 @@ proxy-skadnetwork.apple.com
 qwapi.com
 radarsubmissions.apple.com
 radarsubmissions.apple.com.akadns.net
-redir.metaservices.microsoft.com
 reports.crashlytics.com
-ris.api.iris.microsoft.com
 rt.applovin.com
 sa.api.intl.miui.com
-sc-analytics.appspot.com
 sdk.hockeyapp.net
 sdktm.w.inmobi.com
 searchads.apple.com
 searchads.apple.com.edgesuite.net
 searchads.lb-apple.com.akadns.net
 securemetrics-cn.v.aaplimg.com
-securemetrics.apple.com
-securemetrics.apple.com.cn
 securemetrics.v.aaplimg.com
 securemvt.apple.com
 securemvt.v.aaplimg.com
 securepubads.g.doubleclick.net
-self.events.data.microsoft.com
 servicesupport.hicloud.com
-settings-sandbox.data.microsoft.com
-settings-win.data.microsoft.com
 settings.crashlytics.com
-settings.data.microsoft.com
 smoot-feedback.v.aaplimg.com
-spynet2.microsoft.com
-spynetalt.microsoft.com
-sqm.telemetry.microsoft.com
 srtb.msn.com
 ssl.google-analytics.com
 stats.appsflyer.com
@@ -280,35 +235,19 @@ stats.gc.apple.com
 stocks-analytics-events.apple.com
 stocks-analytics-events.news.apple-dns.net
 supersonicads-a.akamaihd.net
-supportmetrics.apple.com
 supportmetrics.v.aaplimg.com
 t.appsflyer.com
-teams.events.data.microsoft.com
-telecommand.telemetry.microsoft.com
 telemetry.appex.bing.net
-telemetry.microsoft.com
-telemetry.urs.microsoft.com
-tr.iadsdk.apple.com
-tr.snapchat.com
 tracking.india.miui.com
 tracking.intl.miui.com
 tracking.miui.com
 tracking.rus.miui.com
-trk.pinterest.com
 tv-analytics-events.apple.com
 uop.umeng.com
 usc.adserver.snapads.com
 utraffic.engine.adglare.net
-v10.events.data.microsoft.com
 v20.events.data.microsoft.com
-vortex-sandbox.data.microsoft.com
-vortex-win.data.microsoft.com
-vortex.data.microsoft.com
-vortex.data.microsoft.com.akadns.net
-watson.events.data.microsoft.com
 watson.live.com
-watson.microsoft.com
-watson.telemetry.microsoft.com
 wd.adcolony.com
 weather-analytics-events.apple.com
 weather-analytics-events.news.apple-dns.net
@@ -316,7 +255,6 @@ ws.tapjoyads.com
 www.googleadservices.com
 www.leanplum.com
 www.qwapi.com
-www.telecommandsvc.microsoft.com
 xp-cdn.apple.com
 xp.apple.com
 xp.apple.com.edgekey.net

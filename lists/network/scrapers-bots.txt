@@ -1,0 +1,73 @@
+# BlackRabbitZ DNS Blocklists
+# List: lists/network/scrapers-bots.txt
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; third-party sources: THIRD_PARTY.md
+# Data method: derived from current BRZ snapshot
+# Entries: 66
+#
+5cdf.spidermobi.com
+ads.crawler.com
+ads1.spiderware.com
+adserver.clubcrawlers.com
+affilicrawler.de
+analytics.spidersmartsystem.com
+badbot-api-production-gateway-cvkfp9ey.uc.gateway.dev
+bidscraper.com
+bq-spider.peco.uodoo.com
+calumnylightlyspider.com
+cardgamespidersolitaire.com
+cdn.pricespider.com
+consent.124-spider-forum.de
+crackspider.net
+crackspider.us
+crawler-dev.algolia.com
+crawler.algolia.com
+crawler.hiido.com
+foolishmenskyscraper.com
+forgetfulspidersantiquity.com
+locate.pricespider.com
+looker.pricespider.com
+lookerstaging.pricespider.com
+marketspiders.com
+maroonspider.com
+mi4crawler.pandora.xiaomi.com
+mightyspiders.com
+msxml.webcrawler.com
+netspiderads2.indiatimes.com
+netspidermm.indiatimes.com
+ns1.libyanspider.com
+ns2.libyanspider.com
+ns3.libyanspider.com
+om.metacrawler.com
+om.webcrawler.com
+piwik.matrixcrawler.net
+pricespider.com
+rabblespidersrenaissance.com
+secretspiders.com
+skyscrapertowel.com
+spider-mich.com
+spider.ad
+spider.af
+spider.capricciocolumbus.org
+spider.hoomie.online
+spider.privacyone.io
+spider.scottw.com
+spider.storiesofchang.com
+spiderads.eu
+spideraf.com
+spiderbait.com
+spiderbook.com
+spiderhood.net
+spidermobi.com
+spidersboats.com
+spidersprimary.com
+spiderwatch.com
+stats.spidermax.eu
+stewspiders.com
+tags.spider-mails.com
+track.pricespider.com
+tracking.spiderbait.com
+tuna.purplespider.com
+umami.odcrawler.xyz
+wtbevents.pricespider.com
+www.spiderbait.com

@@ -1,0 +1,16 @@
+# BlackRabbitZ DNS Blocklists
+# List: lists/block-all/streaming/disney-plus.txt
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; third-party sources: THIRD_PARTY.md
+# Data method: BRZ service-blocking Block All
+# Entries: 9
+#
+analytics.disneyplus.com
+bamgrid.com
+disneyplus.com
+dssott.com
+em.disneyplus.com
+sanalytics.disneyplus.com
+smetrics-stg.help.disneyplus.com
+smetrics.help.disneyplus.com
+www.disneyplus.com

@@ -1,0 +1,17 @@
+# BlackRabbitZ DNS Blocklists
+# List: lists/block-all/social/instagram.txt
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; third-party sources: THIRD_PARTY.md
+# Data method: BRZ service-blocking Block All
+# Entries: 10
+#
+analytics.instagram.com
+badges.instagram.com
+cdninstagram.com
+gateway.instagram.com
+graph-fallback.instagram.com
+graph.instagram.com
+graphql.instagram.com
+i.instagram.com
+instagram.com
+www.instagram.com

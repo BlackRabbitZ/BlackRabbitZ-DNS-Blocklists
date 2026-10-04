@@ -6,12 +6,9 @@
 # Sources: lists/infrastructure/cloud-development/full/vscode.txt
 # Risk: medium
 # Data status: befuellt
-# Data method: derived-service-privacy
-# Entries: 4
+# Data method: service-privacy-curated
+# Entries: 1
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
 analytics.visualstudio.com
-dc.services.visualstudio.com
-jay.howivscode.com
-telemetry.visualstudio.microsoft.com

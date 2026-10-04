@@ -6,14 +6,9 @@
 # Sources: Aus vorhandenen BlackRabbitZ-/dokumentierten HaGeZi-Domains konservativ abgeleitet
 # Risk: variabel
 # Data status: abgeleitet
-# Data method: derived-keyword
-# Entries: 6
+# Data method: curated-privacy
+# Entries: 1
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
-ehg-ubisoft.hitbox.com
-fast.ubisoftca.demdex.net
-fast.ubisoftinternational.demdex.net
 ubisoft.ca1.qualtrics.com
-ubisoftca.demdex.net
-ubisoftinternational.demdex.net

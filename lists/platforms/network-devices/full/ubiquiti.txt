@@ -7,7 +7,7 @@
 # Risk: variabel
 # Data status: abgeleitet
 # Data method: derived-keyword
-# Entries: 301
+# Entries: 299
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -94,7 +94,6 @@ chong.sec.miui.com
 cms.sec.miui.com
 cnaac.getui.com
 cncapi.getui.com
-collect.content.intl.miui.com
 connect.rom.miui.com
 crash-report-service.svc.ui.com
 cse.avlyun.sec.miui.com
@@ -283,7 +282,6 @@ transfer.sec.miui.com
 trial.api.huangye.miui.com
 trizoicaequi.com
 umami.daishoui.com
-unifi-report.ubnt.com
 unifi.corp.exoclick.com
 unified-ter-na.hismarttv.com
 unified.adsafeprotected.com

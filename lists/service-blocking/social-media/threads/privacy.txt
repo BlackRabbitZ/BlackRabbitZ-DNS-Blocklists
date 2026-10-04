@@ -6,18 +6,8 @@
 # Sources: lists/apps/social-media/full/threads.txt
 # Risk: medium
 # Data status: befuellt
-# Data method: derived-service-privacy
-# Entries: 10
+# Data method: service-privacy-curated
+# Entries: 0
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
-cdnthreads.com
-data.connectingthreads.com
-eshsm.amazethreads.com
-scontent-hkg2-1.cdnthreads.com
-scontent-lax1-3.cdnthreads.com
-scontent-nrt1-1.cdnthreads.com
-scontent-sin1-2.cdnthreads.com
-ss.castthreads.com
-static.cdnthreads.com
-tl.reveriethreads.com

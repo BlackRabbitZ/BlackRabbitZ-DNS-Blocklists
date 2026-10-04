@@ -1,4 +1,8 @@
-<p align="right"><a href="README.md">🇩🇪 Deutsch</a> · 🇬🇧 <strong>English</strong></p>
+<p align="right">
+
+<a href="README.md">🇩🇪 Deutsch</a> · 🇬🇧 <strong>English</strong>
+
+</p>
 
 <a id="top"></a>
 
@@ -8,19 +12,21 @@
 
 ### Privacy • Device Isolation • App Blocking • Security • Family • Network Control
 
-![Pi-hole](https://img.shields.io/badge/Pi--hole-Compatible-96060C?logo=pihole&logoColor=white)
-![Format](https://img.shields.io/badge/Format-Plain%20Domains-2ea44f)
+[![Pi-hole](https://img.shields.io/badge/Pi--hole-Compatible-96060C?logo=pihole&logoColor=white)](https://pi-hole.net/)
+[![AdGuard Home](https://img.shields.io/badge/AdGuard%20Home-Compatible-67B279?logo=adguard&logoColor=white)](https://github.com/AdguardTeam/AdGuardHome)
+[![Unbound](https://img.shields.io/badge/Unbound-Compatible-5B6770)](https://nlnetlabs.nl/projects/unbound/about/)
+![Format](https://img.shields.io/badge/Format-Plain%20Domains-2EA44F)
 ![Profiles](https://img.shields.io/badge/Profile-Light%20%7C%20Normal%20%7C%20Pro%20%7C%20Pro%2B%2B%20%7C%20Ultimate-3178C6)
-![Catalog](https://img.shields.io/badge/Catalog-100%20Categories-informational)
+![Catalog](https://img.shields.io/badge/Catalog-100%20Categories-0088CC)
 
-**DNS blocklists with clearly defined behavior:**
+[![Validate](https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/actions/workflows/validate.yml/badge.svg)](https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/actions/workflows/validate.yml)
+[![License](https://img.shields.io/github/license/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists?label=License)](https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/blob/main/LICENSE)
+[![Last Commit](https://img.shields.io/github/last-commit/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists?label=Last%20commit)](https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/commits/main)
+[![Issues](https://img.shields.io/github/issues/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists)](https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/issues)
+[![Repo Size](https://img.shields.io/github/repo-size/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists?label=Repo%20size)](https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists)
+[![Stars](https://img.shields.io/github/stars/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists?style=flat&label=Stars)](https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/stargazers)
 
-🛡️ **Privacy** – block ads, tracking, analytics, telemetry and fingerprinting without intentionally disabling the service  
-⚠️ **Restrict** – further restrict devices and vendors and reduce optional online/cloud functionality  
-🚫 **Isolate** – separate devices from vendor infrastructure as completely as possible  
-🚫 **Block All** – completely block apps and web services  
-🛡️ **Security** – completely block malware, phishing, C2, ransomware and scam infrastructure  
-👨‍👩‍👧 **Family** – completely block NSFW, gambling, drugs, violence/gore, weapons, etc.
+**Modular DNS blocklists with clearly separated protection levels for privacy, devices, apps, security, family and network control.**
 
 </div>
 
@@ -163,11 +169,11 @@ The levels are cumulative. There is **no part/MiB splitting** – each logical p
 
 | Profile | Blocking | Risk | Entries | List |
 |---|---|:---:|---:|---|
-| 🟩 **Light** | conservative | Minimal | **234.015** | [Light](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/profiles/light.txt) |
-| 🟦 **Normal** | balanced | Low | **342.242** | [Normal](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/profiles/normal.txt) |
-| 🟨 **Pro** | privacy | Low–Medium | **371.547** | [Pro](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/profiles/pro.txt) |
-| 🟧 **Pro++** | aggressive | Medium | **383.656** | [Pro++](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/profiles/pro-plus.txt) |
-| 🟥 **Ultimate** | maximum | High | **5.119.303** | [Ultimate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/profiles/ultimate.txt) |
+| 🟩 **Light** | conservative | Minimal | **234,013** | [Light](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/profiles/light.txt) |
+| 🟦 **Normal** | balanced | Low | **342,238** | [Normal](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/profiles/normal.txt) |
+| 🟨 **Pro** | privacy | Low–Medium | **370,387** | [Pro](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/profiles/pro.txt) |
+| 🟧 **Pro++** | aggressive | Medium | **382,467** | [Pro++](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/profiles/pro-plus.txt) |
+| 🟥 **Ultimate** | maximum | High | **5,118,112** | [Ultimate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/profiles/ultimate.txt) |
 
 
 The five profiles build on each other. For normal use, choose **exactly one** level.
@@ -606,11 +612,11 @@ Only **background and privacy endpoints** are blocked here. Websites, apps and d
 
 | Profile | Protection | Risk | Entries | List |
 |---|---|:---:|---:|---|
-| 🟩 **Light** | conservative | Minimal | **32.548** | [Light](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/main/light.txt) |
-| 🟦 **Normal** | balanced | Low | **57.866** | [Normal](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/main/normal.txt) |
-| 🟨 **Pro** | privacy | Low–Medium | **86.969** | [Pro](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/main/pro.txt) |
-| 🟧 **Pro++** | aggressive | Medium | **367.467** | [Pro++](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/main/pro-plus.txt) |
-| 🟥 **Ultimate** | maximum | High | **371.605** | [Ultimate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/main/ultimate.txt) |
+| 🟩 **Light** | conservative | Minimal | **31,392** | [Light](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/main/light.txt) |
+| 🟦 **Normal** | balanced | Low | **55,932** | [Normal](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/main/normal.txt) |
+| 🟨 **Pro** | privacy | Low–Medium | **83,565** | [Pro](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/main/pro.txt) |
+| 🟧 **Pro++** | aggressive | Medium | **344,214** | [Pro++](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/main/pro-plus.txt) |
+| 🟥 **Ultimate** | maximum | High | **348,192** | [Ultimate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/main/ultimate.txt) |
 
 > **Privacy & Tracking – Ultimate:** This level contains the union of all full/special lists in the **Privacy & Tracking** area. Lower levels are cumulative, risk-based subsets.
 
@@ -621,35 +627,35 @@ Only **background and privacy endpoints** are blocked here. Websites, apps and d
 
 | List | Entries | Status | Full List |
 |---|---:|:---:|---|
-| **Ads (Advertising)** | **234.019** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/ads.txt) |
-| **Pop-Up Ads** | **517** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/pop-up-ads.txt) |
-| **Affiliate Tracking** | **643** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/affiliate-tracking.txt) |
+| **Ads (Advertising)** | **218,123** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/ads.txt) |
+| **Pop-Up Ads** | **512** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/pop-up-ads.txt) |
+| **Affiliate Tracking** | **608** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/affiliate-tracking.txt) |
 | **Aggressive Privacy** | **652** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/aggressivee-privacy.txt) |
-| **Analytics** | **35.903** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/analytics.txt) |
-| **Captcha Antibot** | **379** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/captcha-antibot.txt) |
-| **Cdn Tracking** | **20** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/cdn-tracking.txt) |
-| **Chat Support** | **64** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/chat-support.txt) |
-| **Consent Cmp** | **46** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/consent-cmp.txt) |
-| **Crash Reporting** | **98** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/crash-reporting.txt) |
-| **Crm** | **121** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/crm.txt) |
-| **Ecommerce** | **44** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/ecommerce.txt) |
+| **Analytics** | **34,728** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/analytics.txt) |
+| **Captcha Antibot** | **378** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/captcha-antibot.txt) |
+| **Cdn Tracking** | **19** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/cdn-tracking.txt) |
+| **Chat Support** | **49** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/chat-support.txt) |
+| **Consent Cmp** | **41** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/consent-cmp.txt) |
+| **Crash Reporting** | **85** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/crash-reporting.txt) |
+| **Crm** | **106** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/crm.txt) |
+| **Ecommerce** | **42** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/ecommerce.txt) |
 | **External Fonts** | **3** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/external-fonts.txt) |
-| **Fingerprinting** | **14** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/fingerprinting.txt) |
-| **Marketing** | **2.060** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/marketing.txt) |
-| **Mobile Tracking** | **235** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/mobile-tracking.txt) |
-| **Native Tracking** | **628** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/native-tracking.txt) |
-| **Newsletter Tracking** | **166** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/newsletter-tracking.txt) |
+| **Fingerprinting** | **10** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/fingerprinting.txt) |
+| **Marketing** | **2,004** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/marketing.txt) |
+| **Mobile Tracking** | **208** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/mobile-tracking.txt) |
+| **Native Tracking** | **587** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/native-tracking.txt) |
+| **Newsletter Tracking** | **156** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/newsletter-tracking.txt) |
 | **Payment Tracking** | **17** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/payment-tracking.txt) |
-| **Push Notifications** | **74** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/push-notifications.txt) |
-| **Recommendations** | **362** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/recommendations.txt) |
+| **Push Notifications** | **73** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/push-notifications.txt) |
+| **Recommendations** | **360** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/recommendations.txt) |
 | **Search Tracking** | **1** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/search-tracking.txt) |
 | **Seo Tracking** | **115** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/seo-tracking.txt) |
-| **Session Replay** | **212** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/session-replay.txt) |
-| **Social Tracking** | **99** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/social-tracking.txt) |
-| **Telemetry** | **29.181** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/telemetry.txt) |
-| **Trackers** | **113.609** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/trackers.txt) |
-| **Tracking Pixels** | **927** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/tracking-pixels.txt) |
-| **Tracking Redirects** | **377** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/tracking-redirects.txt) |
+| **Session Replay** | **195** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/session-replay.txt) |
+| **Social Tracking** | **29** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/social-tracking.txt) |
+| **Telemetry** | **27,984** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/telemetry.txt) |
+| **Trackers** | **106,915** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/trackers.txt) |
+| **Tracking Pixels** | **866** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/tracking-pixels.txt) |
+| **Tracking Redirects** | **306** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/tracking-redirects.txt) |
 
 </details>
 
@@ -664,11 +670,11 @@ Only **background and privacy endpoints** are blocked here. Websites, apps and d
 
 | Profile | Protection | Risk | Entries | List |
 |---|---|:---:|---:|---|
-| 🟩 **Light** | conservative | Minimal | **75** | [Light](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/software-hardware-telemetry/main/light.txt) |
-| 🟦 **Normal** | balanced | Low | **75** | [Normal](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/software-hardware-telemetry/main/normal.txt) |
-| 🟨 **Pro** | privacy | Low–Medium | **80** | [Pro](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/software-hardware-telemetry/main/pro.txt) |
-| 🟧 **Pro++** | aggressive | Medium | **80** | [Pro++](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/software-hardware-telemetry/main/pro-plus.txt) |
-| 🟥 **Ultimate** | maximum | High | **85** | [Ultimate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/software-hardware-telemetry/main/ultimate.txt) |
+| 🟩 **Light** | conservative | Minimal | **73** | [Light](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/software-hardware-telemetry/main/light.txt) |
+| 🟦 **Normal** | balanced | Low | **73** | [Normal](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/software-hardware-telemetry/main/normal.txt) |
+| 🟨 **Pro** | privacy | Low–Medium | **78** | [Pro](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/software-hardware-telemetry/main/pro.txt) |
+| 🟧 **Pro++** | aggressive | Medium | **78** | [Pro++](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/software-hardware-telemetry/main/pro-plus.txt) |
+| 🟥 **Ultimate** | maximum | High | **83** | [Ultimate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/software-hardware-telemetry/main/ultimate.txt) |
 
 <details>
 <summary><strong>📂 Show vendor behavior lists</strong></summary>
@@ -740,11 +746,11 @@ Devices and vendors use separate behavior levels: **Privacy** for tracking/telem
 
 | Profile | Protection | Risk | Entries | List |
 |---|---|:---:|---:|---|
-| 🟩 **Light** | conservative | Minimal | **346** | [Light](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/smart-tv/main/light.txt) |
-| 🟦 **Normal** | balanced | Low | **362** | [Normal](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/smart-tv/main/normal.txt) |
-| 🟨 **Pro** | privacy | Low–Medium | **455** | [Pro](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/smart-tv/main/pro.txt) |
-| 🟧 **Pro++** | aggressive | Medium | **637** | [Pro++](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/smart-tv/main/pro-plus.txt) |
-| 🟥 **Ultimate** | maximum | High | **649** | [Ultimate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/smart-tv/main/ultimate.txt) |
+| 🟩 **Light** | conservative | Minimal | **344** | [Light](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/smart-tv/main/light.txt) |
+| 🟦 **Normal** | balanced | Low | **359** | [Normal](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/smart-tv/main/normal.txt) |
+| 🟨 **Pro** | privacy | Low–Medium | **451** | [Pro](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/smart-tv/main/pro.txt) |
+| 🟧 **Pro++** | aggressive | Medium | **622** | [Pro++](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/smart-tv/main/pro-plus.txt) |
+| 🟥 **Ultimate** | maximum | High | **634** | [Ultimate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/smart-tv/main/ultimate.txt) |
 
 <details>
 <summary><strong>📂 Show behavior lists</strong></summary>
@@ -784,10 +790,10 @@ Devices and vendors use separate behavior levels: **Privacy** for tracking/telem
 | Profile | Protection | Risk | Entries | List |
 |---|---|:---:|---:|---|
 | 🟩 **Light** | conservative | Minimal | **391** | [Light](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/mobile/main/light.txt) |
-| 🟦 **Normal** | balanced | Low | **445** | [Normal](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/mobile/main/normal.txt) |
-| 🟨 **Pro** | privacy | Low–Medium | **531** | [Pro](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/mobile/main/pro.txt) |
-| 🟧 **Pro++** | aggressive | Medium | **993** | [Pro++](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/mobile/main/pro-plus.txt) |
-| 🟥 **Ultimate** | maximum | High | **1.004** | [Ultimate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/mobile/main/ultimate.txt) |
+| 🟦 **Normal** | balanced | Low | **442** | [Normal](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/mobile/main/normal.txt) |
+| 🟨 **Pro** | privacy | Low–Medium | **518** | [Pro](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/mobile/main/pro.txt) |
+| 🟧 **Pro++** | aggressive | Medium | **939** | [Pro++](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/mobile/main/pro-plus.txt) |
+| 🟥 **Ultimate** | maximum | High | **945** | [Ultimate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/mobile/main/ultimate.txt) |
 
 <details>
 <summary><strong>📂 Show behavior lists</strong></summary>
@@ -826,10 +832,10 @@ Devices and vendors use separate behavior levels: **Privacy** for tracking/telem
 | Profile | Protection | Risk | Entries | List |
 |---|---|:---:|---:|---|
 | 🟩 **Light** | conservative | Minimal | **20** | [Light](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/operating-systems/main/light.txt) |
-| 🟦 **Normal** | balanced | Low | **48** | [Normal](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/operating-systems/main/normal.txt) |
-| 🟨 **Pro** | privacy | Low–Medium | **104** | [Pro](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/operating-systems/main/pro.txt) |
-| 🟧 **Pro++** | aggressive | Medium | **302** | [Pro++](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/operating-systems/main/pro-plus.txt) |
-| 🟥 **Ultimate** | maximum | High | **311** | [Ultimate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/operating-systems/main/ultimate.txt) |
+| 🟦 **Normal** | balanced | Low | **45** | [Normal](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/operating-systems/main/normal.txt) |
+| 🟨 **Pro** | privacy | Low–Medium | **89** | [Pro](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/operating-systems/main/pro.txt) |
+| 🟧 **Pro++** | aggressive | Medium | **244** | [Pro++](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/operating-systems/main/pro-plus.txt) |
+| 🟥 **Ultimate** | maximum | High | **249** | [Ultimate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/operating-systems/main/ultimate.txt) |
 
 <details>
 <summary><strong>📂 Show behavior lists</strong></summary>
@@ -864,10 +870,10 @@ Devices and vendors use separate behavior levels: **Privacy** for tracking/telem
 | Profile | Protection | Risk | Entries | List |
 |---|---|:---:|---:|---|
 | 🟩 **Light** | conservative | Minimal | **2** | [Light](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/iot-smart-home/main/light.txt) |
-| 🟦 **Normal** | balanced | Low | **13** | [Normal](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/iot-smart-home/main/normal.txt) |
-| 🟨 **Pro** | privacy | Low–Medium | **29** | [Pro](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/iot-smart-home/main/pro.txt) |
-| 🟧 **Pro++** | aggressive | Medium | **82** | [Pro++](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/iot-smart-home/main/pro-plus.txt) |
-| 🟥 **Ultimate** | maximum | High | **85** | [Ultimate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/iot-smart-home/main/ultimate.txt) |
+| 🟦 **Normal** | balanced | Low | **11** | [Normal](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/iot-smart-home/main/normal.txt) |
+| 🟨 **Pro** | privacy | Low–Medium | **26** | [Pro](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/iot-smart-home/main/pro.txt) |
+| 🟧 **Pro++** | aggressive | Medium | **79** | [Pro++](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/iot-smart-home/main/pro-plus.txt) |
+| 🟥 **Ultimate** | maximum | High | **82** | [Ultimate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/iot-smart-home/main/ultimate.txt) |
 
 <details>
 <summary><strong>📂 Show behavior lists</strong></summary>
@@ -902,9 +908,9 @@ Devices and vendors use separate behavior levels: **Privacy** for tracking/telem
 |---|---|:---:|---:|---|
 | 🟩 **Light** | conservative | Minimal | **7** | [Light](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/voice-assistants/main/light.txt) |
 | 🟦 **Normal** | balanced | Low | **16** | [Normal](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/voice-assistants/main/normal.txt) |
-| 🟨 **Pro** | privacy | Low–Medium | **38** | [Pro](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/voice-assistants/main/pro.txt) |
-| 🟧 **Pro++** | aggressive | Medium | **107** | [Pro++](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/voice-assistants/main/pro-plus.txt) |
-| 🟥 **Ultimate** | maximum | High | **112** | [Ultimate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/voice-assistants/main/ultimate.txt) |
+| 🟨 **Pro** | privacy | Low–Medium | **37** | [Pro](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/voice-assistants/main/pro.txt) |
+| 🟧 **Pro++** | aggressive | Medium | **103** | [Pro++](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/voice-assistants/main/pro-plus.txt) |
+| 🟥 **Ultimate** | maximum | High | **108** | [Ultimate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/voice-assistants/main/ultimate.txt) |
 
 <details>
 <summary><strong>📂 Show behavior lists</strong></summary>
@@ -936,10 +942,10 @@ Devices and vendors use separate behavior levels: **Privacy** for tracking/telem
 | Profile | Protection | Risk | Entries | List |
 |---|---|:---:|---:|---|
 | 🟩 **Light** | conservative | Minimal | **42** | [Light](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/automotive/main/light.txt) |
-| 🟦 **Normal** | balanced | Low | **105** | [Normal](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/automotive/main/normal.txt) |
-| 🟨 **Pro** | privacy | Low–Medium | **188** | [Pro](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/automotive/main/pro.txt) |
-| 🟧 **Pro++** | aggressive | Medium | **663** | [Pro++](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/automotive/main/pro-plus.txt) |
-| 🟥 **Ultimate** | maximum | High | **665** | [Ultimate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/automotive/main/ultimate.txt) |
+| 🟦 **Normal** | balanced | Low | **102** | [Normal](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/automotive/main/normal.txt) |
+| 🟨 **Pro** | privacy | Low–Medium | **177** | [Pro](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/automotive/main/pro.txt) |
+| 🟧 **Pro++** | aggressive | Medium | **617** | [Pro++](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/automotive/main/pro-plus.txt) |
+| 🟥 **Ultimate** | maximum | High | **619** | [Ultimate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/automotive/main/ultimate.txt) |
 
 <details>
 <summary><strong>📂 Show behavior lists</strong></summary>
@@ -975,8 +981,8 @@ Devices and vendors use separate behavior levels: **Privacy** for tracking/telem
 | 🟩 **Light** | conservative | Minimal | **1** | [Light](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/nas-server/main/light.txt) |
 | 🟦 **Normal** | balanced | Low | **3** | [Normal](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/nas-server/main/normal.txt) |
 | 🟨 **Pro** | privacy | Low–Medium | **11** | [Pro](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/nas-server/main/pro.txt) |
-| 🟧 **Pro++** | aggressive | Medium | **63** | [Pro++](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/nas-server/main/pro-plus.txt) |
-| 🟥 **Ultimate** | maximum | High | **65** | [Ultimate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/nas-server/main/ultimate.txt) |
+| 🟧 **Pro++** | aggressive | Medium | **53** | [Pro++](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/nas-server/main/pro-plus.txt) |
+| 🟥 **Ultimate** | maximum | High | **55** | [Ultimate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/nas-server/main/ultimate.txt) |
 
 <details>
 <summary><strong>📂 Show behavior lists</strong></summary>
@@ -1012,10 +1018,10 @@ Devices and vendors use separate behavior levels: **Privacy** for tracking/telem
 | Profile | Protection | Risk | Entries | List |
 |---|---|:---:|---:|---|
 | 🟩 **Light** | conservative | Minimal | **11** | [Light](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/network-devices/main/light.txt) |
-| 🟦 **Normal** | balanced | Low | **49** | [Normal](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/network-devices/main/normal.txt) |
-| 🟨 **Pro** | privacy | Low–Medium | **75** | [Pro](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/network-devices/main/pro.txt) |
-| 🟧 **Pro++** | aggressive | Medium | **375** | [Pro++](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/network-devices/main/pro-plus.txt) |
-| 🟥 **Ultimate** | maximum | High | **401** | [Ultimate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/network-devices/main/ultimate.txt) |
+| 🟦 **Normal** | balanced | Low | **48** | [Normal](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/network-devices/main/normal.txt) |
+| 🟨 **Pro** | privacy | Low–Medium | **73** | [Pro](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/network-devices/main/pro.txt) |
+| 🟧 **Pro++** | aggressive | Medium | **370** | [Pro++](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/network-devices/main/pro-plus.txt) |
+| 🟥 **Ultimate** | maximum | High | **396** | [Ultimate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/network-devices/main/ultimate.txt) |
 
 <details>
 <summary><strong>📂 Show behavior lists</strong></summary>
@@ -1053,9 +1059,9 @@ Devices and vendors use separate behavior levels: **Privacy** for tracking/telem
 |---|---|:---:|---:|---|
 | 🟩 **Light** | conservative | Minimal | **5** | [Light](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/providers/main/light.txt) |
 | 🟦 **Normal** | balanced | Low | **39** | [Normal](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/providers/main/normal.txt) |
-| 🟨 **Pro** | privacy | Low–Medium | **72** | [Pro](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/providers/main/pro.txt) |
-| 🟧 **Pro++** | aggressive | Medium | **171** | [Pro++](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/providers/main/pro-plus.txt) |
-| 🟥 **Ultimate** | maximum | High | **171** | [Ultimate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/providers/main/ultimate.txt) |
+| 🟨 **Pro** | privacy | Low–Medium | **71** | [Pro](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/providers/main/pro.txt) |
+| 🟧 **Pro++** | aggressive | Medium | **166** | [Pro++](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/providers/main/pro-plus.txt) |
+| 🟥 **Ultimate** | maximum | High | **166** | [Ultimate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/providers/main/ultimate.txt) |
 
 <details>
 <summary><strong>📂 Show behavior lists</strong></summary>
@@ -1088,11 +1094,11 @@ Devices and vendors use separate behavior levels: **Privacy** for tracking/telem
 
 | Profile | Protection | Risk | Entries | List |
 |---|---|:---:|---:|---|
-| 🟩 **Light** | conservative | Minimal | **11.912** | [Light](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/ecosystems/main/light.txt) |
-| 🟦 **Normal** | balanced | Low | **12.074** | [Normal](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/ecosystems/main/normal.txt) |
-| 🟨 **Pro** | privacy | Low–Medium | **12.357** | [Pro](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/ecosystems/main/pro.txt) |
-| 🟧 **Pro++** | aggressive | Medium | **15.410** | [Pro++](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/ecosystems/main/pro-plus.txt) |
-| 🟥 **Ultimate** | maximum | High | **15.462** | [Ultimate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/ecosystems/main/ultimate.txt) |
+| 🟩 **Light** | conservative | Minimal | **11,912** | [Light](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/ecosystems/main/light.txt) |
+| 🟦 **Normal** | balanced | Low | **12,074** | [Normal](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/ecosystems/main/normal.txt) |
+| 🟨 **Pro** | privacy | Low–Medium | **12,357** | [Pro](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/ecosystems/main/pro.txt) |
+| 🟧 **Pro++** | aggressive | Medium | **15,410** | [Pro++](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/ecosystems/main/pro-plus.txt) |
+| 🟥 **Ultimate** | maximum | High | **15,462** | [Ultimate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/ecosystems/main/ultimate.txt) |
 
 <details>
 <summary><strong>📂 Show behavior lists</strong></summary>
@@ -1162,11 +1168,11 @@ For apps and services, **Privacy** and **Block All** are separate. Privacy reduc
 
 | Profile | Protection | Risk | Entries | List |
 |---|---|:---:|---:|---|
-| 🟩 **Light** | conservative | Minimal | **12** | [Light](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/streaming/main/light.txt) |
-| 🟦 **Normal** | balanced | Low | **24** | [Normal](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/streaming/main/normal.txt) |
-| 🟨 **Pro** | privacy | Low–Medium | **45** | [Pro](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/streaming/main/pro.txt) |
-| 🟧 **Pro++** | aggressive | Medium | **280** | [Pro++](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/streaming/main/pro-plus.txt) |
-| 🟥 **Ultimate** | maximum | High | **301** | [Ultimate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/streaming/main/ultimate.txt) |
+| 🟩 **Light** | conservative | Minimal | **7** | [Light](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/streaming/main/light.txt) |
+| 🟦 **Normal** | balanced | Low | **13** | [Normal](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/streaming/main/normal.txt) |
+| 🟨 **Pro** | privacy | Low–Medium | **27** | [Pro](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/streaming/main/pro.txt) |
+| 🟧 **Pro++** | aggressive | Medium | **39** | [Pro++](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/streaming/main/pro-plus.txt) |
+| 🟥 **Ultimate** | maximum | High | **44** | [Ultimate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/platforms/streaming/main/ultimate.txt) |
 
 <details>
 <summary><strong>📂 Show behavior lists</strong></summary>
@@ -1203,11 +1209,11 @@ For apps and services, **Privacy** and **Block All** are separate. Privacy reduc
 
 | Profile | Protection | Risk | Entries | List |
 |---|---|:---:|---:|---|
-| 🟩 **Light** | conservative | Minimal | **26** | [Light](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/apps/gaming/main/light.txt) |
-| 🟦 **Normal** | balanced | Low | **75** | [Normal](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/apps/gaming/main/normal.txt) |
-| 🟨 **Pro** | privacy | Low–Medium | **123** | [Pro](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/apps/gaming/main/pro.txt) |
-| 🟧 **Pro++** | aggressive | Medium | **379** | [Pro++](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/apps/gaming/main/pro-plus.txt) |
-| 🟥 **Ultimate** | maximum | High | **385** | [Ultimate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/apps/gaming/main/ultimate.txt) |
+| 🟩 **Light** | conservative | Minimal | **2** | [Light](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/apps/gaming/main/light.txt) |
+| 🟦 **Normal** | balanced | Low | **30** | [Normal](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/apps/gaming/main/normal.txt) |
+| 🟨 **Pro** | privacy | Low–Medium | **42** | [Pro](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/apps/gaming/main/pro.txt) |
+| 🟧 **Pro++** | aggressive | Medium | **46** | [Pro++](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/apps/gaming/main/pro-plus.txt) |
+| 🟥 **Ultimate** | maximum | High | **50** | [Ultimate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/apps/gaming/main/ultimate.txt) |
 
 <details>
 <summary><strong>📂 Show platform behavior lists</strong></summary>
@@ -1247,11 +1253,11 @@ For apps and services, **Privacy** and **Block All** are separate. Privacy reduc
 
 | Profile | Protection | Risk | Entries | List |
 |---|---|:---:|---:|---|
-| 🟩 **Light** | conservative | Minimal | **1.097** | [Light](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/apps/social-media/main/light.txt) |
-| 🟦 **Normal** | balanced | Low | **1.789** | [Normal](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/apps/social-media/main/normal.txt) |
-| 🟨 **Pro** | privacy | Low–Medium | **3.145** | [Pro](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/apps/social-media/main/pro.txt) |
-| 🟧 **Pro++** | aggressive | Medium | **21.441** | [Pro++](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/apps/social-media/main/pro-plus.txt) |
-| 🟥 **Ultimate** | maximum | High | **21.588** | [Ultimate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/apps/social-media/main/ultimate.txt) |
+| 🟩 **Light** | conservative | Minimal | **14** | [Light](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/apps/social-media/main/light.txt) |
+| 🟦 **Normal** | balanced | Low | **26** | [Normal](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/apps/social-media/main/normal.txt) |
+| 🟨 **Pro** | privacy | Low–Medium | **30** | [Pro](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/apps/social-media/main/pro.txt) |
+| 🟧 **Pro++** | aggressive | Medium | **47** | [Pro++](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/apps/social-media/main/pro-plus.txt) |
+| 🟥 **Ultimate** | maximum | High | **47** | [Ultimate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/apps/social-media/main/ultimate.txt) |
 
 <details>
 <summary><strong>📂 Show behavior lists</strong></summary>
@@ -1291,8 +1297,8 @@ For apps and services, **Privacy** and **Block All** are separate. Privacy reduc
 | 🟩 **Light** | conservative | Minimal | **65** | [Light](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/infrastructure/cloud-development/main/light.txt) |
 | 🟦 **Normal** | balanced | Low | **165** | [Normal](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/infrastructure/cloud-development/main/normal.txt) |
 | 🟨 **Pro** | privacy | Low–Medium | **301** | [Pro](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/infrastructure/cloud-development/main/pro.txt) |
-| 🟧 **Pro++** | aggressive | Medium | **1.486** | [Pro++](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/infrastructure/cloud-development/main/pro-plus.txt) |
-| 🟥 **Ultimate** | maximum | High | **1.491** | [Ultimate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/infrastructure/cloud-development/main/ultimate.txt) |
+| 🟧 **Pro++** | aggressive | Medium | **1,486** | [Pro++](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/infrastructure/cloud-development/main/pro-plus.txt) |
+| 🟥 **Ultimate** | maximum | High | **1,491** | [Ultimate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/infrastructure/cloud-development/main/ultimate.txt) |
 
 <details>
 <summary><strong>📂 Show behavior lists</strong></summary>
@@ -1337,11 +1343,11 @@ These areas are deliberate **domain-blocking lists**. A match should not be reac
 
 | Profile | Protection | Risk | Entries | List |
 |---|---|:---:|---:|---|
-| 🟩 **Light** | conservative | Minimal | **998.924** | [Light](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/family/main/light.txt) |
-| 🟦 **Normal** | balanced | Low | **1.419.159** | [Normal](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/family/main/normal.txt) |
-| 🟨 **Pro** | privacy | Low–Medium | **1.430.117** | [Pro](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/family/main/pro.txt) |
-| 🟧 **Pro++** | aggressive | Medium | **1.769.650** | [Pro++](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/family/main/pro-plus.txt) |
-| 🟥 **Ultimate** | maximum | High | **2.347.190** | [Ultimate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/family/main/ultimate.txt) |
+| 🟩 **Light** | conservative | Minimal | **998,924** | [Light](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/family/main/light.txt) |
+| 🟦 **Normal** | balanced | Low | **1,419,159** | [Normal](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/family/main/normal.txt) |
+| 🟨 **Pro** | privacy | Low–Medium | **1,430,117** | [Pro](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/family/main/pro.txt) |
+| 🟧 **Pro++** | aggressive | Medium | **1,769,650** | [Pro++](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/family/main/pro-plus.txt) |
+| 🟥 **Ultimate** | maximum | High | **2,347,190** | [Ultimate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/family/main/ultimate.txt) |
 
 #### Full Content Lists
 
@@ -1350,13 +1356,13 @@ These areas are deliberate **domain-blocking lists**. A match should not be reac
 
 | List | Entries | Status | Link |
 |---|---:|:---:|---|
-| **Adult** | **998.924** | ✅ | [List](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/family/content/adult.txt) |
+| **Adult** | **998,924** | ✅ | [List](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/family/content/adult.txt) |
 | **Dating** | **40** | ✅ | [List](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/family/content/dating.txt) |
 | **Drugs** | **55** | ✅ | [List](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/family/content/drugs.txt) |
-| **Gambling** | **420.536** | ✅ | [List](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/family/content/gambling.txt) |
+| **Gambling** | **420,536** | ✅ | [List](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/family/content/gambling.txt) |
 | **Misinformation** | **0** | 🟡 | [List](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/family/content/misinformation.txt) |
 | **Piracy** | **58** | ✅ | [List](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/family/content/piracy.txt) |
-| **Sexual Content** | **998.924** | ✅ | [List](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/family/content/sexual-content.txt) |
+| **Sexual Content** | **998,924** | ✅ | [List](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/family/content/sexual-content.txt) |
 | **Torrents** | **44** | ✅ | [List](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/family/content/torrents.txt) |
 | **Violence Gore** | **53** | ✅ | [List](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/family/content/violence-gore.txt) |
 | **Weapons** | **89** | ✅ | [List](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/family/content/weapons.txt) |
@@ -1389,19 +1395,127 @@ These areas are deliberate **domain-blocking lists**. A match should not be reac
 The base allowlist includes, among others, fragFINN, Blinde Kuh, Seitenstark, Internet-ABC, KiKA, Kikaninchen, WDR Maus, Kindernetz, Kinderfilmwelt, HanisauLand, Kinderzeitmaschine, LegaKids, Meine Forscherwelt, Klassewasser, Abenteuer Regenwald, Naturdetektive, Ohrka and Auditorix.
 
 <a id="kids-anleitung"></a>
-#### 🛠️ Pi-hole v6 – Guide
+<details>
+<summary><strong>🛠️ Pi-hole v6+: Set up Kids Allow Only</strong></summary>
 
-1. Create a `Kids-AllowOnly` group.
-2. Assign children's devices to this group; deliberately verify the default group assignment.
-3. Assign the RAW URL of `family/kids-allow-only/kids-de.txt` as a **Subscribed Allowlist** only to the Kids group.
-4. Assign the regex denylist `.*` only to the same group.
-5. Update Gravity/lists.
-6. Test one allowed and one non-allowed domain.
-7. Check blocked auxiliary hosts of allowed sites in the Query Log and add only clearly required hosts to `kids-runtime-de.txt`.
-8. Do not broadly allow entire CDN/cloud zones.
-9. Account for IPv4, IPv6 and possible DoH/DoT/VPN bypass.
+> **Principle:** Create a dedicated Pi-hole group for children's devices.  
+> This group receives a **Regex Deny rule `.*`**, which blocks everything by default.  
+> Then add **exactly one Kids Allow Only list as a subscribed allowlist**.  
+> This means only explicitly allowed domains are reachable.
 
-> **Warning:** Never accidentally assign `.*` to the normal default group.
+### 1. Give the child device a stable identity
+
+Use a **static IP address or DHCP reservation** whenever possible so Pi-hole can always assign the device to the correct group.
+
+Example:
+
+`192.168.178.50` → child's tablet
+
+### 2. Create a dedicated Pi-hole group
+
+In Pi-hole:
+
+**Group Management → Groups → Add Group**
+
+Example name:
+
+`Kids-Allow-Only`
+
+### 3. Assign the child device to the group
+
+Go to:
+
+**Group Management → Clients**
+
+Add the device and assign it only to the **Kids-Allow-Only** group.
+
+> **Recommendation:** Remove the device from the `Default` group so normal network rules do not unexpectedly interfere with the Allow Only profile.
+
+### 4. Choose the Kids allowlist
+
+Use the appropriate list from this section.
+
+Open the desired list on GitHub, click **Raw**, and copy the Raw URL.
+
+### 5. Add the list as a subscribed allowlist
+
+In **Pi-hole v6+**, add the copied Raw URL as a **Subscribed Allowlist**.
+
+Important:
+
+- Type: **Allow**
+- Group: **only `Kids-Allow-Only`**
+- do not assign it to the normal `Default` group
+
+### 6. Block everything else
+
+Go to:
+
+**Group Management → Domains**
+
+Create a new **Regex Denylist** entry:
+
+```text
+.*
+```
+
+Assign this rule **only** to the `Kids-Allow-Only` group.
+
+> ⚠️ **Never assign `.*` to the `Default` group by mistake.**  
+> Otherwise, you will effectively block the entire internet for every device using that group.
+
+### 7. Update Gravity
+
+Refresh Pi-hole's lists after making the changes.
+
+Using the Pi-hole web interface or from the terminal:
+
+```bash
+pihole updateGravity
+```
+
+### 8. Test the setup
+
+On the child device, test:
+
+- a domain from the allowlist → **must work**
+- a domain that is not allowed → **must be blocked**
+
+Use the **Query Log** to see which domains were allowed or blocked.
+
+### 9. If an allowed website does not work completely
+
+Many websites require additional domains for images, video, login, APIs, or CDNs.
+
+If an allowed website does not load correctly:
+
+1. Open the website.
+2. Watch the Pi-hole **Query Log**.
+3. Check which required domains are being blocked.
+4. Allow only domains that are clearly necessary.
+5. Add those domains to the appropriate Kids list or runtime allowlist.
+
+> Do not broadly allow complete CDN or cloud zones. Doing so can weaken the Allow Only model.
+
+### 10. Prevent bypassing
+
+Kids Allow Only only works reliably if the device **actually uses Pi-hole as its DNS resolver**.
+
+For more tightly controlled child devices, also consider:
+
+- blocking external DNS at the router/firewall
+- restricting DoH / DoT / Private DNS
+- restricting VPN / proxy bypass methods
+- covering both IPv4 **and** IPv6
+
+DNS filtering alone is not a complete replacement for firewall, device-management, or parental-control policies.
+
+### Pi-hole v5
+
+Direct subscription to external **allowlists** was introduced with **Pi-hole v6**.  
+With Pi-hole v5, allowed domains must be added individually or imported using a separate mechanism.
+
+</details>
 
 <p align="right"><a href="#kinderschutz-navigation">⬆️ Family table of contents</a></p>
 
@@ -1420,11 +1534,11 @@ The base allowlist includes, among others, fragFINN, Blinde Kuh, Seitenstark, In
 
 | Profile | Protection | Risk | Entries | List |
 |---|---|:---:|---:|---|
-| 🟩 **Light** | conservative | Minimal | **10.960** | [Light](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/main/light.txt) |
-| 🟦 **Normal** | balanced | Low | **17.081** | [Normal](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/main/normal.txt) |
-| 🟨 **Pro** | privacy | Low–Medium | **594.410** | [Pro](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/main/pro.txt) |
-| 🟧 **Pro++** | aggressive | Medium | **844.669** | [Pro++](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/main/pro-plus.txt) |
-| 🟥 **Ultimate** | maximum | High | **3.408.596** | [Ultimate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/main/ultimate.txt) |
+| 🟩 **Light** | conservative | Minimal | **10,960** | [Light](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/main/light.txt) |
+| 🟦 **Normal** | balanced | Low | **17,081** | [Normal](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/main/normal.txt) |
+| 🟨 **Pro** | privacy | Low–Medium | **594,410** | [Pro](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/main/pro.txt) |
+| 🟧 **Pro++** | aggressive | Medium | **844,669** | [Pro++](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/main/pro-plus.txt) |
+| 🟥 **Ultimate** | maximum | High | **3,408,596** | [Ultimate](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/main/ultimate.txt) |
 
 #### Full / Special Lists
 
@@ -1433,11 +1547,11 @@ The base allowlist includes, among others, fragFINN, Blinde Kuh, Seitenstark, In
 
 | List | Entries | Status | Full List |
 |---|---:|:---:|---|
-| **Abuse** | **116.920** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/abuse.txt) |
-| **Brand Impersonation** | **53.975** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/brand-impersonation.txt) |
+| **Abuse** | **116,920** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/abuse.txt) |
+| **Brand Impersonation** | **53,975** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/brand-impersonation.txt) |
 | **Command Control** | **53** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/command-control.txt) |
 | **Cryptocurrency** | **63** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/cryptocurrency.txt) |
-| **Cryptomining** | **6.121** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/cryptomining.txt) |
+| **Cryptomining** | **6,121** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/cryptomining.txt) |
 | **Data Exfiltration** | **13** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/data-exfiltration.txt) |
 | **Ddos** | **15** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/ddos.txt) |
 | **Disposable Email** | **30** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/disposable-email.txt) |
@@ -1446,25 +1560,25 @@ The base allowlist includes, among others, fragFINN, Blinde Kuh, Seitenstark, In
 | **Expired Domains** | **0** | 🟡 | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/expired-domains.txt) |
 | **Exploits** | **38** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/exploits.txt) |
 | **Badware Hosters** | **24** | ✅⚠️ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/badware-hosters.txt) |
-| **Fake Shops** | **10.960** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/fake-shops.txt) |
+| **Fake Shops** | **10,960** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/fake-shops.txt) |
 | **Fake Software** | **229** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/fake-software.txt) |
 | **Malicious Extensions** | **0** | 🟡 | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/malicious-extensions.txt) |
 | **Malicious Redirects** | **83** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/malicious-redirects.txt) |
-| **Malvertising** | **51.883** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/malvertising.txt) |
-| **Malware** | **2.656.377** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/malware.txt) |
-| **Newly Registered Domains** | **15.000** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/newly-registered-domains.txt) |
-| **Nft** | **1.758** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/nft.txt) |
+| **Malvertising** | **51,883** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/malvertising.txt) |
+| **Malware** | **2,656,377** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/malware.txt) |
+| **Newly Registered Domains** | **15,000** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/newly-registered-domains.txt) |
+| **Nft** | **1,758** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/nft.txt) |
 | **Parked Domains** | **25** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/parked-domains.txt) |
-| **Phishing** | **577.332** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/phishing.txt) |
+| **Phishing** | **577,332** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/phishing.txt) |
 | **Pup Pua** | **33** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/pup-pua.txt) |
 | **Ransomware** | **53** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/ransomware.txt) |
 | **Remote Access** | **23** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/remote-access.txt) |
-| **Scam** | **265.246** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/scam.txt) |
+| **Scam** | **265,246** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/scam.txt) |
 | **Scanners** | **143** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/scanners.txt) |
 | **Spam** | **32** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/spam.txt) |
 | **Surveillance** | **16** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/surveillance.txt) |
-| **Suspicious Tlds** | **6.490** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/suspicious-tlds.txt) |
-| **Typosquatting** | **53.975** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/typosquatting.txt) |
+| **Suspicious Tlds** | **6,490** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/suspicious-tlds.txt) |
+| **Typosquatting** | **53,975** | ✅ | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/typosquatting.txt) |
 
 </details>
 
@@ -1523,11 +1637,11 @@ These lists are **optional add-on modules** and do not replace the normal Light/
 
 | Special List | Purpose | Entries | List |
 |---|---|---:|---|
-| **Fake / Scam / Trap Sites** | Scam + fake shops + fake software in one list | **265.318** | [List](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/special/fake.txt) |
-| **Pop-Up Ads** | Pop-up/pop-under ad networks from BRZ Ads | **517** | [List](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/pop-up-ads.txt) |
-| **Threat Intelligence Mini** | compact BRZ TI tier | **594.410** | [Mini](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/threat-intelligence/mini.txt) |
-| **Threat Intelligence Medium** | medium BRZ TI tier | **844.669** | [Medium](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/threat-intelligence/medium.txt) |
-| **Threat Intelligence Full** | complete BRZ Security Ultimate dataset as a standalone list | **3.408.596** | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/threat-intelligence/full.txt) |
+| **Fake / Scam / Trap Sites** | Scam + fake shops + fake software in one list | **265,318** | [List](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/special/fake.txt) |
+| **Pop-Up Ads** | Pop-up/pop-under ad networks from BRZ Ads | **512** | [List](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/pop-up-ads.txt) |
+| **Threat Intelligence Mini** | compact BRZ TI tier | **594,410** | [Mini](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/threat-intelligence/mini.txt) |
+| **Threat Intelligence Medium** | medium BRZ TI tier | **844,669** | [Medium](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/threat-intelligence/medium.txt) |
+| **Threat Intelligence Full** | complete BRZ Security Ultimate dataset as a standalone list | **3,408,596** | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/threat-intelligence/full.txt) |
 | **Dynamic DNS** | known DynDNS providers; very aggressivee | **74** | [List](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/network/full/dynamic-dns.txt) |
 | **Badware Hoster** | risky hosting/site-builder roots with a high malware concentration | **24** | [List](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/security/full/badware-hosters.txt) |
 | **Most Abused TLDs** | entire risky TLDs/suffixes; Adblock format | **130** | [Adblock](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/policies/adblock/most-abused-tlds.adblock) |
@@ -1537,10 +1651,10 @@ These lists are **optional add-on modules** and do not replace the normal Light/
 | **SafeSearch not supported** | search engines without SafeSearch support | **205** | [List](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/network/full/safesearch-not-supported.txt) |
 | **URL Shortener** | known URL-shortening services | **255** | [List](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/network/full/url-shorteners.txt) |
 | **Anti Piracy** | piracy/illegal streaming | current BRZ snapshot / optional upstream | [List](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/family/content/piracy.txt) |
-| **Gambling Full** | complete BRZ gambling dataset | **420.536** | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/family/content/gambling.txt) |
-| **Social Networks** | combined social-network list | **21.588** | [List](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/apps/social-media/special/social-networks.txt) |
-| **NSFW** | Adult/NSFW special list | **998.924** | [List](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/family/content/nsfw.txt) |
-| **Native Tracker** | integrated trackers from operating systems, apps and devices | **628** | [List](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/native-tracking.txt) |
+| **Gambling Full** | complete BRZ gambling dataset | **420,536** | [Full](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/family/content/gambling.txt) |
+| **Social Networks** | combined social-network list | **47** | [List](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/apps/social-media/special/social-networks.txt) |
+| **NSFW** | Adult/NSFW special list | **998,924** | [List](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/family/content/nsfw.txt) |
+| **Native Tracker** | integrated trackers from operating systems, apps and devices | **587** | [List](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/privacy/full/native-tracking.txt) |
 
 #### Manually Updatable Live Variants
 
@@ -1564,17 +1678,17 @@ The paths are prepared. They are not artificially populated using the pattern �
 
 | List | Entries | Status | Link |
 |---|---:|:---:|---|
-| **Cn** | **5.896** | ✅ | [List](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/regional/cn.txt) |
-| **De** | **3.304** | ✅ | [List](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/regional/de.txt) |
-| **Es** | **1.698** | ✅ | [List](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/regional/es.txt) |
-| **Eu** | **31.996** | ✅ | [List](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/regional/eu.txt) |
-| **Fr** | **2.123** | ✅ | [List](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/regional/fr.txt) |
-| **It** | **2.307** | ✅ | [List](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/regional/it.txt) |
+| **Cn** | **5,896** | ✅ | [List](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/regional/cn.txt) |
+| **De** | **3,304** | ✅ | [List](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/regional/de.txt) |
+| **Es** | **1,698** | ✅ | [List](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/regional/es.txt) |
+| **Eu** | **31,996** | ✅ | [List](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/regional/eu.txt) |
+| **Fr** | **2,123** | ✅ | [List](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/regional/fr.txt) |
+| **It** | **2,307** | ✅ | [List](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/regional/it.txt) |
 | **Jp** | **625** | ✅ | [List](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/regional/jp.txt) |
 | **Kr** | **479** | ✅ | [List](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/regional/kr.txt) |
-| **Ru** | **15.374** | ✅ | [List](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/regional/ru.txt) |
-| **Uk** | **7.416** | ✅ | [List](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/regional/uk.txt) |
-| **Us** | **6.302** | ✅ | [List](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/regional/us.txt) |
+| **Ru** | **15,374** | ✅ | [List](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/regional/ru.txt) |
+| **Uk** | **7,416** | ✅ | [List](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/regional/uk.txt) |
+| **Us** | **6,302** | ✅ | [List](https://raw.githubusercontent.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists/main/lists/regional/us.txt) |
 
 
 ---

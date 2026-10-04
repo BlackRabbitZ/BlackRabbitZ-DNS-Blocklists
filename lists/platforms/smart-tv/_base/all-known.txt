@@ -5,13 +5,12 @@
 # License: GPL-3.0-only; siehe THIRD_PARTY.md fuer Drittquellen
 # Sources: BlackRabbitZ: Block List Project; Perflyst; HaGeZi LG webOS
 # Risk: hoch
-# Entries: 556
+# Entries: 543
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
 2mdn.net
 7345023508.fxm9485766783.com
-7345023508.fxmconnect.com
 a1.resources.foxtel.com.au
 aax-eu.amazon-adsystem.com
 abtauthprd.samsungcloudsolution.com
@@ -48,8 +47,6 @@ amauthprd.samsungcloudsolution.com
 amazonadsi-a.akamaihd.net
 amoeba.web.roku.com
 an.lgsmartad.com
-androidtvchannels-pa.googleapis.com
-androidtvwatsonfe-pa.googleapis.com
 ao-ad-lgsmartad-com.aws-prd.net
 ao.lgsmartad.com
 api-gps-em.hismarttv.com
@@ -143,12 +140,10 @@ control-zoo-dtsstage.tvinteractive.tv
 control.tvinteractive.tv
 control2.tvinteractive.tv
 cooper.logs.roku.com
-coordinator-production-28516768.us-east-1.elb.amazonaws.com
 cr-ad-lgsmartad-com.aws-prd.net
 cr.lgsmartad.com
 cu.lgsmartad.com
 customer-feedbacks.web.roku.com
-customerevents.netflix.com
 cv-ad-lgsmartad-com.aws-prd.net
 cv.lgsmartad.com
 cy-ad-lgsmartad-com.aws-prd.net
@@ -240,7 +235,6 @@ gt.lgsmartad.com
 gy-ad-lgsmartad-com.aws-prd.net
 gy.lgsmartad.com
 h4g3z1-native.lgwebos.web.app
-hbbtv-1.eurosport.com
 hbbtv-extern-fe01.sim-technik.de
 hbbtv-track.redbutton.de
 hbbtv01p.anixe.net
@@ -305,8 +299,6 @@ lb.lgsmartad.com
 lc.lgsmartad.com
 lcprd1.samsungcloudsolution.net
 legacyportal.nettvservices.com
-lgad.cjpowercast.com
-lgad.cjpowercast.com.edgesuite.net
 lgads.tv
 lgsmartad.com
 lgtvcommon.com
@@ -351,7 +343,6 @@ mm-ad-lgsmartad-com.aws-prd.net
 mm.lgsmartad.com
 mn-ad-lgsmartad-com.aws-prd.net
 mo-ad-lgsmartad-com.aws-prd.net
-mobileanalytics.us-east-1.amazonaws.com
 mq.lgsmartad.com
 mr-ad-lgsmartad-com.aws-prd.net
 mr.lgsmartad.com
@@ -492,7 +483,6 @@ sv-ad-lgsmartad-com.aws-prd.net
 sv.lgsmartad.com
 sy-ad-lgsmartad-com.aws-prd.net
 sy.lgsmartad.com
-syncplusconfig.s3.amazonaws.com
 sz-ad-lgsmartad-com.aws-prd.net
 targeted-config-test.samsungacr.com
 tc.lgsmartad.com
@@ -515,7 +505,6 @@ tracksrv.zdf.de
 trvdp.com
 tt-ad-lgsmartad-com.aws-prd.net
 tt.lgsmartad.com
-tv-static.scdn.co
 tvinteractive.tv
 tvmeta-dynamic.tvinteractive.tv
 tvsideviewandroidv2-cfgdst-ore-pro.bda.ndmdhs.com
@@ -544,8 +533,6 @@ uy.lgsmartad.com
 uz-ad-lgsmartad-com.aws-prd.net
 uz.lgsmartad.com
 vc-ad-lgsmartad-com.aws-prd.net
-vd.contents.prod.eu.s3.amazonaws.com
-vd.emp.prd.s3.amazonaws.com
 vdterms.samsungcloudsolution.com
 ve-ad-lgsmartad-com.aws-prd.net
 ve.lgsmartad.com

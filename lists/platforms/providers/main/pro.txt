@@ -7,7 +7,7 @@
 # Risk: Niedrig–Mittel
 # Data status: befüllt
 # Data method: generated-tier
-# Entries: 72
+# Entries: 71
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -30,7 +30,6 @@ fast.vodafonein.demdex.net
 fast.vodafoneit.demdex.net
 fast.vodafoneturkey.demdex.net
 fast.vodafoneuk.demdex.net
-fioricet-online.blogspot.com
 hubert-online.ch.102.112.2o7.net
 metric.vodafone.hu
 metrics.vodafone.co.uk

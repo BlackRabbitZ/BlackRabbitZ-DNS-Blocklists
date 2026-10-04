@@ -6,40 +6,25 @@
 # Sources: BRZ existing data + curated service roots
 # Risk: very high
 # Data status: befuellt
-# Data method: service-block-all
-# Entries: 32
+# Data method: service-block-all-curated
+# Entries: 17
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
-0youtube.com
-100youtube.com
 ads.youtube.com
 c.googlevideo.com
 cache.googlevideo.com
 cache1.googlevideo.com
-catchyoutube.toptools100.com
 ehg-youtube.hitbox.com
 eligibility-panelresearch.googlevideo.com
 googlevideo.com
 m.youtube.com
-mediayoutube.com
 metrics.cbc.youtube.mercedes-benz.com
-mp3-youtube.download
-music.catchyoutube.toptools100.com
 nonxt1.c.youtube.com
-policy.catchyoutube.toptools100.com
 s.youtube.com
-s.youtubeeducation.com
 s2.youtube.com
-ssl-youtube.2cnt.net
-wavyoutube.com
 www.youtube.com
 youtu.be
 youtube-nocookie.com
-youtube.112.2o7.net
-youtube.2cnt.net
 youtube.com
-youtube2top.com
-youtubesys.com
 ytimg.com
-ytimgg.com

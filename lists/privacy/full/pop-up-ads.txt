@@ -5,7 +5,7 @@
 # License: GPL-3.0-only; siehe THIRD_PARTY.md fuer Drittquellen
 # Sources: BRZ Ads Full
 # Risk: niedrig-mittel
-# Entries: 517
+# Entries: 512
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 # Data method: Heuristisch aus BRZ Ads nach bekannten Pop-up-/Pop-under-Anbietern abgeleitet
@@ -252,7 +252,6 @@ onclick.dashboard.propellerads.com
 onclicka.com
 onclickads.net
 onclickalgo.com
-onclickbright.com
 onclickclear.com
 onclickgenius.com
 onclickmax.com
@@ -304,7 +303,6 @@ popundertotal.com
 popundertraffic.com
 popunderz.com
 popunderzone.com
-popup-upsell.spur-i-t.com
 popup.bitdefender.pl
 popup.lifterapps.com
 popup.msn.com
@@ -335,10 +333,8 @@ popupplus.ir
 popupplus.org
 popups-api.funplus.com
 popups.afftrack001.com
-popups.infostart.com
 popups.landingi.com
 popupsblocker.org
-popupsmart.com
 popuptraf.ru
 popuptraffic.com
 possibilities.popunder.net
@@ -389,7 +385,6 @@ ssp-notify.propellerads.com
 ssp.clickadu.com
 star.adcash.com
 star.pulseonclick.com
-start.corp.exoclick.com
 static-hwcdn.exoclick.com
 static-ssl.exoclick.com
 static.ad-maven.com

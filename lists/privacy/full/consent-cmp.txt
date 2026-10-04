@@ -5,7 +5,7 @@
 # License: GPL-3.0-only; siehe THIRD_PARTY.md fuer Drittquellen
 # Sources: BlackRabbitZ statischer Datenbestand; Pi-hole Query-Log Review 2026-10-03
 # Risk: hoch
-# Entries: 46
+# Entries: 41
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -15,7 +15,6 @@ cdn.privacy-mgmt.com
 cmp.osano.com
 consent-manager.com
 consentmanager.net
-cookiebot.com
 cookiebot.eu
 cookielaw.org
 cookies-data.onetrust.io
@@ -24,7 +23,6 @@ d.sourcepoint.capitalfm.com
 d.sourcepoint.capitalxtra.com
 d.sourcepoint.classicfm.com
 d.sourcepoint.globalplayer.com
-d.sourcepoint.heart.co.uk
 d.sourcepoint.lbc.co.uk
 d.sourcepoint.radiox.co.uk
 d.sourcepoint.smoothradio.com
@@ -34,13 +32,10 @@ load.analytics.cookiebot.dev
 mobile-data.onetrust.io
 osano.com
 privacy-center.org
-privacy-mgmt.com
 privacy-mgmt.fupa.net
-quantcast.com
 quantcast.de
 quantcast.mgr.consensu.org
 quantcast.net
-sourcepoint.com
 sourcepoint.gutekueche.de
 sourcepoint.vice.com
 srepdata.wauwatosanow.com

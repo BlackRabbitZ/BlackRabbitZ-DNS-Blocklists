@@ -7,7 +7,7 @@
 # Risk: variabel
 # Data status: abgeleitet
 # Data method: derived-keyword
-# Entries: 60
+# Entries: 58
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -58,7 +58,6 @@ metrics.adobe.nb.com
 metrics.adobe.nbprivateequitypartners.com
 metrics.adobe.nbprivatewealth.com
 metricsadobe.hollandandbarrett.be
-metricsadobe.hollandandbarrett.com
 metricsadobe.hollandandbarrett.ie
 metricsadobe.hollandandbarrett.nl
 s-adobeanalytics.vice.com
@@ -66,7 +65,6 @@ sadobeanalytics.medline.com
 sadobemetrics.dr.dk
 sadobemetrics.la-z-boy.com
 sanalytics.adobe.tp.gskpro.com
-smetricsadobe.hollandandbarrett.com
 smetricsadobe.hollandandbarrett.ie
 smetricsadobe.hollandandbarrett.nl
 sstats.adobe.com

@@ -7,7 +7,7 @@
 # Risk: Mittel
 # Data status: befüllt
 # Data method: generated-tier
-# Entries: 63
+# Entries: 53
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -16,11 +16,7 @@ analytics-ingestion-v3.main-production-custom.production.k8s.tubi.io
 analytics.api.myqnapcloud.com
 analytics.k8s.djpmedia.cloud
 analytics.myqnapcloud.io
-api.access.redhat.com
 api.insight.synology.com
-cert-api.access.redhat.com
-cert.console.redhat.com
-connect.cloud.redhat.com
 csp-violations.k8s.prod.blend.com
 device.cloud.hpe.com
 docker-registry.amobee.com
@@ -34,23 +30,18 @@ dy2xcjk8s1dbz.cloudfront.net
 email.docker.com
 esrs3-core.emc.com
 esrs3-coredr.emc.com
-fabric8-docker-registry.default.console.ws.adacts.com
 gql-graphql-gateway.prod.k8s.onepeloton.com
-infogw.api.openshift.com
 infosight.hpe.com
-k8s-matomo-matomoin-1abe0536fc-1571093737.us-east-1.elb.amazonaws.com
 k8s-stage1-use1.int.vidible.tv
 k8s.prod.vidible.tv
 k8s.stage.vidible.tv
 k8s.unity.amobee.com
 k8s.vidible.tv
-matomo-k8s.ramsalt.com
 matomo.az.prod.k8s.soliver.com
 matomo.docker1.standpunkt-hosting.de
 metrics.dockers-site.com
 metrics.us.dockers.com
 midway.ext.hpe.com
-pageinfo-k8s.motorsport.com
 pixel.k8s.prod.blend.com
 plausible.docker-box.richardwillis.info
 plausible.k8stage.myafsa.com
@@ -68,7 +59,6 @@ subscribe.insight.synology.com
 supapi.synology.com
 systemintegrationsapi.k8s-e1.veinteractive.com
 telemetry.sys.truenas.net
-travel-data-matomo-pro.k8s.travel-data-prod.aws.idealo.cloud
 undockerinize.com
 usage.truenas.com
 veadsimages.k8s-e1.veinteractive.com

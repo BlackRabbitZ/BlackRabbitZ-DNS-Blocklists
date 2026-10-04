@@ -6,12 +6,13 @@
 # Sources: lists/manufacturers/epic.txt
 # Risk: high
 # Data status: befuellt
-# Data method: manufacturer-restrict
-# Entries: 4
+# Data method: device-restrict-curated
+# Entries: 5
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
+datarouter-prod.ak.epicgames.com
+datarouter.ol.epicgames.com
 metric-public-service-prod.ol.epicgames.com
 metrics.ol.epicgames.com
-statsproxy-public-service-live.ol.epicgames.com
 tracking.epicgames.com

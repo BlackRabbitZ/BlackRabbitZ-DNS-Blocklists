@@ -1,0 +1,9 @@
+# BlackRabbitZ DNS Blocklists
+# List: lists/block-all/software/rustdesk.txt
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; third-party sources: THIRD_PARTY.md
+# Data method: BRZ service blocking + curated functional roots
+# Entries: 2
+#
+rustdesk.com
+rustdesk.io

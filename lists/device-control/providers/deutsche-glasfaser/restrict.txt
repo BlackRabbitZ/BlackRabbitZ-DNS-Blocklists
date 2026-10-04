@@ -1,15 +1,9 @@
 # BlackRabbitZ DNS Blocklists
-# Title: deutsche-glasfaser restrict
-# Description: Privacy plus optional vendor/cloud/recommendation endpoints.
+# List: lists/device-control/providers/deutsche-glasfaser/restrict.txt
 # Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
-# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
-# Sources: lists/platforms/providers/full/deutsche-glasfaser.txt + BRZ manufacturer data
-# Risk: high
-# Data status: befuellt
-# Data method: derived-restrict
+# License: GPL-3.0-only; third-party sources: THIRD_PARTY.md
+# Data method: fallback from BRZ lists/platforms/providers/full/deutsche-glasfaser.txt
 # Entries: 6
-# Format: Plain domains, eine Domain pro Zeile
-# Build model: Single file; keine Part-/MiB-Aufteilung
 #
 deutsche-glasfaser.de
 deutsche-glasfaser.speedtestcustom.com

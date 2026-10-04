@@ -1,0 +1,12 @@
+# BlackRabbitZ DNS Blocklists
+# List: lists/block-all/software/remote-access.txt
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; third-party sources: THIRD_PARTY.md
+# Data method: aggregate software package: remote-access
+# Entries: 5
+#
+anydesk.com
+rustdesk.com
+rustdesk.io
+teamviewer.cn
+teamviewer.com

@@ -1,0 +1,23 @@
+# BlackRabbitZ DNS Blocklists
+# Title: instagram isolate
+# Description: Maximum known service communication; service/app is expected to stop working.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: lists/service-blocking/social-media/instagram/block-all.txt
+# Risk: very high
+# Data status: befuellt
+# Data method: service-isolate
+# Entries: 10
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+analytics.instagram.com
+badges.instagram.com
+cdninstagram.com
+gateway.instagram.com
+graph-fallback.instagram.com
+graph.instagram.com
+graphql.instagram.com
+i.instagram.com
+instagram.com
+www.instagram.com

@@ -5,13 +5,11 @@
 # License: GPL-3.0-only; siehe THIRD_PARTY.md fuer Drittquellen
 # Sources: BlackRabbitZ Ads/Tracking/Telemetry-Daten; Pi-hole Query-Log Review 2026-10-03
 # Risk: mittel-hoch
-# Entries: 5
+# Entries: 3
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 # Generated: ja
 #
 ads.blizzard.com
-click.em.blizzard.com
-geo.battle.net
 telemetry-in.battle.net
 telemetry.battle.net

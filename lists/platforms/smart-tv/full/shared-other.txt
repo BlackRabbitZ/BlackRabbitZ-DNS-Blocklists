@@ -5,14 +5,13 @@
 # License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
 # Sources: BlackRabbitZ Smart-TV Daten; dokumentierte HaGeZi-/Perflyst-Anteile; Pi-hole Query-Log Review 2026-10-03
 # Risk: hoch
-# Entries: 104
+# Entries: 98
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 # Generated: ja
 #
 2mdn.net
 7345023508.fxm9485766783.com
-7345023508.fxmconnect.com
 a1.resources.foxtel.com.au
 ad.71i.de
 ad.nettvservices.com
@@ -38,7 +37,6 @@ control-zoo-dai-default.tvinteractive.tv
 control-zoo-dtsstage.tvinteractive.tv
 control.tvinteractive.tv
 control2.tvinteractive.tv
-customerevents.netflix.com
 d179kwmlpc4o47.cloudfront.net
 d1jwpcr0q4pcq0.cloudfront.net
 d1oxlq5h9kq8q5.cloudfront.net
@@ -59,7 +57,6 @@ flingo.tv
 foxtel-prod-events.digitalsmiths.net
 game.internetat.tv
 googleads.g.doubleclick.net
-hbbtv-1.eurosport.com
 hbbtv-event-collector.prd.g.joyn.de
 hbbtv-extern-fe01.sim-technik.de
 hbbtv-track.redbutton.de
@@ -70,8 +67,6 @@ i-stream.pl
 ichnaea.netflix.com
 infolink.pavv.co.kr
 legacyportal.nettvservices.com
-lgad.cjpowercast.com
-lgad.cjpowercast.com.edgesuite.net
 lgads.tv
 log.internetat.tv
 logger.prd.hdplus.dev
@@ -106,7 +101,6 @@ stats.hbbtv.smartclip.net
 tracking.intl.miui.com
 tracksrv.zdf.de
 trvdp.com
-tv-static.scdn.co
 tvinteractive.tv
 tvmeta-dynamic.tvinteractive.tv
 tvsideviewandroidv2-cfgdst-ore-pro.bda.ndmdhs.com

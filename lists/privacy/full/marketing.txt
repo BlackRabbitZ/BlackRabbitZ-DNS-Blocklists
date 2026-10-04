@@ -7,7 +7,7 @@
 # Risk: variabel
 # Data status: abgeleitet
 # Data method: derived-keyword
-# Entries: 2060
+# Entries: 2004
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -26,12 +26,10 @@
 8-digitalmarketing.com
 a.integral-marketing.com
 a.quillo.marketing
-a8.campaign.musclesuit.co.jp
 a8clk.campaigns.kaitori-premium.jp
 a8clk.campaigns.speed-kaitori.jp
 ab-ee-api.marketo.com
 ab-mknodepub.marketo.com
-abccampaignaudit.co.uk
 ablink.marketing.li.me
 ablink.marketing.onxmaps.com
 ablink.mktg.almosafer.com
@@ -103,7 +101,6 @@ afi.sougou.web-marketing.ai
 afm.strmarketing.net
 agmarketing.com.au
 aheadofthegamemarketing.com
-airpushmarketing.s3.amazonaws.com
 alanwoodmarketing.com
 allmarketing.g2afse.com
 allstate-emarketing.com
@@ -165,7 +162,6 @@ andersonmarketing.com
 angiemktg.com
 angrymarketingprecise.com
 antidote.usmarketingpros.com
-ao-marketing.essendant.com
 api-campaigns.partners.cz
 api-mktg.bash.com
 api-mktg.prettylittlething.com
@@ -325,7 +321,6 @@ bluelinkmarketing0.go2cloud.org
 bravodevcampaignmonitor.com
 brkmarketing.com
 brownricemarketing.com
-brpdealermarketing.azureedge.net
 bruker-marketing.actonsoftware.com
 bubblegummarketing.com
 byron-marketing.com
@@ -342,15 +337,12 @@ campaign.accesstrade.vn
 campaign.act-on.com
 campaign.ad-brix.com
 campaign.adobe.com
-campaign.api.bingads.microsoft.com
 campaign.api.kochava.com
-campaign.api.sandbox.bingads.microsoft.com
 campaign.avg.com
 campaign.bharatmatrimony.com
 campaign.dasmart.eu
 campaign.derooipannen.nl
 campaign.esdlife.com
-campaign.gls-rtt.com
 campaign.kermi.de
 campaign.macquarie.com.au
 campaign.nmobs.com
@@ -459,13 +451,11 @@ data.campaigns.therecroom.com
 data.devmktg.subway.com
 data.jetstream-marketing.com
 data.mail.marketing-bcthk.com
-data.mail.mktg.truist.com
 data.marketing-madridista-junior.realmadrid.com
 data.marketing-offers.airmiles.ca
 data.marketing.autopass.com.br
 data.marketing.bancobmg.com.br
 data.marketing.boradetop.com.br
-data.marketing.doitbest.com
 data.marketing.ecg.magento.com
 data.marketing.email.nordstrom.com
 data.marketing.email.nordstromrack.com
@@ -506,7 +496,6 @@ data.mktg.venetianlasvegas.com
 data.nfmarketing.com.br
 data.stagemktg.subway.com
 data.voltzmarketing.com.br
-data.wundermanww-marketing.adobesandbox.com
 data.wwfomarketing.adobevlab.com
 dbstats.marketo.com
 dcsmarketing.directtrack.com
@@ -593,7 +582,6 @@ fca-marketing.artyco.eu
 fetchmediaandmarketing.com
 flamboyantmarketing.com
 flyxmarketing.com
-form-submission.marketing.smart.com
 foundation-campaign-1344395.pxf.io
 fpkmarketing.g2afse.com
 fr.marketo.com
@@ -718,7 +706,6 @@ marketing-issue.com
 marketing-page.de
 marketing-profis.net
 marketing-reports.unikoo.be
-marketing-solutions.bt.com
 marketing-ssl.upsight-api.com
 marketing-tracker.babbel.com
 marketing-us.alere.com
@@ -740,11 +727,9 @@ marketing.adept-telecom.co.uk
 marketing.advanstar.info
 marketing.agracel.com
 marketing.al.ly
-marketing.alaskavisit.com
 marketing.alfalak.com
 marketing.alibaba.com
 marketing.all-wall.com
-marketing.almusnet.com
 marketing.alphabroder.com
 marketing.alphapointe.org
 marketing.am.jll.com
@@ -775,7 +760,6 @@ marketing.balconette.co.uk
 marketing.baltimore.org
 marketing.barbizon.com
 marketing.barenbrug.co.uk
-marketing.barsnet.com
 marketing.baseline-data.com
 marketing.bayhealth.org
 marketing.bcaespana.es
@@ -801,7 +785,6 @@ marketing.brandingbusiness.com
 marketing.brigadegroup.co.in
 marketing.brightroll.com
 marketing.brucknertruck.com
-marketing.bswift.com
 marketing.buckeyecable.com
 marketing.buffalojeans.com
 marketing.bukaty.com
@@ -828,7 +811,6 @@ marketing.championsales.com
 marketing.chemometec.com
 marketing.choosechicago.com
 marketing.cis-inc.com
-marketing.clarityqst.com
 marketing.cleardigital.com
 marketing.clickrain.com
 marketing.climbhire.co
@@ -836,8 +818,6 @@ marketing.cnalloys.co.uk
 marketing.codebaby.com
 marketing.cogentco.com
 marketing.com
-marketing.communityassociationmanagement.com
-marketing.compmort.com
 marketing.computerguidance.com
 marketing.congress.eular.org
 marketing.constructionmonitor.com
@@ -859,17 +839,14 @@ marketing.cyberhaviour.com
 marketing.dantecdynamics.com
 marketing.dartaerospace.com
 marketing.datagardener.com
-marketing.datamart.com
 marketing.datamatics.com
 marketing.datawatchsystems.com
 marketing.davidcbaker.com
 marketing.dedicated-db.com
 marketing.deltechomes.com
 marketing.demandbase.com
-marketing.desertcart.com
 marketing.desmoines.renewalwindowsanddoors.com
 marketing.dessy.com
-marketing.dickinson-wright.com
 marketing.dienerlaw.net
 marketing.digitalvega.com
 marketing.digitalwarehouse.com
@@ -926,15 +903,12 @@ marketing.expworld.com
 marketing.exteresauto.com
 marketing.external.xerox.com
 marketing.fhsr.com
-marketing.first-insight.com
 marketing.fld.com.br
 marketing.fleetfeetcolumbus.com
-marketing.fleetfeetmountpleasant.com
 marketing.fleetfeetorlando.com
 marketing.fluentlab.ai
 marketing.forgeplumbing.com.au
 marketing.fortecmedical.com
-marketing.fpaaust.com.au
 marketing.freedombankva.com
 marketing.fte.com
 marketing.funmobility.com
@@ -954,7 +928,6 @@ marketing.ginzametrics.com
 marketing.glisco.co.za
 marketing.gmcvb.com
 marketing.goabode.com
-marketing.gogreat.com
 marketing.goochandhousego.com
 marketing.goprovidence.com
 marketing.gotobermuda.com
@@ -1097,9 +1070,7 @@ marketing.nopec.org
 marketing.northgate.com
 marketing.novanext.it
 marketing.novatel.com
-marketing.ntconsult.com
 marketing.nthdegree.com
-marketing.nualight.com
 marketing.nyi.com
 marketing.nyi.net
 marketing.oak-tree.tech
@@ -1164,7 +1135,6 @@ marketing.rimes.com
 marketing.riverfrontig.com
 marketing.rockwellmed.com
 marketing.rogards.com
-marketing.roofconnect.com
 marketing.rsvpportal.com
 marketing.rtx.travel
 marketing.runners.tv
@@ -1183,13 +1153,11 @@ marketing.shippers-supply.com
 marketing.simio.com
 marketing.simplicittech.com
 marketing.sirata.com
-marketing.smartvault.com
 marketing.southcaperesortandclub.com
 marketing.sparinvest.lu
 marketing.sparktx.com
 marketing.sportsexpos.com
 marketing.springfieldelectric.com
-marketing.squareonemea.com
 marketing.ssat.org
 marketing.sstid.com
 marketing.stampdestinationmarketing.com
@@ -1213,7 +1181,6 @@ marketing.techoregon.org
 marketing.tecstonegranite.com
 marketing.telcion.com
 marketing.teleswitch.com
-marketing.testtargettreat.com
 marketing.theacsi.org
 marketing.thebestclaims.com
 marketing.thebestirs.com
@@ -1221,13 +1188,11 @@ marketing.theinovogroup.com
 marketing.thelpi.org
 marketing.thepalmbeaches.com
 marketing.theppigroup.com
-marketing.threadsol.com
 marketing.tilsonhr.com
 marketing.timmons.com
 marketing.tipsdelchef.com
 marketing.tllms.com
 marketing.tmshealth.com
-marketing.tonejet.com
 marketing.topekapartnership.com
 marketing.topspotims.com
 marketing.tourismkelowna.com
@@ -1237,10 +1202,8 @@ marketing.tourismwinnipeg.com
 marketing.toxicology.abbott
 marketing.tr.netsalesmedia.pl
 marketing.trackmarketing.net
-marketing.trakmt.com
 marketing.transcore.com
 marketing.translations.com
-marketing.transperfect.com
 marketing.transtar1.com
 marketing.travelink.com
 marketing.travelks.com
@@ -1248,7 +1211,6 @@ marketing.travelportland.com
 marketing.traveltags.com
 marketing.traversecity.com
 marketing.traxtech.com
-marketing.triplelift.com
 marketing.trucode.com
 marketing.trueinfluence.com
 marketing.trustyou.com
@@ -1318,7 +1280,6 @@ marketing.visitvirginiabeach.com
 marketing.visitwichita.com
 marketing.visitwilliamsburg.com
 marketing.visitwilmingtonde.com
-marketing.vistaprint.com
 marketing.vivecrop.com
 marketing.vokuz.com
 marketing.voltexelectrical.co.nz
@@ -1379,16 +1340,12 @@ marketinggeneral.co1.qualtrics.com
 marketinghq.net
 marketinghub.hp.com
 marketinghub.zoho.com
-marketinginflict.com
 marketinginfo.clutch.com
-marketinginnovationsummit.com
-marketingkaizen.s3-eu-west-1.amazonaws.com
 marketingleap.net
 marketingmusketeer.com
 marketingonline.vn
 marketingoops.com
 marketingpk.com
-marketingplatform.api.intuit.com
 marketingradar.de
 marketingsecrets.com
 marketingsector.com
@@ -1404,7 +1361,6 @@ marketingwebanalytics.com
 marketingweek.imgix.net
 marketingwithpostcards.com
 marketingx.com
-marketo.clearbit.com
 marketo.com
 marketo.com.edgekey.net
 marketo.net
@@ -1452,7 +1408,6 @@ mktg.aero-news.net
 mktg.irthsolutions.com
 mktg.jeffersonhealth.org
 mktg.laresdental.com
-mktg.matssoft.com
 mktg.rtx.travel
 mktg.tvpage.com
 mktg.xeniumhr.com
@@ -1464,7 +1419,6 @@ mktgcdn.de.coremetrics.com
 mktopodab01.marketo.com
 mktopodab011.marketo.com
 mktopodab0111.marketo.com
-mobile-campaigns.avast.com
 moderncampaign.pro
 modernmarketingexperience.brightcove.com
 mon1.marketo.com
@@ -1637,7 +1591,6 @@ r.campaigns.sanctuarygraduates.co.uk
 r.ecampaign.proliteracy.org
 r.em01.campaigntester.com
 r.emailingcampaign.com
-r.enewsmarketing.dusit.com
 r.kampag.onlinemarketing.de
 r.marketing-a.gensdeconfiance.com
 r.marketing-reactive-executive.com
@@ -1725,7 +1678,6 @@ shakemktg.com
 siam.marketingbangladesh.com
 side.spinaci.marketing
 sift-campaign-creatives.s3.amazonaws.com
-sift-campaign-creatives.sift.co
 siteanalytics.marketo.com
 six.marketing
 sj-ee-api.marketo.com
@@ -1765,7 +1717,6 @@ skynet.marketo.com
 sm-campaign.s3-us-west-2.amazonaws.com
 smartinfomarketing.ru
 smartmediamarketing.go2cloud.org
-smetrics.campaigns.abbott.com.sg
 smetrics.electricalmarketing.com
 smetrics.elementremarketing.com
 smetrics.marketing.attralux.com
@@ -1884,7 +1835,6 @@ stats.libertywebmarketing.com
 stats.marketingcafe.de
 stats.marketingtruthserum.com.re.getclicky.com
 stats.mvmarketingsolution.in
-stats.rl-campaignmanagement.com
 stats.robin-marketing.com
 stats2.marketingcafe.de
 status.marketo.com
@@ -1893,7 +1843,6 @@ strack.onemarketinguxp.com
 sts.qadynamics.marketo.com
 sts2.qadynamics.marketo.com
 subscription.mktg.nfl.com
-subscriptions.marketing.doitbest.com
 success.marketo.com
 sumarketing.co.uk
 summit.marketo.com
@@ -1917,7 +1866,6 @@ templates.marketo.net
 test-pixmarketing.aralego.com
 testsj01.marketo.com
 tgmarketing.pl
-thedesimarketingproject.com
 themarketingclub.co
 thewhizmarketing.com
 tiger-air-campaign-june-16.evyy.net
@@ -1995,7 +1943,6 @@ web.campaign.miriade.com
 web.campaign.v73.it
 web.campaigns.colonialfirststate.com.au
 web.marketing.jellybelly.com
-web.wundermanww-marketing.adobesandbox.com
 webdcmarketing.com
 webdesignmarketing.us
 webdev.marketo.com
@@ -2005,7 +1952,6 @@ webstage.marketo.com
 webvideomarketing.ru
 wellmadecampaign.com
 wemarketing.webempresa.eu
-wes.marketing.wtinternal-sandbox.com
 whitebox.marketing
 wildcard.marketo.com.edgekey.net
 wildcard.marketo.net.edgekey.net
@@ -2034,10 +1980,8 @@ www.html-email-marketing.com
 www.ifsmarketing.com
 www.intellicampaign.com
 www.learn.marketo.com
-www.marketing-internet.com
 www.marketing.com.ar
 www.marketing.millan.com.au
-www.marketing.triplelift.com
 www.marketingsecrets.com
 www.marketingtips.com
 www.marketingwithpostcards.com

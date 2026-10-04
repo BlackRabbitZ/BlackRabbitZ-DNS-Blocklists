@@ -6,13 +6,15 @@
 # Sources: lists/manufacturers/autodesk.txt
 # Risk: high
 # Data status: befuellt
-# Data method: manufacturer-restrict
-# Entries: 5
+# Data method: device-restrict-curated
+# Entries: 7
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
 analytics.autodesk.com
+autodesk.co1.qualtrics.com
+autodeskfeedback.azrn1.qualtrics.com
+ehg-autodesk.hitbox.com
+fast.autodesk.demdex.net
 insight.b360.autodesk.com
-personalize.ml.dhx.autodesk.com
-smetrics.autodesk.com
-smetrics.autodesk.com.cn
+zn5b8rnwmrfbx6jnn-autodeskfeedback.siteintercept.qualtrics.com

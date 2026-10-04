@@ -7,7 +7,7 @@
 # Risk: Mittel
 # Data status: befüllt
 # Data method: generated-tier
-# Entries: 663
+# Entries: 617
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -17,7 +17,6 @@ a8clk.audiobook.jp
 aa.visitsaudi.com
 aardvark.tonicaudio.com
 aas.visitsaudi.com
-abccampaignaudit.co.uk
 abmfz.andoveraudio.com
 ac.claudiastrater.com
 ad-audit.tubemogul.com
@@ -30,7 +29,6 @@ ad.sandbox.auditude.com
 ad.sin2.auditude.com
 ad.stg.auditude.com
 adfiles.auditude.com
-admissionaudit.com
 ads.audience2media.com
 ads.audiencebank.com
 ads.dyn.perfectaudience.com
@@ -136,9 +134,7 @@ audience73.com
 audienceamplify.com
 audienceapi.newsdiscover.com.au
 audienceco-op.com
-audiencedatamanagement.com
 audiencefuel.com
-audiencegarret.com
 audiencegrid.demdex.net
 audienceinsights.com
 audienceinsights.net
@@ -151,46 +147,28 @@ audiencemanager.de
 audiencemedia.tv
 audienceplay.com
 audienceprofiler.com
-audienceproject.com
 audiencerate.com
-audiencereport.com
 audiencerepublic.com
 audiencerun.com
 audiences.celtra.com
 audiencescoring.com
-audienceserver.aws.forebase.com
-audiencesettlement.com
 audiencesharing.com
 audiencesquare.com
-audiencetrust.com
 audiencex.com
 audienceye.com
 audiens.com
 audiense.com
 audiensi.com
 audienzz.ch
-audigent.com
 audihd.be
 audimark.adswizz.com
 audimark.deliveryengine.adswizz.com
 audio-adcenter.7eer.net
-audio-ak-spotify-com.akamaized.net
-audio-akp-spotify-com.akamaized.net
 audio-cc.com
-audio-ec.spotify.com
-audio-fa.spotify.com
-audio-fac.spotify.com
-audio-gc.scdn.co
-audio-sp-ash.spotify.com
-audio-sp-tyo.spotify.com
-audio-sp.spotify.com
 audio.ad
 audio.cdn.marketo.com
-audio.de.intellitxt.com
 audio.digidip.net
 audio.iad.cimedia.net
-audio2.spotify.com
-audio4-ak.spotify.com.edgesuite.net
 audioad.adswizz.com
 audioad.deliveryengine.adswizz.com
 audioarctic.com
@@ -218,7 +196,6 @@ audioscripts.com
 audioserve.adswizz.com
 audioserve.ec2eu.adswizz.com
 audiotise-d.openx.net
-audiscene.de.intellitxt.com
 audit.303br.net
 audit.303br.net.73165.9465.302br.net
 audit.303br.net.73185.9381.302br.net
@@ -226,10 +203,8 @@ audit.303br.net.73186.9602.302br.net
 audit.303br.net.76823.9517.302br.net
 audit.app.manage.ensighten.com
 audit.manage.ensighten.com
-audit.median.hu
 audit.outbrain.com
 audit.quantcast.mgr.consensu.org
-audit.triplelift.com
 audit.webinform.hu
 audit1.median.hu
 audit2.median.hu
@@ -245,7 +220,6 @@ auditoriumactorevaluation.com
 auditoriumbuttontire.com
 auditoriumcongesthorns.com
 auditorius.ru
-auditrecording-pa.googleapis.com
 auditude.com
 audiveris.com
 autoaudience.com
@@ -257,7 +231,6 @@ bduhb.audienhearing.com
 betteraudience.pro
 bindaudibleoppressive.com
 blogaudience.lucasfcosta.com
-bmw-scene.de.intellitxt.com
 bmwaeghntpfdb.online
 bmwag.tt.omtrdc.net
 bmwforum.co
@@ -279,7 +252,6 @@ cauditcommernal.com
 cdn.auditude.com
 cdn.onaudience.com
 cdn2.auditude.com
-certifiedaudit.com
 clickauditor.net
 cmp.audi.be
 cmp.audifinance.be
@@ -328,7 +300,6 @@ dyn-cookies.perfectaudience.com
 dyn-images.perfectaudience.com
 dynatrace.ford.com
 ebis.cp.claudia.co.jp
-ehg-bmwna.hitbox.com
 events.audiate.me
 events.audioplace.me
 events.blservaudio.com
@@ -359,7 +330,6 @@ gtm.audified.com
 gtm.claudiaadvprevidenciaria.com.br
 gtm.claudiabarga.com.br
 gtm.claudiapatricio.com.br
-gtm.claudinhacrochet.com.br
 gtm.claudioalmeida.com.br
 gtm.e-auditoria.com.br
 gtm.elizakingsford.com
@@ -423,8 +393,6 @@ matomo.bsraudio.ch
 matomo.teslalogger.de
 mavenaudiences.com
 mbmwfufkaxll.com
-mercedes-forum.de.intellitxt.com
-mercedes-scene.de.intellitxt.com
 mercedesbenz.pxf.io
 metric.volkswagen-nutzfahrzeuge.de
 metric.volkswagen.com
@@ -485,7 +453,6 @@ plausible.claudiuscoenen.de
 pliki.audiostereo.pl
 pretargeting.onaudience.com
 pub.audio-video.es
-pv.claudiepierlot.com
 pycaraudio.com
 qwlmacbmwmtum.online
 r.mail.metrohartford.com
@@ -534,7 +501,6 @@ smetrics.audidirect.us
 smetrics.audifinance.ca
 smetrics.audifinancialservices.nl
 smetrics.audifs.de
-smetrics.bmwgroupdirect.com
 smetrics.boundaryford.com
 smetrics.finance.audifs.com
 smetrics.financing.audifinance.ca
@@ -542,9 +508,6 @@ smetrics.ford.com
 smetrics.mid-townford.com
 smetrics.mieten.mercedes-benz.de
 smetrics.nuanceaudio.com
-smetrics.rent.mercedes-benz.ch
-smetrics.rent.mercedes-benz.co.jp
-smetrics.rent.mercedes-benz.se
 smetrics.saudiairlines.com
 smetrics.volkswagenbank.de
 smetrics.volkswagendirect.us
@@ -570,14 +533,12 @@ stat.alsaudiatoday.com
 static.audienceinsights.net
 static.audienceline.com
 stats.audi-mediacenter.com
-stats.audio2edit.com
 stats.audiorelay.net
 stats.axlcrawford.com
 stats.bmw.de
 stats.chriscrawford.com
 stats.ddaudio.net
 stats.meinbmw.de
-stats.teslascout.com
 stats.tyclifford.com
 stats.volkswagen-automobile-berlin.de
 stats.volkswagen-automobile-hamburg.de
@@ -617,9 +578,6 @@ tracking.m.mercedes-benz.com.sg
 tracking.m.mercedes-benz.ru
 tracking.mercedes-amg-f1.com
 tracking.mercedes-benz-bus.com
-tracking.t.mercedes-benz.co.in
-tracking.t.mercedes-benz.com.cn
-tracking.t.mercedes-benz.de
 tracking.techcenter.mercedes-benz.com
 travelaudience.com
 truaudience.com
@@ -636,7 +594,6 @@ volkswagen.adsame.com
 volkswagenag.tt.omtrdc.net
 volkswagengroupofame.tt.omtrdc.net
 waterboa.jacobford.com
-waudist.tynt.com
 waudit.cz
 waxbmw.swetlovedating.com
 wbmwss.beetv.net
@@ -653,13 +610,10 @@ web-analytics.daimlertruck.com
 webaudit.hu
 webt.eu.teac-audio.com
 webt.pure-audio.com
-widgets.vinaudit.com
 ws.audioeye.com
 www.audia6.com
 www.audienceinsights.net
 www.audiencemanager.de
-www.audiencetrust.com
-www.audio2.spotify.com
 www.audiopal.com
 www.auditude.com
 www.calworthingtonford.com

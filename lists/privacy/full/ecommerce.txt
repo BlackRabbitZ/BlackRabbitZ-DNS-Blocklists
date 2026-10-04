@@ -7,7 +7,7 @@
 # Risk: variabel
 # Data status: abgeleitet
 # Data method: derived-keyword
-# Entries: 44
+# Entries: 42
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -31,7 +31,6 @@ ecommerce.roboinside.me
 ecommerce.sokrati.com
 ecommercecall.com
 ecommercesolutions.com.br
-ecommercetimes.us.intellitxt.com
 fast.fsnecommerce.demdex.net
 fsnecommerce.demdex.net
 fsnecommerce.sc.omtrdc.net
@@ -53,5 +52,4 @@ us3widget.nimblecommerce.com
 valuecommerce.co.jp
 valuecommerce.com
 valuecommerce.ne.jp
-venteenor.ecommerce.softakt.com
 www.googlecommerce.com

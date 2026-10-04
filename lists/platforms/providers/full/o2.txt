@@ -7,7 +7,7 @@
 # Risk: variabel
 # Data status: abgeleitet
 # Data method: derived-keyword
-# Entries: 18
+# Entries: 17
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -19,7 +19,6 @@ lon.telefonica.bench.cedexis.com
 o2onlinede.widget.criteo.com
 portal.o2online.de
 statistik.co2online.de
-telefonica.es.intellitxt.com
 telefonica.eu.qualtrics.com
 telefonica.inq.com
 telefonicaespana.tt.omtrdc.net

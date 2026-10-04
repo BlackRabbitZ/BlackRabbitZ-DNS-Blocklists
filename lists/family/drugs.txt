@@ -1,0 +1,62 @@
+# BlackRabbitZ DNS Blocklists
+# List: lists/family/drugs.txt
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; third-party sources: THIRD_PARTY.md
+# Data method: mapped from BRZ family content sources (HaGeZi-derived content retained where documented)
+# Entries: 55
+#
+000host.totaocimall.com
+001kanpou.com
+028lang.com
+03pc.biz
+1-800-can-drug.com
+1-online-pharm.com
+1-pharm.com
+101fitnesspharma.com
+101generics.com
+123drugsonline.com
+1800candrug.com
+1800inhalers.com
+1800petdrugs.com
+1800usdrugs.com
+1canadadrugs.com
+1canadadrugstore.com
+1canadapharmacy.com
+1canadianpharmacy.com
+1clickpharmacy.com
+1onlineapotheke.de
+1st-canadian-pharmacy.net
+1st-online-pharmacy.org
+1st-pills.com
+1stpharm.com
+1strxshop.net
+1stviagra.com
+24-7-drugstore.com
+24-7drugstore.com
+247-pharmacy.com
+247drugsshop.com
+247medshop.com
+24drugs.net
+24h-drugsshop.com
+24h-drugsstore.com
+24h-pharmacyonline.com
+24hourdrugsource.com
+24hourpharmacy.me
+24hourpharmacy.net
+24hourspharmacy.com
+24hrdrugstore.com
+24onlinepharm.com
+24x7drugstoreonline.com
+24x7friendlypharm.com
+24x7medicines.com
+24x7pharm.com
+24x7pillstore.com
+365-pills.com
+365-rx.com
+365pills.biz
+4pharmacy.com
+4rx.com
+4rxmed.org
+4rxstore.com
+5-meds.com
+5-order.com

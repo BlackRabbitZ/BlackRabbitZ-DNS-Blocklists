@@ -7,21 +7,16 @@
 # Risk: variabel
 # Data status: abgeleitet
 # Data method: derived-keyword
-# Entries: 64
+# Entries: 49
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
 accelifyhelp.zendesk.com
-adriftperfunctoryfrost.com
 adriftventilatormeatloaf.com
-alivedriftcommandment.com
 analytics.intercom.it
 analytics.zendesk.com
-anteaterdriftrecast.com
 api-ping.intercom.io
 api.intercom.io
-assassinationcarryadrift.com
-attackedadrift.com
 beaver.livechatlabs.com
 bedrift.kry.no
 bitdrift.io
@@ -30,35 +25,25 @@ cattle.driftbot.io
 certify.zendesk.com
 cgzudintercom.review
 chat2.livechatinc.com
-datatechdrift.com
 driftingchef.com
 driftpizza.com
 driftstreams.com
 engagenysupport.zendesk.com
 engineering.intercom.io
-event.api.drift.com
-forthcomingshruggeddrift.com
-go.nsfwlivechat.com
 info.drift-photo.com
 intercom-assets.wootric.com
 intercom-clicks.com
 intercom.io
 intercomm01.backtrace.io
-js.driftt.com
 leadvisualdesigner.intercom.io
 livechat-metrics.messagebird.com
 livechat.pic5678.com
-livechat.s3.amazonaws.com
-livechatflirt.com
-livechatinctest.com
 load.sst.driftinteriors.co.uk
-metrics.api.drift.com
 muster-sandbox.intercom.io
 nullsadrifttoy.com
 orientation.internal.intercom.io
 popcornmetrics.zendesk.com
 proximity.zendesk.com
-qm.redbullcarparkdrift.com
 shebudriftaiter.net
 ss.getdriftdesk.com
 sst.driftinteriors.co.uk

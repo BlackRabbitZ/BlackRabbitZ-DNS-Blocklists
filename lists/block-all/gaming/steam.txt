@@ -1,0 +1,14 @@
+# BlackRabbitZ DNS Blocklists
+# List: lists/block-all/gaming/steam.txt
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; third-party sources: THIRD_PARTY.md
+# Data method: BRZ service-blocking Block All
+# Entries: 7
+#
+crash.steampowered.com
+steam-telemetry.homefront-game.com
+steamcommunity.com
+steamcontent.com
+steampowered.com
+steamstatic.com
+store.steampowered.com

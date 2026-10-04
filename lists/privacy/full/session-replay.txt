@@ -7,7 +7,7 @@
 # Risk: variabel
 # Data status: abgeleitet
 # Data method: derived-keyword
-# Entries: 212
+# Entries: 195
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -24,7 +24,6 @@ ams-clarity03.contextweb.com
 analytic.coinclarity.com
 analytics-writer.smartlook.com
 api.fullstory.com
-api.logrocket.com
 app.mouseflow.com
 assets.hotjar.com
 b.mouseflow.com
@@ -39,16 +38,12 @@ careers.hotjar.com
 cdf.mouseflow.com
 cdn-eu.mouseflow.com
 cdn-us.mouseflow.com
-cdn.inspectlet.com
-cdn.logrocket.com
 cdn.logrocket.io
 cdn.mouseflow.com
 cdn2.mouseflow.com
 cerebro.alfa.smartlook.com
-clarity.abacast.com
 clarity.fonio.ai
 clarity.inmobi.com
-clarity.microsoft.com
 clarity.ms
 clarityinsights.com
 clarityperformance.com
@@ -67,7 +62,6 @@ data-provider.beta.smartlook.com
 dataclarity.co
 discourse.hotjar.com
 docker.smartlook.com
-e.logrocket.com
 e.mouseflow.com
 e2.mouseflow.com
 edge.fullstory.com
@@ -90,7 +84,6 @@ head.alfa.smartlook.com
 heatmap-writer.smartlook.com
 heatmaps.alfa.smartlook.com
 heatmaps.beta.smartlook.com
-hn.inspectlet.com
 hotjar.com
 hotjar.dualsidedapp.com
 hotjar.info
@@ -120,7 +113,6 @@ inside.hotjar.com
 insights-dc.hotjar.com
 insights-staging.hotjar.com
 insights.hotjar.com
-inspectlet.com
 inspectlet.io
 inspectletws.herokuapp.com
 internal.fullstory.com
@@ -132,13 +124,10 @@ lga-clarity02.contextweb.com
 lga-clarity03.contextweb.com
 log.clarity.ms
 log.logrocket.io
-logrocket.com
 logrocket.io
-logs.logrocket.com
 manager.alfa.smartlook.com
 manager.beta.smartlook.com
 manager.smartlook.com
-marketing.clarityqst.com
 marketing.mouseflow.com
 media.mouseflow.com
 mouseflow.com
@@ -187,15 +176,11 @@ static.hotjar.com.c.section.io
 status.fullstory.com
 status.hotjar.com
 suggest.hotjar.com
-t.contentsquare.net
 thefullstory.com
 touchclarity.com
-touchclarity.natwest.com
 us.mouseflow.com
 vars.hotjar.com
 vc.hotjar.io
-vmss-clarity-ingest-eus2.eastus2.cloudapp.azure.com
-vmss-clarity-tag-eus2.eastus2.cloudapp.azure.com
 web-sdk.smartlook.com
 webtracking.touchclarity.com
 wordpress.smartlook.com
@@ -204,7 +189,6 @@ writer-mobile.smartlook.com
 writer-sg.smartlook.com
 writer-us.smartlook.com
 writer.smartlook.com
-ws.inspectlet.com
 ws.sessioncam.com
 ws1.hotjar.com
 ws2.hotjar.com
@@ -218,7 +202,6 @@ www.clarity.ms
 www.fullstory.com
 www.get.smartlook.com
 www.hotjar.com
-www.inspectlet.com
 www.mouseflow.com
 www.smartlook.com
 www.touchclarity.com

@@ -5,7 +5,7 @@
 # License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
 # Sources: NextDNS Native Tracking Protection; Perflyst PiHoleBlocklist
 # Risk: niedrig
-# Entries: 13
+# Entries: 11
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 # Generated: ja
@@ -15,9 +15,7 @@ analytics.samsungknox.com
 api.mixpanel.com
 api.segment.io
 api2.amplitude.com
-app-measurement.com
 mads-eu.amazon.com
-mobileanalytics.us-east-1.amazonaws.com
 tracking.india.miui.com
 tracking.intl.miui.com
 tracking.miui.com

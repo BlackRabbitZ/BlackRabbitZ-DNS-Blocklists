@@ -7,14 +7,13 @@
 # Risk: Hoch
 # Data status: befüllt
 # Data method: generated-tier
-# Entries: 1004
+# Entries: 945
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
 1681.engine.mobileapptracking.com
 247realmedia.com
 247realmedia.org
-a-graph.facebook.com
 a.applovin.com
 a.applvn.com
 ab.apple.com.akadns.net
@@ -25,7 +24,6 @@ ad.realmedia.co.kr
 adc3-launch.adcolony.com
 adcolony.com
 ade.googlesyndication.com
-adjust.com
 adjust.io
 adjust.net.in
 adjust.world
@@ -89,10 +87,8 @@ analytics.samsungknox.com
 analytics.unity3d.com
 analytics.virginmobile.mx
 analytics.virginmobileusa.com
-anopportunitytost.com
 ao-ad-lgsmartad-com.aws-prd.net
 ao.lgsmartad.com
-api-adservices.apple.com
 api.airbridge.io
 api.branch.io
 api.gameanalytics.com
@@ -102,9 +98,6 @@ api.segment.io
 api.uca.cloud.unity3d.com
 api2.amplitude.com
 api2.branch.io
-app-analytics.snapchat.com
-app-measurement.com
-app.adjust.com
 app.appsflyer.com
 appboy.com
 applemediaservices.com
@@ -121,7 +114,6 @@ appsflyersdk.com
 appspot-preview.l.google.com
 ar-ad-lgsmartad-com.aws-prd.net
 ar.lgsmartad.com
-arithmeticadjustment.com
 ase.adserver.snapads.com
 asia-analyzer-appstore.vivoglobal.com
 asia-comonrt-stsdk.vivoglobal.com
@@ -190,7 +182,6 @@ by-ad-lgsmartad-com.aws-prd.net
 bz-ad-lgsmartad-com.aws-prd.net
 bz.lgsmartad.com
 ca-ad-lgsmartad-com.aws-prd.net
-ca.iadsdk.apple.com
 ca.lgsmartad.com
 cache.datamart.windows.com
 campaignresources.motorolasolutions.com
@@ -201,15 +192,12 @@ cdn-xp-ingest.edge.apple
 cdn.branch.io
 cdp.cloud.unity3d.com
 cdpbeacon.lgtvcommon.com
-cf.iadsdk.apple.com
 cf.lgsmartad.com
 cg-ad-lgsmartad-com.aws-prd.net
 cg.lgsmartad.com
 ch-ad-lgsmartad-com.aws-prd.net
 ch.lgsmartad.com
-chartboost.com
 chihuahuadoorstoppond.com
-choice.microsoft.com
 ci-ad-lgsmartad-com.aws-prd.net
 ci.lgsmartad.com
 ck.ads.oppomobile.com
@@ -233,15 +221,12 @@ config.unityads.unity3d.com
 connect.tapjoy.com
 content.elumenguides.elumenapp.com
 control.kochava.com
-corp.sts.microsoft.com
 cp.pushwoosh.com
 cr-ad-lgsmartad-com.aws-prd.net
 cr.lgsmartad.com
-crashlogs.whatsapp.net
 crashlytics.163.com
 crashlytics.com
 crashlytics.ru
-crashlyticsreports-pa.googleapis.com
 crumengm.com
 cstat-origin.apple.com
 cstat.apple.com
@@ -291,7 +276,6 @@ deals.getpaingoneplus.io
 dev.appboy.com
 device-metrics-us-2.amazon.com
 device-metrics-us.amazon.com
-device-provisioning.googleapis.com
 device.zhiliaoapp.com
 diagassets-lb.apple.com.akadns.net
 diagassets.apple.com
@@ -299,7 +283,6 @@ diagassets.g.aaplimg.com
 diagnostics.apple.com
 diagnostics.apple.com.akadns.net
 diagnostics.support.apple.com
-diagnostics.support.microsoft.com
 dj.lgsmartad.com
 dk-ad-lgsmartad-com.aws-prd.net
 dk.lgsmartad.com
@@ -346,8 +329,6 @@ extyoneplus-3.com
 fast.lenovo.demdex.net
 fbs.smoot.apple.com
 fdc.lenovo.com
-federatedml-pa.googleapis.com
-feedback.search.microsoft.com
 feedback.windows.com
 feedbackassistant.apple.com
 feedbackws.apple.com
@@ -361,17 +342,11 @@ fi.lgsmartad.com
 fickleopportunity.pro
 findanopportunity.com
 firebase-settings.crashlytics.com
-firebasecrashlytics.googleapis.com
-firebaseinappmessaging.googleapis.com
-firebaselogging-pa.googleapis.com
-firebaselogging.googleapis.com
-firebaseperf.googleapis.com
 fj-ad-lgsmartad-com.aws-prd.net
 flirfvysba2opz0zmzqs5iuiad.apple.com
 flurry.com
 fr-ad-lgsmartad-com.aws-prd.net
 fr.lgsmartad.com
-franchiseopportunitiesexpert.com
 freegameanalytics.com
 fsr.lenovomm.com
 fyber.com
@@ -392,7 +367,6 @@ gh.lgsmartad.com
 gm-ad-lgsmartad-com.aws-prd.net
 gm.lgsmartad.com
 gn.lgsmartad.com
-go.adjust.com
 google-analytics.com
 googleads.g.doubleclick.net
 gp-ad-lgsmartad-com.aws-prd.net
@@ -402,8 +376,6 @@ gq.lgsmartad.com
 gr-ad-lgsmartad-com.aws-prd.net
 gr.lgsmartad.com
 graffiti-tags.apple.com
-graph.accountkit.com
-graph.instagram.com
 grounded-opposite.com
 grs.dbankcloud.asia
 grs.dbankcloud.cn
@@ -435,15 +407,11 @@ hu-ad-lgsmartad-com.aws-prd.net
 hu.lgsmartad.com
 i.flow.browser.oppomobile.com
 i.w.inmobi.com
-i1.services.social.microsoft.com
 iad-apple.com.akadns.net
 iad.apple.com
 iadcontent-lb.apple.com.akadns.net
 iadcontent.apple.com
 iadmoo.apple.com
-iadsdk.apple.com
-iadsdk.apple.com.akadns.net
-iadsdk.apple.com.edgekey.net
 iadworkbench.apple.com
 id-ad-lgsmartad-com.aws-prd.net
 id.google.de
@@ -534,7 +502,6 @@ lds.lenovomm.com
 leanplum.com
 lenovo-chile.pxf.io
 lenovo-co.evyy.net
-lenovo-techsupport.com
 lenovo.112.2o7.net
 lenovo.7eer.net
 lenovo.demdex.net
@@ -550,7 +517,6 @@ lenovotw.7eer.net
 lenovous.btttag.com
 lgads.tv
 li-ad-lgsmartad-com.aws-prd.net
-live.chartboost.com
 live.direct.ly
 lk-ad-lgsmartad-com.aws-prd.net
 lk.lgsmartad.com
@@ -577,7 +543,6 @@ lv-ad-lgsmartad-com.aws-prd.net
 lv.lgsmartad.com
 ly-ad-lgsmartad-com.aws-prd.net
 ly.lgsmartad.com
-m.quantcount.com
 ma-ad-lgsmartad-com.aws-prd.net
 ma.lgsmartad.com
 magnificentopportunity.com
@@ -629,7 +594,6 @@ monitor-stsdk.vivoglobal.com
 mopub.cloud
 mopub.com
 mq.lgsmartad.com
-mqtt-mini.facebook.com
 mr-ad-lgsmartad-com.aws-prd.net
 mr.lgsmartad.com
 ms.applovin.com
@@ -729,9 +693,7 @@ opportunity-tracking.com
 opportunity.businessbroker.net
 opportunityforeigntoward.com
 opportunitysearch.net
-oppositefeasibleunemployment.com
 oppositeoperation.com
-oppositionconvenient.com
 ort-stsdk.vivo.com.cn
 ort-stsdk.vivoglobal.com
 ort.stsdk.vivo.com.cn
@@ -806,7 +768,6 @@ realmedia.hidoc.co.kr
 realmedia.nana.co.il
 realmedia.ro
 recentopportunity.com
-redir.metaservices.microsoft.com
 reports.crashlytics.com
 rise.premiosaovivo.com
 ro-ad-lgsmartad-com.aws-prd.net
@@ -822,12 +783,10 @@ ruc-ngfts.lge.com
 rw-ad-lgsmartad-com.aws-prd.net
 rw.lgsmartad.com
 s.lenovo.com
-s2s.adjust.com
 sa-ad-lgsmartad-com.aws-prd.net
 sa.api.intl.miui.com
 sa.lgsmartad.com
 sa.singulargarden.com
-sc-analytics.appspot.com
 sd-ad-lgsmartad-com.aws-prd.net
 sd.lgsmartad.com
 sdk-api-v1.singular.net
@@ -839,8 +798,6 @@ searchads.apple.com
 searchads.apple.com.edgesuite.net
 searchads.lb-apple.com.akadns.net
 securemetrics-cn.v.aaplimg.com
-securemetrics.apple.com
-securemetrics.apple.com.cn
 securemetrics.v.aaplimg.com
 securemvt.apple.com
 securemvt.v.aaplimg.com
@@ -848,8 +805,6 @@ securepubads.g.doubleclick.net
 segment.io
 servicesupport.hicloud.com
 sessions.bugsnag.com
-settings-sandbox.data.microsoft.com
-settings-win.data.microsoft.com
 settings.crashlytics.com
 sg-ad-lgsmartad-com.aws-prd.net
 sg.lgsmartad.com
@@ -869,8 +824,6 @@ sms-in.ads.oppomobile.com
 sms.ads.oppomobile.com
 sn-ad-lgsmartad-com.aws-prd.net
 sn.lgsmartad.com
-spynet2.microsoft.com
-spynetalt.microsoft.com
 sr-ad-lgsmartad-com.aws-prd.net
 sr.lgsmartad.com
 ss.sonidoenvivo.com
@@ -897,7 +850,6 @@ stsdk.vivoglobal.com
 stupidopposite.pro
 supersonicads-a.akamaihd.net
 supersonicads.com
-supportmetrics.apple.com
 supportmetrics.v.aaplimg.com
 sv-ad-lgsmartad-com.aws-prd.net
 sv.lgsmartad.com
@@ -913,8 +865,6 @@ tapjoyads.com
 tc.lgsmartad.com
 tech.realmedia.co.kr
 telemetry.appex.bing.net
-telemetry.microsoft.com
-telemetry.urs.microsoft.com
 tenjin.com
 tg-ad-lgsmartad-com.aws-prd.net
 tg.lgsmartad.com
@@ -931,9 +881,7 @@ tr-st-sl.vivoglobal.com
 tr-timesync.vivoglobal.com
 tr-vcode-api.vivoglobal.com
 tr-vcode-od.vivoglobal.com
-tr.iadsdk.apple.com
 tr.lgsmartad.com
-tr.snapchat.com
 track.singularresearch.com
 track.tenjin.com
 tracking.india.miui.com
@@ -941,7 +889,6 @@ tracking.intl.miui.com
 tracking.miui.com
 tracking.prd.mz.internal.unity3d.com
 tracking.rus.miui.com
-trk.pinterest.com
 tt-ad-lgsmartad-com.aws-prd.net
 tt.lgsmartad.com
 tune.com
@@ -980,14 +927,9 @@ vi.lgsmartad.com
 virginmobile.eulerian.net
 vn-ad-lgsmartad-com.aws-prd.net
 vn.lgsmartad.com
-vortex-sandbox.data.microsoft.com
-vortex-win.data.microsoft.com
-vortex.data.microsoft.com
-vortex.data.microsoft.com.akadns.net
 vu-ad-lgsmartad-com.aws-prd.net
 vungle.com
 watson.live.com
-watson.microsoft.com
 wd.adcolony.com
 weather-analytics-events.apple.com
 weather-analytics-events.news.apple-dns.net
@@ -998,7 +940,6 @@ ws.tapjoyads.com
 www.247realmedia.com
 www.googleadservices.com
 www.leanplum.com
-www.lenovo-techsupport.com
 www.opportunity-tracking.com
 www.qwapi.com
 www.re.masoinmobiliaria.com

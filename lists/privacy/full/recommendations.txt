@@ -7,7 +7,7 @@
 # Risk: variabel
 # Data status: abgeleitet
 # Data method: derived-keyword
-# Entries: 362
+# Entries: 360
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -232,7 +232,6 @@ outloud.outbrain.com
 pages.taboola.com
 paid.outbrain.com
 perscdn.taboola.com
-playapprecommendations.googleapis.com
 popup.taboola.com
 product-recommendations.kameleoon.com
 publisher.taboola.com
@@ -244,7 +243,6 @@ recommendation-newsletter.wpdigital.net
 recommendation.24.com
 recommendation.algolia.com
 recommendation.apester.com
-recommendationengine.googleapis.com
 recommendations-prod.us-east-1.elasticbeanstalk.com
 recommendations-sdk.adobe.io
 recommendations.shareaholic.com

@@ -7,12 +7,11 @@
 # Risk: variabel
 # Data status: abgeleitet
 # Data method: derived-keyword
-# Entries: 73
+# Entries: 71
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
 data.info.philips-hue.com
-ehg-philipsvheusen.hitbox.com
 fast.philipslighting.demdex.net
 mailing.philips.com
 metrics.marketing.lighting.philips.kz
@@ -81,6 +80,5 @@ smetrics.marketing.lighting.philips.si
 smetrics.marketing.lighting.philips.sk
 smetrics.marketing.lighting.philips.ua
 smetrics.marketing.philips-hue.com
-smtp.philipsburg.bluehornet.com
 textmessagephilipstraits.com
 www.mailing.philips.com

@@ -6,9 +6,8 @@
 # Sources: lists/platforms/streaming/full/jellyfin.txt
 # Risk: medium
 # Data status: befuellt
-# Data method: derived-service-privacy
-# Entries: 1
+# Data method: service-privacy-curated
+# Entries: 0
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
-jellyfinstream.com

@@ -7,7 +7,7 @@
 # Risk: variabel
 # Data status: befuellt
 # Data method: derived-keyword
-# Entries: 28
+# Entries: 27
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -24,7 +24,6 @@ freegameanalytics.com
 gameanalytics.com
 go-export.gameanalytics.com
 go.gameanalytics.com
-hbevents-public.mz.unity3d.com
 maven.gameanalytics.com
 ops-query-0.gameanalytics.com
 ops-query-1.gameanalytics.com

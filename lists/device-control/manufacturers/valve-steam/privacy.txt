@@ -6,14 +6,12 @@
 # Sources: lists/manufacturers/valve-steam.txt
 # Risk: medium
 # Data status: befuellt
-# Data method: manufacturer-privacy
-# Entries: 6
+# Data method: device-privacy-curated
+# Entries: 4
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
 analytics.dielisteamberg.de
 analytics.steamforvietnam.org
 crash.steampowered.com
-stats.steamvps.com
-stats.successteam.io
 steam-telemetry.homefront-game.com

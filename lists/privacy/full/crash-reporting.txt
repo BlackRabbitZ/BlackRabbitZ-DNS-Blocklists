@@ -7,11 +7,10 @@
 # Risk: variabel
 # Data status: abgeleitet
 # Data method: derived-keyword
-# Entries: 98
+# Entries: 85
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
-amp-error-reporting.appspot.com
 api.bugsnag.com
 api.instabug.com
 app.bugsnag.com
@@ -20,26 +19,21 @@ blog.bugsnag.com
 browser.sentry-cdn.com
 bugsnag-session.monitor.core.app.alexa.a2z.com
 bugsnag.8x8.com
-bugsnag.8x8.com.cdn.cloudflare.net
 bugsnag.appstore.a2z.com
 bugsnag.com
 campaigns.bugsnag.com
-clouderrorreporting.googleapis.com
 community.bugsnag.com
 crash-report-service.svc.ui.com
 crash-reports.mozilla.com
 crashlytics.163.com
 crashlytics.com
 crashlytics.ru
-crashlyticsreports-pa.googleapis.com
-distributions-crashlytics-com.s3.amazonaws.com
 docs.bugsnag.com
 e.crashlytics.com
 e.crashlytics.net
 enterprise-updates.bugsnag.com
 errorreports.couponcabin.com
 firebase-settings.crashlytics.com
-firebasecrashlytics.googleapis.com
 getsentry.com
 getsentry.net
 getsentry.org
@@ -60,24 +54,18 @@ o64374.ingest.sentry.io
 o825645.ingest.us.sentry.io
 o861134.ingest.sentry.io
 on-prem-testing.bugsnag.com
-openamp-error-reporting.appspot.com
 otify.bugsnag.com
-owl.sentrydiscord.dev
 reports.crashlytics.com
 sentry-cdn.com
 sentry-internal.temp-mail.io
 sentry-monitoring.magellantv.com
 sentry-new.divar.ir
-sentry-public.stripchat.com
 sentry.101soundboards.com
 sentry.50onred.com
-sentry.avocarrot.com
 sentry.ayads.co
 sentry.be.xiaomi.com
 sentry.connatix.com
-sentry.discord.com
 sentry.fastboot.mobi
-sentry.flipkart.com
 sentry.fundraiseup.com
 sentry.furnishedfinder.com
 sentry.getadmiral.com
@@ -87,7 +75,6 @@ sentry.ixsystems.com
 sentry.justwatch.com
 sentry.keepstreams.com
 sentry.matchtv.ru
-sentry.meitustat.com
 sentry.mopub.com
 sentry.patrianna.com
 sentry.pay.xiaomi.com

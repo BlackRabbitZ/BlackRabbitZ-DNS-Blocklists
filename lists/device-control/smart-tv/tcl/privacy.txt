@@ -6,10 +6,8 @@
 # Sources: lists/platforms/smart-tv/full/tcl.txt + BRZ manufacturer data
 # Risk: medium
 # Data status: befuellt
-# Data method: derived-existing-privacy
-# Entries: 2
+# Data method: device-privacy-curated
+# Entries: 0
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
-goitcl.com
-idrfvtcl.com

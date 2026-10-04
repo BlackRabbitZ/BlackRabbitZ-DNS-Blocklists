@@ -6,33 +6,20 @@
 # Sources: lists/platforms/streaming/full/netflix.txt
 # Risk: medium
 # Data status: befuellt
-# Data method: derived-service-privacy
-# Entries: 25
+# Data method: service-privacy-curated
+# Entries: 12
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
-123netflix.pro
 ads.netflix.com
 ads.test.netflix.com
 ads.us-east-1.prodaa.netflix.com
 ads.us-west-2.prodaa.netflix.com
-adtech.nflximg.net
-ae.nflximg.net
 beacon.eu-west-1.prodaa.netflix.com
 beacon.geo.netflix.com
 beacon.netflix.com
 beacon.us-east-1.prodaa.netflix.com
 beacon.us-west-2.prodaa.netflix.com
-beaconimages.netflix.net
-cmpv2.best-of-netflix.com
-customerevents.netflix.com
 ichnaea.netflix.com
-inflx.io
-inflxio.s3-us-west-1.amazonaws.com
 logs.netflix.com
-netflix.avdhoothadke.com
-netflixalternative.net
-news.newonnetflix.info
-nmtracking.netflix.com
 nrdp.logs.netflix.com
-presentationtracking.netflix.com

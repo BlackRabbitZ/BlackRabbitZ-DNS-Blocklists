@@ -7,7 +7,7 @@
 # Risk: Niedrig–Mittel
 # Data status: befüllt
 # Data method: generated-tier
-# Entries: 104
+# Entries: 89
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -24,13 +24,10 @@ analytics-events.apple.com
 analytics.apple.com
 analytics.google.com
 api.gameanalytics.com
-app-analytics.snapchat.com
-app-measurement.com
 ase.adserver.snapads.com
 beacon.shazam.com
 books-analytics-events.apple.com
 books-analytics-events.news.apple-dns.net
-crashlogs.whatsapp.net
 crashlytics.com
 cstat-origin.apple.com
 cstat.apple.com
@@ -54,15 +51,12 @@ ecs.nel.measure.office.net
 engine.mobileapptracking.com
 euc.adserver.snapads.com
 euw.adserver.snapads.com
-feedback.search.microsoft.com
 feedback.windows.com
 feedbackws.apple.com
 feedbackws.fe.apple-dns.cn
 feedbackws.fe.apple-dns.net
 feedbackws.fe2.apple-dns.net
 firebase-settings.crashlytics.com
-firebasecrashlytics.googleapis.com
-firebaselogging.googleapis.com
 flirfvysba2opz0zmzqs5iuiad.apple.com
 google-analytics.com
 googleads.g.doubleclick.net
@@ -79,38 +73,29 @@ mobileapptracking.com
 news-analytics-events.apple.com
 notes-analytics-events.apple.com
 notes-analytics-events.news.apple-dns.net
-oca.telemetry.microsoft.com
 podcasts-analytics-events.apple.com
 prd-usw2-requestattribution-iad.apple.com
 reports.crashlytics.com
-sc-analytics.appspot.com
 searchads.apple.com
 searchads.apple.com.edgesuite.net
 searchads.lb-apple.com.akadns.net
 securemetrics-cn.v.aaplimg.com
-securemetrics.apple.com
-securemetrics.apple.com.cn
 securemetrics.v.aaplimg.com
 securepubads.g.doubleclick.net
 settings.crashlytics.com
 smoot-feedback.v.aaplimg.com
-sqm.telemetry.microsoft.com
 ssl.google-analytics.com
 stats.appsflyer.com
 stats.gc.apple.com
 stocks-analytics-events.apple.com
 stocks-analytics-events.news.apple-dns.net
-telecommand.telemetry.microsoft.com
 telemetry.appex.bing.net
-telemetry.microsoft.com
-telemetry.urs.microsoft.com
 tracking.india.miui.com
 tracking.intl.miui.com
 tracking.miui.com
 tracking.rus.miui.com
 tv-analytics-events.apple.com
 usc.adserver.snapads.com
-watson.telemetry.microsoft.com
 weather-analytics-events.apple.com
 weather-analytics-events.news.apple-dns.net
 ws.tapjoyads.com

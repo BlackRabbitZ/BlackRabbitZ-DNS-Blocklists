@@ -7,13 +7,12 @@
 # Risk: Hoch
 # Data status: befuellt
 # Data method: generated-tier
-# Entries: 649
+# Entries: 634
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
 2mdn.net
 7345023508.fxm9485766783.com
-7345023508.fxmconnect.com
 a1.resources.foxtel.com.au
 aax-eu.amazon-adsystem.com
 abtauthprd.samsungcloudsolution.com
@@ -50,8 +49,6 @@ amauthprd.samsungcloudsolution.com
 amazonadsi-a.akamaihd.net
 amoeba.web.roku.com
 an.lgsmartad.com
-androidtvchannels-pa.googleapis.com
-androidtvwatsonfe-pa.googleapis.com
 ao-ad-lgsmartad-com.aws-prd.net
 ao.lgsmartad.com
 api-gps-em.hismarttv.com
@@ -145,12 +142,10 @@ control-zoo-dtsstage.tvinteractive.tv
 control.tvinteractive.tv
 control2.tvinteractive.tv
 cooper.logs.roku.com
-coordinator-production-28516768.us-east-1.elb.amazonaws.com
 cr-ad-lgsmartad-com.aws-prd.net
 cr.lgsmartad.com
 cu.lgsmartad.com
 customer-feedbacks.web.roku.com
-customerevents.netflix.com
 cv-ad-lgsmartad-com.aws-prd.net
 cv.lgsmartad.com
 cy-ad-lgsmartad-com.aws-prd.net
@@ -191,7 +186,6 @@ ee-ad-lgsmartad-com.aws-prd.net
 ee.lgsmartad.com
 eg-ad-lgsmartad-com.aws-prd.net
 eg.lgsmartad.com
-ehg-philipsvheusen.hitbox.com
 eic-ngfts.lge.com
 eic-ngfts.lge.com.edgekey.net
 eic-qt2-ngfts.lge.com
@@ -248,7 +242,6 @@ gw-analytics.panasonic.com
 gy-ad-lgsmartad-com.aws-prd.net
 gy.lgsmartad.com
 h4g3z1-native.lgwebos.web.app
-hbbtv-1.eurosport.com
 hbbtv-event-collector.prd.g.joyn.de
 hbbtv-extern-fe01.sim-technik.de
 hbbtv-track.redbutton.de
@@ -315,8 +308,6 @@ lb.lgsmartad.com
 lc.lgsmartad.com
 lcprd1.samsungcloudsolution.net
 legacyportal.nettvservices.com
-lgad.cjpowercast.com
-lgad.cjpowercast.com.edgesuite.net
 lgads.tv
 lgsmartad.com
 lgtvcommon.com
@@ -367,7 +358,6 @@ mm-ad-lgsmartad-com.aws-prd.net
 mm.lgsmartad.com
 mn-ad-lgsmartad-com.aws-prd.net
 mo-ad-lgsmartad-com.aws-prd.net
-mobileanalytics.us-east-1.amazonaws.com
 mq.lgsmartad.com
 mr-ad-lgsmartad-com.aws-prd.net
 mr.lgsmartad.com
@@ -571,7 +561,6 @@ smetrics.marketing.philips-hue.com
 smetrics.panasonic.biz
 smetrics.panasonic.jp
 smetrics.panasonic.net
-smtp.philipsburg.bluehornet.com
 sn-ad-lgsmartad-com.aws-prd.net
 sn.lgsmartad.com
 sonybivstatic-a.akamaihd.net
@@ -584,7 +573,6 @@ sv-ad-lgsmartad-com.aws-prd.net
 sv.lgsmartad.com
 sy-ad-lgsmartad-com.aws-prd.net
 sy.lgsmartad.com
-syncplusconfig.s3.amazonaws.com
 sz-ad-lgsmartad-com.aws-prd.net
 targeted-config-test.samsungacr.com
 tc.lgsmartad.com
@@ -608,7 +596,6 @@ tracksrv.zdf.de
 trvdp.com
 tt-ad-lgsmartad-com.aws-prd.net
 tt.lgsmartad.com
-tv-static.scdn.co
 tvinteractive.tv
 tvmeta-dynamic.tvinteractive.tv
 tvp-ads-log.samsungads.com
@@ -638,8 +625,6 @@ uy.lgsmartad.com
 uz-ad-lgsmartad-com.aws-prd.net
 uz.lgsmartad.com
 vc-ad-lgsmartad-com.aws-prd.net
-vd.contents.prod.eu.s3.amazonaws.com
-vd.emp.prd.s3.amazonaws.com
 vdterms.samsungcloudsolution.com
 ve-ad-lgsmartad-com.aws-prd.net
 ve.lgsmartad.com

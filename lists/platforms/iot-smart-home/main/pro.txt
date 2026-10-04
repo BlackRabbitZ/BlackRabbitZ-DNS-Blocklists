@@ -5,7 +5,7 @@
 # License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
 # Sources: NextDNS Native Tracking Protection; Perflyst PiHoleBlocklist
 # Risk: niedrig-mittel
-# Entries: 29
+# Entries: 26
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 # Generated: ja
@@ -15,18 +15,15 @@ analytics.samsungknox.com
 api.mixpanel.com
 api.segment.io
 api2.amplitude.com
-app-measurement.com
 data.mistat.india.xiaomi.com
 data.mistat.intl.xiaomi.com
 data.mistat.rus.xiaomi.com
 data.mistat.xiaomi.com
 device-metrics-us-2.amazon.com
 device-metrics-us.amazon.com
-firebasecrashlytics.googleapis.com
 logs.roku.com
 logs1409.xiti.com
 mads-eu.amazon.com
-mobileanalytics.us-east-1.amazonaws.com
 msmetrics-test.ws.sonos.com
 msmetrics.ws.sonos.com
 nmetrics.samsung.com

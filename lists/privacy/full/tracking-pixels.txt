@@ -7,7 +7,7 @@
 # Risk: variabel
 # Data status: abgeleitet
 # Data method: derived-keyword
-# Entries: 927
+# Entries: 866
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
@@ -32,7 +32,6 @@ analytics.10pixel.de
 analytics.1pixel.fr
 analytics.beacon-cms.de
 analytics.one-pixel-ahead.com
-analyticspixel.microsoft.com
 anapixel.elmundo.es
 anapixel.expansion.com
 anapixel.marca.com
@@ -57,47 +56,30 @@ aws-useast-pixels.s3.amazonaws.com
 azjpixel.adsafeprotected.com
 bayercaftdisplay369718976092.s.moatpixel.com
 bayerusftdisplay331911571035.s.moatpixel.com
-bcb-beacon-nr.rubiconproject.com
 beacon-1.newrelic.com
 beacon-17-1072308554.eu-west-1.elb.amazonaws.com
 beacon-2.newrelic.com
 beacon-3.newrelic.com
 beacon-5.newrelic.com
 beacon-6.newrelic.com
-beacon-apac-hkg1.rubiconproject.com
-beacon-apac-nrt1.rubiconproject.com
 beacon-api.aliyuncs.com
 beacon-ash-prod.krxd.net
 beacon-beta.errorception.com
-beacon-cdn-custom.walmart.com.akadns.net
 beacon-cdn.walmart.ca.akadns.net
-beacon-cdn.walmart.com.akadns.net
-beacon-eu-ams3.rubiconproject.com
-beacon-eu.rubiconproject.com
-beacon-eu2.rubiconproject.com
 beacon-fullpage-predictor.goguardian.com
-beacon-iad2.rubiconproject.com
-beacon-iad3.rubiconproject.com
 beacon-maxis.krxd.net
 beacon-monitor.sharethrough.com
 beacon-n-ash.lb.krxd.net
 beacon-n-dub.lb.krxd.net
 beacon-n-pdx.lb.krxd.net
-beacon-nf.rubiconproject.com
 beacon-nf.rubiconproject.net.akadns.net
 beacon-sie-eu.krxd.net
 beacon-sie.krxd.net
 beacon-sjc2.rubiconproject.net.akadns.net
 beacon-streamer.prod.saymedia.com
 beacon-streamer.saymedia.com
-beacon-us-east.rubiconproject.com
-beacon-us-iad2.rubiconproject.com
-beacon-us-iad3.rubiconproject.com
-beacon-us-sjc1.rubiconproject.com
-beacon-us-west.rubiconproject.com
 beacon-v2.helpscout.net
 beacon.9165619.com
-beacon.affil.walmart.com
 beacon.aimtell.com
 beacon.archonia.com
 beacon.asda.com
@@ -113,7 +95,6 @@ beacon.cracked.com
 beacon.crigloo.com
 beacon.dearnex.cloud
 beacon.decryptresearch.co.uk
-beacon.deepintent.com
 beacon.digima.com
 beacon.digitalwerksautomation.com
 beacon.eb-collector.com
@@ -147,11 +128,9 @@ beacon.jump-time.net
 beacon.jumptime.com
 beacon.kmi-us.com
 beacon.krxd.net
-beacon.lijit.com
 beacon.livefyre.com
 beacon.lycos.com
 beacon.lynx.cognitivlabs.com
-beacon.marketshot.com
 beacon.mitremedia.org
 beacon.mtgx.tv
 beacon.my.salesforce.com
@@ -160,13 +139,11 @@ beacon.nuskin.com
 beacon.performave.com
 beacon.playback.api.brightcove.com
 beacon.prod.minionplatform.com
-beacon.qa.walmart.com
 beacon.qq.com
 beacon.rallydev.com
 beacon.richrelevance.com
 beacon.riskified.com
 beacon.rtp.dailyhunt.in
-beacon.rubiconproject.com
 beacon.rum.dynapis.com
 beacon.rum.dynapis.info
 beacon.s-onetag.com
@@ -188,7 +165,6 @@ beacon.sojern.com
 beacon.sp.gmossp-sp.jp
 beacon.sparta.mig.tencent-cloud.net
 beacon.squixa.net
-beacon.stage.walmart.com
 beacon.statful.com
 beacon.static-data.com
 beacon.stationa.com
@@ -203,9 +179,7 @@ beacon.tunecore.com
 beacon.tws.toyota.jp
 beacon.us-east-1.prodaa.netflix.com
 beacon.us-west-2.prodaa.netflix.com
-beacon.viewlift.com
 beacon.walmart.ca
-beacon.walmart.com
 beacon.wikia-services.com
 beacon.www.theguardian.com
 beacon.zeroidtech.com
@@ -220,7 +194,6 @@ beaconforms.com
 beaconforstore.com
 beaconhub.iadmob.com
 beaconhygiene.com
-beaconimages.netflix.net
 beaconin2.notinote.me
 beaconpush.com
 beacons-production.elasticbeanstalk.com
@@ -232,7 +205,6 @@ beacons.gvt2.com
 beacons.helium.com
 beacons.mediamelon.com
 beacons.trafficmanager.net
-beacons.xboxlive.com
 beacons2.gvt2.com
 beacons3.gvt2.com
 beacons4.gvt2.com
@@ -246,7 +218,6 @@ bepixel.net.br
 beta1.beacon.studio.ev1.inmobi.com
 bloombergdfpcw4670778881.s.moatpixel.com
 brightpixel.co.uk
-bslbeacon.lijit.com
 burstbeacon.com
 c.tvpixel.com
 cam-pixel-tracker-prod.azure-api.net
@@ -264,16 +235,13 @@ chromecast-beacons.xumo.com
 churchdwightsizmek22033498.s.moatpixel.com
 ck-beacon.prd.b2cecom.eu.pvh.cloud
 cmpixel.onedigitalad.com
-cms-pixel.crowdreport.com
 compixel.everesttech.net
 conduit-beacon-use1.mtvnservices.com
 conduit-beacon.mtvnservices.com
-conduit-beacon.use1.prod.aws.viacbs.cloud
 contextweb.pixel.invitemedia.com
 conversion-pixel.invitemedia.com
 cpxiappnexusvpaidvideo235346.s.moatpixel.com
 cpxigen865632366955.s.moatpixel.com
-criteofakepixel.ad.atdmt.com
 crosspixel.demdex.net
 crosspixel.net
 dailymotionjsvideo432290662219.s.moatpixel.com
@@ -305,10 +273,8 @@ eucmpixel.onedigitalad.com
 evbeacon.godaddy.com
 evbeacon.networksolutions.com
 eventbeacon.ca
-exchange-beacon.deepintent.com
 exponential54894892.s.moatpixel.com
 exponentialjsint8023749877114.s.moatpixel.com
-external-lga3-1.xx.fbcdn.netpixel.everesttech.net
 fathom.bonpixel.com
 fathom.sleepypixel.monster
 fbpixel.network.exchange
@@ -325,7 +291,6 @@ fp.mendocinobeacon.com
 fwpixel.com
 g-pixel.invitemedia.com
 g2i.mendocinobeacon.com
-ga-beacon.appspot.com
 gameeve.beacon.qq.com
 geobeacon.ign.com
 getbeacon.io
@@ -334,7 +299,6 @@ gluedpixel.com
 go.americapixel.com
 goodwaythetradedeskvideo910663478306.s.moatpixel.com
 googleadservicepixel.com
-gslbeacon.lijit.com
 gtm.powpixel.shop
 har-beacon.har.com
 hisense-beacons.xumo.com
@@ -348,10 +312,7 @@ iconmediapixel.com
 ihm-pixelg.adswizz.com
 imspixel.com
 imtwjwoasak-pmi-pixel-origin.s3.amazonaws.com
-insights-beacon.deepintent.com
 inskinmedia689754970364.s.moatpixel.com
-intelligentpixel.modernimpact.com
-is-tracking-pixel-api-prod.appspot.com
 ivypixel.com
 js.hsadspixel.net
 kargodfpnew803390365855.s.moatpixel.com
@@ -421,7 +382,6 @@ pixel.adsniper.ru
 pixel.adsrvr.org
 pixel.adstailor.com
 pixel.adswizz.com
-pixel.adtelligent.com
 pixel.advertising.com
 pixel.agkn.com
 pixel.aguadimi.com.br
@@ -447,8 +407,6 @@ pixel.auladecontrabaixo.com
 pixel.aulasdeconsultoria.com.br
 pixel.autoaffiliatenetwork.com
 pixel.avelartutoriais.com
-pixel.aws.pfnetwork.net
-pixel.backpackinglight.com
 pixel.bapi.adsafeprotected.com
 pixel.baralhohipnotico.com.br
 pixel.barion.com
@@ -460,7 +418,6 @@ pixel.blog.hu
 pixel.bolsasemsegredo.com
 pixel.bounceexchange.com
 pixel.bridge.dooca.store
-pixel.brit.co
 pixel.brokerhunter.com.br
 pixel.bullion.media
 pixel.butikbelle.com
@@ -468,9 +425,7 @@ pixel.buzzfeed.com
 pixel.byspotify.com
 pixel.captora.com
 pixel.carambo.la
-pixel.carolnsmkt.com
 pixel.casponline.com.br
-pixel.cdnwidget.com
 pixel.cefaleiaparafisioterapeutas.com
 pixel.cerescanali.com
 pixel.chaty.app
@@ -493,7 +448,6 @@ pixel.crisformighieri.com
 pixel.criteo.com
 pixel.criteo.net
 pixel.crosspixel.net
-pixel.cursarnet.com
 pixel.cursodeafiliados.com
 pixel.cursodearduino.net
 pixel.cursodedesenhotecnico.com
@@ -539,11 +493,9 @@ pixel.falalima.com.br
 pixel.fanbridge.com
 pixel.fencesperth.com
 pixel.flavianosouzaesilva.com.br
-pixel.friarscourt.com
 pixel.getaway.ee
 pixel.getmobilus.com
 pixel.getpaidfordata.com
-pixel.gfycat.com
 pixel.giselegoncalvesoficial.com
 pixel.glimr.io
 pixel.glowboxacessorios.com.br
@@ -555,7 +507,6 @@ pixel.grupofloss.com
 pixel.hacksdigitais.com
 pixel.hecherthepar.pro
 pixel.hengaredi.pro
-pixel.highfit.com.br
 pixel.holtzbrinckdigital.info
 pixel.homebook.pl
 pixel.honestjohn.co.uk
@@ -585,7 +536,6 @@ pixel.jumptap.com
 pixel.justhomestay.in
 pixel.k8s.prod.blend.com
 pixel.keywee.co
-pixel.klout.com
 pixel.knifeflix.com.br
 pixel.kodixauto.ru
 pixel.konvertix.com
@@ -649,7 +599,6 @@ pixel.olaprazer.com.br
 pixel.onaudience.com
 pixel.onegociomarketing.com
 pixel.opoderdamulher.com.br
-pixel.organicprodact.com
 pixel.orichi.info
 pixel.oshkosh.com
 pixel.packdigital.com.br
@@ -664,22 +613,18 @@ pixel.playbuzz.com
 pixel.pointmediatracker.com
 pixel.postarpravender.com
 pixel.precificacaosimples.com
-pixel.prfct.co
-pixel.priscilaschmidt.com.br
 pixel.production-public.tubi.io
 pixel.professoralaramonica.com
 pixel.programajaponesonline.com.br
 pixel.projetoeueduco.com.br
 pixel.propublica.org
 pixel.prosieben.de
-pixel.quantcount.com
 pixel.quantserve.com
 pixel.quikly.com
 pixel.randymarcos.com.br
 pixel.rca360.com
 pixel.realclever.com
 pixel.realtor.com
-pixel.reddit.com
 pixel.redditmedia.com
 pixel.reinvention-institute.com
 pixel.renanpivetta.com.br
@@ -689,7 +634,6 @@ pixel.rodrigomourao.com.br
 pixel.roughgroup.com
 pixel.roymorgan.com
 pixel.rubenssantanna.com.br
-pixel.rubiconproject.com
 pixel.rubiconproject.net.akadns.net
 pixel.run-syndicate.com
 pixel.runative-syndicate.com
@@ -705,7 +649,6 @@ pixel.serviceleverage.com
 pixel.shareaholic.com
 pixel.sibellemodas.com.br
 pixel.siteoficialcompra-online.com
-pixel.sitescout.com
 pixel.sitevibes.com
 pixel.skiphop.com
 pixel.smartnews.com
@@ -720,7 +663,6 @@ pixel.staging.tree.com
 pixel.staging.web.roku.com
 pixel.staticworld.net
 pixel.sucessodonto.com.br
-pixel.tanjucart.com
 pixel.tapad.com
 pixel.tapad.comp.skimresources.com
 pixel.tatpek.com
@@ -883,7 +825,6 @@ stape.privatepixel.com
 stats.ahoipixel.de
 stats.relativitypixel.com
 subpixel.4players.de
-surveygizmobeacon.s3.amazonaws.com
 svibeacon.onezapp.com
 teads245638586802.s.moatpixel.com
 terminusdisplay296618589072.s.moatpixel.com
@@ -894,7 +835,6 @@ thetradedeskinnovidmaster582779829774.s.moatpixel.com
 thetradedeskv275874568748.s.moatpixel.com
 thisisbeacon.com
 trackingpixel.net
-trafficfuelpixel.s3-us-west-2.amazonaws.com
 travel-pixel-web.us-east-1.prod.expedia.com
 tree-pixel-log.s3.amazonaws.com
 tribpubdfp745347008913.s.moatpixel.com
@@ -908,7 +848,6 @@ umami.massivepixel.app
 us-east-dmp-web-pixel.adblade.com
 us.cdpbeacon.lgtvcommon.com
 us.pixel.newscgp.com
-useast-beacon.deepintent.com
 user.beaconjournal.com
 uudef.beacon40.com
 v2.pixel.newscgp.com

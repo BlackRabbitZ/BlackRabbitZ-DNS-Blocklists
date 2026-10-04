@@ -6,18 +6,21 @@
 # Sources: lists/manufacturers/ea.txt
 # Risk: high
 # Data status: befuellt
-# Data method: manufacturer-restrict
-# Entries: 40
+# Data method: device-restrict-curated
+# Entries: 39
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
+abtest-va-tiktok.byteoversea.com
+ad.ciokorea.com
+ad.mylinea.com
+ad.snappea.com
+ad.xrea.com
 ads.contralinea.com.mx
 ads.miciudadenlinea.com.ar
 ads.pdbarea.com
 ads.rohea.com
-adserver.mylinea.com
-adserver1.lujanenlinea.com.ar
-adsrv.ea.com
+advert.bayarea.com
 analytics.akalea.com
 analytics.fcmlabemea.com
 analytics.luceleaftea.com
@@ -26,28 +29,24 @@ analytics.pressarea.com
 analytics.savamea.com
 analytics.snappea.com
 analytics.swgoodidea.com
-experimentation-apex.data.ea.com
-experimentation.data.ea.com
-gtm.adslancorrea.com.br
+api.ad.snappea.com
+apk.ad.snappea.com
+apps.ad.snappea.com
+callback.ad.snappea.com
+config.ad.snappea.com
+electronicartsde.widget.criteo.com
 load.events.drogariascampea.com.br
+log.byteoversea.com
+log.byteoversea.com.edgekey.net
+log.snappea.com
 marketing.squareonemea.com
 metrics.ananea.com
 metrics.ikea.com
 metrics.thermea.com
 metrics.toolbox.inter-ikea.com
 news.nero-emea.com
-sanalytics.cartoonnetworkkorea.com
-smetrics.bhhsbayarea.com
-smetrics.polarenlinea.com
-smetrics.sony-mea.com
-smetrics.toolbox.inter-ikea.com
-stats.buzzea.com
-stats.charlesonrecreationarea.com
-stats.ecomnews.fr.ecn-01.ovea.com
-stats.forum-area.com
-stats.ixarea.com
-stats.noveaidea.com
-stats.qloudea.com
-track.tastyarea.com
+report.ad.snappea.com
+reports.tools.gos.ea.com
 tracker.diamantea.com
 tracking.tiojaggerytea.com
+v16-ad.byteoversea.com

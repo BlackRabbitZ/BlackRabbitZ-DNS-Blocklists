@@ -6,14 +6,12 @@
 # Sources: BRZ existing data + curated service roots
 # Risk: very high
 # Data status: befuellt
-# Data method: service-block-all
-# Entries: 6
+# Data method: service-block-all-curated
+# Entries: 4
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
 amazonvideo.com
-atv-ps.amazon.com
 primevideo.com
-primevideospot.com
 sonar.prime-video.amazon.dev
 www.primevideo.com

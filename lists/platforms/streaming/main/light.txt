@@ -7,11 +7,10 @@
 # Risk: Minimal
 # Data status: befüllt
 # Data method: generated-tier
-# Entries: 12
+# Entries: 7
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
-ad.twitchguru.com
 ads.netflix.com
 ads.spotify.com
 ads.test.netflix.com
@@ -19,7 +18,3 @@ ads.twitch.tv
 ads.us-east-1.prodaa.netflix.com
 ads.us-west-2.prodaa.netflix.com
 ads.youtube.com
-mp3ad.scdn.co
-twitchads.tv
-twitchadvertising.tv
-www.ad.twitchguru.com

@@ -6,13 +6,8 @@
 # Sources: lists/platforms/nas-server/full/hpe-dell.txt + BRZ manufacturer data
 # Risk: medium
 # Data status: befuellt
-# Data method: derived-existing-privacy
-# Entries: 5
+# Data method: device-privacy-curated
+# Entries: 0
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
-device.cloud.hpe.com
-esrs3-core.emc.com
-esrs3-coredr.emc.com
-infosight.hpe.com
-midway.ext.hpe.com

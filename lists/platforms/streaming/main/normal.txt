@@ -7,11 +7,10 @@
 # Risk: Niedrig
 # Data status: befüllt
 # Data method: generated-tier
-# Entries: 24
+# Entries: 13
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
-ad.twitchguru.com
 adeventtracker.spotify.com
 adeventtrackermonitoring.spotify.com
 ads.netflix.com
@@ -24,14 +23,4 @@ ads.youtube.com
 analytics.disneyplus.com
 analytics.plex.tv
 analytics.spotify.com
-analytics.xyscdn.com
-mp3ad.scdn.co
-nmtracking.netflix.com
-presentationtracking.netflix.com
-sanalytics.disneyplus.com
-simpleanalyticscdn.com
 spotify.demdex.net
-twitchads.tv
-twitchadvertising.tv
-www.ad.twitchguru.com
-youtube.112.2o7.net

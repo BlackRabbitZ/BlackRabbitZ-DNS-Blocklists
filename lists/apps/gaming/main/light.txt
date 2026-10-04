@@ -7,33 +7,9 @@
 # Risk: Minimal
 # Data status: befuellt
 # Data method: generated-tier
-# Entries: 26
+# Entries: 2
 # Format: Plain domains, eine Domain pro Zeile
 # Build model: Single file; keine Part-/MiB-Aufteilung
 #
-ad.ciokorea.com
-ad.mylinea.com
-ad.snappea.com
-ad.xrea.com
 ads-sdk-gateway.prd.mz.internal.unity3d.com
 ads.blizzard.com
-ads.contralinea.com.mx
-ads.miciudadenlinea.com.ar
-ads.pdbarea.com
-ads.rohea.com
-adserver.mylinea.com
-adserver1.lujanenlinea.com.ar
-advert.bayarea.com
-ae.iads.unity3d.com
-api.ad.snappea.com
-apk.ad.snappea.com
-apps.ad.snappea.com
-callback.ad.snappea.com
-cdn.iads.unity3d.com
-config.ad.snappea.com
-load.dados.dracarolinacorrea.com.br
-load.events.drogariascampea.com.br
-load.sst.aacea.com
-load.sst.caedrea.com
-marketing.squareonemea.com
-v16-ad.byteoversea.com
