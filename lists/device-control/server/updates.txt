@@ -1,7 +1,0 @@
-# BlackRabbitZ DNS Blocklists
-# List: lists/device-control/server/updates.txt
-# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
-# License: GPL-3.0-only; third-party sources: THIRD_PARTY.md
-# Data method: aggregate of BRZ device-control/nas-server updates
-# Entries: 0
-#

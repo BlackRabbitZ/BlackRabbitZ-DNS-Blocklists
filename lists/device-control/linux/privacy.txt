@@ -1,8 +1,0 @@
-# BlackRabbitZ DNS Blocklists
-# List: lists/device-control/linux/privacy.txt
-# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
-# License: GPL-3.0-only; third-party sources: THIRD_PARTY.md
-# Data method: mapped from detailed BRZ device-control sources
-# Entries: 1
-#
-metrics.ubuntu.com

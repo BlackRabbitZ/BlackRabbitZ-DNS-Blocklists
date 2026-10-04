@@ -1,9 +1,0 @@
-# BlackRabbitZ DNS Blocklists
-# List: lists/block-all/music/deezer.txt
-# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
-# License: GPL-3.0-only; third-party sources: THIRD_PARTY.md
-# Data method: BRZ service-blocking Block All
-# Entries: 2
-#
-deezer.com
-dzcdn.net

@@ -1,7 +1,0 @@
-# BlackRabbitZ DNS Blocklists
-# List: lists/privacy-security/security/dga-7d.txt
-# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
-# License: GPL-3.0-only; third-party sources: THIRD_PARTY.md
-# Data method: not populated: no compatible domain data in the two requested source snapshots; see metadata/target-build-audit.json
-# Entries: 0
-#

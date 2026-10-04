@@ -1,9 +1,0 @@
-# BlackRabbitZ DNS Blocklists
-# List: lists/gaming/platforms/steam-privacy.txt
-# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
-# License: GPL-3.0-only; third-party sources: THIRD_PARTY.md
-# Data method: derived from current BRZ snapshot
-# Entries: 2
-#
-crash.steampowered.com
-steam-telemetry.homefront-game.com

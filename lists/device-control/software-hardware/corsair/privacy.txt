@@ -1,9 +1,0 @@
-# BlackRabbitZ DNS Blocklists
-# List: lists/device-control/software-hardware/corsair/privacy.txt
-# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
-# License: GPL-3.0-only; third-party sources: THIRD_PARTY.md
-# Data method: fallback from BRZ lists/platforms/software-hardware-telemetry/full/corsair.txt
-# Entries: 2
-#
-tag.corsair.com
-web.corsair.com

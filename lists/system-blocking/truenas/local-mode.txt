@@ -1,8 +1,0 @@
-# BlackRabbitZ DNS Blocklists
-# List: lists/system-blocking/truenas/local-mode.txt
-# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
-# License: GPL-3.0-only; third-party sources: THIRD_PARTY.md
-# Data method: BRZ privacy+restrict minus update endpoints
-# Entries: 1
-#
-telemetry.sys.truenas.net

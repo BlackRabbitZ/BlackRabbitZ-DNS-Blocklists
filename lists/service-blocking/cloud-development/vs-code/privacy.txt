@@ -1,8 +1,0 @@
-# BlackRabbitZ DNS Blocklists
-# List: lists/service-blocking/cloud-development/vs-code/privacy.txt
-# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
-# License: GPL-3.0-only; third-party sources: THIRD_PARTY.md
-# Data method: alias of BRZ vscode service-blocking
-# Entries: 1
-#
-analytics.visualstudio.com
