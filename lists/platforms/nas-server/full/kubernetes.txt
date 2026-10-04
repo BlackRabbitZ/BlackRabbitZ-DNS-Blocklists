@@ -1,0 +1,34 @@
+# BlackRabbitZ DNS Blocklists
+# Title: Kubernetes
+# Description: Kubernetes Telemetrie-/Tracking-Endpunkte
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: Aus vorhandenen BlackRabbitZ-/dokumentierten HaGeZi-Domains konservativ abgeleitet
+# Risk: variabel
+# Data status: abgeleitet
+# Data method: derived-keyword
+# Entries: 21
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+adserver.k8s.getakite.surf
+analytics-ingestion-v3.main-production-custom.production.k8s.tubi.io
+analytics.k8s.djpmedia.cloud
+csp-violations.k8s.prod.blend.com
+dy2xcjk8s1dbz.cloudfront.net
+gql-graphql-gateway.prod.k8s.onepeloton.com
+k8s-stage1-use1.int.vidible.tv
+k8s.prod.vidible.tv
+k8s.stage.vidible.tv
+k8s.unity.amobee.com
+k8s.vidible.tv
+matomo.az.prod.k8s.soliver.com
+pixel.k8s.prod.blend.com
+plausible.k8stage.myafsa.com
+pux-api.k8s-a1.veinteractive.com
+pux-api.k8s-e1.veinteractive.com
+pux-api.k8s-u2.veinteractive.com
+systemintegrationsapi.k8s-e1.veinteractive.com
+veadsimages.k8s-e1.veinteractive.com
+veadstracking.k8s-e1.veinteractive.com
+vg-k8s-setting.rayjump.com

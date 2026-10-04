@@ -1,0 +1,22 @@
+# BlackRabbitZ DNS Blocklists
+# Title: Payment
+# Description: Payment-Ausnahmen
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: BlackRabbitZ manuell; BRZ conservative payment runtime endpoints
+# Risk: niedrig
+# Data status: befuellt
+# Data method: manual-curated
+# Entries: 9
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+adyen.com
+checkout.stripe.com
+checkoutshopper-live.adyen.com
+js.klarna.com
+js.stripe.com
+klarna.com
+paypal.com
+stripe.com
+www.paypal.com

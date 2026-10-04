@@ -1,0 +1,12 @@
+# BlackRabbitZ DNS Blocklists
+# Title: Red Hat / OpenShift Full
+# Description: Vollstaendige im NAS-/Server-Datenbestand erkannte Red Hat / OpenShift-Eintraege.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; siehe THIRD_PARTY.md fuer Drittquellen
+# Sources: BlackRabbitZ dokumentierte NAS-/Server-Endpunkte
+# Risk: hoch
+# Entries: 0
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+# Generated: ja
+#

@@ -1,0 +1,16 @@
+# BlackRabbitZ DNS Blocklists
+# Title: Fonts / externe Ressourcen
+# Description: Externe Font-/Ressourcen-Endpunkte; optional/aggressiv
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: Aus vorhandenen BlackRabbitZ-/dokumentierten HaGeZi-Domains konservativ abgeleitet
+# Risk: mittel
+# Data status: abgeleitet
+# Data method: derived-keyword
+# Entries: 3
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+p.typekit.net
+performance.typekit.net
+typekit.net

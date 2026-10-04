@@ -1,0 +1,46 @@
+# BlackRabbitZ DNS Blocklists
+# List: lists/device-control/oppo-realme/privacy.txt
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; third-party sources: THIRD_PARTY.md
+# Data method: mapped from detailed BRZ device-control sources
+# Entries: 39
+#
+ad.realmedia.co.kr
+ads.heytapmobi.com
+ads.heytapmobile.com
+ads.oppomobile.com
+ads.realmedia.com
+ads.realmedia.com.br
+adx-id.ads.oppomobile.com
+adx-in.ads.heytapmobi.com
+adx-in.ads.oppomobile.com
+adx.ads.oppomobile.com
+analytics.istodayoppositeday.com
+analytics.oppomobile.com
+b1.ads.oppomobile.com
+bdapi-ads.realmemobile.com
+bdapi-id.ads.oppomobile.com
+bdapi-in-ads.realmemobile.com
+bdapi-in.ads.oppomobile.com
+bdapi.ads.oppomobile.com
+bjdata.ads.oppomobile.com
+ck.ads.oppomobile.com
+cl-data-in.ads.heytapmobi.com
+cm.ads.oppomobile.com
+data-cl-f.ads.oppomobile.com
+data-cl-id.ads.oppomobile.com
+data-cl-in.ads.oppomobile.com
+data-f.ads.oppomobile.com
+data-id.ads.oppomobile.com
+data-in-ads.realmemobile.com
+data-in.ads.oppomobile.com
+data-sg.ads.oppomobile.com
+data.ads.oppomobile.com
+dataf.ads.oppomobile.com
+g1.ads.oppomobile.com
+opportunity-tracking.com
+sms-in.ads.oppomobile.com
+sms.ads.oppomobile.com
+stg-data-in.ads.heytapmobi.com
+uapi.ads.oppomobile.com
+www.opportunity-tracking.com

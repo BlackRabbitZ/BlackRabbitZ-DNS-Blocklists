@@ -1,0 +1,26 @@
+# BlackRabbitZ DNS Blocklists
+# Title: meta restrict
+# Description: Privacy plus optional vendor/cloud services.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: lists/manufacturers/meta.txt
+# Risk: high
+# Data status: befuellt
+# Data method: device-restrict-curated
+# Entries: 13
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+ads.ak.facebook.com.edgesuite.net
+ads.facebook.com
+ads.findfacebookwoman.com
+analytics.facebook.com
+analytics.instagram.com
+analytics.whatsapp.com
+facebook.co1.qualtrics.com
+facebook.promo.tubemogul.com
+marketing.threadsol.com
+pixel.facebook.com
+s-threads.analytics.carbonite.com
+tracking.whatsappbgr.com
+tracking.whatsapplp.com

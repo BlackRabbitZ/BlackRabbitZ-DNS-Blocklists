@@ -1,0 +1,30 @@
+# BlackRabbitZ DNS Blocklists
+# Title: O2 / Telefónica
+# Description: O2-/Telefónica-Analytics
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: Aus vorhandenen BlackRabbitZ-/dokumentierten HaGeZi-Domains konservativ abgeleitet
+# Risk: variabel
+# Data status: abgeleitet
+# Data method: derived-keyword
+# Entries: 17
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+chatrouter-telefonica.inq.com
+data.information.telefonica.de
+data.telefonica.test.cjmadobe.com
+fast.telefonicauklimited.demdex.net
+lon.telefonica.bench.cedexis.com
+o2onlinede.widget.criteo.com
+portal.o2online.de
+statistik.co2online.de
+telefonica.eu.qualtrics.com
+telefonica.inq.com
+telefonicaespana.tt.omtrdc.net
+telefonicauk.d3.sc.omtrdc.net
+telefonicauklimited.demdex.net
+telefonicauklimited.tt.omtrdc.net
+tiws.telefonica.com
+track.o2online.de
+webstatistics.telefonica.de

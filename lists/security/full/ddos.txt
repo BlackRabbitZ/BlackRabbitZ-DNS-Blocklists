@@ -1,0 +1,27 @@
+# BlackRabbitZ DNS Blocklists
+# Title: Ddos
+# Description: Konservativ aus bereits blockierten BRZ-Threat-Domains anhand starker Kategorie-Signale abgeleitet.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: Derived from BRZ phishing/scam/fake-shops
+# Risk: hoch
+# Data method: derived-keyword
+# Entries: 15
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+atddos.top
+booter.it
+breppuppeuddosa.vercel.app
+ddos-alert.com
+ddos-alert.net
+dossanddoss.com
+e-ddos.appspot.com
+hecks.ddosdev.com
+meineswisscom.bergstresserrealestate.com
+www.booter.it
+www.ddos-alert.com
+www.ddos-alert.net
+www.ddos-attack-protection-aws.com
+www.ddos-attack.info
+www.e-ddos.appspot.com

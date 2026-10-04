@@ -1,0 +1,18 @@
+# BlackRabbitZ DNS Blocklists
+# Title: dazn isolate
+# Description: Maximum known service communication; service/app is expected to stop working.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: lists/service-blocking/streaming/dazn/block-all.txt
+# Risk: very high
+# Data status: befuellt
+# Data method: service-isolate
+# Entries: 5
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+commercial.daznservices.com
+data-597aebc8e1.daznservices.com
+dazn.com
+geolocation.daznservices.com
+www.dazn.com

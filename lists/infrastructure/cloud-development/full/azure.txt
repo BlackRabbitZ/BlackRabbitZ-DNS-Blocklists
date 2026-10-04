@@ -1,0 +1,29 @@
+# BlackRabbitZ DNS Blocklists
+# Title: Azure
+# Description: Azure Tracking/Telemetry
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: Aus vorhandenen BlackRabbitZ-/dokumentierten HaGeZi-Domains konservativ abgeleitet
+# Risk: variabel
+# Data status: abgeleitet
+# Data method: curated-privacy
+# Entries: 16
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+cam-pixel-tracker-prod.azure-api.net
+centricity-prod-es-dealer-reporting.azurewebsites.net
+cint-collector-usc.azurewebsites.net
+cjs-diagnostics-office-com-gvdhgwfwbbfsd9g3.z01.azurefd.net
+collector.azure.cn
+collector.azure.eaglex.ic.gov
+collector.azure.microsoft.cloud
+ffg-analytics-functionsk3nvxfne4dp4s.azurewebsites.net
+fingerprinting-fd-hzbjgafhhucga5dn.z01.azurefd.net
+ironsight-analytics.azurewebsites.net
+js.monitor.azure.com
+me-cam-pixel-tracker-prod.azure-api.net
+monitor.azure.com
+telemetry.westeurope.cloudapp.azure.com
+ts-wn-log-bmggb9bcacbsd6df.westus-01.azurewebsites.net
+volvelle-ads-cdn.azureedge.net

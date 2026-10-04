@@ -1,0 +1,17 @@
+# BlackRabbitZ DNS Blocklists
+# Title: intel isolate
+# Description: Maximum known vendor communication; may break cloud/account/store/updates.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: lists/platforms/software-hardware-telemetry/full/intel.txt + BRZ manufacturer data
+# Risk: very high
+# Data status: befuellt
+# Data method: derived-isolate
+# Entries: 4
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+analytics.kriskintel.com
+analytics.ravenintel.com
+stats.iridiumintel.com
+telemetry.intel.com

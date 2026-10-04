@@ -1,0 +1,12 @@
+# BlackRabbitZ DNS Blocklists
+# Title: Google TV
+# Description: Google-/Android-TV-Endpunkte als Basissatz für Google TV.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: BRZ google-android-tv.txt
+# Risk: mittel
+# Data method: platform-inheritance
+# Entries: 0
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#

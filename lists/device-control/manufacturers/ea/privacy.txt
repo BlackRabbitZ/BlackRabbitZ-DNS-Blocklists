@@ -1,0 +1,50 @@
+# BlackRabbitZ DNS Blocklists
+# Title: ea privacy
+# Description: Manufacturer privacy/tracking/telemetry endpoints.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: lists/manufacturers/ea.txt
+# Risk: medium
+# Data status: befuellt
+# Data method: device-privacy-curated
+# Entries: 37
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+abtest-va-tiktok.byteoversea.com
+ad.ciokorea.com
+ad.mylinea.com
+ad.snappea.com
+ad.xrea.com
+ads.contralinea.com.mx
+ads.miciudadenlinea.com.ar
+ads.pdbarea.com
+ads.rohea.com
+advert.bayarea.com
+analytics.akalea.com
+analytics.fcmlabemea.com
+analytics.luceleaftea.com
+analytics.nordea.com
+analytics.pressarea.com
+analytics.savamea.com
+analytics.snappea.com
+analytics.swgoodidea.com
+api.ad.snappea.com
+apk.ad.snappea.com
+apps.ad.snappea.com
+callback.ad.snappea.com
+config.ad.snappea.com
+load.events.drogariascampea.com.br
+log.byteoversea.com
+log.byteoversea.com.edgekey.net
+log.snappea.com
+marketing.squareonemea.com
+metrics.ananea.com
+metrics.ikea.com
+metrics.thermea.com
+metrics.toolbox.inter-ikea.com
+report.ad.snappea.com
+reports.tools.gos.ea.com
+tracker.diamantea.com
+tracking.tiojaggerytea.com
+v16-ad.byteoversea.com

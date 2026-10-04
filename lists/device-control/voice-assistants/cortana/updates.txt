@@ -1,0 +1,34 @@
+# BlackRabbitZ DNS Blocklists
+# Title: cortana updates
+# Description: Separately identified update/firmware/download endpoints.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: lists/platforms/voice-assistants/full/cortana.txt + BRZ manufacturer data
+# Risk: high
+# Data status: befuellt
+# Data method: derived-updates
+# Entries: 21
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+adl.windows.com
+bingsclspe.download
+ctldl.windowsupdate.com
+download.windowsupdate.com
+emdl.ws.microsoft.com
+englobingoopmzqu.download
+fe2.update.microsoft.com
+fe2.update.microsoft.com.akadns.net
+microsoft-update.name
+microsoft-update.support
+microsoftupdate67.wixsite.com
+microsoftupdateshelp.com
+moupdate1.kingsoft-office-service.com
+sls.update.microsoft.com
+statsfe2.update.microsoft.com.akadns.net
+statsupdate.microsoft.com.nsatc.net
+update.microsoft.com
+windowsupdate.com
+www.bingsclspe.download
+www.englobingoopmzqu.download
+www.microsoft-update.name

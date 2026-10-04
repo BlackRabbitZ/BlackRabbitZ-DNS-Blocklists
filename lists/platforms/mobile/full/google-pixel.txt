@@ -1,0 +1,21 @@
+# BlackRabbitZ DNS Blocklists
+# Title: Google Pixel
+# Description: Android-/Google-Telemetrie-Endpunkte, die auch auf Pixel-Geräten relevant sind.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: BRZ google-android.txt
+# Risk: mittel
+# Data method: platform-inheritance
+# Entries: 9
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+crashlytics.163.com
+crashlytics.com
+crashlytics.ru
+e.crashlytics.com
+firebase-settings.crashlytics.com
+hit-counter-26c68-default-rtdb.firebaseio.com
+reports.crashlytics.com
+settings.crashlytics.com
+wix-engage-visitors-prod-5.firebaseio.com

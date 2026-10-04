@@ -1,0 +1,17 @@
+# BlackRabbitZ DNS Blocklists
+# Title: cloud-storage privacy
+# Description: Service tracking/analytics/telemetry; service should remain usable.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: lists/infrastructure/cloud-development/full/cloud-storage.txt
+# Risk: medium
+# Data status: befuellt
+# Data method: service-privacy-curated
+# Entries: 4
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+client-log.box.com
+marketing.dropbox.com
+telemetry.dropbox.com
+telemetry.v.dropbox.com

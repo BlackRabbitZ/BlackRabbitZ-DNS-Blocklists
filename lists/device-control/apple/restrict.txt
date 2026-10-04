@@ -1,0 +1,60 @@
+# BlackRabbitZ DNS Blocklists
+# List: lists/device-control/apple/restrict.txt
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; third-party sources: THIRD_PARTY.md
+# Data method: mapped from detailed BRZ device-control sources
+# Entries: 53
+#
+ad.myapple.pl
+ads.applelinks.com
+ads.wappler.io
+advertising.apple.com
+analytics-events.apple.com
+analytics.apple.com
+analytics.appleboys.us
+analytics.applemooz.net
+analytics.icloud.com
+books-analytics-events.apple.com
+books-analytics-events.news.apple-dns.net
+diagnostics.apple.com
+diagnostics.apple.com.akadns.net
+diagnostics.support.apple.com
+dzc-metrics.mzstatic.com
+events-analytics.apple.com
+events-dra-op-hicloud-com-dra.appacc-region.dbankedge.cn
+events-dra-op-hicloud-com-dra.appacc.dbankedge.cn
+events-dra-op-hicloud-com-dra.edge.dbankedge.cn
+events-dra.op.hicloud.com
+events-dre-op-hicloud-com-dre.appacc.dbankedge.cn
+events-dre.op.hicloud.com
+experiment-icloud.v.aaplimg.com
+experiment.icloud.com
+experiments.apple.com
+experiments.apple.com.edgekey.net
+feedback.apple.com
+marketing.services.apple
+metrics-config.icloud.com
+metrics-dra.dt.hicloud.com
+metrics-drcn.dt.hicloud.com
+metrics.apple.com
+metrics.data.hicloud.com
+metrics.dt.hicloud.com
+metrics.icloud.com
+metrics.mzstatic.com
+news-analytics-events.apple.com
+news-app-events.apple.com
+news-events.apple.com
+news-notification-events.apple.com
+news-sports-events.apple.com
+news.iadsdk.apple.com
+notes-analytics-events.apple.com
+notes-analytics-events.news.apple-dns.net
+podcasts-analytics-events.apple.com
+stocks-analytics-events.apple.com
+stocks-analytics-events.news.apple-dns.net
+tf-feedback.itunes.apple.com
+tracking.appleadstech.com
+tracking.applegiftcards.ir
+tv-analytics-events.apple.com
+weather-analytics-events.apple.com
+weather-analytics-events.news.apple-dns.net

@@ -1,0 +1,26 @@
+# BlackRabbitZ DNS Blocklists
+# Title: Streaming Normal
+# Description: Normal-Stufe für Streaming; kumulativ.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: BlackRabbitZ statischer Datenbestand
+# Risk: Niedrig
+# Data status: befüllt
+# Data method: generated-tier
+# Entries: 13
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+adeventtracker.spotify.com
+adeventtrackermonitoring.spotify.com
+ads.netflix.com
+ads.spotify.com
+ads.test.netflix.com
+ads.twitch.tv
+ads.us-east-1.prodaa.netflix.com
+ads.us-west-2.prodaa.netflix.com
+ads.youtube.com
+analytics.disneyplus.com
+analytics.plex.tv
+analytics.spotify.com
+spotify.demdex.net

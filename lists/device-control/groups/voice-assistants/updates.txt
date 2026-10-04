@@ -1,0 +1,51 @@
+# BlackRabbitZ DNS Blocklists
+# List: lists/device-control/groups/voice-assistants/updates.txt
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; third-party sources: THIRD_PARTY.md
+# Data method: recomputed group voice-assistants/updates
+# Entries: 44
+#
+adl.windows.com
+android.googleapis.com
+bingsclspe.download
+ctldl.windowsupdate.com
+dl.google.com
+download.alexa.com
+download.sirius.speedera.net
+download.windowsupdate.com
+emdl.ws.microsoft.com
+englobingoopmzqu.download
+fe2.update.microsoft.com
+fe2.update.microsoft.com.akadns.net
+gdmf.apple.com
+iotanalytics.eu-central-1.amazonaws.com
+iotanalytics.eu-west-1.amazonaws.com
+mesu.apple.com
+microsoft-update.name
+microsoft-update.support
+microsoftupdate67.wixsite.com
+microsoftupdateshelp.com
+moupdate1.kingsoft-office-service.com
+notableapple.com
+ota.googlezip.net
+prod-asia-spop1-google.spotad.co
+prod-asia-spoz1-google.spotad.co
+prod-europe-spop1-google.spotad.co
+prod-europe-spoz1-google.spotad.co
+prod-useast-spop1-google.spotad.co
+prod-useast-spoz1-google.spotad.co
+prod-uswest-spop1-google.spotad.co
+sls.update.microsoft.com
+spyhunter-download.s3.amazonaws.com
+statsfe2.update.microsoft.com.akadns.net
+statsupdate.microsoft.com.nsatc.net
+swcdn.apple.com
+swcdnlocator.apple.com.akadns.net
+swscan.apple.com
+update.microsoft.com
+updates.cdn-apple.com
+webmailrupdatekorea.firebaseapp.com
+windowsupdate.com
+www.bingsclspe.download
+www.englobingoopmzqu.download
+www.microsoft-update.name

@@ -1,0 +1,28 @@
+# BlackRabbitZ DNS Blocklists
+# Title: shared-other privacy
+# Description: Privacy/Tracking/Telemetry; core service should remain usable.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: lists/platforms/smart-tv/full/shared-other.txt + BRZ manufacturer data; Pi-hole Query-Log Review 2026-10-03
+# Risk: medium
+# Data status: befuellt
+# Data method: device-privacy-curated
+# Entries: 15
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+ad.71i.de
+ad.nettvservices.com
+ad.sxp.smartclip.net
+ads.spotx.tv
+advertising.com
+events.cid.samba.tv
+foxtel-prod-events.digitalsmiths.net
+googleads.g.doubleclick.net
+hbbtv-event-collector.prd.g.joyn.de
+ichnaea.netflix.com
+log.internetat.tv
+mitv.tracking.intl.miui.com
+sdkconfig.ad.intl.xiaomi.com
+static.doubleclick.net
+tracking.intl.miui.com

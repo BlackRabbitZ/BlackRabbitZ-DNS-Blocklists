@@ -1,0 +1,10 @@
+# BlackRabbitZ DNS Blocklists
+# List: lists/gaming/platforms/riot-privacy.txt
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; third-party sources: THIRD_PARTY.md
+# Data method: mapped BRZ gaming privacy
+# Entries: 3
+#
+analytics.developer.riotgames.com
+data.riotgames.com
+telemetry.sgp.pvp.net

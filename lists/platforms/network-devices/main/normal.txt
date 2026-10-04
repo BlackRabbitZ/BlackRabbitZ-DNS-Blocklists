@@ -1,0 +1,61 @@
+# BlackRabbitZ DNS Blocklists
+# Title: Router & Netzwerkgeräte Normal
+# Description: Normal-Stufe für Router & Netzwerkgeräte; kumulativ.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: BlackRabbitZ statischer Datenbestand
+# Risk: Niedrig
+# Data status: befüllt
+# Data method: generated-tier
+# Entries: 48
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+abroad.api.comm.intl.miui.com
+ad.miui.com
+ad.monitor.getui.com
+analytics.asus.com
+analytics.ciscodude.net
+analytics.ff.avast.sec.miui.com
+analytics.jpimoveisbirigui.com.br
+analytics.pegasus-server.de
+analytics.unifiedit.tech
+analytics.unifiedpractice.com
+analytics.uzzelui.com.br
+analytics.video-unified.com
+app.greengurad.sec.miui.com
+cisco.112.2o7.net
+cisco.sc.omtrdc.net
+ciscojasper.hb.omtrdc.net
+ciscolearningnetwork.tt.omtrdc.net
+ciscosystemsinc.tt.omtrdc.net
+ciscowebex.112.2o7.net
+default.tracking.miui.com
+fcanr.tracking.miui.com
+huawei.sc.omtrdc.net
+load.dt.etuui.com
+load.sgtm.restaurante-sanfrancisco.es
+load.sgtm.zyxel.com
+load.sst.sanfranciscomagictheater.com
+marketing.sesui.com
+mitv.tracking.india.miui.com
+mitv.tracking.intl.miui.com
+mitv.tracking.miui.com
+mitv.tracking.rus.miui.com
+miuiboot.tracking.intl.miui.com
+miuiboot.tracking.miui.com
+mlbsanfrancisco.112.2o7.net
+netgear.122.2o7.net
+om.tracking.miui.com
+reward.ad.miui.com
+router.tracking.miui.com
+track.grupopegasus.com.br
+track.mitpegasus.com.br
+track.pegasuscaoachery.com.br
+tracking.eu.miui.com
+tracking.india.miui.com
+tracking.intl.miui.com
+tracking.miui.com
+tracking.rus.miui.com
+unifiedbidding.ad.smaato.net
+unifiedsearchanalyticsapi.dell.com

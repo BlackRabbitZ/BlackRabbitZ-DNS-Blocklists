@@ -1,0 +1,12 @@
+# BlackRabbitZ DNS Blocklists
+# List: lists/block-all/software/vscode.txt
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; third-party sources: THIRD_PARTY.md
+# Data method: BRZ service blocking + curated functional roots
+# Entries: 5
+#
+analytics.visualstudio.com
+dc.services.visualstudio.com
+marketplace.visualstudio.com
+update.code.visualstudio.com
+vscode.dev

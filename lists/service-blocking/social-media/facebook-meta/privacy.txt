@@ -1,0 +1,20 @@
+# BlackRabbitZ DNS Blocklists
+# Title: facebook-meta privacy
+# Description: Service tracking/analytics/telemetry; service should remain usable.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: lists/apps/social-media/full/facebook-meta.txt
+# Risk: medium
+# Data status: befuellt
+# Data method: service-privacy-curated
+# Entries: 7
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+ads.ak.facebook.com.edgesuite.net
+ads.facebook.com
+analytics.facebook.com
+analytics.instagram.com
+analytics.whatsapp.com
+facebook.co1.qualtrics.com
+pixel.facebook.com

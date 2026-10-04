@@ -1,0 +1,52 @@
+# BlackRabbitZ DNS Blocklists
+# Title: ISP / Provider Normal
+# Description: Normal-Stufe für ISP / Provider; kumulativ.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: BlackRabbitZ statischer Datenbestand
+# Risk: Niedrig
+# Data status: befüllt
+# Data method: generated-tier
+# Entries: 39
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+1und1internetag.d3.sc.omtrdc.net
+a.ads.t-online.de
+ads.t-online.de
+ads.vorsicht-online.de
+adserver.ht-online.es
+adserver.telekom.de
+analytics.1und1.de
+analytics.playit-online.de
+analytics.vodafone.co.uk
+analytics.vodafone.com.au
+fast.telefonicauklimited.demdex.net
+fast.vodafonealbania.demdex.net
+fast.vodafonecz.demdex.net
+fast.vodafonegr.demdex.net
+fast.vodafonein.demdex.net
+fast.vodafoneit.demdex.net
+fast.vodafoneturkey.demdex.net
+fast.vodafoneuk.demdex.net
+hubert-online.ch.102.112.2o7.net
+telefonicaespana.tt.omtrdc.net
+telefonicauk.d3.sc.omtrdc.net
+telefonicauklimited.demdex.net
+telefonicauklimited.tt.omtrdc.net
+track.o2online.de
+tracking.levelup.telekom.com
+vodafonealbania.demdex.net
+vodafonees.d2.sc.omtrdc.net
+vodafonegroup.122.2o7.net
+vodafonein.demdex.net
+vodafonein.sc.omtrdc.net
+vodafoneindia.tt.omtrdc.net
+vodafoneit.sc.omtrdc.net
+vodafoneitaly.tt.omtrdc.net
+vodafonenz.122.2o7.net
+vodafoneromania.demdex.net
+vodafonetr.sc.omtrdc.net
+vodafoneturkey.tt.omtrdc.net
+vodafoneuk.tt.omtrdc.net
+web-track.telekom-dienste.de

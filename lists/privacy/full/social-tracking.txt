@@ -1,0 +1,40 @@
+# BlackRabbitZ DNS Blocklists
+# Title: Social Tracking Full
+# Description: Tracking- und Measurement-Endpunkte sozialer Plattformen.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; siehe THIRD_PARTY.md fuer Drittquellen
+# Sources: BlackRabbitZ statischer Datenbestand
+# Risk: niedrig
+# Entries: 29
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+a.quora.com
+ads-twitter.com
+ads.facebook.com
+ads.linkedin.com
+analytics-sg.tiktok.com
+analytics-ttp2.us.tiktok.com
+analytics.discord.com
+analytics.facebook.com
+analytics.instagram.com
+analytics.linkedin.com
+analytics.pointdrive.linkedin.com
+analytics.tiktok.com
+analytics.twitter.com
+analytics.us.tiktok.com
+analytics.whatsapp.com
+data.msg.centuryliquorandwines.com
+events.redditmedia.com
+log-va.tiktokv.com
+log.quora.com
+mastodon.internalnewsletters.co
+mastodon.thrustcarbon.com
+pixel.facebook.com
+pixel.redditmedia.com
+px.ads.linkedin.com
+px.srvcs.tumblr.com
+q.quora.com
+science.discord.com
+static.ads-twitter.com
+tiktok-user-events.boloforms.com

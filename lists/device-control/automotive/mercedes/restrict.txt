@@ -1,0 +1,35 @@
+# BlackRabbitZ DNS Blocklists
+# Title: mercedes restrict
+# Description: Privacy plus optional vendor/cloud/recommendation endpoints.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: lists/platforms/automotive/full/mercedes.txt + BRZ manufacturer data
+# Risk: high
+# Data status: befuellt
+# Data method: device-restrict-curated
+# Entries: 22
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+analytics.daimler-bkk.com
+analytics.daimler-truck-events.com
+fast.daimler-retargeting.demdex.net
+fast.daimlerag.demdex.net
+metrics.cbc.youtube.mercedes-benz.com
+tracking.c.mercedes-benz.co.in
+tracking.c.mercedes-benz.com.cn
+tracking.c.mercedes-benz.de
+tracking.m.mercedes-benz.ch
+tracking.m.mercedes-benz.co.in
+tracking.m.mercedes-benz.co.th
+tracking.m.mercedes-benz.co.za
+tracking.m.mercedes-benz.com.cn
+tracking.m.mercedes-benz.com.sg
+tracking.m.mercedes-benz.ru
+tracking.mercedes-amg-f1.com
+tracking.mercedes-benz-bus.com
+tracking.t.mercedes-benz.co.in
+tracking.t.mercedes-benz.com.cn
+tracking.t.mercedes-benz.de
+tracking.techcenter.mercedes-benz.com
+web-analytics.daimlertruck.com

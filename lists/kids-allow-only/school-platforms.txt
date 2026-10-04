@@ -1,0 +1,24 @@
+# BlackRabbitZ DNS Blocklists
+# List: lists/kids-allow-only/school-platforms.txt
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; third-party sources: THIRD_PARTY.md
+# Data method: mapped from BRZ Kids Allow-Only sources
+# Entries: 17
+#
+abenteuer-regenwald.de
+coollama.de
+hanisauland.de
+internet-abc.de
+kinderzeitmaschine.de
+klassewasser.de
+legakids.net
+meine-forscherwelt.de
+naturdetektive.bfn.de
+www.abenteuer-regenwald.de
+www.coollama.de
+www.hanisauland.de
+www.internet-abc.de
+www.kinderzeitmaschine.de
+www.klassewasser.de
+www.legakids.net
+www.meine-forscherwelt.de

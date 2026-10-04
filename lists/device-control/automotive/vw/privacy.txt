@@ -1,0 +1,19 @@
+# BlackRabbitZ DNS Blocklists
+# Title: vw privacy
+# Description: Privacy/Tracking/Telemetry; core service should remain usable.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: lists/platforms/automotive/full/vw.txt + BRZ manufacturer data
+# Risk: medium
+# Data status: befuellt
+# Data method: device-privacy-curated
+# Entries: 6
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+metric.volkswagen-nutzfahrzeuge.de
+metric.volkswagen.com
+metric.volkswagen.de
+metric.volkswagen.es
+metric.volkswagen.ie
+metric.volkswagen.pl

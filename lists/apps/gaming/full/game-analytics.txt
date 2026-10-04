@@ -1,0 +1,40 @@
+# BlackRabbitZ DNS Blocklists
+# Title: Game Analytics
+# Description: Game Analytics-bezogene Ads-/Tracking-/Telemetrie-Endpunkte
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: Aus vorhandenen BlackRabbitZ-/dokumentierten HaGeZi-Domains konservativ abgeleitet; Pi-hole Query-Log Review 2026-10-03
+# Risk: variabel
+# Data status: befuellt
+# Data method: derived-keyword
+# Entries: 27
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+api-eu.gameanalytics.com
+api-us.gameanalytics.com
+api.gameanalytics.com
+cdn.gameanalytics.com
+cdp.cloud.unity3d.com
+cn.gameanalytics.com
+config.uca.cloud.unity3d.com
+download.gameanalytics.com
+easy.gameanalytics.com
+freegameanalytics.com
+gameanalytics.com
+go-export.gameanalytics.com
+go.gameanalytics.com
+maven.gameanalytics.com
+ops-query-0.gameanalytics.com
+ops-query-1.gameanalytics.com
+ops-query-2.gameanalytics.com
+ops-query-3.gameanalytics.com
+public.gameanalytics.com
+query-0.gameanalytics.com
+query-1.gameanalytics.com
+query-2.gameanalytics.com
+query-3.gameanalytics.com
+ru.gameanalytics.com
+rubick.gameanalytics.com
+sandbox-api.gameanalytics.com
+www.gameanalytics.com

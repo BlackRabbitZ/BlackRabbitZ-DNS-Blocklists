@@ -1,0 +1,23 @@
+# BlackRabbitZ DNS Blocklists
+# Title: AI Crawlers
+# Description: AI Crawlers-Endpunkte; DNS-seitig, kein Ersatz für WAF/robots.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: Aus vorhandenem statischem BlackRabbitZ-/HaGeZi-dokumentiertem Datenbestand konservativ abgeleitet; Public crawler operator domains; DNS limitation applies
+# Risk: hoch
+# Data status: befuellt
+# Data method: operator-domain-curation
+# Entries: 10
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+anthropic.com
+apple.com
+bytedance.com
+cohere.com
+commoncrawl.org
+diffbot.com
+meta.com
+openai.com
+perplexity.ai
+you.com

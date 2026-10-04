@@ -1,0 +1,21 @@
+# BlackRabbitZ DNS Blocklists
+# Title: Google / Android Full
+# Description: Vollstaendige im Mobile-Datenbestand erkannte Google / Android-Eintraege.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; siehe THIRD_PARTY.md fuer Drittquellen
+# Sources: BlackRabbitZ Native/Mobile/OS-Daten; HaGeZi-basierte Native-Tracker-Anteile
+# Risk: hoch
+# Entries: 9
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+# Generated: ja
+#
+crashlytics.163.com
+crashlytics.com
+crashlytics.ru
+e.crashlytics.com
+firebase-settings.crashlytics.com
+hit-counter-26c68-default-rtdb.firebaseio.com
+reports.crashlytics.com
+settings.crashlytics.com
+wix-engage-visitors-prod-5.firebaseio.com

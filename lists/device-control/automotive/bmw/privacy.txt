@@ -1,0 +1,23 @@
+# BlackRabbitZ DNS Blocklists
+# Title: bmw privacy
+# Description: Privacy/Tracking/Telemetry; core service should remain usable.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: lists/platforms/automotive/full/bmw.txt + BRZ manufacturer data
+# Risk: medium
+# Data status: befuellt
+# Data method: device-privacy-curated
+# Entries: 10
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+analytics.bmw-club-augsburg.de
+analytics.metafox.bmw.com
+analytics.metafox.bmw.rs
+bmwfr.demdex.net
+bmwna.co1.qualtrics.com
+ehg-bmwna.hitbox.com
+fast.bmwag.demdex.net
+fast.bmwfr.demdex.net
+fast.bmwuk.demdex.net
+tracking-api.bmw.com

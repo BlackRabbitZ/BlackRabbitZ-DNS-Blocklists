@@ -1,0 +1,60 @@
+# BlackRabbitZ DNS Blocklists
+# Title: Social Media Ultimate
+# Description: Ultimate-Stufe für Social Media; kumulativ.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: BlackRabbitZ statischer Datenbestand
+# Risk: Hoch
+# Data status: befüllt
+# Data method: generated-tier
+# Entries: 47
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+ads-api.tiktok.com
+ads-api.twitter.com
+ads-bidder-api.twitter.com
+ads-ie.tiktokw.eu
+ads-sg.tiktok.com
+ads-ttp2.tiktokw.eu
+ads-twitter.com
+ads.ak.facebook.com.edgesuite.net
+ads.facebook.com
+ads.linkedin.com
+ads.tiktok.com
+ads.twitter.center
+ads.twitter.com
+advertising.twitter.com
+analytics-sg.tiktok.com
+analytics-ttp2.us.tiktok.com
+analytics.discord.com
+analytics.facebook.com
+analytics.instagram.com
+analytics.linkedin.com
+analytics.pointdrive.linkedin.com
+analytics.tiktok.com
+analytics.twitter.com
+analytics.us.tiktok.com
+analytics.whatsapp.com
+ap-southeast-1.dc.ads.linkedin.com
+dc.ads.linkedin.com
+events.redditmedia.com
+facebook.co1.qualtrics.com
+log-va.tiktokv.com
+log.tiktokv.com
+p15-tiktok-ads-us.tiktokcdn1.xyz
+p16-ad-sg.tiktokcdn.com
+p16-ad-site-sign-sg.tiktokcdn.com
+p16-tiktok-ads-sg.tiktokcdn1.xyz
+p17-tiktok-ads-us.tiktokcdn1.xyz
+p19-ad-site-sign-sg.tiktokcdn.com
+pixel.facebook.com
+pixel.redditmedia.com
+px.ads.linkedin.com
+science.discord.com
+static.ads-twitter.com
+tap.ads-twitter.com
+tiktok-user-events.boloforms.com
+tracker.redditmedia.com
+us-east-1.dc.ads.linkedin.com
+us-east-1.profile-api.ads.linkedin.com

@@ -1,0 +1,26 @@
+# BlackRabbitZ DNS Blocklists
+# Title: Cortana
+# Description: Cortana Telemetry
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: Aus vorhandenen BlackRabbitZ-/dokumentierten HaGeZi-Domains konservativ abgeleitet; Microsoft Learn Cortana/Live Tiles endpoints
+# Risk: variabel
+# Data status: befuellt
+# Data method: official-endpoint-import
+# Entries: 13
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+business.bing.com
+c.bing.com
+dual-s-ring.msedge.net
+edgeassetservice.azureedge.net
+fp.msedge.net
+prod-azurecdn-akamai-iris.azureedge.net
+r.bing.com
+s-ring.msedge.net
+th.bing.com
+tse1.mm.bing.net
+widgetcdn.azureedge.net
+widgetservice.azurefd.net
+www.bing.com

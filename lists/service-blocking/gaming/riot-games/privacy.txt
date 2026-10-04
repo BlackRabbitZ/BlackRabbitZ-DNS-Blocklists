@@ -1,0 +1,16 @@
+# BlackRabbitZ DNS Blocklists
+# Title: riot-games privacy
+# Description: Service tracking/analytics/telemetry; service should remain usable.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: lists/apps/gaming/full/riot-games.txt; Pi-hole Query-Log Review 2026-10-03
+# Risk: medium
+# Data status: befuellt
+# Data method: derived-service-privacy
+# Entries: 3
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+analytics.developer.riotgames.com
+data.riotgames.com
+telemetry.sgp.pvp.net

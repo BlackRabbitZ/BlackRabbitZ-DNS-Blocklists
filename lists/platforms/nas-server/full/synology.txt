@@ -1,0 +1,15 @@
+# BlackRabbitZ DNS Blocklists
+# Title: Synology Full
+# Description: Vollstaendige im NAS-/Server-Datenbestand erkannte Synology-Eintraege.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; siehe THIRD_PARTY.md fuer Drittquellen
+# Sources: BlackRabbitZ dokumentierte NAS-/Server-Endpunkte
+# Risk: hoch
+# Entries: 3
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+# Generated: ja
+#
+api.insight.synology.com
+subscribe.insight.synology.com
+supapi.synology.com

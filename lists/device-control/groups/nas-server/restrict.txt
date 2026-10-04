@@ -1,0 +1,24 @@
+# BlackRabbitZ DNS Blocklists
+# List: lists/device-control/groups/nas-server/restrict.txt
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; third-party sources: THIRD_PARTY.md
+# Data method: recomputed group nas-server/restrict
+# Entries: 17
+#
+analytics-ingestion-v3.main-production-custom.production.k8s.tubi.io
+analytics.api.myqnapcloud.com
+analytics.k8s.djpmedia.cloud
+analytics.myqnapcloud.io
+api.insight.synology.com
+connect.cloud.redhat.com
+device.cloud.hpe.com
+metrics.dockers-site.com
+metrics.us.dockers.com
+pixel.k8s.prod.blend.com
+qcenter-events-device.api.myqnapcloud.cn
+qcenter-events-device.api.myqnapcloud.com
+qcenter-metrics-device.api.myqnapcloud.cn
+qcenter-metrics-device.api.myqnapcloud.com
+subscribe.insight.synology.com
+telemetry.sys.truenas.net
+travel-data-matomo-pro.k8s.travel-data-prod.aws.idealo.cloud

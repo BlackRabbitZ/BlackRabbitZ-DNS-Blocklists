@@ -1,0 +1,38 @@
+# BlackRabbitZ DNS Blocklists
+# Title: netflix isolate
+# Description: Maximum known service communication; service/app is expected to stop working.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: lists/service-blocking/streaming/netflix/block-all.txt
+# Risk: very high
+# Data status: befuellt
+# Data method: service-isolate
+# Entries: 25
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+ads.netflix.com
+ads.test.netflix.com
+ads.us-east-1.prodaa.netflix.com
+ads.us-west-2.prodaa.netflix.com
+adtech.nflximg.net
+ae.nflximg.net
+api.netflix.com
+beacon.eu-west-1.prodaa.netflix.com
+beacon.geo.netflix.com
+beacon.netflix.com
+beacon.us-east-1.prodaa.netflix.com
+beacon.us-west-2.prodaa.netflix.com
+beaconimages.netflix.net
+customerevents.netflix.com
+ichnaea.netflix.com
+logs.netflix.com
+netflix.com
+nflxext.com
+nflximg.net
+nflxso.net
+nflxvideo.net
+nmtracking.netflix.com
+nrdp.logs.netflix.com
+presentationtracking.netflix.com
+www.netflix.com

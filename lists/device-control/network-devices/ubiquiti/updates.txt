@@ -1,0 +1,15 @@
+# BlackRabbitZ DNS Blocklists
+# Title: ubiquiti updates
+# Description: Separately identified update/firmware/download endpoints.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: lists/platforms/network-devices/full/ubiquiti.txt + BRZ manufacturer data
+# Risk: high
+# Data status: befuellt
+# Data method: derived-updates
+# Entries: 2
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+logupdate.avlyun.sec.miui.com
+update.avlyun.sec.miui.com

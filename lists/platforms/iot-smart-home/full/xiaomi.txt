@@ -1,0 +1,21 @@
+# BlackRabbitZ DNS Blocklists
+# Title: Xiaomi / MIUI Full
+# Description: Vollstaendige im IoT-/Smart-Home-Datenbestand erkannte Xiaomi / MIUI-Eintraege.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; siehe THIRD_PARTY.md fuer Drittquellen
+# Sources: BlackRabbitZ IoT-Datenbestand
+# Risk: hoch
+# Entries: 9
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+# Generated: ja
+#
+data.mistat.india.xiaomi.com
+data.mistat.intl.xiaomi.com
+data.mistat.rus.xiaomi.com
+data.mistat.xiaomi.com
+sa.api.intl.miui.com
+tracking.india.miui.com
+tracking.intl.miui.com
+tracking.miui.com
+tracking.rus.miui.com

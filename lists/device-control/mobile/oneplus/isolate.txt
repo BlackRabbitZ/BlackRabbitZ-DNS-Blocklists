@@ -1,0 +1,21 @@
+# BlackRabbitZ DNS Blocklists
+# Title: oneplus isolate
+# Description: Maximum known vendor communication; may break cloud/account/store/updates.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: lists/platforms/mobile/full/oneplus.txt + BRZ manufacturer data
+# Risk: very high
+# Data status: befuellt
+# Data method: derived-isolate
+# Entries: 8
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+analytics.oneplus.cn
+click.oneplus.cn
+click.oneplus.com
+deals.getpaingoneplus.io
+extyoneplus-2.com
+extyoneplus-3.com
+oneplus1life.com
+open.oneplus.net

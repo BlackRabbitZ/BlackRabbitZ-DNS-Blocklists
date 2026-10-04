@@ -1,0 +1,20 @@
+# BlackRabbitZ DNS Blocklists
+# Title: mobile-games block all
+# Description: Functional service/API/login/CDN hosts plus privacy endpoints; service should be blocked.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: BRZ existing data + curated service roots; Pi-hole Query-Log Review 2026-10-03
+# Risk: very high
+# Data status: befuellt
+# Data method: service-block-all-curated
+# Entries: 7
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+ads-sdk-gateway.prd.mz.internal.unity3d.com
+ae.iads.unity3d.com
+analytics-ios-tcp.rayjump.com
+cdn.iads.unity3d.com
+config.mobilegamestats.com
+hbevents-public.mz.unity3d.com
+mobilegamestats.com

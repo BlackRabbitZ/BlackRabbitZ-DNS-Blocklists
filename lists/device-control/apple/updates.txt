@@ -1,0 +1,14 @@
+# BlackRabbitZ DNS Blocklists
+# List: lists/device-control/apple/updates.txt
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; third-party sources: THIRD_PARTY.md
+# Data method: mapped from detailed BRZ device-control sources
+# Entries: 7
+#
+gdmf.apple.com
+mesu.apple.com
+notableapple.com
+swcdn.apple.com
+swcdnlocator.apple.com.akadns.net
+swscan.apple.com
+updates.cdn-apple.com

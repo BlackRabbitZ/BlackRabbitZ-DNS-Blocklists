@@ -1,0 +1,52 @@
+# BlackRabbitZ DNS Blocklists
+# Title: Streaming Pro++
+# Description: Pro++-Stufe für Streaming; kumulativ.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: BlackRabbitZ statischer Datenbestand
+# Risk: Mittel
+# Data status: befüllt
+# Data method: generated-tier
+# Entries: 39
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+adeventtracker.spotify.com
+adeventtrackermonitoring.spotify.com
+ads-akp.spotify.com
+ads-fa.cdn.spotify.com
+ads-fa.spotify.com
+ads.netflix.com
+ads.spotify.com
+ads.test.netflix.com
+ads.twitch.tv
+ads.us-east-1.prodaa.netflix.com
+ads.us-west-2.prodaa.netflix.com
+ads.youtube.com
+analytics.disneyplus.com
+analytics.plex.tv
+analytics.spotify.com
+beacon.eu-west-1.prodaa.netflix.com
+beacon.geo.netflix.com
+beacon.netflix.com
+beacon.us-east-1.prodaa.netflix.com
+beacon.us-west-2.prodaa.netflix.com
+client-event-reporter.twitch.tv
+crashdump.spotify.com
+ichnaea.netflix.com
+log.spotify.com
+logs.netflix.com
+metrics.cbc.youtube.mercedes-benz.com
+metrics.plex.tv
+pixel-static.spotify.com
+pixel.byspotify.com
+pixel.spotify.com
+pixels.spotify.com
+s.youtube.com
+sonar.prime-video.amazon.dev
+spade.twitch.com
+spade.twitch.tv
+spotify.backtrace.io
+spotify.demdex.net
+spotify.sp.backtrace.io
+surveys.spotify.com

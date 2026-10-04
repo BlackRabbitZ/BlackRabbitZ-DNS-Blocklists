@@ -1,0 +1,51 @@
+# BlackRabbitZ DNS Blocklists
+# Title: ubiquiti privacy
+# Description: Privacy/Tracking/Telemetry; core service should remain usable.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: lists/platforms/network-devices/full/ubiquiti.txt + BRZ manufacturer data
+# Risk: medium
+# Data status: befuellt
+# Data method: device-privacy-curated
+# Entries: 38
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+ad.miui.com
+ad.monitor.getui.com
+analytics.ff.avast.sec.miui.com
+analytics.jpimoveisbirigui.com.br
+analytics.unifiedit.tech
+analytics.unifiedpractice.com
+analytics.uzzelui.com.br
+analytics.video-unified.com
+api.collect.data.intl.miui.com
+collect.content.intl.miui.com
+crash-report-service.svc.ui.com
+default.tracking.miui.com
+events.miui.com
+fcanr.tracking.miui.com
+feedback.miui.com
+log-abroad.avlyun.sec.miui.com
+log-neptuno.nequi.com.co
+log.avlyun.sec.intl.miui.com
+log.stats.miui.com
+marketing.sesui.com
+mitv.tracking.india.miui.com
+mitv.tracking.intl.miui.com
+mitv.tracking.miui.com
+mitv.tracking.rus.miui.com
+miuiboot.tracking.intl.miui.com
+miuiboot.tracking.miui.com
+mqs-log.miui.com
+native.feedback.miui.com
+om.tracking.miui.com
+reward.ad.miui.com
+router.tracking.miui.com
+tracking.eu.miui.com
+tracking.india.miui.com
+tracking.intl.miui.com
+tracking.miui.com
+tracking.rus.miui.com
+unifi-report.ubnt.com
+unifiedbidding.ad.smaato.net

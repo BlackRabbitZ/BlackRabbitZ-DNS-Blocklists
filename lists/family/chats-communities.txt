@@ -1,0 +1,10 @@
+# BlackRabbitZ DNS Blocklists
+# List: lists/family/chats-communities.txt
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; third-party sources: THIRD_PARTY.md
+# Data method: BRZ messaging/social datasets
+# Entries: 3
+#
+analytics.discord.com
+analytics.whatsapp.com
+science.discord.com

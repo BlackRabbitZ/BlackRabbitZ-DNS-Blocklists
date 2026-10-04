@@ -1,0 +1,14 @@
+{
+  "existing_paths_preserved": true,
+  "existing_txt_files_changed": 18,
+  "new_effect_files": 508,
+  "new_effect_entries_sum": 243276,
+  "existing_entries_added_sum": 15222,
+  "changed_new_files_with_duplicates": 0,
+  "changed_new_files_with_invalid_active_lines": 0,
+  "intentional_unfilled_existing_lists": [
+    "family/content/misinformation.txt",
+    "lists/security/full/expired-domains.txt",
+    "lists/security/full/malicious-extensions.txt"
+  ]
+}

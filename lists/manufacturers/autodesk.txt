@@ -1,0 +1,28 @@
+# BlackRabbitZ DNS Blocklists
+# Title: Autodesk
+# Description: Autodesk-bezogene Ads-/Tracking-/Telemetrie-Endpunkte
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: Aus vorhandenem statischem BlackRabbitZ-/HaGeZi-dokumentiertem Datenbestand konservativ abgeleitet
+# Risk: variabel
+# Data status: abgeleitet
+# Data method: derived-keyword
+# Entries: 15
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+analytics.autodesk.com
+autodesk.co1.qualtrics.com
+autodesk.evergage.com
+autodesk.pxf.io
+autodesk.tt.omtrdc.net
+autodeskfeedback.azrn1.qualtrics.com
+damassets.autodesk.com
+ehg-autodesk.hitbox.com
+fast.autodesk.demdex.net
+hb.autodesk.com
+insight.b360.autodesk.com
+personalize.ml.dhx.autodesk.com
+smetrics.autodesk.com
+smetrics.autodesk.com.cn
+zn5b8rnwmrfbx6jnn-autodeskfeedback.siteintercept.qualtrics.com

@@ -1,0 +1,14 @@
+# BlackRabbitZ DNS Blocklists
+# Title: NAS & Server Light
+# Description: Light-Stufe für NAS & Server; kumulativ.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: BlackRabbitZ NAS-/Server-Katalog
+# Risk: Minimal
+# Data status: befüllt
+# Data method: generated-tier
+# Entries: 1
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+adserver.k8s.getakite.surf

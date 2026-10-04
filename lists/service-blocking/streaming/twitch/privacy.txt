@@ -1,0 +1,17 @@
+# BlackRabbitZ DNS Blocklists
+# Title: twitch privacy
+# Description: Service tracking/analytics/telemetry; service should remain usable.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: lists/platforms/streaming/full/twitch.txt
+# Risk: medium
+# Data status: befuellt
+# Data method: service-privacy-curated
+# Entries: 4
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+ads.twitch.tv
+client-event-reporter.twitch.tv
+spade.twitch.com
+spade.twitch.tv

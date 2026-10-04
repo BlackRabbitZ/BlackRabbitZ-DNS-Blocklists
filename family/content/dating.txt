@@ -1,0 +1,52 @@
+# BlackRabbitZ DNS Blocklists
+# Title: Dating
+# Description: Bekannte Dating-/Partnervermittlungsdienste; bewusster Family-Filter, keine Malware-Einstufung.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: BRZ curated service domains; Pi-hole Query-Log Review 2026-10-03
+# Risk: hoch
+# Data method: curated-service-category
+# Entries: 40
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+api-gateway.lovoo.com
+api.gateway.lovoo-live.com
+api.gotinder.com
+api.lovoo.com
+auth.gateway.lovoo-live.com
+badoo.com
+bumble.com
+data.gotinder.com
+edarling.de
+elitepartner.de
+external-lovoo.tmg-gateway.arms.euw1.mtmeprod.com
+finya.de
+gotinder.com
+grindr.com
+happn.com
+hinge.co
+hinge.com
+images-ssl.gotinder.com
+img.lovoo.com
+jaumo.com
+keepalive.gotinder.com
+lovoo-live.com
+lovoo.com
+match.com
+meetic.com
+messaging.lovoo.com
+neu.de
+okcupid.com
+parship.de
+plentyoffish.com
+pof.com
+prod-api.hingeaws.net
+rapidfirepublishpxy.ue1az.gotinder.com
+static-assets.gotinder.com
+tinder.com
+tmg-stream.gateway.lovoo-live.com
+video-assets.lovoo.com
+web.c.ue1az.gotinder.com
+www.gotinder.com
+zoosk.com

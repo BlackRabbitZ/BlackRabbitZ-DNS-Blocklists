@@ -1,0 +1,31 @@
+# BlackRabbitZ DNS Blocklists
+# Title: Windows Full
+# Description: Windows-/Microsoft-Telemetrie und Diagnostik.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; siehe THIRD_PARTY.md fuer Drittquellen
+# Sources: NextDNS Native Tracking Protection; Pi-hole Query-Log Review 2026-10-03
+# Risk: mittel
+# Entries: 20
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+activity.windows.com
+api.msn.com
+arc.msn.com
+assets.activity.windows.com
+assets.msn.com
+browser.events.data.msn.com
+c.msn.com
+cache.datamart.windows.com
+ecs.nel.measure.office.net
+edge.activity.windows.com
+feedback.windows.com
+mobile.events.data.microsoft.com
+ocws.officeapps.live.com
+odc.officeapps.live.com
+onecollector.cloudapp.aria.akadns.net
+prod.nexusrules.live.com.akadns.net
+srtb.msn.com
+telemetry.appex.bing.net
+v20.events.data.microsoft.com
+watson.live.com

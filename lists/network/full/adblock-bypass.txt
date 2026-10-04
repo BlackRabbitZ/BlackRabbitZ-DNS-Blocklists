@@ -1,0 +1,100 @@
+# BlackRabbitZ DNS Blocklists
+# Title: Adblock Bypass
+# Description: Endpunkte mit explizitem Anti-Adblock-/Adblock-Bypass-Bezug aus BRZ-Daten.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: Derived from BRZ network/privacy corpus
+# Risk: hoch
+# Data method: derived-keyword
+# Entries: 88
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+adblock-360.com
+adblock-genius-download.com
+adblock-guru.com
+adblock-one-protection.com
+adblock-pro.org
+adblock-proxy.rtty.in
+adblock-zen.com
+adblock.fr
+adblockanalytics.com
+adblocker-sentinel.net
+adblockerkillswebsites.pw
+adblockermax.com
+adblockeromega.com
+adblockerprofessional.com
+adblockersentinel.com
+adblockfast.com
+adblockmetrics.ru
+adblockotsosal.ru
+adblockprotectionext.biz
+adblockrelief.com
+adblockstream.com
+adblockstrtape.link
+adblockstrtech.link
+adblockultra.com
+advancedadblocker.pro
+ana.adblockpodcast.com
+antiadblock.info
+antiadblocksystems.com
+api.blockadblock.com
+app.adblockhyper.us
+avengeradblocker.com
+blockadblock.com
+chpadblock.com
+cooladblocker.info
+deadblock.tk
+dev.log.getadblock.com
+disableadblock.com
+download-adblock-bear.com
+download-adblockgenius.com
+ezadblocker.com
+freeadblockerbrowser.com
+fruitadblock.net
+global-adblocker.com
+globaladblocker.com
+globaladblocker.net
+greenadblocker.com
+instant-adblock.xyz
+jkdfsjk.adblock360.com
+kingadblock.com
+ksdsjfd.adblock-for-y.com
+matomo.adblockforyou.com
+multiadblock.com
+mx1.blockadblock.com
+noadblock.net
+noadblock.org
+omegaadblock.net
+omegadblocker.com
+ping.getadblock.com
+pop.blockadblock.com
+poweradblocker.com
+privetadblock.ru
+pro-adblocker.com
+quantumadblocker.com
+rules.noadblock.org
+searchresultsadblocker.com
+ss.privacyadblocker.com
+stats.totaladblocker.com
+stop-adblocker.info
+stopadblock.info
+supremeadblocker.com
+syndication-adblock.exoclick.com
+t1.fruitadblock.net
+telemetry.adblockplus.org
+the-adblocker.website
+tradblock.com
+turboadblocker.com
+vid-adblocker.com
+video-adblock.com
+video-adblocker.com
+web-adblocker.com
+webeatyouradblocker.com
+windadblocker.com
+wonderadblock.com
+www.adblockanalytics.com
+www.adblockprotectionext.biz
+www.blockadblock.com
+yt-adblocker.com
+zaebaladblock.ru

@@ -1,0 +1,55 @@
+# BlackRabbitZ DNS Blocklists
+# Title: E-Commerce Tracking
+# Description: Shopping-/E-Commerce-Tracking
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: Aus vorhandenen BlackRabbitZ-/dokumentierten HaGeZi-Domains konservativ abgeleitet
+# Risk: variabel
+# Data status: abgeleitet
+# Data method: derived-keyword
+# Entries: 42
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+10ecommercetrendssolutions.info
+ad.jp.ap.valuecommerce.com
+ad.valuecommerce.ne.jp
+adserver.srv1.rom-ecommerce7.com
+adwordsecommerce.com.br
+analytic.correosecommerce.com
+analytics.isotopeecommerce.org
+analytics.myecommerce.nl
+analytics.rewixecommerce.com
+cdna.ecommerce.cofidis.it
+ck.jp.ap.valuecommerce.com
+cleverecommerce.com
+discoverecommerce.tt.omtrdc.net
+ecommerce-images.algolia.com
+ecommerce.go2cloud.org
+ecommerce.iap.unity3d.com
+ecommerce.roboinside.me
+ecommerce.sokrati.com
+ecommercecall.com
+ecommercesolutions.com.br
+fast.fsnecommerce.demdex.net
+fsnecommerce.demdex.net
+fsnecommerce.sc.omtrdc.net
+gtm.lp.ecommercenapratica.com
+load.sgtm.blazecommerce.io
+load.ss.ecommerceenaccion.com
+matomo-ecommerce.toutfaire.fr
+offergate-ecommerce-cdn5.com
+offergate-ecommerce-update6.com
+piwik.restorecommerce.io
+session.timecommerce.net
+sgtm.blazecommerce.io
+sgtm.teamecommerce.com
+ss.voecommerce.com.br
+stats-api.aaaecommerce.com
+track.ecommerce-holding.com
+us2widget.nimblecommerce.com
+us3widget.nimblecommerce.com
+valuecommerce.co.jp
+valuecommerce.com
+valuecommerce.ne.jp
+www.googlecommerce.com

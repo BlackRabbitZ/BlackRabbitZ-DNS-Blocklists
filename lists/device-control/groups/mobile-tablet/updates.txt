@@ -1,0 +1,36 @@
+# BlackRabbitZ DNS Blocklists
+# List: lists/device-control/groups/mobile-tablet/updates.txt
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; third-party sources: THIRD_PARTY.md
+# Data method: recomputed group mobile-tablet/updates
+# Entries: 29
+#
+3rdupgrade.pandora.xiaomi.com
+android.googleapis.com
+dl.google.com
+download-samsung.dtignite.com
+gdmf.apple.com
+logupdate.avlyun.sec.miui.com
+mesu.apple.com
+mistat.xiaomi.com.download.ks-cdn.com
+notableapple.com
+ota.cdn.pandora.xiaomi.com
+ota.coloros.com
+ota.googlezip.net
+prod-asia-spop1-google.spotad.co
+prod-asia-spoz1-google.spotad.co
+prod-europe-spop1-google.spotad.co
+prod-europe-spoz1-google.spotad.co
+prod-useast-spop1-google.spotad.co
+prod-useast-spoz1-google.spotad.co
+prod-uswest-spop1-google.spotad.co
+query.hicloud.com
+swcdn.apple.com
+swcdnlocator.apple.com.akadns.net
+swscan.apple.com
+sysupgrade.vivo.com.cn
+update.avlyun.sec.miui.com
+updates.cdn-apple.com
+upgrade.mishop.pandora.xiaomi.com
+upgrade.pandora.xiaomi.com
+webmailrupdatekorea.firebaseapp.com

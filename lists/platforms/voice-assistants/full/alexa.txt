@@ -1,0 +1,92 @@
+# BlackRabbitZ DNS Blocklists
+# Title: Alexa
+# Description: Alexa Voice Analytics/Telemetry
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: Aus vorhandenen BlackRabbitZ-/dokumentierten HaGeZi-Domains konservativ abgeleitet
+# Risk: variabel
+# Data status: abgeleitet
+# Data method: derived-keyword
+# Entries: 79
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+ads.alexander-walz.de
+alexa.com
+alexa.links.cn
+alexa.propellerads.com
+alexa.qualaroo.com
+alexa.unbounce.com
+alexabyte.site
+alexacdn.com
+alexajstrack.com
+alexametrics.com
+alexander-advertising.co.uk
+alexandria.marfeelcdn.com
+alexatracker.com
+analyse.alexander-fischer-online.net
+analyse.alexanders-webdesign.eu
+analytics.alexandredemello.com.br
+analytics.stephenalexander.us
+api.alexandramonfredinho.com.br
+atrk.alexametrics.com
+banners.alexanderwatson.com.au
+bugsnag-session.monitor.core.app.alexa.a2z.com
+bvgaf.danielalexanderunderwear.com
+catshark.janetalexandersson.com
+certify-amp.alexametrics.com
+certify-js.alexametrics.com
+certify-stage.alexametrics.com
+certify.alexametrics.com
+click.alexabyte.site
+d.willowalexander.co.uk
+data.alexa.com
+data.fans.alexalbon.com
+download.alexa.com
+fast.alexani.demdex.net
+go.alexandergroup.com
+gtm.alexandrebackflip.com
+gtm.alexaportela.com
+gtm.oalexandredotrafego.com.br
+idsqb.evanalexandergrooming.com
+js.alexametrics.com
+load.gtm.alexandar-cosmetics.com
+load.stape.alexandreroth.com
+matomo.alexanderteuscher.de
+matomo.globalexam.cloud
+metric.alexandani.com
+metrics.alexandani.com
+nqouq.alexanderjane.com
+orqhz.alexandrebirman.com
+piwik.alexanderrey.ca
+piwik.alexanderullmann.de
+piwik.alexaugier.com
+pixel.alexametrics.com
+pixel.alexandrelevangelista.com.br
+plausible.alexanderhose.com
+raccoon.alexanderssonlaw.com
+rf5lzf52.alexandani.com
+server.alexandrabastos.com.br
+server.alexandreavalo.com.br
+service1.mundwerk-alexa.de
+simple.alexandria-library.julienc.me
+smetrics.alexalbon.com
+smetrics.alexandani.com
+sst.alexander-veyron.de
+stape.alexandrecamilo.com
+stats.alexandar.me
+stats.alexander-fischer.org
+stats.alexandrins.fr
+stats.champagne-xavier-alexandre.com
+tk.alexandermcqueen.com
+track.alexandrie-email.fr
+traffic.alexa.com
+umami.alexanderbishop.dev
+visit.alexandervarwijk.com
+vn.alexajstrack.com
+widgets.alexa.com
+www.alexa.unbounce.com
+xslt.alexa.com
+xsltcache.alexa.com
+zamdwy.alexachung.com
+zrnsl.alexanderwang.com

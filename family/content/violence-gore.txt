@@ -1,0 +1,66 @@
+# BlackRabbitZ DNS Blocklists
+# Title: Violence / Gore
+# Description: Gewaltdarstellungen, Gore-/Schockseiten und explizite Gewaltinhalte fuer Family- und Kinderschutz.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: Aegis Gore/Shock (CC0); Sinfonietta snuff-hosts (MIT); UT1 agressif (CC BY-SA, konservativ auf eindeutige Gore-/Gewalt-Domains gefiltert); BRZ Review 2026-10-03
+# Risk: hoch
+# Data status: befuellt
+# Data method: curated-source-merge
+# Entries: 53
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+animalabuse.net
+bagarres.be
+bagarres.com
+bestgore.com
+bitcheese.net
+bloodshows.com
+cadaver.org
+crazypain.com
+crazyshit.com
+dailyrotten.com
+deadhouse.org
+deadhouse.xyz
+deadorvegetable.com
+deathaddict.com
+deathandreality.com
+deathnet.com
+devilpain.com
+documentingreality.com
+efukt.com
+elblogdelnarco.com
+gorebrasil.com
+gorecenter.com
+goreforum.com
+goregrish.com
+goresee.com
+hoodsite.com
+horriblevideos.com
+innerdepravity.com
+jetueunami.com
+kaotic.com
+kekma.net
+leakreality.com
+livegore.com
+miscopy.com
+mixtape.moe
+nocturnevideoculte.com
+ogrish.com
+ogrish.tv
+peopledie.tv
+recipepes.com
+rotten.com
+sadovids.com
+school-fights.com
+seegore.com
+sickjunk.com
+sogore.com
+stileproject.com
+thepinsta.com
+theync.com
+trashercorpse.free.fr
+vidmax.com
+watchpeopledie.co
+watchpeopledie.tv

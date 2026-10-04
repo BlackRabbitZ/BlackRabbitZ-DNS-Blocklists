@@ -1,0 +1,24 @@
+# BlackRabbitZ DNS Blocklists
+# Title: Tesla
+# Description: Tesla Telemetry/Connected-Car-Endpunkte
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: Aus vorhandenen BlackRabbitZ-/dokumentierten HaGeZi-Domains konservativ abgeleitet
+# Risk: variabel
+# Data status: abgeleitet
+# Data method: derived-keyword
+# Entries: 11
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+apigateway-logging.tesla.com
+cp.teslamag.de
+iteslawow.com
+location-services-prd.tesla.com
+matomo.teslalogger.de
+piwik.teslacds.com
+restrictassociateslang.com
+rumcollector.teslamotors.com
+server.teslahenergiasolar.com.br
+tesla.tt.omtrdc.net
+znedscsenlrql0rxd-teslamotors.siteintercept.qualtrics.com

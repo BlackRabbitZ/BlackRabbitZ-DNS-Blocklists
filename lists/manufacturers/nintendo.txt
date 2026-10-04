@@ -1,0 +1,23 @@
+# BlackRabbitZ DNS Blocklists
+# Title: Nintendo
+# Description: Nintendo-bezogene Ads-/Tracking-/Telemetrie-Endpunkte
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: Aus vorhandenem statischem BlackRabbitZ-/HaGeZi-dokumentiertem Datenbestand konservativ abgeleitet
+# Risk: variabel
+# Data status: abgeleitet
+# Data method: derived-keyword
+# Entries: 10
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+click.ccg.nintendo.com
+discovery.olv.nintendo.net
+fast.nintendoofamericainc.demdex.net
+fs.nintendolife.com
+gonintendo.us.intellitxt.com
+nintendo.com.102.112.2o7.net
+nintendoofamericainc.demdex.net
+p.nintendolesite.com
+smetrics.nintendo.com
+tracking.nintendo-europe.com

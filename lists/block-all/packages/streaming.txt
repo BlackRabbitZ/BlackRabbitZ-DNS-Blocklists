@@ -1,0 +1,63 @@
+# BlackRabbitZ DNS Blocklists
+# List: lists/block-all/packages/streaming.txt
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; third-party sources: THIRD_PARTY.md
+# Data method: aggregate package: streaming
+# Entries: 56
+#
+ads.netflix.com
+ads.test.netflix.com
+ads.twitch.tv
+ads.us-east-1.prodaa.netflix.com
+ads.us-west-2.prodaa.netflix.com
+adtech.nflximg.net
+ae.nflximg.net
+amazonvideo.com
+analytics.disneyplus.com
+api.netflix.com
+api.twitch.tv
+badges.twitch.tv
+bamgrid.com
+beacon.eu-west-1.prodaa.netflix.com
+beacon.geo.netflix.com
+beacon.netflix.com
+beacon.us-east-1.prodaa.netflix.com
+beacon.us-west-2.prodaa.netflix.com
+beaconimages.netflix.net
+client-event-reporter.twitch.tv
+countess.twitch.tv
+customerevents.netflix.com
+deviceidshare.twitch.tv
+disneyplus.com
+dssott.com
+em.disneyplus.com
+fan.twitch.tv
+gql.twitch.tv
+ichnaea.netflix.com
+ingest.twitch.tv
+jtvnw.net
+logs.netflix.com
+mp.twitch.tv
+netflix.com
+nflxext.com
+nflximg.net
+nflxso.net
+nflxvideo.net
+nmtracking.netflix.com
+nrdp.logs.netflix.com
+presentationtracking.netflix.com
+primevideo.com
+pubster.twitch.tv
+sanalytics.disneyplus.com
+smetrics-stg.help.disneyplus.com
+smetrics.help.disneyplus.com
+sonar.prime-video.amazon.dev
+spade.sci.twitch.tv
+spade.twitch.com
+spade.twitch.tv
+ttvnw.net
+twitch.tv
+www.disneyplus.com
+www.netflix.com
+www.primevideo.com
+www.twitch.tv

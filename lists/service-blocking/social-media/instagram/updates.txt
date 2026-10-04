@@ -1,0 +1,13 @@
+# BlackRabbitZ DNS Blocklists
+# Title: instagram updates
+# Description: Separately identified update/upgrade endpoints for this service.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: lists/service-blocking/social-media/instagram/block-all.txt
+# Risk: high
+# Data status: befuellt
+# Data method: service-updates-curated
+# Entries: 0
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#

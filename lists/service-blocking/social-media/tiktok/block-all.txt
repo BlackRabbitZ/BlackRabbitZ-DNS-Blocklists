@@ -1,0 +1,71 @@
+# BlackRabbitZ DNS Blocklists
+# Title: tiktok block all
+# Description: Functional service/API/login/CDN hosts plus privacy endpoints; service should be blocked.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: BRZ existing data + curated service roots
+# Risk: very high
+# Data status: befuellt
+# Data method: service-block-all-curated
+# Entries: 58
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+abtest-va-tiktok.byteoversea.com
+ads-api.tiktok.com
+ads-ie.tiktokw.eu
+ads-sg.tiktok.com
+ads-ttp2.tiktokw.eu
+ads.tiktok.com
+ads16-normal-useastred.tiktokw.eu
+analytics-sg.tiktok.com
+analytics-ttp2.us.tiktok.com
+analytics.tiktok.com
+analytics.us.tiktok.com
+api.tiktok.com
+business-api.tiktok.com
+bytedance.com
+byteoversea.com
+ib.tiktokv.com
+log-va.tiktokv.com
+log.byteoversea.com
+log.tiktokv.com
+log15.byteoversea.com
+log16-applog-useast5.us.tiktokv.com
+log16-normal-c-useast1a.tiktokv.com
+log16-normal-c-useast2a.tiktokv.com
+log16-normal-useast5.tiktokv.us
+m.tiktok.com
+maliva-mcs.byteoversea.com
+mcs-va.tiktok.com
+mcs-va.tiktokv.com
+mcs.us.tiktok.com
+mcs.us.tiktokv.com
+meteor.tiktok.com
+mon-va.byteoversea.com
+mon-va.tiktokv.com
+mon.byteoversea.com
+mon.tiktokv.com
+mon.us.tiktokv.com
+mon16-normal-useast5.tiktokv.us
+p15-tiktok-ads-us.tiktokcdn1.xyz
+p16-ad-sg.tiktokcdn.com
+p16-ad-site-sign-sg.tiktokcdn.com
+p16-tiktok-ads-sg.tiktokcdn1.xyz
+p17-tiktok-ads-us.tiktokcdn1.xyz
+p19-ad-site-sign-sg.tiktokcdn.com
+rtlog.byteoversea.com
+rtlog.tiktokv.com
+s20.tiktokcdn.com
+sgali-mcs.byteoversea.com
+tiktok-user-events.boloforms.com
+tiktok.com
+tiktokcdn.com
+tiktokv.com
+v16-ad.byteoversea.com
+verification-va.byteoversea.com
+www.tiktok.com
+xlog-va.byteoversea.com
+xlog-va.tiktokv.com
+xlog.byteoversea.com
+xlog.tiktokv.com

@@ -1,0 +1,31 @@
+# BlackRabbitZ DNS Blocklists
+# Title: github isolate
+# Description: Maximum known service communication; service/app is expected to stop working.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: lists/service-blocking/cloud-development/github/block-all.txt
+# Risk: very high
+# Data status: befuellt
+# Data method: service-isolate
+# Entries: 18
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+black-js.github.io
+blue-js.github.io
+collector.githubapp.com
+cyberalien.github.io
+drozdovvalerij0.github.io
+dynya-may.github.io
+googleads.github.io
+kireevairina959.github.io
+may-js.github.io
+mindmup.github.io
+one-jj.github.io
+prxio.github.io
+red-js.github.io
+superlogout.github.io
+telemetry.business.githubcopilot.com
+telemetry.enterprise.githubcopilot.com
+three-jj.github.io
+two-jj.github.io

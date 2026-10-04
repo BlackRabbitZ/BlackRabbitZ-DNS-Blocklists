@@ -1,0 +1,127 @@
+# BlackRabbitZ DNS Blocklists
+# Title: samsung restrict
+# Description: Privacy plus optional vendor/cloud/recommendation endpoints.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: lists/platforms/smart-tv/full/samsung.txt + BRZ manufacturer data
+# Risk: high
+# Data status: befuellt
+# Data method: device-restrict-curated
+# Entries: 114
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+ad-server.samsungads.com
+ad-tracker.samsungads.com
+ad.samsungadhub.com
+ads.samsung.com
+ads.samsungads.com
+analytics-api.samsunghealthcn.com
+analytics-dev-api.test.samsunghealth.com
+analytics-stg.samsungknox.com
+analytics.bigdata.samsung.com
+analytics.mpay.samsung.com
+analytics.samsungedo.com
+analytics.samsungknox.com
+api-analytics-qa.samsungknox.com
+api-analytics.samsungknox.com
+api-promo.samsungknowledge.com
+ehg-samsungusa.hitbox.com
+eumarketing.event-tracking.samsung.com
+europe.event-tracking.samsung.com
+event-tracking.samsung.com
+events.samsungads.com
+fast.samsung-benelux.demdex.net
+fast.samsung-france.demdex.net
+fast.samsung-germany.demdex.net
+fast.samsung-italy.demdex.net
+fast.samsung-mena.demdex.net
+fast.samsung-nordics.demdex.net
+fast.samsung-poland.demdex.net
+fast.samsung.demdex.net
+fast.samsungafrica.demdex.net
+fast.samsungau.demdex.net
+fast.samsungbrazil.demdex.net
+fast.samsungcanada.demdex.net
+fast.samsungcis.demdex.net
+fast.samsungelectronicsamericainc.demdex.net
+fast.samsungeverland.demdex.net
+fast.samsungindiaelectronics.demdex.net
+fast.samsungindonesia.demdex.net
+fast.samsunglatam.demdex.net
+fast.samsunglevant.demdex.net
+fast.samsunglife.demdex.net
+fast.samsungseao.demdex.net
+fast.samsungsec.demdex.net
+fast.samsungsingapore.demdex.net
+fast.samsungspain.demdex.net
+fast.samsungthailand.demdex.net
+fast.samsungturkey.demdex.net
+insight.samsunghealth.com
+insights.samsung.com
+log-1.samsungacr.com
+log-2.samsungacr.com
+log-3.samsungacr.com
+log-config.samsungacr.com
+log-ingestion-ap2.samsungacr.com
+log-ingestion-eu.samsungacr.com
+log-ingestion-kr.samsungacr.com
+log-ingestion-sa.samsungacr.com
+log-ingestion-v1-ap2.samsungacr.com
+log-ingestion-v2-ap2.samsungacr.com
+log-ingestion.samsungacr.com
+marketing.event-tracking.samsung.com
+metric.account-samsung.com
+metrics.samsunglife.com
+report.gras.samsungdm.com
+samsung-benelux.demdex.net
+samsung-france.demdex.net
+samsung-germany.demdex.net
+samsung-italy.demdex.net
+samsung-mena.demdex.net
+samsung-nordics.demdex.net
+samsung-poland.demdex.net
+samsung.demdex.net
+samsung.telemetry.eyeo.com
+samsungafrica.demdex.net
+samsungau.demdex.net
+samsungbrazil.demdex.net
+samsungcanada.demdex.net
+samsungcard.demdex.net
+samsungcis.demdex.net
+samsungelectronicsamericainc.demdex.net
+samsungeu.demdex.net
+samsungeucdm.demdex.net
+samsungeverland.demdex.net
+samsunghq.demdex.net
+samsungindiaelectronics.demdex.net
+samsungindonesia.demdex.net
+samsungjapan.demdex.net
+samsunglatam.demdex.net
+samsunglevant.demdex.net
+samsunglife.demdex.net
+samsungseao.demdex.net
+samsungsec.demdex.net
+samsungspain.demdex.net
+samsungthailand.demdex.net
+samsungturkey.demdex.net
+shealth-analytics-api.samsunghealth.com
+shealth-analytics-stg-api.samsunghealth.com
+tracking.americas.business.samsung.com
+tracking.apac.business.samsung.com
+tracking.europe.business.samsung.com
+tracking.mkt-email.samsungsds.com
+tracking.smartbusiness.samsung.com
+tvp-ads-log-staging.samsungads.com
+tvp-ads-log.samsungads.com
+tvp-interactive-ad.samsungads.com
+ureca.samsungapps.com.ad.mexnet.de
+us-report.gras.samsungdm.com
+us.event-tracking.samsung.com
+ww25.ad.samsungadhub.com
+zn8qwjgdslpyjq5n3-samsungcustomerboard.siteintercept.qualtrics.com
+zn9m5ff20weoqlslp-samsungeurope.siteintercept.qualtrics.com
+zn9xowqszdbqtbfwx-seasamsung.siteintercept.qualtrics.com
+znewylzpqds1jt1sh-samsunggdc.siteintercept.qualtrics.com
+znexudtrhw0nwrmga-seasamsung.siteintercept.qualtrics.com
+zneysvtqyfhzf6n4p-samsungeurope.siteintercept.qualtrics.com

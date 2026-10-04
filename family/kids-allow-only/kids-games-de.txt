@@ -1,0 +1,31 @@
+# BlackRabbitZ DNS Blocklists
+# Title: Kids Games DE
+# Description: Nur bewusst geprüfte, altersgerechte Spiele-Domains.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: BRZ Kinderschutz-Handbuch 30.09.2026; BRZ curated kids/learning games
+# Risk: niedrig
+# Data status: befuellt
+# Data method: manual-curated
+# Entries: 18
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+anton.app
+code.org
+fragfinn.de
+internet-abc.de
+kika.de
+learningapps.org
+mausspot.de
+schlaukopf.de
+scratch.mit.edu
+seitenstark.de
+studio.code.org
+www.anton.app
+www.fragfinn.de
+www.internet-abc.de
+www.kika.de
+www.mausspot.de
+www.schlaukopf.de
+www.seitenstark.de

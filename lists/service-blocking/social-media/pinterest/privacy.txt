@@ -1,0 +1,17 @@
+# BlackRabbitZ DNS Blocklists
+# Title: pinterest privacy
+# Description: Service tracking/analytics/telemetry; service should remain usable.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: lists/apps/social-media/full/pinterest.txt
+# Risk: medium
+# Data status: befuellt
+# Data method: service-privacy-curated
+# Entries: 4
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+ads-dev.pinterest.com
+ads.pinterest.com
+analytics.pinterest.com
+log.pinterest.com

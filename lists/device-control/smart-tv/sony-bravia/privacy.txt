@@ -1,0 +1,39 @@
+# BlackRabbitZ DNS Blocklists
+# Title: sony-bravia privacy
+# Description: Privacy/Tracking/Telemetry; core service should remain usable.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: lists/platforms/smart-tv/full/sony-bravia.txt + BRZ manufacturer data
+# Risk: medium
+# Data status: befuellt
+# Data method: device-privacy-curated
+# Entries: 26
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+analytics.ensonyan.com
+analytics.sonymusic.com
+ehg-sonybssc.hitbox.com
+ehg-sonycomputer.hitbox.com
+ehg-sonyelec.hitbox.com
+ehg-sonyesolutions.hitbox.com
+ehg-sonymusic.hitbox.com
+ehg-sonyny.hitbox.com
+fast.sony.demdex.net
+fast.sonyglobal.demdex.net
+metrics.helpguide.sony.net
+metrics.sony-asia.com
+metrics.sony.co.in
+metrics.sony.co.kr
+metrics.sony.co.uk
+metrics.sony.com
+metrics.sony.com.do
+metrics.sony.com.sg
+metrics.sony.com.tr
+metrics.sony.de
+metrics.sony.jp
+metrics.sony.lt
+metrics.sony.se
+metrics.sonymusicd2c.com
+sony.demdex.net
+sony.qualtrics.com

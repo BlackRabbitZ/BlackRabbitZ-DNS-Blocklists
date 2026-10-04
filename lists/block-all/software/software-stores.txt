@@ -1,0 +1,14 @@
+# BlackRabbitZ DNS Blocklists
+# List: lists/block-all/software/software-stores.txt
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; third-party sources: THIRD_PARTY.md
+# Data method: aggregate software package: software-stores
+# Entries: 7
+#
+api.snapcraft.io
+apps.microsoft.com
+displaycatalog.mp.microsoft.com
+dl.flathub.org
+flathub.org
+snapcraft.io
+storeedgefd.dsx.mp.microsoft.com

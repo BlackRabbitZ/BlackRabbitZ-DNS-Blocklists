@@ -1,0 +1,11 @@
+# BlackRabbitZ DNS Blocklists
+# List: lists/device-control/software-hardware/logitech/restrict.txt
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; third-party sources: THIRD_PARTY.md
+# Data method: fallback from BRZ lists/platforms/software-hardware-telemetry/full/logitech.txt
+# Entries: 4
+#
+webanalytics.logitech.com
+webanalytics.logitech.com.cn
+webanalytics.logitechg.com
+webanalytics.logitechg.com.cn

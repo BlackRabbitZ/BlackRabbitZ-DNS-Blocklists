@@ -1,0 +1,31 @@
+# BlackRabbitZ DNS Blocklists
+# Title: Huawei
+# Description: Huawei Netzwerkgeräte-Telemetrie
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: Aus vorhandenen BlackRabbitZ-/dokumentierten HaGeZi-Domains konservativ abgeleitet
+# Risk: variabel
+# Data status: abgeleitet
+# Data method: derived-keyword
+# Entries: 18
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+ads-drru.cloud.huawei.ru
+ads.cloud.huawei.com
+h4g3z1-native.huawei.web.app
+huawei.sc.omtrdc.net
+nsp-logservice-hiview-p01-drru.obs.ru-northwest-2.myhuaweicloud.ru
+nsp-logservice-hiview-p05-dra.obs.ap-southeast-3.myhuaweicloud.com
+nsp-logservice-hiview-p06-dra.obs.ap-southeast-3.myhuaweicloud.com
+nsp-logservice-hiview-p07-dra.obs.ap-southeast-3.myhuaweicloud.com
+nsp-logservice-hiview-p08-dra.obs.ap-southeast-3.myhuaweicloud.com
+nsp-logservice-hiview-p40-drcn.obs.cn-north-2.myhuaweicloud.com
+nsp-logservice-hiview-p41-drcn.obs.cn-north-2.myhuaweicloud.com
+nsp-logservice-hiview-p43-drcn.obs.cn-north-2.myhuaweicloud.com
+nsp-logservice-hiview-p50-drcn.obs.cn-north-2.myhuaweicloud.com
+nsp-logservice-weardevice-p42-drcn.obs.cn-north-2.myhuaweicloud.com
+nsp-logservice-weardevice-p51-drcn.obs.cn-north-2.myhuaweicloud.com
+r39-g003-h8ig0w-u8f0we8-fgw0rgf-0we880e-rhgth.obs.ap-southeast-2.myhuaweicloud.com
+rnd-cbgpas01.huawei.com
+uba.huaweicloud.com

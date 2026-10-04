@@ -1,0 +1,20 @@
+# BlackRabbitZ DNS Blocklists
+# Title: Essential
+# Description: Essenzielle Domains
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: BlackRabbitZ manuell; BRZ conservative essential endpoints
+# Risk: niedrig
+# Data status: befuellt
+# Data method: manual-curated
+# Entries: 7
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+accounts.google.com
+acme-v02.api.letsencrypt.org
+appleid.apple.com
+challenges.cloudflare.com
+crl3.digicert.com
+login.microsoftonline.com
+ocsp.digicert.com

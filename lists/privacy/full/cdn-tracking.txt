@@ -1,0 +1,32 @@
+# BlackRabbitZ DNS Blocklists
+# Title: CDN Tracking
+# Description: Tracking-/Analytics-/Marketing-CDNs
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: Aus vorhandenen BlackRabbitZ-/dokumentierten HaGeZi-Domains konservativ abgeleitet
+# Risk: variabel
+# Data status: abgeleitet
+# Data method: derived-keyword
+# Entries: 19
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+ad-cdn.bilgin.pro
+ad-cdn.technoratimedia.com
+analytics-cdn.avatrade.io
+analytics-cdn.elperiodico.com
+analytics-cdn.epe.es
+analytics-cdn.fashionphile.com
+analytics-cdn.friendly.is
+analytics-cdn.junilearning.com
+analytics-cdn.lahaus.com
+analytics-cdn.prensaiberica.es
+analytics-cdn.prezly.com
+analytics-cdn.redbubble.com
+analytics-cdn.sport.es
+analytics-cdn.tigerhall.com
+analytics-cdn.tool.dog
+analytics-cdn.xmaxdata.com
+data.ppn-ad-cdn.populis.com
+hsanalytics-cdn.com
+hsanalytics-cdn.net

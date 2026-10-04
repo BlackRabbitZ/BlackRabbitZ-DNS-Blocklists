@@ -1,0 +1,44 @@
+# BlackRabbitZ DNS Blocklists
+# Title: Spam Infrastructure
+# Description: Konservativer statischer Basissatz aus Wegwerfmail-/Spam-Infrastruktur.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: BRZ disposable-email + curated spam seed
+# Risk: mittel
+# Data method: curated-union
+# Entries: 32
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+10minutemail.com
+10minutemail.net
+dispostable.com
+emailondeck.com
+fakeinbox.com
+getnada.com
+grr.la
+guerrillamail.biz
+guerrillamail.com
+guerrillamail.de
+guerrillamail.info
+guerrillamailblock.com
+mailcatch.com
+maildrop.cc
+mailinator.com
+mailnesia.com
+mintemail.com
+mohmal.com
+mytemp.email
+sharklasers.com
+spam4.me
+spambog.com
+spamgourmet.com
+temp-mail.io
+temp-mail.org
+tempmail.com
+throwawaymail.com
+trashmail.com
+trashmail.net
+yopmail.com
+yopmail.fr
+yopmail.net

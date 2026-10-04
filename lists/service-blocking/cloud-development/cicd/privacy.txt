@@ -1,0 +1,7 @@
+# BlackRabbitZ DNS Blocklists
+# List: lists/service-blocking/cloud-development/cicd/privacy.txt
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; third-party sources: THIRD_PARTY.md
+# Data method: BRZ CI/CD telemetry dataset
+# Entries: 0
+#

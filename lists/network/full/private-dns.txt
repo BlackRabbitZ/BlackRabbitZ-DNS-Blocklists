@@ -1,0 +1,114 @@
+# BlackRabbitZ DNS Blocklists
+# Title: Private DNS
+# Description: Verschlüsselte DNS-Endpunkte (DoH/DoT) aus BRZ-Daten.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: Union BRZ DoH + DoT
+# Risk: hoch
+# Data method: union
+# Entries: 102
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+001dot.com
+a.fedot.site
+acadot.com
+adadot.com
+adfu.slashdot.org
+ads.rpgdot.com
+adsdot.ph
+adv.dot.wp.pl
+adx-dot.a.mobimagic.com
+analytics.sdot.me
+analytics.slamdot.com
+apisa.polkadot.cloud
+apisa.polkadot.network
+banners.dot.tk
+base.filedot.xyz
+blackdot.co.zm
+cdn.pardot.com
+cdn.vidsdot.com
+compiwik.sdot.me
+connecthedot.com
+daydot.agency
+demotesperidot.shop
+dit-dit-dot.com
+dot.a.mobimagic.com
+dot.discovery.org
+dot.eporner.com
+dot.idot.cz
+dot.wp.pl
+dsp.thebreathedot.com
+e-dot.hut1.ru
+embedded-preview.pardot.force.com
+embedded.pardot.com
+embedded.pardot.force.com
+engine.vidsdot.com
+flixdot.com
+form-cdn.pardot.com
+funny-dot.pro
+geo.bluedot.io
+globalconfig.bluedot.io
+glowdot.com
+go.demo.pardot.com
+go.pardot.com
+go.pardot.delzelle.be
+greendot.pxf.io
+greendot.tt.omtrdc.net
+hphyzdfdoh.com
+idot.cz
+images-aud.slashdot.org
+infantile-dot.pro
+info.dodot.com
+insignificantdot.com
+keydot.net
+load.ss.sugardoh.co
+log.nordot.jp
+mainstats.dynadot.com
+matomo.dotdot.my
+metrics.greendot.com
+mgdot.snagtights.com
+ns1.dynadot.com
+ns2.dynadot.com
+paltrydot.pro
+pardot.atosmedical.se
+pardot.com
+pardot.ecu.edu
+pardot.pensexpert.de
+pardot.tampuuri.fi
+pardot.tayagroups.com
+pardot.vyexample.com
+pardot.withintelligence.com
+parkcloud.dynadot.com
+pg.dodot.com
+pi.pardot.com
+plausible.godot.foundation
+powerful-dot.com
+preview.pardot.com
+proxy.ladot.com
+quilladot.org
+r.sending.enlazadot.com
+reddot.com.kh
+sc.polkadot.com
+server.margotbardot.com
+server03new.dot.at
+smetrics.greendot.com
+smetrics.yourdot.com
+smetrics.yourdot.net
+ss.sugardoh.co
+stats.dynadot.com
+stats.yeardot.co.uk
+test.pardot.securian.com
+thetabdot.com
+tracker.thinkindot.com
+tracking.adsdot.co.kr
+tubedot.ru
+txdot.d1.sc.omtrdc.net
+txdot.tt.omtrdc.net
+us1-sdk.bluedot.io
+waredot.com
+we-are-adot.com
+www.pardot.securian.com
+www.pg.dodot.com
+www2.pardot.com
+xanax-online.dot.de

@@ -1,0 +1,10 @@
+# Globale projektweite Allowlist - eine Domain pro Zeile
+# Entries: 4
+# Data status: befuellt
+# Data method: manual-curated
+# Sources: BRZ conservative core allowlist seeds
+#
+accounts.google.com
+appleid.apple.com
+challenges.cloudflare.com
+login.microsoftonline.com

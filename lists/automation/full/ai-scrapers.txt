@@ -1,0 +1,16 @@
+# BlackRabbitZ DNS Blocklists
+# Title: AI Scrapers
+# Description: AI Scrapers-Endpunkte; DNS-seitig, kein Ersatz für WAF/robots.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: Aus vorhandenem statischem BlackRabbitZ-/HaGeZi-dokumentiertem Datenbestand konservativ abgeleitet
+# Risk: hoch
+# Data status: abgeleitet
+# Data method: derived-keyword
+# Entries: 3
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+bidscraper.com
+foolishmenskyscraper.com
+skyscrapertowel.com

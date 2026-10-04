@@ -1,0 +1,17 @@
+# BlackRabbitZ DNS Blocklists
+# Title: playstation privacy
+# Description: Service tracking/analytics/telemetry; service should remain usable.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: lists/apps/gaming/full/playstation.txt
+# Risk: medium
+# Data status: befuellt
+# Data method: service-privacy-curated
+# Entries: 4
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+a.ad.playstation.net
+metrics.us.playstation.com
+telemetry-web.api.playstation.com
+telemetry.api.playstation.com

@@ -1,0 +1,79 @@
+# BlackRabbitZ DNS Blocklists
+# Title: DNS, Netzwerk & Umgehung Pro
+# Description: Pro-Stufe für DNS, Netzwerk & Umgehung; kumulativ.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: BlackRabbitZ Network-Katalog; Pi-hole Query-Log Review 2026-10-03
+# Risk: Niedrig–Mittel
+# Data status: befuellt
+# Data method: generated-tier
+# Entries: 66
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+ad.proxy.sh
+ads.megaproxy.com
+ads.rpgdot.com
+advertiser.cyberghostvpn.com
+analytics-proxy.springboard.com
+analytics.ambitvpn.com
+analytics.astrovpn.co
+analytics.proxy.mycryptoapi.com
+analytics.sdot.me
+analytics.slamdot.com
+analytics.urban-vpn.com
+click-haproxy.supersonicads.com
+corpvpn.coremetrics.com
+dataproxy.heapanalytics.com
+fvpn.propellerads.com
+greendot.tt.omtrdc.net
+load.mktg-data-proxy.realmanage.com
+load.ss.sugardoh.co
+log.nordot.jp
+logging-proxy-ca-production-170512-af60esna.uc.gateway.dev
+mainstats.dynadot.com
+mask-api.icloud.com
+mask.icloud.com
+metrics-gen2.openvpn.net
+metrics.greendot.com
+proxy.softonicads.com
+proxy.teads.tv
+smetrics.greendot.com
+smetrics.yourdot.com
+smetrics.yourdot.net
+stats.azirevpn.com
+stats.dynadot.com
+stats.ivpn.net
+stats.openvpn.net
+stats.urban-vpn.com
+stats.yeardot.co.uk
+td-click-haproxy.supersonicads.com
+track-my-vpn.com
+track.ultravpn.com
+tracker-proxy.furk.net
+tracker.thinkindot.com
+tracking.adsdot.co.kr
+tracking.goatvpn.com
+txdot.d1.sc.omtrdc.net
+txdot.tt.omtrdc.net
+web-analytics-proxy.obrio.net
+wxcizyrwkud.proxy.teads.tv
+x4a72ybjx74.f3fd2.proxy.teads.tv
+xgznad58v7i.proxy.teads.tv
+xjp511xjbae.proxy.teads.tv
+xjp5j63qr3y.proxy.teads.tv
+xjp5z39fuic.proxy.teads.tv
+xjp9v797vza.proxy.teads.tv
+xltusxmsiwm.proxy.teads.tv
+xnurqg2bwwm.proxy.teads.tv
+xqbo6ncmq9v.proxy.teads.tv
+xtwzukfknhx.proxy.teads.tv
+xwrtizo5tu8.proxy.teads.tv
+xyrsmmsqbxu.proxy.teads.tv
+y49rcyl4dna.proxy.teads.tv
+y4cmjbn4maf.proxy.teads.tv
+y96mjq5nfiv.proxy.teads.tv
+y9s2cjy9s69.proxy.teads.tv
+yauc11mqs7i.proxy.teads.tv
+ybp1iubesch.proxy.teads.tv
+ydrdl825d4r.proxy.teads.tv

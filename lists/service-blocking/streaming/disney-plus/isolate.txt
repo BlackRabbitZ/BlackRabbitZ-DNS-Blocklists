@@ -1,0 +1,22 @@
+# BlackRabbitZ DNS Blocklists
+# Title: disney-plus isolate
+# Description: Maximum known service communication; service/app is expected to stop working.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: lists/service-blocking/streaming/disney-plus/block-all.txt
+# Risk: very high
+# Data status: befuellt
+# Data method: service-isolate
+# Entries: 9
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+analytics.disneyplus.com
+bamgrid.com
+disneyplus.com
+dssott.com
+em.disneyplus.com
+sanalytics.disneyplus.com
+smetrics-stg.help.disneyplus.com
+smetrics.help.disneyplus.com
+www.disneyplus.com

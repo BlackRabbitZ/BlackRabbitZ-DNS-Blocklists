@@ -1,0 +1,66 @@
+# BlackRabbitZ DNS Blocklists
+# Title: Vivo
+# Description: Vivo Tracking-/Telemetrie-Endpunkte
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: Aus vorhandenen BlackRabbitZ-/dokumentierten HaGeZi-Domains konservativ abgeleitet
+# Risk: variabel
+# Data status: abgeleitet
+# Data method: derived-keyword
+# Entries: 53
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+adlog.vivo.com.cn
+adreq.vivo.com.cn
+ads-marketing-vivofs.vivo.com.cn
+adsdk.vivo.com.cn
+adsstatic.vivo.com.cn
+adxlog.vivo.com.cn
+asia-analyzer-appstore.vivoglobal.com
+asia-comonrt-stsdk.vivoglobal.com
+asia-comort-stsdk.vivoglobal.com
+asia-ex-adlog.vivoglobal.com
+asia-exstsdk.vivoglobal.com
+asia-monitor-stsdk.vivoglobal.com
+asia-onrt-stsdk.vivoglobal.com
+asia-ort-stsdk.vivoglobal.com
+asia-pnrt-stsdk.vivoglobal.com
+asia-prt-stsdk.vivoglobal.com
+asia-stsdk-cname.vivoglobal.com.vivoglobal.com
+asia-stsdk.vivoglobal.com
+bronrt.stsdk.vivo.com.cn
+brort.stsdk.vivo.com.cn
+brpnrt.stsdk.vivo.com.cn
+brprt.stsdk.vivo.com.cn
+hpvivo.com
+load.rise.premiosaovivo.com
+monitor-stsdk.vivo.com.cn
+monitor-stsdk.vivoglobal.com
+onrt-stsdk.vivo.com.cn
+onrt-stsdk.vivoglobal.com
+onrt.stsdk.vivo.com.cn
+onrt.stsdk.vivoglobal.com
+ort-stsdk.vivo.com.cn
+ort-stsdk.vivoglobal.com
+ort.stsdk.vivo.com.cn
+pnrt-stsdk.vivo.com.cn
+pnrt-stsdk.vivoglobal.com
+pnrt.stsdk.vivo.com.cn
+prt-stsdk.vivo.com.cn
+prt-stsdk.vivoglobal.com
+prt.stsdk.vivo.com.cn
+rise.premiosaovivo.com
+ru-onrt-stsdk.vivoglobal.com
+ss.sonidoenvivo.com
+stnetsdk.appstore.vivo.com.cn
+stnetsdk.vivo.com.cn
+stsdk.vivo.com.cn
+stsdk.vivoglobal.com
+tr-domaincfg.vivoglobal.com
+tr-romsp-unifyconfig.vivoglobal.com
+tr-st-sl.vivoglobal.com
+tr-timesync.vivoglobal.com
+tr-vcode-api.vivoglobal.com
+tr-vcode-od.vivoglobal.com
+vcardsdkservice.vivo.com.cn

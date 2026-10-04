@@ -1,0 +1,29 @@
+# BlackRabbitZ DNS Blocklists
+# Title: linkedin isolate
+# Description: Maximum known service communication; service/app is expected to stop working.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: lists/service-blocking/social-media/linkedin/block-all.txt
+# Risk: very high
+# Data status: befuellt
+# Data method: service-isolate
+# Entries: 16
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+ads.linkedin.com
+analytics.linkedin.com
+analytics.pointdrive.linkedin.com
+ap-southeast-1.dc.ads.linkedin.com
+api.linkedin.com
+dc.ads.linkedin.com
+licdn.com
+linkedin.com
+media-akam.licdn.com
+platform.linkedin.com
+px.ads.linkedin.com
+rtb-trk4.linkedin.com
+snap.licdn.com
+us-east-1.dc.ads.linkedin.com
+us-east-1.profile-api.ads.linkedin.com
+www.linkedin.com

@@ -1,0 +1,10 @@
+# BlackRabbitZ DNS Blocklists
+# List: lists/gaming/platforms/battlenet-privacy.txt
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; third-party sources: THIRD_PARTY.md
+# Data method: derived from current BRZ snapshot
+# Entries: 3
+#
+ads.blizzard.com
+telemetry-in.battle.net
+telemetry.battle.net

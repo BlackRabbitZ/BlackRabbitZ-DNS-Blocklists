@@ -1,0 +1,21 @@
+# BlackRabbitZ DNS Blocklists
+# Title: linkedin privacy
+# Description: Service tracking/analytics/telemetry; service should remain usable.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: lists/apps/social-media/full/linkedin.txt
+# Risk: medium
+# Data status: befuellt
+# Data method: service-privacy-curated
+# Entries: 8
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+ads.linkedin.com
+analytics.linkedin.com
+analytics.pointdrive.linkedin.com
+ap-southeast-1.dc.ads.linkedin.com
+dc.ads.linkedin.com
+px.ads.linkedin.com
+us-east-1.dc.ads.linkedin.com
+us-east-1.profile-api.ads.linkedin.com

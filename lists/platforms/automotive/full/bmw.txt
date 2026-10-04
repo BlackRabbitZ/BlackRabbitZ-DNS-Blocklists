@@ -1,0 +1,63 @@
+# BlackRabbitZ DNS Blocklists
+# Title: BMW ConnectedDrive
+# Description: BMW-/ConnectedDrive-Endpunkte
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: Aus vorhandenen BlackRabbitZ-/dokumentierten HaGeZi-Domains konservativ abgeleitet
+# Risk: variabel
+# Data status: abgeleitet
+# Data method: derived-keyword
+# Entries: 50
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+analytics.bmw-club-augsburg.de
+analytics.metafox.bmw.com
+analytics.metafox.bmw.rs
+aryufuxbmwnb.com
+axwtbmwfxmqyq.com
+bmwaeghntpfdb.online
+bmwag.tt.omtrdc.net
+bmwforum.co
+bmwfr.demdex.net
+bmwmn.loveonlline.com
+bmwmoter.122.2o7.net
+bmwna.co1.qualtrics.com
+bmwocmqtpi.com
+bmwofnorthamericallc.tt.omtrdc.net
+diodxcszlbmwk.cloudfront.net
+fast.bmwag.demdex.net
+fast.bmwfr.demdex.net
+fast.bmwuk.demdex.net
+hgbmwkklwittcdkjapnpeikxojivfhgszbxmrjfrvajzhzhuks.com
+ibmwqchwzvlmd.online
+innovation.demaasschebmw.nl
+innovation.oostlandbmw.nl
+innovation.storybmw.nl
+iufbmwczokffc.click
+jnmbmw.romanceinair.com
+kbmwlbwwwp.com
+kmtubsbmwdep.com
+ksgycaobmweja.com
+load.innovation.demaasschebmw.nl
+load.innovation.oostlandbmw.nl
+load.innovation.storybmw.nl
+load.innovation.vanhooffbmw.nl
+load.innovation.vanlaarhovenbmw.nl
+manaljojbmw.com
+matomo.bmw-boerse.at
+mbmwfufkaxll.com
+nbmww.treasurewaitlng.net
+openx.bmwpower-bg.net
+qwlmacbmwmtum.online
+stats.bmw.de
+stats.meinbmw.de
+tbmwhcyfapzjre.com
+tracking-api.bmw.com
+unokbmwdciyw.com
+vewpwrqebmwu.com
+waxbmw.swetlovedating.com
+wbmwss.beetv.net
+wzlgmbmwq.bid
+yvwkhmpgqbmw.com
+yzreywobobmw.com

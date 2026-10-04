@@ -1,0 +1,13 @@
+# BlackRabbitZ DNS Blocklists
+# Title: dazn restrict
+# Description: Privacy plus optional advertising/recommendation/marketing endpoints; core service should remain usable.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: lists/service-blocking/streaming/dazn/block-all.txt
+# Risk: high
+# Data status: befuellt
+# Data method: service-restrict-curated
+# Entries: 0
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#

@@ -1,0 +1,84 @@
+# BlackRabbitZ DNS Blocklists
+# Title: ISP / Provider Pro
+# Description: Pro-Stufe für ISP / Provider; kumulativ.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: BlackRabbitZ statischer Datenbestand
+# Risk: Niedrig–Mittel
+# Data status: befüllt
+# Data method: generated-tier
+# Entries: 71
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+1und1internetag.d3.sc.omtrdc.net
+a.ads.t-online.de
+ads.t-online.de
+ads.vorsicht-online.de
+adserver.ht-online.es
+adserver.telekom.de
+analytics.1und1.de
+analytics.brand-dialog.telekom.com
+analytics.playit-online.de
+analytics.vodafone.co.uk
+analytics.vodafone.com.au
+fast.telefonicauklimited.demdex.net
+fast.vodafonealbania.demdex.net
+fast.vodafonecz.demdex.net
+fast.vodafonegr.demdex.net
+fast.vodafonein.demdex.net
+fast.vodafoneit.demdex.net
+fast.vodafoneturkey.demdex.net
+fast.vodafoneuk.demdex.net
+hubert-online.ch.102.112.2o7.net
+metric.vodafone.hu
+metrics.vodafone.co.uk
+metrics.vodafone.com.gh
+metrics.vodafone.es
+metrics.vodafone.hu
+metrics.vodafone.in
+metrics.vodafone.qa
+metrics.vodafone.ro
+scmetrics.vodafone.it
+scsmetrics.vodafone.it
+smetrics.unitymediabusiness.de
+smetrics.vodafone.al
+smetrics.vodafone.co.nz
+smetrics.vodafone.co.uk
+smetrics.vodafone.com.gh
+smetrics.vodafone.com.tr
+smetrics.vodafone.es
+smetrics.vodafone.gr
+smetrics.vodafone.in
+smetrics.vodafone.qa
+smetrics.vodafone.ro
+smetrics.vodafonecu.gr
+statistics.freinet-online.de
+statistik.co2online.de
+statistik.zeitgeist-online.de
+stats.drillisch-online.de
+telefonica.eu.qualtrics.com
+telefonicaespana.tt.omtrdc.net
+telefonicauk.d3.sc.omtrdc.net
+telefonicauklimited.demdex.net
+telefonicauklimited.tt.omtrdc.net
+track.o2online.de
+tracking.levelup.telekom.com
+vodafone.eu.qualtrics.com
+vodafonealbania.demdex.net
+vodafonees.d2.sc.omtrdc.net
+vodafonegroup.122.2o7.net
+vodafonein.demdex.net
+vodafonein.sc.omtrdc.net
+vodafoneindia.tt.omtrdc.net
+vodafoneit.sc.omtrdc.net
+vodafoneitaly.tt.omtrdc.net
+vodafonenz.122.2o7.net
+vodafoneromania.demdex.net
+vodafonetr.sc.omtrdc.net
+vodafoneturkey.tt.omtrdc.net
+vodafoneuk.tt.omtrdc.net
+web-track.telekom-dienste.de
+webstat.vodafone.com
+webstatistics.telefonica.de
+zn3xi980gfnkbpimj-vodafone.siteintercept.qualtrics.com

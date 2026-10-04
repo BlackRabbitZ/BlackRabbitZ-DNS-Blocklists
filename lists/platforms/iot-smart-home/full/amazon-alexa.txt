@@ -1,0 +1,24 @@
+# BlackRabbitZ DNS Blocklists
+# Title: Amazon / Alexa Full
+# Description: Vollstaendige im IoT-/Smart-Home-Datenbestand erkannte Amazon / Alexa-Eintraege.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; siehe THIRD_PARTY.md fuer Drittquellen
+# Sources: BlackRabbitZ IoT-Datenbestand
+# Risk: hoch
+# Entries: 12
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+# Generated: ja
+#
+aax-eu.amazon-adsystem.com
+data.alexa.com
+device-messaging-na.amazon.com
+device-metrics-us-2.amazon.com
+device-metrics-us.amazon.com
+devicemessaging.us-east-1.amazon.com
+fls-eu.amazon.com
+fls-na.amazon.com
+mads-eu.amazon.com
+mas-sdk.amazon.com
+notify.firetv.bugsnag.appstore.a2z.com
+unagi-na.amazon.com

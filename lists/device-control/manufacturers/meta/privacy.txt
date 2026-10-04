@@ -1,0 +1,25 @@
+# BlackRabbitZ DNS Blocklists
+# Title: meta privacy
+# Description: Manufacturer privacy/tracking/telemetry endpoints.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: lists/manufacturers/meta.txt
+# Risk: medium
+# Data status: befuellt
+# Data method: device-privacy-curated
+# Entries: 12
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+ads.ak.facebook.com.edgesuite.net
+ads.facebook.com
+ads.findfacebookwoman.com
+analytics.facebook.com
+analytics.instagram.com
+analytics.whatsapp.com
+facebook.co1.qualtrics.com
+marketing.threadsol.com
+pixel.facebook.com
+s-threads.analytics.carbonite.com
+tracking.whatsappbgr.com
+tracking.whatsapplp.com

@@ -1,0 +1,50 @@
+# BlackRabbitZ DNS Blocklists
+# Title: Sprachassistenten Pro
+# Description: Pro-Stufe für Sprachassistenten; kumulativ.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: BlackRabbitZ statischer Datenbestand
+# Risk: Niedrig–Mittel
+# Data status: befüllt
+# Data method: generated-tier
+# Entries: 37
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+ad.sirian.dumedia.ru
+ads.alexander-walz.de
+alexa.propellerads.com
+alexajstrack.com
+alexametrics.com
+alexander-advertising.co.uk
+alexatracker.com
+analytics.alexandredemello.com.br
+analytics.osirius.de
+analytics.stephenalexander.us
+atrk.alexametrics.com
+capig.siriusmarketing.com.br
+certify-amp.alexametrics.com
+certify-js.alexametrics.com
+certify-stage.alexametrics.com
+certify.alexametrics.com
+fast.alexani.demdex.net
+js.alexametrics.com
+load.gtm.alexandar-cosmetics.com
+load.stape.alexandreroth.com
+metric.alexandani.com
+metrics-target.siriusxm.com
+metrics.alexandani.com
+metrics.siriusxm.ca
+osiristrading.112.2o7.net
+pixel.alexametrics.com
+smetrics.alexalbon.com
+smetrics.alexandani.com
+smetrics.siriusxm.ca
+smetrics.siriusxm.com
+stats.alexandar.me
+stats.alexander-fischer.org
+stats.alexandrins.fr
+stats.champagne-xavier-alexandre.com
+stats.siriusag.com
+track.alexandrie-email.fr
+vn.alexajstrack.com

@@ -1,0 +1,62 @@
+# BlackRabbitZ DNS Blocklists
+# Title: DNS, Netzwerk & Umgehung Normal
+# Description: Normal-Stufe für DNS, Netzwerk & Umgehung; kumulativ.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: BlackRabbitZ Network-Katalog
+# Risk: Niedrig
+# Data status: befüllt
+# Data method: generated-tier
+# Entries: 49
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+ad.proxy.sh
+ads.megaproxy.com
+ads.rpgdot.com
+advertiser.cyberghostvpn.com
+analytics-proxy.springboard.com
+analytics.ambitvpn.com
+analytics.astrovpn.co
+analytics.proxy.mycryptoapi.com
+analytics.sdot.me
+analytics.slamdot.com
+analytics.urban-vpn.com
+click-haproxy.supersonicads.com
+dataproxy.heapanalytics.com
+fvpn.propellerads.com
+greendot.tt.omtrdc.net
+load.mktg-data-proxy.realmanage.com
+load.ss.sugardoh.co
+proxy.softonicads.com
+proxy.teads.tv
+td-click-haproxy.supersonicads.com
+track-my-vpn.com
+track.ultravpn.com
+tracker-proxy.furk.net
+tracker.thinkindot.com
+tracking.adsdot.co.kr
+tracking.goatvpn.com
+txdot.d1.sc.omtrdc.net
+txdot.tt.omtrdc.net
+web-analytics-proxy.obrio.net
+wxcizyrwkud.proxy.teads.tv
+x4a72ybjx74.f3fd2.proxy.teads.tv
+xgznad58v7i.proxy.teads.tv
+xjp511xjbae.proxy.teads.tv
+xjp5j63qr3y.proxy.teads.tv
+xjp5z39fuic.proxy.teads.tv
+xjp9v797vza.proxy.teads.tv
+xltusxmsiwm.proxy.teads.tv
+xnurqg2bwwm.proxy.teads.tv
+xqbo6ncmq9v.proxy.teads.tv
+xtwzukfknhx.proxy.teads.tv
+xwrtizo5tu8.proxy.teads.tv
+xyrsmmsqbxu.proxy.teads.tv
+y49rcyl4dna.proxy.teads.tv
+y4cmjbn4maf.proxy.teads.tv
+y96mjq5nfiv.proxy.teads.tv
+y9s2cjy9s69.proxy.teads.tv
+yauc11mqs7i.proxy.teads.tv
+ybp1iubesch.proxy.teads.tv
+ydrdl825d4r.proxy.teads.tv

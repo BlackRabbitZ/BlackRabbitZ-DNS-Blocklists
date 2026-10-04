@@ -1,0 +1,51 @@
+# BlackRabbitZ DNS Blocklists
+# Title: adobe restrict
+# Description: Privacy plus optional vendor/cloud services.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: lists/manufacturers/adobe.txt
+# Risk: high
+# Data status: befuellt
+# Data method: device-restrict-curated
+# Entries: 38
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+acds-events.adobe.io
+adobe-analytics-dc.amlc.eu
+adobe-analytics-dc.amlc.nl
+adobe-analytics-dc.belastingdienst.nl
+adobe-analytics-dc.fiod.nl
+adobe-analytics.vionicshoes.com
+adobe-campaign.com
+adobe-metrics.nsbank.com
+adobe-metrics.vectrabank.com
+adobe-metrics.zionsbank.com
+adobe-metrics.zipmortgagefinancing.com
+adobe-sync.dotomi.com
+adobe.co1.qualtrics.com
+adobe.demdex.net
+adobe.sync.go.sonobi.com
+adobedc.demdex.net
+aviancaadobe.demdex.net
+campaign.adobe.com
+data.testadobe.vegait.news
+data.wundermanww-marketing.adobesandbox.com
+ehg-adobe1p.hitbox.com
+fast.adobe.demdex.net
+hz-telemetry-next.adobe.io
+hz-telemetry.adobe.io
+mcd-mkt-prod31-lb.campaign.adobe.com
+metrics-dev.adobeprimetime.com
+metrics-stage.adobeprimetime.com
+metrics.adobe.almanacrealty.com
+metrics.adobe.com
+metrics.adobe.nb.com
+metrics.adobe.nbprivateequitypartners.com
+metrics.adobe.nbprivatewealth.com
+pandoramedia-mkt-prod1-t.campaign.adobe.com
+pandoramedia.campaign.adobe.com
+recommendations-sdk.adobe.io
+southwest-airlines-mkt-prod1-lb.campaign.adobe.com
+wdpro-mkt-prod2-lb.campaign.adobe.com
+web.wundermanww-marketing.adobesandbox.com

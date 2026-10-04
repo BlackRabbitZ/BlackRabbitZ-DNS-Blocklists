@@ -1,0 +1,56 @@
+# BlackRabbitZ DNS Blocklists
+# Title: Torrents
+# Description: Torrents-Domains als statischer Family-Filter. 
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: The Block List Project torrent list (MIT), curated static snapshot
+# Risk: hoch
+# Data method: upstream-curated-snapshot
+# Entries: 44
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+0.arenabg.com
+00-torrnets.com
+0day.ro
+0second.com
+123bits.org
+1337x.org
+1337x.to
+1337x.unblocked.llc
+1bt.ru
+2.tracker.eu.org
+2bbit.com
+2ddl.unblocked.llc
+3.tracker.eu.org
+45rpmtorrents.com
+7track.org
+9.rarbg.com
+9.rarbg.me
+9.rarbg.to
+a-bt.ath.cx
+abtorrents.com
+academic-p2p.appspot.com
+acetorrents.net
+acg.rip
+afterdawn.com
+ahashare.com
+alfascene.net
+allotracker.com
+alphaomega.me
+amazone-tracker.net
+angel-torrents.info
+anidex.moe
+anime-bt.com
+anime-hq.org
+anime-kraze.org
+anime-legion.net
+anime5stars.org
+animebyt.es
+animeindex.net
+animesuki.com
+animetorrents.com
+animetracker.ath.cx
+anirena.com
+apnaview.unblocked.llc
+apptracker.org

@@ -1,0 +1,18 @@
+# BlackRabbitZ DNS Blocklists
+# Title: epic restrict
+# Description: Privacy plus optional vendor/cloud services.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: lists/manufacturers/epic.txt
+# Risk: high
+# Data status: befuellt
+# Data method: device-restrict-curated
+# Entries: 5
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+datarouter-prod.ak.epicgames.com
+datarouter.ol.epicgames.com
+metric-public-service-prod.ol.epicgames.com
+metrics.ol.epicgames.com
+tracking.epicgames.com

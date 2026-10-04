@@ -1,0 +1,25 @@
+# BlackRabbitZ DNS Blocklists
+# Title: huawei restrict
+# Description: Privacy plus optional vendor/cloud/recommendation endpoints.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: lists/platforms/network-devices/full/huawei.txt + BRZ manufacturer data
+# Risk: high
+# Data status: befuellt
+# Data method: device-restrict-curated
+# Entries: 12
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+ads-drru.cloud.huawei.ru
+ads.cloud.huawei.com
+events-dra-op-hicloud-com-dra.appacc-region.dbankedge.cn
+events-dra-op-hicloud-com-dra.appacc.dbankedge.cn
+events-dra-op-hicloud-com-dra.edge.dbankedge.cn
+events-dra.op.hicloud.com
+events-dre-op-hicloud-com-dre.appacc.dbankedge.cn
+events-dre.op.hicloud.com
+metrics-dra.dt.hicloud.com
+metrics-drcn.dt.hicloud.com
+metrics.data.hicloud.com
+metrics.dt.hicloud.com

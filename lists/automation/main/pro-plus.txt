@@ -1,0 +1,63 @@
+# BlackRabbitZ DNS Blocklists
+# Title: KI, Bots & Crawler Pro++
+# Description: Kumulative Stufe für KI/Bots/Crawler.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: BlackRabbitZ Automations-Katalog; Pi-hole Query-Log Review 2026-10-03
+# Risk: Mittel
+# Data status: befuellt
+# Data method: generated-tier
+# Entries: 50
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+ab.chatgpt.com
+ads.americanfootballmonthly.com
+ads.crawler.com
+ads.footballmedia.com
+ads.shiift.blockgemini.net
+adserver.clubcrawlers.com
+affilicrawler.de
+analytics.callmewhatever.com
+analytics.claudegex.ch
+analytics.ext.go-tellm.com
+analytics.hallmark.com
+analytics.linuxgemini.space
+analytics.openaire.eu
+analytics.ruthtillman.com
+analytics.skillme.de
+analytics.spidersmartsystem.com
+badbot-api-production-gateway-cvkfp9ey.uc.gateway.dev
+bellmetric.net
+bidscraper.com
+chillmobi.offerstrack.net
+clauderobotics.com
+crawler-dev.algolia.com
+crawler.algolia.com
+crawler.hiido.com
+foolishmenskyscraper.com
+geminiadvertising.in
+load.gtm.bangersopenair.com
+load.gtm.hillmalaya.com.hk
+load.gtm.hillmandeutschland.de
+load.has-ticket.amsterdamopenair.nl
+load.ss.wallmountworld.com
+load.st.wellmaxx-bodyforming.com
+mi4crawler.pandora.xiaomi.com
+msxml.webcrawler.com
+om.metacrawler.com
+om.webcrawler.com
+piwik.matrixcrawler.net
+sanalytics.hallmark.com
+secure-leadback.callme.db.advertising.com
+skyscrapertowel.com
+smetrics.allwellmedicare.com
+spiderads.eu
+telemetry.business.githubcopilot.com
+telemetry.enterprise.githubcopilot.com
+tm-enrollment-telemetry-datacore.trafficmanager.net
+track.cromwellmediareports.com
+track.pricespider.com
+track.stellmacher.name
+tracking.spiderbait.com
+umami.odcrawler.xyz

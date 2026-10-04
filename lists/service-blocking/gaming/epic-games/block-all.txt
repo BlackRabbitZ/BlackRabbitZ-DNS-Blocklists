@@ -1,0 +1,24 @@
+# BlackRabbitZ DNS Blocklists
+# Title: epic-games block all
+# Description: Functional service/API/login/CDN hosts plus privacy endpoints; service should be blocked.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: BRZ existing data + curated service roots
+# Risk: very high
+# Data status: befuellt
+# Data method: service-block-all
+# Entries: 11
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+datarouter-prod.ak.epicgames.com
+datarouter.ol.epicgames.com
+epicgames.com
+etsource.epicgames.com
+fortnite.com
+link.epicgames.com
+metric-public-service-prod.ol.epicgames.com
+metrics.ol.epicgames.com
+statsproxy-public-service-live.ol.epicgames.com
+tracking.epicgames.com
+unrealengine.com

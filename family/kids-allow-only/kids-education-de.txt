@@ -1,0 +1,30 @@
+# BlackRabbitZ DNS Blocklists
+# Title: Kids Education DE
+# Description: Lernen, Schule, Mathematik, MINT, Geschichte und Medienkompetenz.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: BRZ Kinderschutz-Handbuch 30.09.2026
+# Risk: niedrig
+# Data status: befüllt
+# Data method: manual-curated
+# Entries: 17
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+abenteuer-regenwald.de
+coollama.de
+hanisauland.de
+internet-abc.de
+kinderzeitmaschine.de
+klassewasser.de
+legakids.net
+meine-forscherwelt.de
+naturdetektive.bfn.de
+www.abenteuer-regenwald.de
+www.coollama.de
+www.hanisauland.de
+www.internet-abc.de
+www.kinderzeitmaschine.de
+www.klassewasser.de
+www.legakids.net
+www.meine-forscherwelt.de

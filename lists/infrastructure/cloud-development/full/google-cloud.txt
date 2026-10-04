@@ -1,0 +1,15 @@
+# BlackRabbitZ DNS Blocklists
+# Title: Google Cloud
+# Description: Google-Cloud Tracking/Telemetry
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: Aus vorhandenen BlackRabbitZ-/dokumentierten HaGeZi-Domains konservativ abgeleitet
+# Risk: variabel
+# Data status: abgeleitet
+# Data method: curated-privacy
+# Entries: 2
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+bluestacks-cloud-appplayer-logs.storage.googleapis.com
+feedback-pa.googleapis.com

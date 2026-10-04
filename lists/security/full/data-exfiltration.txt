@@ -1,0 +1,26 @@
+# BlackRabbitZ DNS Blocklists
+# Title: Data Exfiltration
+# Description: Data Exfiltration: Kategorie vollständig vorbereitet; der aktuelle statische Quellstand enthält keine belastbare per-Domain-Klassifizierung für diese Spezialklasse.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: PDF-Sollkatalog; BlackRabbitZ statischer Snapshot; NAV cplt documented exfiltration services
+# Risk: hoch
+# Data status: befuellt
+# Data method: curated-static-import
+# Entries: 13
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+0x0.st
+catbox.moe
+file.io
+hastebin.com
+localtunnel.me
+ngrok.io
+paste.ee
+pastebin.com
+pipedream.com
+requestbin.com
+serveo.net
+transfer.sh
+webhook.site

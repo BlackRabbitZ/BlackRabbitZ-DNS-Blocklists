@@ -1,0 +1,18 @@
+# BlackRabbitZ DNS Blocklists
+# Title: rockstar block all
+# Description: Functional service/API/login/CDN hosts plus privacy endpoints; service should be blocked.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: BRZ existing data + curated service roots
+# Risk: very high
+# Data status: befuellt
+# Data method: service-block-all
+# Entries: 5
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+cert.telemetry.ros.rockstargames.com
+prod-locator-cloud.rockstargames.com
+prod.telemetry.ros.rockstargames.com
+rockstargames.com
+socialclub.rockstargames.com

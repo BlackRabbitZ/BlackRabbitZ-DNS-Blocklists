@@ -1,0 +1,14 @@
+# BlackRabbitZ DNS Blocklists
+# Title: EA / Origin
+# Description: EA / Origin-bezogene Ads-/Tracking-/Telemetrie-Endpunkte
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: Aus vorhandenen BlackRabbitZ-/dokumentierten HaGeZi-Domains konservativ abgeleitet; Pi-hole Query-Log Review 2026-10-03
+# Risk: variabel
+# Data status: befuellt
+# Data method: curated-privacy
+# Entries: 1
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+reports.tools.gos.ea.com

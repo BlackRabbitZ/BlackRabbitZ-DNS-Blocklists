@@ -1,0 +1,11 @@
+# BlackRabbitZ DNS Blocklists
+# List: lists/device-control/vivo/restrict.txt
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; third-party sources: THIRD_PARTY.md
+# Data method: mapped from detailed BRZ device-control sources
+# Entries: 4
+#
+ads-marketing-vivofs.vivo.com.cn
+asia-monitor-stsdk.vivoglobal.com
+monitor-stsdk.vivo.com.cn
+monitor-stsdk.vivoglobal.com

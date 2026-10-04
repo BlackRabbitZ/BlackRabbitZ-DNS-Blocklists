@@ -1,0 +1,29 @@
+# BlackRabbitZ DNS Blocklists
+# Title: Sprachassistenten Normal
+# Description: Normal-Stufe für Sprachassistenten; kumulativ.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: BlackRabbitZ statischer Datenbestand
+# Risk: Niedrig
+# Data status: befüllt
+# Data method: generated-tier
+# Entries: 16
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+ad.sirian.dumedia.ru
+ads.alexander-walz.de
+alexa.propellerads.com
+alexajstrack.com
+alexander-advertising.co.uk
+alexatracker.com
+analytics.alexandredemello.com.br
+analytics.osirius.de
+analytics.stephenalexander.us
+capig.siriusmarketing.com.br
+fast.alexani.demdex.net
+load.gtm.alexandar-cosmetics.com
+load.stape.alexandreroth.com
+osiristrading.112.2o7.net
+track.alexandrie-email.fr
+vn.alexajstrack.com

@@ -1,0 +1,17 @@
+# BlackRabbitZ DNS Blocklists
+# Title: AMD Telemetry
+# Description: AMD-bezogene Telemetrie-/Marketing-Endpunkte aus BRZ-Manufacturer-Daten.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: BRZ manufacturers/amd.txt; Pi-hole Query-Log Review 2026-10-03
+# Risk: mittel
+# Data method: vendor-inheritance
+# Entries: 5
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+a.amd.com
+explore.amd.com
+kqzamd.com
+metrics.amd.com
+pbnamd.com

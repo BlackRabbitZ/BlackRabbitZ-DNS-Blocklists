@@ -1,0 +1,31 @@
+# BlackRabbitZ DNS Blocklists
+# Title: TikTok
+# Description: TikTok Tracking/Fingerprinting
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: Aus vorhandenen BlackRabbitZ-/dokumentierten HaGeZi-Domains konservativ abgeleitet
+# Risk: variabel
+# Data status: abgeleitet
+# Data method: curated-privacy
+# Entries: 18
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+ads-api.tiktok.com
+ads-ie.tiktokw.eu
+ads-sg.tiktok.com
+ads-ttp2.tiktokw.eu
+ads.tiktok.com
+analytics-sg.tiktok.com
+analytics-ttp2.us.tiktok.com
+analytics.tiktok.com
+analytics.us.tiktok.com
+log-va.tiktokv.com
+log.tiktokv.com
+p15-tiktok-ads-us.tiktokcdn1.xyz
+p16-ad-sg.tiktokcdn.com
+p16-ad-site-sign-sg.tiktokcdn.com
+p16-tiktok-ads-sg.tiktokcdn1.xyz
+p17-tiktok-ads-us.tiktokcdn1.xyz
+p19-ad-site-sign-sg.tiktokcdn.com
+tiktok-user-events.boloforms.com

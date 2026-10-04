@@ -1,0 +1,62 @@
+# BlackRabbitZ DNS Blocklists
+# Title: Chat / Support Tracking
+# Description: Chat-Widget-/Support-Analytics
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: Aus vorhandenen BlackRabbitZ-/dokumentierten HaGeZi-Domains konservativ abgeleitet
+# Risk: variabel
+# Data status: abgeleitet
+# Data method: derived-keyword
+# Entries: 49
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+accelifyhelp.zendesk.com
+adriftventilatormeatloaf.com
+analytics.intercom.it
+analytics.zendesk.com
+api-ping.intercom.io
+api.intercom.io
+beaver.livechatlabs.com
+bedrift.kry.no
+bitdrift.io
+capi.dynamicbdintercom.com
+cattle.driftbot.io
+certify.zendesk.com
+cgzudintercom.review
+chat2.livechatinc.com
+driftingchef.com
+driftpizza.com
+driftstreams.com
+engagenysupport.zendesk.com
+engineering.intercom.io
+info.drift-photo.com
+intercom-assets.wootric.com
+intercom-clicks.com
+intercom.io
+intercomm01.backtrace.io
+leadvisualdesigner.intercom.io
+livechat-metrics.messagebird.com
+livechat.pic5678.com
+load.sst.driftinteriors.co.uk
+muster-sandbox.intercom.io
+nullsadrifttoy.com
+orientation.internal.intercom.io
+popcornmetrics.zendesk.com
+proximity.zendesk.com
+shebudriftaiter.net
+ss.getdriftdesk.com
+sst.driftinteriors.co.uk
+statistikk.idrift.no
+status.intercom.io
+tokyodrift.ga
+track.stardriftflux.com
+via.intercom.io
+w.intercom.io
+woody.intercom.io
+www.cgzudintercom.review
+www.intercom.io
+www.tokyodrift.ga
+yerbalist.driftgarden.com
+yoloo-official.zendesk.com
+zendesk-staging.optimizely.com

@@ -1,0 +1,27 @@
+# BlackRabbitZ DNS Blocklists
+# Title: Social Media Light
+# Description: Light-Stufe für Social Media; kumulativ.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: BlackRabbitZ statischer Datenbestand
+# Risk: Minimal
+# Data status: befüllt
+# Data method: generated-tier
+# Entries: 14
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+ads.ak.facebook.com.edgesuite.net
+ads.facebook.com
+ads.linkedin.com
+ads.tiktok.com
+ads.twitter.center
+ads.twitter.com
+advertising.twitter.com
+ap-southeast-1.dc.ads.linkedin.com
+dc.ads.linkedin.com
+p16-ad-sg.tiktokcdn.com
+p16-ad-site-sign-sg.tiktokcdn.com
+p19-ad-site-sign-sg.tiktokcdn.com
+px.ads.linkedin.com
+us-east-1.dc.ads.linkedin.com

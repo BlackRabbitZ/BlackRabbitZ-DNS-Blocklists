@@ -1,0 +1,15 @@
+# BlackRabbitZ DNS Blocklists
+# Title: mobile-games privacy
+# Description: Service tracking/analytics/telemetry; service should remain usable.
+# Repository: https://github.com/BlackRabbitZ/BlackRabbitZ-DNS-Blocklists
+# License: GPL-3.0-only; Drittquellen siehe THIRD_PARTY.md
+# Sources: lists/apps/gaming/full/mobile-games.txt; Pi-hole Query-Log Review 2026-10-03
+# Risk: medium
+# Data status: befuellt
+# Data method: service-privacy-curated
+# Entries: 2
+# Format: Plain domains, eine Domain pro Zeile
+# Build model: Single file; keine Part-/MiB-Aufteilung
+#
+ads-sdk-gateway.prd.mz.internal.unity3d.com
+analytics-ios-tcp.rayjump.com
